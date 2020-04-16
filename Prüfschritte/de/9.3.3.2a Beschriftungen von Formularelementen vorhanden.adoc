@@ -1,0 +1,128 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel9.2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung9.2.4.4a Aussagekräftige Linktexte9.2.4.5a Alternative Zugangswege9.2.4.6a Aussagekräftige Überschriften und Beschriftungen9.2.4.7a Aktuelle Position des Fokus deutlich9.2.5.1a Alternativen für komplexe Zeiger-Gesten9.2.5.2a Zeigergesten-Eingaben können abgebrochen oder widerrufen werden9.2.5.3a Sichtbare Beschriftung Teil des zugänglichen Namens9.2.5.4a Alternativen für Bewegungsaktivierung9.3.1.1a Hauptsprache angegeben9.3.1.2a Anderssprachige Wörter und Abschnitte ausgezeichnet9.3.2.1a Keine unerwartete Kontextänderung bei Fokus9.3.2.2a Keine unerwartete Kontextänderung bei Eingabe9.3.2.3a Konsistente Navigation9.3.2.4a Konsistente Bezeichnung9.3.3.1a Fehlererkennung9.3.3.2a Beschriftungen von Formularelementen vorhanden
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=81[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+link:/index.php?a=di&iid=61[bis 10.07.2017] | Aktuell
+
+BITV-Bedingung
+
+3.3.2 Beschriftungen
+
+WCAG-Erfolgskriterium
+
+3.3.2 Beschriftungen (Labels) oder Anweisungen
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Beschriftungen von Formularfeldern stehen vor den Eingabefeldern.
+
+Prüfschritt nicht anwendbar
+
+Formularfelder sind nicht vorhanden.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Beschriftungen von Formularelementen sind vorhanden.
+
+Die Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld angeordnet werden. Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
+
+Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die Anweisungen für alle Benutzer lesbar.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche Eingaben erwartet werden und Fehler können vermieden werden.
+
+Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entspricht den üblichen Gestaltungskonventionen. Auch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche Beschriftung zu welchem Feld gehört.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+* Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
+
+=== 2. Prüfung
+
+Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufen.
+
+==== 2.1. Sind Beschriftungen vorhanden ?
+
+* [#H44]####[#G197]####[#G13]####Sind alle Formularelemente beschriftet?
+* [#H90]####Sind Pflichtfelder in `label`- oder `legend`-Elementen klar angezeigt? Wenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, muss deren Bedeutung am Beginn des Formulars erklärt sein.
+* [#G184]####[#G89]####Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses vor dem Eingabefeld klar beschrieben? (Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
+
+==== 2.2. Sind Beschriftungen richtig positioniert?
+
+. Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
+. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
+
+=== 3. Hinweise
+
+* [#G108]####[#H65]####[#F82]####[#F86]####Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehen.
+* [#G167]####Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut oder ein verstecktes Label haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt. Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt weren.
+* Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
+
+=== 4. Bewertung
+
+==== Nicht erfüllt:
+
+* Wichtige Formularelemente (z.B. die Sucheingabe) sind ohne Beschriftung, auch angrenzende Elemente erklären nicht die Funktion.
+
+==== Nicht voll erfüllt:
+
+* Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guidelines
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.]
+
+==== Success criteria
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#labels-or-instructions[3.3.2 Labels or Instructions] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G13.html[G13: Describing what will happen before a change to a form control that causes a change of context to occur is made]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G89.html[G89: Providing expected data format and example]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing descriptive labels]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G162.html[G162: Positioning labels to maximize predictability of relationships]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G184.html[G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H44.html[H44: Using label elements to associate text labels with form controls]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H65.html[H65: Using the title attribute to identify form controls when the label element cannot be used]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H71.html[H71: Providing a description for groups of form controls using fieldset and legend elements]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H90.html[H90: Indicating required form controls using label or legend]
+
+===== ARIA Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1[ARIA1: Using the aria-describedby property to provide a descriptive label for user interface controls]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9[ARIA9: Using aria-labelledby to concatenate a label from several text nodes]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17.html[ARIA17: Using grouping roles to identify related form controls]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F82.html[F82: Failure of Success Criterion 3.3.2 by visually formatting a set of phone number fields but not including a text label]

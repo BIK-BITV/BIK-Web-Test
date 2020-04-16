@@ -1,0 +1,108 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=75[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+link:/index.php?a=di&iid=31[bis 10.07.2017] | Aktuell
+
+BITV-Bedingung
+
+1.3.1 Informationen und Beziehungen
+
+WCAG-Erfolgskriterium
+
+1.3.1 Info und Beziehungen
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Als eigenständige Abschnitte gefasste Zitate sind mit `blockquote` ausgezeichnet.
+
+Prüfschritt nicht anwendbar
+
+Als eigenständige Abschnitte gefasste Zitate sind nicht vorhanden.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Zur Auszeichnung von Zitaten, die als eigenständige Textabschnitte gefasst sind, soll das dafür vorgesehene HTML-Strukturelement `blockquote` genutzt werden.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt und zugänglich ist.
+
+Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht oder sie können eine eigene, besser passende Präsentation anwenden.
+
+Mögliche Anwendungen des Strukturelements `blockquote`:
+
+* Das Zitat überspringen, im folgenden Text weiterlesen (Tastaturbenutzer)
+* Zitate anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Seite eigenständige Abschnitte enthält, die als Zitate verstanden werden können oder wenn die Seite Elemente enthält, die als Zitate ausgezeichnet worden sind.
+
+=== 2. Prüfung
+
+. Die Seite im Firefox aufrufen.
+. Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind.
+. Im Firefox in über F12 die _Web Developer Tools_ öffen und im Bereich _Inspector_ im Suchfeld nach `blockquote` suchen.
+. Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
+
+=== 3. Hinweise
+
+Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenständige Abschnitte gefasst sind) mit dem vorgesehenen HTML-Strukturelement `q` ausgezeichnet sind. In Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit normalen Anführungszeichen gering. Zudem gibt es technische Probleme: Der Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit Anführungszeichen. Man müsste also zusätzlich Anführungszeichen setzen, was aber in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen würde.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Als eigenständige Abschnitte gefasste Zitate sind durchgängig mit `blockquote` ausgezeichnet.
+
+==== Nicht voll erfüllt:
+
+* Auf der Seite sind als eigenständige Abschnitte gefasste Zitate vorhanden, es ist jedoch keines mit `blockquote` ausgezeichnet.
+* `blockquote` wird lediglich zu Formatierungszwecken eingestzt (etwa Einrückung).
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guidelines
+
+* https://www.w3.org/TR/WCAG21/#adaptable[Guideline 1.3 Adaptable: Create content that can be presented in different ways (for example simpler layout) without losing information or structure]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#info-and-relationships[1.3.1 Info and Relationships] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[G115: Using semantic elements to mark up structure]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating information and structure from presentation to enable different presentations]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H49.html[H49: Using semantic markup to mark emphasized or special text]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[F92: Failure of Success Criterion 1.3.1 due to the use of role presentation on content which conveys semantic information]

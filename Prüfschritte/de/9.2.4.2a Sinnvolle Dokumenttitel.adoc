@@ -1,0 +1,122 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=55[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+Aktuell
+
+BITV-Bedingung
+
+2.4.2 Webseiten-Titel
+
+WCAG-Erfolgskriterium
+
+2.4.2 Seite mit Titel versehen
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Dokumenttitel sind eindeutig, sie bezeichnen Site und Seiteninhalt.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie können für die Unterscheidung und Auswahl von Seiten genutzt werden.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit Bookmarks. Sie sind wichtig für die Navigation und Orientierung in Webangeboten. Wenn das Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung beeinträchtigt.
+
+Typographische Schmuckelemente werden Screenreader-Nutzern unter Umständen vorgelesen und stören dadurch.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== [#G88]####[#G127]####[#H25]####[#F25]####2. Prüfung
+
+Dokumenttitel in der Browserleiste ansehen. Bezeichnet der Titel die Website und den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von Seiten geeignet?
+
+Falls Seiten Frames haben:
+
+* Einzelne Frames in neuem Tab oder Fenster öffnen.
+* Dokumenttitel in der Browserleiste ansehen. Haben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames kennzeichnen?
+
+=== 3. Hinweis
+
+Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergeben. Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Der Dokumenttitel enthält zwei Bestandteile: eine immer gleiche, allgemeine Bezeichnung des Webauftritts und eine unterscheidende, individuelle Bezeichnung der jeweiligen Seite.
+
+==== Nicht voll erfüllt:
+
+* Die allgemeine Bezeichnung des Webauftritts fehlt.
+* Frame-Seiten haben keine sinnvollen Dokumenttitel.
+* [#H86]####Dokumenttitel enthalten typographischen Schmuck (etwa ++++, ~~~~, ====)
+
+==== Eher nicht erfüllt:
+
+* Die individuelle Bezeichnung der jeweiligen Seite fehlt.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=241#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are]
+
+==== Success criteria
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=241#page-titled[2.4.2 Page Titled: Web pages have titles that describe topic or purpose.] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G88.html[G88: Providing descriptive titles for Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G127.html[G127: Identifying a Web page's relationship to a larger collection of Web pages]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H25.html[H25: Providing a title using the title element]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H86.html[H86: Providing text alternatives for ASCII art, emoticons, and leetspeak]
+
+==== Failure
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F25.html[F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents]
+
+== [#quellen]####Quellen
+
+=== Bedeutung von Dokumenttiteln nach WCAG 2.1
+
+____
+*Specific Benefits of Success Criterion 2.4.2:*
+
+* This criterion benefits all users in allowing users to quickly and easily identify whether the information contained in the Web page is relevant to their needs.
+* People with visual disabilities will benefit from being able to differentiate content when multiple Web pages are open.
+* People with cognitive disabilities, limited short-term memory and reading disabilities also benefit from the ability to identify content by its title.
+* This criterion also benefits people with severe mobility impairments whose mode of operation relies on audio when navigating between Web pages.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html[Page Titled: Understanding SC 2.4.2]

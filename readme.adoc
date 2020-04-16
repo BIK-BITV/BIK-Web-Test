@@ -1,0 +1,14 @@
+= README
+DIAS GmbH <info@dias.de>
+2020-04-16
+:lang: de
+
+In diesem Projekt werden Prüfschritte für die Barrierefreiheit von Webseiten
+entwickelt.
+
+Die zugrunde liegenden Kriterien richten sich nach den W3C
+https://www.w3.org/TR/WCAG21/[Web Content Accessibility Guidelines (WCAG) 2.1]
+und der EU Norm 301 549.
+
+* link:Prüfschritte/de/[Zu den Prüfschritten]
+

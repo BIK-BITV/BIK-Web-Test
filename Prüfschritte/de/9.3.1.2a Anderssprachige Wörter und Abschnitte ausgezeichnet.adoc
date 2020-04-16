@@ -1,0 +1,112 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel9.2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung9.2.4.4a Aussagekräftige Linktexte9.2.4.5a Alternative Zugangswege9.2.4.6a Aussagekräftige Überschriften und Beschriftungen9.2.4.7a Aktuelle Position des Fokus deutlich9.2.5.1a Alternativen für komplexe Zeiger-Gesten9.2.5.2a Zeigergesten-Eingaben können abgebrochen oder widerrufen werden9.2.5.3a Sichtbare Beschriftung Teil des zugänglichen Namens9.2.5.4a Alternativen für Bewegungsaktivierung9.3.1.1a Hauptsprache angegeben9.3.1.2a Anderssprachige Wörter und Abschnitte ausgezeichnet
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=93[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+link:/index.php?a=di&iid=24[bis 10.07.2017] | Aktuell
+
+BITV-Bedingung
+
+3.1.2 Sprache einzelner Abschnitte
+
+WCAG-Erfolgskriterium
+
+3.1.2 Sprache von Teilen
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Anderssprachige Wörter und Abschnitte sind mit dem `lang`-Attribut ausgezeichnet.
+
+Prüfschritt nicht anwendbar
+
+Anderssprachige Wörter und Abschnitte sind nicht vorhanden.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache vorkommen, müssen diese mithilfe des `lang`-Attributs ausgezeichnet werden.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, zu welcher Sprache ein Text gehört, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Seite Wörter, ganze Sätze, Absätze oder andere größere Abschnitte in einer anderen Sprache enthält.
+
+=== [#H58]####2. Prüfung
+
+. Seite im Firefox aufrufen.
+. Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Lang bookmarklet] aufrufen.
+. Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind (siehe Hinweise).
+
+=== 3.Hinweise
+
+* Keinen praktischen Nutzen hat die Auszeichnung von Wörtern, die ohne Auszeichnung üblicherweise nicht anders ausgesprochen werden. Sie müssen nicht ausgezeichnet werden. Beispiele für solche Wörter: Web, Link, Top, Enter, Helpdesk.
+* Ebenfalls nicht ausgezeichnet werden sollten "gemischte" Wörter. Beispiele für solche Wörter: Webauftritt, Checkpunkt.
+* Einzelne fremdsprachige Wörter müssen ausgezeichnet werden, wenn sie keinen Eingang in den deutschen Sprachgebrauch gefunden haben. Wörter, die im aktuellen "Deutschen Universalwörterbuch" des Duden-Verlags aufgenommen sind, müssen nicht ausgezeichnet werden. Die Online-Duden-Suche unter http://www.duden.de/suchen erlaubt leider keine Differenzierung mehr, in welchem Duden-Wörterbuch Einträge gefunden wurden. Sie kann also allenfalls unterstützend herangezogen werden.
+* Die Wortlisten von Screenreadern sollten auch geläufige Fremdwörter enthalten. Dies ist jedoch nicht durchgängig der Fall, auch geläufige Fremdwörter werden ohne Auszeichnung falsch ausgesprochen. Daher macht ihre Auszeichnung Sinn, auch wenn sie nicht gefordert wird. Beispiele für geläufige Fremdwörter, die ausgezeichnet werden können: Copyright, Website, Site, Homepage.
+
+=== 4. Bewertung
+
+=== Erfüllt:
+
+* Anderssprachige Wörter und Abschnitte sind durchgängig ausgezeichnet. Wenn einzelne anderssprachige Wörter "vergessen" worden sind, soll das nicht negativ bewertet werden. Sie sollten aber zu mindestens 90% ausgezeichnet sein
+
+=== Nicht erfüllt:
+
+* Weniger als 50 % der anderssprachigen Wörter sind ausgezeichnet.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+* Prüfschritt link:/index.php?a=di&iid=92&s=n[3.1.1a] "Hauptsprache angegeben"
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text content readable and understandable]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#language-of-parts[3.1.2 Language of Parts] (Level AA)
+
+==== Techniques
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H58.html[H58: Using language attributes to identify changes in the human language]
+
+== [#quellen]####Quellen
+
+=== Wichtigkeit der Sprachauszeichnung nach WCAG 2.1
+
+____
+Identifying changes in language is important for a number of reasons:
+
+* It allows braille translation software to follow changes in language, e.g., substitute control codes for accented characters, and insert control codes necessary to prevent erroneous creation of Grade 2 braille contractions.
+* Speech synthesizers that support multiple languages will be able to speak the text in the appropriate accent with proper pronunciation. If changes are not marked, the synthesizer will try its best to speak the words in the default language it works in. Thus, the French word for car, "voiture" would be pronounced "voyture" by a speech synthesizer that uses English as its default language.
+* Marking changes in language can benefit future developments in technology, for example users who are unable to translate between languages themselves will be able to use machines to translate unfamiliar languages.
+* Marking changes in language can also assist user agents in providing definitions using a dictionary.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html[Language of Parts: Understanding SC 3.1.2]

@@ -1,0 +1,92 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel9.2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung9.2.4.4a Aussagekräftige Linktexte9.2.4.5a Alternative Zugangswege9.2.4.6a Aussagekräftige Überschriften und Beschriftungen9.2.4.7a Aktuelle Position des Fokus deutlich9.2.5.1a Alternativen für komplexe Zeiger-Gesten9.2.5.2a Zeigergesten-Eingaben können abgebrochen oder widerrufen werden9.2.5.3a Sichtbare Beschriftung Teil des zugänglichen Namens9.2.5.4a Alternativen für Bewegungsaktivierung9.3.1.1a Hauptsprache angegeben9.3.1.2a Anderssprachige Wörter und Abschnitte ausgezeichnet9.3.2.1a Keine unerwartete Kontextänderung bei Fokus9.3.2.2a Keine unerwartete Kontextänderung bei Eingabe9.3.2.3a Konsistente Navigation9.3.2.4a Konsistente Bezeichnung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=98[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+Aktuell
+
+BITV-Bedingung
+
+3.2.4 Einheitliche Bezeichnung
+
+WCAG-Erfolgskriterium
+
+3.2.4 Konsistente Erkennung
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
+
+Bezieht sich auf
+
+gesamten Webauftritt
+
+Prüfschritt erfüllt
+
+Navigationsmechanismen und Funktionen sind einheitlich benannt.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Navigationsmechanismen und Funktionen, die innerhalb eines Webauftritts wiederholt eingesetzt werden, sollen einheitlich bezeichnet sein.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Klare und durchgängig verwendete Bezeichnungen für die Navigation und sich wiederholende Funktionen erleichtern Benutzern das Verständnis der Inhalte des Angebots. Gesuchtes wird leichter gefunden, Zusammenhänge sind einfacher zu erkennen.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar
+
+=== 2. Prüfung
+
+==== 2.1 Sind Navigation und sich wiederholende Funktionen einheitlich bezeichnet?
+
+* Ausgehend von der Startseite verschiedene Bereiche des Webangebots aufsuchen.
+* [#G197]####Prüfen, ob Navigationsmechanismen, Menüeinträge und sich wiederholende Funktionen in verschiedenen Bereichen des Webauftritts [#G131]####aussagekräftig und [#F31]####einheitlich benannt sind.
+* Orientieren sich die (oft kürzeren) Menüeinträge an den Überschriften der Zielseiten?
+* [#H70]####Falls das Angebot Framesets zur Gliederung der Inhaltsbereiche benutzt: Mit der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[Web Developer Toolbar] auf verschiedenen Seiten mit der Funktion _Outline > Outline Frames_ gefolgt von _Information > Display Element Information_ und dann einem Klick mit dem Cursor-Fadenkreuz auf den Rahmen der Frames prüfen, ob Frames mit gleichen Inhalten (etwa Navigationsmenü) immer an der gleichen Stelle im `frameset` eingebunden sind.
+
+=== 3. Bewertung
+
+Bewertung als nicht oder teilweise erfüllt immer erläutern!
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+* Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsmechanismen durchgängig einheitliche Bezeichnungen verwendet werden, wird in Prüfschritt 3.2.3a "Konstistente Navigation" dagegen geprüft, ob die Navigationsmechanismen und Menüeinträge in verschiedenen Bereichen des Webauftritts durchgängig einheitlich angeordnet sind.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Make Web pages appear and operate in predictable ways.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#consistent-identification[3.2.4 Consistent Identification] (Level AA)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing descriptive labels]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html[G197: Using labels, names, and text alternatives consistently for content that has the same functionality]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H70.html[H70: Using frame elements to group blocks of repeated material]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F31.html[F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages]

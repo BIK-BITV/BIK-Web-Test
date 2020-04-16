@@ -1,0 +1,152 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel9.2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung9.2.4.4a Aussagekräftige Linktexte9.2.4.5a Alternative Zugangswege9.2.4.6a Aussagekräftige Überschriften und Beschriftungen9.2.4.7a Aktuelle Position des Fokus deutlich9.2.5.1a Alternativen für komplexe Zeiger-Gesten9.2.5.2a Zeigergesten-Eingaben können abgebrochen oder widerrufen werden9.2.5.3a Sichtbare Beschriftung Teil des zugänglichen Namens9.2.5.4a Alternativen für Bewegungsaktivierung9.3.1.1a Hauptsprache angegeben9.3.1.2a Anderssprachige Wörter und Abschnitte ausgezeichnet9.3.2.1a Keine unerwartete Kontextänderung bei Fokus9.3.2.2a Keine unerwartete Kontextänderung bei Eingabe9.3.2.3a Konsistente Navigation9.3.2.4a Konsistente Bezeichnung9.3.3.1a Fehlererkennung9.3.3.2a Beschriftungen von Formularelementen vorhanden9.3.3.3a Hilfe bei Fehlern9.3.3.4a Fehlervermeidung wird unterstützt9.4.1.1a Korrekte Syntax
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=99[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+link:/index.php?a=di&iid=27[bis 10.07.2017] | Aktuell
+
+BITV-Bedingung
+
+4.1.1 Syntaxanalyse
+
+WCAG-Erfolgskriterium
+
+4.1.1 Syntaxanalyse
+
+Bewertungsalternativen
+
+ja / nein
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Das Prüfergebnis des W3C-HTML-Validators ist positiv.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werden. Dabei muss für jedes Element folgendes gewährleistet sein:
+
+* Sie besitzen vollständige Start- und Endtags,
+* sie sind gemäß Spezifikation korrekt verschachtelt
+* sie enthalten keine doppelten Attribute
+* alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Eine saubere HTML-Syntax vereinfacht Browsern oder Screenreadern den Umgang mit der Seite.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts:
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2. Prüfung mit dem W3C-Validator
+
+. Seite im Chrome-Browser aufrufen.
+. Bookmarklet "https://validator.w3.org/nu/about.html#extras[Check serialized DOM of current page]" nutzen, um die Validität des geparsten Quelltextes im https://validator.w3.org/[W3C-Validator] zu prüfen.
+. Falls das Bookmarklet nicht funktioniert, im Validator also nichts angezeigt wird, den DOM-Code kopieren und direkt im W3C Validator im Tab 'Validate by direct Input' eingeben (hier muss ggf. eine nicht mitkopierte DOCTYPE Erklärung der Seite zu Beginn eingefügt werden, z.B. bei HTML5 die Zeile <!DOCTYPE html>).
+. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[WCAG parsing only Bookmarklet] die Fehler filtern.
+. Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind. Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als Fehler.
+
+=== 3. Hinweise
+
+* Die in HTML5 vorgesehenen validen Custom-Attribute nutzen das Format data-*, zum Beispiel `data-platznummer="44"`. Manche Scripting Frameworks nutzen eigene Formate. Angular.js etwa nutzt das Format ng-*. Trotz fehlender Validität sind solche Custom-Attribute grundsätzlich kein Barrierefreiheits-Problem, solange sie semantisch korrekt (also z.B. mit korrekt öffnenden und schließenden Anführungszeichen) eingesetzt sind. Browser ignorieren Attribute, die nicht zugeordnet werden können.
+* Wenn die Prüfung aufgrund einer fehlenden `doctype`-Definition nicht ausgeführt werden kann, dann validiert die Seite nicht, der Prüfschritt ist dann nicht bestanden. Der `doctype` soll nicht manuell eingetragen werden!
+* In diesem Prüfschritt wird das vom Browser nach Auswertung von Scripten generierte DOM geprüft, nicht der Seitenquelltext vor Interpretation im Browser.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Das Prüfergebnis des W3C-HTML-Validators ist nach Anwendung des WCAG parsing only Bookmarklet ist positiv. Falls noch Fehler (Errors) auftauchen, sind diese auf den semantisch korrekten Einsatz von Custom-Attributen zurückzuführen.
+
+==== Nicht erfüllt:
+
+* Das Prüfergebnis des W3C-HTML-Validators ist auch nach Anwendung des WCAG parsing only Bookmarklet negativ, es gibt Errors (und nicht nur wegen Custom-Attributen).
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#parsing[4.1.1 Parsing] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G134.html[G134: Validating Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G192.html[G192: Fully conforming to specifications]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H74.html[H74: Ensuring that opening and closing tags are used according to specification]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H75.html[H75: Ensuring that Web pages are well-formed]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H88.html[H88: Using HTML according to spec]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H93.html[H93: Ensuring that `id` attributes are unique on a Web page]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F70.html[F70: Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F77.html[F77: Failure of Success Criterion 4.1.1 due to duplicate values of type ID]
+
+== [#quellen]####Quellen
+
+=== Bedeutung von validem HTML
+
+____
+Ensuring that Web pages have complete start and end tags and are nested according to specification helps ensure that assistive technologies can parse the content accurately and without crashing.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/parsing.html[Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1]
+
+____
+Validation will usually eliminate ambiguities (and more) because an essential step in validation is to check for proper use of that technology's markup (in a markup language) or code (in other technologies). Validation does not necessarily check for full conformance with a specification but it is the best means for automatically checking content against its specification.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1 Technik G134: Validating web pages]
+
+____
+*Why should I care if my document is in correct HTML? It displays all right on my browser.*
+
+All browsers know how to deal with correct HTML. However, if it is incorrect, the browser has to repair the document, and since not all browsers repair documents in the same way, this introduces differences, so that your document may look and work differently on different browsers. Since there are hundreds of different browsers, and more coming all the time (not only on PCs, but also on PDAs, mobile phones, televisions, printers, even refrigerators), it is impossible to test your document on every browser. If you use incorrect HTML and your document doesn't work on a particular browser, it is your fault; if you use correct HTML and it doesn't work, it is a bug in the browser.
+____
+
+Quelle: http://www.w3.org/MarkUp/2004/xhtml-faq
+
+=== Prüfung von generiertem Quelltext
+
+Auf Stackoverflow.com gibt es eine ausführliche Diskussion der Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu extrahieren und zu validieren (auf Englisch)
+
+Quelle: http://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page] (stackoverflow.com)
+
+== [#faq]####Fragen zu diesem Prüfschritt
+
+=== Was ist, wenn die Seite aufgrund von Fremdinhalten, zum Beispiel wegen von einem fremden Server gelieferter Werbung nicht validiert?
+
+Die Zugänglichkeit von deutlich abgegrenzter Werbung wird im BITV-Test nicht geprüft. Geprüft wird aber, ob die Werbung die Nutzung der anderen Seiteninhalte einschränkt. Das ist der Fall, wenn sie blinkt oder sich bewegt (Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte anhaltbar") oder nicht valide ist.
+
+=== Was ist, wenn der HTML-Validator fehlerhaft arbeitet?
+
+"Anerkannte" Fehler bestehen nicht dauerhaft, sie werden vom W3C bearbeitet und behoben. Gegebenenfalls ist die Prüfung zu wiederholen, nachdem der Fehler gemeldet und behoben worden ist. Für die Bewertung des Prüfschritts ist allein das Ergebnis relevant. Auf welcher Basis es zustande kommt, spielt keine Rolle!
+
+=== Was ist, wenn das verwendete CMS nicht validen Code produziert?
+
+In diesem Fall liegt die Schuld für die Nichterfüllung des Prüfschritts möglicherweise beim Anbieter des CMS. Nichtsdestoweniger validiert die Seite nicht. Das negative Ergebnis zählt, wie es zustande kommt, spielt keine Rolle.

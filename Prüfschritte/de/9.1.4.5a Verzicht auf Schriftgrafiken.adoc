@@ -1,0 +1,123 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=54[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+Aktuell
+
+BITV-Bedingung
+
+1.4.5 Schriftgrafiken
+
+WCAG-Erfolgskriterium
+
+1.4.5 Bilder eines Textes
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Schriftgrafiken werden nicht verwendet.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Grafiken sollen nicht für die Darstellung von Schriften verwendet werden. Logos sind hiervon ausgenommen.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Schriftgrafiken, die als Bitmap-Grafik eingebunden werden (z.B. als JPEG, PNG, oder GIF), können nicht oder nur eingeschränkt an Benutzeranforderungen angepasst werden. Ihre Farben können nicht individuell eingestellt werden, auch die individuelle Anpassung der Schriftgröße wirkt nicht auf grafische Schriften. Und bei Zoomvergrößerung werden die Schriftkanten unscharf.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== [#G140]####2. Prüfung
+
+. Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+. In der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle Grafiken auszublenden (oder alternativ _Bilder > Bilder mit ALT-Attributen ersetzen_). Prüfen, ob dadurch Schrift verschwindet.
+
+=== 3. Hinweise
+
+In der Regel nicht negativ bewertet werden grafische Schriften auf *Logos* oder in *Fotos*.
+
+Ebenfalls nicht negativ bewertet wird, wenn das SVG `text`-Element in Inline-SVGs verwendet wird.
+
+=== 4. Bewertung
+
+==== Nicht voll erfüllt:
+
+* Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
+
+==== Nicht erfüllt:
+
+* Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken verwendet.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Die Bereitstellung von Alternativtexten für Schriftgrafiken ist Gegenstand der Prüfschritte link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente" und link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#images-of-text[1.4.5 Images of Text] (Level AA)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating information and structure from presentation to enable different presentations]
+
+===== CSS Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C22.html[C22: Using CSS to control visual presentation of text]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C30.html[C30: Using CSS to replace text with images of text and providing user interface controls to switch]
+
+== [#quellen]####Quellen
+
+* https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson, The Paciello Group blog, Dezember 2015)
+* https://css-tricks.com/accessible-svgs-high-contrast-mode/[Accessible SVGs in High Contrast Mode] (Eric Bailey, CSS-Tricks, June 2017)
+
+== [#faq]####Fragen zu diesem Prüfschritt
+
+=== Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehen? Also zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
+
+Moderne Betriebssysteme stellen die Schriftzeichen aller verbreiteten Sprachen zur Verfügung. In aller Regel sind Schriftzeichen, mit denen ein möglicher Nutzer etwas anfangen könnte, auch installiert. Die grafische Darstellung von Schriftzeichen ist daher nur als zusätzliches Angebot sinnvoll.
+
+Im BITV-Test wird nur geprüft, ob Text in Form von Text verfügbar ist. Zusätzliche grafische Angebote werden nicht berücksichtigt.
+
+=== Was ist mit auf Fotos abgebildeten Schriften?
+
+Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes dann nicht mehr flexibel ist. Bei abgebildeten Schriften, also zum Beispiel bei Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörig. Dieser Prüfschritt ist also nicht anwendbar.
+
+Davon ausgenommen sind allerdings Abbildungen, die wie Schriftgrafiken verwendet werden, also zum Beispiel als Überschriften dienen.
+
+=== Oft ist es nicht möglich, auf Schriftgrafiken zu verzichten. Denn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
+
+Sicher gibt es gute Gründe für den Einsatz von Schriftgrafiken. Der Einsatz von Schriftgrafiken ist aber auf der anderen Seite aus Sicht der Barrierefreiheit problematisch. Es muss also entschieden werden, ob das einheitliche Corporate Design wichtiger ist, als die barrierefreie Zugänglichkeit des Webauftritts. Wenn die barrierefreie Zugänglichkeit der im Webauftritt bereitgestellten Inhalte Priorität haben soll, wird es erforderlich sein, das Corporate Design anzupassen oder auf seinen durchgängigen Einsatz zu verzichten.
+
+=== Wie wird Text in Firmenlogos bewertet?
+
+In diesem Prüfschritt geht es um die Verwendung von grafischen Schriften für Texte, Überschriften und Bedienelemente. Das Firmenlogo ist nicht relevant, so lange es nicht (oder nur zusätzlich) als Überschrift oder Bedienelement eingesetzt wird.

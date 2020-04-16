@@ -1,0 +1,78 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=110[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+Aktuell
+
+BITV-Bedingung
+
+1.4.12 Textabstände
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Zeilen- Absatz- Wort- und Buchstaben-Abstände lassen sich von Nutzern auf folgende Werte einstellen, ohne dass Inhalte oder Funktionalitäten nicht mehr verfügbar sind: Zeilen: 1,5-fache Textgröße; Abstände nach Absätzen: 2-fache Textgröße; Buchstaben-Kerning: 0,12-fache Textgröße; Wortabstände: 0,16-fache Textgröße.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Die Anpassung der Zeilenhöhe auf das 1,5-fache der Textgröße, des Abstands nach Absätzen auf das 2-fache der Textgröße, von Buchstabenabständen auf das 0,12-fache der Textgröße und von Wortabständen auf das 0,16-fache der Textgröße führt nicht zu einem Verlust an Inhalten oder Funktionalitäten, zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe sich bei Einstellung größerer Textabstände und dadurch erfolgender Textspreizungen oder Umbrüche nicht dynamisch anpasst.
+
+Anmerkung: Die Anforderung verlangt nicht von Autoren, die genannten Werte bei Ihren Inhalten umzusetzen, sondern lediglich, dass von Nutzern vorgenommene Anpassungen nicht zum Abschneiden von Text oder Verlust von Funktionalitäten führt.
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern, wenn sie über Werkzeuge wie Bookmarklets oder über eigene Stylesheets die Abstände zwische Zeilen, Absätzen, Zeichen und Worten anpassen können. Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und Container dementsprechend dynamisch angelegt sein müssen, um den längeren Text ohne Verlust zu zeigen.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Seite echten Text enthält (also Text, der nicht über eine Grafik bereitgestellt wird).
+
+=== 2. Prüfung
+
+. Benutze https://testen.bitv-test.de/bookmarklets.html[Bookmarklet Textabstände] oder eine Browser-Erweiterung, um die Werte für Zeilenhöhe, Abstand nach Absätzen, Buchstabenabstand und Wortabstand auf die maximal geforderten Werte zu setzen.
+. Prüfe, ob es durch die neuen Werte zum Abschneiden oder Überlappen von Text oder den Verlust von Funktionalität kommt.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#text-spacing[1.4.12 Text Spacing] (Level AA)
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C36.html[C36: Allowing for text spacing override]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C35.html[C35: Allowing for text spacing without wrapping]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F104[F104: Failure of Success Criterion 1.4.12 due to clipped or overlapped content when text spacing is adjusted]
+
+== [#quellen]####Quellen
+
+* https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[Understanding Success Criterion 1.4.12: Text Spacing] (zur Zeit nur auf Englisch verfügbar)
+* https://github.com/openstyles/stylus/blob/master/README.md[Stylus Browsererweiterung]
+* https://www.html5accessibility.com/tests/tsbookmarklet.html[Text Spacing Bookmarklet]

@@ -1,0 +1,101 @@
+= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar9.1.3.4a Keine Beschränkung der Bildschirmausrichtung9.1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck9.1.4.10a Inhalte brechen um9.1.4.11a Kontraste von Grafiken und grafischen Bedienelementen ausreichend9.1.4.12a Textabstände anpassbar9.1.4.13a Eingeblendete Inhalte bedienbar9.1.4.1a Ohne Farben nutzbar9.1.4.2a Ton abschaltbar9.1.4.3a Kontraste von Texten ausreichend9.1.4.4a Text auf 200% vergrößerbar9.1.4.5a Verzicht auf Schriftgrafiken9.2.1.1a Ohne Maus nutzbar9.2.1.2a Keine Tastaturfalle9.2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar9.2.2.1a Zeitbegrenzungen anpassbar9.2.2.2a Bewegte Inhalte abschaltbar9.2.3.1a Verzicht auf Flackern9.2.4.1a Bereiche überspringbar9.2.4.2a Sinnvolle Dokumenttitel9.2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung9.2.4.4a Aussagekräftige Linktexte9.2.4.5a Alternative Zugangswege9.2.4.6a Aussagekräftige Überschriften und Beschriftungen9.2.4.7a Aktuelle Position des Fokus deutlich9.2.5.1a Alternativen für komplexe Zeiger-Gesten9.2.5.2a Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+[[multileiste]]
+link:/index.php?a=eb&iid=116[die bisherigen Bewertungen für dieses Prüfschritt]
+
+[.stopFloat]##
+
+== [#technische-angaben]####Technische Angaben
+
+Version
+
+Aktuell
+
+BITV-Bedingung
+
+2.5.2 Abbruch von Zeigergesten
+
+Bewertungsalternativen
+
+ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
+
+Bezieht sich auf
+
+einzelne Webseite
+
+Prüfschritt erfüllt
+
+Zeiger-Gesten lösen keine Aktionen beim Down-Event aus, oder sie können abgebrochen oder rückgängig gemacht werden, es sei denn, sie sind unerlässlich.
+
+== [#was-wird-geprueft]####Was wird geprüft?
+
+Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z.B. Mauszeiger, Trackpad-Zeiger, Finger oder Eingabestift) auf einem Bedienelement ausgeführt werden; falls doch, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.
+
+Eine Ausnahme für diese Anforderung besteht, wenn das Auslösen der Funktion durch das Down-Ereignis essenziell ist (etwa beim Zeichnen mittels Maus, Eingabestift oder Finger auf einem Touchscreen oder Grafiktablett, oder beim Interagieren mit einer virtuellen Tastatur).
+
+== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+
+Menschen mit motorischen Beeinträchtigungen haben häufig Schwierigkeiten, Zeiger-Gesten auf Schnittstellen-Elementen zielgerichtet auszuführen. Die Ausführung beim Up-Event (etwa wenn die Maustaste losgelassen wird oder der Finger vom Touchscreen abgehoben wird) gibt diesen Menschen die Möglichkeit, Fehleingaben zu vermeiden, da es sie befähigt, vor Auslösen des Up-Events den Zeiger vom Interface-Element wegzubewegen. Wenn Down-Events bereits Funktionen auslösen, besteht diese Korrekturmöglichkeit nicht.
+
+In Fällen, wo eine Zeiger-Eingabe mehrstufig ist, etwa bei Drag-and-Drop Aktionen, ist es wichtig, dass es einen Weg gibt, versehentlich ausgeführte Eingaben rückgängig zu machen. Dies kann auf verschiedene Weise geschehen, etwa über eine Schaltfläche zum Rückgängig-Machen der Aktion, einen Bestätigungsdialog, durch das Loslassen des Elements über dem Ausgangsort, oder durch das Loslassen des Elements über einem Ort, der nicht als Drop Target definiert ist und das Element zum Ausgangspunkt zurückspringen lässt.
+
+== [#wie-wird-geprueft]####Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn auf der Seite Bedienelemente vorhanden sind.
+
+=== 2. Prüfung
+
+Es wird auf einem Smartphone überprüft, ob es Bedienelemente gibt, deren Funktionen durch Down-Events ausgelöst werden. Die Prüfung auf dem Desktop ist nicht ausreichend, weil hier Touch-Events wie `touchstart` ggf. nicht ausgewertet werden.
+
+. Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger kurz liegen lassen.
+. Beobachten, ob nun schon eine Funktion ausgeführt wird. Dies geschieht wahrscheinlich aufgrund eines Down-Events.
+. Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen und loslassen. Dadurch wird in der Regel der Aufruf des Links oder der Funktion vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite gescrollt wird).
+. Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder rückgängig gemacht wird.
+
+=== 3. Hinweise
+
+Es ist in der Regel nicht notwendig, jedes einzelne Bedienelement aufzurufen, wenn eine stichprobenartige Prüfung zeigt, das die Umsetzung gleichartig ist. Für ein Menü etwa reicht es dann, bei jeder Art von Menüeintrag (etwa Hauptmenü- und Untermenü-Einträge) ein Element zu testen. Das Gleiche gilt für Fließtextlinks.
+
+Es kann bei der Prüfung zum Aufruf von Funktionen des Browsers kommen (etwa: ein Kontextmenü wird angezeigt). Dies ist nicht Teil der Prüfung und sollte ignoriert werrden.
+
+Als Zeiger-Down-Events gelten `mousedown`, `touchstart` und `pointerdown`.
+
+=== 4. Bewertung
+
+==== Prüfschritt erfüllt:
+
+* Keine Funktionen werden beim Down-Event ausgelöst.
+* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden.
+
+== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#pointer-cancellation[2.5.2 Pointer Cancellation] (Level A)
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G210[G210: Ensuring that drag-and-drop actions can be cancelled]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G212[G212: Using native controls to ensure functionality is triggered on the up-event.]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of Success Criterion 2.5.2 due to activating a control on the down-event]
+
+== [#quellen]####Quellen
+
+* Das Bookmarklet https://testen.bitv-test.de/bookmarklets.html#downevent[Down-Events auslösen] von Prüfstelle T-Systems MMS kann ggf. zusätzlich eingesetzt werden, um der Reihe nach auf allen Elementen down-events auszulösen. Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw. geändert hat. Die Geschwindigkeit (Intervall in Millisekunden) kann am Beginn eingestellt werden.
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[Understanding Success Criterion 2.5.2: Pointer Cancellation] (zur Zeit nur auf Englisch verfügbar)
+* Spezifikation PointerEvents (https://www.w3.org/TR/pointerevents/)
+* Spezifikation TouchEvents (https://www.w3.org/TR/touch-events/)
+* Spezifikation UIEvents (https://www.w3.org/TR/uievents/)

@@ -1,0 +1,4 @@
+*.docx
+*.html
+!infodoc.html
+html/
