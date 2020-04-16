@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=74[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,11 +37,11 @@ Prüfschritt nicht anwendbar
 
 Listen sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Zur Auszeichnung von Listen auf der Seite sollen HTML-Strukturelemente für Listen (`ul`, `ol` und so weiter) genutzt werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt und zugänglich ist.
 
@@ -52,30 +52,30 @@ Mögliche Anwendungen der Strukturelemente für Listen:
 * Listen oder Listeneinträge überspringen (Screenreader-Nutzer)
 * Listen können hierarchische Strukturen angemessen abbilden
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Elemente enthält, die von ihrem Erscheinungsbild oder ihrer Funktion her Listen sind. Das ist bei informationsorientierten Seiten häufig der Fall.
+Der Prüfschritt ist anwendbar, wenn die Seite Elemente enthält, die von ihrem Erscheinungsbild oder ihrer Funktion her Listen sindDas ist bei informationsorientierten Seiten häufig der Fall.
 
 Da auch die missbräuchliche Verwendung der HTML-Elemente für Listen geprüft wird, ist der Prüfschritt darüber hinaus immer anwendbar, wenn die Seite Elemente enthält, die als Listen ausgezeichnet worden sind.
 
-=== 2. Prüfung
+=== 2Prüfung
 
 * Seite im Firefox aufrufen.
-* Lists Bookmarklet aufrufen. Listenauszeichnungen, soweit vorhanden, werden nun dargestellt.
+* Lists Bookmarklet aufrufenListenauszeichnungen, soweit vorhanden, werden nun dargestellt.
 * Prüfen, ob alle Listen inklusive der Menüs mit den vorgesehenen HTML-Strukturelementen für Listen ausgezeichnet sind (`ul`, `ol`, `dl`).
 * Prüfen, ob Listen-Markup für Elemente verwendet wird, die nicht Listen sind.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht besser in Listenform dargestellt werden sollten. Es soll nur geprüft werden, ob vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
+Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht besser in Listenform dargestellt werden solltenEs soll nur geprüft werden, ob vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
 
-Listen erkennt man normalerweise an ihrer Darstellung auf dem Bildschirm. Sie heben sich deutlich von normalen Textabschnitten ab, oft sind sie eingerückt, meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen vorangestellt.
+Listen erkennt man normalerweise an ihrer Darstellung auf dem BildschirmSie heben sich deutlich von normalen Textabschnitten ab, oft sind sie eingerückt, meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen vorangestellt.
 
-Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer Listen, egal wie sie gestaltet sind. Sie sollten deshalb auch als Listen ausgezeichnet werden.
+Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer Listen, egal wie sie gestaltet sindSie sollten deshalb auch als Listen ausgezeichnet werden.
 
-Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren. Ihr Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und Bildtext, wird akzeptiert.
+Definitionslisten dienen hauptsächlich zur Auszeichnung von GlossarenIhr Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und Bildtext, wird akzeptiert.
 
 Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht gefordert ist:
 
@@ -84,7 +84,7 @@ Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht gefordert 
 * Auswahlleisten mit seriellen Einträgen, etwa alphabetische Einträge (A-Z) bei Glossaren, oder eine Auswahlleiste mit Jahreszahlen
 * Gruppen von verschiedenartigen Links am Seitenende mit drei oder weniger Elementen (etwa: "Copyright-Notiz" und "Impressum")
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -94,7 +94,7 @@ Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht gefordert 
 
 * Menüs sind nicht mit geeigneten HTML-Strukturelementen ausgezeichnet.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

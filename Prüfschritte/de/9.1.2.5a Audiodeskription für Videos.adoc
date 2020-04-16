@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=71[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,39 +37,39 @@ Prüfschritt nicht anwendbar
 
 Videos sind nicht vorhanden oder auch ohne synchrone Audiodeskription zugänglich.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Für informationstragende visuelle Videoinhalte muss eine Audiodeskription bereitgestellt werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden. Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es geht. Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt wird. Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werden. Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werdenDen Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es gehtDagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt wirdDamit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werdenHierfür wird das Verfahren der Audiodeskription eingesetzt.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und Informationen über das Bildgeschehen für das Verständnis erforderlich sind.
-* Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens nicht in Worte gefasst werden kann. Der Prüfschritt ist dann nicht anwendbar.
+* Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens nicht in Worte gefasst werden kannDer Prüfschritt ist dann nicht anwendbar.
 * Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder wenn das Video keine Tonspur hat (siehe Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen").
-* Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermitteln. Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
+* Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermittelnDies gilt nur für Videos, die keine über den Textinhalt hinausgehende Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
 * Gebärdensprachvideos brauchen keine Audiodeskription.
 
-=== [#G69]####[#G78]####[#SM1]####[#SM2]####[#SM6]####[#SM7]####2. Audiodeskription prüfen
+=== [#G69][#G78][#SM1][#SM2][#SM6][#SM7]2Audiodeskription prüfen
 
 Es wird eine Sicht- und Hörprüfung vorgenommen.
 
-Art der Einbindung feststellen. Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
+Art der Einbindung feststellenDie Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
-* [#G173]####Eine weitere Version des Videos mit Audiodeskription wird angeboten. Diese Version wird geprüft. [#G58]####Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
-* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich geschaltet.
+* [#G173]Eine weitere Version des Videos mit Audiodeskription wird angebotenDiese Version wird geprüft[#G58]Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
+* Das Video hat eine zuschaltbare Tonspur mit der AudiodeskriptionDiese Spur wird zusätzlich geschaltet.
 
 Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
 
 Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
-=== 3. Bewertung
+=== 3Bewertung
 
 ==== Nicht voll erfüllt:
 
@@ -79,11 +79,11 @@ Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder nich
 
 Das informationstragende, visuelle Video hat keine Audiodeskription.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird nur geprüft, ob das Video eine Audiodeskription hat. Eine Volltextalternative wird im Prüfschritt 1.2.3a bewertet. Braucht ein Video eine Audiodeskription und sind weder eine Audiodeskription noch eine Volltextalternative vorhanden, sind sowohl dieser Prüfschritt als auch Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] "Audiodeskription oder Volltext-Alternative für Videos" nicht bzw. nicht voll erfüllt.
+In diesem Prüfschritt wird nur geprüft, ob das Video eine Audiodeskription hatEine Volltextalternative wird im Prüfschritt 1.2.3a bewertetBraucht ein Video eine Audiodeskription und sind weder eine Audiodeskription noch eine Volltextalternative vorhanden, sind sowohl dieser Prüfschritt als auch Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] "Audiodeskription oder Volltext-Alternative für Videos" nicht bzwnicht voll erfüllt.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -110,7 +110,7 @@ In diesem Prüfschritt wird nur geprüft, ob das Video eine Audiodeskription hat
 * https://www.w3.org/WAI/WCAG21/Techniques/smil/SM6.html[SM6: Providing audio description in SMIL 1.0]
 * https://www.w3.org/WAI/WCAG21/Techniques/smil/SM7.html[SM7: Providing audio description in SMIL 2.0]
 
-== [#quellen]####Quellen
+== Quellen
 
 === BIK für Alle: Leitfaden barrierefreie Online-Videos
 

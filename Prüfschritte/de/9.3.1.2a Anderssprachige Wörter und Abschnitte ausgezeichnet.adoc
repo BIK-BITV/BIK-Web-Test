@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=93[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,44 +37,44 @@ Prüfschritt nicht anwendbar
 
 Anderssprachige Wörter und Abschnitte sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache vorkommen, müssen diese mithilfe des `lang`-Attributs ausgezeichnet werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, zu welcher Sprache ein Text gehört, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt istSie müssen wissen, zu welcher Sprache ein Text gehört, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Wörter, ganze Sätze, Absätze oder andere größere Abschnitte in einer anderen Sprache enthält.
 
-=== [#H58]####2. Prüfung
+=== [#H58]2Prüfung
 
-. Seite im Firefox aufrufen.
-. Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Lang bookmarklet] aufrufen.
-. Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind (siehe Hinweise).
+Seite im Firefox aufrufen.
+Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Lang bookmarklet] aufrufen.
+Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind (siehe Hinweise).
 
 === 3.Hinweise
 
-* Keinen praktischen Nutzen hat die Auszeichnung von Wörtern, die ohne Auszeichnung üblicherweise nicht anders ausgesprochen werden. Sie müssen nicht ausgezeichnet werden. Beispiele für solche Wörter: Web, Link, Top, Enter, Helpdesk.
-* Ebenfalls nicht ausgezeichnet werden sollten "gemischte" Wörter. Beispiele für solche Wörter: Webauftritt, Checkpunkt.
-* Einzelne fremdsprachige Wörter müssen ausgezeichnet werden, wenn sie keinen Eingang in den deutschen Sprachgebrauch gefunden haben. Wörter, die im aktuellen "Deutschen Universalwörterbuch" des Duden-Verlags aufgenommen sind, müssen nicht ausgezeichnet werden. Die Online-Duden-Suche unter http://www.duden.de/suchen erlaubt leider keine Differenzierung mehr, in welchem Duden-Wörterbuch Einträge gefunden wurden. Sie kann also allenfalls unterstützend herangezogen werden.
-* Die Wortlisten von Screenreadern sollten auch geläufige Fremdwörter enthalten. Dies ist jedoch nicht durchgängig der Fall, auch geläufige Fremdwörter werden ohne Auszeichnung falsch ausgesprochen. Daher macht ihre Auszeichnung Sinn, auch wenn sie nicht gefordert wird. Beispiele für geläufige Fremdwörter, die ausgezeichnet werden können: Copyright, Website, Site, Homepage.
+* Keinen praktischen Nutzen hat die Auszeichnung von Wörtern, die ohne Auszeichnung üblicherweise nicht anders ausgesprochen werdenSie müssen nicht ausgezeichnet werdenBeispiele für solche Wörter: Web, Link, Top, Enter, Helpdesk.
+* Ebenfalls nicht ausgezeichnet werden sollten "gemischte" WörterBeispiele für solche Wörter: Webauftritt, Checkpunkt.
+* Einzelne fremdsprachige Wörter müssen ausgezeichnet werden, wenn sie keinen Eingang in den deutschen Sprachgebrauch gefunden habenWörter, die im aktuellen "Deutschen Universalwörterbuch" des Duden-Verlags aufgenommen sind, müssen nicht ausgezeichnet werdenDie Online-Duden-Suche unter http://www.duden.de/suchen erlaubt leider keine Differenzierung mehr, in welchem Duden-Wörterbuch Einträge gefunden wurdenSie kann also allenfalls unterstützend herangezogen werden.
+* Die Wortlisten von Screenreadern sollten auch geläufige Fremdwörter enthaltenDies ist jedoch nicht durchgängig der Fall, auch geläufige Fremdwörter werden ohne Auszeichnung falsch ausgesprochenDaher macht ihre Auszeichnung Sinn, auch wenn sie nicht gefordert wirdBeispiele für geläufige Fremdwörter, die ausgezeichnet werden können: Copyright, Website, Site, Homepage.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 === Erfüllt:
 
-* Anderssprachige Wörter und Abschnitte sind durchgängig ausgezeichnet. Wenn einzelne anderssprachige Wörter "vergessen" worden sind, soll das nicht negativ bewertet werden. Sie sollten aber zu mindestens 90% ausgezeichnet sein
+* Anderssprachige Wörter und Abschnitte sind durchgängig ausgezeichnetWenn einzelne anderssprachige Wörter "vergessen" worden sind, soll das nicht negativ bewertet werdenSie sollten aber zu mindestens 90% ausgezeichnet sein
 
 === Nicht erfüllt:
 
 * Weniger als 50 % der anderssprachigen Wörter sind ausgezeichnet.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
@@ -96,7 +96,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Wörter, ganze Sätze, Absätze o
 
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H58.html[H58: Using language attributes to identify changes in the human language]
 
-== [#quellen]####Quellen
+== Quellen
 
 === Wichtigkeit der Sprachauszeichnung nach WCAG 2.1
 
@@ -104,7 +104,7 @@ ____
 Identifying changes in language is important for a number of reasons:
 
 * It allows braille translation software to follow changes in language, e.g., substitute control codes for accented characters, and insert control codes necessary to prevent erroneous creation of Grade 2 braille contractions.
-* Speech synthesizers that support multiple languages will be able to speak the text in the appropriate accent with proper pronunciation. If changes are not marked, the synthesizer will try its best to speak the words in the default language it works in. Thus, the French word for car, "voiture" would be pronounced "voyture" by a speech synthesizer that uses English as its default language.
+* Speech synthesizers that support multiple languages will be able to speak the text in the appropriate accent with proper pronunciationIf changes are not marked, the synthesizer will try its best to speak the words in the default language it works inThus, the French word for car, "voiture" would be pronounced "voyture" by a speech synthesizer that uses English as its default language.
 * Marking changes in language can benefit future developments in technology, for example users who are unable to translate between languages themselves will be able to use machines to translate unfamiliar languages.
 * Marking changes in language can also assist user agents in providing definitions using a dictionary.
 ____

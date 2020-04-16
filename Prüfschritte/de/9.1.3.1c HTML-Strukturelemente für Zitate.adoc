@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=75[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,11 +37,11 @@ Prüfschritt nicht anwendbar
 
 Als eigenständige Abschnitte gefasste Zitate sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Zur Auszeichnung von Zitaten, die als eigenständige Textabschnitte gefasst sind, soll das dafür vorgesehene HTML-Strukturelement `blockquote` genutzt werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt und zugänglich ist.
 
@@ -52,24 +52,24 @@ Mögliche Anwendungen des Strukturelements `blockquote`:
 * Das Zitat überspringen, im folgenden Text weiterlesen (Tastaturbenutzer)
 * Zitate anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite eigenständige Abschnitte enthält, die als Zitate verstanden werden können oder wenn die Seite Elemente enthält, die als Zitate ausgezeichnet worden sind.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-. Die Seite im Firefox aufrufen.
-. Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind.
-. Im Firefox in über F12 die _Web Developer Tools_ öffen und im Bereich _Inspector_ im Suchfeld nach `blockquote` suchen.
-. Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
+Die Seite im Firefox aufrufen.
+Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind.
+Im Firefox in über F12 die _Web Developer Tools_ öffen und im Bereich _Inspector_ im Suchfeld nach `blockquote` suchen.
+Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenständige Abschnitte gefasst sind) mit dem vorgesehenen HTML-Strukturelement `q` ausgezeichnet sind. In Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit normalen Anführungszeichen gering. Zudem gibt es technische Probleme: Der Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit Anführungszeichen. Man müsste also zusätzlich Anführungszeichen setzen, was aber in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen würde.
+Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenständige Abschnitte gefasst sind) mit dem vorgesehenen HTML-Strukturelement `q` ausgezeichnet sindIn Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit normalen Anführungszeichen geringZudem gibt es technische Probleme: Der Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit AnführungszeichenMan müsste also zusätzlich Anführungszeichen setzen, was aber in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen würde.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -80,7 +80,7 @@ Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenst
 * Auf der Seite sind als eigenständige Abschnitte gefasste Zitate vorhanden, es ist jedoch keines mit `blockquote` ausgezeichnet.
 * `blockquote` wird lediglich zu Formatierungszwecken eingestzt (etwa Einrückung).
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

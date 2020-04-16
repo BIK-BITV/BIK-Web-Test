@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=51[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,42 +33,42 @@ Prüfschritt erfüllt
 
 Verpflichtende Dateneingaben können rückgängig gemacht oder vor dem Abschicken überprüft und korrigiert werden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
-Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken zu überprüfen und zu korrigieren. Erfolgreiche Eingaben werden bestätigt.
+Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken zu überprüfen und zu korrigierenErfolgreiche Eingaben werden bestätigt.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Bei jeder Dateneingabe können Fehler passieren. Gerade wenn sich der Prozess nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
+Bei jeder Dateneingabe können Fehler passierenGerade wenn sich der Prozess nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
 
-Dies ist für alle Benutzer wichtig. Für Benutzer mit Behinderungen ist jedoch in vielen Fällen das Risiko von Fehleingaben größer. Benutzer mit Legastenie vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken häufiger versehentlich falsche Tastaturtasten. Deshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders wichtig.
+Dies ist für alle Benutzer wichtigFür Benutzer mit Behinderungen ist jedoch in vielen Fällen das Risiko von Fehleingaben größerBenutzer mit Legastenie vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken häufiger versehentlich falsche TastaturtastenDeshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders wichtig.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehen. Dazu gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehenDazu gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-Formular mit Beispieldaten ausfüllen und Prozess fortsetzen. Eine der folgenden drei Optionen soll erfüllt sein:
+Formular mit Beispieldaten ausfüllen und Prozess fortsetzenEine der folgenden drei Optionen soll erfüllt sein:
 
-. [#G98]####**Datenanzeige mit Korrekturmöglichkeit.** Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
-. [#G168]####**Bestätigung.** Das Abschicken erfolgt erst nach Bestätigung eines Dialogs, der die Konsequenzen der Transaktion beschreibt.
-. [#G99]####[#G164]####*Unmittelbare Rückabwicklung.* Die Transaktion (etwa das Löschen von angelegten Datensätzen) kann unmittelbar rückgängig gemacht werden.
+[#G98]**Datenanzeige mit Korrekturmöglichkeit.** Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
+[#G168]**Bestätigung.** Das Abschicken erfolgt erst nach Bestätigung eines Dialogs, der die Konsequenzen der Transaktion beschreibt.
+[#G99][#G164]*Unmittelbare Rückabwicklung.* Die Transaktion (etwa das Löschen von angelegten Datensätzen) kann unmittelbar rückgängig gemacht werden.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem endgültigen Abschicken des Formulars. Solche Checkboxen werden häufig für formalrechtlich relevante Funktionen genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines Anbieters. Sie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und routinemäßig gesetzt. Für die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
+Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem endgültigen Abschicken des FormularsSolche Checkboxen werden häufig für formalrechtlich relevante Funktionen genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines AnbietersSie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und routinemäßig gesetztFür die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
 
-[#G199]####Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
+[#G199]Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht voll erfüllt:
 
 * Daten werden vor dem Abschicken zum Überprüfen angezeigt, es gibt aber keinen expliziten Link zurück zum Formular, um Daten zu korrigieren oder zu ergänzen.
-* [#G155]####Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die Möglichkeit der unmittelbaren Rückabwicklung. Zum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkbox über dem "Abschicken"-Button.
+* [#G155]Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die Möglichkeit der unmittelbaren RückabwicklungZum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkbox über dem "Abschicken"-Button.
 * Nach dem erfolgreichen Abschicken gibt es keine Bestätigung.
 
 ==== Nicht erfüllt:
@@ -76,7 +76,7 @@ Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit
 * Wichtige Daten werden ohne vorherige Datenanzeige, Dialog zur Bestätigung, oder Möglichkeit der sofortigen Rückabwicklung abgeschickt.
 * Bei Neuanzeige des Formulars sind bereits gemachte Eingaben gelöscht, die Felder sind wieder leer und müssen erneut ausgefüllt werden.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

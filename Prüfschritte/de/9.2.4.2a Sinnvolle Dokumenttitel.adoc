@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=55[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,36 +33,36 @@ Prüfschritt erfüllt
 
 Dokumenttitel sind eindeutig, sie bezeichnen Site und Seiteninhalt.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie können für die Unterscheidung und Auswahl von Seiten genutzt werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit Bookmarks. Sie sind wichtig für die Navigation und Orientierung in Webangeboten. Wenn das Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung beeinträchtigt.
+Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit BookmarksSie sind wichtig für die Navigation und Orientierung in WebangebotenWenn das Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung beeinträchtigt.
 
 Typographische Schmuckelemente werden Screenreader-Nutzern unter Umständen vorgelesen und stören dadurch.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#G88]####[#G127]####[#H25]####[#F25]####2. Prüfung
+=== [#G88][#G127][#H25][#F25]2Prüfung
 
-Dokumenttitel in der Browserleiste ansehen. Bezeichnet der Titel die Website und den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von Seiten geeignet?
+Dokumenttitel in der Browserleiste ansehenBezeichnet der Titel die Website und den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von Seiten geeignet?
 
 Falls Seiten Frames haben:
 
 * Einzelne Frames in neuem Tab oder Fenster öffnen.
-* Dokumenttitel in der Browserleiste ansehen. Haben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames kennzeichnen?
+* Dokumenttitel in der Browserleiste ansehenHaben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames kennzeichnen?
 
-=== 3. Hinweis
+=== 3Hinweis
 
-Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergeben. Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste.
+Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergebenEin guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -72,13 +72,13 @@ Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wie
 
 * Die allgemeine Bezeichnung des Webauftritts fehlt.
 * Frame-Seiten haben keine sinnvollen Dokumenttitel.
-* [#H86]####Dokumenttitel enthalten typographischen Schmuck (etwa ++++, ~~~~, ====)
+* [#H86]Dokumenttitel enthalten typographischen Schmuck (etwa ++++, ~~~~, ====)
 
 ==== Eher nicht erfüllt:
 
 * Die individuelle Bezeichnung der jeweiligen Seite fehlt.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -106,7 +106,7 @@ Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wie
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F25.html[F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents]
 
-== [#quellen]####Quellen
+== Quellen
 
 === Bedeutung von Dokumenttiteln nach WCAG 2.1
 

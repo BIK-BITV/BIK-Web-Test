@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=81[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,58 +37,58 @@ Prüfschritt nicht anwendbar
 
 Formularfelder sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Beschriftungen von Formularelementen sind vorhanden.
 
-Die Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld angeordnet werden. Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
+Die Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld angeordnet werdenNur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
 
 Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die Anweisungen für alle Benutzer lesbar.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche Eingaben erwartet werden und Fehler können vermieden werden.
 
-Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entspricht den üblichen Gestaltungskonventionen. Auch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche Beschriftung zu welchem Feld gehört.
+Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entspricht den üblichen GestaltungskonventionenAuch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche Beschriftung zu welchem Feld gehört.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 
-=== 2. Prüfung
+=== 2Prüfung
 
 Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufen.
 
-==== 2.1. Sind Beschriftungen vorhanden ?
+==== 2.1Sind Beschriftungen vorhanden ?
 
-* [#H44]####[#G197]####[#G13]####Sind alle Formularelemente beschriftet?
-* [#H90]####Sind Pflichtfelder in `label`- oder `legend`-Elementen klar angezeigt? Wenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, muss deren Bedeutung am Beginn des Formulars erklärt sein.
-* [#G184]####[#G89]####Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses vor dem Eingabefeld klar beschrieben? (Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
+* [#H44][#G197][#G13]Sind alle Formularelemente beschriftet?
+* [#H90]Sind Pflichtfelder in `label`- oder `legend`-Elementen klar angezeigtWenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, muss deren Bedeutung am Beginn des Formulars erklärt sein.
+* [#G184][#G89]Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses vor dem Eingabefeld klar beschrieben(Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
 
-==== 2.2. Sind Beschriftungen richtig positioniert?
+==== 2.2Sind Beschriftungen richtig positioniert?
 
-. Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
-. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
+Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
+Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehenDie Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-* [#G108]####[#H65]####[#F82]####[#F86]####Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehen.
-* [#G167]####Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut oder ein verstecktes Label haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt. Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt weren.
+* [#G108][#H65][#F82][#F86]Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete BeschriftungIn diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werdenBeispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr)Die drei Auswahllisten haben eine gemeinsame Beschriftung: DatumDie Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehen.
+* [#G167]Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendigHier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichet (etwa "Suchen")Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut oder ein verstecktes Label haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugtAlternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt weren.
 * Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht erfüllt:
 
-* Wichtige Formularelemente (z.B. die Sucheingabe) sind ohne Beschriftung, auch angrenzende Elemente erklären nicht die Funktion.
+* Wichtige Formularelemente (z.Bdie Sucheingabe) sind ohne Beschriftung, auch angrenzende Elemente erklären nicht die Funktion.
 
 ==== Nicht voll erfüllt:
 
 * Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

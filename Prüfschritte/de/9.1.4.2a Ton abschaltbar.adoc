@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=84[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,45 +37,45 @@ Prüfschritt nicht anwendbar
 
 Die Seite hat keine Tonelemente, die automatisch abgespielt werden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen abschaltbar sein.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Automatisch abgespielte Töne stören Nutzer, die sich auf einer Seite mittels Sprachausgabe orientieren.
 
 Falls ein Tonelement nach dem Laden einer Seite automatisch startet, ist es deshalb wichtig, dass es sich über einen am Seitenbeginn befindlichen barrierefreien Mechanismus abschalten, anhalten oder herunter regeln lässt.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn nach dem Laden einer Seite Tonelementen, die auf einer Webseite automatisch länger als drei Sekunden abgespielt werden.
 
-=== [#G60]####2. Prüfung
+=== [#G60]2Prüfung
 
 Wenn nach Laden der Seite ein Tonelement automatisch abgespielt wird:
 
-* [#G170]####[#F23]####Prüfen, ob der Ton länger als 3 Sekunden dauert.
+* [#G170][#F23]Prüfen, ob der Ton länger als 3 Sekunden dauert.
 * Wenn das der Fall ist: Prüfen, ob sich am Seitenbeginn ein Mechanismus (Button, Link, oder Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig von der Systemlautstärke herunter regeln lässt.
 * Den Mechanismus bedienen und den Ton abschalten.
 
 Wenn sich die Lautstärke regeln lässt:
 
-* Das Kontrollelement "Sound" aufrufen: Windows-Menü _Start > Alle Apps > Windows System > Systemsteuerung (> Kategorie Hardware und Sound) > Sound_. In der Registerkarte "Wiedergabe" die Eigenschaften des Lautsprechers aufrufen und den "Pegel" (in gleichnamiger Registerkarte) anzeigen.
-* Ton wieder anschalten oder Seite neu laden, dann die Lautstärke ganz herunterregeln. Ist der Ton verschwunden?
-* Prüfen, ob der Lautstärkeregelung durch den Mechanismus unabhängig von der Systemtonlautstärke ist (Die Lautstärkeeinstellung in "Sound" soll unverändert bleiben). Alternativ kann die Systemlautstärke auch über den das Lautsprechersymbol im einblendbaren Infobereich der Taskleiste geprüft werden.
+* Das Kontrollelement "Sound" aufrufen: Windows-Menü _Start > Alle Apps > Windows System > Systemsteuerung (> Kategorie Hardware und Sound) > Sound_In der Registerkarte "Wiedergabe" die Eigenschaften des Lautsprechers aufrufen und den "Pegel" (in gleichnamiger Registerkarte) anzeigen.
+* Ton wieder anschalten oder Seite neu laden, dann die Lautstärke ganz herunterregelnIst der Ton verschwunden?
+* Prüfen, ob der Lautstärkeregelung durch den Mechanismus unabhängig von der Systemtonlautstärke ist (Die Lautstärkeeinstellung in "Sound" soll unverändert bleiben)Alternativ kann die Systemlautstärke auch über den das Lautsprechersymbol im einblendbaren Infobereich der Taskleiste geprüft werden.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-* Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit der Sprachausgabe des Abschaltmechanismus stören. Deshalb wird auch berücksichtigt, wie störend sich der Ton auswirkt. Sprache oder laute Geräusche etwa stören mehr als eine gleichmäßige Hintergrundmusik.
+* Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit der Sprachausgabe des Abschaltmechanismus störenDeshalb wird auch berücksichtigt, wie störend sich der Ton auswirktSprache oder laute Geräusche etwa stören mehr als eine gleichmäßige Hintergrundmusik.
 * Der Mechanismus zum Herunterregeln des Tones darf nicht die Systemtonlautstärke ändern, da dies auch die Tonausgabe von Hilfsmitteln mit Sprachausgabe beeinträchtigen würde.
 * Der Mechanismus zum Abschalten oder Herunterregeln des Tons muss sich am Seitenbeginn befinden und soll selbst alle Anforderungen an Barrierefreiheit erfüllen, also etwa ausreichende Kontraste haben und tastaturbedienbar sein.
 * Wenn sich der Ton herunterregeln lässt, soll er auf der niedrigsten Stellung des Reglers nicht mehr hörbar sein.
-* Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton über Tastaturbefehle (etwa die _Escape_-Taste) abschalten lässt. Diese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet.
+* Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton über Tastaturbefehle (etwa die _Escape_-Taste) abschalten lässtDiese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -83,11 +83,11 @@ Wenn sich die Lautstärke regeln lässt:
 
 ==== Nicht voll erfüllt:
 
-* Automatisch abgespielter Ton enthält von Beginn an längere Sprachpassagen oder andere laute und störende Ton-Ereignisse. Die Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht wahrgenommen werden.
+* Automatisch abgespielter Ton enthält von Beginn an längere Sprachpassagen oder andere laute und störende Ton-EreignisseDie Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht wahrgenommen werden.
 * Der Mechanismus zum Abschalten des Tons befindet sich nicht unmittelbar am Seitenbeginn.
 * Es gibt am Seitenbeginn lediglich eine Erklärung, wie der Ton mittels Tastatur abschaltbar ist.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -112,14 +112,14 @@ Wenn sich die Lautstärke regeln lässt:
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F23.html[F23: Failure of 1.4.2 due to playing a sound longer than 3 seconds where there is no mechanism to turn it off]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F93.html[F93: Failure of Success Criterion 1.4.2 for absence of a way to pause or stop an HTML5 media element that autoplays]
 
-== [#quellen]####Quellen
+== Quellen
 
 === Bedeutung der Tonabschaltung nach WCAG 2.1
 
 ____
-Individuals who use screen reading software can find it hard to hear the speech output if there is other audio playing at the same time. This difficulty is exacerbated when the screen reader's speech output is software based (as most are today) and is controlled via the same volume control as the sound. Therefore, it is important that the user be able to turn off the background sound. Note: Having control of the volume includes being able to reduce its volume to zero.
+Individuals who use screen reading software can find it hard to hear the speech output if there is other audio playing at the same timeThis difficulty is exacerbated when the screen reader's speech output is software based (as most are today) and is controlled via the same volume control as the soundTherefore, it is important that the user be able to turn off the background soundNote: Having control of the volume includes being able to reduce its volume to zero.
 
-Note: Playing audio automatically when landing on a page may affect a screen reader user's ability to find the mechanism to stop it because they navigate by listening and automatically started sounds might interfere with that navigation. Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
+Note: Playing audio automatically when landing on a page may affect a screen reader user's ability to find the mechanism to stop it because they navigate by listening and automatically started sounds might interfere with that navigationTherefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html[Audio Control: Understanding SC 1.4.2]

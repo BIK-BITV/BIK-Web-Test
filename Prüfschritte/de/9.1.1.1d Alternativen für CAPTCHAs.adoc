@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=15[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -31,50 +31,50 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Der Alternativtext des Bildes in einem bildbasierten CAPTCHA beschreibt dessen Zweck. Mindestens eine nicht bildbasierte CAPTCHA-Alternative ist vorhanden.
+Der Alternativtext des Bildes in einem bildbasierten CAPTCHA beschreibt dessen ZweckMindestens eine nicht bildbasierte CAPTCHA-Alternative ist vorhanden.
 
 Prüfschritt nicht anwendbar
 
 CAPTCHAs sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 In bildbasierten CAPTCHAs soll der Alternativtext des Bildes den Zweck des CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu finden ist.
 
 Mindestens eine CAPTCHA-Alternative für ein Grafik-Captcha oder Audio-Captcha muss vorhanden sein.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu erreichen. Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglich. Audio-Captchas sind für höreingeschränkte Nutzer nicht zugänglich. Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
+In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu erreichenFür blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglichAudio-Captchas sind für höreingeschränkte Nutzer nicht zugänglichDeshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
 
 Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
 
 Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht Teil der Prüfung und wird nicht bewertet.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-==== [#G143]####2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
+==== [#G143]2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
-. Die Seite im Firefox laden.
-. {blank}
-. In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufen. Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
-. Prüfen, ob beim CAPTCHA-Bild das `alt`-Attribut vorhanden ist und der dort hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
+Die Seite im Firefox laden.
+{blank}
+In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufenAlternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
+Prüfen, ob beim CAPTCHA-Bild das `alt`-Attribut vorhanden ist und der dort hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
 
-==== [#G144]####2.2 Vorhandensein von CAPTCHA-Alternativen
+==== [#G144]2.2 Vorhandensein von CAPTCHA-Alternativen
 
 * Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder Audio-Captchas eine Alternative angeboten wird.
 
-=== 3. Hinweise
+=== 3Hinweise
 
 CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0 http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-3-head[Note on CAPTCHA]).
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht voll erfüllt:
 
@@ -85,11 +85,11 @@ CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche Nutze
 
 * Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht vorhanden.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insgesamt zugänglich ist. Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Formularfelder richtig beschriftet" geprüft.
+Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insgesamt zugänglich istDie Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Formularfelder richtig beschriftet" geprüft.
 
 === Einordung des Prüfschritts nach WCAG 2.1
 
@@ -113,12 +113,12 @@ Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insg
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F3[F3: Failure of Success Criterion 1.1.1 due to using CSS to include images that convey important information]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F69[F65: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute on `img` elements, `area` elements, and `input` elements of type 'image']
 
-== [#quellen]####Quellen
+== Quellen
 
 http://www.karlgroves.com/2012/04/03/captcha-less-security/[CAPTCHA-less Security] by Karl Groves, 2012
 
-== [#faq]####Fragen zu diesem Prüfschritt
+== Fragen zu diesem Prüfschritt
 
 === In welchen Fällen führt ein visuelles CAPTCHA ohne Alternative zu einer Abwertung des Angebotes auf "nicht zugänglich"?
 
-Dies muss im Einzelfall entschieden werden. Wenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind, ist eine Abwertung angebracht. Ein Beispiel ist etwa das Online-Banking auf der Website einer Bank. In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie "Seite weiterempfehlen". Hier wäre eine Abwertung nicht angemessen.
+Dies muss im Einzelfall entschieden werdenWenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind, ist eine Abwertung angebrachtEin Beispiel ist etwa das Online-Banking auf der Website einer BankIn anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie "Seite weiterempfehlen"Hier wäre eine Abwertung nicht angemessen.

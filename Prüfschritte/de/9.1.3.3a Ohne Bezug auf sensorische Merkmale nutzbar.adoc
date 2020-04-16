@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=82[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,25 +33,25 @@ Prüfschritt erfüllt
 
 Die Wahrnehmung von Farben, Formen, Position von Elementen oder Tönen ist für die Bedienung oder das Verständnis der Inhalte nicht erforderlich.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Verweise auf Inhalte der Seite sollen *nicht ausschließlich* sensorische Merkmale wie Farbe, Form oder Position nutzen, sondern auch ohne bestimmte Sinneswahrnehmungen verständlich sein (etwa durch den Verweis die Überschrift von Inhalten).
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Auch der Bezug auf die Form, Farbe oder Position von bestimmten Seiteninhalten ist für blinde Nutzer und auch Nutzer, die die Seite ohne das mitgelieferte Stylesheet oder auf anderen Ausgabegeräten sehen, nicht brauchbar.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== 2. Prüfung
+=== 2Prüfung
 
 ==== 2.1 Textliche Bezüge auf Farben und andere sensorische Merkmale
 
-[#F14]####Prüfen, ob textliche Verweise auf Seiteninhalte diese nur über die Angabe sensorischer Merkmale wie Farbe, Form, Größe, Position, oder Orientierung identifizieren [#G96]####und nicht auch sinnesunabhängig, etwa durch Nennung einer Überschrift oder eines Labels. Beispiele für Bezugnahmen, die nur sensorische Merkmale nennen:
+[#F14]Prüfen, ob textliche Verweise auf Seiteninhalte diese nur über die Angabe sensorischer Merkmale wie Farbe, Form, Größe, Position, oder Orientierung identifizieren [#G96]und nicht auch sinnesunabhängig, etwa durch Nennung einer Überschrift oder eines LabelsBeispiele für Bezugnahmen, die nur sensorische Merkmale nennen:
 
 * Klicken Sie auf den grünen Knopf, um ...
 * Über die runde Taste können Sie...
@@ -62,9 +62,9 @@ Der Prüfschritt ist immer anwendbar.
 
 Solche Bezugnahmen sind ohne die Wahrnehmung sensorischer Merkmale nicht nachzuvollziehen.
 
-[#F13]####Dies gilt auch für Alternativtexte von Informationsgrafiken: sie sollen alle für das Verständnis relevanten Informationen nicht allein durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure http://www.w3.org/TR/WCAG20-TECHS/F13.html[F13]).
+[#F13]Dies gilt auch für Alternativtexte von Informationsgrafiken: sie sollen alle für das Verständnis relevanten Informationen nicht allein durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure http://www.w3.org/TR/WCAG20-TECHS/F13.html[F13]).
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
@@ -91,12 +91,12 @@ Prüfschritt link:/index.php?a=di&iid=83&s=n[1.4.1a] "Ohne Farben nutzbar" behan
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F14.html[F14: Failure of Success Criterion 1.3.3 due to identifying content only by its shape or location]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F26.html[F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information]
 
-== [#quellen]####Quellen
+== Quellen
 
 === Sensory Characteristics: Understanding SC 1.3.3
 
 ____
-People who are blind and people who have low vision may not be able to understand information if it is conveyed by shape and/or location. Providing additional information other than shape and/or location will allow them to understand the information conveyed by shape and/or alone.
+People who are blind and people who have low vision may not be able to understand information if it is conveyed by shape and/or locationProviding additional information other than shape and/or location will allow them to understand the information conveyed by shape and/or alone.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html[https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html]

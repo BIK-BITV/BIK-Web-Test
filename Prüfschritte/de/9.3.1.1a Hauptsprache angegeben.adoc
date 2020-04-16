@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=92[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,25 +33,25 @@ Prüfschritt erfüllt
 
 Die Hauptsprache der Webseite(n) ist angegeben.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Die Hauptsprache der Webseite soll angegeben werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt istSie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#H57]####2. Prüfung
+=== [#H57]2Prüfung
 
-Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden `html`-Element das `lang`-Attribut (bzw. bei xhtml-Seiten das `xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite richtig angegeben ist.
+Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden `html`-Element das `lang`-Attribut (bzwbei xhtml-Seiten das `xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite richtig angegeben ist.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -61,7 +61,7 @@ Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden 
 
 * Die Hauptsprache der Webseite ist nicht angegeben oder es wird eine falsche Sprache angegeben.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 

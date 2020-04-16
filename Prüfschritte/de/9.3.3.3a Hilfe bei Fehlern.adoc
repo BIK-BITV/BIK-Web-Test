@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=104[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -31,50 +31,50 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Wird ein Eingabefehler automatisch festgestellt, wird der Fehler in Textform beschrieben. Wo sinnvoll, werden Korrekturvorschläge gemacht.
+Wird ein Eingabefehler automatisch festgestellt, wird der Fehler in Textform beschriebenWo sinnvoll, werden Korrekturvorschläge gemacht.
 
 Prüfschritt nicht anwendbar
 
 Die Seite hat keine Formulare oder es gibt keine Fehlerbehandlung.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und Hinweise geben, wie der Fehler zu korrigieren ist.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.
 
 Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen Fehlermeldungen hilfreich sein und es den Nutzern erleichtern, Eingaben zu korrigieren.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen. Dies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
-=== [#G83]####2. Prüfung
+=== [#G83]2Prüfung
 
-. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter Email-Adressen.
-. [#G84]####[#G85]####[#SCR18]####Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob Fehlermeldungen oder Korrekturvorschläge verständlich und sinnvoll sind.
+Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter Email-Adressen.
+[#G84][#G85][#SCR18]Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob Fehlermeldungen oder Korrekturvorschläge verständlich und sinnvoll sind.
 +
 Fehlermeldungen oder Korrekturvorschläge können auf verschiedene Weise zur Verfügung gestellt werden, z.B.:
 * Bei Neuanzeige des Formulars werden am Seitenbeginn Fehler beschrieben.
-* [#G177]####Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und mit einer geeigenten ARIA-Technik verknüpft.
+* [#G177]Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und mit einer geeigenten ARIA-Technik verknüpft.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-* Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wir diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
-* Bei komplizierten Formaten, z.B. Datum, hilft eine Angabe, in welcher Weise das Datum eingegeben werden soll (z.B. tt.mm.jjjj), Fehler zu vermeiden.
+* Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wir diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüftGeprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
+* Bei komplizierten Formaten, z.BDatum, hilft eine Angabe, in welcher Weise das Datum eingegeben werden soll (z.Btt.mm.jjjj), Fehler zu vermeiden.
 * Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht erfüllt:
 
-* [#SCR32]####Fehlermeldungen sind unklar oder irreführend
+* [#SCR32]Fehlermeldungen sind unklar oder irreführend
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
 

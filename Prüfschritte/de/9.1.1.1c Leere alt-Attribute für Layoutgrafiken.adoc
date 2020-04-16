@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=66[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,66 +37,66 @@ Prüfschritt nicht anwendbar
 
 Layoutgrafiken sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
-Eine Grafik, die keine informative Funktion hat, benötigt keinen Alternativtext. Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative Fotos. Solche Grafiken sollen mit einem leeren `alt`-Attribut (`alt=""`) ausgezeichnet werden
+Eine Grafik, die keine informative Funktion hat, benötigt keinen AlternativtextGrafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative FotosSolche Grafiken sollen mit einem leeren `alt`-Attribut (`alt=""`) ausgezeichnet werden
 
 Thema des Prüfschritts sind auch Icons, die mittels Icon Font eingebunden sind und SVGs.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Screenreader behandeln Bilder *ohne* `alt`-Attribut anders als Bilder *mit leerem* `alt`-Attribut.
 
-Wenn ein Screenreader auf ein Bild ohne `alt`-Attribut stößt, dann liest er normalerweise den Namen der Bilddatei vor. Denn in vielen Fällen muss man für die Benutzung von Seiten unbedingt wissen, was auf Bildern drauf ist. Dateinamen können dafür manchmal brauchbare Hinweise liefern.
+Wenn ein Screenreader auf ein Bild ohne `alt`-Attribut stößt, dann liest er normalerweise den Namen der Bilddatei vorDenn in vielen Fällen muss man für die Benutzung von Seiten unbedingt wissen, was auf Bildern drauf istDateinamen können dafür manchmal brauchbare Hinweise liefern.
 
-Wenn Bilder nur der Dekoration dienen, ist das Vorlesen des Dateinamens dagegen störend. Bei diesen Bildern wäre es besser, wenn der Screenreader sie einfach übergehen würde.
+Wenn Bilder nur der Dekoration dienen, ist das Vorlesen des Dateinamens dagegen störendBei diesen Bildern wäre es besser, wenn der Screenreader sie einfach übergehen würde.
 
-Das leere `alt`-Attribut informiert den Screenreader darüber, dass das betreffende Bild nur der Dekoration dient und sein Inhalt unbedeutend ist. Der Screenreader ignoriert das Bild dann komplett, er tut so, als ob es überhaupt nicht da wäre.
+Das leere `alt`-Attribut informiert den Screenreader darüber, dass das betreffende Bild nur der Dekoration dient und sein Inhalt unbedeutend istDer Screenreader ignoriert das Bild dann komplett, er tut so, als ob es überhaupt nicht da wäre.
 
-Das leere `alt`-Attribut ist also sehr wichtig. Es stellt sicher, dass der Besucher mit Screenreader nicht durch das dauernde Vorlesen von bedeutungslosen Dateinamen an der Nutzung der Seite gehindert wird.
+Das leere `alt`-Attribut ist also sehr wichtigEs stellt sicher, dass der Besucher mit Screenreader nicht durch das dauernde Vorlesen von bedeutungslosen Dateinamen an der Nutzung der Seite gehindert wird.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhalten. Sie werden per CSS eingebunden. Manche moderne Browser übergeben an den Screenreader ein Unicode-Äquivalent, was bei dekorativen Icons störend ist.
+Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhaltenSie werden per CSS eingebundenManche moderne Browser übergeben an den Screenreader ein Unicode-Äquivalent, was bei dekorativen Icons störend ist.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn als `img`-Element eingebundene Grafiken, Font Icons oder SVGs für Layoutzwecke verwendet werden.
 
-=== 2. Prüfung
+=== 2Prüfung
 
 ==== 2.1 Leere `alt`-Attribute für Layoutgrafiken
 
-. Die Seite im Firefox laden.
-. In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufen. Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
-. Prüfen, ob Layoutgrafiken und dekorative Grafiken leere `alt`-Attribute enthalten. Falls bei solchen Grafiken `title`-Attribute vergeben sind, müssen auch diese leer sein.
-. [#F38]####Zu bemängeln sind komplett fehlende `alt`-Attribute (werden durch die Toolbar-Funktion mit "NoAlt!" gekennzeichnet) und auch Bezeichnungen wie "Abstandshalter", "spacer", "leer" etc. für Layoutgrafiken.
+Die Seite im Firefox laden.
+In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufenAlternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
+Prüfen, ob Layoutgrafiken und dekorative Grafiken leere `alt`-Attribute enthaltenFalls bei solchen Grafiken `title`-Attribute vergeben sind, müssen auch diese leer sein.
+[#F38]Zu bemängeln sind komplett fehlende `alt`-Attribute (werden durch die Toolbar-Funktion mit "NoAlt!" gekennzeichnet) und auch Bezeichnungen wie "Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
 
 ==== 2.2 Dekorative Icon Fonts:
 
 Beim Einsatz von Icon Fonts ist es nicht möglich das leere `alt`-Attribut einzusetzen.
 
-Ein dekoratives Icon wird von assistiven Technologien ignoriert, wenn es mit einem geeigneten Verfahren vor diesen versteckt wird (z.B. `aria-hidde="true"`)
+Ein dekoratives Icon wird von assistiven Technologien ignoriert, wenn es mit einem geeigneten Verfahren vor diesen versteckt wird (z.B`aria-hidde="true"`)
 
 ===== Prüfung
 
-. Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-. Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen Zwecken eingebunden wird.
-. Falls für diese Icons Text ausgegeben wird (z.B. `content: "k"`), prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B. `aria-hidden="true"`).
+Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen Zwecken eingebunden wird.
+Falls für diese Icons Text ausgegeben wird (z.B`content: "k"`), prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B`aria-hidden="true"`).
 
 ==== 2.3 Dekorative SVGs:
 
 ===== Prüfung
 
-. Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-. Mit Firebug prüfen, ob es sich um ein direkt in HTML eingebundene SVG handelt (Inline SVG).
-. Prüfen, ob die Grafik mit `aira-hidden="true"` versteckt wird.
+Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+Mit Firebug prüfen, ob es sich um ein direkt in HTML eingebundene SVG handelt (Inline SVG).
+Prüfen, ob die Grafik mit `aira-hidden="true"` versteckt wird.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt des zusammengesetzten Bildes informiert. Die anderen Teilbilder sollten dann mit leeren `alt`-Attributen versehen sein.
+Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt des zusammengesetzten Bildes informiertDie anderen Teilbilder sollten dann mit leeren `alt`-Attributen versehen sein.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht voll erfüllt:
 
@@ -104,7 +104,7 @@ Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sol
 * Layoutgrafiken sind mit Alternativtexten wie "Platzhalter" oder "leer" versehen.
 * Layoutgrafiken haben `title`-Attribute, die nicht leer sind.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -124,40 +124,40 @@ Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sol
 
 ===== CSS Techniques
 
-* [#C9]####https://www.w3.org/WAI/WCAG21/Techniques/css/C9[C9: Using CSS to include decorative images]
+* [#C9]https://www.w3.org/WAI/WCAG21/Techniques/css/C9[C9: Using CSS to include decorative images]
 
 ===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[F38: Failure of Success Criterion 1.1.1 due to omitting the `alt`-attribute for non-text content used for decorative purposes only in HTML]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null. (e.g. `alt='spacer'` or `alt='image'`) for images that should be ignored by assistive technology]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null(e.g`alt='spacer'` or `alt='image'`) for images that should be ignored by assistive technology]
 
-== [#quellen]####Quellen
+== Quellen
 
 Die WCAG 2.0-Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67] sieht zusätzlich vor, dass bei Layout-Grafiken auch kein `title`-Attribut vorhanden sein soll oder dass das `title`-Attribut leer ist:
 
 ____
 For each image that should be ignored:
 
-. Check that `title` attribute is either absent or empty.
-. Check that `alt` attribute is present and empty or contains only whitespace (but not )
+Check that `title` attribute is either absent or empty.
+Check that `alt` attribute is present and empty or contains only whitespace (but not )
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67: Using null alt text and no title attribute on img elements for images that AT should ignore]
 
-== [#faq]####Fragen zu diesem Prüfschritt
+== Fragen zu diesem Prüfschritt
 
-=== Auf der Seite sind auch Grafiken, die ganz klar informativen Charakter haben, mit leeren `alt`-Attributen versehen. Vermutlich wird automatisch ein leeres `alt`-Attribut erzeugt, wenn zu einem Bild kein entsprechender Text eingegeben worden ist. Zu welchem Prüfschritt gehört das?
+=== Auf der Seite sind auch Grafiken, die ganz klar informativen Charakter haben, mit leeren `alt`-Attributen versehenVermutlich wird automatisch ein leeres `alt`-Attribut erzeugt, wenn zu einem Bild kein entsprechender Text eingegeben worden istZu welchem Prüfschritt gehört das?
 
-So ist das leere `alt`-Attribut für dekorative Grafiken ganz sicher nicht gedacht. Das *leere* `alt`-Attribut ist ja nicht dasselbe wie ein *fehlendes* `alt`-Attribut. Es soll dem Besucher sagen, dass die Grafik keinen wichtigen Inhalt enthält und nur der Dekoration dient. Der Besucher weiß dann, dass er nichts versäumt, wenn er die Grafik nicht sieht. Die automatische Vergabe leerer Alternativtexte für informative Grafiken ist ein Missbrauch des leeren `alt`-Attributs. Sie sorgt dafür, dass man sich auf dieses Kennzeichen nicht mehr verlassen kann.
+So ist das leere `alt`-Attribut für dekorative Grafiken ganz sicher nicht gedachtDas *leere* `alt`-Attribut ist ja nicht dasselbe wie ein *fehlendes* `alt`-AttributEs soll dem Besucher sagen, dass die Grafik keinen wichtigen Inhalt enthält und nur der Dekoration dientDer Besucher weiß dann, dass er nichts versäumt, wenn er die Grafik nicht siehtDie automatische Vergabe leerer Alternativtexte für informative Grafiken ist ein Missbrauch des leeren `alt`-AttributsSie sorgt dafür, dass man sich auf dieses Kennzeichen nicht mehr verlassen kann.
 
 Dies wird nur in Prüfschritt link:/index.php?a=di&iid=65&s=n[1.1.1b] bewertet.
 
 === Warum soll man bei Layoutgrafiken nicht die jeweilige Aufgabe des Bildes, also zum Beispiel "Abstandhalter" in den Alternativtext schreiben?
 
-Wofür sollte das gut sein? Den Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der Alternativtext nicht. Die Information, dass da irgendwo Abstände zwischen Elementen der Seite sind, ist nutzlos. Wie die Elemente auf der Seite angeordnet sind, lässt sich der Tatsache, dass an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
+Wofür sollte das gut seinDen Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der Alternativtext nichtDie Information, dass da irgendwo Abstände zwischen Elementen der Seite sind, ist nutzlosWie die Elemente auf der Seite angeordnet sind, lässt sich der Tatsache, dass an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
 
-Solche Alternativtexte haben also keinen Nutzen. Auf der anderen Seite kann es sehr störend sein, wenn der Screenreader dauernd "Abstandhalter Abstandhalter Abstandhalter ..." vorliest.
+Solche Alternativtexte haben also keinen NutzenAuf der anderen Seite kann es sehr störend sein, wenn der Screenreader dauernd "Abstandhalter Abstandhalter Abstandhalter ..." vorliest.
 
-=== Warum müssen Layoutgrafiken mit leeren `alt`-Attributen versehen werden? Sie werden ohnehin nicht gebraucht, warum also nicht einfach das `alt`-Attribut ganz weglassen?
+=== Warum müssen Layoutgrafiken mit leeren `alt`-Attributen versehen werdenSie werden ohnehin nicht gebraucht, warum also nicht einfach das `alt`-Attribut ganz weglassen?
 
-Leider ist es noch nicht selbstverständlich, dass informative Grafiken mit Alternativtexten versehen sind. Wenn eine Webseite Grafiken ohne Alternativtext enthält, kann der blinde Besucher also nicht davon ausgehen, dass diese Grafiken nur dem Layout dienen und für ihn nicht relevant sind. Daher die Festlegung, dass der Webdesigner Grafiken durch Zuordnung eines leeren `alt`-Attributs ausdrücklich als Layoutgrafiken kennzeichnen soll.
+Leider ist es noch nicht selbstverständlich, dass informative Grafiken mit Alternativtexten versehen sindWenn eine Webseite Grafiken ohne Alternativtext enthält, kann der blinde Besucher also nicht davon ausgehen, dass diese Grafiken nur dem Layout dienen und für ihn nicht relevant sindDaher die Festlegung, dass der Webdesigner Grafiken durch Zuordnung eines leeren `alt`-Attributs ausdrücklich als Layoutgrafiken kennzeichnen soll.

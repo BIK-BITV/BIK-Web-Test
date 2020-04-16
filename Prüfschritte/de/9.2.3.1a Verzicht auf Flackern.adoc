@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=21[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,31 +33,31 @@ Prüfschritt erfüllt
 
 Webseiten enthalten kein Flackern.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Die Seite enthält keine Elemente, die in einem Zeitraum von einer Sekunde häufiger als dreimal aufblitzen.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen einen Anfall auslösen.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-[#G15]####Gibt es auf der Webseite flackernde Inhalte, die nicht spätestens nach dreimaligem Flackern in einem Zeitraum von Sekunde aufhören?
+[#G15]Gibt es auf der Webseite flackernde Inhalte, die nicht spätestens nach dreimaligem Flackern in einem Zeitraum von Sekunde aufhören?
 
-[#G176]####Zur Einschätzung der Größe des flackernden Bereichs kann, wenn nötig, die WCAG 2.1 http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G176#smallsafe1[Formel 1] herangezogen werden.
+[#G176]Zur Einschätzung der Größe des flackernden Bereichs kann, wenn nötig, die WCAG 2.1 http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G176#smallsafe1[Formel 1] herangezogen werden.
 
-=== 3. Hinweis zur Abwertung
+=== 3Hinweis zur Abwertung
 
-Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis der Prüfung abgewertet. Flackern wird dadurch hervorgerufen, dass die Farbe oder das Muster einer Fläche pro Sekunde mindestens 4 mal wechselt.
+Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis der Prüfung abgewertetFlackern wird dadurch hervorgerufen, dass die Farbe oder das Muster einer Fläche pro Sekunde mindestens 4 mal wechselt.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -76,15 +76,15 @@ Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis d
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G15.html[G15: Using a tool to ensure that content does not violate the general flash threshold or red flash threshold]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html[G176: Keeping the flashing area small enough]
 
-== [#quellen]####Quellen
+== Quellen
 
 === Die WCAG 2.1 zu General flash and red flash thresholds
 
 ____
 A flash or rapidly changing image sequence is below the threshold (i.e., content passes) if any of the following are true:
 
-. there are no more than three general flashes and / or no more than three red flashes within any one-second period; or
-. the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance
+there are no more than three general flashes and / or no more than three red flashes within any one-second period; or
+the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance
 
 where:
 
@@ -99,9 +99,9 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-thres
 ____
 Note: The terms "blinking" and "flashing" can sometimes refer to the same content.
 
-* "Blinking" refers to content that causes a distraction problem. Blinking can be allowed for a short time as long as it stops (or can be stopped)
-* "Flashing" refers to content that can trigger a seizure (if it is more than 3 per second and large and bright enough). This cannot be allowed even for a second or it could cause a seizure. And turning the flash off is also not an option since the seizure could occur faster than most users could turn it off.
-* Blinking usually does not occur at speeds of 3 per second or more, but it can. If blinking occurs faster than 3 per second, it would also be considered a flash.
+* "Blinking" refers to content that causes a distraction problemBlinking can be allowed for a short time as long as it stops (or can be stopped)
+* "Flashing" refers to content that can trigger a seizure (if it is more than 3 per second and large and bright enough)This cannot be allowed even for a second or it could cause a seizureAnd turning the flash off is also not an option since the seizure could occur faster than most users could turn it off.
+* Blinking usually does not occur at speeds of 3 per second or more, but it canIf blinking occurs faster than 3 per second, it would also be considered a flash.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[Pause, Stop, Hide: Understanding SC 2.2.2]

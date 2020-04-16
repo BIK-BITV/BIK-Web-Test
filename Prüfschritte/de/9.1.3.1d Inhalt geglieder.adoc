@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=76[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,7 +37,7 @@ Prüfschritt nicht anwendbar
 
 Die Seite enthält keinen zu gliedernden Text und keine Formulare.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Absätze sind mit geeigneten Strukturelementen ausgezeichnet.
 
@@ -45,48 +45,48 @@ Hervorhebungen in Texten sind mit `strong` oder `em` ausgezeichnet.
 
 Text-Inhalt wird nicht per CSS eingebunden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Die Unterteilung in kleinere Einheiten erleichtert die Handhabung und das Verständnis.
 
-Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene festgelegt und zugänglich ist. Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, oder sie können eine eigene, besser passende Präsentation anwenden.
+Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene festgelegt und zugänglich istBenutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, oder sie können eine eigene, besser passende Präsentation anwenden.
 
 Die Auszeichnungen `strong` und `em` sind allgemein und nicht darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle Hervorhebung).
 
 Werden Inhalte per CSS eingebunden, sind sie für Nutzer Assistiver Technologien nicht verfügbar.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn es auf der Seite Absätze gibt.
 
-=== 2. Prüfen
+=== 2Prüfen
 
-==== [#G115]####[#G140]####[#H49]####2.1. Prüfung mit Bookmarklet
+==== [#G115][#G140][#H49]2.1Prüfung mit Bookmarklet
 
-. Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-. Das Bookmarklet http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[Inhalte gegliedert] aufrufen.
-. Prüfen, ob Absätze mit `p` ausgezeichnet sind.
-. [#F2]####Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
+Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+Das Bookmarklet http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[Inhalte gegliedert] aufrufen.
+Prüfen, ob Absätze mit `p` ausgezeichnet sind.
+[#F2]Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
 
-==== 2.2. Missbräuchliche Nutzung von typographischen Zeichen
+==== 2.2Missbräuchliche Nutzung von typographischen Zeichen
 
-. [#F33]####Prüfen, ob Leerzeichen (`&nbsp;`) zur Formatierung von Text benutzt werden (etwa zur Schaffung von Spalten).
-. [#H86]####Prüfen, ob typographische Zeichen, etwa Reihen von Bindestrichen, zur Erzeugung von Trennlinien eingesetzt werden
+[#F33]Prüfen, ob Leerzeichen (`&nbsp;`) zur Formatierung von Text benutzt werden (etwa zur Schaffung von Spalten).
+[#H86]Prüfen, ob typographische Zeichen, etwa Reihen von Bindestrichen, zur Erzeugung von Trennlinien eingesetzt werden
 
-==== 2.3. Einbindung von Text-Inhalt mit Hilfe von CSS
+==== 2.3Einbindung von Text-Inhalt mit Hilfe von CSS
 
-Prüfen, ob über die Pseudo-Elemente :after bzw. :before und der "content"-Eigenschaft Inhalt eingebunden wurde.
+Prüfen, ob über die Pseudo-Elemente :after bzw:before und der "content"-Eigenschaft Inhalt eingebunden wurde.
 
-=== 3. Hinweise
+=== 3Hinweise
 
 * Es soll nicht bewertet werden, ob die vorhandene, sichtbare Gliederung der Seite sinnvoll ist, sondern nur, ob sie mit geeigneten HTML-Strukturelementen umgesetzt wurde.
 * Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften, Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt.
-* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte. Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
+* Die Inhalte von Iframes werden ebenso überprüft wie andere SeiteninhalteDazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
 * Wenn es sich bei dem über CSS eingebundenen Inhalt um Überschriften, Listen oder Tabellen handelt, wird dies in den entsprechenden Prüfschritten bewertet.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -98,7 +98,7 @@ Prüfen, ob über die Pseudo-Elemente :after bzw. :before und der "content"-Eige
 * Leerzeichen (`&nbsp;`) werden zur Schaffung von Spalten eingesetzt.
 * Text-Inhalt wird mit Hilfe von CSS eingebunden.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 

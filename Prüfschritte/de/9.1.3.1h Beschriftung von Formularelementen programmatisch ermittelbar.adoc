@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=79[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,64 +33,64 @@ Prüfschritt erfüllt
 
 Beschriftungen von Formularfeldern sind richtig verknüpft.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Beschriftungen sollen über Markup mit den Formularelementen, die sie beschriften, verknüpft sein.
 
-Bei `label`-Elementen geschieht das über das `for`-Attribut oder den Einschluss des beschrifteten Formularelements in das `label`-Element. Sind Beschriftungen nicht mit dem `label`-Element ausgezeichnet, soll eine Beschriftung des zugehörigen Formularelements auf anderem Weg (etwa über das `aria-labelledby`-Attribut) sichergestellt sein.
+Bei `label`-Elementen geschieht das über das `for`-Attribut oder den Einschluss des beschrifteten Formularelements in das `label`-ElementSind Beschriftungen nicht mit dem `label`-Element ausgezeichnet, soll eine Beschriftung des zugehörigen Formularelements auf anderem Weg (etwa über das `aria-labelledby`-Attribut) sichergestellt sein.
 
-Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden (z.B. mit Hilfe von `fieldset` mit `legend`).
+Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden (z.Bmit Hilfe von `fieldset` mit `legend`).
 
 Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von Formularelementen sollten mit `fieldset` oder mithilfe von Überschriften sinnvoll strukturiert sein.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
 Die Verknüpfung von Beschriftungen mit den zugeordneten Eingabefeldern stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation festgelegt und zugänglich ist:
 
 * Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die Formularelemente wandert.
 * Ein Vorteil der Nutzung nativer `label`-Elemente: Mausnutzer können durch einen Klick auf das Label den Fokus auf das zugeordnete Formularelement setzen.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-==== 2.1. Sind Beschriftungen und Formular-Elemente verküpft?
+==== 2.1Sind Beschriftungen und Formular-Elemente verküpft?
 
-. Mit der Maus auf die Beschriftung von Formular-Elementen klicken und prüfen, ob der Cursor dadurch auf das Formular-Element gesetzt wird.
-. Ist das nicht der Fall, prüfen, ob Beschriftung und Formular-Element mit `aria-labelledby` verknüpft sind oder ein Name für das Formular-Element auf andere Weise programmatisch bereitgestellt wird
+Mit der Maus auf die Beschriftung von Formular-Elementen klicken und prüfen, ob der Cursor dadurch auf das Formular-Element gesetzt wird.
+Ist das nicht der Fall, prüfen, ob Beschriftung und Formular-Element mit `aria-labelledby` verknüpft sind oder ein Name für das Formular-Element auf andere Weise programmatisch bereitgestellt wird
 
-==== 2.2. Prüfung von Gruppen von Formular-Elementen
+==== 2.2Prüfung von Gruppen von Formular-Elementen
 
-. Prüfen, ob visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von Formular-Elementen mithilfe `fieldset` oder Überschriften sinnvoll strukturiert sind.
-. Falls eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig sind, prüfen, ob die Gruppenbeschriftung mit dem `legend`-Element eines `fieldset` oder über eine ausreichend unterstützte Alternative (etwa `role="group"`) ausgezeichnet ist.
+Prüfen, ob visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von Formular-Elementen mithilfe `fieldset` oder Überschriften sinnvoll strukturiert sind.
+Falls eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig sind, prüfen, ob die Gruppenbeschriftung mit dem `legend`-Element eines `fieldset` oder über eine ausreichend unterstützte Alternative (etwa `role="group"`) ausgezeichnet ist.
 
-==== 2.3. Gliederung von Auswahllisten
+==== 2.3Gliederung von Auswahllisten
 
 * Wenn Auswahllisten (`select`) voneinander abgesetzte Gruppen von Optionen enthalten, sind diese mit `optgroup` ausgezeichnet (mit der Web Developer Toolbar > Informationen > Elementinformationen einblenden > Kindelemente überprüfen)
 
-=== 3. Hinweise
+=== 3Hinweise
 
 ==== 3.1 Ergänzende Beschriftungen (etwa über `fieldset` / `legend`)
 
-Auch wenn die Beschriftungen (Labels) der Formularelemente korrekt ausgezeichnet sind, kann es sein, dass diese für sich genommen nicht ausreichen und z.B. eine gemeinsame Überschrift (`legend`-Element eines `fieldset`) für das Verständnis notwendig ist - etwa bei Radio-Inputs mit den Labels "Ja" / "Nein" oder bei Adressen, bei denen es unklar ist, ob es sich um eine Rechnungs- oder eine Versandadresse handelt.
+Auch wenn die Beschriftungen (Labels) der Formularelemente korrekt ausgezeichnet sind, kann es sein, dass diese für sich genommen nicht ausreichen und z.Beine gemeinsame Überschrift (`legend`-Element eines `fieldset`) für das Verständnis notwendig ist - etwa bei Radio-Inputs mit den Labels "Ja" / "Nein" oder bei Adressen, bei denen es unklar ist, ob es sich um eine Rechnungs- oder eine Versandadresse handelt.
 
 ==== 3.2 Kombinierte Formular-Elemente (etwa bei Datumseingabe)
 
-Bei kombinierten Formular-Elementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehen. Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
+Bei kombinierten Formular-Elementen hat nicht immer jedes Element eine zugeordnete BeschriftungIn diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werdenBeispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr)Die drei Auswahllisten haben eine gemeinsame Beschriftung: DatumDie Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehenAlternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
 
-==== 3.3 Suchfeld mit nachfolgenem Button bzw. Input
+==== 3.3 Suchfeld mit nachfolgenem Button bzwInput
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button sichtbar nebeneinander (und im Quellcode nacheinander) positioniert sind, das Eingabefeld eine Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen" oder Lupen-Icon mit aussagekräftigem Alternativtext). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut, ein verküpftes verstecktes Label oder ein `aria-label`-Attriut haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendigHier ist es ausreichend, wenn Eingabefeld und Button sichtbar nebeneinander (und im Quellcode nacheinander) positioniert sind, das Eingabefeld eine Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen" oder Lupen-Icon mit aussagekräftigem Alternativtext)Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut, ein verküpftes verstecktes Label oder ein `aria-label`-Attriut haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
 
 ==== 3.4 Zusätzliche Beschriftungen
 
 Sichtbare zusätzliche erklärende Beschriftungen sollten über `aria-describedby` mit betreffenden Formular-Element verknüpft sein.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht erfüllt
 
@@ -102,11 +102,11 @@ Sichtbare zusätzliche erklärende Beschriftungen sollten über `aria-describedb
 * Zum Verständnis wichtige zusätzliche Beschriftungen sind nicht programmatisch ermittelbar (etwa durch Verknüpfung über `aria-describedby`).
 * Hierarchische Auswahllisten sind mit Dummy-Einträgen oder Einrückung durch Leerzeichen oder Bindestriche gegliedert statt mit `optgroup`.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Ob die Beschriftungen von Formular-Elementen (auch bei Nutzung von Gruppenüberschriften als Ergänzung der unmittelbaren Beschriftungen) hinreichend aussagekräftig sind, wird in Prüfschritt link:/index.php?a=di&iid=80&s=n[2.4.6a] "Aussagekräftige Überschriften und Beschriftungen" geprüft. Hier geht es um die programmatische Ermittelbarkeit.
+* Ob die Beschriftungen von Formular-Elementen (auch bei Nutzung von Gruppenüberschriften als Ergänzung der unmittelbaren Beschriftungen) hinreichend aussagekräftig sind, wird in Prüfschritt link:/index.php?a=di&iid=80&s=n[2.4.6a] "Aussagekräftige Überschriften und Beschriftungen" geprüftHier geht es um die programmatische Ermittelbarkeit.
 * Ob die sichtbare Beschriftung überhaupt vorhanden ist, wird in Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Beschriftungen von Formularelementen vorhanden" geprüft.
 * Ob die sichtbare Beschriftung im zugänglichen Namen des Formularelements vorkommt, wird in Prüfschritt link:/index.php?a=di&iid=117&s=n[2.5.3a] "Sichtbare Beschriftung Teil des zugänglichen Namens" geprüft.
 
@@ -143,7 +143,7 @@ Sichtbare zusätzliche erklärende Beschriftungen sollten über `aria-describedb
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F87.html[F87: Failure of Success Criterion 1.3.1 due to inserting non-decorative content by using :before and :after pseudo-elements and the 'content' property in CSS]
 
-== [#quellen]####Quellen
+== Quellen
 
 === W3C Web Accessibility Tutorials: Forms
 

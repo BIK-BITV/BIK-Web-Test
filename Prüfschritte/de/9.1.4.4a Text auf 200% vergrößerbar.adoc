@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=87[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,64 +37,64 @@ Prüfschritt nicht anwendbar
 
 Texte sind nicht vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
-Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Eine der folgenden Voraussetzung soll erfüllt sein:
+Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren gehtEine der folgenden Voraussetzung soll erfüllt sein:
 
 * Mit der Zoom-Funktion des Browsers kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
 * Mit der Nur-Text-Vergrößerung im Browser kann der Text vergrößert werden.
 * Über ein Bedienelement der Seite kann die Schriftgröße vergrößert werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Browser bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Layouts.
+Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen könnenDie gängigen Browser bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Layouts.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 
-=== 2. Prüfung
+=== 2Prüfung
 
 ==== 2.1 Prüfung der Zoomvergrößerung über Browser-Einstellungen
 
-. Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen. Falls nötig unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ deaktivieren. Mithilfe der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Browserfenstergröße auf 1280x768 einstellen (_Größe ändern > ..._).
-. Sechs Mal die Tastenkombination _Strg + +_ drücken, um das Layout um 200% zu zoomen (alternativ sechs mal _Ansicht > Zoom > Vergrößern_ wählen). Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
-. [#G142]####Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufen. Falls nötig die Schriftgröße unter _Seite > Textgröße_ auf _Mittel_ stellen. Die Browserfenstergröße auf 1280x768 einstellen (entsprechend Firefox-Browserfenster).
-. [#G179]####[#C20]####Unter _Seite > Zoom_ die Option _200%_ wählen. Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
+Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufenFalls nötig unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ deaktivierenMithilfe der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Browserfenstergröße auf 1280x768 einstellen (_Größe ändern > ..._).
+Sechs Mal die Tastenkombination _Strg + +_ drücken, um das Layout um 200% zu zoomen (alternativ sechs mal _Ansicht > Zoom > Vergrößern_ wählen)Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
+[#G142]Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufenFalls nötig die Schriftgröße unter _Seite > Textgröße_ auf _Mittel_ stellenDie Browserfenstergröße auf 1280x768 einstellen (entsprechend Firefox-Browserfenster).
+[#G179][#C20]Unter _Seite > Zoom_ die Option _200%_ wählenPrüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
 
 ==== 2.2 Prüfung der Schriftvergrößerung über Browser-Einstellungen
 
-. Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen. Mithilfe der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Browserfenstergröße auf 1280x768 einstellen (_Größe ändern > ..._). Unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ aktivieren. Sechsmal die Tastenkombination _Strg + +_ drücken, um die Schrift um 200% zu vergrößern (alternativ sechsmal _Ansicht > Zoom > Vergrößern_ wählen).
-. [#C12]####[#C13]####[#C14]####[#C28]####Überprüfen, ob sich die Größe von allen Schriften ändert.
+Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufenMithilfe der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Browserfenstergröße auf 1280x768 einstellen (_Größe ändern > ..._)Unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ aktivierenSechsmal die Tastenkombination _Strg + +_ drücken, um die Schrift um 200% zu vergrößern (alternativ sechsmal _Ansicht > Zoom > Vergrößern_ wählen).
+[#C12][#C13][#C14][#C28]Überprüfen, ob sich die Größe von allen Schriften ändert.
 +
-Wenn sich die Größe von einigen Schriften nicht ändert: Überprüfen, ob diese Schriften sehr groß sind. Sie sind sehr groß, wenn sie mindestens genauso groß sind, wie die größte der auf _Sehr groß_ skalierten relativ definierten Schriften.
-. [#C17]####[#F80]####Falls die Seite Formulare mit Texteingabefeldern enthält: Text in ein Feld eingeben und prüfen, ob auch diese Schrift in der Größe anpassbar ist.
-. [#G146]####[#G179]####[#SCR34]####[#F69]####Überprüfen, ob alle Texte noch sichtbar und lesbar sind. Sie sollen vollständig dargestellt werden, ohne dass es zu Überlappungen kommt oder dass Textteile abgeschnitten werden. Die Zeilenhöhe soll sich der Schriftgröße anpassen.
+Wenn sich die Größe von einigen Schriften nicht ändert: Überprüfen, ob diese Schriften sehr groß sindSie sind sehr groß, wenn sie mindestens genauso groß sind, wie die größte der auf _Sehr groß_ skalierten relativ definierten Schriften.
+[#C17][#F80]Falls die Seite Formulare mit Texteingabefeldern enthält: Text in ein Feld eingeben und prüfen, ob auch diese Schrift in der Größe anpassbar ist.
+[#G146][#G179][#SCR34][#F69]Überprüfen, ob alle Texte noch sichtbar und lesbar sindSie sollen vollständig dargestellt werden, ohne dass es zu Überlappungen kommt oder dass Textteile abgeschnitten werdenDie Zeilenhöhe soll sich der Schriftgröße anpassen.
 +
-[#C20]####Prüfen, ob Fließtexte ohne zeilenweises waagerechtes Scrollen gelesen werden können. Das bloße Vorhandensein des Querscrollbalkens wird nicht negativ bewertet. Vielmehr kommt es darauf an, dass alle Fließtexte ohne dauerndes waagerechtes Scrollen gelesen werden können. Der waagerechte Scrollbalken wird dafür so eingestellt, dass der Inhalt der breitesten Spalte im Fenster angezeigt wird. Kann der Fließtext in dieser Ausrichtung gelesen werden, ohne bei jeder einzelnen Zeile den waagerechten Scrollbalken nach links und rechts zu verschieben?
-. Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufen. Falls nötig unter _Seite > Zoom_ die Option _100%_ wählen. Die Browserfenstergröße auf 1280x768 einstellen (entsprechend Firefox-Browserfenster). Unter _Seite > Textgröße_ die Option _Sehr groß_ wählen. Wie in Schritt 4. beschrieben prüfen.
+[#C20]Prüfen, ob Fließtexte ohne zeilenweises waagerechtes Scrollen gelesen werden könnenDas bloße Vorhandensein des Querscrollbalkens wird nicht negativ bewertetVielmehr kommt es darauf an, dass alle Fließtexte ohne dauerndes waagerechtes Scrollen gelesen werden könnenDer waagerechte Scrollbalken wird dafür so eingestellt, dass der Inhalt der breitesten Spalte im Fenster angezeigt wirdKann der Fließtext in dieser Ausrichtung gelesen werden, ohne bei jeder einzelnen Zeile den waagerechten Scrollbalken nach links und rechts zu verschieben?
+Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufenFalls nötig unter _Seite > Zoom_ die Option _100%_ wählenDie Browserfenstergröße auf 1280x768 einstellen (entsprechend Firefox-Browserfenster)Unter _Seite > Textgröße_ die Option _Sehr groß_ wählenWie in Schritt 4beschrieben prüfen.
 
-==== [#2.2.3]####2.3 Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
+==== [#2.2.3]2.3 Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
 
-[#G178]####[#C29]####Wenn die Seite eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
+[#G178][#C29]Wenn die Seite eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
 
-. Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Seite angeboten werden.
-. Prüfen, ob die Schrift mit Hilfe der auf der Seite angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine Rolle).
-. Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
+Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Seite angeboten werden.
+Prüfen, ob die Schrift mit Hilfe der auf der Seite angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine Rolle).
+Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
 
-=== 3. Hinweise
+=== 3Hinweise
 
 ==== 3.1 Hinweise zur Prüfung der Zoomvergrößerung über Browser-Einstellungen
 
-* Wenn bei Nutzung der Zoom-Funktion am Desktop das Layout für mobile Geräte ausgeliefert wird, sollten auch in diesem Layout alle Anforderungen der Barrierefreiheit erfüllt sein. Probleme in dieser Ansicht werden bei den jeweils relevanten Prüfschritten bewertet.
+* Wenn bei Nutzung der Zoom-Funktion am Desktop das Layout für mobile Geräte ausgeliefert wird, sollten auch in diesem Layout alle Anforderungen der Barrierefreiheit erfüllt seinProbleme in dieser Ansicht werden bei den jeweils relevanten Prüfschritten bewertet.
 
 ==== 3.2 Hinweise zur Prüfung der Schriftvergrößerung über Browser-Einstellungen
 
-* Bei der Prüfung reiner Schriftvergrößerung geht es nur um Textschriften. Ob grafische Schriften vorhanden sind, ist für die Bewertung nicht relevant.
-* Die Anpassung des Layouts an veränderte Schriftgrößen wird in bestimmten Fällen (zum Beispiel bei `select`-Auswahlmenüs) erst nach dem Neuladen der Seite wirksam. Dies gilt nicht als Mangel, die Seite muss also im Zweifelsfall neu geladen werden.
-* Damit die Schrift in Texteingabefeldern im Internet Explorer skalierbar ist, muss im Stylesheet für die entsprechenden Elemente explizit eine relative Schriftgröße angegeben werden (zum Beispiel 1em oder 100%). Wird gar keine Angabe zur Schriftgröße gemacht, ist die Formularfeld-Schriftgröße im Internet Explorer nicht veränderbar.
+* Bei der Prüfung reiner Schriftvergrößerung geht es nur um TextschriftenOb grafische Schriften vorhanden sind, ist für die Bewertung nicht relevant.
+* Die Anpassung des Layouts an veränderte Schriftgrößen wird in bestimmten Fällen (zum Beispiel bei `select`-Auswahlmenüs) erst nach dem Neuladen der Seite wirksamDies gilt nicht als Mangel, die Seite muss also im Zweifelsfall neu geladen werden.
+* Damit die Schrift in Texteingabefeldern im Internet Explorer skalierbar ist, muss im Stylesheet für die entsprechenden Elemente explizit eine relative Schriftgröße angegeben werden (zum Beispiel 1em oder 100%)Wird gar keine Angabe zur Schriftgröße gemacht, ist die Formularfeld-Schriftgröße im Internet Explorer nicht veränderbar.
 
 ==== 3.3 Hinweise zur Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
 
@@ -102,7 +102,7 @@ Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter fo
 
 * Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -112,7 +112,7 @@ Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter fo
 
 * Bedienelemente für die Schriftvergrößerung werden auf der Seite angeboten, aber sie sind nicht oben auf der Seite platziert, es kommt bei der Nutzung zu Überlappungen von Text, oder Inhalte werden abgeschnitten.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
@@ -154,12 +154,12 @@ Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter fo
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F69.html[F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F80.html[F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%]
 
-== [#quellen]####Quellen
+== Quellen
 
 === WCAG 2.1 über die Skalierung von Text
 
 ____
-The scaling of content is primarily a user agent responsibility. User agents that satisfy UAAG 1.0 Checkpoint 4.1 allow users to configure text scale. The author's responsibility is to create Web content that does not prevent the user agent from scaling the content effectively. Authors may satisfy this Success Criterion by verifying that content does not interfere with user agent support for resizing text, including text-based controls, or by providing direct support for resizing text or changing the layout. An example of direct support might be via server-side script that can be used to assign different style sheets.
+The scaling of content is primarily a user agent responsibilityUser agents that satisfy UAAG 1.0 Checkpoint 4.1 allow users to configure text scaleThe author's responsibility is to create Web content that does not prevent the user agent from scaling the content effectivelyAuthors may satisfy this Success Criterion by verifying that content does not interfere with user agent support for resizing text, including text-based controls, or by providing direct support for resizing text or changing the layoutAn example of direct support might be via server-side script that can be used to assign different style sheets.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text: Understanding SC 1.4.4]
@@ -167,30 +167,30 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text
 === Die WCAG 2.1 zur Nutzung absoluter und relativer Maßeinheiten für Text
 
 ____
-(...) specify text font size in `em` units so that user agents can scale content effectively. Since the `em` is a property of the font, it scales as the font changes size. If a font-size is specified for the body element, all other elements inherit that value, unless overridden by a more specific selector.
+(...) specify text font size in `em` units so that user agents can scale content effectivelySince the `em` is a property of the font, it scales as the font changes sizeIf a font-size is specified for the body element, all other elements inherit that value, unless overridden by a more specific selector.
 
 When font size is given in absolute units of measurement, such as points or pixels, the Text Size menu commands in Internet Explorer 7 and earlier do not resize the text.
 
-Internet Explorer 7 only changes the text size when the CSS is defined in a style element (...). When using inline style with the `style` attribute, the text size change is not supported.
+Internet Explorer 7 only changes the text size when the CSS is defined in a style element (...)When using inline style with the `style` attribute, the text size change is not supported.
 ____
 
 Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14: Using em units for font sizes]
 
-== [#faq]####Fragen zu diesem Prüfschritt
+== Fragen zu diesem Prüfschritt
 
-=== Die Vergrößerung der Schrift ist weniger wichtig, wenn die Ausgangsschriftgrößen der Webseite bereits groß genug sind. Sollte das nicht berücksichtigt werden?
+=== Die Vergrößerung der Schrift ist weniger wichtig, wenn die Ausgangsschriftgrößen der Webseite bereits groß genug sindSollte das nicht berücksichtigt werden?
 
-Der BITV-Test berücksichtigt die tatsächlichen Schriftgrößen nicht, geprüft wird nur die Änderbarkeit. Für Seiten mit großen Ausgangsschriften (oder für Seiten, die in großen Schritten vergrößern) ist die Prüfanforderung also nicht so leicht zu erfüllen.
+Der BITV-Test berücksichtigt die tatsächlichen Schriftgrößen nicht, geprüft wird nur die ÄnderbarkeitFür Seiten mit großen Ausgangsschriften (oder für Seiten, die in großen Schritten vergrößern) ist die Prüfanforderung also nicht so leicht zu erfüllen.
 
 Die Begründung:
 
-Die BITV verlangt keine Mindestgröße für Schriften. Und was wichtiger ist: es gibt unterschiedliche Auffassungen zur der Frage, wie groß Ausgangsschriftgrößen sein sollen:
+Die BITV verlangt keine Mindestgröße für SchriftenUnd was wichtiger ist: es gibt unterschiedliche Auffassungen zur der Frage, wie groß Ausgangsschriftgrößen sein sollen:
 
-* Idealerweise wären die Ausgangsschriftgrößen aller Webangebote ähnlich. Denn dann könnte jeder Benutzer in seinem Browser die für ihn passende Schriftgröße einstellen. Diese Einstellung müsste nicht geändert werden, sie wäre für alle Webangebote passend.
-* Sehr große Ausgangsschriften sind unter Umständen nicht gut zu nutzen. Und zwar auch für Benutzer, die große Schriften brauchen. Denn diese Benutzer haben ihren Computer oder ihren Browser meist schon so eingerichtet, daß Schriften größer dargestellt werden. Die extrem große Ausgangsschrift ist dann zu viel des Guten.
+* Idealerweise wären die Ausgangsschriftgrößen aller Webangebote ähnlichDenn dann könnte jeder Benutzer in seinem Browser die für ihn passende Schriftgröße einstellenDiese Einstellung müsste nicht geändert werden, sie wäre für alle Webangebote passend.
+* Sehr große Ausgangsschriften sind unter Umständen nicht gut zu nutzenUnd zwar auch für Benutzer, die große Schriften brauchenDenn diese Benutzer haben ihren Computer oder ihren Browser meist schon so eingerichtet, daß Schriften größer dargestellt werdenDie extrem große Ausgangsschrift ist dann zu viel des Guten.
 
 Die Orientierung an im Web üblichen Schriftgrößen ist also sinnvoll.
 
-Aber auch große Ausgangsschriften sind vorteilhaft. Auch für Besucher, die nicht wissen, wie man die Schrift vergrößert, sind sie groß genug. Das betrifft übrigens nicht nur Internet-Neulinge, es kann jedem passieren: man ist unterwegs, der verfügbare Browser ist einem nicht vertraut oder er hat überhaupt keine entsprechenden Einstellmöglichkeiten.
+Aber auch große Ausgangsschriften sind vorteilhaftAuch für Besucher, die nicht wissen, wie man die Schrift vergrößert, sind sie groß genugDas betrifft übrigens nicht nur Internet-Neulinge, es kann jedem passieren: man ist unterwegs, der verfügbare Browser ist einem nicht vertraut oder er hat überhaupt keine entsprechenden Einstellmöglichkeiten.
 
 Am besten ist es also, wenn sich Webangebote an der Obergrenze der im Web üblichen Schriftgrößen orientieren.

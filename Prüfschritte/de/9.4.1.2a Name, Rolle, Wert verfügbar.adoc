@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=100[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,52 +37,52 @@ Prüfschritt nicht anwendbar
 
 Die Seite enthält keine interaktiven Bedienelemente.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
-Alle selbst gestalteten Komponenten einer Website (also Elemente oder Widgets, die nicht auf interaktiven HTML-Elementen beruhen) sind so umgesetzt, dass die semantischen Informationen (Name, Rolle, Eigenschaften) vorhanden sind. Werden nicht semantische Elemente (etwa `div` oder `span`) eingesetzt und mithilfe von JavaScript zu Bedienelmenten umfunktioniert, wird die Semantik mithilfe von WAI-ARIA bereitgestellt.
+Alle selbst gestalteten Komponenten einer Website (also Elemente oder Widgets, die nicht auf interaktiven HTML-Elementen beruhen) sind so umgesetzt, dass die semantischen Informationen (Name, Rolle, Eigenschaften) vorhanden sindWerden nicht semantische Elemente (etwa `div` oder `span`) eingesetzt und mithilfe von JavaScript zu Bedienelmenten umfunktioniert, wird die Semantik mithilfe von WAI-ARIA bereitgestellt.
 
 Die wechselnden Zustände der Bedienelemente werden nicht nur visuell über CSS und Javascript abgebildet, sondern auch über scriptgesteuerte Änderung der Werte der ARIA-Attriubte, damit die Semantik auch bei nicht-visueller Nutzung verfügbar ist.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Standard-HTML-Bedienelemente wie Links (`a`-Element) und Formularelemente (`input`, `button`, checkbox etc.) haben Namen, Rollen, Wert und Zustände, sofern sie gemäß Spezifikation umgesetzt sind und sind für Hilfsmittel wie Screenreader generell erkennbar. So bekommen etwa blinde Nutzer mit, wenn sie auf einen Link tabben und können diesem dann folgen. Auch Zustände, beispielsweise einer Checkbox (ausgewählt oder nicht ausgewählt) werden vermittelt. Interaktive Schaltflächen sollten deshalb mit Hilfe von geeigneten HTML-Elementen umgesetzt werden, damit ihre Bedeutung klar wird.
+Standard-HTML-Bedienelemente wie Links (`a`-Element) und Formularelemente (`input`, `button`, checkbox etc.) haben Namen, Rollen, Wert und Zustände, sofern sie gemäß Spezifikation umgesetzt sind und sind für Hilfsmittel wie Screenreader generell erkennbarSo bekommen etwa blinde Nutzer mit, wenn sie auf einen Link tabben und können diesem dann folgenAuch Zustände, beispielsweise einer Checkbox (ausgewählt oder nicht ausgewählt) werden vermitteltInteraktive Schaltflächen sollten deshalb mit Hilfe von geeigneten HTML-Elementen umgesetzt werden, damit ihre Bedeutung klar wird.
 
-Falls ungeeignete (weil nicht semantische) Elemente (etwa `div` oder `span`) mithilfe von JavaScript zu Links oder Bedienelementen umfunktioniert werden, kann die Semantik mit Hilfe von WAI-ARIA bereit gestellt werden. Dies betrifft auch Komponenten (Widgets wie z.B. Tabpanels, Akkordeons etc.), die in nativem HTML so nicht zur Verfügung stehen und mit Hilfe von nicht semantischen Elementen und Scripten umgesetzt sind. WAI-ARIA Attribute helfen, diese zu verstehen, indem semantische Informationen vom Browser an die Hilfsmitteltechnologien übermittelt werden.
+Falls ungeeignete (weil nicht semantische) Elemente (etwa `div` oder `span`) mithilfe von JavaScript zu Links oder Bedienelementen umfunktioniert werden, kann die Semantik mit Hilfe von WAI-ARIA bereit gestellt werdenDies betrifft auch Komponenten (Widgets wie z.BTabpanels, Akkordeons etc.), die in nativem HTML so nicht zur Verfügung stehen und mit Hilfe von nicht semantischen Elementen und Scripten umgesetzt sindWAI-ARIA Attribute helfen, diese zu verstehen, indem semantische Informationen vom Browser an die Hilfsmitteltechnologien übermittelt werden.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite interaktive Bedienelemente (Links, Formularelemente, oder programmierte Elemente, die auf `onclick` oder andere Event Handler reagieren) enthält.
 
-=== 2. Prüfung
+=== 2Prüfung
 
-. Seite im Firefox Browser aufrufen
-. Bedienelemente der Seite auf korrekte Semantik prüfen:
-* Gibt es offensichtliche Links oder Schaltflächen ohne `href`-Attribut? Dies lässt sich z.B. mit Hilfe der http://www.bitvtest.de/werkzeugliste-2011#webdeveloper[Web Developer Toolbar] über die Funktion _Information_ > _Verweisdetails anzeigen (display link details)_ feststellen.
+Seite im Firefox Browser aufrufen
+Bedienelemente der Seite auf korrekte Semantik prüfen:
+* Gibt es offensichtliche Links oder Schaltflächen ohne `href`-AttributDies lässt sich z.Bmit Hilfe der http://www.bitvtest.de/werkzeugliste-2011#webdeveloper[Web Developer Toolbar] über die Funktion _Information_ > _Verweisdetails anzeigen (display link details)_ feststellen.
 * Gibt es Formularelemente wie Checkboxen oder Radio-Buttons, die von der systemüblichen Darstellung abweichen, da sie mit anderen Elementen wie `div` oder `img` nachgebildet wurden?
 * Gibt es auf der Seite selbstgebaute Widgets wie etwa Schieberegler oder Tabpanels?
-. Mittels Developer Tools prüfen, ob über WAI-ARIA Name, Eigenschaften und gegebenenfalls Zustände abgebildet werden. Zustandsänderungen müssen durch Änderungen der Attribute-Werte reflektiert werden.
-. Grafische Zustandsänderungen durch den geskripteten Austausch von Bildern, die anstelle von Bedienelementen eingesetzt werden, müssen auch für Hilfsmittel verfügbare sinnvolle Änderungen von `alt`-Attributen bzw. WAI-ARIA Eigenschaften erzeugen.
+Mittels Developer Tools prüfen, ob über WAI-ARIA Name, Eigenschaften und gegebenenfalls Zustände abgebildet werdenZustandsänderungen müssen durch Änderungen der Attribute-Werte reflektiert werden.
+Grafische Zustandsänderungen durch den geskripteten Austausch von Bildern, die anstelle von Bedienelementen eingesetzt werden, müssen auch für Hilfsmittel verfügbare sinnvolle Änderungen von `alt`-Attributen bzwWAI-ARIA Eigenschaften erzeugen.
 
-=== 3. Hinweise
+=== 3Hinweise
 
 * Im Zweifelsfall die https://www.w3.org/TR/wai-aria-practices-1.1/[WAI-ARIA Authoring Practices 1.1] konsultieren.
-* Unsemantische Elemente wie span oder `div` sind nur dann mit der Tastatur fokussierbar, wenn das `tabindex`-Attribut gesetzt wurde. Falls das nicht der Fall ist, müssen Elemente also gegebenenfalls mit dem Cursor-Werkzeug des aViewers untersucht werden.
+* Unsemantische Elemente wie span oder `div` sind nur dann mit der Tastatur fokussierbar, wenn das `tabindex`-Attribut gesetzt wurdeFalls das nicht der Fall ist, müssen Elemente also gegebenenfalls mit dem Cursor-Werkzeug des aViewers untersucht werden.
 
-Für die Prüfung von komplexen Widgets sollte der Screenreader ergänzend genutzt werden. Ansonsten ist die stichprobenartige Prüfung mit dem Hilfsmittel sinnvoll.
+Für die Prüfung von komplexen Widgets sollte der Screenreader ergänzend genutzt werdenAnsonsten ist die stichprobenartige Prüfung mit dem Hilfsmittel sinnvoll.
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Nicht erfüllt:
 
 Wichtige Bedienelemente sind mit unsemantischen HTML-Elementen oder `a`-Elementen ohne `href`-Attribut umgesetzt, ohne dass die Semantik mit WAI-ARIA nachgebildet wurde.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit geskripteter Bedienelemente. Dies ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar".
+In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit geskripteter BedienelementeDies ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar".
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -121,7 +121,7 @@ In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F59.html[F59: Failure of Success Criterion 4.1.2 due to using script to make div or span a user interface control in HTML]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F79.html[F79: Failure of Success Criterion 4.1.2 due to the focus state of a user interface component not being programmatically determinable or no notification of change of focus state available]
 
-== [#quellen]####Quellen
+== Quellen
 
 === WAI-ARIA Spezifikation
 

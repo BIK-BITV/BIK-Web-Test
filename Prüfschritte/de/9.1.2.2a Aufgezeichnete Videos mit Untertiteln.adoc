@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=67[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -37,41 +37,41 @@ Prüfschritt nicht anwendbar
 
 Es sind keine aufgezeichneten Videos vorhanden.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
 Wenn die Tonspur eines aufgezeichneten Videos Informationen enthält, müssen Untertitel als Alternative bereitgestellt werden.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch Untertitel bereitgestellt werden.
+Filme sind in der Regel ohne den Ton nicht zu verstehenDaher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch Untertitel bereitgestellt werden.
 
 Untertitel können auch für andere Nutzer hilfreich sein, zum Beispiel für Personen, die mit der Sprache des Films nicht vertraut sind.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn aufgezeichnete Videos mit synchroner Bild- und Tonspur vorhanden sind.
-* Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für sie nicht anwendbar. Alternativen für Videos ohne Tonspur werden in Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen" geprüft.
+* Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für sie nicht anwendbarAlternativen für Videos ohne Tonspur werden in Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen" geprüft.
 
-=== [#G87]####[#G93]####2. Prüfung auf Untertitel
+=== [#G87][#G93]2Prüfung auf Untertitel
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
-. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
-. [#F8]####[#F75]####Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen. Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
+Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
+Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
+[#F8][#F75]Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechenDies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
 
-=== 3. Prüfung von Videos als Medienalternative
+=== 3Prüfung von Videos als Medienalternative
 
 Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende Medienalternative zu einem Text angeboten wird.
 
-. [#F74]####Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige Textversion verweist und diese entweder in unmittelbarer Nachbarschaft verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
-. Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton transportiert . Wenn das Video wichtige über den Textinhalt hinausgehende Informationen trägt, ist das Video keine Medienalternative, es braucht Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] "Audiodeskription für Videos").
+[#F74]Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige Textversion verweist und diese entweder in unmittelbarer Nachbarschaft verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
+Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton transportiert Wenn das Video wichtige über den Textinhalt hinausgehende Informationen trägt, ist das Video keine Medienalternative, es braucht Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] "Audiodeskription für Videos").
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
-* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte Untertitel, die alle Informationen der Tonspur enthalten. Dazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
+* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte Untertitel, die alle Informationen der Tonspur enthaltenDazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
 
 ==== Teilweise erfüllt
 
@@ -86,7 +86,7 @@ Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende Med
 
 * Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist ebenfalls nicht verhanden.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
@@ -96,7 +96,7 @@ Die Untertitelung von Live-Videos wird in Prüfschritt 1.2.4a geprüft.
 
 ==== Stumme Videodateien
 
-Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und akustischen Informationen. Der Prüfschritt ist relevant, wenn für das Verständnis eines Elements die parallele Wahrnehmung von Bild und Ton erforderlich ist. Ein einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann nicht (mehr) ausreichend. Stumme Video-Dateien werden im Prüfschritt Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Alternativen für Audiodateien und stumme Videos" geprüft.
+Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und akustischen InformationenDer Prüfschritt ist relevant, wenn für das Verständnis eines Elements die parallele Wahrnehmung von Bild und Ton erforderlich istEin einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann nicht (mehr) ausreichendStumme Video-Dateien werden im Prüfschritt Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Alternativen für Audiodateien und stumme Videos" geprüft.
 
 ==== Alternativtexte für Objekte
 
@@ -134,7 +134,7 @@ Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder App
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F74[F74: Failure of SC1.2.2 and 1.2.8 due to not labeling a synchronized media alternative to text as an alternative]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F75[F75: Failure of Success Criterion 1.2.2 by providing synchronized media without captions when the synchronized media presents more information than is presented on the page]
 
-== [#quellen]####Quellen
+== Quellen
 
 === BIK für Alle: Leitfaden barrierefreie Online-Videos
 
@@ -149,7 +149,7 @@ Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder App
 === Zum Stellenwert von Untertiteln und Gebärdensprache:
 
 ____
-Sign languages for the Deaf (I know of three used in english-speaking countries besides "signed english") normally have their own grammar and syntax, their own ways of adding emphasis or modifying the "tone" of a statement. They are generally recognised as being languages in their own right, and not just a pictorial representation of words in a spoken language. Which brings up all the problems associated with translation - it is not easy, and automatic translators are still quite primitive.
+Sign languages for the Deaf (I know of three used in english-speaking countries besides "signed english") normally have their own grammar and syntax, their own ways of adding emphasis or modifying the "tone" of a statementThey are generally recognised as being languages in their own right, and not just a pictorial representation of words in a spoken languageWhich brings up all the problems associated with translation - it is not easy, and automatic translators are still quite primitive.
 
 This explains why sign language users (not all people who are deaf are sign users) generally prefer sign language interpretation to captioning - with captions they have to read what amounts to a foreign language, and reading text is not a skill that is easy to acquire without hearing (since it is based on an abstract representation of the sound of a language, whereas sign languages tend to be based on an abstract representation of visual experience of the world, and since sign languages generally don't have a written form).
 
@@ -160,8 +160,8 @@ ____
 
 Quelle: http://lists.w3.org/Archives/Public/w3c-wai-ig/2003JulSep/0222.html
 
-== [#faq]####Fragen zu diesem Prüfschritt
+== Fragen zu diesem Prüfschritt
 
 === Können an Stelle der Untertitel auch Filme mit gebärdensprachlicher Darstellung eingeblendet werden?
 
-Solche Filme sind hilfreich für Personen, die über Gebärdensprache kommunizieren. Meist sind das Personen, die gehörlos geboren oder schon früh ertaubt sind. Dagegen können Personen, die erst im Alter ertaubt sind, in der Regel nicht über Gebärdensprache kommunizieren. Sie benötigen Untertitel. Gebärdensprachliche Darstellungen sind also kein Ersatz für die Untertitel.
+Solche Filme sind hilfreich für Personen, die über Gebärdensprache kommunizierenMeist sind das Personen, die gehörlos geboren oder schon früh ertaubt sindDagegen können Personen, die erst im Alter ertaubt sind, in der Regel nicht über Gebärdensprache kommunizierenSie benötigen UntertitelGebärdensprachliche Darstellungen sind also kein Ersatz für die Untertitel.

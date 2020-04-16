@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 [[multileiste]]
 link:/index.php?a=eb&iid=89[die bisherigen Bewertungen für dieses Prüfschritt]
 
-[.stopFloat]##
+[.stopFloat]
 
-== [#technische-angaben]####Technische Angaben
+== Technische Angaben
 
 Version
 
@@ -33,40 +33,40 @@ Prüfschritt erfüllt
 
 Der Inhalt führt nicht zu einer Tastaturfalle.
 
-== [#was-wird-geprueft]####Was wird geprüft?
+== Was wird geprüft?
 
-Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.
+Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch von diesem Element wieder wegbewegt werden könnenDer Inhalt darf keine Tastaturfalle erzeugen.
 
-== [#warum-wird-das-geprueft]####Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich sein.
+Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich sein.
 
 Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
 
-== [#wie-wird-geprueft]####Wie wird geprüft?
+== Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#G202]####2. Prüfung
+=== [#G202]2Prüfung
 
-. Seite im Firefox Browser aufrufen.
-. Mit der Tabulatortaste die Links und Formularelemente durchgehen.
-. Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen werden können.
-. Seite in Chrome aufrufen und Schritte 1 bis 2 wiederholen.
+Seite im Firefox Browser aufrufen.
+Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen werden können.
+Seite in Chrome aufrufen und Schritte 1 bis 2 wiederholen.
 
-=== 3. Hinweise
+=== 3Hinweise
 
-==== 3.1. Allgemeine Hinweise
+==== 3.1Allgemeine Hinweise
 
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursacht. Die Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursachtDie Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
 
-==== 3.2. Hinweise zu Tastaturfallen
+==== 3.2Hinweise zu Tastaturfallen
 
 * Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle erreicht, dann ist eventuell auch Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" nicht erfüllt!
 
-=== 4. Bewertung
+=== 4Bewertung
 
 ==== Erfüllt:
 
@@ -76,7 +76,7 @@ Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScri
 
 * Wesentliche Inhalte und Funktionen sind in Chrome oder in Firefox aufgrund einer Tastaturfalle mit der Tastatur nicht erreichbar oder nicht bedienbar.
 
-== [#einordnung-des-pruefschritts]####Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
