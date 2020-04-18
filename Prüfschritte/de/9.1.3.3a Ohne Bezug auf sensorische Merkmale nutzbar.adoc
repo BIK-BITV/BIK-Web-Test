@@ -1,4 +1,4 @@
-= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte9.1.1.1c Leere alt-Attribute für Layoutgrafiken9.1.1.1d Alternativen für CAPTCHAs9.1.2.1a Alternativen für Audiodateien und stumme Videos9.1.2.2a Aufgezeichnete Videos mit Untertiteln9.1.2.3a Audiodeskription oder Volltext-Alternative für Videos9.1.2.4a Videos (live) mit Untertiteln9.1.2.5a Audiodeskription für Videos9.1.3.1a HTML-Strukturelemente für Überschriften9.1.3.1b HTML-Strukturelemente für Listen9.1.3.1c HTML-Strukturelemente für Zitate9.1.3.1d Inhalt geglieder9.1.3.1e Datentabellen richtig aufgebaut9.1.3.1f Zuordnung von Tabellenzellen9.1.3.1g Kein Strukturmarkup für Layouttabellen9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar9.1.3.2a Sinnvolle Reihenfolge9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar
+= Prüfschritt 9.1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

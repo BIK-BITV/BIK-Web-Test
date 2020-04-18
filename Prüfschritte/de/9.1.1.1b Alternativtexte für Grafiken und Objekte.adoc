@@ -1,4 +1,4 @@
-= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente9.1.1.1b Alternativtexte für Grafiken und Objekte
+= Prüfschritt 9.1.1.1b Alternativtexte für Grafiken und Objekte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
