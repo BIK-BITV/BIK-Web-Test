@@ -2,7 +2,7 @@
 :stylesheet!:
 :env_embedded!:
 //:toc:
-:docinfo: shared-head
+//:docinfo: shared-head
 //:toc-title: Inhalt
 :note-caption: Hinweis
-:app-issue-url: https://github.com/BIK-BITV/BIK-App-Test/issues
+:web-issue-url: https://github.com/BIK-BITV/BIK-Web-Test/issues
