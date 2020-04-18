@@ -31,33 +31,47 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Informative Grafiken und Bilder haben sinnvolle TextalternativenObjekte wie Video- und Audio-Dateien sowie Applets haben zumindest kurze beschreibende Textalternativen.
+Informative Grafiken und Bilder haben sinnvolle TextalternativenObjekte wie
+Video- und Audio-Dateien sowie Applets haben zumindest kurze beschreibende
+Textalternativen.
 
 Prüfschritt nicht anwendbar
 
-Informative Grafiken und Bilder sowie Multimedia-Objekte (Video- und Audio-Dateien, Applets) sind nicht vorhanden.
+Informative Grafiken und Bilder sowie Multimedia-Objekte (Video- und
+Audio-Dateien, Applets) sind nicht vorhanden.
 
 == Was wird geprüft?
 
 Nicht verlinkte informationsorientierte Grafiken und Bilder müssen mit Alternativtexten versehen werden(Verlinkte Grafiken werden in Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] geprüft.) Die Alternativtexte ersetzen das Bild, sie sollen also (wenn möglich) dieselbe Aufgabe erfüllen wie das Bild.
 
-Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien oder Applets soll der Alternativtext zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
+Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien
+oder Applets soll der Alternativtext zumindest eine beschreibende
+Identifizierung des Inhalts ermöglichen.
 
-Thema dieses Prüfschritts sind auch Textalternativen für Hintergrundbilder, Icon Fonts und SVGs, sofern diese nicht verlinkt sind.
+Thema dieses Prüfschritts sind auch Textalternativen für Hintergrundbilder,
+Icon Fonts und SVGs, sofern diese nicht verlinkt sind.
 
 == Warum wird das geprüft?
 
-Für blinde Benutzer oder für Benutzer von einfachen Textbrowsern sind Grafiken und Bilder nicht zugänglichDie Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen.
+Für blinde Benutzer oder für Benutzer von einfachen Textbrowsern sind Grafiken
+und Bilder nicht zugänglichDie Textalternative tritt dann an die Stelle der
+Grafik, sie soll die Grafik ersetzen.
 
-Wenn Objekte (etwa Video-Dateien, Audio-Dateien oder Applets) nicht anzeigt werden können, sollen kurze beschreibende Alternativtexte dem Nutzer eine Identifikation der Inhalte ermöglichen.
+Wenn Objekte (etwa Video-Dateien, Audio-Dateien oder Applets) nicht anzeigt
+werden können, sollen kurze beschreibende Alternativtexte dem Nutzer eine
+Identifikation der Inhalte ermöglichen.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhaltenSie werden per CSS eingebunden und werden entweder von assistiven Technologien nicht ausgegeben oder es wird ein Unicode-Äquivalent wiedergegeben, was die Bedeutung im Kontext nicht vermittelt.
+Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhaltenSie
+werden per CSS eingebunden und werden entweder von assistiven Technologien
+nicht ausgegeben oder es wird ein Unicode-Äquivalent wiedergegeben, was die
+Bedeutung im Kontext nicht vermittelt.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video-
+oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten
 
@@ -66,11 +80,24 @@ Als informative Grafiken gelten
 * Abbildungen, die zeigen sollen, wie ein Objekt oder eine Person aussieht
 * Illustrationen, die eine Aussage vorstellen, verdeutlichen oder veranschaulichen sollen
 
-Dekorative Grafiken und Bilder sind GrenzfälleSie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der SeiteIhr Informationsgehalt und ihr Nutzen für das Verständnis der Seite ist aber nicht klarDekorative Grafiken können daher mit leerem `alt`-Attribut versehen werden, der Prüfschritt ist dann nicht anwendbarAnders, wenn Alternativtexte vorhanden sindDann ist der Prüfschritt anwendbar, er ist zum Beispiel nicht erfüllt, wenn im `alt`-Attribut von dekorativen Grafiken Bilddateinamen eingetragen sind.
+Dekorative Grafiken und Bilder sind GrenzfälleSie stellen (im Unterschied zu
+Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen
+Bezug zum Thema der SeiteIhr Informationsgehalt und ihr Nutzen für das
+Verständnis der Seite ist aber nicht klarDekorative Grafiken können daher mit
+leerem `alt`-Attribut versehen werden, der Prüfschritt ist dann nicht
+anwendbarAnders, wenn Alternativtexte vorhanden sindDann ist der Prüfschritt
+anwendbar, er ist zum Beispiel nicht erfüllt, wenn im `alt`-Attribut von
+dekorativen Grafiken Bilddateinamen eingetragen sind.
 
-Logo-artige Elemente in denen Grafik und Schrift verbunden sind, sind fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb AlternativtextWenn sie verlinkt ist, ist das natürlich ohnehin soDies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehenDer Alternativtext muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
+Logo-artige Elemente in denen Grafik und Schrift verbunden sind, sind fast nie
+als bloße Schmuckgrafik anzusehen und brauchen deshalb AlternativtextWenn sie
+verlinkt ist, ist das natürlich ohnehin soDies ermöglicht blinden und sehenden
+Nutzern, sich gemeinsam auf diese Elemente zu beziehenDer Alternativtext muss
+aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich
+ist.
 
-Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
+Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente
+vorhanden sind.
 
 === 2Prüfung
 
@@ -88,9 +115,14 @@ Falls es sich bei der Alternative für das Objekt um ein `img`-Element handelt:D
 
 (entspricht dem Abschnitt 2.3 des Verfahrens von Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a])
 
-Hintergrundgrafiken haben kein `alt`-Attribut, auf diese Weise kann also keine Textalternative hinterlegt werden.
+Hintergrundgrafiken haben kein `alt`-Attribut, auf diese Weise kann also keine
+Textalternative hinterlegt werden.
 
-Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich vorhandenen Text, zum Beispiel eine Überschrift ersetzt (CSS-Bildersetzungsverfahren), dann gilt dieser Text als Textalternative für die HintergrundgrafikVoraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nicht `display:none`).
+Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich
+vorhandenen Text, zum Beispiel eine Überschrift ersetzt
+(CSS-Bildersetzungsverfahren), dann gilt dieser Text als Textalternative für
+die HintergrundgrafikVoraussetzung ist allerdings, dass ein geeignetes
+Verfahren verwendet wurde (nicht `display:none`).
 
 ===== Grundeinstellung in Firefox
 
@@ -101,26 +133,37 @@ Die Dialogfenster mit "OK" schließen.
 ===== Prüfung
 
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-Prüfen, ob informative Grafiken oder Bilder verschwindenDas passiert, wenn sie als Hintergrundbilder eingebunden sind.
+Prüfen, ob informative Grafiken oder Bilder verschwindenDas passiert, wenn sie
+als Hintergrundbilder eingebunden sind.
 [#F3]Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im HTML-Dokument vorhandenen Text ersetztFalls nicht, ist dies wie ein fehlendes `alt`-Attribut zu werten.
-Falls Texte durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren für die Bildersetzung verwendet wurdeWenn `display:none` verwendet wird, ist dies wie ein fehlendes `alt`-Attribut zu werten.
+Falls Texte durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren
+für die Bildersetzung verwendet wurdeWenn `display:none` verwendet wird, ist
+dies wie ein fehlendes `alt`-Attribut zu werten.
 Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der Text eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe link:#angemessen[2.4]).
 
 ==== 2.4 Textalternativen für Icon Fonts:
 
-Beim Einsatz vonIcon Fonts ist es nicht möglich, mittels `alt`-Attribut eine Textalternative zu hinterlegen.
+Beim Einsatz vonIcon Fonts ist es nicht möglich, mittels `alt`-Attribut eine
+Textalternative zu hinterlegen.
 
 Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden seinDies kann beispielsweise Text sein, der mit einem geeigneten Verfahren versteckt ist (nicht `display:none`) oder der über ein `aria-label` bereitgestellt wirdEs ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader zu verstecken (z.B`aria-hidden="true"`).
 
 ===== Prüfung
 
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) eingebunden wird.
+Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
+CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
+Inhalt (Font Icons) eingebunden wird.
 Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B`aria-hidden="true"`).
-Für informationstragenden Icons prüfen, ob eine HTML-Textalternative vorhanden ist, die per CSS unsichtbar gemacht wird.
-Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar sind: Prüfen, welches Verfahren verwendet wurde, um diese zu versteckenWenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
+Für informationstragenden Icons prüfen, ob eine HTML-Textalternative vorhanden
+ist, die per CSS unsichtbar gemacht wird.
+Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
+sind: Prüfen, welches Verfahren verwendet wurde, um diese zu versteckenWenn
+`display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres
+`alt`-Attribut zu werten.
 Falls ein geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine äquivalente Textalternative für das Icon darstellt (siehe link:#angemessen[2.6]).
-Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
+Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
+über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
 Falls für diese Icons Text ausgegeben wird (z.B`content: "k"`), prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B`aria-hidden="true"`).
 
 ==== 2.5 Textalternativen für Inline SVGs:
@@ -128,9 +171,12 @@ Falls für diese Icons Text ausgegeben wird (z.B`content: "k"`), prüfen, ob das
 ===== Prüfung
 
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein direkt in HTML eingebundene SVG handelt (Inline SVG).
+Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein
+direkt in HTML eingebundene SVG handelt (Inline SVG).
 Prüfen, ob ein `title`-Element (bei längeren Beschreibungen ein `des-`Element) vorhanden ist und die dort hinterlegte Textalternative das Bild in angemessener Weise ersetzt (siehe link:#angemessen[2.6])Das `title-` bzw`desc-`Element sollte das erste Kindelement des Elternelements sein.
-Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet ist:
+Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
+unterstützt werden, prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet
+ist:
 * SVG-Grafiken sollten `role="img"` tragen, sonst wird ggfihr `title`-Element nicht ausgegeben.
 * Wird das SVG `title`-Element als zugänglicher Name genutzt, sollte das `svg`-Element mittels `aria-labelledby` auf das `title`-Element verweisen.
 * Wenn kein `title-` oder `desc-`Element eingesetzt wird, prüfen, ob über `aria-label` auf dem umschließenden Link eine Textalternative bereitgestellt wird.
@@ -138,7 +184,9 @@ Als Rolle für SVGs kommt auch `role="graphics-document"` für in sich geglieder
 
 ==== [#angemessen][#G92][#F20][#F30]2.6 Angemessene Alternativtexte
 
-Entscheidend ist: Die Seite soll benutzbar sein, wenn Grafiken oder Bilder durch die entsprechenden Alternativtexte oder andere geeignete Textalternativen ersetzt sind.
+Entscheidend ist: Die Seite soll benutzbar sein, wenn Grafiken oder Bilder
+durch die entsprechenden Alternativtexte oder andere geeignete
+Textalternativen ersetzt sind.
 
 In der Regel bedeutet das:
 
@@ -151,13 +199,20 @@ In der Regel bedeutet das:
 +
 Zusätzlich ist es sinnvoll, dass ein Skript auswertet, ob das Objekt wegen deaktiviertem JavaScript und/oder deaktiviertem Plugin nicht angezeigt werden kann, und eine entsprechende Meldung generiert.
 +
-Wenn solche Meldungen erzeugt werden, müssen sie den tatsächlichen Browser-Einstellungen entsprechenWenn also etwa das Flash-Plugin ausgeschaltet ist aber JavaScript an, darf nicht die (irreführende) Meldung kommen, dass JavaScript aktiviert werden muss.
+Wenn solche Meldungen erzeugt werden, müssen sie den tatsächlichen
+Browser-Einstellungen entsprechenWenn also etwa das Flash-Plugin ausgeschaltet
+ist aber JavaScript an, darf nicht die (irreführende) Meldung kommen, dass
+JavaScript aktiviert werden muss.
 
-Generell gilt: Alternativtexte sollen kurz seinAusführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden (siehe 2.5).
+Generell gilt: Alternativtexte sollen kurz seinAusführliche Beschreibungen von
+Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung
+zur Verfügung gestellt werden (siehe 2.5).
 
 ==== [#F67]2.7 Angemessenheit von Textalternativen im Kontext
 
-Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild sein kann, muss geprüft werden, ob die über das Bild vermittelte Information im Kontext als Text zur Verfügung steht.
+Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild
+sein kann, muss geprüft werden, ob die über das Bild vermittelte Information
+im Kontext als Text zur Verfügung steht.
 
 Das betrifft zum Beispiel
 
@@ -170,7 +225,10 @@ Zum Kontext einer Grafik oder eines Bildes gehört:
 * der dazugehörige (vorangehende, folgende) Text und
 * [#G73][#H45][#H73]Eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannteTextalternative (normaler Link und/oder `longdesc`).
 
-Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlichDer Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, er macht klar, worauf sich die Erläuterung im Kontext bezieht.
+Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
+Textalternativen im Kontext erforderlichDer Alternativtext sagt, dass an
+dieser Stelle etwas Bestimmtes abgebildet ist, er macht klar, worauf sich die
+Erläuterung im Kontext bezieht.
 
 === [#hinweis]3Hinweise
 
@@ -245,7 +303,11 @@ Quelle: http://www.w3.org/Consortium/Offices/Germany/Trans/WAI/webinhalt.html
 === Ausführlichkeit von Alternativtexten
 
 ____
-If possible, the short text alternative should completely convey the purpose and informationIf it is not possible to do this in a short phrase or sentence, then the short text alternative should provide a brief overview of the informationA long text alternative would be used in addition to convey the full information.
+If possible, the short text alternative should completely convey the purpose
+and informationIf it is not possible to do this in a short phrase or sentence,
+then the short text alternative should provide a brief overview of the
+informationA long text alternative would be used in addition to convey the
+full information.
 ____
 
 Quelle: WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content]
@@ -253,7 +315,11 @@ Quelle: WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[G94: Providi
 === Alternativtexte für Schrift in Grafiken
 
 ____
-When non-text content contains words that are important to understanding the content, the alt text should include those wordsIf the text in the image is more than can fit in a short text alternative then it should be described in the short text alternative and a long text alternative should be provided as well with the complete text.
+When non-text content contains words that are important to understanding the
+content, the alt text should include those wordsIf the text in the image is
+more than can fit in a short text alternative then it should be described in
+the short text alternative and a long text alternative should be provided as
+well with the complete text.
 ____
 
 Quelle: WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content]
@@ -280,42 +346,86 @@ Quelle: WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[G94: Providi
 
 === Was kann der Alternativtext leistenZum Beispiel die Explosionszeichnung eines Motors: sollte der gesamte Aufbau des Motors im Alternativtext beschrieben werden?
 
-Die Explosionszeichnung zeigt die Lage verschiedener Teile im MotorAlternative Vermittlungsformen sind denkbar und möglichZum Beispiel könnte die Lage der Teile an einem tastbaren Modell gezeigt werdenKlar ist aber, dass bei einigermaßen komplexen Gebilden die Textform nicht geeignet istDie Frage ist daher, was im Alternativtext sinnvoll herübergebracht werden kannAuf jeden Fall kann der Alternativtext darüber informieren, dass eine Explosionszeichnung des Motors dargestellt wirdDer blinde Benutzer weiß dann zumindest, welche Informationen ihm nicht zugänglich sindDarüber hinaus kann es sein, dass nur ein bestimmtes Detail der gesamten Zeichnung relevant istDas geht aus dem Kontext hervorDas betreffende Detail kann dann in Textform erläutert werden.
+Die Explosionszeichnung zeigt die Lage verschiedener Teile im MotorAlternative
+Vermittlungsformen sind denkbar und möglichZum Beispiel könnte die Lage der
+Teile an einem tastbaren Modell gezeigt werdenKlar ist aber, dass bei
+einigermaßen komplexen Gebilden die Textform nicht geeignet istDie Frage ist
+daher, was im Alternativtext sinnvoll herübergebracht werden kannAuf jeden
+Fall kann der Alternativtext darüber informieren, dass eine
+Explosionszeichnung des Motors dargestellt wirdDer blinde Benutzer weiß dann
+zumindest, welche Informationen ihm nicht zugänglich sindDarüber hinaus kann
+es sein, dass nur ein bestimmtes Detail der gesamten Zeichnung relevant istDas
+geht aus dem Kontext hervorDas betreffende Detail kann dann in Textform
+erläutert werden.
 
-Für die Bewertung im BITV-Test gilt: wenn der Prüfer selbst nicht sagen kann, ob oder wie der Informationsgehalt des Bildes in Textform vermittelt werden könnte, muss die Bezeichnung des dargestellten Gegenstandes im Alternativtext als hinreichend bewertet werden.
+Für die Bewertung im BITV-Test gilt: wenn der Prüfer selbst nicht sagen kann,
+ob oder wie der Informationsgehalt des Bildes in Textform vermittelt werden
+könnte, muss die Bezeichnung des dargestellten Gegenstandes im Alternativtext
+als hinreichend bewertet werden.
 
 === Auf der Website ist das Firmenlogo abgebildetReicht es aus, wenn im Alternativtext steht, dass da das Firmenlogo abgebildet istOder sollte es auch beschrieben werden?
 
-Auch für einen blinden Besucher kann das Aussehen des Logos interessant seinEr unterhält sich ja mit Sehenden, weiß dann, wovon die Rede istAllerdings sollte der Alternativtext kurz sein, der Besucher möchte nicht immer wieder diese Beschreibung hören, wenn er die Seite besuchtSie könnte also in einer separaten, ausführlicheren Beschreibung bereitgestellt werden.
+Auch für einen blinden Besucher kann das Aussehen des Logos interessant seinEr
+unterhält sich ja mit Sehenden, weiß dann, wovon die Rede istAllerdings sollte
+der Alternativtext kurz sein, der Besucher möchte nicht immer wieder diese
+Beschreibung hören, wenn er die Seite besuchtSie könnte also in einer
+separaten, ausführlicheren Beschreibung bereitgestellt werden.
 
-Im BITV-Test wird eine solche ausführliche Beschreibung des Firmenlogos allerdings nicht gefordert.
+Im BITV-Test wird eine solche ausführliche Beschreibung des Firmenlogos
+allerdings nicht gefordert.
 
 === Eine Abbildung enthält TextMuss dieser Text in jedem Fall im Alternativtext bereitgestellt werden?
 
-Nein, entscheidend ist die Funktion der AbbildungWenn es sich um eine Schriftgrafik handelt, dann ist die Sache meistens klar, die Abbildung ist für die Anzeige des Textes da.
+Nein, entscheidend ist die Funktion der AbbildungWenn es sich um eine
+Schriftgrafik handelt, dann ist die Sache meistens klar, die Abbildung ist für
+die Anzeige des Textes da.
 
-Anders, wenn ein Motiv mit Text abgebildet istDann muss (wie bei allen Bildern) überlegt werden, was die Leistung des Bildes ist, ob der abgebildete Text wesentlich istNur dann muss der Text im Alternativtext beachtet werden.
+Anders, wenn ein Motiv mit Text abgebildet istDann muss (wie bei allen
+Bildern) überlegt werden, was die Leistung des Bildes ist, ob der abgebildete
+Text wesentlich istNur dann muss der Text im Alternativtext beachtet werden.
 
 === Kann für längere Erläuterungen auch das `title`-Attribut verwendet werden?
 
-Das `title`-Attribut hat eine andere Aufgabe, es soll nicht für das Bild stehen, sondern ergänzende Informationen zum Bild liefernZum Beispiel kann es verwendet werden, um die Quelle eines Bildes anzugebenDie Verwendung des `title`-Attributs von Bildern ist leider nicht einheitlich geregelt.
+Das `title`-Attribut hat eine andere Aufgabe, es soll nicht für das Bild
+stehen, sondern ergänzende Informationen zum Bild liefernZum Beispiel kann es
+verwendet werden, um die Quelle eines Bildes anzugebenDie Verwendung des
+`title`-Attributs von Bildern ist leider nicht einheitlich geregelt.
 
-Auf manchen Webauftritten wird der Inhalt des `alt`-Attributs durchgängig zusätzlich im `title`-Attribut wiederholtDas ist keine gute Lösung, denn es führt dazu, daß blinde Nutzer die Ausgabe des `title`-Attributs abschalten, um das Vorlesen überflüssiger Informationen zu vermeiden.
+Auf manchen Webauftritten wird der Inhalt des `alt`-Attributs durchgängig
+zusätzlich im `title`-Attribut wiederholtDas ist keine gute Lösung, denn es
+führt dazu, daß blinde Nutzer die Ausgabe des `title`-Attributs abschalten, um
+das Vorlesen überflüssiger Informationen zu vermeiden.
 
-Auf keinen Fall kann das `title`-Attribut als Ersatz für die Bereitstellung des Alternativtextes im `alt`-Attribut akzeptiert werden.
+Auf keinen Fall kann das `title`-Attribut als Ersatz für die Bereitstellung
+des Alternativtextes im `alt`-Attribut akzeptiert werden.
 
-Für längere Erläuterungen ist das `title`-Attribut nicht vorgesehen und auch nicht gut geeignetEs enthält nur einfachen Fließtext, Änderungen der Schriftgröße haben bei den meisten Browsern keine Auswirkungen auf die Darstellung des `title`-Attributs.
+Für längere Erläuterungen ist das `title`-Attribut nicht vorgesehen und auch
+nicht gut geeignetEs enthält nur einfachen Fließtext, Änderungen der
+Schriftgröße haben bei den meisten Browsern keine Auswirkungen auf die
+Darstellung des `title`-Attributs.
 
 === 
 
 === Soll im Alternativtext stehen, dass es sich um ein grafisches Element handelt?
 
-Nein, das ist nicht erforderlichDenn Screenreader stellen anhand des Markups fest, auf was für ein Element sich der Alternativtext beziehtIm BITV-Test wird ein entsprechender Vorsatz im Alternativtext jedoch nicht negativ bewertet, er ist für die Bewertung nicht relevant.
+Nein, das ist nicht erforderlichDenn Screenreader stellen anhand des Markups
+fest, auf was für ein Element sich der Alternativtext beziehtIm BITV-Test wird
+ein entsprechender Vorsatz im Alternativtext jedoch nicht negativ bewertet, er
+ist für die Bewertung nicht relevant.
 
 === Kann die Bedeutung eines Bildes auch im Kontext beschrieben werden?
 
-Das ist in vielen Fällen sinnvoll und eine gute Alternative zur Nutzung des `longdesc`-AttributsWichtig ist, dass die Beschreibung dem Bild eindeutig zugeordnet werden kannDafür kann (und soll) dann der Alternativtext des Bildes genutzt werdenEr enthält eine kurze Bezeichnung des abgebildeten, im Kontext beschriebenen Gegenstandes.
+Das ist in vielen Fällen sinnvoll und eine gute Alternative zur Nutzung des
+`longdesc`-AttributsWichtig ist, dass die Beschreibung dem Bild eindeutig
+zugeordnet werden kannDafür kann (und soll) dann der Alternativtext des Bildes
+genutzt werdenEr enthält eine kurze Bezeichnung des abgebildeten, im Kontext
+beschriebenen Gegenstandes.
 
 === Was sollte im Alternativtext für Landkarten stehen?
 
-Der Alternativtext für Landkarten kann kein Äquivalent sein, eine Beschreibung in Textform kann die Karte nicht ersetzenNicht-visuelle Äquivalente könnten Routenbeschreibungen sein, wie sie häufig von Reiseplanern angeboten werdenDas geht aber über die Möglichkeiten des Alternativtextes hinausDer Alternativtext für Karten muss sich also darauf beschränken, anzugeben, welches Gebiet auf der Karte dargestellt ist.
+Der Alternativtext für Landkarten kann kein Äquivalent sein, eine Beschreibung
+in Textform kann die Karte nicht ersetzenNicht-visuelle Äquivalente könnten
+Routenbeschreibungen sein, wie sie häufig von Reiseplanern angeboten werdenDas
+geht aber über die Möglichkeiten des Alternativtextes hinausDer Alternativtext
+für Karten muss sich also darauf beschränken, anzugeben, welches Gebiet auf
+der Karte dargestellt ist.

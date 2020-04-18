@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Text kann um bis zu 200 Prozent geändert werden, ohne dass dabei Inhalt oder Funktionalität verloren geht.
+Text kann um bis zu 200 Prozent geändert werden, ohne dass dabei Inhalt oder
+Funktionalität verloren geht.
 
 Prüfschritt nicht anwendbar
 
@@ -39,7 +40,9 @@ Texte sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren gehtEine der folgenden Voraussetzung soll erfüllt sein:
+Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt
+oder Funktionalität verloren gehtEine der folgenden Voraussetzung soll erfüllt
+sein:
 
 * Mit der Zoom-Funktion des Browsers kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
 * Mit der Nur-Text-Vergrößerung im Browser kann der Text vergrößert werden.
@@ -47,7 +50,10 @@ Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt
 
 == Warum wird das geprüft?
 
-Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen könnenDie gängigen Browser bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Layouts.
+Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen könnenDie
+gängigen Browser bieten zwei verschiedene Vergrößerungsmöglichkeiten: die
+klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten
+Layouts.
 
 == Wie wird geprüft?
 
@@ -69,7 +75,10 @@ Sechs Mal die Tastenkombination _Strg + +_ drücken, um das Layout um 200% zu zo
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufenMithilfe der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Browserfenstergröße auf 1280x768 einstellen (_Größe ändern > ..._)Unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ aktivierenSechsmal die Tastenkombination _Strg + +_ drücken, um die Schrift um 200% zu vergrößern (alternativ sechsmal _Ansicht > Zoom > Vergrößern_ wählen).
 [#C12][#C13][#C14][#C28]Überprüfen, ob sich die Größe von allen Schriften ändert.
 +
-Wenn sich die Größe von einigen Schriften nicht ändert: Überprüfen, ob diese Schriften sehr groß sindSie sind sehr groß, wenn sie mindestens genauso groß sind, wie die größte der auf _Sehr groß_ skalierten relativ definierten Schriften.
+Wenn sich die Größe von einigen Schriften nicht ändert: Überprüfen, ob diese
+Schriften sehr groß sindSie sind sehr groß, wenn sie mindestens genauso groß
+sind, wie die größte der auf _Sehr groß_ skalierten relativ definierten
+Schriften.
 [#C17][#F80]Falls die Seite Formulare mit Texteingabefeldern enthält: Text in ein Feld eingeben und prüfen, ob auch diese Schrift in der Größe anpassbar ist.
 [#G146][#G179][#SCR34][#F69]Überprüfen, ob alle Texte noch sichtbar und lesbar sindSie sollen vollständig dargestellt werden, ohne dass es zu Überlappungen kommt oder dass Textteile abgeschnitten werdenDie Zeilenhöhe soll sich der Schriftgröße anpassen.
 +
@@ -80,9 +89,13 @@ Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeu
 
 [#G178][#C29]Wenn die Seite eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
 
-Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Seite angeboten werden.
-Prüfen, ob die Schrift mit Hilfe der auf der Seite angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine Rolle).
-Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
+Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im
+oberen Bereich der Seite angeboten werden.
+Prüfen, ob die Schrift mit Hilfe der auf der Seite angebotenen Bedienelemente
+schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt
+dabei keine Rolle).
+Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße
+wiederherstellen lässt.
 
 === 3Hinweise
 
@@ -98,7 +111,8 @@ Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße
 
 ==== 3.3 Hinweise zur Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
 
-Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter folgenden Bedingungen:
+Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter
+folgenden Bedingungen:
 
 * Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
@@ -167,11 +181,18 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text
 === Die WCAG 2.1 zur Nutzung absoluter und relativer Maßeinheiten für Text
 
 ____
-(...) specify text font size in `em` units so that user agents can scale content effectivelySince the `em` is a property of the font, it scales as the font changes sizeIf a font-size is specified for the body element, all other elements inherit that value, unless overridden by a more specific selector.
+(...) specify text font size in `em` units so that user agents can scale
+content effectivelySince the `em` is a property of the font, it scales as the
+font changes sizeIf a font-size is specified for the body element, all other
+elements inherit that value, unless overridden by a more specific selector.
 
-When font size is given in absolute units of measurement, such as points or pixels, the Text Size menu commands in Internet Explorer 7 and earlier do not resize the text.
+When font size is given in absolute units of measurement, such as points or
+pixels, the Text Size menu commands in Internet Explorer 7 and earlier do not
+resize the text.
 
-Internet Explorer 7 only changes the text size when the CSS is defined in a style element (...)When using inline style with the `style` attribute, the text size change is not supported.
+Internet Explorer 7 only changes the text size when the CSS is defined in a
+style element (...)When using inline style with the `style` attribute, the
+text size change is not supported.
 ____
 
 Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14: Using em units for font sizes]
@@ -180,17 +201,27 @@ Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C
 
 === Die Vergrößerung der Schrift ist weniger wichtig, wenn die Ausgangsschriftgrößen der Webseite bereits groß genug sindSollte das nicht berücksichtigt werden?
 
-Der BITV-Test berücksichtigt die tatsächlichen Schriftgrößen nicht, geprüft wird nur die ÄnderbarkeitFür Seiten mit großen Ausgangsschriften (oder für Seiten, die in großen Schritten vergrößern) ist die Prüfanforderung also nicht so leicht zu erfüllen.
+Der BITV-Test berücksichtigt die tatsächlichen Schriftgrößen nicht, geprüft
+wird nur die ÄnderbarkeitFür Seiten mit großen Ausgangsschriften (oder für
+Seiten, die in großen Schritten vergrößern) ist die Prüfanforderung also nicht
+so leicht zu erfüllen.
 
 Die Begründung:
 
-Die BITV verlangt keine Mindestgröße für SchriftenUnd was wichtiger ist: es gibt unterschiedliche Auffassungen zur der Frage, wie groß Ausgangsschriftgrößen sein sollen:
+Die BITV verlangt keine Mindestgröße für SchriftenUnd was wichtiger ist: es
+gibt unterschiedliche Auffassungen zur der Frage, wie groß
+Ausgangsschriftgrößen sein sollen:
 
 * Idealerweise wären die Ausgangsschriftgrößen aller Webangebote ähnlichDenn dann könnte jeder Benutzer in seinem Browser die für ihn passende Schriftgröße einstellenDiese Einstellung müsste nicht geändert werden, sie wäre für alle Webangebote passend.
 * Sehr große Ausgangsschriften sind unter Umständen nicht gut zu nutzenUnd zwar auch für Benutzer, die große Schriften brauchenDenn diese Benutzer haben ihren Computer oder ihren Browser meist schon so eingerichtet, daß Schriften größer dargestellt werdenDie extrem große Ausgangsschrift ist dann zu viel des Guten.
 
 Die Orientierung an im Web üblichen Schriftgrößen ist also sinnvoll.
 
-Aber auch große Ausgangsschriften sind vorteilhaftAuch für Besucher, die nicht wissen, wie man die Schrift vergrößert, sind sie groß genugDas betrifft übrigens nicht nur Internet-Neulinge, es kann jedem passieren: man ist unterwegs, der verfügbare Browser ist einem nicht vertraut oder er hat überhaupt keine entsprechenden Einstellmöglichkeiten.
+Aber auch große Ausgangsschriften sind vorteilhaftAuch für Besucher, die nicht
+wissen, wie man die Schrift vergrößert, sind sie groß genugDas betrifft
+übrigens nicht nur Internet-Neulinge, es kann jedem passieren: man ist
+unterwegs, der verfügbare Browser ist einem nicht vertraut oder er hat
+überhaupt keine entsprechenden Einstellmöglichkeiten.
 
-Am besten ist es also, wenn sich Webangebote an der Obergrenze der im Web üblichen Schriftgrößen orientieren.
+Am besten ist es also, wenn sich Webangebote an der Obergrenze der im Web
+üblichen Schriftgrößen orientieren.

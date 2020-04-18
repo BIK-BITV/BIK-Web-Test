@@ -31,15 +31,20 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Seitenbereiche sind durch Überschriften, Sprunglinks oder WAI ARIA document landmarks erschlossen, Frames und Iframes haben sinnvolle Titel.
+Seitenbereiche sind durch Überschriften, Sprunglinks oder WAI ARIA document
+landmarks erschlossen, Frames und Iframes haben sinnvolle Titel.
 
 Prüfschritt nicht anwendbar
 
-Überschriften oder Sprunglinks sind nicht erforderlich, denn die Seite hat keine unterschiedlichen Bereiche.
+Überschriften oder Sprunglinks sind nicht erforderlich, denn die Seite hat
+keine unterschiedlichen Bereiche.
 
 == Was wird geprüft?
 
-Verschiedenen Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können von Nutzern assistiver Technologien übersprungen werdenDer Seitenaufbau soll unabhängig von der Darstellung deutlich werdenEine der folgenden Voraussetzungen soll erfüllt sein:
+Verschiedenen Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können
+von Nutzern assistiver Technologien übersprungen werdenDer Seitenaufbau soll
+unabhängig von der Darstellung deutlich werdenEine der folgenden
+Voraussetzungen soll erfüllt sein:
 
 * Es werden sinnvolle Bereichsüberschriften (HTML-Strukturelemente `h1` bis `h6`) eingesetzt
 * Es sind Sprunglinks vorhanden.
@@ -50,15 +55,26 @@ Frames und Iframes brauchen ein sinnvolles `title`-Attribut.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten mit Mitteln wie Überschriften, Spalten oder Kästen strukturiertDank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann das Angebot der Webseite leicht überblicken und gezielt auf die Inhalte zugreifen, die ihn interessieren.
+Visuell werden Webseiten mit Mitteln wie Überschriften, Spalten oder Kästen
+strukturiertDank dieser Strukturierung weiß der Benutzer, was zusammengehört,
+kann das Angebot der Webseite leicht überblicken und gezielt auf die Inhalte
+zugreifen, die ihn interessieren.
 
 Benutzer, die diese visuelle Ordnung nicht nutzen können – zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können – sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar istDie Verwendung von (oft unsichtbaren) Bereichsüberschriften, Sprunglinks oder HTML5 Elementen zur Auszeichnung von Regionen ist dafür eine wesentliche Voraussetzung.
 
-Bei Frames ist eine sinnvoller Titel wichtig für die Orientierung mit ScreenreadernGängige Screenreader werten das `title`- und das in der Programmierung gebräuchliche `name`-Attribut ausDabei wird das `title`-Attribut vorrangig ausgegebenSie sprechen beim Umschalten zwischen den Frames mit den Tastenkürzeln den Titel des aktiven Frames aus.
+Bei Frames ist eine sinnvoller Titel wichtig für die Orientierung mit
+ScreenreadernGängige Screenreader werten das `title`- und das in der
+Programmierung gebräuchliche `name`-Attribut ausDabei wird das
+`title`-Attribut vorrangig ausgegebenSie sprechen beim Umschalten zwischen den
+Frames mit den Tastenkürzeln den Titel des aktiven Frames aus.
 
-Der Einsatz von HTML5 Elementen für Regionen wird inzwischen gut von assisitven Technologien unterstütztDie zusätzliche Berücksichtigung eines role-Attributs (WAI ARIA document landmarks) kann die Unterstützung von Regionen jedoch verbessern.
+Der Einsatz von HTML5 Elementen für Regionen wird inzwischen gut von
+assisitven Technologien unterstütztDie zusätzliche Berücksichtigung eines
+role-Attributs (WAI ARIA document landmarks) kann die Unterstützung von
+Regionen jedoch verbessern.
 
-So können Benutzer die Bereichsüberschriften, Sprunglinks, HTML5-Elmente für Regionen bzwWAI-ARIA document landmarks anwenden:
+So können Benutzer die Bereichsüberschriften, Sprunglinks, HTML5-Elmente für
+Regionen bzwWAI-ARIA document landmarks anwenden:
 
 * Konstante Bereiche am Seitenbeginn, etwa Navigation oder Seitenkopf, überspringen, um direkt zum Inhalt zu gelangen
 * Zwischen Bereichen hin- und her wechseln
@@ -67,7 +83,9 @@ So können Benutzer die Bereichsüberschriften, Sprunglinks, HTML5-Elmente für 
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite deutlich voneinander abgegrenzte Bereiche gibt, etwa Navigation und InhaltDas ist bei informationsorientierten Seiten meist der Fall.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite deutlich voneinander
+abgegrenzte Bereiche gibt, etwa Navigation und InhaltDas ist bei
+informationsorientierten Seiten meist der Fall.
 
 === [#G140]2Prüfung
 
@@ -80,7 +98,8 @@ Das http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.ht
 
 ==== 2.2Sprunglink-Prüfung
 
-Wenn Sprunglinks vorhanden sind, prüfen, ob die folgenden Anforderungen erfüllt sind:
+Wenn Sprunglinks vorhanden sind, prüfen, ob die folgenden Anforderungen
+erfüllt sind:
 
 * Sprunglinks verschieben beim Auslösen den Tastaturfokus zum angegebenen Bereich (bzwbeim Überspringen von Inhaltsblöcken auf den Inhalt direkt nach dem zu überspringenden Bereich)
 * Sprunglinks sind entweder permanent sichtbar oder werden bei Fokuserhalt eingeblendet
@@ -90,9 +109,12 @@ Wenn Sprunglinks vorhanden sind, prüfen, ob die folgenden Anforderungen erfüll
 ==== 2.3Prüfung der HTML5 Elemente für Regionen und WAI-ARIA document landmarks
 
 Seite im Firefox aufrufen.
-Quelltextanalyse: Prüfen, ob die verschiedenen Seitenbereiche durch die Auszeichnung mit `header, nav, main, aside, footer` sinnvoll erschlossen werden.
+Quelltextanalyse: Prüfen, ob die verschiedenen Seitenbereiche durch die
+Auszeichnung mit `header, nav, main, aside, footer` sinnvoll erschlossen
+werden.
 Das http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[Landmarks bookmarklet] aufrufenDie document landmarks werden nun, wenn vorhanden, hervorgehoben.
-Wenn document landmarks eingesetzt werden, prüfen, ob die Zuordnung der Rollen (z.B`navigation, main`) korrekt ist und dem Aufbau der Seite entspricht.
+Wenn document landmarks eingesetzt werden, prüfen, ob die Zuordnung der Rollen
+(z.B`navigation, main`) korrekt ist und dem Aufbau der Seite entspricht.
 Sind mehrere Navigationsbereiche nur mit `nav` oder `role="navigation"` ausgezeichnet, dann prüfen, ob sie mit `aria-label` oder `aria-labelledby` sinnvoll bezeichnet sind.
 
 ==== [#H64]2.4Prüfung von Frame-Titeln
@@ -100,7 +122,8 @@ Sind mehrere Navigationsbereiche nur mit `nav` oder `role="navigation"` ausgezei
 Seite im Firefox aufrufen.
 In derWeb Developer Toolbar die Funktion _Outline > Outline Frames_ aufrufen.
 Dann ebenfalls in derWeb Developer Toolbar die Funktion _Information > Display Element Information_ aufrufenDer Cursor wird nun als Fadenkreuz angezeigt.
-Mit dem Fadenkreuz die Kante der hervorgehobenen Frames anklicken und prüfen, ob für alle Frames ein aussagekräftiger `title`-Text vorhanden ist.
+Mit dem Fadenkreuz die Kante der hervorgehobenen Frames anklicken und prüfen,
+ob für alle Frames ein aussagekräftiger `title`-Text vorhanden ist.
 
 === 3Hinweise
 
@@ -113,11 +136,14 @@ Eigenständige Bereiche sind zum Beispiel:
 * Bereiche, die durch Umrahmung als zusammengehörig gekennzeichnet sind
 * Frames oder Iframes
 
-Der Fußbereich wird nicht als eigenständiger Bereich gewertet, wenn dort lediglich redundante Links, Copyright-Hinweise oder Angaben zum Erstellungs- oder Änderungsdatum stehen.
+Der Fußbereich wird nicht als eigenständiger Bereich gewertet, wenn dort
+lediglich redundante Links, Copyright-Hinweise oder Angaben zum Erstellungs-
+oder Änderungsdatum stehen.
 
 ==== Hinweis zu Sprunglinks und Document Landmarks
 
-Das Fehlen von Sprunglinks und die Nichtverwendung von WAI-ARIA Document Landmarks werden nicht negativ bewertet.
+Das Fehlen von Sprunglinks und die Nichtverwendung von WAI-ARIA Document
+Landmarks werden nicht negativ bewertet.
 
 ==== Hinweis zu mehrfach verwendeten Landmarks bzwHTML5-Elemente für Bereiche
 
@@ -204,7 +230,10 @@ Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H64.html[H64: Using the ti
 === WCAG 2.1 Verknüpfung von WAI ARIA document landmarks und Text
 
 ____
-The purpose of this technique is to provide names for regions of a page that can be read by assistive technologyThe aria-labelledby attribute provides a way to associate an section of the page marked up as a region or landmarks with text that is on the page that labels it.
+The purpose of this technique is to provide names for regions of a page that
+can be read by assistive technologyThe aria-labelledby attribute provides a
+way to associate an section of the page marked up as a region or landmarks
+with text that is on the page that labels it.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA13.html[ARIA13: Using aria-labelledby to name regions and landmarks]
@@ -217,8 +246,17 @@ Script, das bei HTML5 Elementen automatisch ARIA-Rollen ergänzt: https://github
 
 === Müssen die Bereiche der Webseite durch `h1`-Überschriften ausgezeichnet werden?
 
-Bei den meisten Webangeboten sind bestimmte Bereiche durchgängig für die Navigation reserviertAndere wiederkehrende Bereich können etwa die Suche oder der Seitenkopf seinDiese Bereiche sind auf allen Seiten des Angebots gleich aufgebaut und gestaltetSie haben keinen engen Bezug zum besonderen Seiteninhalt, sind eigentlich nicht den einzelnen Seiten, sondern eher dem Webauftritt als ganzen zuzurechnenEs liegt daher nahe, die Navigation, den Inhaltsbereich und weitere klar abgegrenzte Bereiche der Seite jeweils mit einer `h1`-Hauptüberschrift zu versehen.
+Bei den meisten Webangeboten sind bestimmte Bereiche durchgängig für die
+Navigation reserviertAndere wiederkehrende Bereich können etwa die Suche oder
+der Seitenkopf seinDiese Bereiche sind auf allen Seiten des Angebots gleich
+aufgebaut und gestaltetSie haben keinen engen Bezug zum besonderen
+Seiteninhalt, sind eigentlich nicht den einzelnen Seiten, sondern eher dem
+Webauftritt als ganzen zuzurechnenEs liegt daher nahe, die Navigation, den
+Inhaltsbereich und weitere klar abgegrenzte Bereiche der Seite jeweils mit
+einer `h1`-Hauptüberschrift zu versehen.
 
 Es gibt jedoch auch andere Möglichkeiten, Seitenbereiche auszuzeichnen, etwa durch `h5`- oder `h6`-Überschriften, falls diese in der Gliederung der Seiteninhalte nicht verwendet werden (vergleiche den Artikel auf einfach-für-alle: http://www.einfach-fuer-alle.de/artikel/ueberschriften-strukturen-in-html/["Passende Überschrift hier einsetzen"])
 
-Vom BITV-Test werden unterschiedliche Herangehensweisen akzeptiertEs muss in jedem Fall geprüft werden, ob Überschriften konsistent eingesetzt werden, um die Seiten-Bereiche und deren Inhalte zu erschließen.
+Vom BITV-Test werden unterschiedliche Herangehensweisen akzeptiertEs muss in
+jedem Fall geprüft werden, ob Überschriften konsistent eingesetzt werden, um
+die Seiten-Bereiche und deren Inhalte zu erschließen.

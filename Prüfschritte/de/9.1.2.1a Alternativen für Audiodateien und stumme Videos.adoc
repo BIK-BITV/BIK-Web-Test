@@ -39,42 +39,67 @@ Weder Audiodateien noch stumme Videodateien sind vorhanden.
 
 == Was wird geprüft?
 
-Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit gleichwertigen Medienalternativen versehen werden - es sei denn, es handelt sich bei Ihnen bereits um Medienalternativen für Text.
+Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit
+gleichwertigen Medienalternativen versehen werden - es sei denn, es handelt
+sich bei Ihnen bereits um Medienalternativen für Text.
 
 == Warum wird das geprüft?
 
-Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine TranskriptionStumme Videodateien (etwa eine Film- oder Animationsequenz, die zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbarSie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
+Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt
+zugänglich, deshalb brauchen sie eine TranskriptionStumme Videodateien (etwa
+eine Film- oder Animationsequenz, die zeigt, wie ein Gerät zusammengesetzt
+wird) sind für blinde und sehbehinderte Nutzer nicht verfügbarSie brauchen
+deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien auf der Seite eingebunden sind.
+Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien auf
+der Seite eingebunden sind.
 
 === 2Prüfung
 
 ==== [#G158]2.1Transkription für Audiodateien:
 
-Im Browser die Audiodatei abspielenPrüfen, ob Informationen vermittelt werden (zBüber eine Kommentarstimme)Dann ist eine Transkription erforderlich.
+Im Browser die Audiodatei abspielenPrüfen, ob Informationen vermittelt werden
+(zBüber eine Kommentarstimme)Dann ist eine Transkription erforderlich.
 Prüfen, ob eine Transkription angeboten wird.
-Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die Audiodatei vermitteltBei Audiodateien mit verschiedenen Stimmen gibt es in der Transkription eine Kennzeichnung der Sprecher.
+Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die
+Audiodatei vermitteltBei Audiodateien mit verschiedenen Stimmen gibt es in der
+Transkription eine Kennzeichnung der Sprecher.
 
 ==== [#G159][#G166]2.2Medienalternative für stumme Film- oder Bildsequenzen:
 
-Im Browser die stumme Videodatei abspielenPrüfen, ob Informationen vermittelt werden.
-Prüfen, ob eine Medienalternative angeboten wirdDies kann eine Textversion (direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche Audiodatei sein.
-Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die stumme Film- oder Bildsequenz vermittelt.
+Im Browser die stumme Videodatei abspielenPrüfen, ob Informationen vermittelt
+werden.
+Prüfen, ob eine Medienalternative angeboten wirdDies kann eine Textversion
+(direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche
+Audiodatei sein.
+Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die
+stumme Film- oder Bildsequenz vermittelt.
 
 ==== 2.3Prüfung der Erreichbarkeit der Transkription bzwMedienalternative:
 
-Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder Videodatei angeboten wird.
-Falls die Medienalternative auf einer anderen Seite steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
+Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder
+Videodatei angeboten wird.
+Falls die Medienalternative auf einer anderen Seite steht: gibt es zu ihr
+einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder
+Videodatei?
 
 === 3Hinweise
 
-Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst als ergänzende Medienalternative angeboten werden (etwa eine schriftliche Montageanleitung, die durch eine Bildsequenz der beschriebenen Schritte ergänzt wird)Der Bezug muss dabei klar sein, etwa durch unmittelbare Nachbarschaft der beiden Medienalternativen oder durch einen aussagekräftigen Link.
+Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst
+als ergänzende Medienalternative angeboten werden (etwa eine schriftliche
+Montageanleitung, die durch eine Bildsequenz der beschriebenen Schritte
+ergänzt wird)Der Bezug muss dabei klar sein, etwa durch unmittelbare
+Nachbarschaft der beiden Medienalternativen oder durch einen aussagekräftigen
+Link.
 
-Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar dieselben Inhalte wiedergegeben werdenBei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die Sprecher im Text identifiziert sein.
+Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer
+Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar
+dieselben Inhalte wiedergegeben werdenBei Transkriptionen von mehreren Stimmen
+(etwa Dialogen) sollen die Sprecher im Text identifiziert sein.
 
 === 4Bewertung
 
@@ -93,7 +118,8 @@ Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer Medienalte
 
 Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizierenDies ist Gegenstand des Prüfschritts link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
 
-In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
+In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von
+gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
 Im Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] geht es schließlich um die Bereitstellung von zusätzlichen Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und Tonspur)Dort geht es also um *zusätzliche* akustische Informationen über Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 

@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Absätze, und Texthervorhebungen sind mit geeigneten Strukturelementen ausgezeichnet.
+Absätze, und Texthervorhebungen sind mit geeigneten Strukturelementen
+ausgezeichnet.
 
 Prüfschritt nicht anwendbar
 
@@ -47,13 +48,22 @@ Text-Inhalt wird nicht per CSS eingebunden.
 
 == Warum wird das geprüft?
 
-Die Unterteilung in kleinere Einheiten erleichtert die Handhabung und das Verständnis.
+Die Unterteilung in kleinere Einheiten erleichtert die Handhabung und das
+Verständnis.
 
-Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene festgelegt und zugänglich istBenutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, oder sie können eine eigene, besser passende Präsentation anwenden.
+Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass
+diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene
+festgelegt und zugänglich istBenutzer, die mit der vorgegebenen visuellen
+Präsentation der Elemente auf der Seite nichts anfangen können, finden sich
+dann trotzdem zurecht, oder sie können eine eigene, besser passende
+Präsentation anwenden.
 
-Die Auszeichnungen `strong` und `em` sind allgemein und nicht darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle Hervorhebung).
+Die Auszeichnungen `strong` und `em` sind allgemein und nicht
+darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle
+Hervorhebung).
 
-Werden Inhalte per CSS eingebunden, sind sie für Nutzer Assistiver Technologien nicht verfügbar.
+Werden Inhalte per CSS eingebunden, sind sie für Nutzer Assistiver
+Technologien nicht verfügbar.
 
 == Wie wird geprüft?
 

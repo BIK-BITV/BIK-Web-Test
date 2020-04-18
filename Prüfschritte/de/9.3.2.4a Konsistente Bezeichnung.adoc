@@ -35,11 +35,15 @@ Navigationsmechanismen und Funktionen sind einheitlich benannt.
 
 == Was wird geprüft?
 
-Navigationsmechanismen und Funktionen, die innerhalb eines Webauftritts wiederholt eingesetzt werden, sollen einheitlich bezeichnet sein.
+Navigationsmechanismen und Funktionen, die innerhalb eines Webauftritts
+wiederholt eingesetzt werden, sollen einheitlich bezeichnet sein.
 
 == Warum wird das geprüft?
 
-Klare und durchgängig verwendete Bezeichnungen für die Navigation und sich wiederholende Funktionen erleichtern Benutzern das Verständnis der Inhalte des AngebotsGesuchtes wird leichter gefunden, Zusammenhänge sind einfacher zu erkennen.
+Klare und durchgängig verwendete Bezeichnungen für die Navigation und sich
+wiederholende Funktionen erleichtern Benutzern das Verständnis der Inhalte des
+AngebotsGesuchtes wird leichter gefunden, Zusammenhänge sind einfacher zu
+erkennen.
 
 == Wie wird geprüft?
 

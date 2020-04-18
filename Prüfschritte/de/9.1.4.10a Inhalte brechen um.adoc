@@ -27,31 +27,61 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Inhalte lassen sich bei einer Browserfensterbreite von 320 CSS-Pixeln ohne Verlust von Informationen oder Funktionalität und ohne horizontales Scrollen nutzen (ausgenommen sind Inhalte, deren Bedeutung oder Nutzung ein zweidimensionales Layout voraussetzen).
+Inhalte lassen sich bei einer Browserfensterbreite von 320 CSS-Pixeln ohne
+Verlust von Informationen oder Funktionalität und ohne horizontales Scrollen
+nutzen (ausgenommen sind Inhalte, deren Bedeutung oder Nutzung ein
+zweidimensionales Layout voraussetzen).
 
 == Was wird geprüft?
 
 Seiten-Inhalte sollen bei einer Browserfensterbreite von 320 CSS-Pixeln (bzwbei einer Browserfensterbreite von 1280 CSS-Pixeln und 400% Zoomvergrößerung) so umbrechen, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.
 
-Es wird dabei nicht verlangt, dass alle Inhalte in gleicher Weise in der responsiven Ansicht verfügbar sindSo sind die sichtbaren Navigationsmenüs einer Standard-Ansicht auf dem Desktop häufig nach dem Hereinzoomen (oder bei Nutzung des Angebots auf einem Smartphone-Monitor) nur über eine Ausklappnavigation zugänglichInhalte können auch in Ausklappbereichen oder über Links auf andere Seiten oder Ansichten verfügbar sein.
+Es wird dabei nicht verlangt, dass alle Inhalte in gleicher Weise in der
+responsiven Ansicht verfügbar sindSo sind die sichtbaren Navigationsmenüs
+einer Standard-Ansicht auf dem Desktop häufig nach dem Hereinzoomen (oder bei
+Nutzung des Angebots auf einem Smartphone-Monitor) nur über eine
+Ausklappnavigation zugänglichInhalte können auch in Ausklappbereichen oder
+über Links auf andere Seiten oder Ansichten verfügbar sein.
 
-Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout erforderlich ist, z.BBilder, Landkarten, Diagramme, Videos, Spiele, Präsentationen, Datentabellen und Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von Werkzeugleisten erfordert.
+Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout
+erforderlich ist, z.BBilder, Landkarten, Diagramme, Videos, Spiele,
+Präsentationen, Datentabellen und Anwendungs-Schnittstellen, in denen die
+Bearbeitung von Inhalten die permanente Verfügbarkeit von Werkzeugleisten
+erfordert.
 
-_Hinweis_: Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen Sprachen benutzten lateinischen SchriftDie zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
+_Hinweis_: Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre
+Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
+Sprachen benutzten lateinischen SchriftDie zugrunde liegende WCAG-Anforderung
+gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
 
 == Warum wird das geprüft?
 
-Sehbehinderte Nutzer vergrößern häufig Seiten-Inhalte über die Zoomfunktion, die in gängigen Desktop-Browsern vorhanden istÜber eine responsive Gestaltung mittels CSS media queries sollen Web-Seiten die Nutzung mit starkem Zoom durch eine dynamische Anpassung des Seiten-Umbruchs unterstützen.
+Sehbehinderte Nutzer vergrößern häufig Seiten-Inhalte über die Zoomfunktion,
+die in gängigen Desktop-Browsern vorhanden istÜber eine responsive Gestaltung
+mittels CSS media queries sollen Web-Seiten die Nutzung mit starkem Zoom durch
+eine dynamische Anpassung des Seiten-Umbruchs unterstützen.
 
-Responsive Seiten-Layouts ordnen die Inhaltsblöcke neu anMehrspaltige Inhalte werden dabei meist so umbrochen, dass sie bei starkem Zoom einspaltig untereinander angeordnet sindBei Fließtexten entstehen auch neue Zeilenumbrüche mit kürzeren Zeilen.
+Responsive Seiten-Layouts ordnen die Inhaltsblöcke neu anMehrspaltige Inhalte
+werden dabei meist so umbrochen, dass sie bei starkem Zoom einspaltig
+untereinander angeordnet sindBei Fließtexten entstehen auch neue
+Zeilenumbrüche mit kürzeren Zeilen.
 
-Der Vorteil: Nutzer müssen beim Lesen nur in eine Richtung scrollen (bei westlichen Sprachen: vertikal)Wenn Zeilen bei Zoomvergrößerung nicht umgebrochen werden, sind Nutzer dagegen gezwungen, beim Lesen jeder Zeile horizontal hin- und her zu scrollen, was die Aufnahme der Inhalte sehr stark beeinträchtigt und verlangsamt.
+Der Vorteil: Nutzer müssen beim Lesen nur in eine Richtung scrollen (bei
+westlichen Sprachen: vertikal)Wenn Zeilen bei Zoomvergrößerung nicht
+umgebrochen werden, sind Nutzer dagegen gezwungen, beim Lesen jeder Zeile
+horizontal hin- und her zu scrollen, was die Aufnahme der Inhalte sehr stark
+beeinträchtigt und verlangsamt.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist für Webinhalte anwendbar, wenn deren Ausgangsbasis für Zugänglichkeit die üblichen Desktop-Browser mit eingebauter Zoomfunktion einschließtEr ist nicht anwendbar bei der Nutzung von Browsern mobiler Betriebssysteme, deren eingebaute Zoomvergrößerung (etwa über eine Spreizgeste) in der Regel keine Vergrößerung mit Inhaltsumbruch bietenEr ist ebenso nicht anwendbar auf native Apps.
+Der Prüfschritt ist für Webinhalte anwendbar, wenn deren Ausgangsbasis für
+Zugänglichkeit die üblichen Desktop-Browser mit eingebauter Zoomfunktion
+einschließtEr ist nicht anwendbar bei der Nutzung von Browsern mobiler
+Betriebssysteme, deren eingebaute Zoomvergrößerung (etwa über eine
+Spreizgeste) in der Regel keine Vergrößerung mit Inhaltsumbruch bietenEr ist
+ebenso nicht anwendbar auf native Apps.
 
 === 2Prüfung
 
@@ -59,7 +89,8 @@ Der Prüfschritt ist für Webinhalte anwendbar, wenn deren Ausgangsbasis für Zu
 
 Seite in Firefox öffnenMit Hilfe der _Web Developer Toolbar_ die Viewport-Breite auf 320 CSS-Pixel einstellen (_Resize -> Edit Resize Dimensions..._)*Achtung:* Wenn rechts eine Scrollbar sichtbar ist, ist die richtige Fenstergrößen-Einstellung 332px, dann ist der Viewport 320px groß.
 Seite neu laden.
-Feststellen, ob Inhalte so umbrechen, dass eine Nutzung ohne horizontales Scrollen möglich ist und keine Inhalte und Funktionen verloren gehen.
+Feststellen, ob Inhalte so umbrechen, dass eine Nutzung ohne horizontales
+Scrollen möglich ist und keine Inhalte und Funktionen verloren gehen.
 
 ==== 2.2 Alternative Prüfung mit 1280px Viewport-Breite
 
@@ -67,7 +98,8 @@ In einem Browser, der Zoomvergrößerung um 400% unterstützt (z.BChrome) das Br
 Die Standard-Einstellung von 100% Zoomvergrößerung und 100% Textvergrößerung sicherstellen.
 Auf 400% zoomen
 Die Seite neu laden
-Feststellen, ob Inhalte so umbrechen, dass eine Nutzung ohne horizontales Scrollen möglich ist und keine Inhalte und Funktionen verloren gehen.
+Feststellen, ob Inhalte so umbrechen, dass eine Nutzung ohne horizontales
+Scrollen möglich ist und keine Inhalte und Funktionen verloren gehen.
 
 === 3Hinweise
 

@@ -35,13 +35,17 @@ Der Inhalt führt nicht zu einer Tastaturfalle.
 
 == Was wird geprüft?
 
-Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch von diesem Element wieder wegbewegt werden könnenDer Inhalt darf keine Tastaturfalle erzeugen.
+Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch
+von diesem Element wieder wegbewegt werden könnenDer Inhalt darf keine
+Tastaturfalle erzeugen.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich sein.
+Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
+mit der Maus als auch mit der Tastatur möglich sein.
 
-Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
+eingeschränkte Menschen oder Blinde.
 
 == Wie wird geprüft?
 
@@ -53,7 +57,8 @@ Der Prüfschritt ist immer anwendbar.
 
 Seite im Firefox Browser aufrufen.
 Mit der Tabulatortaste die Links und Formularelemente durchgehen.
-Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen werden können.
+Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen
+werden können.
 Seite in Chrome aufrufen und Schritte 1 bis 2 wiederholen.
 
 === 3Hinweise

@@ -39,19 +39,26 @@ Prüfschritt nicht anwendbar
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhaltsteil, Beschriftungen sind sinngebend.
+Überschriften beschreiben den folgenden Inhaltsteil, Beschriftungen sind
+sinngebend.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-Inhalte durch Überschriften strukturiertDank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiertDank dieser
+Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der
+Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn
+interessieren.
 
-Wenn Formularfelder sinngebend beschriftet sind, können Sie von Nutzer als solche erkannt und bedient werden.
+Wenn Formularfelder sinngebend beschriftet sind, können Sie von Nutzer als
+solche erkannt und bedient werden.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden können und wenn die Seite Formularelemente enthält.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch
+Überschriften strukturiert werden können und wenn die Seite Formularelemente
+enthält.
 
 === 2Prüfung
 
@@ -62,7 +69,12 @@ Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
 
 === 3Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen)Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem
+betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen
+(einschließlich viel genutzter Abkürzungen)Die Verwendung in Interfaces bringt
+Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu
+führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich
+sind, was aber nicht zu einer negativen Bewertung führen soll.
 
 == Einordnung des Prüfschritts
 

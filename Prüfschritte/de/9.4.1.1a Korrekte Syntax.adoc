@@ -35,7 +35,8 @@ Das Prüfergebnis des W3C-HTML-Validators ist positiv.
 
 == Was wird geprüft?
 
-Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werdenDabei muss für jedes Element folgendes gewährleistet sein:
+Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werdenDabei muss
+für jedes Element folgendes gewährleistet sein:
 
 * Sie besitzen vollständige Start- und Endtags,
 * sie sind gemäß Spezifikation korrekt verschachtelt
@@ -44,7 +45,8 @@ Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werdenDabei muss für
 
 == Warum wird das geprüft?
 
-Eine saubere HTML-Syntax vereinfacht Browsern oder Screenreadern den Umgang mit der Seite.
+Eine saubere HTML-Syntax vereinfacht Browsern oder Screenreadern den Umgang
+mit der Seite.
 
 == Wie wird geprüft?
 
@@ -58,7 +60,9 @@ Seite im Chrome-Browser aufrufen.
 Bookmarklet "https://validator.w3.org/nu/about.html#extras[Check serialized DOM of current page]" nutzen, um die Validität des geparsten Quelltextes im https://validator.w3.org/[W3C-Validator] zu prüfen.
 Falls das Bookmarklet nicht funktioniert, im Validator also nichts angezeigt wird, den DOM-Code kopieren und direkt im W3C Validator im Tab 'Validate by direct Input' eingeben (hier muss ggfeine nicht mitkopierte DOCTYPE Erklärung der Seite zu Beginn eingefügt werden, z.Bbei HTML5 die Zeile <!DOCTYPE html>).
 Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[WCAG parsing only Bookmarklet] die Fehler filtern.
-Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sindSyntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als Fehler.
+Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden
+sindSyntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
+Fehler.
 
 === 3Hinweise
 
@@ -112,7 +116,9 @@ Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sindSyntak
 === Bedeutung von validem HTML
 
 ____
-Ensuring that Web pages have complete start and end tags and are nested according to specification helps ensure that assistive technologies can parse the content accurately and without crashing.
+Ensuring that Web pages have complete start and end tags and are nested
+according to specification helps ensure that assistive technologies can parse
+the content accurately and without crashing.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/parsing.html[Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1]
@@ -133,7 +139,9 @@ Quelle: http://www.w3.org/MarkUp/2004/xhtml-faq
 
 === Prüfung von generiertem Quelltext
 
-Auf Stackoverflow.com gibt es eine ausführliche Diskussion der Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu extrahieren und zu validieren (auf Englisch)
+Auf Stackoverflow.com gibt es eine ausführliche Diskussion der
+Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu
+extrahieren und zu validieren (auf Englisch)
 
 Quelle: http://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page] (stackoverflow.com)
 
@@ -149,4 +157,6 @@ Die Zugänglichkeit von deutlich abgegrenzter Werbung wird im BITV-Test nicht ge
 
 === Was ist, wenn das verwendete CMS nicht validen Code produziert?
 
-In diesem Fall liegt die Schuld für die Nichterfüllung des Prüfschritts möglicherweise beim Anbieter des CMSNichtsdestoweniger validiert die Seite nichtDas negative Ergebnis zählt, wie es zustande kommt, spielt keine Rolle.
+In diesem Fall liegt die Schuld für die Nichterfüllung des Prüfschritts
+möglicherweise beim Anbieter des CMSNichtsdestoweniger validiert die Seite
+nichtDas negative Ergebnis zählt, wie es zustande kommt, spielt keine Rolle.

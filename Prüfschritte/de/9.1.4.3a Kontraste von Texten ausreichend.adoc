@@ -39,13 +39,23 @@ Texte sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Alle Texte der Seite sollen ausreichende Helligkeitskontraste habenSie sollen auch für farbfehlsichtige Benutzer wahrnehmbar seinBei Seiten, die eine ausreichend kontrastreiche Version über einen Styleswitcher anbieten, wird auch geprüft, ob der Ausgangszustand Mindestanforderungen an Schriftkontraste erfüllt.
+Alle Texte der Seite sollen ausreichende Helligkeitskontraste habenSie sollen
+auch für farbfehlsichtige Benutzer wahrnehmbar seinBei Seiten, die eine
+ausreichend kontrastreiche Version über einen Styleswitcher anbieten, wird
+auch geprüft, ob der Ausgangszustand Mindestanforderungen an Schriftkontraste
+erfüllt.
 
 == Warum wird das geprüft?
 
-Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren oder von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
+Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben
+sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren oder
+von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
 
-Die Ausgabe einer kontrastreicheren Seite durch einen Styleswitcher darf nicht dazu führen, dass die Standardseite sich nicht mehr um nutzbare Kontraste kümmertDenn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr, verstehen die Funktion nicht, oder möchten die Seite lieber im Ausgangszustand nutzen.
+Die Ausgabe einer kontrastreicheren Seite durch einen Styleswitcher darf nicht
+dazu führen, dass die Standardseite sich nicht mehr um nutzbare Kontraste
+kümmertDenn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr,
+verstehen die Funktion nicht, oder möchten die Seite lieber im Ausgangszustand
+nutzen.
 
 == Wie wird geprüft?
 
@@ -64,16 +74,28 @@ SichtpüfungSind die Schriftkontraste stark genug?
 Im Zweifel den http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[Contrast Analyser] öffenSchriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
 In der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Informationen > Elementinformationen einblenden_ aktivieren.
 Text, der überprüft werden soll, anklickenIm eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die jeweilige Schriftgröße in Pixeln angegeben.
-Mit Hilfe des Contrast Analysers im Bereich _Vordergrund_ mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die HintergrundfarbeFür Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegtFür große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer liegt.
-Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum Standardfließtext mindestens 3:1 beträgt.
+Mit Hilfe des Contrast Analysers im Bereich _Vordergrund_ mit der Pipette die
+Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
+HintergrundfarbeFür Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
+fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
+liegtFür große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
+liegt.
+Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
+Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
+Standardfließtext mindestens 3:1 beträgt.
 
 ==== 2.2Styleswitcher-Prüfung, Prüfung der Textkontraste der alternativen Ansicht
 
-Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
+Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
+Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 
-Textkontrast des Styleswitcher-Schaltelements prüfenDas Kontrastverhältnis muss 4,5:1 oder besser sein, und auch die anderen Anforderungen (zum Beispiel tastaturbedienbar, ohne Stylesheets nutzbar) müssen erfüllt seinSonst abbrechen.
+Textkontrast des Styleswitcher-Schaltelements prüfenDas Kontrastverhältnis
+muss 4,5:1 oder besser sein, und auch die anderen Anforderungen (zum Beispiel
+tastaturbedienbar, ohne Stylesheets nutzbar) müssen erfüllt seinSonst
+abbrechen.
 Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
-Textkontraste der alternativen Ansicht prüfen (wie in 2.1 _Prüfung der Textkontraste der Standardversion_).
+Textkontraste der alternativen Ansicht prüfen (wie in 2.1 _Prüfung der
+Textkontraste der Standardversion_).
 
 === 3Hinweise
 
@@ -89,7 +111,8 @@ Textkontraste der alternativen Ansicht prüfen (wie in 2.1 _Prüfung der Textkon
 
 ==== 3.2Hinweise zur Prüfung von Seiten mit Styleswitcher
 
-Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren Ansicht erfolgt nur unter folgenden Bedingungen:
+Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
+Ansicht erfolgt nur unter folgenden Bedingungen:
 
 * Das Styleswitcher-Schaltelement (oder der direkte Link zu einer Styleswitcher-Seite) ist deutlich sichtbar am Seitenbeginn platziert.
 * Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und erfüllt auch die anderen Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar und ohne Stylesheets nutzbar)
@@ -151,7 +174,21 @@ https://www.w3.org/TR/css3-values/#absolute-lengths[CSS Values and Units Module 
 
 Zwei Punkte sind hier zu beachten:
 
-Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den GesamtkontrastInsofern ist klar, dass das Ergebnis für den Helligkeitskontrast nicht dem subjektiven Eindruck entsprichtEs soll gar nicht dem subjektiven Gesamteindruck entsprechen, denn schließlich geht es darum, ob die Helligkeitsunterschiede der Farben für sich genommen ausreichend kontrastierenWenn man normalsichtig ist, entspricht der subjektive Eindruck der Graustufenansicht dagegen schon eher dem Formelergebnis.
-Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte, möglicherweise werden die Kontraste durch Schriftenglättung abgeschwächtDie Formel berücksichtigt all diese Faktoren nichtZumindest wenn es um Texte geht, ist dies auch angemessenDenn die genannten Einflüsse stehen nicht fest, sie hängen zum Beispiel von der gewählten Schriftgröße ab.
+Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den
+GesamtkontrastInsofern ist klar, dass das Ergebnis für den Helligkeitskontrast
+nicht dem subjektiven Eindruck entsprichtEs soll gar nicht dem subjektiven
+Gesamteindruck entsprechen, denn schließlich geht es darum, ob die
+Helligkeitsunterschiede der Farben für sich genommen ausreichend
+kontrastierenWenn man normalsichtig ist, entspricht der subjektive Eindruck
+der Graustufenansicht dagegen schon eher dem Formelergebnis.
+Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne
+Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte, möglicherweise
+werden die Kontraste durch Schriftenglättung abgeschwächtDie Formel
+berücksichtigt all diese Faktoren nichtZumindest wenn es um Texte geht, ist
+dies auch angemessenDenn die genannten Einflüsse stehen nicht fest, sie hängen
+zum Beispiel von der gewählten Schriftgröße ab.
 
-Für die Prüfung bedeutet das: Wer mit der formelbasierten Bewertung von Helligkeitskontrasten noch keine Erfahrungen hat, kann sich nicht auf seinen subjektiven Eindruck verlassenEr muss die Formel fast auf alle Farbkombinationen anwenden.
+Für die Prüfung bedeutet das: Wer mit der formelbasierten Bewertung von
+Helligkeitskontrasten noch keine Erfahrungen hat, kann sich nicht auf seinen
+subjektiven Eindruck verlassenEr muss die Formel fast auf alle
+Farbkombinationen anwenden.

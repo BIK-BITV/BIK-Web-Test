@@ -31,7 +31,9 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Automatisch abgespielte Tonelemente dauern nicht länger als drei Sekunden, lassen sich abschalten, oder unabhängig von der Systemlautstärke herunter regeln.
+Automatisch abgespielte Tonelemente dauern nicht länger als drei Sekunden,
+lassen sich abschalten, oder unabhängig von der Systemlautstärke herunter
+regeln.
 
 Prüfschritt nicht anwendbar
 
@@ -39,19 +41,24 @@ Die Seite hat keine Tonelemente, die automatisch abgespielt werden.
 
 == Was wird geprüft?
 
-Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen abschaltbar sein.
+Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen
+abschaltbar sein.
 
 == Warum wird das geprüft?
 
-Automatisch abgespielte Töne stören Nutzer, die sich auf einer Seite mittels Sprachausgabe orientieren.
+Automatisch abgespielte Töne stören Nutzer, die sich auf einer Seite mittels
+Sprachausgabe orientieren.
 
-Falls ein Tonelement nach dem Laden einer Seite automatisch startet, ist es deshalb wichtig, dass es sich über einen am Seitenbeginn befindlichen barrierefreien Mechanismus abschalten, anhalten oder herunter regeln lässt.
+Falls ein Tonelement nach dem Laden einer Seite automatisch startet, ist es
+deshalb wichtig, dass es sich über einen am Seitenbeginn befindlichen
+barrierefreien Mechanismus abschalten, anhalten oder herunter regeln lässt.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn nach dem Laden einer Seite Tonelementen, die auf einer Webseite automatisch länger als drei Sekunden abgespielt werden.
+Der Prüfschritt ist anwendbar, wenn nach dem Laden einer Seite Tonelementen,
+die auf einer Webseite automatisch länger als drei Sekunden abgespielt werden.
 
 === [#G60]2Prüfung
 

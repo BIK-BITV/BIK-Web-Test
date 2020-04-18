@@ -35,13 +35,18 @@ Dokumenttitel sind eindeutig, sie bezeichnen Site und Seiteninhalt.
 
 == Was wird geprüft?
 
-Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie können für die Unterscheidung und Auswahl von Seiten genutzt werden.
+Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie
+können für die Unterscheidung und Auswahl von Seiten genutzt werden.
 
 == Warum wird das geprüft?
 
-Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit BookmarksSie sind wichtig für die Navigation und Orientierung in WebangebotenWenn das Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung beeinträchtigt.
+Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit BookmarksSie
+sind wichtig für die Navigation und Orientierung in WebangebotenWenn das
+Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung
+beeinträchtigt.
 
-Typographische Schmuckelemente werden Screenreader-Nutzern unter Umständen vorgelesen und stören dadurch.
+Typographische Schmuckelemente werden Screenreader-Nutzern unter Umständen
+vorgelesen und stören dadurch.
 
 == Wie wird geprüft?
 
@@ -51,7 +56,9 @@ Der Prüfschritt ist immer anwendbar.
 
 === [#G88][#G127][#H25][#F25]2Prüfung
 
-Dokumenttitel in der Browserleiste ansehenBezeichnet der Titel die Website und den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von Seiten geeignet?
+Dokumenttitel in der Browserleiste ansehenBezeichnet der Titel die Website und
+den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von
+Seiten geeignet?
 
 Falls Seiten Frames haben:
 

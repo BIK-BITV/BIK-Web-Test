@@ -27,11 +27,18 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Statusmeldungen der Inhalte sind über Rollen oder Eigenschaften programmatisch ermittelbar, so dass sie von Hilfsmitteltechnologie ausgegeben werden können, ohne den Fokus zu erhalten.
+Statusmeldungen der Inhalte sind über Rollen oder Eigenschaften programmatisch
+ermittelbar, so dass sie von Hilfsmitteltechnologie ausgegeben werden können,
+ohne den Fokus zu erhalten.
 
 == Was wird geprüft?
 
-Wenn Webanwendungen Statusmeldungen erzeugen, etwa wenn ein Produkt in einen digitalen Warenkorb gelegt wurde, ein Formuar beim Abschicken eine Fehlermeldung oder ein Bestätigungsmeldung erzeugt, sollen visuell eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften ausgezeichnet werden und damit programmatisch, also auch für nicht-visuelle Nutzer, ermittelbar sein.
+Wenn Webanwendungen Statusmeldungen erzeugen, etwa wenn ein Produkt in einen
+digitalen Warenkorb gelegt wurde, ein Formuar beim Abschicken eine
+Fehlermeldung oder ein Bestätigungsmeldung erzeugt, sollen visuell
+eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften
+ausgezeichnet werden und damit programmatisch, also auch für nicht-visuelle
+Nutzer, ermittelbar sein.
 
 Beispiele für Statusmeldungen:
 
@@ -45,18 +52,31 @@ Beispiele für Statusmeldungen:
 
 == Warum wird das geprüft?
 
-In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das Ergebnis von Interaktionen (wie z.Bdie Anzahl der beim Filtern einer Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg von Transaktionen gebenDiese Meldungen sind ebenso wichtig für nicht-visuelle Nutzer und sollten für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, ohne ihren aktuellen Fokus oder Standpunkt ändern zu müssen.
+In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
+Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
+Ergebnis von Interaktionen (wie z.Bdie Anzahl der beim Filtern einer
+Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
+von Transaktionen gebenDiese Meldungen sind ebenso wichtig für nicht-visuelle
+Nutzer und sollten für assistive Technologien verfügbar sein, damit die Nutzer
+auf sie aufmerksam werden, ohne ihren aktuellen Fokus oder Standpunkt ändern
+zu müssen.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren, die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neulädt und dann vor dem Formular eine Fehlermeldung erscheint.
+Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
+die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im
+Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem
+Abschicken eines Formulars die Seite neulädt und dann vor dem Formular eine
+Fehlermeldung erscheint.
 
 === 2Prüfung
 
 Screenreader NVDA im Firefox-Browser aktivieren.
-Eingaben vornehmen, die zur Generierung von Statusmeldungen führenWenn das Angebot von sich aus Statusmeldungen, z.Bbei aktualisierten Inhalten, generiert, diese Meldungen abwarten.
+Eingaben vornehmen, die zur Generierung von Statusmeldungen führenWenn das
+Angebot von sich aus Statusmeldungen, z.Bbei aktualisierten Inhalten,
+generiert, diese Meldungen abwarten.
 Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
 
 === 3Hinweise
@@ -66,15 +86,22 @@ Nicht als Statusmeldung gelten:
 * Fehlermeldung über Dialog (Kontextänderung durch Fokusumsetzung)
 * Die Hinzufügung von Bedienelementen, wie zBzusätzliche Formularelelemente
 
-Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom Screenreader ausgegeben wird, kann abhängig von genutztem Browser und Screenreader unterschiedlich ausfallenDer Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits bestehendes Elementes eingefügt wird oder ob ein kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
+Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
+Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
+Screenreader unterschiedlich ausfallenDer Erfolg kann davon abhängen, ob die
+Statusmeldung in ein bereits bestehendes Elementes eingefügt wird oder ob ein
+kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
 
 Das HTML-Element der Statusmeldung muss mit den zugehörigen Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt, also in das HTML-Element eingefügt wirdDas Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei getrennte Aktionen.
 
-ARIA-Attribute wie `aria-atomic`, `aria-busy`, `aria-relevant` müssen auf Statusmeldungen in der Regel nicht eingesetzt werdenDie Angabe der geeigneten Rolle definiert passende Werte für diese Attribute bereits implizit.
+ARIA-Attribute wie `aria-atomic`, `aria-busy`, `aria-relevant` müssen auf
+Statusmeldungen in der Regel nicht eingesetzt werdenDie Angabe der geeigneten
+Rolle definiert passende Werte für diese Attribute bereits implizit.
 
 === 4Bewertung
 
-Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch verfügbar.
+Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch
+verfügbar.
 
 == Einordnung des Prüfschritts
 

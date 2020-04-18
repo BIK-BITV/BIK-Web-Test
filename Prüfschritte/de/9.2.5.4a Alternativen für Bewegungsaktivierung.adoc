@@ -27,32 +27,57 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Funktionen, die über Gerätebewegung oder Benutzerbewegung ausgelöst werden können, lassen sich alternativ auch über Bedienelemente auslösenDie Aktivierung durch Bewegung kann abgeschaltet werden, außer wenn die Bewegung Teil einer Hilfsmitteleingabe oder für die Funktion unerlässlich ist.
+Funktionen, die über Gerätebewegung oder Benutzerbewegung ausgelöst werden
+können, lassen sich alternativ auch über Bedienelemente auslösenDie
+Aktivierung durch Bewegung kann abgeschaltet werden, außer wenn die Bewegung
+Teil einer Hilfsmitteleingabe oder für die Funktion unerlässlich ist.
 
 == Was wird geprüft?
 
-Wenn Webinhalte auf die Bewegung eines mobilen Gerätes reagieren oder wenn Bewegungen des Benutzers von Gerätesensoren oder der Kamera erfasst werden, um Funktionen auszulösen, sollten hierfür alternative Eingabemöglichkeiten vorhanden sein, und die Bewegungseingabe soll vom Nutzer abgeschaltet werden können.
+Wenn Webinhalte auf die Bewegung eines mobilen Gerätes reagieren oder wenn
+Bewegungen des Benutzers von Gerätesensoren oder der Kamera erfasst werden, um
+Funktionen auszulösen, sollten hierfür alternative Eingabemöglichkeiten
+vorhanden sein, und die Bewegungseingabe soll vom Nutzer abgeschaltet werden
+können.
 
-Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion wesentlich sind, z.Bwenn ein Bewegungssensor die Schritte einer Person aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten Hilfsmitteleingabe ist.
+Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion
+wesentlich sind, z.Bwenn ein Bewegungssensor die Schritte einer Person
+aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten
+Hilfsmitteleingabe ist.
 
-Abschaltbarkeit der Bewegungseingabe: Gegebenenfalls können Webinhalte diese Anforderung erfüllen, indem sie Betriebssystemeinstellungen unterstützen, die es dem Benutzer ermöglichen, die Bewegungserkennung auf Systemebene zu deaktivieren.
+Abschaltbarkeit der Bewegungseingabe: Gegebenenfalls können Webinhalte diese
+Anforderung erfüllen, indem sie Betriebssystemeinstellungen unterstützen, die
+es dem Benutzer ermöglichen, die Bewegungserkennung auf Systemebene zu
+deaktivieren.
 
 == Warum wird das geprüft?
 
-Menschen mit motorischen Einschränkungen können Bewegungseingaben oft nicht, oder nicht gezielt, ausführenIn manchen Fällen sind Geräte fest montiert, zum Beispiel an einem Rollstuhl, was Bewegungseingaben unmöglich machtDeshalb ist es wichtig, dass es auch andere Möglichkeiten der Eingabe über Bedienelemente des Webinhaltes gibt.
+Menschen mit motorischen Einschränkungen können Bewegungseingaben oft nicht,
+oder nicht gezielt, ausführenIn manchen Fällen sind Geräte fest montiert, zum
+Beispiel an einem Rollstuhl, was Bewegungseingaben unmöglich machtDeshalb ist
+es wichtig, dass es auch andere Möglichkeiten der Eingabe über Bedienelemente
+des Webinhaltes gibt.
 
-Bei anderen motorischen Einschränkungen kann es durch unwillkürliche Bewegungen zu ungewollten Eingaben kommenDeshalb ist es wichtig, dass sich von Webinhalten bereitgestelte motorische Eingaben deaktivieren lassen.
+Bei anderen motorischen Einschränkungen kann es durch unwillkürliche
+Bewegungen zu ungewollten Eingaben kommenDeshalb ist es wichtig, dass sich von
+Webinhalten bereitgestelte motorische Eingaben deaktivieren lassen.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Webinhalte bestimmte Bewegungseingaben definieren, etwa die Bewegung durch eine 360-Grad-Rundumansicht durch ein Rotieren des Geräts, oder das Blättern durch eine Folge von Präsentationsfolien durch ruckartige Seitwärtsbewegungen.
+Der Prüfschritt ist anwendbar, wenn Webinhalte bestimmte Bewegungseingaben
+definieren, etwa die Bewegung durch eine 360-Grad-Rundumansicht durch ein
+Rotieren des Geräts, oder das Blättern durch eine Folge von
+Präsentationsfolien durch ruckartige Seitwärtsbewegungen.
 
 === 2Prüfung
 
-Über Bewegungen, Quellcode-Prüfung oder geeignete Hilfsfunktionen, die in Scripten das Vorhandensein von Motion-Eventhandlern aufzeigen, prüfen, ob der Webinhalt in irgend einer Weise auf Bewegungseingaben reagiert.
-Für alle Funktionen, die über Bewegungseingabe ausgelöst werden, prüfen, ob alternative Eingabemöglichkeiten über Bedienelemente bestehen.
+Über Bewegungen, Quellcode-Prüfung oder geeignete Hilfsfunktionen, die in
+Scripten das Vorhandensein von Motion-Eventhandlern aufzeigen, prüfen, ob der
+Webinhalt in irgend einer Weise auf Bewegungseingaben reagiert.
+Für alle Funktionen, die über Bewegungseingabe ausgelöst werden, prüfen, ob
+alternative Eingabemöglichkeiten über Bedienelemente bestehen.
 Prüfen, ob sich vorhandene Bewegungseingaben abschalten lassen.
 
 === 3Bewertung

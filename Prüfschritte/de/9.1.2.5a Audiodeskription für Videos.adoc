@@ -35,15 +35,23 @@ Videos sind mit Audiodeskription versehen.
 
 Prüfschritt nicht anwendbar
 
-Videos sind nicht vorhanden oder auch ohne synchrone Audiodeskription zugänglich.
+Videos sind nicht vorhanden oder auch ohne synchrone Audiodeskription
+zugänglich.
 
 == Was wird geprüft?
 
-Für informationstragende visuelle Videoinhalte muss eine Audiodeskription bereitgestellt werden.
+Für informationstragende visuelle Videoinhalte muss eine Audiodeskription
+bereitgestellt werden.
 
 == Warum wird das geprüft?
 
-Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werdenDen Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es gehtDagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt wirdDamit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werdenHierfür wird das Verfahren der Audiodeskription eingesetzt.
+Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werdenDen
+Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
+verstehen, worum es gehtDagegen enthalten Spielfilme und Reportagen oft
+Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt
+wirdDamit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
+Passagen beschrieben werdenHierfür wird das Verfahren der Audiodeskription
+eingesetzt.
 
 == Wie wird geprüft?
 
@@ -59,21 +67,25 @@ Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werdenDen Spr
 
 Es wird eine Sicht- und Hörprüfung vorgenommen.
 
-Art der Einbindung feststellenDie Audiodeskription kann auf verschiedenem Wege angeboten werden:
+Art der Einbindung feststellenDie Audiodeskription kann auf verschiedenem Wege
+angeboten werden:
 
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
 * [#G173]Eine weitere Version des Videos mit Audiodeskription wird angebotenDiese Version wird geprüft[#G58]Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
 * Das Video hat eine zuschaltbare Tonspur mit der AudiodeskriptionDiese Spur wird zusätzlich geschaltet.
 
-Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
+Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+vom Format abhängigen Video-Player abgespielt.
 
-Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
+Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 === 3Bewertung
 
 ==== Nicht voll erfüllt:
 
-Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder nicht vollständig.
+Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder
+nicht vollständig.
 
 ==== Nicht erfüllt:
 

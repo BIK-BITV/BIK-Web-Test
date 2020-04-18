@@ -35,11 +35,13 @@ Webseiten enthalten kein Flackern.
 
 == Was wird geprüft?
 
-Die Seite enthält keine Elemente, die in einem Zeitraum von einer Sekunde häufiger als dreimal aufblitzen.
+Die Seite enthält keine Elemente, die in einem Zeitraum von einer Sekunde
+häufiger als dreimal aufblitzen.
 
 == Warum wird das geprüft?
 
-Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen einen Anfall auslösen.
+Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen
+einen Anfall auslösen.
 
 == Wie wird geprüft?
 
@@ -55,7 +57,9 @@ Der Prüfschritt ist immer anwendbar.
 
 === 3Hinweis zur Abwertung
 
-Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis der Prüfung abgewertetFlackern wird dadurch hervorgerufen, dass die Farbe oder das Muster einer Fläche pro Sekunde mindestens 4 mal wechselt.
+Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis
+der Prüfung abgewertetFlackern wird dadurch hervorgerufen, dass die Farbe oder
+das Muster einer Fläche pro Sekunde mindestens 4 mal wechselt.
 
 == Einordnung des Prüfschritts
 
@@ -81,7 +85,8 @@ Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis d
 === Die WCAG 2.1 zu General flash and red flash thresholds
 
 ____
-A flash or rapidly changing image sequence is below the threshold (i.e., content passes) if any of the following are true:
+A flash or rapidly changing image sequence is below the threshold (i.e.,
+content passes) if any of the following are true:
 
 there are no more than three general flashes and / or no more than three red flashes within any one-second period; or
 the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance

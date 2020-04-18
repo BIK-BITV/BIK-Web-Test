@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Linktexte sind durch den Linktext selbst oder über den programmatisch ermittelbaren Kontext aussagekräftig.
+Linktexte sind durch den Linktext selbst oder über den programmatisch
+ermittelbaren Kontext aussagekräftig.
 
 Prüfschritt nicht anwendbar
 
@@ -39,21 +40,38 @@ Links sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.
+Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem
+direkten Kontext des Links ermittelbar sein.
 
-Falls Links nicht auf HTML-Seiten verweisen, soll der Link über das Dateiformat des Zieldokuments informieren.
+Falls Links nicht auf HTML-Seiten verweisen, soll der Link über das
+Dateiformat des Zieldokuments informieren.
 
 == Warum wird das geprüft?
 
-Blinde Nutzer, die von Link zu Link tabben, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
+Blinde Nutzer, die von Link zu Link tabben, bekommen die Linktexte vorgelesen
+und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem
+Link folgen möchten.
 
-Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare
+Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit der Auflistung sämtlicher Links der Seite und damit einen schnellen Überblick, selbst wenn die Seite ansonsten schlecht zugänglich istDiese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit der Auflistung sämtlicher Links der Seite
+und damit einen schnellen Überblick, selbst wenn die Seite ansonsten schlecht
+zugänglich istDiese Technik funktioniert allerdings nicht, wenn alle Linktexte
+gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
 
-Für Angebote in anderen Formaten als HTML (zum Beispiel PDF- oder Word-Dokumente) benötigt der Benutzer zusätzliche Programme oder Plugins, die aber nicht jeder auf seinem Rechner installiert hatManche Programme arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglichFür viele Benutzer ist es wichtig zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren.
+Für Angebote in anderen Formaten als HTML (zum Beispiel PDF- oder
+Word-Dokumente) benötigt der Benutzer zusätzliche Programme oder Plugins, die
+aber nicht jeder auf seinem Rechner installiert hatManche Programme arbeiten
+schlecht mit Screenreadern oder anderen Hilfsanwendungen zusammen, manche
+Dateiformate sind nicht oder nur schlecht zugänglichFür viele Benutzer ist es
+wichtig zu wissen, in welchem Format Informationen angeboten werden, bevor sie
+einen Link aktivieren.
 
-Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links wichtig ist: Der Benutzer weiß dann, was auf ihn zukommtEr ist nicht überrascht oder irritiert, wenn plötzlich Browserfunktionen nicht mehr vorhanden sind oder der E-Mail-Client geöffnet wird.
+Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
+wichtig ist: Der Benutzer weiß dann, was auf ihn zukommtEr ist nicht
+überrascht oder irritiert, wenn plötzlich Browserfunktionen nicht mehr
+vorhanden sind oder der E-Mail-Client geöffnet wird.
 
 == Wie wird geprüft?
 
@@ -66,7 +84,8 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 ==== 2.1 Prüfung von Linktexten
 
 Seite im Firefox aufrufen.
-Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im
+Kontext eine Auskunft über Ziel oder Zweck des Links geben.
 Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z.B"mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 * durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert
 * durch zusätzlichen, über CSS versteckten Linktext (hierfür in der Web Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die betroffenen Links erneut prüfen)
@@ -81,8 +100,11 @@ Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z.B"mehr
 
 Seite im Firefox aufrufen.
 In der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[Web Developer Toolbar] die Option _Information > View Link Information_ wählen.
-Links auf nicht-HTML-Angebote in der Linkliste anhand der URL identifizieren (zum Beispiel mailto-Links oder die Dateiendungen .pdf oder .doc)
-Prüfen, ob im Linktext oder im title-Text Auskunft über das Dateiformat gegeben wird oder das Linkziel über die Format des Linktexts deutlich wird - so etwa bei einer verlinkten E-Mail-Adresse.
+Links auf nicht-HTML-Angebote in der Linkliste anhand der URL identifizieren
+(zum Beispiel mailto-Links oder die Dateiendungen .pdf oder .doc)
+Prüfen, ob im Linktext oder im title-Text Auskunft über das Dateiformat
+gegeben wird oder das Linkziel über die Format des Linktexts deutlich wird -
+so etwa bei einer verlinkten E-Mail-Adresse.
 Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wird, den Link auf der Webseite suchen und prüfen, ob mit visuellen Mitteln über das Dateiformat informiert wird (zum Beispiel PDF-Symbol, Überschrift "PDFs zum Herunterladen"...).
 
 === 3Hinweise
@@ -108,13 +130,19 @@ Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wi
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei verlinkten Grafiken ist der Linktext der `alt`-Text des `img`-ElementsDie Aussagekraft des `alt`-Textes wird jedoch geprüft in:
+Bei verlinkten Grafiken ist der Linktext der `alt`-Text des `img`-ElementsDie
+Aussagekraft des `alt`-Textes wird jedoch geprüft in:
 
 * Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente"
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden istDas ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
+In diesem Prüfschritt wird nur geprüft, ob die Information über das
+Dateiformat überhaupt vorhanden istDas ist der Fall, wenn das Dateiformat in
+einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
 
-Nicht geprüft wird, ob die Information auch gut zugänglich istDafür reicht die alleinige Anzeige als Grafik nicht ausWenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob diese Information auch als Text verfügbar ist.
+Nicht geprüft wird, ob die Information auch gut zugänglich istDafür reicht die
+alleinige Anzeige als Grafik nicht ausWenn das Dateiformat mit einer Grafik
+angezeigt wird, muss geprüft werden, ob diese Information auch als Text
+verfügbar ist.
 
 * Alternativer Text für nicht-visuelle Nutzer: Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente"
 
@@ -165,14 +193,21 @@ Nicht geprüft wird, ob die Information auch gut zugänglich istDafür reicht di
 === Zweck der Kontextunabhängigkeit
 
 ____
-Assistive technology has the ability to provide users with a list of links that are on the Web pageLink text that is as meaningful as possible will aid users who want to choose from this list of linksMeaningful link text also helps those who wish to tab from link to linkMeaningful links help users choose which links to follow without requiring complicated strategies to understand the page.
+Assistive technology has the ability to provide users with a list of links
+that are on the Web pageLink text that is as meaningful as possible will aid
+users who want to choose from this list of linksMeaningful link text also
+helps those who wish to tab from link to linkMeaningful links help users
+choose which links to follow without requiring complicated strategies to
+understand the page.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[Link Purpose (In Context): Understanding SC 2.4.4]
 
 === Gruppen zusammengehöriger Links
 
-Bei einer Gruppe zusammengehöriger Links kann im ersten Link Ziel oder Zweck genannt werden und in den folgenden Links unterscheidende InformationenDie WCAG 2.1 geben folgendes Beispiel:
+Bei einer Gruppe zusammengehöriger Links kann im ersten Link Ziel oder Zweck
+genannt werden und in den folgenden Links unterscheidende InformationenDie
+WCAG 2.1 geben folgendes Beispiel:
 
 ____
 A list of books is available in three formats: HTML, PDF, and mp3 (a recording of a person reading the book)To avoid hearing the title of each book three times (once for each format), the first link for each book is the title of the book, the second link says "PDF" and the third says, "mp3."
@@ -183,9 +218,18 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html
 === Aussagekraft über den Kontext
 
 ____
-Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
+Whenever possible, provide link text that identifies the purpose of the link
+without needing additional context.
 
-In some situations, authors may want to provide part of the description of the link in logically related text that provides the context for the linkIn this case the user should be able to identify the purpose of the link without moving focus from the linkIn other words, they can arrive on a link and find out more about it without losing their placeThis can be achieved by putting the description of the link in the same sentence, paragraph, list item, the heading immediately preceding the link, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself.
+In some situations, authors may want to provide part of the description of the
+link in logically related text that provides the context for the linkIn this
+case the user should be able to identify the purpose of the link without
+moving focus from the linkIn other words, they can arrive on a link and find
+out more about it without losing their placeThis can be achieved by putting
+the description of the link in the same sentence, paragraph, list item, the
+heading immediately preceding the link, or table cell as the link, or in the
+table header cell for a link in a data table, because these are directly
+associated with the link itself.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[Link Purpose (In Context): Understanding SC 2.4.4]
@@ -193,7 +237,11 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html
 === Grenzen des `title`-Attributs (Technik H33: Supplementing link text with the title attribute)
 
 ____
-The `title` attribute is used to provide additional information to help clarify or further describe the purpose of a linkIf the supplementary information provided through the `title` attribute is something the user should know before following the link, such as a warning, then it should be provided in the link text rather than in the title attribute.
+The `title` attribute is used to provide additional information to help
+clarify or further describe the purpose of a linkIf the supplementary
+information provided through the `title` attribute is something the user
+should know before following the link, such as a warning, then it should be
+provided in the link text rather than in the title attribute.
 
 Because of the extensive user agent limitations in supporting access to the `title` attribute, authors should use caution in applying this techniqueFor this reason, it is preferred that the author use technique https://www.w3.org/WAI/WCAG21/Techniques/css/C7.html[C7: Using CSS to hide a portion of the link text] (CSS) or https://www.w3.org/WAI/WCAG21/Techniques/html/H30.html[H30: Providing link text that describes the purpose of a link for anchor elements] (HTML).
 ____
@@ -204,8 +252,15 @@ Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
 
 === Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe Seite verlinktDas beeinträchtigt die Brauchbarkeit der von Screenreadern generierten LinklistenWie wird das bewertet?
 
-Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste unpraktisch, sie machen die Liste länger und unübersichtlicherUnbrauchbar wird die Linkliste aber nicht, solange durch die Linktexte deutlich wird, dass es sich mehrfache Links auf dasselbe Ziel handelt.
+Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste
+unpraktisch, sie machen die Liste länger und unübersichtlicherUnbrauchbar wird
+die Linkliste aber nicht, solange durch die Linktexte deutlich wird, dass es
+sich mehrfache Links auf dasselbe Ziel handelt.
 
-Für sehende Nutzer kann die Mehrfachverlinkung von Überschrift, Abbildung und mehr-Link dagegen praktisch seinSie müssen nicht erst nach einem kleinen mehr-Link am Ende des Anreißertexts suchen, sondern können auf das meist größere und damit leichter zu treffende Bild oder auch gleich auf die Überschrift klicken.
+Für sehende Nutzer kann die Mehrfachverlinkung von Überschrift, Abbildung und
+mehr-Link dagegen praktisch seinSie müssen nicht erst nach einem kleinen
+mehr-Link am Ende des Anreißertexts suchen, sondern können auf das meist
+größere und damit leichter zu treffende Bild oder auch gleich auf die
+Überschrift klicken.
 
 Hier gibt es also kein "richtig" oder "falsch", die verschiedenen Ansätze haben alle ihre Vor- und NachteileWichtig ist, dass alle Linktexte so aussagekräftig sind, dass der Benutzer die Mehrfachverlinkung in der Linkliste erkennen kannWenn das sichergestellt ist, wird Mehrfachverlinkung nicht negativ bewertet.

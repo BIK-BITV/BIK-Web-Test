@@ -31,21 +31,35 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-In komplexen Datentabellen ist der Bezug von Überschriften und Inhalten (über `scope` oder über `id` und `headers`) definiert, Zuordnungen von Überschriften in einfachen Datentabellen sind korrekt.
+In komplexen Datentabellen ist der Bezug von Überschriften und Inhalten (über
+`scope` oder über `id` und `headers`) definiert, Zuordnungen von Überschriften
+in einfachen Datentabellen sind korrekt.
 
 Prüfschritt nicht anwendbar
 
-Komplexe Datentabellen sind nicht vorhanden, in einfachen Datentabellen sind Überschriften nicht zugeordnet.
+Komplexe Datentabellen sind nicht vorhanden, in einfachen Datentabellen sind
+Überschriften nicht zugeordnet.
 
 == Was wird geprüft?
 
-In komplexen Datentabellen soll der Bezug von Überschriften und Inhalten (über `scope` oder über `id` und `headers`) definiert sein, ausdrückliche Zuordnungen von Überschriften und Inhalten in einfachen Datentabellen sollen korrekt sein.
+In komplexen Datentabellen soll der Bezug von Überschriften und Inhalten (über
+`scope` oder über `id` und `headers`) definiert sein, ausdrückliche
+Zuordnungen von Überschriften und Inhalten in einfachen Datentabellen sollen
+korrekt sein.
 
 == Warum wird das geprüft?
 
-Bei komplexen Tabellen können Screenreader aus dem Tabellengerüst allein nicht schließen, welche Bezüge es zwischen Daten- und Überschriftenzellen gibtDeshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung stehenden Attribute ausdrücklich definiert werden.
+Bei komplexen Tabellen können Screenreader aus dem Tabellengerüst allein nicht
+schließen, welche Bezüge es zwischen Daten- und Überschriftenzellen
+gibtDeshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung
+stehenden Attribute ausdrücklich definiert werden.
 
-In der Praxis sind manchmal auch einfache Datentabellen mit `headers`- und `id`-Attributen ausgezeichnetScreenreader richten sich dann nicht nach allgemeinen Regeln, sondern nach der vorliegenden AuszeichnungDeshalb muss die Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäreDenn bei falscher direkter Zuordnung von Datenzellen werden die Überschriften nicht oder fehlerhaft ausgegeben.
+In der Praxis sind manchmal auch einfache Datentabellen mit `headers`- und
+`id`-Attributen ausgezeichnetScreenreader richten sich dann nicht nach
+allgemeinen Regeln, sondern nach der vorliegenden AuszeichnungDeshalb muss die
+Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäreDenn
+bei falscher direkter Zuordnung von Datenzellen werden die Überschriften nicht
+oder fehlerhaft ausgegeben.
 
 Hinweis: +
 Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen als einfache, selbst bei perfekter AuszeichnungZu empfehlen ist also die Vermeidung von Tabellen mit mehreren logischen Ebenen (siehe link:#log[Frage zu Tabellen mit mehreren logischen Ebenen])In vielen Fällen können komplexe Tabellen geteilt und durch mehrere einfache Tabellen ersetzt werdenDie beste Bewertung für dieses Prüfschritt ist deshalb immer "nicht anwendbar".
@@ -56,8 +70,11 @@ Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen als 
 
 Der Prüfschritt ist anwendbar,
 
-wenn eine Datentabelle komplex ist, also mehrstufige Zeilen- oder Spaltenüberschriften vorhanden sind oder
-wenn in einer einfachen Datentabelle Zellen ausdrücklich (per `headers` und `id`) bestimmten Überschriften zugeordnet sind (auch wenn diese Zuordnung eigentlich nicht erforderlich wäre).
+wenn eine Datentabelle komplex ist, also mehrstufige Zeilen- oder
+Spaltenüberschriften vorhanden sind oder
+wenn in einer einfachen Datentabelle Zellen ausdrücklich (per `headers` und
+`id`) bestimmten Überschriften zugeordnet sind (auch wenn diese Zuordnung
+eigentlich nicht erforderlich wäre).
 
 Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur jeweils eine Zeile oder Spalte für ÜberschriftenBei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren" Überschriften zuzuordnen.
 
@@ -65,7 +82,9 @@ Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur jewei
 
 Seite im Firefox laden.
 Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufenTabellen-Auszeichnungen werden jetzt angezeigt.
-Prüfen, ob der Geltungsbereich der Überschriften korrekt über das `scope`-Attribut definiert ist oder die einzelnen Zellen mithilfe von `headers`- und `id`-Attributen korrekt ihren Überschriften zugeordnet sind.
+Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
+`scope`-Attribut definiert ist oder die einzelnen Zellen mithilfe von
+`headers`- und `id`-Attributen korrekt ihren Überschriften zugeordnet sind.
 
 === 3Hinweis
 
@@ -105,7 +124,10 @@ Grundlage der Prüfung ist die vorangegangene Überprüfung des Aufbaus der Date
 === [#log]Was sind Tabellen mit mehreren logischen Ebenen?
 
 ____
-(...) the average table of data with a row of headers across the top, and a column of headers down one side or the other (or sometimes the same headers reproduced at either side, to make life easier) has only one logical level of headers.
+(...) the average table of data with a row of headers across the top, and a
+column of headers down one side or the other (or sometimes the same headers
+reproduced at either side, to make life easier) has only one logical level of
+headers.
 
 Tables with two or more levels are those where the row of headers "closest to the content" itself has headersA trivial example would be months, which have season headers (...)
 ____

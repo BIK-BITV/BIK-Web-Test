@@ -41,15 +41,23 @@ Formularfelder sind nicht vorhanden.
 
 Beschriftungen von Formularelementen sind vorhanden.
 
-Die Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld angeordnet werdenNur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
+Die Beschriftung von Formularelementen soll vor (das heißt links neben oder
+über) dem zugehörigen Eingabefeld angeordnet werdenNur die Beschriftung von
+Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem
+zugehörigen Eingabefeld angeordnet werden.
 
-Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die Anweisungen für alle Benutzer lesbar.
+Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die
+Anweisungen für alle Benutzer lesbar.
 
 == Warum wird das geprüft?
 
-Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche Eingaben erwartet werden und Fehler können vermieden werden.
+Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche
+Eingaben erwartet werden und Fehler können vermieden werden.
 
-Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entspricht den üblichen GestaltungskonventionenAuch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche Beschriftung zu welchem Feld gehört.
+Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld
+entspricht den üblichen GestaltungskonventionenAuch in ausschnitthaften
+Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche
+Beschriftung zu welchem Feld gehört.
 
 == Wie wird geprüft?
 

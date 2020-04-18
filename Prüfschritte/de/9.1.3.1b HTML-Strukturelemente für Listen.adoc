@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Listen (einschließlich Menüs) sind mit den vorgesehenen HTML-Strukturelementen ausgezeichnet.
+Listen (einschließlich Menüs) sind mit den vorgesehenen HTML-Strukturelementen
+ausgezeichnet.
 
 Prüfschritt nicht anwendbar
 
@@ -39,13 +40,18 @@ Listen sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Zur Auszeichnung von Listen auf der Seite sollen HTML-Strukturelemente für Listen (`ul`, `ol` und so weiter) genutzt werden.
+Zur Auszeichnung von Listen auf der Seite sollen HTML-Strukturelemente für
+Listen (`ul`, `ol` und so weiter) genutzt werden.
 
 == Warum wird das geprüft?
 
-Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt und zugänglich ist.
+Die Verwendung der HTML-Strukturelemente stellt sicher, dass der Aufbau einer
+Seite unabhängig von der Präsentation auf einer abstrakten Ebene festgelegt
+und zugänglich ist.
 
-Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht oder sie können eine eigene, besser passende Präsentation anwenden.
+Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der
+Seite nichts anfangen können, finden sich dann trotzdem zurecht oder sie
+können eine eigene, besser passende Präsentation anwenden.
 
 Mögliche Anwendungen der Strukturelemente für Listen:
 
@@ -56,9 +62,13 @@ Mögliche Anwendungen der Strukturelemente für Listen:
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Elemente enthält, die von ihrem Erscheinungsbild oder ihrer Funktion her Listen sindDas ist bei informationsorientierten Seiten häufig der Fall.
+Der Prüfschritt ist anwendbar, wenn die Seite Elemente enthält, die von ihrem
+Erscheinungsbild oder ihrer Funktion her Listen sindDas ist bei
+informationsorientierten Seiten häufig der Fall.
 
-Da auch die missbräuchliche Verwendung der HTML-Elemente für Listen geprüft wird, ist der Prüfschritt darüber hinaus immer anwendbar, wenn die Seite Elemente enthält, die als Listen ausgezeichnet worden sind.
+Da auch die missbräuchliche Verwendung der HTML-Elemente für Listen geprüft
+wird, ist der Prüfschritt darüber hinaus immer anwendbar, wenn die Seite
+Elemente enthält, die als Listen ausgezeichnet worden sind.
 
 === 2Prüfung
 
@@ -69,15 +79,24 @@ Da auch die missbräuchliche Verwendung der HTML-Elemente für Listen geprüft w
 
 === 3Hinweise
 
-Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht besser in Listenform dargestellt werden solltenEs soll nur geprüft werden, ob vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
+Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht
+besser in Listenform dargestellt werden solltenEs soll nur geprüft werden, ob
+vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
 
-Listen erkennt man normalerweise an ihrer Darstellung auf dem BildschirmSie heben sich deutlich von normalen Textabschnitten ab, oft sind sie eingerückt, meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen vorangestellt.
+Listen erkennt man normalerweise an ihrer Darstellung auf dem BildschirmSie
+heben sich deutlich von normalen Textabschnitten ab, oft sind sie eingerückt,
+meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen vorangestellt.
 
-Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer Listen, egal wie sie gestaltet sindSie sollten deshalb auch als Listen ausgezeichnet werden.
+Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer
+Listen, egal wie sie gestaltet sindSie sollten deshalb auch als Listen
+ausgezeichnet werden.
 
-Definitionslisten dienen hauptsächlich zur Auszeichnung von GlossarenIhr Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und Bildtext, wird akzeptiert.
+Definitionslisten dienen hauptsächlich zur Auszeichnung von GlossarenIhr
+Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und
+Bildtext, wird akzeptiert.
 
-Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht gefordert ist:
+Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht
+gefordert ist:
 
 * Die "Sie-sind-hier"-Navigation am Seitenanfang (auch breadcrumb trail oder Krümelpfad).
 * Die horizontale Seitenauswahl (Blättermenü) am Kopf- und Fußende, etwa bei mehrseitigen Artikeln

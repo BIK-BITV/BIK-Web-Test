@@ -43,28 +43,41 @@ Grafische Bedienelemente (alle verlinkten / interaktiven Grafiken und Bilder) m�
 
 Die Alternativtexte für Bedienelemente (z.BIcons oder Logos) oder Teaserbilder sollen das *Ziel* des Links bezeichnenAlternativtexte für grafische Schaltflächen (Buttons) sollen die *Aktion* bezeichnen, die der Button auslöstWenn Image maps eingesetzt werden, sollen deren Bereiche (`area`-Elemente) sinnvolle Alternativtexte haben.
 
-Thema dieses Prüfschritts sind auch Textlinks, die per CSS durch Hintergrundbilder ersetzt werden sowie Textalternativen für Icon Fonts und SVGs.
+Thema dieses Prüfschritts sind auch Textlinks, die per CSS durch
+Hintergrundbilder ersetzt werden sowie Textalternativen für Icon Fonts und
+SVGs.
 
 == Warum wird das geprüft?
 
-Für blinde Benutzer oder für Benutzer, die für schnellere Zugriffszeiten das Laden von Grafiken abschalten, sind Grafiken nicht zugänglichDie Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen.
+Für blinde Benutzer oder für Benutzer, die für schnellere Zugriffszeiten das
+Laden von Grafiken abschalten, sind Grafiken nicht zugänglichDie
+Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik
+ersetzen.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhaltenSie werden per CSS eingebunden und werden entweder von assistiven Technologien nicht ausgegeben oder es wird ein Unicode-Äquivalent wiedergegeben, was die Bedeutung im Kontext nicht vermittelt.
+Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhaltenSie
+werden per CSS eingebunden und werden entweder von assistiven Technologien
+nicht ausgegeben oder es wird ein Unicode-Äquivalent wiedergegeben, was die
+Bedeutung im Kontext nicht vermittelt.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Grafiken, Icon Fonts oder SVGs als Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt werden.
+Der Prüfschritt ist anwendbar, wenn Grafiken, Icon Fonts oder SVGs als
+Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt
+werden.
 
 === 2Prüfung
 
 ==== 2.1Anzeige der Alternativtexte von Grafiken
 
 Die Seite im Firefox aufrufen.
-Bedienelemente feststellen (zum Beispiel horizontale oder vertikale Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
+Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
+Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
 In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufen und prüfen, ob die Bedienelemente mit äquivalenten Alternativtexten versehen sind (siehe link:#angemessen[2.4])Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
-Feststellen, ob die Seite Image maps enthältHierfür kann gegebenenfalls der Quelltext nach `map` durchsucht werdenIst ein Image map vorhanden, weiter mit 2.2.
+Feststellen, ob die Seite Image maps enthältHierfür kann gegebenenfalls der
+Quelltext nach `map` durchsucht werdenIst ein Image map vorhanden, weiter mit
+2.2.
 
 ==== 2.2Anzeige von Image maps
 
@@ -72,31 +85,49 @@ Falls Image maps eingesetzt werden:
 
 Die Firefox Developer Tools öffnen und im Quellcode prüfen, ob für jeden Link (`area`-Element der Image map, aktiver Bereich) *und* für das Gesamtbild der Image map ein gleichwertiger Alternativtext vorhanden ist (siehe link:#angemessen[2.6]).
 
-Der Alternativtext für die gesamte Image map sollte in der Regel die Image map beschreiben, die Alternativtexte für die aktiven Bereiche (`area`-Elemente) sollten die Linkziele bezeichnen.
+Der Alternativtext für die gesamte Image map sollte in der Regel die Image map
+beschreiben, die Alternativtexte für die aktiven Bereiche (`area`-Elemente)
+sollten die Linkziele bezeichnen.
 
 ==== [#F3]2.3Textalternativen für Hintergrundgrafiken
 
-Hintergrundgrafiken haben kein `alt`-Attribut, auf diese Weise kann also keine Textalternative hinterlegt werden.
+Hintergrundgrafiken haben kein `alt`-Attribut, auf diese Weise kann also keine
+Textalternative hinterlegt werden.
 
-Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich vorhandenen Textlink ersetzt (CSS-Bildersetzungsverfahren), dann gilt dieser Textlink als Textalternative für die HintergrundgrafikVoraussetzung ist allerdings, dass ein geeignetes Bildersetzungsverfahren verwendet wurde (nicht `display:none`).
+Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich
+vorhandenen Textlink ersetzt (CSS-Bildersetzungsverfahren), dann gilt dieser
+Textlink als Textalternative für die HintergrundgrafikVoraussetzung ist
+allerdings, dass ein geeignetes Bildersetzungsverfahren verwendet wurde (nicht
+`display:none`).
 
 ===== Grundeinstellung in Firefox
 
 http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._ aufrufenDen Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die Option _Farben..._ wählen.
-Im Dialog _Farben_ im Bereich _Text und Hintergrund_ als Hintergrundfarbe eine Farbe wählen, die normalerweise eher selten für die Seitengestaltung verwendet wird (gut geeignet sind z.Bhelle Rosa- oder Grüntöne)Im Select _Ausgewählte Farben anstatt Farben der Seite verwenden_ die Option _Immer_ wählen.
+Im Dialog _Farben_ im Bereich _Text und Hintergrund_ als Hintergrundfarbe eine
+Farbe wählen, die normalerweise eher selten für die Seitengestaltung verwendet
+wird (gut geeignet sind z.Bhelle Rosa- oder Grüntöne)Im Select _Ausgewählte
+Farben anstatt Farben der Seite verwenden_ die Option _Immer_ wählen.
 Die Dialogfenster mit "OK" schließen.
 
 ===== Prüfung
 
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-Prüfen, ob grafische Bedienelemente verschwindenDas passiert, wenn sie als Hintergrundbilder eingebunden sind.
-Falls nicht redundante grafische Bedienelemente als Hintergrundbilder eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im HTML-Dokument vorhandenen Textlink ersetztWenn ein leeres `a`-Element ohne eingeschlossenen Text durch ein Hintergrundbild ersetzt wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
-Falls Textlinks durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren für die Bildersetzung verwendet wurdeWenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
+Prüfen, ob grafische Bedienelemente verschwindenDas passiert, wenn sie als
+Hintergrundbilder eingebunden sind.
+Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
+eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
+HTML-Dokument vorhandenen Textlink ersetztWenn ein leeres `a`-Element ohne
+eingeschlossenen Text durch ein Hintergrundbild ersetzt wird, ist dies wie ein
+nicht vorhandenes oder leeres `alt`-Attribut zu werten.
+Falls Textlinks durch Hintergrundbilder ersetzt werden: Prüfen, welches
+Verfahren für die Bildersetzung verwendet wurdeWenn `display:none` verwendet
+wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
 Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der Textlink eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe link:#angemessen[2.6]).
 
 ==== 2.4 Textalternativen für Icon Fonts:
 
-Beim Einsatz von Icon Fonts ist es nicht möglich, mittels `alt`-Attribut eine Textalternative zu hinterlegen.
+Beim Einsatz von Icon Fonts ist es nicht möglich, mittels `alt`-Attribut eine
+Textalternative zu hinterlegen.
 
 Falls ein Bedienelement aus einem solchen Icon sowie einem HTML-Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für das IconEs ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader zu verstecken (z.B`aria-hidden="true"`)Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden seinDies kann beispielsweise Text sein, der mit einem geeigneten Verfahren versteckt ist (nicht `display:none`) oder der über ein `aria-label` bereitgestellt wird.
 
@@ -104,11 +135,19 @@ Falls ein Bedienelement aus einem solchen Icon sowie einem HTML-Text besteht, de
 
 Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
 Bedienelemente feststellen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) eingebunden wird.
-Falls nicht redundante Icons eingebunden sind: Prüfen, ob eine HTML-Textalternative vorhanden istEin leeres `a`-Element ohne eingeschlossenen Text, ist wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
-Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar sind: Prüfen, welches Verfahren verwendet wurde, um diese zu versteckenWenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
+Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
+CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
+Inhalt (Font Icons) eingebunden wird.
+Falls nicht redundante Icons eingebunden sind: Prüfen, ob eine
+HTML-Textalternative vorhanden istEin leeres `a`-Element ohne eingeschlossenen
+Text, ist wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
+Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
+sind: Prüfen, welches Verfahren verwendet wurde, um diese zu versteckenWenn
+`display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres
+`alt`-Attribut zu werten.
 Falls ein geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine äquivalente Textalternative für das Icon darstellt (siehe link:#angemessen[2.6]).
-Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
+Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
+über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
 Falls für die Icons Text ausgegeben wird (z.B`content: "k"`), prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B`aria-hidden="true"`).
 
 ==== 2.5 Textalternativen für Inline-SVGs:
@@ -117,10 +156,13 @@ Falls für die Icons Text ausgegeben wird (z.B`content: "k"`), prüfen, ob das I
 
 Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
 Bedienelemente feststellen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein direkt in HTML eingebundene SVG handelt (Inline SVG).
+Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein
+direkt in HTML eingebundene SVG handelt (Inline SVG).
 Prüfen, ob eine Textalternative vorhanden ist
 Prüfen, ob ein `title`-Element (für längere Beschreibungen das `desc`-Element) vorhanden ist und die dort hinterlegte Textalternative das Bild in angemessener Weise ersetzt (siehe link:#angemessen[2.6])Das `title-` bzw`desc-`Element sollte das erste Kind-Element des `svg`-Eltern-Elements sein.
-Da SVG noch nicht ausreichend von allen Screenreader-Browser-Kombinationen unterstützt wird, prüfen, ob die Zugänglichkeit über ARIA-Auszeichnung gewährleistet ist:
+Da SVG noch nicht ausreichend von allen Screenreader-Browser-Kombinationen
+unterstützt wird, prüfen, ob die Zugänglichkeit über ARIA-Auszeichnung
+gewährleistet ist:
 * SVG-Grafiken sollten `role="img"` tragen, sonst wird ggfihr `title`-Element nicht ausgegeben.
 * Wird das SVG `title`-Element als zugänglicher Name genutzt, sollte das `svg`-Element mittels `aria-labelledby` auf das `title`-Element verweisen.
 * Wenn ein Link sowohl die SVG-Grafik als auch einen in sich aussagekräftigen Linktext enthält, sollte die SVG-Grafik über `aria-hidden="true"` aus der Screenreader-Ausgabe entfernt werdenDie Nutzung einer `role` ist dann nicht erforderlich.
@@ -129,7 +171,9 @@ Als Rolle für SVGs kommt auch `role="graphics-document"` kommen für komplexere
 
 ==== [#angemessen][#G94][#F30]2.6Gleichwertige (äquivalente) Alternativtexte:
 
-Entscheidend ist: die Seite soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Alternativtexte oder Textalternativen ersetzt sind.
+Entscheidend ist: die Seite soll benutzbar sein, wenn Grafiken, oder Bilder
+oder Objekte durch die entsprechenden Alternativtexte oder Textalternativen
+ersetzt sind.
 
 In der Regel bedeutet das:
 
@@ -145,7 +189,9 @@ In der Regel bedeutet das:
 
 ==== 3.1Alternativtexte für redundant verlinkte Abbildungen
 
-Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel verweisen, muss geprüft werden, ob Abbildung und Text in den selben Link eingeschlossen sind.
+Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel
+verweisen, muss geprüft werden, ob Abbildung und Text in den selben Link
+eingeschlossen sind.
 
 [#H2]Wenn Abbildung und Text innerhalb des selben Links stehen, soll der Alternativtext der Abbildung nicht den Text des Links wiederholenJe nach Inhalt der Abbildung kann das `alt`-Attribut dann leer bleiben oder den abgebildeten Inhalt beschreiben, während der Linktext Zweck oder Ziel des Links beschreibt.
 
@@ -170,7 +216,10 @@ Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unters
 
 === Abgrenzung zu anderen Prüfschritten
 
-Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewertenDas gilt auch dann, wenn die Grafiken neben der Information über das Linkziel auch noch eine andere Information vermitteln sollen, wie zum Beispiel auf die Startseite verlinkte Logos.
+Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewertenDas gilt auch
+dann, wenn die Grafiken neben der Information über das Linkziel auch noch eine
+andere Information vermitteln sollen, wie zum Beispiel auf die Startseite
+verlinkte Logos.
 
 Einzige Ausnahme: Grafik und danebenstehender Text sind ein zusammengehöriger LinkDer Alternativtext bezieht sich dann nur auf die Grafik, die Prüfkriterien link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte" oder link:/index.php?a=di&iid=66&s=n[1.1.1c] "Leere alt-Attribute für Layoutgrafiken" sind anzuwenden.
 
@@ -240,7 +289,10 @@ Einzige Ausnahme: Grafik und danebenstehender Text sind ein zusammengehöriger L
 
 === Kann denn nicht das `alt`-Attribut leer gelassen werden, wenn stattdessen ein sinnvolles `title`-Attribut verwendet wirdDas wird in meinem Screenreader problemlos ausgegeben.
 
-Es stimmt, dass neuere Screenreader bei Vorhandensein eines `title`-Attributs dieses anstelle eines fehlenden `alt`-Attributs ausgebenDas trifft aber nicht auf alle gängigen Hilfsmittel zuDeshalb verlangt der Test grundsätzlich die standardkonforme Umsetzung gemäß HTML 5.0 und WCAG 2.0:
+Es stimmt, dass neuere Screenreader bei Vorhandensein eines `title`-Attributs
+dieses anstelle eines fehlenden `alt`-Attributs ausgebenDas trifft aber nicht
+auf alle gängigen Hilfsmittel zuDeshalb verlangt der Test grundsätzlich die
+standardkonforme Umsetzung gemäß HTML 5.0 und WCAG 2.0:
 
 * Das `alt`-Attribut soll den *Inhalt* des Bildes *ersetzen*
 * Das `title`-Attribut ist für *zusätzliche (nicht essenzielle) Informationen* gedacht
@@ -251,11 +303,17 @@ ____
 Because of the extensive user agent limitations in supporting access to the title attribute, authors should use caution in applying this techniqueFor this reason, it is preferred that the author use technique http://www.w3.org/TR/WCAG20-TECHS/C7.html[C7]: Using CSS to hide a portion of the link text (CSS) or http://www.w3.org/TR/WCAG20-TECHS/H30.html[H30]: Providing link text that describes the purpose of a link for anchor elements (HTML).
 ____
 
-Ein weiterer Punkt, der die Wichtigkeit des `alt`-Attributs unterstreicht, ist die Nutzung mit abgeschalteten BildernAuch wenn Alternativtexte im Bereich der Bildumrisse in manchen Browsern nicht vollständig angezeigt werden, ist das immer noch besser als eine Nicht-Anzeige beim Einsatz von `title`.
+Ein weiterer Punkt, der die Wichtigkeit des `alt`-Attributs unterstreicht, ist
+die Nutzung mit abgeschalteten BildernAuch wenn Alternativtexte im Bereich der
+Bildumrisse in manchen Browsern nicht vollständig angezeigt werden, ist das
+immer noch besser als eine Nicht-Anzeige beim Einsatz von `title`.
 
 === Der Alternativtext beschreibt die Grafik, der `title`-Text beschreibt das Link-Ziel: Ist das ein geeigneter Lösungsansatz für grafische Links?
 
-Vorgeschlagen wurde diese Lösung für Fälle, in denen die Grafik nicht einfach das Linkziel abbildet (Schriftgrafik) oder für das Linkziel steht, sondern zusätzlich eine eigenständige Aussagekraft hat (zum Beispiel bei aus Anreißertext und einer verlinkten Abbildung bestehenden Teasern).
+Vorgeschlagen wurde diese Lösung für Fälle, in denen die Grafik nicht einfach
+das Linkziel abbildet (Schriftgrafik) oder für das Linkziel steht, sondern
+zusätzlich eine eigenständige Aussagekraft hat (zum Beispiel bei aus
+Anreißertext und einer verlinkten Abbildung bestehenden Teasern).
 
 Die Idee ist einleuchtend:
 
@@ -263,63 +321,138 @@ Der sehende Benutzer klickt auf das Bild, denn er vermutet, dass hinter dem Bild
 
 In der Praxis funktioniert das aber nicht:
 
-Sehende Benutzer orientieren sich nicht an den Inhalten des Bildes, sondern eher an der PositionViele Teaser-Bilder sind vom Inhalt her ohnehin nicht geeignet, etwas über das Linkziel zu sagen, der Bezug zum Thema des Linkziels ist oft nur ansatzweise nachvollziehbarAber sie _müssen_ auch gar nichts über das Linkziel sagen: Das Linkziel steht im Text daneben, es muss nicht aus dem Bild erraten werdenGeklickt wird auf das Bild, weil es vielleicht leichter zu treffen ist und der Benutzer weiß, dass Teaser-Bilder üblicherweise mit weiterführenden Informationen zum jeweiligen Textabschnitt verlinkt sind.
+Sehende Benutzer orientieren sich nicht an den Inhalten des Bildes, sondern
+eher an der PositionViele Teaser-Bilder sind vom Inhalt her ohnehin nicht
+geeignet, etwas über das Linkziel zu sagen, der Bezug zum Thema des Linkziels
+ist oft nur ansatzweise nachvollziehbarAber sie _müssen_ auch gar nichts über
+das Linkziel sagen: Das Linkziel steht im Text daneben, es muss nicht aus dem
+Bild erraten werdenGeklickt wird auf das Bild, weil es vielleicht leichter zu
+treffen ist und der Benutzer weiß, dass Teaser-Bilder üblicherweise mit
+weiterführenden Informationen zum jeweiligen Textabschnitt verlinkt sind.
 
-Für den blinden Benutzer ist der Zusammenhang von Bild und (darauf folgendem) Kontext dagegen normalerweise nicht klarEr müsste also tatsächlich Vermutungen anstellen, wo ein Link hinführen könnte, der mit dem beschriebenen Bild verbunden istUnd da das Bild die entsprechende Aussagekraft nicht hat, wäre er auf die Informationen im `title`-Attribut in der Regel _angewiesen_Sie sind also für ihn _nicht ergänzend_.
+Für den blinden Benutzer ist der Zusammenhang von Bild und (darauf folgendem)
+Kontext dagegen normalerweise nicht klarEr müsste also tatsächlich Vermutungen
+anstellen, wo ein Link hinführen könnte, der mit dem beschriebenen Bild
+verbunden istUnd da das Bild die entsprechende Aussagekraft nicht hat, wäre er
+auf die Informationen im `title`-Attribut in der Regel _angewiesen_Sie sind
+also für ihn _nicht ergänzend_.
 
-Hinzu kommt: Das `title`-Attribut wird von gängigen Screenreadern unterschiedlich behandelt und schlecht unterstütztNach wie vor werden von JAWS die Inhalte von `alt`-Attribut und `title`-Attribut nur alternativ vorgelesen.
+Hinzu kommt: Das `title`-Attribut wird von gängigen Screenreadern
+unterschiedlich behandelt und schlecht unterstütztNach wie vor werden von JAWS
+die Inhalte von `alt`-Attribut und `title`-Attribut nur alternativ vorgelesen.
 
-Das `title`-Attribut ist für ergänzende Informationen vorgesehenDie Information über das Linkziel ist in aller Regel keine ergänzende Information, denn sie geht aus dem Bildinhalt nicht hervorDer Alternativtext muss daher das Linkziel beschreiben.
+Das `title`-Attribut ist für ergänzende Informationen vorgesehenDie
+Information über das Linkziel ist in aller Regel keine ergänzende Information,
+denn sie geht aus dem Bildinhalt nicht hervorDer Alternativtext muss daher das
+Linkziel beschreiben.
 
 === Sollte im `alt`-Attribut und im `title`-Attribut eines Bildes derselbe Inhalt stehen?
 
-Der Alternativtext soll das Bild _ersetzen._ Sehr häufig bedeutet das: der Alternativtext sagt, was abgebildet ist.
+Der Alternativtext soll das Bild _ersetzen._ Sehr häufig bedeutet das: der
+Alternativtext sagt, was abgebildet ist.
 
-Das `title`-Attribut ist dagegen für _ergänzende_ Informationen zum Bild vorgesehenEs kann zum Beispiel verwendet werden, um zu sagen, von welcher Quelle das Bild stammtDort stehen also Informationen, die man dem Bild _nicht_ entnehmen kann.
+Das `title`-Attribut ist dagegen für _ergänzende_ Informationen zum Bild
+vorgesehenEs kann zum Beispiel verwendet werden, um zu sagen, von welcher
+Quelle das Bild stammtDort stehen also Informationen, die man dem Bild _nicht_
+entnehmen kann.
 
-Eigentlich also ein klarer Fall: Die Aufgaben der Attribute sind unterschiedlich, entsprechend sollten sie normalerweise nicht denselben Inhalt habenEs gibt aber eine wichtige Ausnahme:
+Eigentlich also ein klarer Fall: Die Aufgaben der Attribute sind
+unterschiedlich, entsprechend sollten sie normalerweise nicht denselben Inhalt
+habenEs gibt aber eine wichtige Ausnahme:
 
-Häufig werden Symbole oder Zeichen als _Bedienelemente_ verwendetDie Bedeutung solcher Bilder kann undeutlich seinDer Benutzer sieht nicht genau, was abgebildet ist oder er versteht nicht, wofür das Bild stehen sollFür diesen Besucher ist eine ergänzende Beschriftung nützlichSie steht am besten als Text neben dem Bild, denn dann ist sie auch für Tastaturnutzer sichtbarAber auch das `title`-Attribut kann verwendet werden, denn die Beschriftung ist (für den sehenden Benutzer) ergänzend.
+Häufig werden Symbole oder Zeichen als _Bedienelemente_ verwendetDie Bedeutung
+solcher Bilder kann undeutlich seinDer Benutzer sieht nicht genau, was
+abgebildet ist oder er versteht nicht, wofür das Bild stehen sollFür diesen
+Besucher ist eine ergänzende Beschriftung nützlichSie steht am besten als Text
+neben dem Bild, denn dann ist sie auch für Tastaturnutzer sichtbarAber auch
+das `title`-Attribut kann verwendet werden, denn die Beschriftung ist (für den
+sehenden Benutzer) ergänzend.
 
-Das ist also ein Fall, in dem es Sinn machen kann, dass der Alternativtext und das `title`-Attribut dieselbe Information bereitstellen:
+Das ist also ein Fall, in dem es Sinn machen kann, dass der Alternativtext und
+das `title`-Attribut dieselbe Information bereitstellen:
 
-Für blinde Benutzer ersetzt der Alternativtext das BildUnd zwar am besten, indem er die für blinde Benutzer unbrauchbare Bildform umgeht, also das Bild durch die Bezeichnung des Linkziels oder der auszulösenden Aktion ersetzt.
+Für blinde Benutzer ersetzt der Alternativtext das BildUnd zwar am besten,
+indem er die für blinde Benutzer unbrauchbare Bildform umgeht, also das Bild
+durch die Bezeichnung des Linkziels oder der auszulösenden Aktion ersetzt.
 
-Für sehende Benutzer stellt das `title`-Attribut die Bedeutung des Bildes klarEs bezeichnet das Ziel des Links oder die Aktion, die ausgelöst wird.
+Für sehende Benutzer stellt das `title`-Attribut die Bedeutung des Bildes
+klarEs bezeichnet das Ziel des Links oder die Aktion, die ausgelöst wird.
 
-Alternativtext und `title`-Attribut liefern für unterschiedliche Benutzergruppen die selbe Information, für die einen als Ersatz und für die anderen als Ergänzung zum BildMit dem unguten Begleiteffekt, dass der blinde Benutzer (je nach Hilfsmittel und Benutzereinstellung) unter Umständen zwei Mal dasselbe hört.
+Alternativtext und `title`-Attribut liefern für unterschiedliche
+Benutzergruppen die selbe Information, für die einen als Ersatz und für die
+anderen als Ergänzung zum BildMit dem unguten Begleiteffekt, dass der blinde
+Benutzer (je nach Hilfsmittel und Benutzereinstellung) unter Umständen zwei
+Mal dasselbe hört.
 
-Ideal ist diese Lösung sicher nicht, einerseits, weil die ergänzende Information im `title`-Attribut nicht für jeden zugänglich ist und andererseits, weil dieselbe Information zwei Mal geliefert wirdDie zweifache Angabe von Linkzielen im Alternativtext und im `title`-Attribut wird aber im BITV-Test nicht negativ bewertet, wenn sie im Kontext hilfreich ist.
+Ideal ist diese Lösung sicher nicht, einerseits, weil die ergänzende
+Information im `title`-Attribut nicht für jeden zugänglich ist und
+andererseits, weil dieselbe Information zwei Mal geliefert wirdDie zweifache
+Angabe von Linkzielen im Alternativtext und im `title`-Attribut wird aber im
+BITV-Test nicht negativ bewertet, wenn sie im Kontext hilfreich ist.
 
 === Screenreader zeigen den Dateinamen der Bilddatei an, wenn kein Alternativtext zur Verfügung stehtSo kann das Fehlen des Alternativtextes kompensiert werdenSoll man das bei der Prüfung berücksichtigen?
 
-Nein, die Dateinamen sollen bei der Prüfung nicht berücksichtigt werdenDenn dieser Zugangsweg ist nicht verlässlichNicht alle Browser oder Screenreader zeigen Dateinamen an, auch ist die Eignung des Dateinamens als Navigationshilfe eher zufällig.
+Nein, die Dateinamen sollen bei der Prüfung nicht berücksichtigt werdenDenn
+dieser Zugangsweg ist nicht verlässlichNicht alle Browser oder Screenreader
+zeigen Dateinamen an, auch ist die Eignung des Dateinamens als
+Navigationshilfe eher zufällig.
 
-Allgemein gesagt: Gute Nutzbarkeit mit speziellen Hilfsmitteln gewährleistet nicht ein positives Ergebnis des BITV-TestsDer Webauftritt wird positiv bewertet, wenn er das Seine zur Sicherung der Zugänglichkeit beisteuertDas Hilfsmittel ist dagegen gut, wenn es auch mit schlechten Webauftritten klar kommtEs sorgt dafür, dass auch Webauftritte, die nicht barrierefrei sind, irgendwie genutzt werden können.
+Allgemein gesagt: Gute Nutzbarkeit mit speziellen Hilfsmitteln gewährleistet
+nicht ein positives Ergebnis des BITV-TestsDer Webauftritt wird positiv
+bewertet, wenn er das Seine zur Sicherung der Zugänglichkeit beisteuertDas
+Hilfsmittel ist dagegen gut, wenn es auch mit schlechten Webauftritten klar
+kommtEs sorgt dafür, dass auch Webauftritte, die nicht barrierefrei sind,
+irgendwie genutzt werden können.
 
 === Soll im Alternativtext stehen, dass es sich um ein Navigationselement handelt?
 
-Nein, das ist nicht erforderlichDenn Screenreader oder Textbrowser stellen den Bezug des Alternativtextes zum Link ohnehin herWenn im Alternativtext steht, dass es sich um ein Navigationselement handelt, liefert der Screenreader diese Information also zwei Mal.
+Nein, das ist nicht erforderlichDenn Screenreader oder Textbrowser stellen den
+Bezug des Alternativtextes zum Link ohnehin herWenn im Alternativtext steht,
+dass es sich um ein Navigationselement handelt, liefert der Screenreader diese
+Information also zwei Mal.
 
-Im BITV-Test wird ein entsprechender Vorsatz im Alternativtext jedoch nicht negativ bewertet, er ist für die Bewertung nicht relevant.
+Im BITV-Test wird ein entsprechender Vorsatz im Alternativtext jedoch nicht
+negativ bewertet, er ist für die Bewertung nicht relevant.
 
 === Sollte der Alternativtext für grafische Bedienelemente auch sagen, was abgebildet ist?
 
-Manchmal ergibt sich das von selbst, wie bei Schriftgrafiken: das Linkziel ist abgebildet, die Beschreibung des abgebildeten Gegenstandes sagt zugleich auch, wohin der Link führt.
+Manchmal ergibt sich das von selbst, wie bei Schriftgrafiken: das Linkziel ist
+abgebildet, die Beschreibung des abgebildeten Gegenstandes sagt zugleich auch,
+wohin der Link führt.
 
-Schwieriger ist es bei SymbolenDem visuell orientierten Besucher ist vielleicht klar, für welches Linkziel das abgebildete Symbol stehtFür einen blinden Besucher ist der Weg über das Symbol aber weniger vertraut, er ist auf jeden Fall umständlich.
+Schwieriger ist es bei SymbolenDem visuell orientierten Besucher ist
+vielleicht klar, für welches Linkziel das abgebildete Symbol stehtFür einen
+blinden Besucher ist der Weg über das Symbol aber weniger vertraut, er ist auf
+jeden Fall umständlich.
 
-In solchen Fällen, wenn die Abbildung nicht hinreichend klar über das Linkziel Auskunft gibt, sollte man sich fragen: Ist es wichtig, zu wissen, was da abgebildet ist, soll dem sehenden Besucher da etwas gezeigt werdenOder hat die Abbildung eigentlich _nur_ die Aufgabe, das Linkziel zu vermitteln?
+In solchen Fällen, wenn die Abbildung nicht hinreichend klar über das Linkziel
+Auskunft gibt, sollte man sich fragen: Ist es wichtig, zu wissen, was da
+abgebildet ist, soll dem sehenden Besucher da etwas gezeigt werdenOder hat die
+Abbildung eigentlich _nur_ die Aufgabe, das Linkziel zu vermitteln?
 
-Ein Beispiel für den ersten Fall: das Logo einer Website ist auf die Startseite verlinktEs dient also als Bedienelement, der Alternativtext muss das Ziel des Links angebenDas Logo ist aber auch selbst wichtig, es soll dem Besucher gezeigt werdenDer Alternativtext muss also auch sagen, was abgebildet ist.
+Ein Beispiel für den ersten Fall: das Logo einer Website ist auf die
+Startseite verlinktEs dient also als Bedienelement, der Alternativtext muss
+das Ziel des Links angebenDas Logo ist aber auch selbst wichtig, es soll dem
+Besucher gezeigt werdenDer Alternativtext muss also auch sagen, was abgebildet
+ist.
 
-Ein Beispiel für den zweiten Fall: ein Briefumschlag verweist auf die Kontaktseite des WebangebotesIn diesem Fall kommt es nur (oder jedenfalls hauptsächlich) auf die Vermittlung des Linkziels anDer Alternativtext muss also nicht sagen, was abgebildet ist, er kann sich auf die Angabe des Linkziels beschränken.
+Ein Beispiel für den zweiten Fall: ein Briefumschlag verweist auf die
+Kontaktseite des WebangebotesIn diesem Fall kommt es nur (oder jedenfalls
+hauptsächlich) auf die Vermittlung des Linkziels anDer Alternativtext muss
+also nicht sagen, was abgebildet ist, er kann sich auf die Angabe des
+Linkziels beschränken.
 
-Für die Bewertung im BITV-Test gilt: Das Ziel des Links muss immer angegeben werdenManchmal reicht dafür die Bezeichnung des abgebildeten Gegenstandes aus, andernfalls muss das Linkziel ausdrücklich angegeben werdenZusätzliche Angaben zum abgebildeten Gegenstand sind nur erforderlich, wenn die Abbildung etwas zeigen soll, also einen weitergehenden Informationsgehalt hat.
+Für die Bewertung im BITV-Test gilt: Das Ziel des Links muss immer angegeben
+werdenManchmal reicht dafür die Bezeichnung des abgebildeten Gegenstandes aus,
+andernfalls muss das Linkziel ausdrücklich angegeben werdenZusätzliche Angaben
+zum abgebildeten Gegenstand sind nur erforderlich, wenn die Abbildung etwas
+zeigen soll, also einen weitergehenden Informationsgehalt hat.
 
 === Links oben ist das Firmenlogo abgebildet, es ist außerdem mit der Startseite verlinktWelcher Alternativtext ist angemessen?
 
-Der Alternativtext in diesem Fall hat zwei Aufgaben: Er soll für das Logo stehen und er soll das Linkziel vertretenAuf dieser Grundlage kann man verschieden argumentieren:
+Der Alternativtext in diesem Fall hat zwei Aufgaben: Er soll für das Logo
+stehen und er soll das Linkziel vertretenAuf dieser Grundlage kann man
+verschieden argumentieren:
 
 Das Bild zeigt das Logo der FirmaDas ist auch seine vorrangige AufgabeAuch für einen blinden Benutzer ist es gut, zu wissen, dass die Firma ihr Logo auf der Seite zeigtZusätzliche Informationen zum Ziel des Links sind überflüssigWo soll das Logo von Müllermilch schon hinführenAlso sollte "Logo: Müllermilch" im Alternativtext stehen.
 
@@ -327,4 +460,5 @@ Das Bild hat zwei FunktionenEs zeigt das Logo der Firma und es dient als Link au
 
 Das Bild hat zwei FunktionenEs zeigt das Logo der Firma und es dient als Link auf die Startseite des WebauftrittsFür beides soll auch der Alternativtext stehen: "Logo: Müllermilch - zur Startseite".
 
-Alle drei Alternativen unterstützen den blinden BesucherIm BITV-Test gelten daher alle drei Alternativen als angemessen.
+Alle drei Alternativen unterstützen den blinden BesucherIm BITV-Test gelten
+daher alle drei Alternativen als angemessen.

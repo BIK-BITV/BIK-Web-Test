@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Wird ein Eingabefehler automatisch festgestellt, wird das fehlerhafte Element aufgezeigt und der Fehler wird in Textform beschrieben.
+Wird ein Eingabefehler automatisch festgestellt, wird das fehlerhafte Element
+aufgezeigt und der Fehler wird in Textform beschrieben.
 
 Prüfschritt nicht anwendbar
 
@@ -39,32 +40,42 @@ Die Seite hat keine Formulare oder es gibt keine Fehlerbehandlung.
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und in Textform beschrieben werden.
+Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten
+Felder identifiziert und in Textform beschrieben werden.
 
 == Warum wird das geprüft?
 
-Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.
+Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder
+überspringen benötigte Eingaben.
 
-Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften oder fehlenden Eingaben identifiziert werdenDies erleichtert den Nutzern, Eingaben zu korrigieren.
+Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften
+oder fehlenden Eingaben identifiziert werdenDies erleichtert den Nutzern,
+Eingaben zu korrigieren.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei
+inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der
+Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
 === [#G83]2Prüfung
 
-Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter Email-Adressen.
+Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen
+von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter
+Email-Adressen.
 [#G84][#G85][#SCR18]Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind.
 +
-Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
+Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge
+des Formulars, auf verschiedene Arten geschehen:
 * Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
 * Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die Fehler darstellungsunabhängig hinzuweisen.
 * Fehlermeldungen, die nahe am Formularfeld positioniert sind, aber nicht Teil des Labels sind, sind mit` aria-labelledby ` oder `aria-describedby` verknüpft.
 * Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen (`alertdialog`) bereitgestellt.
-Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars zuvor angezeigte Fehlermeldungen verschwinden.
+Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars
+zuvor angezeigte Fehlermeldungen verschwinden.
 
 === 3Hinweise
 
@@ -130,6 +141,10 @@ http://www.marcozehe.de/2008/07/16/easy-aria-tip-3-aria-invalid-and-role-alert/[
 
 === Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung verlangt?
 
-Eine Fehlerbehandlung ist oft sinnvoll, aber nicht grundsätzlich bei allen FormularenDas hängt ab vom Zweck des Formulars und der Art des AngebotsSo kann es unter Umständen sinnvoll sein, grundsätzlich alle Eingaben, auch solche mit Fehlern, zu verwerten.
+Eine Fehlerbehandlung ist oft sinnvoll, aber nicht grundsätzlich bei allen
+FormularenDas hängt ab vom Zweck des Formulars und der Art des AngebotsSo kann
+es unter Umständen sinnvoll sein, grundsätzlich alle Eingaben, auch solche mit
+Fehlern, zu verwerten.
 
-Wenn jedoch irgendwelche Fehlermeldungen generiert werden, müssen diese brauchbar seinDas wird in diesem Prüfschritt überprüft.
+Wenn jedoch irgendwelche Fehlermeldungen generiert werden, müssen diese
+brauchbar seinDas wird in diesem Prüfschritt überprüft.

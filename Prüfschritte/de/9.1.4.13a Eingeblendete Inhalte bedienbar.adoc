@@ -27,21 +27,29 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Zusätzliche Inhalte, die mittels Zeiger- oder Tastaturfokussierung eingeblendet werden, bleiben sichtbar, wenn der Zeiger über sie bewegt wird, schließen nicht selbsttätig, und sind ohne Änderung der Fokusposition schließbar.
+Zusätzliche Inhalte, die mittels Zeiger- oder Tastaturfokussierung
+eingeblendet werden, bleiben sichtbar, wenn der Zeiger über sie bewegt wird,
+schließen nicht selbsttätig, und sind ohne Änderung der Fokusposition
+schließbar.
 
 == Was wird geprüft?
 
-Zusätzliche Inhalte, die angezeigt werden, wenn Elemente den Zeiger- oder Tastaturfokus erhalten, z.Bbenutzerdefinierte Tooltips oder Ausklapp-Menüs, sollten drei Anforderungen erfüllen:
+Zusätzliche Inhalte, die angezeigt werden, wenn Elemente den Zeiger- oder
+Tastaturfokus erhalten, z.Bbenutzerdefinierte Tooltips oder Ausklapp-Menüs,
+sollten drei Anforderungen erfüllen:
 
 * Wenn zusätzliche Inhalte durch Darüberfahren mit dem Zeiger erscheinen, können Benutzer den Zeiger über diesen Inhalt bewegen, ohne dass er verschwindet.
 * Es gibt die Möglichkeit, einen eingeblendeten Inhalt zu schließen, ohne den Fokus zu verschieben (z.Bdurch Drücken der Escape-Taste oder durch Aktivieren des Elements, dessen Fokussierung den Inhalt einblendet).
 * Der Inhalt schließt nicht selbsttätig nach einer gewissen Zeitspanne.
 
-Hinweis: Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten durch den Nutzer-Agenten bestimmt wird (etwa native `title`-Attribute).
+Hinweis: Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten
+durch den Nutzer-Agenten bestimmt wird (etwa native `title`-Attribute).
 
 == Warum wird das geprüft?
 
-Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet werden, aus mehreren Gründen problematisch:
+Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind
+zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
+werden, aus mehreren Gründen problematisch:
 
 * Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbarNutzer müssen in der Lage sein, den Zeiger von dem auslösenden Element über den eingeblendeten Inhalt zu bewegen (was meist den sichtbaren Ausschnitt verschiebt), ohne dass der eingeblendete Inhalt schließt.
 * Eingeblendete Inhalte verdecken häufig andere InhalteNutzer müssen in der Lage sein, den eingeblendeten Inhalt wieder zu schließen, ohne den Fokus zu bewegen (was passieren würde, wenn etwa nach einem Schließen-Element gesucht werden müsste)Die Escape-Taste oder ein Aktivieren des auslösenden Elements, das zur Zeit den Fokus hat, sollte den eingeblendeten Inhalt schließen.
@@ -51,34 +59,56 @@ Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind zus
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite zusätzliche Inhalte enthält, die bei Fokussierung mittels Tastatur oder Zeiger eingeblendet werden, etwa Custom-Tooltips oder Ausklapp-Menüs, die bereits bei Fokussierung ausklappen.
+Der Prüfschritt ist anwendbar, wenn die Seite zusätzliche Inhalte enthält, die
+bei Fokussierung mittels Tastatur oder Zeiger eingeblendet werden, etwa
+Custom-Tooltips oder Ausklapp-Menüs, die bereits bei Fokussierung ausklappen.
 
 === 2Prüfung
 
 ==== 2.1 Zeiger-Hover-Prüfung
 
-Wenn sich zusätzliche Inhalte sich durch Hinüberbewegen des Zeigers (z.BMaus-Hover) über ein Element einblenden lassen:
+Wenn sich zusätzliche Inhalte sich durch Hinüberbewegen des Zeigers
+(z.BMaus-Hover) über ein Element einblenden lassen:
 
 Inhalt durch Hover über dem Element einblenden
-Abwarten, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließtAusgenommen sind Fälle, bei denen der eingeblendete Inhalt nicht länger gültig ist.
-Prüfen, ob sich der eingeblendete Inhalt durch die Escape-Taste oder ein Aktivieren des die Einblendung auslösenden Elements (Klicken, Tippen) schließen lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
-Inhalt erneut über Hover einblenden und den Zeiger über den neu eingeblendeten Inhalt bewegenDer Inhalt sollte weiter sichtbar sein.
+Abwarten, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer
+Zeit selbsttätig schließtAusgenommen sind Fälle, bei denen der eingeblendete
+Inhalt nicht länger gültig ist.
+Prüfen, ob sich der eingeblendete Inhalt durch die Escape-Taste oder ein
+Aktivieren des die Einblendung auslösenden Elements (Klicken, Tippen)
+schließen lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt
+eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
+Inhalt erneut über Hover einblenden und den Zeiger über den neu eingeblendeten
+Inhalt bewegenDer Inhalt sollte weiter sichtbar sein.
 
 ==== 2.2 Tastaturfokus-Prüfung
 
-Wenn sich zusätzliche Inhalte durch die Tastaturfokussierung von Elementen einblenden lassen:
+Wenn sich zusätzliche Inhalte durch die Tastaturfokussierung von Elementen
+einblenden lassen:
 
 Inhalt durch Tastaturfokussierung des Elements einblenden.
-Prüfen, ob sich der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließtAusgenommen sind Fällebei denen der eingeblendete Inhalt nicht länger gültig ist.
-Prüfen, ob sich der eingeblendete Inhalt über die Escape-Taste oder ein Aktivieren des die Einblendung auslösenden Elements (Enter) schließen lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
+Prüfen, ob sich der eingeblendete Inhalt sichtbar bleibt, also nicht nach
+kurzer Zeit selbsttätig schließtAusgenommen sind Fällebei denen der
+eingeblendete Inhalt nicht länger gültig ist.
+Prüfen, ob sich der eingeblendete Inhalt über die Escape-Taste oder ein
+Aktivieren des die Einblendung auslösenden Elements (Enter) schließen
+lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine
+Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
 
 === 3Hinweise
 
-Bei Inhalten, die durch Tastaturfokussierung von Elementen eingeblendet werden, wird nicht verlangt, dass hier Mauszeiger über die eingeblendeten Inhalte bewegt werden kann, ohne dass diese sich schließen.
+Bei Inhalten, die durch Tastaturfokussierung von Elementen eingeblendet
+werden, wird nicht verlangt, dass hier Mauszeiger über die eingeblendeten
+Inhalte bewegt werden kann, ohne dass diese sich schließen.
 
-Wenn Aktivierung des Elements, dass den Inhalt einblendet, zum Schließen des eingeblendeten Inhalts benutzt wird, soll der Nutzer-Kontext bestehen bleiben (also nicht eine weitere Aktion, die den Kontext ändert, ausgelöst werden, etwa das Aktivieren eines Links).
+Wenn Aktivierung des Elements, dass den Inhalt einblendet, zum Schließen des
+eingeblendeten Inhalts benutzt wird, soll der Nutzer-Kontext bestehen bleiben
+(also nicht eine weitere Aktion, die den Kontext ändert, ausgelöst werden,
+etwa das Aktivieren eines Links).
 
-Wenn Inhalte durch Hover eingeblendet werden, sollten sie in der Regel auch bei Tastaturfokus eingeblendet werden, falls sie nicht alternativ zur Verfügung gestellt werdenDies wird in Prüfschritt 2.1.1a geprüft.
+Wenn Inhalte durch Hover eingeblendet werden, sollten sie in der Regel auch
+bei Tastaturfokus eingeblendet werden, falls sie nicht alternativ zur
+Verfügung gestellt werdenDies wird in Prüfschritt 2.1.1a geprüft.
 
 == Einordnung des Prüfschritts
 

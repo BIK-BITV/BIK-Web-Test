@@ -39,17 +39,26 @@ Es gibt keine interaktiven Elemente auf der Seite
 
 == Was wird geprüft?
 
-Der Tastaturfokus soll mindestens genau so deutlich hervorgehoben werden wie der Mausfokus.
+Der Tastaturfokus soll mindestens genau so deutlich hervorgehoben werden wie
+der Mausfokus.
 
-Bei Links, die _nicht_ auf den Mauszeiger reagieren, soll der Tastaturfokus sich zumindest deutlich von der ausgewählten Hintergrundfarbe abheben.
+Bei Links, die _nicht_ auf den Mauszeiger reagieren, soll der Tastaturfokus
+sich zumindest deutlich von der ausgewählten Hintergrundfarbe abheben.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welcher Link also ausgelöst wird, wenn er die Enter-Taste drückt.
+Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus
+gerade befindet, welcher Link also ausgelöst wird, wenn er die Enter-Taste
+drückt.
 
-Viele Webseiten erleichtern Mausbenutzern die Bedienung, indem sie darauf reagieren, dass der Mauszeiger sich über einem Link befindetDann ändert sich zum Beispiel die Text- oder Hintergrundfarbe oder der Linktext wird unterstrichenDiese Unterstützung soll auch für Tastaturbenutzer funktionieren, Webseiten sollen sie gegenüber den zahlreicheren Mausnutzern nicht benachteiligen.
+Viele Webseiten erleichtern Mausbenutzern die Bedienung, indem sie darauf
+reagieren, dass der Mauszeiger sich über einem Link befindetDann ändert sich
+zum Beispiel die Text- oder Hintergrundfarbe oder der Linktext wird
+unterstrichenDiese Unterstützung soll auch für Tastaturbenutzer funktionieren,
+Webseiten sollen sie gegenüber den zahlreicheren Mausnutzern nicht
+benachteiligen.
 
 Die vom Browser vorgesehene Kennzeichnung des Tastaturfokus hebt sich von dunklen Seitenhintergründen meist nicht so gut ab, wie in der "normalen" Ansicht des Browsers oder des BenutzersDas muss dann ausgeglichen werden, zum Beispiel durch farbige Hinterlegung des angesteuerten Links.
 
@@ -63,8 +72,11 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 
 Seite in Firefox laden.
 [#G165][#G195][#C15][#SCR2][#SCR31][#F78]Alle Bedienelemente mit Tabulator durchlaufen und prüfen, ob sie mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen)Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt.
-Bei Links, die sich nicht grafisch verändern, prüfen, ob sie auf den Mauszeiger reagierenWenn dies der Fall ist: Abbruch oder weiter mit 6.
+Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
+prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
+Zustand mindestens 3:1 beträgt.
+Bei Links, die sich nicht grafisch verändern, prüfen, ob sie auf den
+Mauszeiger reagierenWenn dies der Fall ist: Abbruch oder weiter mit 6.
 Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint, prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS gefärbten) Hintergründen gut zu erkennen istIn Zweifelsfällen gemäß Prüfschritt 1.4.3a "Kontraste von Texten ausreichend" ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt
 Seite im Chrome Browser laden und die Schritte 2-5 wiederholen.
 
@@ -89,7 +101,8 @@ Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
 
 ==== Nicht erfüllt:
 
-Der Standard-Browser-Tastaturfokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus angezeigt.
+Der Standard-Browser-Tastaturfokus wird unterdrückt, bei Tastaturnutzung wird
+kein Fokus angezeigt.
 
 == Einordnung des Prüfschritts
 
@@ -98,7 +111,14 @@ Der Standard-Browser-Tastaturfokus wird unterdrückt, bei Tastaturnutzung wird k
 Der https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[Understanding-Text zur WCAG Anforderung 1.4.11 Non-Text Contrast] führt im Abschnitt "Relationship with Use of Color and Focus Visible" aus:
 
 ____
-In combination with 2.4.7 Focus Visible, the visual focus indicator for a component must have sufficient contrast against the adjacent background when the component is focused, except where the appearance of the component is determined by the user agent and not modified by the authorIf the focus state relies on a change of color (e.g., changing only the background color of a button), then changing from one color to another that has at least a 3:1 contrast ratio with the previous state of the control is a method for meeting the Focus visible criteria.
+In combination with 2.4.7 Focus Visible, the visual focus indicator for a
+component must have sufficient contrast against the adjacent background when
+the component is focused, except where the appearance of the component is
+determined by the user agent and not modified by the authorIf the focus state
+relies on a change of color (e.g., changing only the background color of a
+button), then changing from one color to another that has at least a 3:1
+contrast ratio with the previous state of the control is a method for meeting
+the Focus visible criteria.
 ____
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -137,6 +157,11 @@ ____
 
 === Ist die Anzeige des Fokus nicht Sache des Browsers?
 
-Alle Browser zeigen dem Tastaturnutzer in irgendeiner Weise, wo der Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird.
+Alle Browser zeigen dem Tastaturnutzer in irgendeiner Weise, wo der Fokus ist,
+wenn diese Anzeige nicht aktiv unterdrückt wird.
 
-Dennoch ist die Anzeige des Fokus nicht allein Sache des BrowsersDie Webseite legt fest, wie sie im Browser aussehen sollSie ändert etwa die Farben fokussierter Links und Linkhintergründe oder setzt andere Gestaltungselemente einIn dieser von der Webseite festgelegten Umgebung muss der Fokus für Tastaturnutzer gut sichtbar sein.
+Dennoch ist die Anzeige des Fokus nicht allein Sache des BrowsersDie Webseite
+legt fest, wie sie im Browser aussehen sollSie ändert etwa die Farben
+fokussierter Links und Linkhintergründe oder setzt andere Gestaltungselemente
+einIn dieser von der Webseite festgelegten Umgebung muss der Fokus für
+Tastaturnutzer gut sichtbar sein.

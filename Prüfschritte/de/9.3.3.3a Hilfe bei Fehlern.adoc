@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Wird ein Eingabefehler automatisch festgestellt, wird der Fehler in Textform beschriebenWo sinnvoll, werden Korrekturvorschläge gemacht.
+Wird ein Eingabefehler automatisch festgestellt, wird der Fehler in Textform
+beschriebenWo sinnvoll, werden Korrekturvorschläge gemacht.
 
 Prüfschritt nicht anwendbar
 
@@ -39,26 +40,35 @@ Die Seite hat keine Formulare oder es gibt keine Fehlerbehandlung.
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und Hinweise geben, wie der Fehler zu korrigieren ist.
+Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und
+Hinweise geben, wie der Fehler zu korrigieren ist.
 
 == Warum wird das geprüft?
 
-Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.
+Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder
+überspringen benötigte Eingaben.
 
-Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen Fehlermeldungen hilfreich sein und es den Nutzern erleichtern, Eingaben zu korrigieren.
+Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen
+Fehlermeldungen hilfreich sein und es den Nutzern erleichtern, Eingaben zu
+korrigieren.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei
+inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der
+Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
 === [#G83]2Prüfung
 
-Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter Email-Adressen.
+Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen
+von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter
+Email-Adressen.
 [#G84][#G85][#SCR18]Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob Fehlermeldungen oder Korrekturvorschläge verständlich und sinnvoll sind.
 +
-Fehlermeldungen oder Korrekturvorschläge können auf verschiedene Weise zur Verfügung gestellt werden, z.B.:
+Fehlermeldungen oder Korrekturvorschläge können auf verschiedene Weise zur
+Verfügung gestellt werden, z.B.:
 * Bei Neuanzeige des Formulars werden am Seitenbeginn Fehler beschrieben.
 * [#G177]Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und mit einer geeigenten ARIA-Technik verknüpft.
 

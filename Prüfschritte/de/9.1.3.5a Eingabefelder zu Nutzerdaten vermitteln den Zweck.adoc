@@ -27,7 +27,8 @@ Instanz / Element auf der Seite
 
 Prüfschritt erfüllt
 
-Eingabefelder, die sich auf den Nutzer selbst beziehen, bezeichnen den Zweck (z.Büber ein passendes autocomplete-Attribut).
+Eingabefelder, die sich auf den Nutzer selbst beziehen, bezeichnen den Zweck
+(z.Büber ein passendes autocomplete-Attribut).
 
 Prüfschritt nicht anwendbar
 
@@ -35,17 +36,33 @@ Es gibt keine Eingabefelder, die sich auf Daten des Nutzers beziehen.
 
 == Was wird geprüft?
 
-Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichenGeeignet dafür ist zur Zeit das HTML `autocomplete`-Attribut, mit dem sich der Eingabezweck für Felder wie etwa Name, E-Mail oder Telefonnummer ebenso wie für Adress-Daten oder Kreditkarten-Daten definieren lässt.
+Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine
+semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes
+ermöglichenGeeignet dafür ist zur Zeit das HTML `autocomplete`-Attribut, mit
+dem sich der Eingabezweck für Felder wie etwa Name, E-Mail oder Telefonnummer
+ebenso wie für Adress-Daten oder Kreditkarten-Daten definieren lässt.
 
-Es wird erwartet, dass andere Taxonomien zur Festlegung des Zwecks von Interface-Komponenten entwickelt werden, welche die Verwendung von `autocomplete` ersetzen können.
+Es wird erwartet, dass andere Taxonomien zur Festlegung des Zwecks von
+Interface-Komponenten entwickelt werden, welche die Verwendung von
+`autocomplete` ersetzen können.
 
 == Warum wird das geprüft?
 
-Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
+Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei
+Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche
+Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten
+Beschriftung des Feldes und unabhängig von der natürlichen Sprache des
+Angebots.
 
-Zusätzliche Informationen können etwa Bilder bzwIcons sein, die über ein Browser-Plugin oder eine externe assistive Technologie bereitgestellt werden und über bzwvor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer eine bestimmte Tastenkombunation drückenFür Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies eine Identifizierung von nutzerbezogenen Feldern in Formularen.
+Zusätzliche Informationen können etwa Bilder bzwIcons sein, die über ein
+Browser-Plugin oder eine externe assistive Technologie bereitgestellt werden
+und über bzwvor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer
+eine bestimmte Tastenkombunation drückenFür Menschen, die Schwierigkeiten mit
+dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies
+eine Identifizierung von nutzerbezogenen Feldern in Formularen.
 
-Darüber hinaus bietet `autocomplete` Eingabevorschläge für das Feld, welche Nutzer einfach übernehmen könnenDas erleichtert die Texteingabe.
+Darüber hinaus bietet `autocomplete` Eingabevorschläge für das Feld, welche
+Nutzer einfach übernehmen könnenDas erleichtert die Texteingabe.
 
 == Wie wird geprüft?
 
@@ -55,13 +72,20 @@ Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind, die 
 
 === 2Prüfung
 
-Bei Eingabefeldern, die sich auf Daten des Nutzers beziehen, mittels Developer Tools den Code inspizieren.
+Bei Eingabefeldern, die sich auf Daten des Nutzers beziehen, mittels Developer
+Tools den Code inspizieren.
 Prüfen, ob `autocomplete`-Werte definiert sind oder andere unterstützte Taxonomien den Eingabezeck angeben - bei Nutzung von `autocomplete` verglhttps://www.w3.org/TR/WCAG21/#input-purposes[WCAG 2.1, Abschnitt 7 Input Purposes for User Interface Components].
-Prüfen, ob die korrekten Werte verwendet wurden (das `autocomplete`-Attribut _tel_ etwa sollte nicht für eine Kreditkartennummer verwendet werden).
+Prüfen, ob die korrekten Werte verwendet wurden (das `autocomplete`-Attribut
+_tel_ etwa sollte nicht für eine Kreditkartennummer verwendet werden).
 
 === 3Hinweis
 
-Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehenSie gilt nicht für Seiten, auf denen die Eingabe von persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht besonders gekennzeichnet sindEin Beispiel dafür sind Ticketbuchungsseiten von FluglinienHier sind die Eingabefelder für den Nutzer nicht von den Feldern für Mitreisende unterscheidbar.
+Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst
+beziehenSie gilt nicht für Seiten, auf denen die Eingabe von persönlichen
+Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht
+besonders gekennzeichnet sindEin Beispiel dafür sind Ticketbuchungsseiten von
+FluglinienHier sind die Eingabefelder für den Nutzer nicht von den Feldern für
+Mitreisende unterscheidbar.
 
 === 4Bewertung
 

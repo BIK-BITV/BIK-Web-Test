@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Die Wahrnehmung von Farben ist für die Bedienung oder das Verständnis der Inhalte nicht erforderlich.
+Die Wahrnehmung von Farben ist für die Bedienung oder das Verständnis der
+Inhalte nicht erforderlich.
 
 == Was wird geprüft?
 
@@ -39,7 +40,10 @@ Die Wahrnehmung von Farben ist für die Bedienung oder das Verständnis der Inha
 
 == Warum wird das geprüft?
 
-Ausschließlich über Farben vermittelte Informationen sind für blinde Benutzer nicht zugänglichAuch farbfehlsichtige Benutzer, die unter Umständen mit eigenen Farbschemata arbeiten, können Farben nicht oder nur eingeschränkt identifizieren und unterscheiden.
+Ausschließlich über Farben vermittelte Informationen sind für blinde Benutzer
+nicht zugänglichAuch farbfehlsichtige Benutzer, die unter Umständen mit
+eigenen Farbschemata arbeiten, können Farben nicht oder nur eingeschränkt
+identifizieren und unterscheiden.
 
 == Wie wird geprüft?
 
@@ -51,7 +55,8 @@ Der Prüfschritt ist immer anwendbar.
 
 ==== [#G138][#G14][#F81]2.1 Vermittlung von Informationen über die Farbgebung
 
-Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen vermittelnBeispiele dafür:
+Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen
+vermittelnBeispiele dafür:
 
 * Überschriften werden farblich hervorgehoben
 * Ausgewählte Menueinträge werden in einer anderen Farbe dargestellt
@@ -59,7 +64,10 @@ Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen v
 * Eine Grafik verwendet unterschiedliche Farben für die vergleichende Darstellung des Kursverlaufs verschiedener Aktien
 * Pflichtfelder in Formularen werden farblich gekennzeichnet (die gelb unterlegten Felder müssen immer ausgefüllt werden)
 
-Solche Hervorhebungen sind positivDie Vermittlung wichtiger Informationen soll sich aber _nicht ausschließlich_ auf _einfache_ Farbänderungen stützenZu prüfen ist also, ob die Informationen zusätzlich noch auf einem anderen Weg vermittelt werdenBeispiele für zusätzliche Vermittlung:
+Solche Hervorhebungen sind positivDie Vermittlung wichtiger Informationen soll
+sich aber _nicht ausschließlich_ auf _einfache_ Farbänderungen stützenZu
+prüfen ist also, ob die Informationen zusätzlich noch auf einem anderen Weg
+vermittelt werdenBeispiele für zusätzliche Vermittlung:
 
 * Überschriften sind zusätzlich eingerückt oder durch eine andere Schriftgröße hervorgehoben (das ist fast immer der Fall)
 * Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1 zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung, Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der Form des Menü-Eintrags oder dergleichen hervorgehoben.
@@ -68,7 +76,8 @@ Ausnahme: Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe *u
 * [#G111]Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster
 * Pflichtfelder im Formular sind zusätzlich mit einem Stern [#H92](mit Bedeutungserklärung am Formularbeginn) oder textlich ("Pflichtfeld") gekennzeichnet
 
-Ebenfalls andere, zusätzliche Vermittlungswege sind am Beispiel der Hervorhebung der aktuell ausgewählten Menüoption:
+Ebenfalls andere, zusätzliche Vermittlungswege sind am Beispiel der
+Hervorhebung der aktuell ausgewählten Menüoption:
 
 * der Breadcrumb zeigt, welche Seite ausgewählt ist
 * die Überschrift ist stets gleichlautend mit der ausgewählten Menüoption
@@ -102,15 +111,23 @@ In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf Seiteninh
 
 ==== 2Abgrenzung zur Prüfung des Markup
 
-In diesem Prüfschritt wird die Auszeichnung von Elementen durch Markup nicht beachtetEs geht also um die mehrgleisige Vermittlung von Informationen _auf dem Bildschirm_Bei den Prüfkriterien zur richtigen Auszeichnung geht es dagegen darum, dass Informationen _unabhängig_ von der Darstellung auf dem Bildschirm verfügbar sind oder dass der Benutzer die Darstellung auf dem Bildschirm _anpassen_ kann.
+In diesem Prüfschritt wird die Auszeichnung von Elementen durch Markup nicht
+beachtetEs geht also um die mehrgleisige Vermittlung von Informationen _auf
+dem Bildschirm_Bei den Prüfkriterien zur richtigen Auszeichnung geht es
+dagegen darum, dass Informationen _unabhängig_ von der Darstellung auf dem
+Bildschirm verfügbar sind oder dass der Benutzer die Darstellung auf dem
+Bildschirm _anpassen_ kann.
 
 ==== 3Abgrenzung zu fehlenden Hervorhebungen
 
-In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit _vorhandener_ Seitenelemente.
+In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit _vorhandener_
+Seitenelemente.
 
 Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text oder Menü-Elemente nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder andere Markierung) gekennzeichnet sindWenn Links im Text _überhaupt nicht_ gekennzeichnet sind, ist der Prüfschritt dagegen nicht anwendbarDas ist dann vielmehr ein Verstoß gegen Prüfschritt link:/index.php?a=di&iid=97&s=n[3.2.3a] "Konsistente Navigation" bzwlink:/index.php?a=di&iid=102&s=n[2.4.7a] "Aktuelle Position des Fokus deutlich"
 
-Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Position _überhaupt nicht_ anzeigt, verstößt nicht gegen dieses Prüfschritt 1.4.1a.
+Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle
+Position _überhaupt nicht_ anzeigt, verstößt nicht gegen dieses Prüfschritt
+1.4.1a.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -144,13 +161,25 @@ Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Posi
 === Use of Color: Understanding SC 1.4.1
 
 ____
-The intent of this Success Criterion is to ensure that all users can access information that is conveyed by color differences, that is, by the use of color where each color has a meaning assigned to itIf the information is conveyed through color differences in an image (or other non-text format), the color may not be seen by users with color deficienciesIn this case, providing the information conveyed with color through another visual means ensures users who cannot see color can still perceive the information.
+The intent of this Success Criterion is to ensure that all users can access
+information that is conveyed by color differences, that is, by the use of
+color where each color has a meaning assigned to itIf the information is
+conveyed through color differences in an image (or other non-text format), the
+color may not be seen by users with color deficienciesIn this case, providing
+the information conveyed with color through another visual means ensures users
+who cannot see color can still perceive the information.
 
-Color is an important asset in design of Web content, enhancing its aesthetic appeal, its usability, and its accessibilityHowever, some users have difficulty perceiving colorPeople with partial sight often experience limited color vision, and many older users do not see color wellIn addition, people using text-only, limited-color or monochrome displays and browsers will be unable to access information that is presented only in color.
+Color is an important asset in design of Web content, enhancing its aesthetic
+appeal, its usability, and its accessibilityHowever, some users have
+difficulty perceiving colorPeople with partial sight often experience limited
+color vision, and many older users do not see color wellIn addition, people
+using text-only, limited-color or monochrome displays and browsers will be
+unable to access information that is presented only in color.
 
 Examples of information conveyed by color differences: "required fields are red", "error is shown in red", and "Mary's sales are in red, Tom's are in blue"Examples of indications of an action include: using color to indicate that a link will open in a new window or that a database entry has been updated successfullyAn example of prompting a response would be: using highlighting on form fields to indicate that a required field had been left blank.
 
-Note: This should not in any way discourage the use of color on a page, or even color coding if it is redundant with other visual indication.
+Note: This should not in any way discourage the use of color on a page, or
+even color coding if it is redundant with other visual indication.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
@@ -164,8 +193,13 @@ http://www.w3.org/QA/Tips/color
 
 === Häufig werden besuchte Links in einer anderen Farbe dargestelltFällt das auch unter dieses Prüfschritt?
 
-Die Unterscheidung besuchter und nicht besuchter Links ist hilfreichDer Benutzer kann gleich sehen, welche Seiten er schon besucht hatIdeal wäre es daher, wenn besuchte Links zum Beispiel zusätzlich durch eine andere Unterstreichung markiert würden.
+Die Unterscheidung besuchter und nicht besuchter Links ist hilfreichDer
+Benutzer kann gleich sehen, welche Seiten er schon besucht hatIdeal wäre es
+daher, wenn besuchte Links zum Beispiel zusätzlich durch eine andere
+Unterstreichung markiert würden.
 
-Aber die verfügbaren Gestaltungsmöglichkeiten sind begrenztUnd zu viele unterschiedliche Kennzeichnungen von Links können auch Verwirrung stiften.
+Aber die verfügbaren Gestaltungsmöglichkeiten sind begrenztUnd zu viele
+unterschiedliche Kennzeichnungen von Links können auch Verwirrung stiften.
 
-In diesem Prüfschritt des BITV-Tests wird die Kennzeichnung besuchter Links nicht berücksichtigt, sie ist für die Bewertung nicht relevant.
+In diesem Prüfschritt des BITV-Tests wird die Kennzeichnung besuchter Links
+nicht berücksichtigt, sie ist für die Bewertung nicht relevant.

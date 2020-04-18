@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Der Alternativtext des Bildes in einem bildbasierten CAPTCHA beschreibt dessen ZweckMindestens eine nicht bildbasierte CAPTCHA-Alternative ist vorhanden.
+Der Alternativtext des Bildes in einem bildbasierten CAPTCHA beschreibt dessen
+ZweckMindestens eine nicht bildbasierte CAPTCHA-Alternative ist vorhanden.
 
 Prüfschritt nicht anwendbar
 
@@ -39,15 +40,24 @@ CAPTCHAs sind nicht vorhanden.
 
 == Was wird geprüft?
 
-In bildbasierten CAPTCHAs soll der Alternativtext des Bildes den Zweck des CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu finden ist.
+In bildbasierten CAPTCHAs soll der Alternativtext des Bildes den Zweck des
+CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu
+finden ist.
 
-Mindestens eine CAPTCHA-Alternative für ein Grafik-Captcha oder Audio-Captcha muss vorhanden sein.
+Mindestens eine CAPTCHA-Alternative für ein Grafik-Captcha oder Audio-Captcha
+muss vorhanden sein.
 
 == Warum wird das geprüft?
 
-In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu erreichenFür blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglichAudio-Captchas sind für höreingeschränkte Nutzer nicht zugänglichDeshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
+In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche
+Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu
+erreichenFür blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht
+zugänglichAudio-Captchas sind für höreingeschränkte Nutzer nicht
+zugänglichDeshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative
+angeboten werden.
 
-Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
+Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs
+beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
 
 == Wie wird geprüft?
 
@@ -55,7 +65,8 @@ Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs beschre
 
 Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
 
-Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht Teil der Prüfung und wird nicht bewertet.
+Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht
+Teil der Prüfung und wird nicht bewertet.
 
 === 2Prüfung
 

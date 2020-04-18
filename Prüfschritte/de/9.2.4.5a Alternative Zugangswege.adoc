@@ -35,23 +35,31 @@ Zwei unterschiedliche Zugangswege zu den Inhalten des Angebots sind vorhanden.
 
 Prüfschritt nicht anwendbar
 
-Das Webangebot ist nicht informationsorientiert oder es besteht nur aus einer Seite.
+Das Webangebot ist nicht informationsorientiert oder es besteht nur aus einer
+Seite.
 
 == Was wird geprüft?
 
-Es gibt mindestens zwei unterschiedliche Zugangswege, um zu den Inhalten des Angebotes zu gelangen.
+Es gibt mindestens zwei unterschiedliche Zugangswege, um zu den Inhalten des
+Angebotes zu gelangen.
 
 == Warum wird das geprüft?
 
-Benutzer bevorzugen verschiedene Zugangswege, um zu Inhalten zu gelangenManche orientieren sich an hierarchischen Navigationsmenüs, andere nutzen ein Inhaltsverzeichnis (Sitemap), noch andere ziehen eine Suchfunktion vorGerade sehbehinderte Benutzer kommen oft schneller über eine Suche zu den gewünschten Inhalten.
+Benutzer bevorzugen verschiedene Zugangswege, um zu Inhalten zu gelangenManche
+orientieren sich an hierarchischen Navigationsmenüs, andere nutzen ein
+Inhaltsverzeichnis (Sitemap), noch andere ziehen eine Suchfunktion vorGerade
+sehbehinderte Benutzer kommen oft schneller über eine Suche zu den gewünschten
+Inhalten.
 
-Deshalb sollte das Angebot verschiedene Zugangswege zu den Inhalten bereitstellen.
+Deshalb sollte das Angebot verschiedene Zugangswege zu den Inhalten
+bereitstellen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot informationsorientiert ist und aus mehr als einer Seite besteht.
+Der Prüfschritt ist anwendbar, wenn das Webangebot informationsorientiert ist
+und aus mehr als einer Seite besteht.
 
 === Prüfung
 
@@ -62,7 +70,9 @@ Das Angebot auf vorhandene Zugangswege hin betrachtenÜbliche Zugangswege sind:
 * [#G185]Alle Seiten des Angebots sind von der Startseite her verlinkt [#G126] oder auf jeder Seite des Angebots verlinkt (nur für kleine Sites geeignet)
 * Sequenzielle Verlinkung aller Seiten (höchstens für kleine Sites geeignet, oder für Sites, in denen die Wahrnehmung der Seiten in einer bestimmten Reihenfolge sinnvoll ist)
 * als Teil eines Prozesses erzeugte Seiten (etwa als Ergebnis einer Transaktion)
-Gibt es mindestens zwei Zugangswege, etwa eine hierarchisches Navigationsmenü und eine Suchfunktion, oder ein Navigationsmenü und ein Inhaltsverzeichnis (Sitemap)?
+Gibt es mindestens zwei Zugangswege, etwa eine hierarchisches Navigationsmenü
+und eine Suchfunktion, oder ein Navigationsmenü und ein Inhaltsverzeichnis
+(Sitemap)?
 [#G63][#G64][#G125]Zugangswege stichprobenartig ausprobieren, um deren Funktionsfähigkeit zu überprüfen
 
 === Hinweise

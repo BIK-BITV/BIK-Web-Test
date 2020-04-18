@@ -35,7 +35,8 @@ Zeitbegrenzungen sind nicht vorhanden, abschaltbar oder verlängerbar.
 
 == Was wird geprüft?
 
-Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist abschaltbar, oder sie kann verlängert werdenDies betrifft etwa:
+Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist
+abschaltbar, oder sie kann verlängert werdenDies betrifft etwa:
 
 * zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
 * Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
@@ -43,19 +44,29 @@ Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist absch
 
 == Warum wird das geprüft?
 
-Die Auto-Aktualisierung durch das Neu-Laden einer Seite kann bei Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und unvermittelt von vorne beginnen.
+Die Auto-Aktualisierung durch das Neu-Laden einer Seite kann bei
+Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und
+unvermittelt von vorne beginnen.
 
-Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie auf eine andere Seite weitergeleitet werdenDie Zeitbegrenzung macht die zwischendurch angezeigte Seite für viele nicht zugänglich.
+Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie auf
+eine andere Seite weitergeleitet werdenDie Zeitbegrenzung macht die
+zwischendurch angezeigte Seite für viele nicht zugänglich.
 
-Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können Nutzer, die mehr Zeit für Eingaben brauchen, Online-Transaktionen oft nicht rechtzeitig abzuschließen.
+Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können
+Nutzer, die mehr Zeit für Eingaben brauchen, Online-Transaktionen oft nicht
+rechtzeitig abzuschließen.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1.) ist immer anwendbar.
+Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1.) ist
+immer anwendbar.
 
-Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen (Abschnitt 2.2.) ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen unterliegen (etwa beim Online-Banking oder Online-Shops).
+Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
+(Abschnitt 2.2.) ist nur anwendbar auf Seiten mit Transaktionen, welche
+üblicherweise aus datenschutzrechtlichen oder sicherheitsrelevanten Gründen
+Zeitbegrenzungen unterliegen (etwa beim Online-Banking oder Online-Shops).
 
 === 2Prüfung
 
@@ -69,7 +80,8 @@ Quelltextanalyse: Vorhandensein des Markups prüfen.
 
 ===== 2.2.1Zeitbegrenzung wird angezeigt
 
-Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise anzeigen:
+Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise
+anzeigen:
 
 * Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigtJede Interaktion setzt die Session-Dauer automatisch zurück.
 * [#SCR16]Rechtzeitig vor Ablauf der Zeit erscheint ein Dialog zum Verlängern der Zeitbegrenzung.
@@ -77,18 +89,31 @@ Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise anzeige
 
 ===== 2.2.2Nicht unmittelbar sichtbare Zeitbegrenzungen
 
-Wenn zu erwarten ist, dass die auf der Seite angebotene Transaktion eine Zeitbegrenzung hat, aber weder eine laufende Anzeige der Session-Dauer noch ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
+Wenn zu erwarten ist, dass die auf der Seite angebotene Transaktion eine
+Zeitbegrenzung hat, aber weder eine laufende Anzeige der Session-Dauer noch
+ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
 
-Seite mit Transaktionen, die üblicherweise eine begrenzte Session-Dauer haben (Online-Banking, Bezahlvorgänge von Shops) in dem gerade nicht zur Prüfung genutzten Browser aufrufen und Daten eingeben.
+Seite mit Transaktionen, die üblicherweise eine begrenzte Session-Dauer haben
+(Online-Banking, Bezahlvorgänge von Shops) in dem gerade nicht zur Prüfung
+genutzten Browser aufrufen und Daten eingeben.
 Den Browser für 20 Minuten nicht nutzen.
 [#F58]Nach Ablauf der 20 Minuten prüfen, ob die Seite noch verfügbar ist und Daten erfolgreich abgeschickt werden können.
-Wenn die nach 20 Minuten sichtbare Seite mitteilt, dass die Transaktionsdauer abgelaufen und die Session beendet worden ist, Seite erneut laden und abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens 20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der Zeitbegrenzung bietet.
+Wenn die nach 20 Minuten sichtbare Seite mitteilt, dass die Transaktionsdauer
+abgelaufen und die Session beendet worden ist, Seite erneut laden und
+abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens
+20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der
+Zeitbegrenzung bietet.
 
 === 3Hinweise
 
-Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene Zeitbegrenzungen (sowohl serverseitig als auch clientseitig)Externe Zeitbegrenzungen, etwa des User Agents, sind nicht im Einflussbereich des Autors und damit nicht Gegenstand der BITV.
+Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene
+Zeitbegrenzungen (sowohl serverseitig als auch clientseitig)Externe
+Zeitbegrenzungen, etwa des User Agents, sind nicht im Einflussbereich des
+Autors und damit nicht Gegenstand der BITV.
 
-Ob auf einer Seite eine Zeitbegrenzung tatsächlich vorliegt, ist aus dem Quelltext der Seite oft nicht zu entnehmen, denn die Zeitbegrenzung kann auch serverseitig gesetzt werden.
+Ob auf einer Seite eine Zeitbegrenzung tatsächlich vorliegt, ist aus dem
+Quelltext der Seite oft nicht zu entnehmen, denn die Zeitbegrenzung kann auch
+serverseitig gesetzt werden.
 
 === 4Bewertung
 
@@ -107,7 +132,10 @@ Ob auf einer Seite eine Zeitbegrenzung tatsächlich vorliegt, ist aus dem Quellt
 
 === Abgrenzung von anderen Prüfschritten
 
-Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nichtGeprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
+Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Seite
+betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also
+ablenken) oder nichtGeprüft wird, ob solche Zeitbegrenzungen abschaltbar oder
+verlängerbar sind.
 
 Der Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte abschaltbar" betrifft dagegen bewegte oder autoaktualisierte Inhalte, die Nutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Nutzer schwierig wahrnehmbar sindHier wird geprüft, ob Nutzer die Möglichkeit haben, bewegte oder oder autoaktualisierte Inhalte anzuhalten oder auszublenden.
 
@@ -145,6 +173,12 @@ Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Ze
 
 === Wie kann durch ein Kontrollelement auf der Webseite sichergestellt werden, dass der Benutzer eine Zeitbegrenzung oder Autoaktualisierung auf Wunsch abschalten kann?
 
-Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum Abschalten gestoßen istDaher sollte die Schaltfläche oder der Link zum Abschalten oder Verlängern am Seitenbeginn oder nahe am Seitenbeginn angezeigt werden, damit er von Menschen mit verschiedensten Behinderungen auch gefunden und aktiviert werden kann.
+Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung
+nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum
+Abschalten gestoßen istDaher sollte die Schaltfläche oder der Link zum
+Abschalten oder Verlängern am Seitenbeginn oder nahe am Seitenbeginn angezeigt
+werden, damit er von Menschen mit verschiedensten Behinderungen auch gefunden
+und aktiviert werden kann.
 
-Dennoch ist nicht sicher, dass Benutzer die Option zum Abschalten der Autoaktualisierung oder Zeitbegrenzung finden und verstehen.
+Dennoch ist nicht sicher, dass Benutzer die Option zum Abschalten der
+Autoaktualisierung oder Zeitbegrenzung finden und verstehen.

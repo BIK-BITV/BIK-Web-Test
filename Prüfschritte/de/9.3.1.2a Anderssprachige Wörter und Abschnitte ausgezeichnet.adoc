@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Anderssprachige Wörter und Abschnitte sind mit dem `lang`-Attribut ausgezeichnet.
+Anderssprachige Wörter und Abschnitte sind mit dem `lang`-Attribut
+ausgezeichnet.
 
 Prüfschritt nicht anwendbar
 
@@ -39,23 +40,28 @@ Anderssprachige Wörter und Abschnitte sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache vorkommen, müssen diese mithilfe des `lang`-Attributs ausgezeichnet werden.
+Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache
+vorkommen, müssen diese mithilfe des `lang`-Attributs ausgezeichnet werden.
 
 == Warum wird das geprüft?
 
-Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt istSie müssen wissen, zu welcher Sprache ein Text gehört, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter
+festgelegt istSie müssen wissen, zu welcher Sprache ein Text gehört, damit sie
+die richtige Wortliste verwenden und den Text korrekt aussprechen können.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Wörter, ganze Sätze, Absätze oder andere größere Abschnitte in einer anderen Sprache enthält.
+Der Prüfschritt ist anwendbar, wenn die Seite Wörter, ganze Sätze, Absätze
+oder andere größere Abschnitte in einer anderen Sprache enthält.
 
 === [#H58]2Prüfung
 
 Seite im Firefox aufrufen.
 Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Lang bookmarklet] aufrufen.
-Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind (siehe Hinweise).
+Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind
+(siehe Hinweise).
 
 === 3.Hinweise
 

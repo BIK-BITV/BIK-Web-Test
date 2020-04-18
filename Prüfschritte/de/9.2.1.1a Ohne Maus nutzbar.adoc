@@ -35,15 +35,20 @@ Auch ohne Maus können alle wesentlichen Funktionen und Inhalte genutzt werden.
 
 == Was wird geprüft?
 
-Die Webseite soll auch ohne Maus - also ausschließlich mit der Tastatur - zu benutzen sein.
+Die Webseite soll auch ohne Maus - also ausschließlich mit der Tastatur - zu
+benutzen sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich seinDenn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
+Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
+mit der Maus als auch mit der Tastatur möglich seinDenn auch andere
+Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedacht.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
+Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedacht.
 
-Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
+eingeschränkte Menschen oder Blinde.
 
 == Wie wird geprüft?
 
@@ -57,7 +62,8 @@ Seite im Firefox Browser aufrufen.
 Mit der Tabulatortaste die Links und Formularelemente durchgehen.
 [#G21][#H91][#SCR20][#SCR29][#SCR35][#SCR37][#F10][#F42][#F55]Prüfen, ob alle wesentlichen Links und Formularelemente erreicht und benutzt werden können[#G107]
 [#G90][#SCR2][#F54]Falls die Seite Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht mit der Tabulatortaste angesteuert werden, prüfen, ob diese Elemente auf die Maus reagieren (zum Beispiel mit Bewegung, Vergrößerung, Einblenden von weiteren Inhalten).
-Falls die Seite scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein.
+Falls die Seite scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte
+dieser Bereiche auch über die Tastatur erreichbar sein.
 Seite im Chrome Browser aufrufen und Schritte 2 bis 5 wiederholen.
 
 === 3Hinweise
@@ -74,15 +80,20 @@ Wichtig in diesem Zusammenhang:
 * Die Felder von Formularen können im Internet Explorer trotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werdenWenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein klicken und dann erst mit der Tastaturbedienung anfangenDer Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
 * [#select-pruefung]Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können ggfmit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wirdUm solche Auswahllisten durchzublättern, muss man sie ggfzunächst mit der Tastenkombination "Alt + Pfeil nach unten" öffnenDann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
 
-Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechenEs ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf der betreffenden Seiten mehrere Schritte erforderlich sind.
+Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechenEs
+ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
+Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf
+der betreffenden Seiten mehrere Schritte erforderlich sind.
 
-Für diesen Prüfschritt spielt die Reihenfolge, in der Links und Formularelemente angesteuert werden, keine Rolle.
+Für diesen Prüfschritt spielt die Reihenfolge, in der Links und
+Formularelemente angesteuert werden, keine Rolle.
 
 Manche Elemente lassen sich ggfbei eingeschaltetem Screenreader NVDA nicht aktivieren (oder nur bei zusätzlichem Drücken der `ALT`-Taste)Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und wird in Prüfschritt 4.1.2a "Name, Rolle, Wert verfügbar" bewertet.
 
 ==== [#SCR27]3.2 Hinweis zu Drag-and-Drop-Funktionen
 
-Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müssen auch tastaturnutzbare Alternativen angeboten werden.
+Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind,
+müssen auch tastaturnutzbare Alternativen angeboten werden.
 
 === 4Bewertung
 
@@ -144,7 +155,13 @@ Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müsse
 === Die WCAG 2.1 zur Tastaturbedienbarkeit
 
 ____
-If all functionality can be achieved using the keyboard, it can be accomplished by keyboard users, by speech input (which creates keyboard input), by mouse (using on-screen keyboards), and by a wide variety of assistive technologies that create simulated keystrokes as their outputNo other input form has this flexibility or is universally supported and operable by people with different disabilities, as long as the keyboard input is not time-dependent.
+If all functionality can be achieved using the keyboard, it can be
+accomplished by keyboard users, by speech input (which creates keyboard
+input), by mouse (using on-screen keyboards), and by a wide variety of
+assistive technologies that create simulated keystrokes as their outputNo
+other input form has this flexibility or is universally supported and operable
+by people with different disabilities, as long as the keyboard input is not
+time-dependent.
 
 Note that providing universal keyboard input does not mean that other types of input should not be supportedOptimized speech input, optimized mouse/pointer input, etc., are also goodThe key is to provide keyboard input and control as well.
 

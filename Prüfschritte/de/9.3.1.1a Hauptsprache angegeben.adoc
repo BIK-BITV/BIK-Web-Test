@@ -39,7 +39,10 @@ Die Hauptsprache der Webseite soll angegeben werden.
 
 == Warum wird das geprüft?
 
-Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt istSie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter
+festgelegt istSie müssen wissen, in welcher Sprache ein Text verfasst ist,
+damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen
+können.
 
 == Wie wird geprüft?
 
@@ -49,7 +52,10 @@ Der Prüfschritt ist immer anwendbar.
 
 === [#H57]2Prüfung
 
-Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden `html`-Element das `lang`-Attribut (bzwbei xhtml-Seiten das `xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite richtig angegeben ist.
+Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden
+`html`-Element das `lang`-Attribut (bzwbei xhtml-Seiten das
+`xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite
+richtig angegeben ist.
 
 === 4Bewertung
 

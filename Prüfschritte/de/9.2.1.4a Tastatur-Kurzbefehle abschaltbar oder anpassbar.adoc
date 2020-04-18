@@ -27,15 +27,23 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Durch Webinhalte implementierte Tastatur-Kurzbefehle über Einzeltasten sind abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
+Durch Webinhalte implementierte Tastatur-Kurzbefehle über Einzeltasten sind
+abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
 
 == Was wird geprüft?
 
-Wenn Webseiten Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen, Satzzeichen oder Symbole) implementieren, können diese entweder abgeschaltet oder auf eine Tastenkombination mit Modifikator-Tasten umgestellt werden, oder sie sind nur aktiv für bestimmte Schnittstellen-Elemente, wenn diese den Fokus haben.
+Wenn Webseiten Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen,
+Satzzeichen oder Symbole) implementieren, können diese entweder abgeschaltet
+oder auf eine Tastenkombination mit Modifikator-Tasten umgestellt werden, oder
+sie sind nur aktiv für bestimmte Schnittstellen-Elemente, wenn diese den Fokus
+haben.
 
 == Warum wird das geprüft?
 
-Tastaturkurzbefehle sind für Menschen, die am Computer oder einem mobilen Gerät die Spracheingabe benutzen, häufig problematischSpracheingaben können unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch verloren.
+Tastaturkurzbefehle sind für Menschen, die am Computer oder einem mobilen
+Gerät die Spracheingabe benutzen, häufig problematischSpracheingaben können
+unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch
+verloren.
 
 == Wie wird geprüft?
 
@@ -45,16 +53,32 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2Prüfung
 
-Seite neu ladenWenn dies den Fokus auf ein Interface-Element setzt (z.Bauf ein Eingabefeld), auf einen leeren Bereich der Seite klicken, um sicherzustellen, dass keine Interface-Elemente fokussiert sind.
-Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab, Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten drücken, d.hauf alle Nummern- Buchstaben-, Symbol- und Zeichensetzungs-Tasten.
+Seite neu ladenWenn dies den Fokus auf ein Interface-Element setzt (z.Bauf ein
+Eingabefeld), auf einen leeren Bereich der Seite klicken, um sicherzustellen,
+dass keine Interface-Elemente fokussiert sind.
+Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab,
+Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten
+drücken, d.hauf alle Nummern- Buchstaben-, Symbol- und Zeichensetzungs-Tasten.
 Die Umschalttaste halten und die gleichen Tasten erneut betätigen.
-Falls einzelne Tasten Funktionen auslösen, prüfen, ob die Website oder App Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu mappen.
+Falls einzelne Tasten Funktionen auslösen, prüfen, ob die Website oder App
+Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten
+abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu
+mappen.
 
 === 3Hinweise
 
-Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind, sobald bestimmte Interface-Elemente den Fokus haben, etwa ein Auswahllisten-Element bzw`select`Hier dient z.Bdas Drücken einer Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
+Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind,
+sobald bestimmte Interface-Elemente den Fokus haben, etwa ein
+Auswahllisten-Element bzw`select`Hier dient z.Bdas Drücken einer
+Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
-Über das Anzeigen von Seitenskripten und das Suchen nach typischen Tastatur-Event-Handlern wie `document.addEventListener` oder das Vorhandensein des `.keycode` Attributs lässt sich ggfdas Vorhandensein von Skripten überprüfen, welche auf Tasteneingaben reagieren, bei denen nicht Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werdenDa es mehrere Möglichkeiten gibt, Tastatur-Events zu implementieren, ist diese Methode aber nicht als zuverlässig zu betrachten.
+Über das Anzeigen von Seitenskripten und das Suchen nach typischen
+Tastatur-Event-Handlern wie `document.addEventListener` oder das Vorhandensein
+des `.keycode` Attributs lässt sich ggfdas Vorhandensein von Skripten
+überprüfen, welche auf Tasteneingaben reagieren, bei denen nicht
+Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werdenDa es mehrere
+Möglichkeiten gibt, Tastatur-Events zu implementieren, ist diese Methode aber
+nicht als zuverlässig zu betrachten.
 
 Einige Browser verwenden Tastenkombinationen mit der UmschalttasteSo öffnet Firefox eine Seitensuche, wenn man Umschalttaste + / drückt, und eine Suche in Seitenlinks, wenn man Umschalttaste + ' drücktIn diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen leeren Teil der Seite zu klicken, um den Fokus aus der Browser-Sucheingabe zu entfernen.
 

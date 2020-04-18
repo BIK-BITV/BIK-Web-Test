@@ -31,7 +31,8 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Die Wahrnehmung von Farben, Formen, Position von Elementen oder Tönen ist für die Bedienung oder das Verständnis der Inhalte nicht erforderlich.
+Die Wahrnehmung von Farben, Formen, Position von Elementen oder Tönen ist für
+die Bedienung oder das Verständnis der Inhalte nicht erforderlich.
 
 == Was wird geprüft?
 
@@ -39,7 +40,9 @@ Verweise auf Inhalte der Seite sollen *nicht ausschließlich* sensorische Merkma
 
 == Warum wird das geprüft?
 
-Auch der Bezug auf die Form, Farbe oder Position von bestimmten Seiteninhalten ist für blinde Nutzer und auch Nutzer, die die Seite ohne das mitgelieferte Stylesheet oder auf anderen Ausgabegeräten sehen, nicht brauchbar.
+Auch der Bezug auf die Form, Farbe oder Position von bestimmten Seiteninhalten
+ist für blinde Nutzer und auch Nutzer, die die Seite ohne das mitgelieferte
+Stylesheet oder auf anderen Ausgabegeräten sehen, nicht brauchbar.
 
 == Wie wird geprüft?
 
@@ -60,7 +63,8 @@ Der Prüfschritt ist immer anwendbar.
 * In der breiten Spalte steht...
 * Die rechtsbündigen Absätze zeigen..
 
-Solche Bezugnahmen sind ohne die Wahrnehmung sensorischer Merkmale nicht nachzuvollziehen.
+Solche Bezugnahmen sind ohne die Wahrnehmung sensorischer Merkmale nicht
+nachzuvollziehen.
 
 [#F13]Dies gilt auch für Alternativtexte von Informationsgrafiken: sie sollen alle für das Verständnis relevanten Informationen nicht allein durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure http://www.w3.org/TR/WCAG20-TECHS/F13.html[F13]).
 

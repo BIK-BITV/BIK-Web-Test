@@ -39,7 +39,8 @@ Navigationsmechanismen sollen innerhalb des Webauftritts einheitlich sein.
 
 == Warum wird das geprüft?
 
-Eine einheitliche Navigation innerhalb des Webauftritts erleichtert das Verständnis, Gesuchtes wird leichter gefunden.
+Eine einheitliche Navigation innerhalb des Webauftritts erleichtert das
+Verständnis, Gesuchtes wird leichter gefunden.
 
 == Wie wird geprüft?
 
@@ -56,9 +57,15 @@ Der Prüfschritt ist immer anwendbar
 
 === 3Hinweise
 
-Die Navigation auf der Startseite unterscheidet sich häufig von der Navigation auf anderen Seiten, weil dort noch kein Bereichsmenü angezeigt werden muss oder weil zusätzliche Navigationsmöglichkeiten nur auf der Startseite angeboten werden.
+Die Navigation auf der Startseite unterscheidet sich häufig von der Navigation
+auf anderen Seiten, weil dort noch kein Bereichsmenü angezeigt werden muss
+oder weil zusätzliche Navigationsmöglichkeiten nur auf der Startseite
+angeboten werden.
 
-Falls Inhalte über geskriptete Layer eingeblendet werden, sollte geprüft werden, ob sich diese Inhalte deutlich von sonstigen Seiten und Seitenwechseln unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der Zurück-Button des Browsers) nicht gleichermaßen greifen.
+Falls Inhalte über geskriptete Layer eingeblendet werden, sollte geprüft
+werden, ob sich diese Inhalte deutlich von sonstigen Seiten und Seitenwechseln
+unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der
+Zurück-Button des Browsers) nicht gleichermaßen greifen.
 
 === 4Bewertung
 
@@ -96,9 +103,17 @@ Bewertung als nicht oder teilweise erfüllt immer erläutern!
 === Die WCAG 2.1 zur Bedeutung einheitlicher Navigation und der Berechtigung abweichender Bereichsnavigation
 
 ____
-Ensuring that repeated components occur in the same order on each page of a site helps users become comfortable that they will able to predict where they can find things on each pageThis helps users with cognitive limitations, users with low vision, users with intellectual disabilities, and also those who are blind.
+Ensuring that repeated components occur in the same order on each page of a
+site helps users become comfortable that they will able to predict where they
+can find things on each pageThis helps users with cognitive limitations, users
+with low vision, users with intellectual disabilities, and also those who are
+blind.
 
-(...) Individuals with low vision who use screen magnification to display a small portion of the screen at a time often use visual cues and page boundaries to quickly locate repeated contentPresenting repeated content in the same order is also important for visual users who use spatial memory or visual cues within the design to locate repeated content.
+(...) Individuals with low vision who use screen magnification to display a
+small portion of the screen at a time often use visual cues and page
+boundaries to quickly locate repeated contentPresenting repeated content in
+the same order is also important for visual users who use spatial memory or
+visual cues within the design to locate repeated content.
 
 It is important to note that the use of the phrase "same order" in this section is not meant to imply that subnavigation menus cannot be used or that blocks of secondary navigation or page structure cannot be used(...)
 ____

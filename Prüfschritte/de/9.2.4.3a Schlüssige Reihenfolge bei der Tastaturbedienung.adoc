@@ -31,7 +31,10 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Links, Formularelemente und Objekte werden mit der Tabulatortaste in einer schlüssigen Reihenfolge angesteuertEingeblendete Inhalte sowie dynamisch eingefügte oder geänderte Inhalte erscheinen an sinnvoller Stelle in der Fokusreihenfolge.
+Links, Formularelemente und Objekte werden mit der Tabulatortaste in einer
+schlüssigen Reihenfolge angesteuertEingeblendete Inhalte sowie dynamisch
+eingefügte oder geänderte Inhalte erscheinen an sinnvoller Stelle in der
+Fokusreihenfolge.
 
 Prüfschritt nicht anwendbar
 
@@ -39,54 +42,79 @@ Links, Formularelemente oder Objekte sind nicht vorhanden.
 
 == Was wird geprüft?
 
-Wenn die Webseite mit der Tastatur bedient wird, soll die Reihenfolge, in der Links, Formularelemente und Objekte angesteuert werden, schlüssig und nachvollziehbar sein.
+Wenn die Webseite mit der Tastatur bedient wird, soll die Reihenfolge, in der
+Links, Formularelemente und Objekte angesteuert werden, schlüssig und
+nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl mit der Maus als auch mit der Tastatur möglich seinDenn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
+Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
+mit der Maus als auch mit der Tastatur möglich seinDenn auch andere
+Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedachtAuf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
+Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedachtAuf die
+Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
+eingeschränkte Menschen oder Blinde.
 
-Durch eine nicht nachvollziehbare Reihenfolge der Links und Formularelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
+Durch eine nicht nachvollziehbare Reihenfolge der Links und Formularelemente
+kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Manche Seiten präsentieren mittels JavaScript dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werdenWährend dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen.
+Manche Seiten präsentieren mittels JavaScript dynamische Inhalte, etwa
+Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die
+im Wechsel angezeigt werdenWährend dynamische Änderungen der Seite für sehende
+Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern
+gar nicht oder erst mit Verzögerung wahrgenommen.
 
 Wenn nach dem Laden einer Seite weitere Elemente über DOM-Scripting in den Quellcode einer Seite eingefügt werden, soll diese Einfügung *unterhalb* des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
 
-In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch weiter unten auf der Seite eingefügt oder verändert werden (also nicht direkt nach dem auslösenden Element).
+In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch
+weiter unten auf der Seite eingefügt oder verändert werden (also nicht direkt
+nach dem auslösenden Element).
 
-Werden Elemente an anderer Stelle, etwa am Seitenende, eingefügt (das ist oft bei Modalen Dialogen der Fall), müssen Scripts dafür sorgen, dass eine sinnvolle Fokusreihenfolge geschaffen wird und auch blinde Nutzer die Änderung mitbekommen.
+Werden Elemente an anderer Stelle, etwa am Seitenende, eingefügt (das ist oft
+bei Modalen Dialogen der Fall), müssen Scripts dafür sorgen, dass eine
+sinnvolle Fokusreihenfolge geschaffen wird und auch blinde Nutzer die Änderung
+mitbekommen.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Objekte enthält.
+Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder
+Objekte enthält.
 
 === [#G59][#H4][#F44][#F85]2Prüfung
 
 Seite im Firefox Browser laden.
-Mit der Tabulatortaste die Links, Formularelemente und Objekte durchgehen und prüfen, ob die Reihenfolge im Wesentlichen nachvollziehbar ist.
+Mit der Tabulatortaste die Links, Formularelemente und Objekte durchgehen und
+prüfen, ob die Reihenfolge im Wesentlichen nachvollziehbar ist.
 Seite in Chrome aufrufen und die Prüfung wiederholen.
 
 ==== 2.1Prüfung von dynamisch eingefügten Inhalten
 
-Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite Inhalte hinzufügen, die nicht schon in der Ansicht ohne CSS auf der frisch geladenen Seite sichtbar sind):
+Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite
+Inhalte hinzufügen, die nicht schon in der Ansicht ohne CSS auf der frisch
+geladenen Seite sichtbar sind):
 
 Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
 Voreinstellung im Firefox: Im Menü _Extras > Einstellungen_ wählenDen Bereich "Erweitert" auswählen, im linken Reiter "Allgemein" im Bereich "Eingabehilfen" die Option "Markieren von Text mit der Tastatur zulassen" auswählenHierdurch wird die Cursor-Position als blinkende Einfügemarke angezeigtDies entspricht in der Regel dem Screenreader-Fokus.
-Dynamisch eingefügte Inhalte aufrufen, etwa durch Formulareingabe oder Auslösen eines Links.
+Dynamisch eingefügte Inhalte aufrufen, etwa durch Formulareingabe oder
+Auslösen eines Links.
 http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#fb[]Browsereigenes Entwicklerwerkzeug (_Inspektor_ für Firefox) aufrufen, das Element-Symbol (das Icon zeigt den Cursor auf einer Taste) links in der Menüleiste auswählen und den eingefügten Inhalt anklickenIm eingeblendeten Fenster lässt sich nun der generierte Quellcode im Zusammenhang einsehen.
 [#SCR26][#SCR27][#SCR37]Position des eingefügten Elements prüfen.
 +
 Fall 1: Erscheint der eingefügte Inhalt im Quellcode *unterhalb* des auslösenden Elements(Siehe dazu die link:#einfuegen[Erläuterung in Abschnitt 3Hinweise].)
 +
 Fall 2: Wenn generierte Pseudo-Fenster (Modalen Dialogen) im Quellcode nicht direkt nach dem auslösenden Element, sondern *an anderer Stelle*, etwa ganz am Seitenende, eingefügt werden:
-.Pseudo-Fenster schließen und vom auslösenden Element aus erneut mit der Tastatur aufrufen.
-.Erkennen auch Screenreader-Nutzer, dass ein neuer Inhalt hinzugefügt wurdeDas kann auf verschiedene Weise geschehen, z.B.:
+.Pseudo-Fenster schließen und vom auslösenden Element aus erneut mit der
+Tastatur aufrufen.
+.Erkennen auch Screenreader-Nutzer, dass ein neuer Inhalt hinzugefügt wurdeDas
+kann auf verschiedene Weise geschehen, z.B.:
 * Der Fokus wird über einen Skript zum Beginn des eingefügten Elements verschoben (die blinkende Einfügemarke ist an dessen Beginn sichtbar)
 * Der Link-/Button-Text oder eine Eigenschaft des auslösenden Elements (etwa `disabled`) wird geändert *und* beim Weiter-Tabben erhält das hinzugefügte Element den nächsten Fokus
-.Wenn das Pseudo-Fenster geschlossen wird: wird der Fokus auf das auslösende Element zurückverschoben?
+.Wenn das Pseudo-Fenster geschlossen wird: wird der Fokus auf das auslösende
+Element zurückverschoben?
 
 === 3Hinweise
 
@@ -102,7 +130,13 @@ Wichtig in diesem Zusammenhang:
 
 ==== Zur Einfügung dynamisch generierter Inhalte unterhalb des auslösenden Elements:
 
-In manchen Fällen kann es angemessen sein, Inhalte nicht unmittelbar nach dem auslösenden Element, sondern weiter unten auf der Seite dynamisch einzufügen bzwzu aktualisierenEin Beispiel ist die dynamische Ergebnisanzeige unterhalb eines mehrstufigen SuchformularsHier ist zu prüfen, ob das dynamische Verhalten des Formulars schon aus dem Kontext der Eingabefelder bzwAuswahllisten heraus bzwdurch erläuternde Texte oder Hilfefunktionen deutlich wird.
+In manchen Fällen kann es angemessen sein, Inhalte nicht unmittelbar nach dem
+auslösenden Element, sondern weiter unten auf der Seite dynamisch einzufügen
+bzwzu aktualisierenEin Beispiel ist die dynamische Ergebnisanzeige unterhalb
+eines mehrstufigen SuchformularsHier ist zu prüfen, ob das dynamische
+Verhalten des Formulars schon aus dem Kontext der Eingabefelder
+bzwAuswahllisten heraus bzwdurch erläuternde Texte oder Hilfefunktionen
+deutlich wird.
 
 === 4Bewertung
 

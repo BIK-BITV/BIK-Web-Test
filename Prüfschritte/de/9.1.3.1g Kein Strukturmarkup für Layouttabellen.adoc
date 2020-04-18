@@ -45,7 +45,8 @@ Tabellenstruktur-Mark-up soll nicht für Layouttabellen verwendet werden.
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Tabellen für das Layout verwendet.
+Der Prüfschritt ist anwendbar, wenn die Seite Tabellen für das Layout
+verwendet.
 
 === [#G115][#G140]2Prüfung
 

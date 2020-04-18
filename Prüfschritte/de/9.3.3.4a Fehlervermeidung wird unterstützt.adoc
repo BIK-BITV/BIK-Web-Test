@@ -31,27 +31,40 @@ einzelne Webseite
 
 Prüfschritt erfüllt
 
-Verpflichtende Dateneingaben können rückgängig gemacht oder vor dem Abschicken überprüft und korrigiert werden.
+Verpflichtende Dateneingaben können rückgängig gemacht oder vor dem Abschicken
+überprüft und korrigiert werden.
 
 == Was wird geprüft?
 
-Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken zu überprüfen und zu korrigierenErfolgreiche Eingaben werden bestätigt.
+Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die
+Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken
+zu überprüfen und zu korrigierenErfolgreiche Eingaben werden bestätigt.
 
 == Warum wird das geprüft?
 
-Bei jeder Dateneingabe können Fehler passierenGerade wenn sich der Prozess nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
+Bei jeder Dateneingabe können Fehler passierenGerade wenn sich der Prozess
+nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die
+eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
 
-Dies ist für alle Benutzer wichtigFür Benutzer mit Behinderungen ist jedoch in vielen Fällen das Risiko von Fehleingaben größerBenutzer mit Legastenie vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken häufiger versehentlich falsche TastaturtastenDeshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders wichtig.
+Dies ist für alle Benutzer wichtigFür Benutzer mit Behinderungen ist jedoch in
+vielen Fällen das Risiko von Fehleingaben größerBenutzer mit Legastenie
+vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken
+häufiger versehentlich falsche TastaturtastenDeshalb ist das Rückgängig-Machen
+oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten
+für diese Benutzer besonders wichtig.
 
 == Wie wird geprüft?
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehenDazu gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen
+enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehenDazu
+gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
 
 === 2Prüfung
 
-Formular mit Beispieldaten ausfüllen und Prozess fortsetzenEine der folgenden drei Optionen soll erfüllt sein:
+Formular mit Beispieldaten ausfüllen und Prozess fortsetzenEine der folgenden
+drei Optionen soll erfüllt sein:
 
 [#G98]**Datenanzeige mit Korrekturmöglichkeit.** Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
 [#G168]**Bestätigung.** Das Abschicken erfolgt erst nach Bestätigung eines Dialogs, der die Konsequenzen der Transaktion beschreibt.
