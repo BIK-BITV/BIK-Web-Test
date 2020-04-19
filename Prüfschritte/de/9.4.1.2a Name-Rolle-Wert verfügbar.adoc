@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=100[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=60[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-4.1.2 Name, Rolle, Wert
-
-WCAG-Erfolgskriterium
-
-4.1.2 Name, Rolle, Wert
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Interaktive Bedienelemente wie Links und Schaltflächen haben programmatisch
-ermittelbare Namen und Rollen.
-
-Prüfschritt nicht anwendbar
-
-Die Seite enthält keine interaktiven Bedienelemente.
-
 == Was wird geprüft?
 
 Alle selbst gestalteten Komponenten einer Website (also Elemente oder Widgets,

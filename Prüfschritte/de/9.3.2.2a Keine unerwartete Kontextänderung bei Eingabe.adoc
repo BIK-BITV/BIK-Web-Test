@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=96[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=47[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.2.2 Bei Eingabe
-
-WCAG-Erfolgskriterium
-
-3.2.2 Bei Eingabe
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Formulareingaben führen nicht zu unerwarteten Kontextänderungen.
-
 == Was wird geprüft?
 
 Nutzereingaben auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen

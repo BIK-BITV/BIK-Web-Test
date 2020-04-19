@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=71[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.2.5 Audio-Deskription
-
-WCAG-Erfolgskriterium
-
-1.2.5 Audiodeskription (aufgezeichnet)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Videos sind mit Audiodeskription versehen.
-
-Prüfschritt nicht anwendbar
-
-Videos sind nicht vorhanden oder auch ohne synchrone Audiodeskription
-zugänglich.
-
 == Was wird geprüft?
 
 Für informationstragende visuelle Videoinhalte muss eine Audiodeskription

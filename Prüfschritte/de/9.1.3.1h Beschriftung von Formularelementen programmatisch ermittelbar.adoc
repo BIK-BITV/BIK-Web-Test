@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=79[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.3.1 Informationen und Beziehungen
-
-WCAG-Erfolgskriterium
-
-1.3.1 Info und Beziehungen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Beschriftungen von Formularfeldern sind richtig verknüpft.
-
 == Was wird geprüft?
 
 Beschriftungen sollen über Markup mit den Formularelementen, die sie

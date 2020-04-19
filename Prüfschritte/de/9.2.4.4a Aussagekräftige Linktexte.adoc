@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=94[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=44[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-2.4.4 Zweck eines Links (im Kontext)
-
-WCAG-Erfolgskriterium
-
-2.4.4 Linkzweck (im Kontext)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Linktexte sind durch den Linktext selbst oder über den programmatisch
-ermittelbaren Kontext aussagekräftig.
-
-Prüfschritt nicht anwendbar
-
-Links sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem

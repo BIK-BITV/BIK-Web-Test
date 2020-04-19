@@ -2,34 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=109[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.4.11 Nicht-Text Kontrast
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Informationstragenden Grafiken sowie grafische Bedienelemente und deren
-Zustände und haben einen Kontrast zu angrenzenden Farben von 3:1 oder besser.
-
 == Was wird geprüft?
 
 Die für die Identifizierung notwendige visuelle Information von

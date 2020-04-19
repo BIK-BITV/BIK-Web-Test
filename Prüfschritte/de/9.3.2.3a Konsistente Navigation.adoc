@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=97[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=63[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.2.3 Einheitliche Navigation
-
-WCAG-Erfolgskriterium
-
-3.2.3 Konsistente Navigation
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-gesamten Webauftritt
-
-Prüfschritt erfüllt
-
-Die Navigationsmechanismen sind einheitlich.
-
 == Was wird geprüft?
 
 Navigationsmechanismen sollen innerhalb des Webauftritts einheitlich sein.

@@ -2,41 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=70[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.2.4 Live-Untertitel
-
-WCAG-Erfolgskriterium
-
-1.2.4 Untertitel (Live)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Live-Übertragungen haben synchrone Untertitel.
-
-Prüfschritt nicht anwendbar
-
-Es sind keine Live-Übertragungen vorhanden.
-
 == Was wird geprüft?
 
 Wenn die Tonspur einer Live-Übertragung Informationen enthält, müssen

@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=20[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.2.2 Anhalten, beenden, ausblenden
-
-WCAG-Erfolgskriterium
-
-2.2.2 Pausieren, beenden, ausblenden
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Bewegte oder blinkende Inhalte sind nicht vorhanden, stoppen spätestens nach 5 Sekunden, oder es gibt eine Möglichkeit, die Bewegung/das Blinken anzuhalten, zu beeenden oder auszublenden.
-
 == Was wird geprüft?
 
 Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden,

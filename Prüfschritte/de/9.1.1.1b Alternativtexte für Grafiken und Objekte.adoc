@@ -2,44 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=65[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=13[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-1.1.1 Nicht-Text-Inhalte
-
-WCAG-Erfolgskriterium
-
-1.1.1 Nicht-Text-Inhalte
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Informative Grafiken und Bilder haben sinnvolle TextalternativenObjekte wie
-Video- und Audio-Dateien sowie Applets haben zumindest kurze beschreibende
-Textalternativen.
-
-Prüfschritt nicht anwendbar
-
-Informative Grafiken und Bilder sowie Multimedia-Objekte (Video- und
-Audio-Dateien, Applets) sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Nicht verlinkte informationsorientierte Grafiken und Bilder müssen mit Alternativtexten versehen werden(Verlinkte Grafiken werden in Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] geprüft.) Die Alternativtexte ersetzen das Bild, sie sollen also (wenn möglich) dieselbe Aufgabe erfüllen wie das Bild.

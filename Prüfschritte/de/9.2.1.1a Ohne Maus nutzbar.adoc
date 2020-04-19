@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=88[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=18[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-2.1.1 Tastaturbedienbarkeit
-
-WCAG-Erfolgskriterium
-
-2.1.1 Tastatur
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Auch ohne Maus können alle wesentlichen Funktionen und Inhalte genutzt werden.
-
 == Was wird geprüft?
 
 Die Webseite soll auch ohne Maus - also ausschließlich mit der Tastatur - zu

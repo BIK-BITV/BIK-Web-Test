@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=99[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=27[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-4.1.1 Syntaxanalyse
-
-WCAG-Erfolgskriterium
-
-4.1.1 Syntaxanalyse
-
-Bewertungsalternativen
-
-ja / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Das Prüfergebnis des W3C-HTML-Validators ist positiv.
-
 == Was wird geprüft?
 
 Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werdenDabei muss

@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=98[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-3.2.4 Einheitliche Bezeichnung
-
-WCAG-Erfolgskriterium
-
-3.2.4 Konsistente Erkennung
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-gesamten Webauftritt
-
-Prüfschritt erfüllt
-
-Navigationsmechanismen und Funktionen sind einheitlich benannt.
-
 == Was wird geprüft?
 
 Navigationsmechanismen und Funktionen, die innerhalb eines Webauftritts

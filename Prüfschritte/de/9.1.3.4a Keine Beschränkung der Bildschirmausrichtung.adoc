@@ -2,35 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=118[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.3.4 Ausrichtung
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Inhalte sind hinsichtlich Ansicht und Bedienung nicht auf eine einzige
-Ausrichtung (Hoch- oder Querformat) beschränkt, es sei denn, eine bestimmte
-Ausrichtung ist unerlässlich.
-
 == Was wird geprüft?
 
 Webinhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten

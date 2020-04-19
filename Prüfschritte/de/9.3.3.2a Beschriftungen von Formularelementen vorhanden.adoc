@@ -2,41 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=81[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=61[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.3.2 Beschriftungen
-
-WCAG-Erfolgskriterium
-
-3.3.2 Beschriftungen (Labels) oder Anweisungen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Beschriftungen von Formularfeldern stehen vor den Eingabefeldern.
-
-Prüfschritt nicht anwendbar
-
-Formularfelder sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Beschriftungen von Formularelementen sind vorhanden.

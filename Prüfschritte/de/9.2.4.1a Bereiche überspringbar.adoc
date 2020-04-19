@@ -2,43 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=73[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=22[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-2.4.1 Umgehen von Elementgruppen
-
-WCAG-Erfolgskriterium
-
-2.4.1 Blöcke umgehen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Seitenbereiche sind durch Überschriften, Sprunglinks oder WAI ARIA document
-landmarks erschlossen, Frames und Iframes haben sinnvolle Titel.
-
-Prüfschritt nicht anwendbar
-
-Überschriften oder Sprunglinks sind nicht erforderlich, denn die Seite hat
-keine unterschiedlichen Bereiche.
-
 == Was wird geprüft?
 
 Verschiedenen Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können

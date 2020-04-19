@@ -2,34 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=116[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.5.2 Abbruch von Zeigergesten
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Zeiger-Gesten lösen keine Aktionen beim Down-Event aus, oder sie können
-abgebrochen oder rückgängig gemacht werden, es sei denn, sie sind unerlässlich.
-
 == Was wird geprüft?
 
 Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z.BMauszeiger, Trackpad-Zeiger, Finger oder Eingabestift) auf einem Bedienelement ausgeführt werden; falls doch, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.

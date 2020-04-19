@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=58[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.4.5 Alternative Zugangswege
-
-WCAG-Erfolgskriterium
-
-2.4.5 Verschiedene Methoden
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-gesamten Webauftritt
-
-Prüfschritt erfüllt
-
-Zwei unterschiedliche Zugangswege zu den Inhalten des Angebots sind vorhanden.
-
-Prüfschritt nicht anwendbar
-
-Das Webangebot ist nicht informationsorientiert oder es besteht nur aus einer
-Seite.
-
 == Was wird geprüft?
 
 Es gibt mindestens zwei unterschiedliche Zugangswege, um zu den Inhalten des

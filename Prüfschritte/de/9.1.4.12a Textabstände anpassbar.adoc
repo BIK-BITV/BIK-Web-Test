@@ -2,33 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=110[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-1.4.12 Textabstände
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Zeilen- Absatz- Wort- und Buchstaben-Abstände lassen sich von Nutzern auf folgende Werte einstellen, ohne dass Inhalte oder Funktionalitäten nicht mehr verfügbar sind: Zeilen: 1,5-fache Textgröße; Abstände nach Absätzen: 2-fache Textgröße; Buchstaben-Kerning: 0,12-fache Textgröße; Wortabstände: 0,16-fache Textgröße.
-
 == Was wird geprüft?
 
 Die Anpassung der Zeilenhöhe auf das 1,5-fache der Textgröße, des Abstands

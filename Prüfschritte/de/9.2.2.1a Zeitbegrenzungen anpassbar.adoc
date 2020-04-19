@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=90[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=19[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-2.2.1 Zeitbezogene Anforderungen
-
-WCAG-Erfolgskriterium
-
-2.2.1 Zeiteinteilung anpassbar
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Zeitbegrenzungen sind nicht vorhanden, abschaltbar oder verlängerbar.
-
 == Was wird geprüft?
 
 Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist

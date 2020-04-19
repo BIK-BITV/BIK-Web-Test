@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=55[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.4.2 Webseiten-Titel
-
-WCAG-Erfolgskriterium
-
-2.4.2 Seite mit Titel versehen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Dokumenttitel sind eindeutig, sie bezeichnen Site und Seiteninhalt.
-
 == Was wird geprüft?
 
 Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie

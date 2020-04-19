@@ -2,44 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=91[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=43[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-2.4.3 Fokus-Reihenfolge
-
-WCAG-Erfolgskriterium
-
-https://testen.bitv-test.de/[1] Schlüssige Reihenfolge bei Tastaturbedienung
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Links, Formularelemente und Objekte werden mit der Tabulatortaste in einer
-schlüssigen Reihenfolge angesteuertEingeblendete Inhalte sowie dynamisch
-eingefügte oder geänderte Inhalte erscheinen an sinnvoller Stelle in der
-Fokusreihenfolge.
-
-Prüfschritt nicht anwendbar
-
-Links, Formularelemente oder Objekte sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Wenn die Webseite mit der Tastatur bedient wird, soll die Reihenfolge, in der

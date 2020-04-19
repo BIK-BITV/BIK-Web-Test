@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=103[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=50[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.3.1 Fehleridentifizierung
-
-WCAG-Erfolgskriterium
-
-3.3.1 Fehlererkennung
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Wird ein Eingabefehler automatisch festgestellt, wird das fehlerhafte Element
-aufgezeigt und der Fehler wird in Textform beschrieben.
-
-Prüfschritt nicht anwendbar
-
-Die Seite hat keine Formulare oder es gibt keine Fehlerbehandlung.
-
 == Was wird geprüft?
 
 Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten

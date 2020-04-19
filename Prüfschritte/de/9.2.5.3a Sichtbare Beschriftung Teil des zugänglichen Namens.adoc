@@ -2,34 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=117[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.5.3 Beschriftung im zugänglichen Namen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-Instanz / Element auf der Seite
-
-Prüfschritt erfüllt
-
-Bei Bedienelementen mit Beschriftungen, die Text oder Bilder von Text
-enthalten, enthält der zugängliche Name den sichtbaren Text.
-
 == Was wird geprüft?
 
 Sichtbare Beschriftungen von Bedienelementen sollen im zugänglichen Name des

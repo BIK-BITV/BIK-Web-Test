@@ -2,41 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=86[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=40[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-1.4.3 Kontrast
-
-WCAG-Erfolgskriterium
-
-1.4.3 Kontrast (Minimum)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Texte haben ausreichende Helligkeitskontraste.
-
-Prüfschritt nicht anwendbar
-
-Texte sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Alle Texte der Seite sollen ausreichende Helligkeitskontraste habenSie sollen

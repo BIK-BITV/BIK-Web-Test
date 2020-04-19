@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=93[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=24[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.1.2 Sprache einzelner Abschnitte
-
-WCAG-Erfolgskriterium
-
-3.1.2 Sprache von Teilen
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Anderssprachige Wörter und Abschnitte sind mit dem `lang`-Attribut
-ausgezeichnet.
-
-Prüfschritt nicht anwendbar
-
-Anderssprachige Wörter und Abschnitte sind nicht vorhanden.
-
 == Was wird geprüft?
 
 Wenn innerhalb einer Seite Wörter und Textabschnitte in einer anderen Sprache

@@ -2,38 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=51[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-3.3.4 Fehlervermeidung
-
-WCAG-Erfolgskriterium
-
-3.3.4 Fehlervermeidung (rechtliche, finanzielle, Daten)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Verpflichtende Dateneingaben können rückgängig gemacht oder vor dem Abschicken
-überprüft und korrigiert werden.
-
 == Was wird geprüft?
 
 Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die

@@ -2,34 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=112[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-Aktuell
-
-BITV-Bedingung
-
-2.1.4 Tastaturkurzbefehle
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Durch Webinhalte implementierte Tastatur-Kurzbefehle über Einzeltasten sind
-abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
-
 == Was wird geprüft?
 
 Wenn Webseiten Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen,

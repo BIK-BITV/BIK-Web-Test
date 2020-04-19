@@ -2,42 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=68[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=28[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-1.2.3 Audio-Deskription oder Volltext-Alternative
-
-WCAG-Erfolgskriterium
-
-1.2.3 Audiodeskription oder Medienalternative (aufgezeichnet)
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Videos sind mit Audiodeskription oder Volltext-Alternative versehen.
-
-Prüfschritt nicht anwendbar
-
-Videos sind nicht vorhanden oder auch ohne synchrone Audiodeskription
-zugänglich.
-
 == Was wird geprüft?
 
 Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder

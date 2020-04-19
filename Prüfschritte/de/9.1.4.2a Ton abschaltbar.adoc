@@ -2,43 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=84[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=39[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-1.4.2 Audio-Kontrolle
-
-WCAG-Erfolgskriterium
-
-1.4.2 Audio-Steuerelement
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein / nicht anwendbar
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Automatisch abgespielte Tonelemente dauern nicht länger als drei Sekunden,
-lassen sich abschalten, oder unabhängig von der Systemlautstärke herunter
-regeln.
-
-Prüfschritt nicht anwendbar
-
-Die Seite hat keine Tonelemente, die automatisch abgespielt werden.
-
 == Was wird geprüft?
 
 Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen

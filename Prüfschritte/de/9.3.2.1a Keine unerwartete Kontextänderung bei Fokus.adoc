@@ -2,37 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-[[multileiste]]
-link:/index.php?a=eb&iid=95[die bisherigen Bewertungen für dieses Prüfschritt]
-
-[.stopFloat]
-
-== Technische Angaben
-
-Version
-
-link:/index.php?a=di&iid=26[bis 10.07.2017] | Aktuell
-
-BITV-Bedingung
-
-3.2.1 Bei Fokussierung
-
-WCAG-Erfolgskriterium
-
-3.2.1 Bei Fokus
-
-Bewertungsalternativen
-
-ja / eher erfüllt / teilweise erfüllt / eher nicht erfüllt / nein
-
-Bezieht sich auf
-
-einzelne Webseite
-
-Prüfschritt erfüllt
-
-Fokus führt nicht zu einer unerwarteten Kontextänderung.
-
 == Was wird geprüft?
 
 Wenn irgendeine Komponente der Seite den Fokus erhält, soll dies nicht zu
