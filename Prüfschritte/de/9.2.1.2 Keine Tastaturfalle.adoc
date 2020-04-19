@@ -1,0 +1,77 @@
+= Prüfschritt 9.2.1.2 Keine Tastaturfalle
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch
+von diesem Element wieder wegbewegt werden könnenDer Inhalt darf keine
+Tastaturfalle erzeugen.
+
+== Warum wird das geprüft?
+
+Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
+mit der Maus als auch mit der Tastatur möglich sein.
+
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
+eingeschränkte Menschen oder Blinde.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== [#G202]2Prüfung
+
+Seite im Firefox Browser aufrufen.
+Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen
+werden können.
+Seite in Chrome aufrufen und Schritte 1 bis 2 wiederholen.
+
+=== 3Hinweise
+
+==== 3.1Allgemeine Hinweise
+
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursachtDie Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
+
+==== 3.2Hinweise zu Tastaturfallen
+
+* Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle erreicht, dann ist eventuell auch Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" nicht erfüllt!
+
+=== 4Bewertung
+
+==== Erfüllt:
+
+* Es gibt keine Tastaturfallen.
+
+==== Nicht erfüllt:
+
+* Wesentliche Inhalte und Funktionen sind in Chrome oder in Firefox aufgrund einer Tastaturfalle mit der Tastatur nicht erreichbar oder nicht bedienbar.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#keyboard-accessible[Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#no-keyboard-trap[2.1.2 No Keyboard Trap] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G21.html[G21: Ensuring that users are not trapped in content]
+
+===== Flash Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/flash/FLASH7[FLASH17: Providing keyboard access to a Flash object and avoiding a keyboard trap]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F10[F10: Failure of Success Criterion 2.1.2 and Conformance Requirement 5 due to combining multiple content formats in a way that traps users inside one format type]

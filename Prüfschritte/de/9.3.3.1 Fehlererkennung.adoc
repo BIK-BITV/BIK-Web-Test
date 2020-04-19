@@ -1,0 +1,114 @@
+= Prüfschritt 9.3.3.1 Fehlererkennung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten
+Felder identifiziert und in Textform beschrieben werden.
+
+== Warum wird das geprüft?
+
+Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder
+überspringen benötigte Eingaben.
+
+Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften
+oder fehlenden Eingaben identifiziert werdenDies erleichtert den Nutzern,
+Eingaben zu korrigieren.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei
+inkorrektem Ausfüllen Fehlermeldungen erzeugenDies kann schon während der
+Eingabe oder erst nach dem Abschicken des Formulars geschehen.
+
+=== [#G83]2Prüfung
+
+Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen
+von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter
+Email-Adressen.
+[#G84][#G85][#SCR18]Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind.
++
+Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge
+des Formulars, auf verschiedene Arten geschehen:
+* Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte Felder identifiziert.
+* Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
+* Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die Fehler darstellungsunabhängig hinzuweisen.
+* Fehlermeldungen, die nahe am Formularfeld positioniert sind, aber nicht Teil des Labels sind, sind mit` aria-labelledby ` oder `aria-describedby` verknüpft.
+* Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen (`alertdialog`) bereitgestellt.
+Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars
+zuvor angezeigte Fehlermeldungen verschwinden.
+
+=== 3Hinweise
+
+* Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüftGeprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
+* Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
+
+=== 4Bewertung
+
+==== Nicht voll erfüllt:
+
+* Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf (etwa durch Änderung des dem Feld zugeordneten Labels, semantische Hervorhebung, oder Links).
+* [#SCR32]Fehlermeldungen sind unklar oder irreführend.
+* Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden Eingaben werden lediglich grafisch oder durch zusätzliches Sternchen hervorgehoben.
+
+==== Nicht erfüllt:
+
+* Die Fehlermeldung gibt keinen Aufschluss darüber, welche Eingabe den Fehler erzeugt hat.
+* Bei fehlerhafter Eingabe wird das Formular neu angezeigtBereits gemachte korrekte Eingaben sind gelöscht, die Felder sind wieder leer und müssen erneut ausgefüllt werdenAusnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei sicherheitsrelevanten Daten wie Passwörtern oder Benutzernamen.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+Ob infolge von Fehleingaben generierte oder eingeblendete Fehlermeldungen an der richtigen Stelle im Quelltext stehen, ist Gegenstand des Prüfschritts link:/index.php?a=di&iid=82&s=n[1.3.3a] "Sinnvolle Reihenfolge".
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#error-identification[3.3.1 Error Identification] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G83.html[G83: Providing text descriptions to identify required fields that were not completed]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G84.html[G84: Providing a text description when the user provides information that is not in the list of allowed values]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G85.html[G85: Providing a text description when user input falls outside the required format or values]
+
+===== Scripting Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR18.html[SCR18: Providing client-side validation and alert]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR32.html[SCR32: Providing client-side validation and adding error text via the DOM]
+
+===== ARIATechniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA18[ARIA18: Using aria-alertdialog to Identify Errors]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19[ARIA19: Using ARIA role=alert or Live Regions to Identify Errors]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA21[ARIA21: Using Aria-Invalid to Indicate An Error Field]
+
+== Quellen
+
+=== DOM Scripting und WAI ARIA zur Erzeugung von Fehlermeldungen während der Formular-Eingabe
+
+Marco's accessibility blog: +
+http://www.marcozehe.de/2008/07/16/easy-aria-tip-3-aria-invalid-and-role-alert/[Easy ARIA tip #3: aria-invalid and role "alert"] (Juli 2008, englischer Text)
+
+== Fragen zu diesem Prüfschritt
+
+=== Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung verlangt?
+
+Eine Fehlerbehandlung ist oft sinnvoll, aber nicht grundsätzlich bei allen
+FormularenDas hängt ab vom Zweck des Formulars und der Art des AngebotsSo kann
+es unter Umständen sinnvoll sein, grundsätzlich alle Eingaben, auch solche mit
+Fehlern, zu verwerten.
+
+Wenn jedoch irgendwelche Fehlermeldungen generiert werden, müssen diese
+brauchbar seinDas wird in diesem Prüfschritt überprüft.

@@ -1,0 +1,131 @@
+= Prüfschritt 9.4.1.1 Korrekte Syntax
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Die verwendete Markup-Sprache HTML muss korrekt eingesetzt werdenDabei muss
+für jedes Element folgendes gewährleistet sein:
+
+* Sie besitzen vollständige Start- und Endtags,
+* sie sind gemäß Spezifikation korrekt verschachtelt
+* sie enthalten keine doppelten Attribute
+* alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
+
+== Warum wird das geprüft?
+
+Eine saubere HTML-Syntax vereinfacht Browsern oder Screenreadern den Umgang
+mit der Seite.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts:
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2Prüfung mit dem W3C-Validator
+
+Seite im Chrome-Browser aufrufen.
+Bookmarklet "https://validator.w3.org/nu/about.html#extras[Check serialized DOM of current page]" nutzen, um die Validität des geparsten Quelltextes im https://validator.w3.org/[W3C-Validator] zu prüfen.
+Falls das Bookmarklet nicht funktioniert, im Validator also nichts angezeigt wird, den DOM-Code kopieren und direkt im W3C Validator im Tab 'Validate by direct Input' eingeben (hier muss ggfeine nicht mitkopierte DOCTYPE Erklärung der Seite zu Beginn eingefügt werden, z.Bbei HTML5 die Zeile <!DOCTYPE html>).
+Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[WCAG parsing only Bookmarklet] die Fehler filtern.
+Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden
+sindSyntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
+Fehler.
+
+=== 3Hinweise
+
+* Die in HTML5 vorgesehenen validen Custom-Attribute nutzen das Format data-*, zum Beispiel `data-platznummer="44"`Manche Scripting Frameworks nutzen eigene FormateAngular.js etwa nutzt das Format ng-*Trotz fehlender Validität sind solche Custom-Attribute grundsätzlich kein Barrierefreiheits-Problem, solange sie semantisch korrekt (also z.Bmit korrekt öffnenden und schließenden Anführungszeichen) eingesetzt sindBrowser ignorieren Attribute, die nicht zugeordnet werden können.
+* Wenn die Prüfung aufgrund einer fehlenden `doctype`-Definition nicht ausgeführt werden kann, dann validiert die Seite nicht, der Prüfschritt ist dann nicht bestandenDer `doctype` soll nicht manuell eingetragen werden!
+* In diesem Prüfschritt wird das vom Browser nach Auswertung von Scripten generierte DOM geprüft, nicht der Seitenquelltext vor Interpretation im Browser.
+
+=== 4Bewertung
+
+==== Erfüllt:
+
+* Das Prüfergebnis des W3C-HTML-Validators ist nach Anwendung des WCAG parsing only Bookmarklet ist positivFalls noch Fehler (Errors) auftauchen, sind diese auf den semantisch korrekten Einsatz von Custom-Attributen zurückzuführen.
+
+==== Nicht erfüllt:
+
+* Das Prüfergebnis des W3C-HTML-Validators ist auch nach Anwendung des WCAG parsing only Bookmarklet negativ, es gibt Errors (und nicht nur wegen Custom-Attributen).
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#parsing[4.1.1 Parsing] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G134.html[G134: Validating Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G192.html[G192: Fully conforming to specifications]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H74.html[H74: Ensuring that opening and closing tags are used according to specification]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H75.html[H75: Ensuring that Web pages are well-formed]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H88.html[H88: Using HTML according to spec]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H93.html[H93: Ensuring that `id` attributes are unique on a Web page]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F70.html[F70: Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F77.html[F77: Failure of Success Criterion 4.1.1 due to duplicate values of type ID]
+
+== Quellen
+
+=== Bedeutung von validem HTML
+
+____
+Ensuring that Web pages have complete start and end tags and are nested
+according to specification helps ensure that assistive technologies can parse
+the content accurately and without crashing.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/parsing.html[Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1]
+
+____
+Validation will usually eliminate ambiguities (and more) because an essential step in validation is to check for proper use of that technology's markup (in a markup language) or code (in other technologies)Validation does not necessarily check for full conformance with a specification but it is the best means for automatically checking content against its specification.
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1 Technik G134: Validating web pages]
+
+____
+*Why should I care if my document is in correct HTMLIt displays all right on my browser.*
+
+All browsers know how to deal with correct HTMLHowever, if it is incorrect, the browser has to repair the document, and since not all browsers repair documents in the same way, this introduces differences, so that your document may look and work differently on different browsersSince there are hundreds of different browsers, and more coming all the time (not only on PCs, but also on PDAs, mobile phones, televisions, printers, even refrigerators), it is impossible to test your document on every browserIf you use incorrect HTML and your document doesn't work on a particular browser, it is your fault; if you use correct HTML and it doesn't work, it is a bug in the browser.
+____
+
+Quelle: http://www.w3.org/MarkUp/2004/xhtml-faq
+
+=== Prüfung von generiertem Quelltext
+
+Auf Stackoverflow.com gibt es eine ausführliche Diskussion der
+Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu
+extrahieren und zu validieren (auf Englisch)
+
+Quelle: http://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page] (stackoverflow.com)
+
+== Fragen zu diesem Prüfschritt
+
+=== Was ist, wenn die Seite aufgrund von Fremdinhalten, zum Beispiel wegen von einem fremden Server gelieferter Werbung nicht validiert?
+
+Die Zugänglichkeit von deutlich abgegrenzter Werbung wird im BITV-Test nicht geprüftGeprüft wird aber, ob die Werbung die Nutzung der anderen Seiteninhalte einschränktDas ist der Fall, wenn sie blinkt oder sich bewegt (Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte anhaltbar") oder nicht valide ist.
+
+=== Was ist, wenn der HTML-Validator fehlerhaft arbeitet?
+
+"Anerkannte" Fehler bestehen nicht dauerhaft, sie werden vom W3C bearbeitet und behobenGegebenenfalls ist die Prüfung zu wiederholen, nachdem der Fehler gemeldet und behoben worden istFür die Bewertung des Prüfschritts ist allein das Ergebnis relevantAuf welcher Basis es zustande kommt, spielt keine Rolle!
+
+=== Was ist, wenn das verwendete CMS nicht validen Code produziert?
+
+In diesem Fall liegt die Schuld für die Nichterfüllung des Prüfschritts
+möglicherweise beim Anbieter des CMSNichtsdestoweniger validiert die Seite
+nichtDas negative Ergebnis zählt, wie es zustande kommt, spielt keine Rolle.

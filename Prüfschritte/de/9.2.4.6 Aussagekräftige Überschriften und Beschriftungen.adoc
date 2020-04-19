@@ -1,0 +1,65 @@
+= Prüfschritt 9.2.4.6 Aussagekräftige Überschriften und Beschriftungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Überschriften beschreiben den folgenden Inhaltsteil, Beschriftungen sind
+sinngebend.
+
+== Warum wird das geprüft?
+
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiertDank dieser
+Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der
+Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn
+interessieren.
+
+Wenn Formularfelder sinngebend beschriftet sind, können Sie von Nutzer als
+solche erkannt und bedient werden.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch
+Überschriften strukturiert werden können und wenn die Seite Formularelemente
+enthält.
+
+=== 2Prüfung
+
+Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] laden.
+[#F26]Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
+Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
+[#H71]Wenn zur Beschriftung `fieldset` mit `legend` eingesetzt wird: Sind `legend` und `label`, zusammen vorgelesen, bei allen Formularelementen im Fieldset sinnvoll?
+
+=== 3Hinweise
+
+Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem
+betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen
+(einschließlich viel genutzter Abkürzungen)Die Verwendung in Interfaces bringt
+Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu
+führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich
+sind, was aber nicht zu einer negativen Bewertung führen soll.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und BeschriftungenDie programmatische Ermittelbarkeit durch Assistive Technologien ist den Prüfkriterien link:/index.php?a=di&iid=72&s=n[1.3.1a] "HTML-Strukturelemente für Überschriften" und link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar" zugeordnet.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#headings-and-labels[2.4.6 Headings and Labels] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html[G130: Providing descriptive headings]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing descriptive labels]

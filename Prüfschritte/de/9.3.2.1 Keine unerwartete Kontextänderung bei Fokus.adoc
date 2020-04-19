@@ -1,0 +1,93 @@
+= Prüfschritt 9.3.2.1 Keine unerwartete Kontextänderung bei Fokus
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn irgendeine Komponente der Seite den Fokus erhält, soll dies nicht zu
+einer unerwarteten Kontextänderung führen.
+
+== Warum wird das geprüft?
+
+Unerwartete und unangekündigte Kontextänderungen bei von Fokussierung einer
+Komponente (z.Bdas automatisches Abschicken von Formularen), können die
+Orientierung von Nutzern beeinträchtigenKontextänderungen auf der Seite selbst
+können Nutzer ablenken und verwirren oder auch unbemerkt bleiben und dadurch
+für Verwirrung sorgenSie sollten deshalb erwartet und klar nachvollziehbar
+sein.
+
+Das Öffnen neuer Fenster bei Fokussierung einer Komponente oder beim Laden
+einer Seite kann die Orientierung des Benutzers ebenfalls beeinträchtigenDas
+gilt ganz besonders für blinde und sehbehinderte BenutzerSie bemerken
+möglicherweise nicht, dass sich der Kontext geändert hatWenn das neue Fenster
+den Fokus erhält, funktioniert der Zurück-Button des Browsers nicht mehrDer
+Überblick kann verloren gehen, möglicherweise wird dann versehentlich das
+falsche Fenster (mit der History der bislang besuchten Seiten) geschlossen.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2Prüfung
+
+Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+[#F52]Das Laden der Seite sollte kein neues Fenster öffnen.
+Mit der Tabulatortaste die Links und Formularelemente durchgehenDer
+Fokuserhalt soll keine automatischen Kontextänderungen (etwa Pop-up-Fenster
+oder automatisches Abschicken von Formularen) auslösen.
+
+=== Hinweise
+
+Der Prüfschritt bezieht sich nur auf neue Browserfenster, nicht auf
+skriptgesteuerte Seiten-Elemente, die den Inhalt überlagern (Stichwort
+Lightbox).
+
+Das Öffnen von Custom Tooltips, also nicht modalen Fenstern, die sich beim
+Weitertabben oder Mausklick selbständig schließen, gilt dabei nicht als
+Kontextänderung.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make Web pages appear and operate in predictable ways.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#on-focus[3.2.1 On Focus] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G107.html[G107: Using "activate" rather than "focus" as a trigger for changes of context]
+
+===== Advisory Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200: Opening new windows and tabs from a link only when necessary]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201: Giving users advanced warning when opening a new window]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F52.html[F52: Failure of Success Criterion 3.2.1 due to opening a new window as soon as a new page is loaded]
+
+== Fragen zu diesem Prüfschritt
+
+=== Der Prüfschritt bezieht sich nur auf das Öffnen neuer Fenster beim Laden der SeiteErlaubt die BITV 2.0 jetzt das unangekündigte Öffnen von neuen Fenstern über Links?
+
+Die WCAG empfehlen in den _Advisory Techniques_ https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200] und https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201], das Öffnen neuer Fenster auf Fälle zu beschränken, in denen das aus einer Zugänglichkeitsperspektive sinnvoll ist und Benutzer zuvor über das Öffnen eines neuen Fensters zu informieren (etwa als Teil des Links, der das Fenster öffnet).
+
+Das unangekündigte Öffnen neuer Fenster bei der Aktivierung von Links wird
+jedoch grundsätzlich akzeptiertDies ist dadurch gerechtfertigt, das moderne
+Benutzeragenten Einstellungsmöglichkeiten für den Umgang mit automatisch
+öffnenden Fenstern bietenIn den meisten aktuellen Browser-Versionen lässt sich
+inzwischen festlegen, ob neue Fenster also zusätzliches Browser-Fenster oder
+in einem Tab (Registrierkarte) geöffnet werden sollen oder ob unangekündigte
+Fenster grundsätzlich unterdrückt werden sollen (Stichwort
+Popup-Blocker)Einige Browser (Firefox) erlauben auch die Festlegung, ob neue
+Tabs im Vordergrund geöffnet werden sollen (also den Fokus erhalten sollen)
+oder nicht.

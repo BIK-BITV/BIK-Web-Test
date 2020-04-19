@@ -1,0 +1,81 @@
+= Prüfschritt 9.2.5.4 Alternativen für Bewegungsaktivierung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn Webinhalte auf die Bewegung eines mobilen Gerätes reagieren oder wenn
+Bewegungen des Benutzers von Gerätesensoren oder der Kamera erfasst werden, um
+Funktionen auszulösen, sollten hierfür alternative Eingabemöglichkeiten
+vorhanden sein, und die Bewegungseingabe soll vom Nutzer abgeschaltet werden
+können.
+
+Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion
+wesentlich sind, z.Bwenn ein Bewegungssensor die Schritte einer Person
+aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten
+Hilfsmitteleingabe ist.
+
+Abschaltbarkeit der Bewegungseingabe: Gegebenenfalls können Webinhalte diese
+Anforderung erfüllen, indem sie Betriebssystemeinstellungen unterstützen, die
+es dem Benutzer ermöglichen, die Bewegungserkennung auf Systemebene zu
+deaktivieren.
+
+== Warum wird das geprüft?
+
+Menschen mit motorischen Einschränkungen können Bewegungseingaben oft nicht,
+oder nicht gezielt, ausführenIn manchen Fällen sind Geräte fest montiert, zum
+Beispiel an einem Rollstuhl, was Bewegungseingaben unmöglich machtDeshalb ist
+es wichtig, dass es auch andere Möglichkeiten der Eingabe über Bedienelemente
+des Webinhaltes gibt.
+
+Bei anderen motorischen Einschränkungen kann es durch unwillkürliche
+Bewegungen zu ungewollten Eingaben kommenDeshalb ist es wichtig, dass sich von
+Webinhalten bereitgestelte motorische Eingaben deaktivieren lassen.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn Webinhalte bestimmte Bewegungseingaben
+definieren, etwa die Bewegung durch eine 360-Grad-Rundumansicht durch ein
+Rotieren des Geräts, oder das Blättern durch eine Folge von
+Präsentationsfolien durch ruckartige Seitwärtsbewegungen.
+
+=== 2Prüfung
+
+Über Bewegungen, Quellcode-Prüfung oder geeignete Hilfsfunktionen, die in
+Scripten das Vorhandensein von Motion-Eventhandlern aufzeigen, prüfen, ob der
+Webinhalt in irgend einer Weise auf Bewegungseingaben reagiert.
+Für alle Funktionen, die über Bewegungseingabe ausgelöst werden, prüfen, ob
+alternative Eingabemöglichkeiten über Bedienelemente bestehen.
+Prüfen, ob sich vorhandene Bewegungseingaben abschalten lassen.
+
+=== 3Bewertung
+
+==== Prüfschritt erfüllt:
+
+* Von Webinhalten definierte Bewegungseingaben haben eine alternative Eingabemöglichkeit über zugängliche Bedienelemente oder lassen sich vom Nutzer wirkungsvoll deaktivieren (ggfüber Einstellungen des Betriebssystems).
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#motion-actuation[2.5.4 Motion Actuation] (Level A)
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G213[G213: Provide conventional controls and an application setting for motion activated input]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F106[F106: Failure due to inability to deactivate motion actuation]
+
+== Quellen
+
+https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html[Understanding Success Criterion 2.5.4: Motion Actuation] (zur Zeit nur auf Englisch verfügbar)

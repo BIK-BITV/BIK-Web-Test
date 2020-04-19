@@ -1,0 +1,65 @@
+= Prüfschritt 9.3.2.4 Konsistente Bezeichnung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Navigationsmechanismen und Funktionen, die innerhalb eines Webauftritts
+wiederholt eingesetzt werden, sollen einheitlich bezeichnet sein.
+
+== Warum wird das geprüft?
+
+Klare und durchgängig verwendete Bezeichnungen für die Navigation und sich
+wiederholende Funktionen erleichtern Benutzern das Verständnis der Inhalte des
+AngebotsGesuchtes wird leichter gefunden, Zusammenhänge sind einfacher zu
+erkennen.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar
+
+=== 2Prüfung
+
+==== 2.1 Sind Navigation und sich wiederholende Funktionen einheitlich bezeichnet?
+
+* Ausgehend von der Startseite verschiedene Bereiche des Webangebots aufsuchen.
+* [#G197]Prüfen, ob Navigationsmechanismen, Menüeinträge und sich wiederholende Funktionen in verschiedenen Bereichen des Webauftritts [#G131]aussagekräftig und [#F31]einheitlich benannt sind.
+* Orientieren sich die (oft kürzeren) Menüeinträge an den Überschriften der Zielseiten?
+* [#H70]Falls das Angebot Framesets zur Gliederung der Inhaltsbereiche benutzt: Mit der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[Web Developer Toolbar] auf verschiedenen Seiten mit der Funktion _Outline > Outline Frames_ gefolgt von _Information > Display Element Information_ und dann einem Klick mit dem Cursor-Fadenkreuz auf den Rahmen der Frames prüfen, ob Frames mit gleichen Inhalten (etwa Navigationsmenü) immer an der gleichen Stelle im `frameset` eingebunden sind.
+
+=== 3Bewertung
+
+Bewertung als nicht oder teilweise erfüllt immer erläutern!
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+* Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsmechanismen durchgängig einheitliche Bezeichnungen verwendet werden, wird in Prüfschritt 3.2.3a "Konstistente Navigation" dagegen geprüft, ob die Navigationsmechanismen und Menüeinträge in verschiedenen Bereichen des Webauftritts durchgängig einheitlich angeordnet sind.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Make Web pages appear and operate in predictable ways.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#consistent-identification[3.2.4 Consistent Identification] (Level AA)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing descriptive labels]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html[G197: Using labels, names, and text alternatives consistently for content that has the same functionality]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H70.html[H70: Using frame elements to group blocks of repeated material]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F31.html[F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages]

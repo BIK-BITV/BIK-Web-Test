@@ -1,0 +1,119 @@
+= Prüfschritt 9.4.1.3 Statusmeldungen programmatisch verfügbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn Webanwendungen Statusmeldungen erzeugen, etwa wenn ein Produkt in einen
+digitalen Warenkorb gelegt wurde, ein Formuar beim Abschicken eine
+Fehlermeldung oder ein Bestätigungsmeldung erzeugt, sollen visuell
+eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften
+ausgezeichnet werden und damit programmatisch, also auch für nicht-visuelle
+Nutzer, ermittelbar sein.
+
+Beispiele für Statusmeldungen:
+
+* Ware wurde im Shop dem Warenkorb hinzugefügt
+* 3 Bücher der Merkliste hinzugefügt
+* Formular erfolgreich abgeschickt (Erfolgsmeldung)
+* 5 Suchergebnisse (etwa nach Filterung der Ergebnisse)
+* 3 Fehler im Formular (bei clientseitiger Prüfung ohne Neuladen der Seite)
+* Punktestand geändert
+* Seite wird geladen (bei visueller Ladeanzeige/Fortschrittsbalken)
+
+== Warum wird das geprüft?
+
+In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
+Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
+Ergebnis von Interaktionen (wie z.Bdie Anzahl der beim Filtern einer
+Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
+von Transaktionen gebenDiese Meldungen sind ebenso wichtig für nicht-visuelle
+Nutzer und sollten für assistive Technologien verfügbar sein, damit die Nutzer
+auf sie aufmerksam werden, ohne ihren aktuellen Fokus oder Standpunkt ändern
+zu müssen.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
+die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im
+Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem
+Abschicken eines Formulars die Seite neulädt und dann vor dem Formular eine
+Fehlermeldung erscheint.
+
+=== 2Prüfung
+
+Screenreader NVDA im Firefox-Browser aktivieren.
+Eingaben vornehmen, die zur Generierung von Statusmeldungen führenWenn das
+Angebot von sich aus Statusmeldungen, z.Bbei aktualisierten Inhalten,
+generiert, diese Meldungen abwarten.
+Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
+
+=== 3Hinweise
+
+Nicht als Statusmeldung gelten:
+
+* Fehlermeldung über Dialog (Kontextänderung durch Fokusumsetzung)
+* Die Hinzufügung von Bedienelementen, wie zBzusätzliche Formularelelemente
+
+Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
+Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
+Screenreader unterschiedlich ausfallenDer Erfolg kann davon abhängen, ob die
+Statusmeldung in ein bereits bestehendes Elementes eingefügt wird oder ob ein
+kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
+
+Das HTML-Element der Statusmeldung muss mit den zugehörigen Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt, also in das HTML-Element eingefügt wirdDas Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei getrennte Aktionen.
+
+ARIA-Attribute wie `aria-atomic`, `aria-busy`, `aria-relevant` müssen auf
+Statusmeldungen in der Regel nicht eingesetzt werdenDie Angabe der geeigneten
+Rolle definiert passende Werte für diese Attribute bereits implizit.
+
+=== 4Bewertung
+
+Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch
+verfügbar.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#status-messages[4.1.3 Status messages] (Level AA)
+
+==== Techniques
+
+*Situation A:* If a status message advises on the success or results of an action, or the state of an application:
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22[ARIA22: Using role=status to present status messages] in combination with any of the following:
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G199[G199: Providing success feedback when data is submitted successfully]
+
+*Situation B:* If a status message conveys a suggestion, or a warning on the existence of an error:
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19[ARIA19: Using ARIA role=alert or Live Regions to Identify Errors] in combination with any of the following:
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G83[G83: Providing text descriptions to identify required fields that were not completed]
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G84[G84: Providing a text description when the user provides information that is not in the list of allowed values]
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G85[G85: Providing a text description when user input falls outside the required format or values]
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G177[G177: Providing suggested correction text]
+** https://www.w3.org/WAI/WCAG21/Techniques/general/G194[G194: Providing spell checking and suggestions for text input]
+
+*Situation C:* If a status message conveys information on the progress of a process:
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA23[ARIA23: Using role=log to identify sequential information updates]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22[ARIA22: Using role=status to present status messages] in combination with https://www.w3.org/WAI/WCAG21/Techniques/general/G193[G193: Providing help by an assistant in the Web page]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F103[F103: Failure of Success Criterion 4.1.3 due to providing status messages that cannot be programmatically determined through role or properties]
+
+== Quellen
+
+* https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html[Understanding Success Criterion 4.1.3 Status Messages] (zur Zeit nur auf Englisch verfügbar)
+* W3C-Definition einer Statusmeldung: https://www.w3.org/TR/WCAG/#dfn-status-messages
+* W3C-Definition einer Live-Region: https://www.w3.org/TR/wai-aria/#dfn-live-region
+* ARIA 1.1Spezifikation: https://www.w3.org/TR/wai-aria-1.1/

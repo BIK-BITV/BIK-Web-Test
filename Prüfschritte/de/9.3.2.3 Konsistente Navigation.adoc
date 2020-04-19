@@ -1,0 +1,90 @@
+= Prüfschritt 9.3.2.3 Konsistente Navigation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Navigationsmechanismen sollen innerhalb des Webauftritts einheitlich sein.
+
+== Warum wird das geprüft?
+
+Eine einheitliche Navigation innerhalb des Webauftritts erleichtert das
+Verständnis, Gesuchtes wird leichter gefunden.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar
+
+=== 2Prüfung
+
+==== 2.1 Ist die Navigation ist einheitlich?
+
+* Ausgehend von der Startseite verschiedene Bereiche des Webangebots aufsuchen, dabei wenn möglich unterschiedliche Navigationsmechanismen verwenden (Menüs, Direktlinks, Breadcrumb, Teaser oder Suche).
+* [#G197]Prüfen, ob Navigationsmechanismen und Menüeinträge in verschiedenen Bereichen des Webauftritts [#G131] [#G61][#F66]gleich angeordnet und gestaltet sind.
+
+=== 3Hinweise
+
+Die Navigation auf der Startseite unterscheidet sich häufig von der Navigation
+auf anderen Seiten, weil dort noch kein Bereichsmenü angezeigt werden muss
+oder weil zusätzliche Navigationsmöglichkeiten nur auf der Startseite
+angeboten werden.
+
+Falls Inhalte über geskriptete Layer eingeblendet werden, sollte geprüft
+werden, ob sich diese Inhalte deutlich von sonstigen Seiten und Seitenwechseln
+unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der
+Zurück-Button des Browsers) nicht gleichermaßen greifen.
+
+=== 4Bewertung
+
+Bewertung als nicht oder teilweise erfüllt immer erläutern!
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+* Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsmechanismen einheitlich, d.hgleich angeordnet und gestaltet sind, wird in Prüfschritt link:/index.php?a=di&iid=101&s=n[2.4.8a] "Position im Webauftritt klar" dagegen geprüft, ob die *Position* des Benutzers im Angebot klar erkennbar ist.
+* Geprüft wird in der "Normaleinstellung", also mit eingeschaltetem Javascript und mit den für den Webauftritt vorgesehenen StylesheetsDer Prüfschritt link:/index.php?a=di&iid=82&s=n[1.3.3a] "Ohne Bezug auf sensorische Merkmale nutzbar" klärt, ob die Navigation auch funktioniert, wenn die zugeordneten Stylesheets nicht verwendet werden.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Make Web pages appear and operate in predictable ways.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#consistent-navigation[3.2.3 Consistent Navigation] (Level AA)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G61.html[G61: Presenting repeated components in the same relative order each time they appear]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F66.html[F66: Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages]
+
+== Quellen
+
+=== Die WCAG 2.1 zur Bedeutung einheitlicher Navigation und der Berechtigung abweichender Bereichsnavigation
+
+____
+Ensuring that repeated components occur in the same order on each page of a
+site helps users become comfortable that they will able to predict where they
+can find things on each pageThis helps users with cognitive limitations, users
+with low vision, users with intellectual disabilities, and also those who are
+blind.
+
+(...) Individuals with low vision who use screen magnification to display a
+small portion of the screen at a time often use visual cues and page
+boundaries to quickly locate repeated contentPresenting repeated content in
+the same order is also important for visual users who use spatial memory or
+visual cues within the design to locate repeated content.
+
+It is important to note that the use of the phrase "same order" in this section is not meant to imply that subnavigation menus cannot be used or that blocks of secondary navigation or page structure cannot be used(...)
+____
+
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html[Consistent Navigation: Understanding SC 3.2.3]

@@ -1,0 +1,59 @@
+= Prüfschritt 9.3.1.1 Hauptsprache angegeben
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Die Hauptsprache der Webseite soll angegeben werden.
+
+== Warum wird das geprüft?
+
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter
+festgelegt istSie müssen wissen, in welcher Sprache ein Text verfasst ist,
+damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen
+können.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== [#H57]2Prüfung
+
+Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden
+`html`-Element das `lang`-Attribut (bzwbei xhtml-Seiten das
+`xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite
+richtig angegeben ist.
+
+=== 4Bewertung
+
+==== Erfüllt:
+
+* Die Hauptsprache der Webseite ist korrekt angegeben.
+
+==== Nicht erfüllt:
+
+* Die Hauptsprache der Webseite ist nicht angegeben oder es wird eine falsche Sprache angegeben.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+* Prüfschritt link:/index.php?a=di&iid=93&s=n[3.1.2a] "Anderssprachige Wörter und Abschnitte ausgezeichnet"
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text content readable and understandable]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page] (Level A)
+
+==== Techniques
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H57.html[H57: Using language attributes on the html element]

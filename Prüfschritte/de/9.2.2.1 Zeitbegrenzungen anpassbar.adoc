@@ -1,0 +1,153 @@
+= Prüfschritt 9.2.2.1 Zeitbegrenzungen anpassbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist
+abschaltbar, oder sie kann verlängert werdenDies betrifft etwa:
+
+* zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
+* Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
+* das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung zu einer anderen Seite
+
+== Warum wird das geprüft?
+
+Die Auto-Aktualisierung durch das Neu-Laden einer Seite kann bei
+Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und
+unvermittelt von vorne beginnen.
+
+Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie auf
+eine andere Seite weitergeleitet werdenDie Zeitbegrenzung macht die
+zwischendurch angezeigte Seite für viele nicht zugänglich.
+
+Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können
+Nutzer, die mehr Zeit für Eingaben brauchen, Online-Transaktionen oft nicht
+rechtzeitig abzuschließen.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1.) ist
+immer anwendbar.
+
+Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
+(Abschnitt 2.2.) ist nur anwendbar auf Seiten mit Transaktionen, welche
+üblicherweise aus datenschutzrechtlichen oder sicherheitsrelevanten Gründen
+Zeitbegrenzungen unterliegen (etwa beim Online-Banking oder Online-Shops).
+
+=== 2Prüfung
+
+==== [#H76][#F41]2.1Prüfung auf Auto-Aktualisierung durch Neu-Laden der Seite und Weiterleitung auf andere URL
+
+Quelltextanalyse: Vorhandensein des Markups prüfen.
+
+* Taucht `http-equiv="refresh"` im Kopfbereich der Seite aufDann muss `content="0"` sein (also eine Weiterleitung ohne Zeitverzögerung auslösen bzwkeine Aktualisierung auslösen).
+
+==== 2.2Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
+
+===== 2.2.1Zeitbegrenzung wird angezeigt
+
+Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise
+anzeigen:
+
+* Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigtJede Interaktion setzt die Session-Dauer automatisch zurück.
+* [#SCR16]Rechtzeitig vor Ablauf der Zeit erscheint ein Dialog zum Verlängern der Zeitbegrenzung.
+* [#G133][#G180][#G198][#SCR1]Ein Kontrollelement erlaubt das Abschalten oder Verlängern der ZeitbegrenzungNutzer haben genügend Zeit, das Kontrollelement vor dem Ablauf der Zeit zu finden.
+
+===== 2.2.2Nicht unmittelbar sichtbare Zeitbegrenzungen
+
+Wenn zu erwarten ist, dass die auf der Seite angebotene Transaktion eine
+Zeitbegrenzung hat, aber weder eine laufende Anzeige der Session-Dauer noch
+ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
+
+Seite mit Transaktionen, die üblicherweise eine begrenzte Session-Dauer haben
+(Online-Banking, Bezahlvorgänge von Shops) in dem gerade nicht zur Prüfung
+genutzten Browser aufrufen und Daten eingeben.
+Den Browser für 20 Minuten nicht nutzen.
+[#F58]Nach Ablauf der 20 Minuten prüfen, ob die Seite noch verfügbar ist und Daten erfolgreich abgeschickt werden können.
+Wenn die nach 20 Minuten sichtbare Seite mitteilt, dass die Transaktionsdauer
+abgelaufen und die Session beendet worden ist, Seite erneut laden und
+abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens
+20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der
+Zeitbegrenzung bietet.
+
+=== 3Hinweise
+
+Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene
+Zeitbegrenzungen (sowohl serverseitig als auch clientseitig)Externe
+Zeitbegrenzungen, etwa des User Agents, sind nicht im Einflussbereich des
+Autors und damit nicht Gegenstand der BITV.
+
+Ob auf einer Seite eine Zeitbegrenzung tatsächlich vorliegt, ist aus dem
+Quelltext der Seite oft nicht zu entnehmen, denn die Zeitbegrenzung kann auch
+serverseitig gesetzt werden.
+
+=== 4Bewertung
+
+==== Nicht erfüllt:
+
+* Die Seite wird über Reload (`http-equiv="refresh"`) periodisch aktualisiert.
+* Es gibt eine verzögerte Weiterleitung auf eine andere Seite.
+* Der Ablauf einer Zeitbegrenzung wird nicht angezeigtErst mit dem Abschicken des Formulars wird darüber informiert, dass die Sessiondauer überschritten wurde.
+
+==== Nicht voll erfüllt:
+
+* Die Zeitbefristung der Session wird angezeigt und Nutzer-Aktivitäten setzen die First zurück, es gibt jedoch spätestens 20 Sekunden vor Ablauf der Frist keinen Dialog, der darüber informiert und Möglichkeiten zur Verlängerung bietet.
+* Für das Auffinden des Kontrollelements zum Abschalten der Zeitbegrenzung steht nicht genug Zeit zur Verfügung.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Seite
+betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also
+ablenken) oder nichtGeprüft wird, ob solche Zeitbegrenzungen abschaltbar oder
+verlängerbar sind.
+
+Der Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte abschaltbar" betrifft dagegen bewegte oder autoaktualisierte Inhalte, die Nutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Nutzer schwierig wahrnehmbar sindHier wird geprüft, ob Nutzer die Möglichkeit haben, bewegte oder oder autoaktualisierte Inhalte anzuhalten oder auszublenden.
+
+Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Zeitbegrenzungen abzuschalten oder zu verlängern, wird in diesem Prüfschritt lediglich geprüft, ob Nutzer genügend Zeit haben, diesen Mechanismus zu finden und zu nutzenIn anderen Prüfkriterien wird geprüft, ob der Mechanismus selbst zugänglich und verständlich ist (etwa in link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" oder link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar").
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#enough-time[Guideline 2.2 Enough Time: Provide users enough time to read and use content.]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#timing-adjustable[2.2.1 Timing Adjustable] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G133.html[G133: Providing a checkbox on the first page of a multipart form that allows users to ask for longer session time limit or no session time limit]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G180.html[G180: Providing the user with a means to set the time limit to 10 times the default time limit]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G198.html[G198: Providing a way for the user to turn the time limit off]
+
+===== Client-side Scripting Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR16.html[SCR16: Providing a script that warns the user a time limit is about to expire] AND https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR1.html[SCR1: Allowing the user to extend the default time limit]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F40[F40: Failure of Success Criterion 2.2.1 and 2.2.4 due to using meta redirect with a time limit]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F41[F41: Failure of Success Criterion 2.2.1, 2.2.4, and 3.2.5 due to using meta refresh with a time-out]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F58[F58: Failure of Success Criterion 2.2.1 due to using server-side techniques to automatically redirect pages after a time-out]
+
+== Fragen zu diesem Prüfschritt
+
+=== Wie kann durch ein Kontrollelement auf der Webseite sichergestellt werden, dass der Benutzer eine Zeitbegrenzung oder Autoaktualisierung auf Wunsch abschalten kann?
+
+Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung
+nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum
+Abschalten gestoßen istDaher sollte die Schaltfläche oder der Link zum
+Abschalten oder Verlängern am Seitenbeginn oder nahe am Seitenbeginn angezeigt
+werden, damit er von Menschen mit verschiedensten Behinderungen auch gefunden
+und aktiviert werden kann.
+
+Dennoch ist nicht sicher, dass Benutzer die Option zum Abschalten der
+Autoaktualisierung oder Zeitbegrenzung finden und verstehen.

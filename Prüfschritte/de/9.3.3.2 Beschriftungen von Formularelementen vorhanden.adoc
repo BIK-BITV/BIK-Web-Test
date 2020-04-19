@@ -1,0 +1,101 @@
+= Prüfschritt 9.3.3.2 Beschriftungen von Formularelementen vorhanden
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Beschriftungen von Formularelementen sind vorhanden.
+
+Die Beschriftung von Formularelementen soll vor (das heißt links neben oder
+über) dem zugehörigen Eingabefeld angeordnet werdenNur die Beschriftung von
+Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem
+zugehörigen Eingabefeld angeordnet werden.
+
+Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die
+Anweisungen für alle Benutzer lesbar.
+
+== Warum wird das geprüft?
+
+Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche
+Eingaben erwartet werden und Fehler können vermieden werden.
+
+Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld
+entspricht den üblichen GestaltungskonventionenAuch in ausschnitthaften
+Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche
+Beschriftung zu welchem Feld gehört.
+
+== Wie wird geprüft?
+
+=== 1Anwendbarkeit des Prüfschritts
+
+* Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
+
+=== 2Prüfung
+
+Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[Internet Explorer] aufrufen.
+
+==== 2.1Sind Beschriftungen vorhanden ?
+
+* [#H44][#G197][#G13]Sind alle Formularelemente beschriftet?
+* [#H90]Sind Pflichtfelder in `label`- oder `legend`-Elementen klar angezeigtWenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, muss deren Bedeutung am Beginn des Formulars erklärt sein.
+* [#G184][#G89]Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses vor dem Eingabefeld klar beschrieben(Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
+
+==== 2.2Sind Beschriftungen richtig positioniert?
+
+Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
+Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehenDie Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
+
+=== 3Hinweise
+
+* [#G108][#H65][#F82][#F86]Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete BeschriftungIn diesem Fall sollen Elemente mit einem erklärenden `title`-Attribut versehen werdenBeispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr)Die drei Auswahllisten haben eine gemeinsame Beschriftung: DatumDie Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden `title`-Attribut versehen.
+* [#G167]Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendigHier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichet (etwa "Suchen")Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges `title`-Attribut oder ein verstecktes Label haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugtAlternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt weren.
+* Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
+
+=== 4Bewertung
+
+==== Nicht erfüllt:
+
+* Wichtige Formularelemente (z.Bdie Sucheingabe) sind ohne Beschriftung, auch angrenzende Elemente erklären nicht die Funktion.
+
+==== Nicht voll erfüllt:
+
+* Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guidelines
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.]
+
+==== Success criteria
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#labels-or-instructions[3.3.2 Labels or Instructions] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G13.html[G13: Describing what will happen before a change to a form control that causes a change of context to occur is made]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G89.html[G89: Providing expected data format and example]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing descriptive labels]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G162.html[G162: Positioning labels to maximize predictability of relationships]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G184.html[G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input]
+
+===== HTML Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H44.html[H44: Using label elements to associate text labels with form controls]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H65.html[H65: Using the title attribute to identify form controls when the label element cannot be used]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H71.html[H71: Providing a description for groups of form controls using fieldset and legend elements]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H90.html[H90: Indicating required form controls using label or legend]
+
+===== ARIA Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1[ARIA1: Using the aria-describedby property to provide a descriptive label for user interface controls]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9[ARIA9: Using aria-labelledby to concatenate a label from several text nodes]
+* https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17.html[ARIA17: Using grouping roles to identify related form controls]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F82.html[F82: Failure of Success Criterion 3.3.2 by visually formatting a set of phone number fields but not including a text label]
