@@ -12,3 +12,8 @@ und der EU Norm 301 549.
 
 * link:Prüfschritte/de/[Zu den Prüfschritten]
 
+Die Prüfschritte sind in der Auszeichnungssprache AsciiDoc verfasst, um die
+Mitarbeit zu unterstützen, stellen wir ein Tutorial für den Schnelleinstieg
+bereit.
+
+* https://github.com/BIK-BITV/BIK-App-Test/blob/master/support/AsciiDoc/AsciiDoc%20Tutorial.adoc[Zum AsciiDoc Tutorial]
