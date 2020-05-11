@@ -18,7 +18,7 @@ verfügbar ist.
 
 == Warum wird das geprüft?
 
-Standard-HTML-Bedienelemente wie Links (`a`-Element) und Formularelemente
+Standard-HTML-Bedienelemente wie Links (``a``-Element) und Formularelemente
 (`input`, `button`, checkbox etc.) haben Namen, Rollen, Wert und Zustände,
 sofern sie gemäß Spezifikation umgesetzt sind und sind für Hilfsmittel wie
 Screenreader generell erkennbarSo bekommen etwa blinde Nutzer mit, wenn sie
@@ -56,7 +56,7 @@ gegebenenfalls Zustände abgebildet werdenZustandsänderungen müssen durch
 Änderungen der Attribute-Werte reflektiert werden.
 Grafische Zustandsänderungen durch den geskripteten Austausch von Bildern, die
 anstelle von Bedienelementen eingesetzt werden, müssen auch für Hilfsmittel
-verfügbare sinnvolle Änderungen von `alt`-Attributen bzwWAI-ARIA Eigenschaften
+verfügbare sinnvolle Änderungen von ``alt``-Attributen bzwWAI-ARIA Eigenschaften
 erzeugen.
 
 === 3Hinweise
@@ -73,7 +73,7 @@ sinnvoll.
 ==== Nicht erfüllt:
 
 Wichtige Bedienelemente sind mit unsemantischen HTML-Elementen oder
-`a`-Elementen ohne `href`-Attribut umgesetzt, ohne dass die Semantik mit
+``a``-Elementen ohne `href`-Attribut umgesetzt, ohne dass die Semantik mit
 WAI-ARIA nachgebildet wurde.
 
 == Einordnung des Prüfschritts

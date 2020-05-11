@@ -4,16 +4,16 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Eine Grafik, die keine informative Funktion hat, benötigt keinen AlternativtextGrafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative FotosSolche Grafiken sollen mit einem leeren `alt`-Attribut (`alt=""`) ausgezeichnet werden
+Eine Grafik, die keine informative Funktion hat, benötigt keinen AlternativtextGrafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative FotosSolche Grafiken sollen mit einem leeren ``alt``-Attribut (`alt=""`) ausgezeichnet werden
 
 Thema des Prüfschritts sind auch Icons, die mittels Icon Font eingebunden sind
 und SVGs.
 
 == Warum wird das geprüft?
 
-Screenreader behandeln Bilder *ohne* `alt`-Attribut anders als Bilder *mit leerem* `alt`-Attribut.
+Screenreader behandeln Bilder *ohne* ``alt``-Attribut anders als Bilder *mit leerem* ``alt``-Attribut.
 
-Wenn ein Screenreader auf ein Bild ohne `alt`-Attribut stößt, dann liest er
+Wenn ein Screenreader auf ein Bild ohne ``alt``-Attribut stößt, dann liest er
 normalerweise den Namen der Bilddatei vorDenn in vielen Fällen muss man für
 die Benutzung von Seiten unbedingt wissen, was auf Bildern drauf istDateinamen
 können dafür manchmal brauchbare Hinweise liefern.
@@ -22,12 +22,12 @@ Wenn Bilder nur der Dekoration dienen, ist das Vorlesen des Dateinamens
 dagegen störendBei diesen Bildern wäre es besser, wenn der Screenreader sie
 einfach übergehen würde.
 
-Das leere `alt`-Attribut informiert den Screenreader darüber, dass das
+Das leere ``alt``-Attribut informiert den Screenreader darüber, dass das
 betreffende Bild nur der Dekoration dient und sein Inhalt unbedeutend istDer
 Screenreader ignoriert das Bild dann komplett, er tut so, als ob es überhaupt
 nicht da wäre.
 
-Das leere `alt`-Attribut ist also sehr wichtigEs stellt sicher, dass der
+Das leere ``alt``-Attribut ist also sehr wichtigEs stellt sicher, dass der
 Besucher mit Screenreader nicht durch das dauernde Vorlesen von
 bedeutungslosen Dateinamen an der Nutzung der Seite gehindert wird.
 
@@ -44,18 +44,18 @@ Font Icons oder SVGs für Layoutzwecke verwendet werden.
 
 === 2Prüfung
 
-==== 2.1 Leere `alt`-Attribute für Layoutgrafiken
+==== 2.1 Leere ``alt``-Attribute für Layoutgrafiken
 
 Die Seite im Firefox laden.
 In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufenAlternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
-Prüfen, ob Layoutgrafiken und dekorative Grafiken leere `alt`-Attribute
-enthaltenFalls bei solchen Grafiken `title`-Attribute vergeben sind, müssen
+Prüfen, ob Layoutgrafiken und dekorative Grafiken leere ``alt``-Attribute
+enthaltenFalls bei solchen Grafiken ``title``-Attribute vergeben sind, müssen
 auch diese leer sein.
-[#F38]Zu bemängeln sind komplett fehlende `alt`-Attribute (werden durch die Toolbar-Funktion mit "NoAlt!" gekennzeichnet) und auch Bezeichnungen wie "Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
+[#F38]Zu bemängeln sind komplett fehlende ``alt``-Attribute (werden durch die Toolbar-Funktion mit "NoAlt!" gekennzeichnet) und auch Bezeichnungen wie "Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
 
 ==== 2.2 Dekorative Icon Fonts:
 
-Beim Einsatz von Icon Fonts ist es nicht möglich das leere `alt`-Attribut
+Beim Einsatz von Icon Fonts ist es nicht möglich das leere ``alt``-Attribut
 einzusetzen.
 
 Ein dekoratives Icon wird von assistiven Technologien ignoriert, wenn es mit einem geeigneten Verfahren vor diesen versteckt wird (z.B`aria-hidde="true"`)
@@ -82,15 +82,15 @@ Prüfen, ob die Grafik mit `aira-hidden="true"` versteckt wird.
 Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt
 sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt
 des zusammengesetzten Bildes informiertDie anderen Teilbilder sollten dann mit
-leeren `alt`-Attributen versehen sein.
+leeren ``alt``-Attributen versehen sein.
 
 === 4Bewertung
 
 ==== Nicht voll erfüllt:
 
-* Layoutgrafiken haben kein `alt`-Attribut
+* Layoutgrafiken haben kein ``alt``-Attribut
 * Layoutgrafiken sind mit Alternativtexten wie "Platzhalter" oder "leer" versehen.
-* Layoutgrafiken haben `title`-Attribute, die nicht leer sind.
+* Layoutgrafiken haben ``title``-Attribute, die nicht leer sind.
 
 == Einordnung des Prüfschritts
 
@@ -116,12 +116,12 @@ leeren `alt`-Attributen versehen sein.
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[F38: Failure of Success Criterion 1.1.1 due to omitting the `alt`-attribute for non-text content used for decorative purposes only in HTML]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[F38: Failure of Success Criterion 1.1.1 due to omitting the ``alt``-attribute for non-text content used for decorative purposes only in HTML]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null(e.g`alt='spacer'` or `alt='image'`) for images that should be ignored by assistive technology]
 
 == Quellen
 
-Die WCAG 2.0-Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67] sieht zusätzlich vor, dass bei Layout-Grafiken auch kein `title`-Attribut vorhanden sein soll oder dass das `title`-Attribut leer ist:
+Die WCAG 2.0-Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67] sieht zusätzlich vor, dass bei Layout-Grafiken auch kein ``title``-Attribut vorhanden sein soll oder dass das ``title``-Attribut leer ist:
 
 ____
 For each image that should be ignored:
@@ -135,9 +135,9 @@ Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67: Using null a
 
 == Fragen zu diesem Prüfschritt
 
-=== Auf der Seite sind auch Grafiken, die ganz klar informativen Charakter haben, mit leeren `alt`-Attributen versehenVermutlich wird automatisch ein leeres `alt`-Attribut erzeugt, wenn zu einem Bild kein entsprechender Text eingegeben worden istZu welchem Prüfschritt gehört das?
+=== Auf der Seite sind auch Grafiken, die ganz klar informativen Charakter haben, mit leeren ``alt``-Attributen versehenVermutlich wird automatisch ein leeres ``alt``-Attribut erzeugt, wenn zu einem Bild kein entsprechender Text eingegeben worden istZu welchem Prüfschritt gehört das?
 
-So ist das leere `alt`-Attribut für dekorative Grafiken ganz sicher nicht gedachtDas *leere* `alt`-Attribut ist ja nicht dasselbe wie ein *fehlendes* `alt`-AttributEs soll dem Besucher sagen, dass die Grafik keinen wichtigen Inhalt enthält und nur der Dekoration dientDer Besucher weiß dann, dass er nichts versäumt, wenn er die Grafik nicht siehtDie automatische Vergabe leerer Alternativtexte für informative Grafiken ist ein Missbrauch des leeren `alt`-AttributsSie sorgt dafür, dass man sich auf dieses Kennzeichen nicht mehr verlassen kann.
+So ist das leere ``alt``-Attribut für dekorative Grafiken ganz sicher nicht gedachtDas *leere* ``alt``-Attribut ist ja nicht dasselbe wie ein *fehlendes* ``alt``-AttributEs soll dem Besucher sagen, dass die Grafik keinen wichtigen Inhalt enthält und nur der Dekoration dientDer Besucher weiß dann, dass er nichts versäumt, wenn er die Grafik nicht siehtDie automatische Vergabe leerer Alternativtexte für informative Grafiken ist ein Missbrauch des leeren ``alt``-AttributsSie sorgt dafür, dass man sich auf dieses Kennzeichen nicht mehr verlassen kann.
 
 Dies wird nur in Prüfschritt link:/index.php?a=di&iid=65&s=n[1.1.1b] bewertet.
 
@@ -151,11 +151,11 @@ Stellen Abstandhalter sind, auch nicht entnehmen.
 
 Solche Alternativtexte haben also keinen NutzenAuf der anderen Seite kann es sehr störend sein, wenn der Screenreader dauernd "Abstandhalter Abstandhalter Abstandhalter ..." vorliest.
 
-=== Warum müssen Layoutgrafiken mit leeren `alt`-Attributen versehen werdenSie werden ohnehin nicht gebraucht, warum also nicht einfach das `alt`-Attribut ganz weglassen?
+=== Warum müssen Layoutgrafiken mit leeren ``alt``-Attributen versehen werdenSie werden ohnehin nicht gebraucht, warum also nicht einfach das ``alt``-Attribut ganz weglassen?
 
 Leider ist es noch nicht selbstverständlich, dass informative Grafiken mit
 Alternativtexten versehen sindWenn eine Webseite Grafiken ohne Alternativtext
 enthält, kann der blinde Besucher also nicht davon ausgehen, dass diese
 Grafiken nur dem Layout dienen und für ihn nicht relevant sindDaher die
 Festlegung, dass der Webdesigner Grafiken durch Zuordnung eines leeren
-`alt`-Attributs ausdrücklich als Layoutgrafiken kennzeichnen soll.
+``alt``-Attributs ausdrücklich als Layoutgrafiken kennzeichnen soll.

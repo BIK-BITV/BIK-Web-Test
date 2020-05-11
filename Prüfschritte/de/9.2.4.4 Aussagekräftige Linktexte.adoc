@@ -53,7 +53,7 @@ Kontext eine Auskunft über Ziel oder Zweck des Links geben.
 Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z.B"mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 * durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert
 * durch zusätzlichen, über CSS versteckten Linktext (hierfür in der Web Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die betroffenen Links erneut prüfen)
-* durch den Alternativtext einer mit im selben `a`-Element verlinkten Grafik (hierfür die Option _Images > Display Alt Attributes_ wählen)
+* durch den Alternativtext einer mit im selben ``a``-Element verlinkten Grafik (hierfür die Option _Images > Display Alt Attributes_ wählen)
 * durch den Text im umschließenden Element (`p`, `li`)
 * bei Links in untergeordneten Listen durch den Text des übergeordneten `li`-Elements
 * durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen (`td`, `th`)
@@ -74,10 +74,10 @@ Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wi
 === 3Hinweise
 
 * Bei verlinkten Grafiken ist der Linktext der Wert des alt-Attriubuts des `img`-Elements
-* Der Linktext kann auch aus dem `alt`-Text einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Der Linktext kann auch aus dem ``alt``-Text einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
 * Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten `li`-Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
 * Zusätzlicher, per CSS unsichtbar gemachter Linktext darf nicht via `display:none` versteckt werden: er wird sonst von Screenreadern ignoriert.
-* Das `title`-Attribut eines Links wird in manchen Fällen nicht von Screenreadern ausgewertetEs ist gemäß Spezifikation für zusätzliche Informationen gedacht.
+* Das ``title``-Attribut eines Links wird in manchen Fällen nicht von Screenreadern ausgewertetEs ist gemäß Spezifikation für zusätzliche Informationen gedacht.
 
 === 4Bewertung
 
@@ -88,14 +88,14 @@ Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wi
 
 ==== Nicht voll erfüllt:
 
-* Ziel oder Zweck des Links gehen _nur_ aus dem `title`-Attribut des Links hervor.
+* Ziel oder Zweck des Links gehen _nur_ aus dem ``title``-Attribut des Links hervor.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei verlinkten Grafiken ist der Linktext der `alt`-Text des `img`-ElementsDie
-Aussagekraft des `alt`-Textes wird jedoch geprüft in:
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des `img`-ElementsDie
+Aussagekraft des ``alt``-Textes wird jedoch geprüft in:
 
 * Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente"
 
@@ -198,7 +198,7 @@ ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[Link Purpose (In Context): Understanding SC 2.4.4]
 
-=== Grenzen des `title`-Attributs (Technik H33: Supplementing link text with the title attribute)
+=== Grenzen des ``title``-Attributs (Technik H33: Supplementing link text with the title attribute)
 
 ____
 The `title` attribute is used to provide additional information to help

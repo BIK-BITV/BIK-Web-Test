@@ -13,7 +13,7 @@ sollten drei Anforderungen erfüllen:
 * Der Inhalt schließt nicht selbsttätig nach einer gewissen Zeitspanne.
 
 Hinweis: Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten
-durch den Nutzer-Agenten bestimmt wird (etwa native `title`-Attribute).
+durch den Nutzer-Agenten bestimmt wird (etwa native ``title``-Attribute).
 
 == Warum wird das geprüft?
 

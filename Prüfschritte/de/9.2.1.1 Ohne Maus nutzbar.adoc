@@ -57,7 +57,7 @@ der betreffenden Seiten mehrere Schritte erforderlich sind.
 Für diesen Prüfschritt spielt die Reihenfolge, in der Links und
 Formularelemente angesteuert werden, keine Rolle.
 
-Manche Elemente lassen sich ggfbei eingeschaltetem Screenreader NVDA nicht aktivieren (oder nur bei zusätzlichem Drücken der `ALT`-Taste)Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und wird in Prüfschritt 4.1.2a "Name, Rolle, Wert verfügbar" bewertet.
+Manche Elemente lassen sich ggfbei eingeschaltetem Screenreader NVDA nicht aktivieren (oder nur bei zusätzlichem Drücken der ``alt``-Taste)Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und wird in Prüfschritt 4.1.2a "Name, Rolle, Wert verfügbar" bewertet.
 
 ==== [#SCR27]3.2 Hinweis zu Drag-and-Drop-Funktionen
 

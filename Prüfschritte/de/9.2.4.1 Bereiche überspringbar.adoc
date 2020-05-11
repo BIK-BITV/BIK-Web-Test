@@ -14,7 +14,7 @@ Voraussetzungen soll erfüllt sein:
 * HTML5 Elemente zur Auszeichnung von Bereichen (`header, nav, main, aside, footer`) erschließen den Seitenaufbau sinnvoll.
 * WAI-ARIA _document landmarks_ strukturieren die Seitenbereiche sinnvoll.
 
-Frames und Iframes brauchen ein sinnvolles `title`-Attribut.
+Frames und Iframes brauchen ein sinnvolles ``title``-Attribut.
 
 == Warum wird das geprüft?
 
@@ -26,9 +26,9 @@ zugreifen, die ihn interessieren.
 Benutzer, die diese visuelle Ordnung nicht nutzen können – zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können – sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar istDie Verwendung von (oft unsichtbaren) Bereichsüberschriften, Sprunglinks oder HTML5 Elementen zur Auszeichnung von Regionen ist dafür eine wesentliche Voraussetzung.
 
 Bei Frames ist eine sinnvoller Titel wichtig für die Orientierung mit
-ScreenreadernGängige Screenreader werten das `title`- und das in der
+ScreenreadernGängige Screenreader werten das ``title``- und das in der
 Programmierung gebräuchliche `name`-Attribut ausDabei wird das
-`title`-Attribut vorrangig ausgegebenSie sprechen beim Umschalten zwischen den
+``title``-Attribut vorrangig ausgegebenSie sprechen beim Umschalten zwischen den
 Frames mit den Tastenkürzeln den Titel des aktiven Frames aus.
 
 Der Einsatz von HTML5 Elementen für Regionen wird inzwischen gut von
@@ -86,7 +86,7 @@ Seite im Firefox aufrufen.
 In derWeb Developer Toolbar die Funktion _Outline > Outline Frames_ aufrufen.
 Dann ebenfalls in derWeb Developer Toolbar die Funktion _Information > Display Element Information_ aufrufenDer Cursor wird nun als Fadenkreuz angezeigt.
 Mit dem Fadenkreuz die Kante der hervorgehobenen Frames anklicken und prüfen,
-ob für alle Frames ein aussagekräftiger `title`-Text vorhanden ist.
+ob für alle Frames ein aussagekräftiger ``title``-Text vorhanden ist.
 
 === 3Hinweise
 
@@ -118,7 +118,7 @@ Die "Sie-sind-hier"-Navigation am Seitenanfang (auch breadcrumb trail oder Krüm
 
 ==== Hinweis zu Frames und Iframes
 
-Im `title`-Attribut soll der Zweck oder Inhalt, nicht aber die Lage des Frames auf dem Bildschirm angeben werden (siehe https://testen.bitv-test.de/index.php?a=di&iid=55&s=n[2.4.2a])Angemessene `title`-Attribute sind zum Beispiel "Navigation" und "Inhalt", nicht jedoch "top" oder "rechts"Oft werden in Framesets auch leere Frames eingebunden, die ausschließlich zu Layoutzwecken verwendet werdenBei solchen Frames sollte als Bezeichnung "Leer" gewählt werden.
+Im ``title``-Attribut soll der Zweck oder Inhalt, nicht aber die Lage des Frames auf dem Bildschirm angeben werden (siehe https://testen.bitv-test.de/index.php?a=di&iid=55&s=n[2.4.2a])Angemessene ``title``-Attribute sind zum Beispiel "Navigation" und "Inhalt", nicht jedoch "top" oder "rechts"Oft werden in Framesets auch leere Frames eingebunden, die ausschließlich zu Layoutzwecken verwendet werdenBei solchen Frames sollte als Bezeichnung "Leer" gewählt werden.
 
 === 4Bewertung
 
