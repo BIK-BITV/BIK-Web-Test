@@ -1,0 +1,78 @@
+= Prüfschritt 5.3 Biometrie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+5.3 "Biometrics" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software biometrische Merkmale für die Nutzeridentifizierung oder
+die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal
+beschränken.
+
+Statt sich z. B. auf den Fingerabdruck zu beschränken, könnte eine
+Software auch zusätzlich Alternativen wie Irismuster, Gesichtserkennung oder
+Sprachmuster für die Nutzeridentifizierung anbieten.
+
+Alternativen zu einer biometrischen Identifizierungsmetode oder -Steuerung
+können auch nicht biometrische Methoden sein:
+
+.Nutzeridentifizierung
+* klassisch über Benutzername und Passwort
+* PIN
+* Identifizierung per TAN
+
+.Steuerung
+* Bedienung per Tastatur
+* Bedienung per Maus
+* Bedienung per Touch-Gesten
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software biometrische Merkmale für
+die Nutzeridentifizierung oder Steuerung nutzt.
+
+=== Prüfung
+
+. App starten
+. prüfen, ob die App eine Identifizierung über biometrische Merkmale
+  benötigt, falls ja, prüfen ob biometrische oder nicht biometrische
+  Alternativen zur Identifizierung angeboten werden
+. Bedienkonzept der wesentlichen Funktionen auf den zu testenden App-Ansichten
+  untersuchen:
++
+  * Wird Biometrie für die Steuerung genutzt?
+  * Werden zur biometrischen Steuerung zusätzlich alternative biometrische
+    oder nicht biometrische Steuerungsmethoden angeboten?
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.3 Biometrics
+
+[.BLOCK_LANG_EN]
+--
+Where ICT uses biological characteristics, it shall not rely on the use of a
+particular biological characteristic as the only means of user identification
+or for control of ICT. 
+
+NOTE 1:
+Alternative means of user identification or for control of ICT could be
+non-biometric or biometric. 
+
+NOTE 2:
+Biometric methods based on dissimilar biological characteristics increase the
+likelihood that individuals with disabilities possess at least one of the
+specified biological characteristics.
+Examples of dissimilar biological characteristics are fingerprints, eye
+retinal patterns, voice, and face.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 5.3 "Biometrics")

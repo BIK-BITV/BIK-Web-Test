@@ -1,0 +1,72 @@
+= Prüfschritt 7.1.3 Erhaltung von Untertiteln
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.1.3 "Preservation of captioning" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videos mit Untertiteln überträgt, konvertiert oder
+aufnimmt, sollen die Untertitel so erhalten bleiben, dass die Prüfschritte
+ifdef::env_embedded[x23 "Wiedergabe von Untertiteln"]
+ifndef::env_embedded[]
+  <<x23 EN_7.1.1 Wiedergabe von Untertiteln.adoc#,x23 Wiedergabe von
+  Untertiteln>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[x24 "Synchrone Untertitel"]
+ifndef::env_embedded[]
+  <<x24 EN_7.1.2 Synchrone Untertitel.adoc#,x24 Synchrone Untertitel>>
+endif::env_embedded[]
+erfüllt werden.
+
+Die Untertitel müssen also während bzw. nach Übertragung, Konvertierung
+oder Aufnahme des Videos abspielbar und synchron zu Video und Audio dargestellt
+werden können.
+Dazu müssen z. B. die Zeitstempel der Untertitel erhalten bleiben.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videos mit Untertiteln
+Übertragen, konvertieren oder aufnehmen kann.
+
+=== Prüfung
+
+Wie dieser Prüfschritt in der Praxis geprüft werden kann, ist noch nicht
+vollständig geklärt.
+Hinweise zu diesem Prüfschritt können Sie auf GitHub {app-issue-url}[in
+einem Issue hinterlassen].
+
+Wenn die Software Videos mit Untertiteln konvertiert oder aufnimmt, sollte das
+Zielvideo in einem konformen Player abgespielt und untersucht werden.
+
+* Sind alle Untertitel ausder Quelle vorhanden?
+* Lassen sich alle Untertitel abspielen?
+* Sind alle Untertitel synchron zu Bild und Ton?
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.1.3 Preservation of captioning
+
+[.BLOCK_LANG_EN]
+--
+Where ICT transmits, converts or records video with synchronized audio, it
+shall preserve caption data such that it can be displayed in a manner
+consistent with clauses 7.1.1 and 7.1.2. 
+
+Additional presentational aspects of the text such as screen position, text
+colours, text style and text fonts may convey meaning, based on regional
+conventions.
+Altering these presentational aspects could change the meaning and should be
+avoided wherever possible.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.1.3 "Preservation of captioning")

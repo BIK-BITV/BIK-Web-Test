@@ -1,0 +1,63 @@
+= Prüfschritt 6.2.1.1 Textkommunikation in Echtzeit
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.1.1 "RTT communication" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls
+Textkommunikation in Echtzeit zur Verfügung stellen.
+
+Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
+wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die zu testende Software
+Zwei-Wege-Kommunikation ermöglicht.
+Dies umfasst z. B. Sprach- und Videotelefonie.
+
+=== Prüfung
+
+. App starten
+. prüfen, ob die App Zwei-Wege-Kommunikation ermöglicht, z. B. Sprach- und /
+  oder Videotelefonie
+. wenn eine Funktion zur Zwei-Wege-Kommunikation geboten wird, prüfen ob
+  Textkommunikation in Echtzeit unterstützt wird
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.1.1 RTT communication
+
+[.BLOCK_LANG_EN]
+--
+Where ICT is in a mode that provides a means for two-way voice communication,
+the ICT shall provide a means for two-way RTT communication, except where this
+would require design changes to add input or output hardware to the ICT. 
+
+NOTE 1:
+This requirement includes those products which do not have physical display or
+text entry capabilities but have the capability to connect to devices that do
+have such capabilities.
+It also includes intermediate ICT between the endpoints of the communication. 
+
+NOTE 2:
+There is no requirement to add: a hardware display, a hardware keyboard, or
+hardware to support the ability to connect to a display or keyboard, wired or
+wirelessly, if this hardware would not normally be provided. 
+
+NOTE 3:
+For the purposes of interoperability, support of Recommendation ITU-T T.140
+[i.36] is widely used.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.1 "RTT communication")

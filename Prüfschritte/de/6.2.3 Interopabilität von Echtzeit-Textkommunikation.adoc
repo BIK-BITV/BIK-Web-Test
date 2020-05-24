@@ -1,0 +1,129 @@
+= Prüfschritt 6.2.3 Interopabilität von Echtzeit-Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.3 "Interoperability" verwiesen.
+
+== Was wird geprüft?
+
+Software, die Textkommunikation in Echtzeit unterstützt und mit anderer
+Software mit Echtzeit-Textkommunikation-Funktionalität zusammenarbeitet, soll
+implementationsspezifische Methoden zur Interopabilität von
+Echtzeit-Textkommunikationunterstützen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Textkommunikation in
+Echtzeit unterstützt und mit anderer Software mit dieser Unterstützung
+zusammenarbeitet.
+
+Wenn also z. B. App A mit App B Sprachtelefonie unterstützt, muss auch die
+Unterstützung von Textkommunikation in Echtzeit gegeben sein, sodass beide
+Apps auch mit Echtzeit-Text kommunizieren können.
+Voraussetzung ist dabei, dass beide Apps Textkommunikation in Echtzeit
+generell unterstützen.
+
+=== Prüfung
+
+Es muss zuallererst ermittelt werden ob die App generell mit anderen Apps eine
+Kommunikation (z. B. Sprach- oder Videotelefonie) ermöglicht.
+Diese anderen Apps müssen dabei ebenfalls Echtzeit-Textkommunikation
+unterstützen.
+
+Ist dies der Fall, muss getestet werden, ob eine Echtzeit-Textkommunikation
+mit den verschiedenen Apps etabliert werden kann.
+
+Funktioniert die Inter-App-Kommunikation mittels Echtzeit-Text, ist dies ein
+Indiz für eine gute Interopabilität.
+Dennoch müssen weitere Hinweise beachtet werden, um den Grad der
+Interopabilität koreekt zu beurteilen.
+
+Um die verwendeten Standards und Protokolle im Folgenden in Erfahrung zu
+bringen muss die technische Dokumentation oder der Software-Hersteller befragt
+werden.
+
+Je nach Kommunikationsmethode, müssen die korrespondierenden Standards für
+die Echtzeit-Textkommunikation unterstützt werden.
+Dabei ist die aktuelle Entwicklung der Standards zu berücksichtigen, ggf.
+sind neuere Standards für die Kommunikationsmethode mittlerweile gängig.
+
+* Die App kommuniziert über das öffentliche Telefonnetz:
++
+  Die Empfehlungen ITU-T V.18 [i.23] oder dessen Text-Telefonie-Standards in
+  den Anhängen werden für die Echtzeit-Textkommunikation verwendet.
+
+* Voice over IP (VoIP) über das Session Initiation Protocol (SIP):
++
+  Empfehlungen der IETF zu Echtzeit-Textkommunikation RFC 4103 [i.13] werden
+  verwendet.
+
+* Voice over IP (VoIP) über das IP Multimedia Sub-System (IMS):
++
+  Hier sind die Protocole ETSI TS 126 114
+  [i.10], ETSI TS 122 173 [i.11] und ETSI TS 134 229 [i.12] relevant.
+
+* Wenn andere Kommunikationsmethoden verwendet werden:
++
+  Gemeinsame, relevante und veröffentlichte Standards werden unterstützt.
+  Dabei unterstützt der gemeinsame Standard die Signalisierung von verlorenen
+  und fehlerhaft übertragenen Zeichen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.3 Interoperability
+
+[.BLOCK_LANG_EN]
+--
+Where ICT with RTT functionality interoperates with other ICT with RTT
+functionality (as required by clause 6.2.1.1) they shall support the
+applicable RTT interoperability mechanisms described below:
+
+* (a) ICT interoperating with other ICT directly connected to the Public
+  Switched Telephone Network (PSTN), using Recommendation ITU-T V.18 [i.23] or
+  any of its annexes for text telephony signals at the PSTN interface;
+* (b) ICT interoperating with other ICT using VOIP with Session Initiation
+  Protocol (SIP) and using RTT that conforms to IETF RFC 4103 [i.13].
+  For ICT interoperating with other ICT using the IP Multimedia Sub-System
+  (IMS) to implement VOIP, the set of protocols specified in ETSI TS 126 114
+  [i.10], ETSI TS 122 173 [i.11] and ETSI TS 134 229 [i.12] describe how IETF
+  RFC 4103 [i.13] would apply;
+* (c) ICT interoperating with other ICT using technologies other than a or b,
+  above, using a relevant and applicable common specification for RTT exchange
+  that is published and available for the environments in which they will be
+  operating.
+  This common specification shall include a method for indicating loss or
+  corruption of characters. 
+* (d) ICT interoperating with other ICT using a standard for RTT that has been
+  introduced for use in any of the above environments, and is supported by all
+  of the other active ICT that support voice and RTT in that environment. 
+
+NOTE 1:
+In practice, new standards are introduced as an alternative codec/protocol
+that is supported alongside the existing common standard and used when
+all end-to-end components support it while technology development, combined
+with other reasons including societal development and cost efficiency, may
+make others become obsolete. 
+
+NOTE 2:
+Where multiple technologies are used to provide voice communication, multiple
+interoperability mechanisms may be needed to ensure that all users are able to
+use RTT. 
+
+EXAMPLE:
+A conferencing system that supports voice communication through an internet
+connection might provide RTT over an internet connection using a proprietary
+RTT method (option c). However, regardless of whether the RTT method is
+proprietary or non-proprietary, if the conferencing system also offers
+telephony communication it will also need to support options a or b to ensure
+that RTT is supported over the telephony connection.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.3 "Interoperability")

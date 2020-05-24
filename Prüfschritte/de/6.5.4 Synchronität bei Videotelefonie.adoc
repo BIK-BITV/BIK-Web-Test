@@ -1,0 +1,69 @@
+= Prüfschritt 6.5.4 Synchronität bei Videotelefonie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.5.4 "Synchronization between audio and video" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videotelefonie unterstützt, soll die Zeitdifferenz zwischen
+Audio und Video nicht mehr als 100 Millisekunden betragen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl.
+Sprachübertragung unterstützt.
+
+=== Prüfung
+
+Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der
+Zeitdifferenz, können Sie auf GitHub {app-issue-url}[ein Issue] zu diesem
+Prüfschritt eröffnen.
+
+Die Zeitdifferenz zwischen Audio und Video bei einer
+Videotelefonieübertragung soll nicht mehr als 100 Millisekunden betragen,
+deutlich wahrnehmbare Differenzen sind also zu vermeiden.
+
+Die Synchronität kann mit einem Testvideoanruf geprüft werden.
+Dafür muss die App ggf. auf zwei Testgeräten installiert werden.
+
+. App auf zwei Geräten starten
+. Videotelefonieverbindung zwischen den Geräten herstellen
+. Synchronität zwischen Sprache und Video prüfen (Lippensynchronität), ist
+  eine Zeitdifferenz deutlich wahrnehmbar?
+
+Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt
+werden.
+
+==== Hinweise
+
+Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das
+Video dem Audio hinterherhängt als andersherum.
+Diese Tatsache sollte bei der Bewertung entsprechend berücksichtigt und
+angemerkt werden.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.5.4 Synchronization between audio and video
+
+[.BLOCK_LANG_EN]
+--
+Where ICT that provides two-way voice communication includes real-time video
+functionality, the ICT shall ensure a maximum time difference of 100 ms
+between the speech and video presented to the user. 
+
+NOTE:
+Recent research shows that, if audio leads the video, the intelligibility
+suffers much more than the reverse.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.5.4 "Synchronization between audio and
+video")

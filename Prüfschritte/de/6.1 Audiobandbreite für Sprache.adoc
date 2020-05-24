@@ -1,0 +1,69 @@
+= Prüfschritt 6.1 Audiobandbreite für Sprache
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.1 "Audio bandwidth for speech" verwiesen.
+
+== Was wird geprüft?
+
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu
+garantieren, soll die Software beim Kodieren
+und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze
+mindestens bis 7.000 Hz reicht.
+
+Damit die Software diesen Prüfschritt besteht, muss sie mindestens
+HD-Telefonie / Telefonie in ISDN-Qualität bieten.
+Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software eine
+Zwei-Wege-Sprachkommunikation anbietet.
+
+=== Prüfung
+
+Bei diesem Prüfschritt sollte die Sprachqualität in einem Praxistest
+beurteilt werden.
+Die Sprachqualität muss mindestens der Qualität heutiger
+Festnetztelefonie entsprechen.
+
+Bei diesem Hörtest muss unbedingt sichergestellt werden, dass die
+Internetverbindung an beiden Enden nicht beeinträchtigt ist.
+Ggf. wird der Test dazu wiederholt. 
+
+Führt der Hörtest zu keinem klaren Ergebnis, sollte die Dokumentation der
+Software konsultiert werden, hier sollte der verwendete Codec zu finden sein,
+ggf.  wird beim Hersteller danach gefragt.
+Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich
+in Erfahrung zu bringen.
+Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.1 Audio bandwidth for speech
+
+[.BLOCK_LANG_EN]
+--
+Where ICT provides two-way voice communication, in order to provide good audio
+quality, that ICT shall be able to encode and decode two-way voice
+communication with a frequency range with an upper limit of at least 7 000 Hz. 
+
+NOTE 1:
+For the purposes of interoperability, support of Recommendation ITU-T G.722
+[i.21] is widely used.
+
+NOTE 2:
+Where codec negotiation is implemented, other standardized codecs such as
+Recommendation ITU-T G.722.2 [i.22] are sometimes used so as to avoid
+transcoding.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.1 "Audio bandwidth for speech")

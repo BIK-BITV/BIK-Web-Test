@@ -1,0 +1,79 @@
+= Prüfschritt 7.1.1 Wiedergabe von Untertiteln
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.1.1 "Captioning playback" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videos mit Audio-Inhalten abspielen kann, sollen verfügbare
+Untertitel in den Quell-Video-Dateien synchron zum Video abgespielt werden
+können.
+Für diese Anforderung kann die Software einen separaten Modus bereitstellen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audio-Inhalten
+abspielen kann.
+
+=== Prüfung
+
+Wenn die Software die Wiedergabe von externen bzw. eigenen Videos erlaubt,
+müssen die Untertitel von Videos mit eingebetteten Untertiteln (closed
+captions) synchron zum Video angezeigt werden können.
+
+Wenn die Software die Wiedergabe von externen bzw. eigenen Videos *nicht*
+zulässt sondern nur mitgelieferte Videos abspielt, muss die Software
+Untertitel anzeigen können, wenn diese mitgelieferten Videos mindestens
+teilweise eingebettete Untertitel (closed captions) enthalten.
+Wie dies jedoch sinnvoll geprüft werden kann, ist derzeit unklar.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+{app-issue-url}[ein Issue eröffnen].
+
+==== Prüfung mit externen Videos
+
+Wenn die Software externe bzw. eigene Videos abspielen kann, kann ein eigenes
+Video mit eingebetteten Untertiteln (closed captions) für die Prüfung in der
+Software abgespielt werden.
+
+Die Software muss in diesem Fall die Möglichkeit bieten, die eingebetteten
+Untertitel synchron zum Video abzuspielen.
+
+==== Hinweise
+
+Wird eine Braillezeile angeschlossen, sollte die Software eine Funktion zur
+Verfügung stellen, um die eingebetteten Untertitel auf dieser anzuzeigen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.1.1 Captioning playback
+
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio, it shall have a mode of
+operation to display the available captions.
+Where closed captions are provided as part of the content, the ICT shall allow
+the user to choose to display the captions.
+
+NOTE 1:
+Captions may contain information about timing, colour and positioning.
+This caption data is necessary for caption users.
+Timing is used for caption synchronization.
+Colour can be used for speaker identification.
+Position can be used to avoid obscuring important information.
+
+NOTE 2:
+If a Braille device is connected, the ICT should provide an option to display
+captions on the Braille device.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.1.1 "Captioning playback")

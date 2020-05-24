@@ -1,0 +1,88 @@
+= Prüfschritt 6.2.4 Reaktionsgeschwindigkeit der Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.4 "RTT responsiveness" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Echtzeit-Textkommunikation unterstützt und entsprechende
+Nutzereingaben entgegennimmt, soll die kleinste Texteinheit
+(einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt
+werden.
+
+== Was wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Eingaben für
+Echtzeit-Textkommunikation verwendet.
+Das ist bspw. der Fall, wenn es sich um eine App zur Kommunikation handelt, die
+Echtzeit-Textkommunikation unterstützt und im Userinterface eine entsprechende
+Eingabemöglichkeit für den Nutzer bereithält.
+
+=== Prüfung
+
+Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in
+der Praxis.
+Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
+von der App abgeschickt werden.
+Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
+können Sie auf GitHub {app-issue-url}[ein Issue eröffnen].
+
+Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation
+zwischen zwei Geräten hergestellt wird.
+
+Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu
+instantan nach der Eingabe auf dem zweiten Gerät erscheinen.
+
+Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern.
+Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt
+und abgezogen werden.
+Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant.
+Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
+
+==== Hinweise
+
+Es sollte eine maximale Verzögerung von300 Millisekunden für das Abschicken
+der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss
+verbessert.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.4 RTT responsiveness
+
+[.BLOCK_LANG_EN]
+--
+Where ICT utilises RTT input, that RTT input shall be transmitted to the ICT
+network or platform on which the ICT runs within 500 ms of the time that the
+smallest reliably composed unit of text entry is available to the ICT for
+transmission.
+Delays due to platform or network performance shall not be included in the
+500 ms limit. 
+
+NOTE 1:
+For character by character input, the "smallest reliably composed unit of text
+entry" would be a character.
+For word prediction it would be a word.
+For some voice recognition systems - the text may not exit the recognition
+software until an entire word (or phrase) has been spoken.
+In this case, the smallest reliably composed unit of text entry available to
+the ICT would be the word (or phrase). 
+
+NOTE 2:
+The 500 ms limit allows buffering of characters for this period before
+transmission so character by character transmission is not required unless the
+characters are generated more slowly than 1 per 500 ms. 
+
+NOTE 3:
+A delay of 300 ms, or less, produces a better impression of flow to the user.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.4 "RTT responsiveness")

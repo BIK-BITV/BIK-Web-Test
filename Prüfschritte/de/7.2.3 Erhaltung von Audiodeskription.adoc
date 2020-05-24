@@ -1,0 +1,76 @@
+= Prüfschritt 7.2.3 Erhaltung von Audiodeskription
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.2.3 "Preservation of audio description" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videos mit Audiodeskription überträgt, konvertiert oder
+aufnimmt, sollen die Audiodeskriptionen während oder nach dem Vorgang erhalten
+bleiben.
+
+In einem konformen Player sollen dabei in Zusammenhang mit dem Zielvideo die
+Prüfschritte
+ifdef::env_embedded[x26 "Wiedergabe von Audiodeskription"]
+ifndef::env_embedded[]
+  <<x26 EN_7.2.1 Wiedergabe von Audiodeskription.adoc#,x26 Wiedergabe von
+  Audiodeskription>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[x27 "Synchrone Audiodeskription"]
+ifndef::env_embedded[]
+  <<x27 EN_7.2.2 Synchrone Audiodeskription.adoc#,x27 Synchrone
+  Audiodeskription>>
+endif::env_embedded[]
+erfüllt werden.
+
+Die Audiodeskription im Zielvideo soll also abspielbar und synchron zum Video
+laufen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audiodeskription
+übertragen, konvertieren oder aufnehmen kann.
+
+=== Prüfung
+
+Dieser Prüfschritt benötigt noch einige Hinweise für die Prüfpraxis, dazu
+kann auf GitHub {app-issue-url}[ein Issue hinterlassen] werden.
+
+Für die Prüfung ist ggf. ein Player notwendig, der mit den Prüfschritten
+ifdef::env_embedded[x26 "Wiedergabe von Audiodeskription"]
+ifndef::env_embedded[]
+  <<x26 EN_7.2.1 Wiedergabe von Audiodeskription.adoc#,x26 Wiedergabe von
+  Audiodeskription>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[x27 "Synchrone Audiodeskription"]
+ifndef::env_embedded[]
+  <<x27 EN_7.2.2 Synchrone Audiodeskription.adoc#,x27 Synchrone
+  Audiodeskription>>
+endif::env_embedded[]
+konform ist.
+
+Nach Konvertierung oder Aufnahme eines Videos mit Audiodeskription, muss das
+Zielvideo in einem konformen Player abspielbar sein, die Audiodeskription muss
+synchron zum Bild abgespielt werden.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.2.3 Preservation of audio description
+
+[.BLOCK_LANG_EN]
+Where ICT transmits, converts, or records video with synchronized audio, it
+shall preserve audio description data such that it can be played in a manner
+consistent with clauses 7.2.1 and 7.2.2.
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.2.3 "Preservation of audio description")

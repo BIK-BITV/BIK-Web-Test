@@ -1,0 +1,72 @@
+= Prüfschritt 7.2.1 Wiedergabe von Audiodeskription
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.2.1 "Audio description playback" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videos mit Audio abspielen kann, sollen dabei enthaltene
+Audiodeskriptionen abspielbar sein.
+
+Wenn die Software die auswahl von Tonspuren erlaubt, ist dieser Prüfschritt
+ebenfalls erfüllt.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audio abspielen
+kann.
+
+=== Prüfung
+
+==== Prüfung mit externem Beispiel-Video
+
+Wenn die Software externe Videos abspielen kann, kann der Prüfschritt mit
+einer Beispiel-Video-Datei mit Audiodeskription getestet werden.
+Diese Beispieldatei wird dann in der App geöffnet.
+Um den Prüfschritt zu erfüllen, muss die Software dann eine Funktion zum
+Abspielen der Audiodeskription anbieten.
+Alternativ muss die Möglichkeit bestehen, andere, im Video enthaltene,
+Tonspuren auszuwählen.
+
+==== Prüfung anhand mitgelieferter Videos
+
+Unterstützt die Software nur die Wiedergabe mitgelieferter Videos, wird
+stichprobenartig geprüft, ob sich darunter Videos mit Audiodeskription
+befinden.
+Die Software muss dann eine Möglichkeit bieten, die Videos mit
+Audiodeskription abzuspielen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.2.1 Audio description playback
+
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio, it shall provide a mechanism
+to select and play available audio description to the default audio channel. 
+
+Where video technologies do not have explicit and separate mechanisms for
+audio description, an ICT is deemed to satisfy this requirement if the ICT
+enables the user to select and play several audio tracks. 
+
+NOTE 1:
+In such cases, the video content can include the audio description as one of
+the available audio tracks. 
+
+NOTE 2:
+Audio descriptions in digital media sometimes include information to allow
+descriptions that are longer than the gaps between dialogue.
+Support in digital media players for this "extended audio description" feature
+is useful, especially for digital media that is viewed personally.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.2.1 "Audio description playback")

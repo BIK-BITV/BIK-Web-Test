@@ -1,0 +1,68 @@
+= Prüfschritt 12.2.2 Technischer Support
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+12.2.2 "Information on accessibility and compatibility features" verwiesen.
+
+== Was wird geprüft?
+
+Der technische Support (über Telefon, Mail, ...) soll Informationen zur
+Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
+können, die die Software betrifft.
+Dies soll mindestens die Informationen umfassen, die dazu in der
+Software-Dokumentation erwähnt werden (siehe auch Prüfschritt
+ifdef::env_embedded[x34 "Dokumentation von Kompatibilität und Barrierefreiheit"]
+ifndef::env_embedded[]
+  <<x34 EN_12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
+  x34 Dokumentation von Kompatibilität und Barrierefreiheit>>
+endif::env_embedded[]
+
+).
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== Prüfung
+
+Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
+vollständig geklärt.
+Hinweise dazu können Sie in einem GitHub {app-issue-url}[Issue hinterlassen].
+
+Zielführend könnte es bspw. sein, anhand der Informationen aus der
+Software-Dokumentation, den technischen Support zu kontaktieren und einige
+Fragen zur Barrierefreiheit stichprobenartig zu stellen.
+
+Falls möglich, können auch die Dokumente, die dem technischem Support zur
+Verfügung stehen, stichprobenartig geprüft werden.
+
+Verbreitet sollten jedoch Assistenzsysteme sein, die den Support-Mitarbeiter
+durch die Problemlösung führt.
+Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine Prüfung
+bekommen würde.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 12.2.2 Information on accessibility and compatibility features
+
+[.BLOCK_LANG_EN]
+--
+ICT support services shall provide information on the accessibility and
+compatibility features that are mentioned in the product documentation. 
+
+NOTE:
+Accessibility and compatibility features include accessibility features that
+are built-in and accessibility features that provide compatibility with
+assistive technology.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 12.2.2 "Information on accessibility and
+compatibility features")

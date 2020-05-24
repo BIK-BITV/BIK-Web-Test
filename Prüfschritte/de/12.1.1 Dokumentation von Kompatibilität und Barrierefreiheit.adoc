@@ -1,0 +1,78 @@
+= Prüfschritt 12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+12.1.1 "Accessibility and compatibility features" verwiesen.
+
+== Was wird geprüft?
+
+Die Dokumentation der Software soll die Eigenschaften und Funktionen in  Bezug
+auf Barrierefreiheit auflisten undessen Nutzung erklären.
+Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
+mit Barrierefreiheit und Kompatibilität beschäftigt, in die App integriert
+ist.
+Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
+kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden.
+Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
+werden.
+
+=== Prüfung
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+{app-issue-url}[dazu ein Issue eröffnen].
+
+Alle für die Barrierefreiheit relevanten Informationen zur Software sollen
+in der Dokumentation aufgelistet und erklärt werden.
+Die Dokumentation kann dabei mit der Software mitgeliefert werden oder separat
+verfügbar sein.
+
+Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
+
+* Features für die Barrierefreiheit
+* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Informationen zur Kompatibilität mit assistiven Technologien
+* Einschränkungen der Barrierefreiheit
+* Auflistung von Barrieren
+
+Die Software soll, wenn möglich, Metadaten für die unterstützten
+Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
+Formaten, bereitstellen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 12.1.1 Accessibility and compatibility features
+
+[.BLOCK_LANG_EN]
+--
+Product documentation provided with the ICT whether provided separately or
+integrated within the ICT shall list and explain how to use the accessibility
+and compatibility features of the ICT. 
+
+NOTE 1:
+Accessibility and compatibility features include accessibility features that
+are built-in and accessibility features that provide compatibility with
+assistive technology. 
+
+NOTE 2:
+It is best practice to use WebSchemas/Accessibility 2.0 [i.38] to provide meta
+data on the accessibility of the ICT.
+
+NOTE 3:
+The accessibility statement and help pages are both examples of the provision
+of product information.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 12.1.1 "Accessibility and compatibility
+features")

@@ -1,0 +1,63 @@
+= Prüfschritt 6.2.2.1 Visuell unterscheidbare Anzeige von Textnachrichten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.2.1 "Visually distinguishable display" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Echtzeit Textkommunikation senden und empfangen kann,
+soll die Anzeige von empfangenen und gesendeten Nachrichten visuell
+unterscheidbar sein und somit voneinander separiert werden.
+
+Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Echtzeit Textkommunikation
+senden und empfangen kann.
+
+=== Prüfung
+
+. App starten
+. prüfen, ob die App das Senden und Empfangen von Echtzeit Textkommunikation
+  anbietet
+. prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich
+  voneinander unterscheidbar sind und separat angezeigt werden
+
+==== Hinweise
+
+Wenn die Software verschiedene Optionen für die Anzeige der Nachrichten
+anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht
+schlecht bewertet werden.
+Voraussetztung dafür ist jedoch, dass die konforme Ansicht voreingestellt ist.
+
+Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
+der Nutzer erfüllen.
+Beispielsweise kann die Inline-Darstellung von Empfangenen und gesendeten
+Nachrichten für Braille-Nutzer vorteilhaft sein.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.2.1 Visually distinguishable display
+
+[.BLOCK_LANG_EN]
+--
+Where ICT has RTT send and receive capabilities, displayed sent text shall be
+visually differentiated from, and separated from, received text. 
+
+NOTE:
+The ability of the user to choose between having the send and receive text be
+displayed in-line or separately, and with options to select, allows users to
+display RTT in a form that works best for them.
+This would allow Braille users to use a single field and take turns and have
+text appear in the sequential way that they may need or prefer.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.1 "Visually distinguishable display")

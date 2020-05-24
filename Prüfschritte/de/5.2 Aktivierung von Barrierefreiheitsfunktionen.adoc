@@ -1,0 +1,52 @@
+= Prüfschritt 5.2 Aktivierung von Barrierefreiheitsfunktionen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+5.2 "Activation of accessibility features" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Funktionen für die Barrierefreiheit bereithält, die
+spezielle Bedürfnisse von Nutzernerfüllt, soll die Aktivierung dieser
+Funktionen für diese Nutzergruppe barrierefrei möglich sein.
+Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
+sie unterstützen soll, selbstständig  aktivierbar sein soll.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die zu prüfende Software Funktionen für die
+Barrierefreiheit bereithält.
+Dieser Prüfschritt ist explizit nicht auf Systemseitige Bedienungshilfen
+anzuwenden.
+
+=== Prüfung
+
+. App starten
+. prüfen, ob Barrierefreiheitsfunktionen in den zu testenden Ansichten
+  angeboten werden
+. Einstellungen der App aufrufen und auch dort nach entsprechenden
+  Funktionen suchen
+. falls Barrierefreiheitsfunktionen angeboten werden:
++
+  * Ist die Funktion für die Zielgruppe deutlich identifizierbar?
+  * Ist die Funktion für die Zielgruppe selbstständig aktivierbar?
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.2 Activation of accessibility features
+
+[.BLOCK_LANG_EN]
+Where ICT has documented accessibility features, it shall be possible to
+activate those documented accessibility 
+features that are required to meet a specific need without relying on a method
+that does not support that need.
+
+(Aus EN 301 549 V3.1.1 Abschnitt 5.2)

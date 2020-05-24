@@ -1,0 +1,132 @@
+= Prüfschritt 11.7 Benutzerdefinierte Einstellungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+11.7 "User preferences" verwiesen.
+
+== Was wird geprüft?
+
+Die App soll Systemweite Einstellungen berücksichtigen.
+Im Einzelnen sind dies:
+
+* Messeinheiten
+* Farben (z. B. Darkmode)
+* Kontraste
+* Schriftarten
+* Schriftgrößen
+* Darstellung des Fokuscursors
+
+Die App kann darüberhinaus eigene Werte für diese Einstellungen anbieten,
+die systemweiten Einstellungen müssen jedoch voreingestellt sein.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist nahezu immer anwendbar.
+Die einzige Ausnahme besteht, wenn die App komplett isoliert vom
+Betriebssystem läuft, z. B. innerhalb einer virtuellen Maschine.
+
+=== Prüfung
+
+Für die Praxis fehlen noch Hinweise, Sie können auf GitHub
+{app-issue-url}[ein Issue zu diesem Prüfschritt erstellen], um bei der
+Entwicklung des Prüfschritts mitzuwirken.
+
+==== Farben
+
+Wenn das Betriebssystem Optionen für die Darstellung von Farben anbietet,
+müssen diese in der zu prüfenden App übernommen werden.
+Für die Prüfung werden entsprechende Systemeinstellungen verändert und die
+zu prüfende App neugestartet.
+Die Änderungen sollten dann in allen Ansichten der App sichtbar sein.
+
+===== iOS / iPadOS
+[%collapsible]
+====
+Die Einstellungen zur Farbumkehr unter Einstellungen -> Bedienungshilfen ->
+Anzeige & Textgröße müssen von der App unterstützt werden.
+Des Weiteren wird der Darkmode unterstützt, dieser ist unter Einstellungen ->
+Anzeige & Helligkeit -> Erscheinungsbild zu finden.
+====
+
+===== Android
+[%collapsible]
+====
+Folgende Einstellungen unter Einstellungen -> Bedienungshilfen werden durch
+die App unterstützt:
+
+* Farbumkehr
+* Farbkorrektur
+* Dunkles Design
+====
+
+==== Schriftart und Schriftgröße
+
+Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System.
+Für die Prüfung werden die systemweiten Einstellungen verändert und die zu
+prüfende App neugestartet.
+
+===== iOS / iPadOS
+[%collapsible]
+====
+In iOS / iPadOS müssen folgende Einstellungen unter Einstellungen ->
+Bedienungshilfen -> Anzeige & Textgröße übernommen werden:
+
+* Fetter Text
+* Größerer Text
+====
+
+===== Android
+[%collapsible]
+====
+Unter Android müssen folgende Einstellungen in Einstellungen ->
+Bedienungshilfen von der App übernommen werden:
+
+* Schriftgröße
+====
+
+==== Hinweise
+
+Wenn einer der o. g. Einstellungen in iOS / iPadOS oder Android nicht zu finden
+ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung
+bei der Prüfung nicht berücksichtigt.
+
+Die Schriftart und -Größe muss sich nur in Fließtexten an den systemweiten
+Einstellungen richten.
+Es wird nicht verlangt, dass Bedienelemente der App dynamische Veränderungen
+dieser Einstellungen unterstützen, da hier das Layout der App verändert
+würde.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.7 User preferences
+
+[.BLOCK_LANG_EN]
+--
+Where software is not designed to be isolated from its platform, and provides
+a user interface, that user interface shall follow the values of the user
+preferences for platform settings for:
+units of measurement, colour, contrast, font type, font 
+size, and focus cursor except where they are overridden by the user.
+
+NOTE 1:
+Software that is isolated from its underlying platform has no access to user
+settings in the platform and thus cannot adhere to them.
+
+NOTE 2:
+For web content, the underlying platform is the user agent.
+
+NOTE 3:
+This does not preclude the software from having additional values for a
+setting as long as there is one mode where the application will follow the
+system settings even if more restricted.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.7 "User preferences")

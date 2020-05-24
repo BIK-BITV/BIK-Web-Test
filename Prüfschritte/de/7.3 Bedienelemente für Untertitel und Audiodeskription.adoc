@@ -1,0 +1,72 @@
+= Prüfschritt 7.3 Bedienelemente für Untertitel und Audiodeskription
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.3 "User controls for captions and audio description" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software hauptsächlich Video-Inhalte mit Audio abspielt, sollen
+Bedienelemente zur Steuerung von Untertiteln und Audiodeskription auf der
+gleichen Interaktionsebene wie die üblichen Bedienelemente für die
+Wiedergabekontrolle (Play, Pause, Lautstärke etc.) zu finden sein.
+
+Diese Bedienelemente sollen also *nicht* in Menüs der Software versteckt werden.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software hauptsächlich für die
+Wiedergabe von Video-Inhalten mit Ton gedacht ist.
+
+=== Prüfung
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+{app-issue-url}[ein Issue anlegen].
+
+. App starten
+. Video aufrufen
+. Bedienelemente zur Wiedergabekontrolle prüfen, werden Bedienelemente zur
+  Steuerung von Untertitel und Audiodeskription auf gleicher Ebene angeboten?
+
+==== Hinweise
+
+Es ist vorteilhaft, wenn die Software eine Möglichkeit bietet, Untertitel und
+Audiodeskription standardmäßig bei der Wiedergabe von Videos einzuschalten.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.3 User controls for captions and audio description
+
+[.BLOCK_LANG_EN]
+--
+Where ICT primarily displays materials containing video with associated audio
+content, user controls to activate subtitling and audio description shall be
+provided to the user at the same level of interaction (i.e. the number of
+steps to complete the task) as the primary media controls. 
+
+NOTE 1:
+Primary media controls are the set of controls that the user most commonly
+uses to control media.
+
+NOTE 2:
+Products that have a general hardware volume control, such as a telephone, or
+a laptop which can be configured to display video through software but which
+is not its primary purpose, would not need dedicated hardware controls for
+captions and descriptions; however software controls, or hardware controls
+mapped through software, would need to be at the same level of interaction. 
+
+NOTE 3:
+It is best practice for ICT to include additional controls enabling the user to
+select whether captions and audio description are turned on or off by default.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.3 "User controls for captions and audio
+description")

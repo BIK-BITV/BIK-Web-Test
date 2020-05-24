@@ -1,0 +1,85 @@
+= Prüfschritt 12.1.2 Barrierefreie Dokumentation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+12.1.2 "Accessible documentation" verwiesen.
+
+== Was wird geprüft?
+
+Die Dokumentation soll mindestens in eines der folgenden Formate barrierefrei
+zur Verfügung gestellt werden:
+
+* Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
+* Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
+
+Weitere, ggf. nicht barrierefreie Versionen der Dokumentation, werden nicht
+bewertet.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+Im App-Test-Verfahren kann jedoch lediglich das Vorhandensein der Dokumentation
+in den geforderten Formaten geprüft werden.
+Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
+zu erteilen.
+
+=== Prüfung
+
+Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
+{app-issue-url}[ein Issue eröffnen].
+
+Im App-Test-Verfahren werden keine Dokumente geprüft.
+Hier kann derzeit nur der Hinweis gegeben werden, dass die Dokumentation
+mindestens in eines der o. g. Formate barrierefrei zur Verfügung gestellt
+werden muss.
+Wenn es sich um eine Dokumentation auf HTML-Basis handelt, kann der Hinweis auf
+das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] gegeben werden.
+
+==== Hinweise
+
+Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
+anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B.
+Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
+für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 12.1.2 Accessible documentation
+
+[.BLOCK_LANG_EN]
+--
+Product documentation provided with the ICT shall be made available in at
+least one of the following electronic formats:
+
+* a Web format that conforms to the requirements of clause 9; or 
+* a non-web format that conforms to the requirements of clause 10. 
+
+NOTE 1:
+This does not preclude the possibility of also providing the product
+documentation in other formats (electronic, printed or audio) that are not
+accessible. 
+
+NOTE 2:
+It also does not preclude the possibility of providing alternate formats that
+meet the needs of some specific type of users (e.g. Braille documents for
+blind people or easy-to-read information for persons with limited cognitive,
+language and learning abilities). 
+
+NOTE 3:
+Where documentation is incorporated into the ICT, the documentation falls
+under the requirements for accessibility in the present document. 
+
+NOTE 4:
+A user agent that supports automatic media conversion would be beneficial to
+enhancing accessibility.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 12.1.2 "Accessible documentation")

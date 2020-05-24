@@ -1,0 +1,64 @@
+= Prüfschritt 5.4 Erhaltung von Barrierefreiheitsinformationen bei Konvertierung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+5.4 "Preservation of accessibility information during conversion" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die App Dokumente in andere Formate konvertiert, sollen vorhandene
+Barrirefreiheitsinformationen im Zielformat übernommen werden, wenn das
+Zielformat diese Informationen grundsätzlich unterstützt.
+
+Zum Beispiel könnte eine App HTML-Dateien in PDF konvertieren. Nach der
+Konvertierung soll die PDF-Datei sämtliche Überschriftsebenen,
+Alternativtexte und Tabelleninformationen enthalten, die auch in der
+HTML-Quelle vorhanden sind.
+
+Proprietäre Erweiterungen sollen nicht berücksichtigt werden.
+Dies könnten spezielle Dateiformatserweiterungen von einzelnen Herstellern
+sein, die nur von einer begrenzten Anzahl an User-Agents / Anzeigeprogrammen
+unterstützt werden und dabei nicht offen standardisiert sind.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Dokumente konvertiert.
+Dokumente umfasst dabei alle digitalen Formate wie Text, Audio und Video.
+
+=== Prüfung
+
+Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell-
+und Zielformaten.
+
+Anhand von Beispieldokumentn muss geprüft werden, ob für die
+Barrierefreiheit relevante Informationen nach der Konvertierung im Zielformat
+erhalten bleiben.
+Informationen, die das Zielformat nicht unterstützt, sollen dabei nicht
+berücksichtigt werden.
+
+Beispiele und weitere Hinweise sollen zukünftig zu diesem Prüfschritt
+ergänzt werden.
+
+Für Hinweise zur Prüfpraxis, eröffnen Sie gerne {app-issue-url}[ein Issue
+auf GitHub].
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.4 Preservation of accessibility information during conversion
+
+[.BLOCK_LANG_EN]
+Where ICT converts information or communication it shall preserve all
+documented non-proprietary information that is provided for accessibility, to
+the extent that such information can be contained in or supported by the
+destination format.
+
+(Aus EN 301 549 V3.1.1 Abschnitt 5.4 "Preservation of accessibility
+information")

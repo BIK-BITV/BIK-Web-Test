@@ -1,0 +1,70 @@
+= Prüfschritt 11.8.2 Barrierefreie Erstellung von Inhalten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+11.8.2 "Accessible content creation" verwiesen.
+
+== Was wird geprüft?
+
+Wenn es sich bei der zu testenden Software um ein Autorenwerkzeug handelt, soll
+die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
+Nutzer dabei unterstützen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist.
+Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
+Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
+anwendbar.
+Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
+lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
+Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem
+App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die
+Barrierefreiheit der durch das Tool generierten Dateien geprüft werden
+müsste.
+
+=== Prüfung
+
+Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
+Sie auf GitHub
+{app-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+
+In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
+Ausgabe generiert.
+Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
+Prüfung berücksichtigt werden.
+Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
+
+==== Hinweise
+
+Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
+anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
+Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
+sein.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.8.2 Accessible content creation
+
+[.BLOCK_LANG_EN]
+--
+Authoring tools shall enable and guide the production of content that conforms
+to clauses 9 (Web content) or 10 (Non-Web content) as applicable.
+
+NOTE:
+Authoring tools may rely on additional tools where conformance with specific
+requirements is not achievable by a single tool.
+For example, a video editing tool may enable the creation of video files for
+distribution via broadcast television and the web, but authoring of caption
+files for multiple formats may be provided by a different tool.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.8.2 "Accessible content creation")

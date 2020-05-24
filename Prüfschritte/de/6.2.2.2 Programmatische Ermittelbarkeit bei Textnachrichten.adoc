@@ -1,0 +1,61 @@
+= Prüfschritt 6.2.2.2 Programmatische Ermittelbarkeit bei Textnachrichten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.2.2 "Programmatically determinable send and receive direction" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software eine Funktion zur Echtzeit Textkommunikation anbietet, soll
+die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Dies
+ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweiligen
+Sende- oder Empfangsrichtung.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software eine Funktion zur Echtzeit
+Textkommunikation bietet.
+
+=== Prüfung
+
+Dieser Prüfschritt kann derzeit nur mittels Blackbox-Test unter Verwendung
+eines Screenreaders getestet werden.
+Die App-Ansicht mit der Echtzeit-Textkommunikation muss sehr genau mit dem
+Screenreader geprüft werden, um zu beurteilen, ob die notwendigen
+Informationen an den Screenreader gesendet werden und dieser die Richtung der
+einzelnen Textnachrichten ansagen kann bzw. diese aus der Ausgabe deutlich
+hervorgeht.
+
+. den Screenreader VoiceOver bzw. TalkBack starten
+. die zu prüfende App mit der Ansicht für die Echtzeit-Textkommunikation
+  aufrufen
+. einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
+. die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
+. auf die Ausgabe des Screenreaders achten, die Sende- und Empfangsrichtung
+  muss durch die Ausgabe deutlich und unmissverständlich hervorgehen
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.2.2 Programmatically determinable send and receive direction
+
+[.BLOCK_LANG_EN]
+--
+Where ICT has RTT send and receive capabilities, the send/receive direction of
+transmitted/received text shall be programmatically determinable, unless the
+RTT is implemented as closed functionality. 
+
+NOTE:
+This enables screen readers to distinguish between incoming text and outgoing
+text when used with RTT functionality.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.2 "Programmatically determinable send
+and receive direction")

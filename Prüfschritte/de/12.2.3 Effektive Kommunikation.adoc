@@ -1,0 +1,50 @@
+= Prüfschritt 12.2.3 Effektive Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+12.2.3 "Effective communication" verwiesen.
+
+== Was wird geprüft?
+
+Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit
+Behinderungen berücksichtigen und effektive d. h. funktionierende und
+tragfähige Kommunikationskanäle anbieten.
+Dies kann auch durch die Vermittlung von Dritten ermöglicht werden.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== Prüfung
+
+Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
+nicht vollständig geklärt.
+Auf GitHub können Sie {app-issue-url}[Hinweise zu diesem Prüfschritt
+hinterlassen].
+
+Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene
+Kommunikationsarten für die Nutzer anzubieten.
+
+.Kommunikation über
+* E-Mail
+* Chat
+* Telefon
+* Videotelefonie
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 12.2.3 Effective communication
+
+[.BLOCK_LANG_EN]
+ICT support services shall accommodate the communication needs of individuals
+with disabilities either directly or through a referral point. 
+
+(Aus EN 301 549 V3.1.1 Abschnitt 12.2.3 "Effective communication")

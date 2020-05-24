@@ -1,0 +1,50 @@
+= Prüfschritt 6.5.2 Auflösung bei Videotelefonie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.5.2 "Resolution" verwiesen.
+
+== Was wird geprüft?
+
+Software mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
+für die Videoübertragung unterstützen.
+Üblicherweise entspricht dies 320x240 Pixel.
+Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten
+werden.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie unterstützt.
+
+=== Prüfung
+
+Der Prüfschritt sollte anhand der technischen Dokumentation der App in
+Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
+
+* App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
+* Testübertragung: Scheint die Angabe in der App-Dokumentation plausibel?
+
+Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne {app-issue-url}[ein
+Issue auf GitHub].
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.5.2 Resolution
+
+[.BLOCK_LANG_EN]
+--
+Where ICT that provides two-way voice communication includes real-time video
+functionality, the ICT:
+
+* shall support at least QVGA resolution
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.5.2 "Resolution")

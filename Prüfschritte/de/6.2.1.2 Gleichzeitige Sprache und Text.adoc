@@ -1,0 +1,97 @@
+= Prüfschritt 6.2.1.2 Gleichzeitige Sprache und Text
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.1.2 "Concurrent voice and text" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
+anbietet, soll die gleichzeitige Kommunikation mittels Sprache und
+Echtzeit-Textkommunikation möglich sein.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Zwei-Wege-Kommunikation
+und zusätzlich Textkommunikation in Echtzeit ermöglicht.
+
+Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie.
+
+Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
+wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+
+=== Prüfung
+
+. App starten
+. prüfen, ob die App Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
+  ermöglicht
+. prüfen, ob die gleichzeitige Kommunikation via Echtzeit-Text und Sprache
+  möglich ist
+
+==== Hinweise
+
+Bei Konferenzen, also die Kommunikation mit mehr als zwei Personen, soll die
+Kommunikation mittels Textkommunikation in Echtzeit, der Kommunikation mit
+Sprache gleichgestellt sein.
+Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde
+Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese
+Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
+
+Bei Konferenzen die gleichzeitig eine herkömmliche Chat-Funktion bieten,
+sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in
+separaten Programmfenstern, damit sich diese verschiedenen
+Kommunikationsarten nicht gegenseitig stören und nicht zur Verwirrung führen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.1.2 Concurrent voice and text
+
+[.BLOCK_LANG_EN]
+--
+Where ICT provides a means for two-way voice communication and for users to
+communicate by RTT, it shall allow concurrent voice and text through a single
+user connection. 
+
+NOTE 1:
+With many-party communication, as in a conference system, it is allowed (but
+not required or necessarily recommended) that RTT be handled in a single
+display field and that "turn-taking" be necessary to avoid confusion (in the
+same way that turn-taking is required for those presenting/talking with voice). 
+
+NOTE 2:
+With many-party communication, best practice is for hand-raising for voice
+users and RTT users to be handled in the same way, so that voice and RTT users
+are in the same queue.
+
+NOTE 3:
+With a many-party conference system that has chat as one of its features - the
+RTT (like the voice) would typically be separate from the chat so that RTT use
+does not interfere with chat (i.e. people can be messaging in the chat field
+while the person is presenting/talking with RTT - in the same manner that
+people message using the chat feature while people are talking with voice).
+RTT users would then use RTT for presenting and use the Chat feature to
+message while others are presenting (via Voice or RTT). 
+
+NOTE 4:
+The availability of voice and RTT running concurrently (and separately from
+chat) can also allow the RTT field to support text captioning when someone is
+speaking (and it is therefore not being used for RTT since it is not the RTT
+user's turn to speak).
+
+NOTE 5:
+Where both server-side software and local hardware and software are required
+to provide voice communication, where neither part can support voice
+communication without the other and are sold as a unit for the voice
+communication function, the local and server-side components are considered a
+single product.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.2 "Concurrent voice and text")

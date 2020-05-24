@@ -1,0 +1,45 @@
+= Prüfschritt 7.2.2 Synchrone Audiodeskription
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+7.2.2 "Audio description synchronization" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software Videos mit Audiodeskription abspielen kann, soll die
+Synchronität zwischen Bild und Audiodeskription beim Abspielen erhalten
+bleiben.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audiodeskription
+abspielen kann.
+
+=== Prüfung
+
+Falls die Software keine eigenen Inhalte bereithält, muss ggf. eine
+Beispiel-Video-Datei mit Audiodeskription in der Software geöffnet werden.
+
+. App starten
+. prüfen, ob Video-Inhalte mit Audiodeskription in der App zu finden sind
+. ein Video mit Audiodeskription aufrufen
+. prüfen, ob die Audiodeskription synchron zum Bild abgespielt wird
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 7.2.2 Audio description synchronization
+
+[.BLOCK_LANG_EN]
+Where ICT has a mechanism to play audio description, it shall preserve the
+synchronization between the audio/visual content and the corresponding audio
+description.
+
+(Aus EN 301 549 V3.1.1 Abschnitt 7.2.2 "Audio description synchronization")

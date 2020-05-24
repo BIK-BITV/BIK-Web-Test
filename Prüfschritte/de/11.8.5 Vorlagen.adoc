@@ -1,0 +1,63 @@
+= Prüfschritt 11.8.5 Vorlagen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+11.8.5 "Templates" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Software ein Autorenwerkzeug ist und Vorlagen für die Dokumente, die
+es erstellt, anbietet, soll mindestens eines der Vorlagen die Kriterien
+für Web- oder Nicht-Web-Dokumente erfüllen (je nach Dokumententyp).
+Die entsprechenden Kriterien sind in der EN 301 549 im Kapitel 9 und 10 zu
+finden.
+
+Die für die Barrierefreiheit optimierten Vorlagen sollen dabei eindeutig als
+solche zu identifizieren sein.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
+Vorlagen für die Dokumente, die es erstellt, anbietet.
+Das App-Test-Verfahren prüft jedoch keine Dokumente.
+Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden,
+dessen Ausgabe in der gleichen App stattfindet (z. B. Kommentarfunktion in
+einer Social-Media-App).
+Für komplexere Werkzeuge, dessen Ausgaben nicht nur in der App selbst
+stattfinden, muss ein extra Auftrag erteilt werden, da hier die Ausgabe-Dateien
+bzw -Formate auf Barrierefreiheit geprüft werden müssen.
+
+=== Prüfung
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+{app-issue-url}[dazu ein Issue eröffnen].
+
+. App starten
+. prüfen, ob die App Vorlagen anbietet
+. prüfen, ob unter den Vorlagen, optimierte Vorlagen für die Barrierefreiheit,
+  vorhanden sind, diese müssen deutlich identifizierbar sein
+. Testausgaben möglichst mit den vorhandenen
+  Barrierefreiheits-Optimierten-Vorlagen erstellen, ansonsten
+  Standardvorlage nutzen
+. Testausgaben auf Barrierefreiheit prüfen (sämtliche anwendbaren
+  Prüfschritte auf Ansicht mit der Ausgabe)
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.8.5 Templates
+
+[.BLOCK_LANG_EN]
+When an authoring tool provides templates, at least one template that supports
+the creation of content that conforms to the requirements of clauses 9 (Web)
+or 10 (Non-web documents) as applicable shall be available and identified as
+such.
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.8.5 "Templates")
