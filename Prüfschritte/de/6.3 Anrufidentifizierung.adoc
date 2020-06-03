@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Telekommunikationsfunktionen mit Anrufidentifizierung bietet,
+Wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet,
 soll die Identifizierung (auch) in Textform verfügbar und programmatisch
 ermittelbar sein.
 
@@ -22,7 +22,7 @@ Anrufer identifizieren können.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Telekommunikationsfunktionen
+Der Prüfschritt ist anwendbar, wenn die Web-App Telekommunikationsfunktionen
 mit Anrufidentifizierung bietet.
 
 Anrufidentifizierung bedeutet hier, die Signalisierung bzw. Anzeige des
@@ -30,14 +30,14 @@ Anrufers.
 
 === Prüfung
 
-Für die Prüfung muss die App ggf. auf zwei Geräten installiert werden.
+Für die Prüfung muss die Web-App ggf. auf zwei Geräten geöffnet werden.
 
-. Screenreader Voiceover bzw. TalkBack starten
-. App starten
+. Screenreader starten
+. Web-App öffnen
 . Anruf von einem zweiten Gerät tätigen
 . prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader
   signalisiert wird, wird der Anrufer automatisch angesagt oder sind die
-  Informationen über den Anrufer auf dem Bildschirm für den Screenreader
+  Informationen über den Anrufer im Browser für den Screenreader
   ohne Umwege auslesbar?
 . prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird, die Anzeige
   muss den Anrufer in irgendeinerweise in Textform identifizieren, z. B. über
