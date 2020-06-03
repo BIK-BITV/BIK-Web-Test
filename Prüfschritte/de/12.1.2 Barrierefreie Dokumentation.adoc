@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Grundlage des Prüfschritts
 
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
+Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
 V3.1.1.
 In dieser Tabelle wird auf Abschnitt
 12.1.2 "Accessible documentation" verwiesen.
