@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Software mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
+Web-Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
 für die Videoübertragung unterstützen.
 Üblicherweise entspricht dies 320x240 Pixel.
 Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten
@@ -21,11 +21,11 @@ werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
 
 === Prüfung
 
-Der Prüfschritt sollte anhand der technischen Dokumentation der App in
+Der Prüfschritt sollte anhand der technischen Dokumentation der We-App in
 Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
 
 * App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
