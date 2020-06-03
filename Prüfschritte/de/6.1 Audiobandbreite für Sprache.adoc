@@ -12,11 +12,11 @@ In dieser Tabelle wird auf Abschnitt
 == Was wird geprüft?
 
 Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu
-garantieren, soll die Software beim Kodieren
+garantieren, soll die Web-App beim Kodieren
 und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze
 mindestens bis 7.000 Hz reicht.
 
-Damit die Software diesen Prüfschritt besteht, muss sie mindestens
+Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens
 HD-Telefonie / Telefonie in ISDN-Qualität bieten.
 Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
@@ -24,14 +24,14 @@ Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software eine
+Der Prüfschritt ist anwendbar, wenn die Web-App eine
 Zwei-Wege-Sprachkommunikation anbietet.
 
 === Prüfung
 
 Bei diesem Prüfschritt sollte die Sprachqualität in einem Praxistest
 beurteilt werden.
-Die Sprachqualität muss mindestens der Qualität heutiger
+Die Sprachqualität muss mindestens der Qualität aktueller
 Festnetztelefonie entsprechen.
 
 Bei diesem Hörtest muss unbedingt sichergestellt werden, dass die
