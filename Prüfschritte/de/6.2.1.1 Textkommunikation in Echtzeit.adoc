@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls
+Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls
 Textkommunikation in Echtzeit zur Verfügung stellen.
 
 Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
@@ -21,14 +21,14 @@ wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu testende Software
+Der Prüfschritt ist anwendbar, wenn die zu testende Web-App
 Zwei-Wege-Kommunikation ermöglicht.
 Dies umfasst z. B. Sprach- und Videotelefonie.
 
 === Prüfung
 
-. App starten
-. prüfen, ob die App Zwei-Wege-Kommunikation ermöglicht, z. B. Sprach- und /
+. Web-App öffnen
+. prüfen, ob die Web-App Zwei-Wege-Kommunikation ermöglicht, z. B. Sprach- und /
   oder Videotelefonie
 . wenn eine Funktion zur Zwei-Wege-Kommunikation geboten wird, prüfen ob
   Textkommunikation in Echtzeit unterstützt wird
