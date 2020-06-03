@@ -11,31 +11,31 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Echtzeit Textkommunikation senden und empfangen kann,
+Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann,
 soll die Anzeige von empfangenen und gesendeten Nachrichten visuell
 unterscheidbar sein und somit voneinander separiert werden.
 
-Wie wird geprüft?
+== Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Echtzeit Textkommunikation
+Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
 senden und empfangen kann.
 
 === Prüfung
 
-. App starten
-. prüfen, ob die App das Senden und Empfangen von Echtzeit Textkommunikation
+. Web-App öffnen
+. prüfen, ob die Web-App das Senden und Empfangen von Echtzeit Textkommunikation
   anbietet
 . prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich
   voneinander unterscheidbar sind und separat angezeigt werden
 
 ==== Hinweise
 
-Wenn die Software verschiedene Optionen für die Anzeige der Nachrichten
+Wenn die Web-App verschiedene Optionen für die Anzeige der Nachrichten
 anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht
 schlecht bewertet werden.
-Voraussetztung dafür ist jedoch, dass die konforme Ansicht voreingestellt ist.
+Voraussetzung dafür ist jedoch, dass die konforme Ansicht voreingestellt ist.
 
 Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
 der Nutzer erfüllen.
