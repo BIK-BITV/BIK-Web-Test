@@ -11,14 +11,14 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videotelefonie unterstützt, soll die Zeitdifferenz zwischen
+Wenn die Web-App Videotelefonie unterstützt, soll die Zeitdifferenz zwischen
 Audio und Video nicht mehr als 100 Millisekunden betragen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl.
+Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie inkl.
 Sprachübertragung unterstützt.
 
 === Prüfung
@@ -32,9 +32,9 @@ Videotelefonieübertragung soll nicht mehr als 100 Millisekunden betragen,
 deutlich wahrnehmbare Differenzen sind also zu vermeiden.
 
 Die Synchronität kann mit einem Testvideoanruf geprüft werden.
-Dafür muss die App ggf. auf zwei Testgeräten installiert werden.
+Dafür muss die Web-App auf zwei Testgeräten geöffnet werden.
 
-. App auf zwei Geräten starten
+. App auf zwei Geräten öffnen
 . Videotelefonieverbindung zwischen den Geräten herstellen
 . Synchronität zwischen Sprache und Video prüfen (Lippensynchronität), ist
   eine Zeitdifferenz deutlich wahrnehmbar?
