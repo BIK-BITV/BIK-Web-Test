@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Funktionen für die Barrierefreiheit bereithält, die
+Wenn die Webseite Funktionen für die Barrierefreiheit bereithält, die
 spezielle Bedürfnisse von Nutzernerfüllt, soll die Aktivierung dieser
 Funktionen für diese Nutzergruppe barrierefrei möglich sein.
 Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
@@ -21,18 +21,18 @@ sie unterstützen soll, selbstständig  aktivierbar sein soll.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu prüfende Software Funktionen für die
+Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite Funktionen für die
 Barrierefreiheit bereithält.
 Dieser Prüfschritt ist explizit nicht auf Systemseitige Bedienungshilfen
-anzuwenden.
+anzuwenden (z. B. vom Browser oder Betriebssystem).
 
 === Prüfung
 
-. App starten
-. prüfen, ob Barrierefreiheitsfunktionen in den zu testenden Ansichten
+. Webseite öffnen
+. prüfen, ob Barrierefreiheitsfunktionen auf den zu testenden Seiten
   angeboten werden
-. Einstellungen der App aufrufen und auch dort nach entsprechenden
-  Funktionen suchen
+. Falls es sich um eine komplexere We-Aanwendung handelt, Einstellungen der
+  Web-App aufrufen und auch dort nach entsprechenden Funktionen suchen
 . falls Barrierefreiheitsfunktionen angeboten werden:
 +
   * Ist die Funktion für die Zielgruppe deutlich identifizierbar?
