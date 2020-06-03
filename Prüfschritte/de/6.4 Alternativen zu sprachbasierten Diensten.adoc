@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder
+Wenn die Web-App Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder
 interaktive Assistenzsysteme, z. B. für die Menüführung, einsetzt, sollen
 etwaige Aufgaben auch ohne hören und sprechen lösbar sein bzw. sollen die
 gebotenen Informationen auch ohne diese
@@ -21,7 +21,7 @@ Fähigkeiten des Nutzers bereitgestellt werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Echtzeit-Sprachkommunikation
+Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit-Sprachkommunikation
 und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
 Menüführung, einsetzt, dann sollen etwaige Aufgaben auch ohne hören und sprechen
 lösbar sein bzw. sollen gebotene Informationen auch ohne diese
