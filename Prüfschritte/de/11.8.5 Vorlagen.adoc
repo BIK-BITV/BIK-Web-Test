@@ -37,7 +37,7 @@ bzw -Formate auf Barrierefreiheit geprüft werden müssen.
 === Prüfung
 
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-{app-issue-url}[dazu ein Issue eröffnen].
+{web-issue-url}[dazu ein Issue eröffnen].
 
 . App starten
 . prüfen, ob die App Vorlagen anbietet

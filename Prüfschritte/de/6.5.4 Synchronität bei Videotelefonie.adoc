@@ -24,7 +24,7 @@ Sprachübertragung unterstützt.
 === Prüfung
 
 Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der
-Zeitdifferenz, können Sie auf GitHub {app-issue-url}[ein Issue] zu diesem
+Zeitdifferenz, können Sie auf GitHub {web-issue-url}[ein Issue] zu diesem
 Prüfschritt eröffnen.
 
 Die Zeitdifferenz zwischen Audio und Video bei einer

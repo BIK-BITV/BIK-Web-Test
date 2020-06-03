@@ -35,7 +35,7 @@ Betriebssystem läuft, z. B. innerhalb einer virtuellen Maschine.
 === Prüfung
 
 Für die Praxis fehlen noch Hinweise, Sie können auf GitHub
-{app-issue-url}[ein Issue zu diesem Prüfschritt erstellen], um bei der
+{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen], um bei der
 Entwicklung des Prüfschritts mitzuwirken.
 
 ==== Farben

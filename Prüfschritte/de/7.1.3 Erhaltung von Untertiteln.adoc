@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die Software Videos mit Untertiteln
 
 Wie dieser Prüfschritt in der Praxis geprüft werden kann, ist noch nicht
 vollständig geklärt.
-Hinweise zu diesem Prüfschritt können Sie auf GitHub {app-issue-url}[in
+Hinweise zu diesem Prüfschritt können Sie auf GitHub {web-issue-url}[in
 einem Issue hinterlassen].
 
 Wenn die Software Videos mit Untertiteln konvertiert oder aufnimmt, sollte das

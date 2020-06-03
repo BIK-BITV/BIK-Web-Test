@@ -35,7 +35,7 @@ Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
 
 Ein genaues Verfahren für die Prüfung steht nocht nicht bereit.
 Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
-{app-issue-url}[ein Issue anlegen] und Ihre Erfahrungen teilen.
+{web-issue-url}[ein Issue anlegen] und Ihre Erfahrungen teilen.
 
 Einige Hinweise vorab:
 

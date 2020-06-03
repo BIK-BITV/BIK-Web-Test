@@ -28,7 +28,7 @@ Wiedergabe von Video-Inhalten mit Ton gedacht ist.
 === Prüfung
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-{app-issue-url}[ein Issue anlegen].
+{web-issue-url}[ein Issue anlegen].
 
 . App starten
 . Video aufrufen

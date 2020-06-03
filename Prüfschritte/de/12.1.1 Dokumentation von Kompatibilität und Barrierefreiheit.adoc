@@ -30,7 +30,7 @@ werden.
 === Prüfung
 
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-{app-issue-url}[dazu ein Issue eröffnen].
+{web-issue-url}[dazu ein Issue eröffnen].
 
 Alle für die Barrierefreiheit relevanten Informationen zur Software sollen
 in der Dokumentation aufgelistet und erklärt werden.

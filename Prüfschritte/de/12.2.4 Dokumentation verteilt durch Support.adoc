@@ -37,7 +37,7 @@ werden müssen.
 Wie dieser Prüfschritt in der Praxis berücksichtigt werdenkann, ist noch
 nicht vollständig geklärt.
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-{app-issue-url}[ein Issue eröffnen].
+{web-issue-url}[ein Issue eröffnen].
 
 ==== Hinweise
 

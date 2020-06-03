@@ -43,7 +43,7 @@ Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audiodeskription
 === Prüfung
 
 Dieser Prüfschritt benötigt noch einige Hinweise für die Prüfpraxis, dazu
-kann auf GitHub {app-issue-url}[ein Issue hinterlassen] werden.
+kann auf GitHub {web-issue-url}[ein Issue hinterlassen] werden.
 
 Für die Prüfung ist ggf. ein Player notwendig, der mit den Prüfschritten
 ifdef::env_embedded[x26 "Wiedergabe von Audiodeskription"]

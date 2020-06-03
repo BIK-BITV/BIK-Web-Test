@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie unterstützt.
 
 Eine genaue Methode zur Messung de verwendeten Bildrate ist noch offen.
 Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub
-{app-issue-url}[in einem Issue] hinterlassen.
+{web-issue-url}[in einem Issue] hinterlassen.
 
 Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die
 Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken

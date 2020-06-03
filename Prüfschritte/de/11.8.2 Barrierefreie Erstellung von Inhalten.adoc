@@ -34,7 +34,7 @@ müsste.
 
 Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
 Sie auf GitHub
-{app-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
 Ausgabe generiert.

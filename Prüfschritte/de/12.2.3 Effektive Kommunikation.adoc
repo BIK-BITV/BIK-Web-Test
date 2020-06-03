@@ -26,7 +26,7 @@ Der Prüfschritt ist immer anwendbar.
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
 nicht vollständig geklärt.
-Auf GitHub können Sie {app-issue-url}[Hinweise zu diesem Prüfschritt
+Auf GitHub können Sie {web-issue-url}[Hinweise zu diesem Prüfschritt
 hinterlassen].
 
 Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene

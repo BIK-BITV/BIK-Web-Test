@@ -43,7 +43,7 @@ Dies könnte z. B. die Umwandlung eines HTML-Dokuments zum PDF sein.
 
 Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
 Sie auf GitHub
-{app-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 Für die Prüfung muss ein Beispieldokument im Eingangsformat vorgehalten
 werden.
