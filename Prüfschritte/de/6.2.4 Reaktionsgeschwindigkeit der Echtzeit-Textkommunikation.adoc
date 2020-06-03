@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Echtzeit-Textkommunikation unterstützt und entsprechende
+Wenn die Web-App Echtzeit-Textkommunikation unterstützt und entsprechende
 Nutzereingaben entgegennimmt, soll die kleinste Texteinheit
 (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt
 werden.
@@ -20,7 +20,7 @@ werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Eingaben für
+Der Prüfschritt ist anwendbar, wenn die Web-App Eingaben für
 Echtzeit-Textkommunikation verwendet.
 Das ist bspw. der Fall, wenn es sich um eine App zur Kommunikation handelt, die
 Echtzeit-Textkommunikation unterstützt und im Userinterface eine entsprechende
