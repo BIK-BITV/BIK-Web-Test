@@ -11,12 +11,12 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software biometrische Merkmale für die Nutzeridentifizierung oder
+Wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder
 die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal
 beschränken.
 
 Statt sich z. B. auf den Fingerabdruck zu beschränken, könnte eine
-Software auch zusätzlich Alternativen wie Irismuster, Gesichtserkennung oder
+Webseite auch zusätzlich Alternativen wie Irismuster, Gesichtserkennung oder
 Sprachmuster für die Nutzeridentifizierung anbieten.
 
 Alternativen zu einer biometrischen Identifizierungsmetode oder -Steuerung
@@ -36,16 +36,16 @@ können auch nicht biometrische Methoden sein:
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software biometrische Merkmale für
+Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für
 die Nutzeridentifizierung oder Steuerung nutzt.
 
 === Prüfung
 
-. App starten
-. prüfen, ob die App eine Identifizierung über biometrische Merkmale
+. Webseite öffnen
+. prüfen, ob die Webseite eine Identifizierung über biometrische Merkmale
   benötigt, falls ja, prüfen ob biometrische oder nicht biometrische
   Alternativen zur Identifizierung angeboten werden
-. Bedienkonzept der wesentlichen Funktionen auf den zu testenden App-Ansichten
+. Bedienkonzept der wesentlichen Funktionen auf den zu testenden Webseiten
   untersuchen:
 +
   * Wird Biometrie für die Steuerung genutzt?
