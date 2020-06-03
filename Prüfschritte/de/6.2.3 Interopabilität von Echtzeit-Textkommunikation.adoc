@@ -11,16 +11,16 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Software, die Textkommunikation in Echtzeit unterstützt und mit anderer
-Software mit Echtzeit-Textkommunikation-Funktionalität zusammenarbeitet, soll
-implementationsspezifische Methoden zur Interopabilität von
+Web-Apps, die Textkommunikation in Echtzeit unterstützen und mit anderen
+Anwendungen mit Echtzeit-Textkommunikation-Funktionalität zusammenarbeiten,
+sollen implementationsspezifische Methoden zur Interopabilität von
 Echtzeit-Textkommunikationunterstützen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Textkommunikation in
+Der Prüfschritt ist anwendbar, wenn die Web-App Textkommunikation in
 Echtzeit unterstützt und mit anderer Software mit dieser Unterstützung
 zusammenarbeitet.
 
