@@ -35,12 +35,13 @@ zu erteilen.
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
 {web-issue-url}[ein Issue eröffnen].
 
-Im App-Test-Verfahren werden keine Dokumente geprüft.
-Hier kann derzeit nur der Hinweis gegeben werden, dass die Dokumentation
-mindestens in eines der o. g. Formate barrierefrei zur Verfügung gestellt
-werden muss.
-Wenn es sich um eine Dokumentation auf HTML-Basis handelt, kann der Hinweis auf
-das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] gegeben werden.
+Im BIK BITV-Test können derzeit nur Dokumentationen auf Basis von
+Web-Technologien geprüft werden. Für andere Formate muss ein extra Auftrag
+gestellt werden.
+
+Wenn die Dokumentation (auch) im HTML-Format vorliegt, ist dieser Prüfschritt
+erfüllt, wenn sämtliche anwendbaren Prüfschritte des Verfahrens mit dem
+Ergebnis konform durchlaufen wurden.
 
 ==== Hinweise
 
