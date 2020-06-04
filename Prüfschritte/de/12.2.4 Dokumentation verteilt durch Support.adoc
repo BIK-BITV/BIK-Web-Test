@@ -26,11 +26,9 @@ bewertet.
 === Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
-Da das App-Test-Verfahren keine Dokumente prüft, die außerhalb der zu
-testenden App verteilt und angezeigt wird, muss ggf. ein Hinweis gegeben
-werden, dass die durch den Support verteilten Dokumente in einem separaten
-Auftrag auf Barrierefreiheit geprüft
-werden müssen.
+Im BIK BITV-Test können lediglich Dokumente auf basis von Web-Technologien
+getestet werden.
+Für andere Formate muss ein extra Auftrag erstellt werden.
 
 === Prüfung
 
