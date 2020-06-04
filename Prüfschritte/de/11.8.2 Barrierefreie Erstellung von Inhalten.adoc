@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn es sich bei der zu testenden Software um ein Autorenwerkzeug handelt, soll
+Wenn es sich bei der zu testenden Web-App um ein Autorenwerkzeug handelt, soll
 die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
 Nutzer dabei unterstützen.
 
@@ -19,8 +19,8 @@ Nutzer dabei unterstützen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist.
-Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
+Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist.
+Der Dokumententyp, den die Web-App erstellt, muss grundsätzlich für die
 Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
 anwendbar.
 Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
@@ -36,7 +36,7 @@ Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
 Sie auf GitHub
 {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
-In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
+In der Web-App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
 Ausgabe generiert.
 Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
 Prüfung berücksichtigt werden.
