@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Die Dokumentation der Software soll die Eigenschaften und Funktionen in  Bezug
+Die Dokumentation der Web-App soll die Eigenschaften und Funktionen in  Bezug
 auf Barrierefreiheit auflisten undessen Nutzung erklären.
 Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
@@ -32,9 +32,9 @@ werden.
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
-Alle für die Barrierefreiheit relevanten Informationen zur Software sollen
+Alle für die Barrierefreiheit relevanten Informationen zur Web-App sollen
 in der Dokumentation aufgelistet und erklärt werden.
-Die Dokumentation kann dabei mit der Software mitgeliefert werden oder separat
+Die Dokumentation kann dabei mit der Web-App mitgeliefert werden oder separat
 verfügbar sein.
 
 Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
@@ -45,7 +45,7 @@ Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
 * Einschränkungen der Barrierefreiheit
 * Auflistung von Barrieren
 
-Die Software soll, wenn möglich, Metadaten für die unterstützten
+Die Web-App soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
 Formaten, bereitstellen.
 
