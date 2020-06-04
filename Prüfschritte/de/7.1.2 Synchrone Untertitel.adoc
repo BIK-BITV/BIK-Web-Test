@@ -11,12 +11,12 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Software, die Untertitel anzeigt, soll diese synchron, wie in der
+Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der
 Untertitel-Quelle definiert, zum Video und Audio anzeigen.
 
 Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom
 Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen.
-Dies bezieht sich auch auf Live-Untertitel, sobald die Software die Untertitel
+Dies bezieht sich auch auf Live-Untertitel, sobald die Web-App die Untertitel
 empfängt, soll sich die Anzeige der Untertitel nicht länger als um 100
 Millisekunden verzögern.
 
@@ -24,19 +24,19 @@ Millisekunden verzögern.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Untertitel anzeigt.
+Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
 
 === Prüfung
 
 Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
-nicht vollständig geklärt.
+nicht geklärt.
 Hinweise dazu können Sie in einem {web-issue-url}[Issue auf GitHub, mit Bezug
 zu diesem Prüfschritt, hinterlassen].
 
-In der Praxis sollte Software, bei der die Untertitel ohne merkliche
+In der Praxis sollten Web-Apps, bei der die Untertitel ohne merkliche
 Verzögerung angezeigt werden, zu diesem Prüfschritt konform sein.
 
-Detailliertere Untersuchungen scheinen derzeit nur möglich, wenn die Software
+Detailliertere Untersuchungen scheinen derzeit nur möglich, wenn die Web-App
 die Wiedergabe von externen Videoinhalten zulässt.
 
 Hier kann dann anhand einer Beispiel-Video-Datei mit eingebetteten Untertiteln,
@@ -44,23 +44,23 @@ die korrekte Zeitstempel gesetzt hat, ein Vergleich angestellt
 werden:
 
 Das Video wird dabei in einem konformen Player abgespielt und zusätzlich in der
-zu testenden Software.
-Wenn die Untertitel in der Software im vergleich zum konformen Player verzögert
-dargestellt werden, ist dieses Problem damit auf die Software zurückzuführen.
+zu testenden Web-App.
+Wenn die Untertitel in der Web-App im vergleich zum konformen Player verzögert
+dargestellt werden, ist dieses Problem damit auf die Web-App zurückzuführen.
 
-Spielt die Software jedoch nur mitgelieferte Videos ab, sollte
-Stichprobenartig geprüft werden, ob es in der Software Videos gibt, bei denen
+Spielt die Web-App jedoch nur mitgelieferte Videos ab, sollte
+Stichprobenartig geprüft werden, ob es in der App Videos gibt, bei denen
 die Untertitel korrekt und damit synchron zum Video dargestellt werden.
-Wenn dies der Fall ist, kann die Software Untertitel prinzipiell korrekt
+Wenn dies der Fall ist, kann die Web-App Untertitel prinzipiell korrekt
 darstellen.
 Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
-höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Software
+höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
 selbst.
 
 ==== Hinweise
 
 In diesem Prüfschritt werden keine Inhalte geprüft!
-Die Software soll lediglich grundsätzlich in der Lage sein, Videos mit
+Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
 Untertiteln synchron darzustellen.
 
 == Quellen
