@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software ein Autorenwerkzeug ist und Vorlagen für die Dokumente, die
+Wenn die Web-App ein Autorenwerkzeug ist und Vorlagen für die Dokumente, die
 es erstellt, anbietet, soll mindestens eines der Vorlagen die Kriterien
 für Web- oder Nicht-Web-Dokumente erfüllen (je nach Dokumententyp).
 Die entsprechenden Kriterien sind in der EN 301 549 im Kapitel 9 und 10 zu
@@ -24,7 +24,7 @@ solche zu identifizieren sein.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
+Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
 Vorlagen für die Dokumente, die es erstellt, anbietet.
 Das App-Test-Verfahren prüft jedoch keine Dokumente.
 Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden,
@@ -39,7 +39,7 @@ bzw -Formate auf Barrierefreiheit geprüft werden müssen.
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
-. App starten
+. App öffnen
 . prüfen, ob die App Vorlagen anbietet
 . prüfen, ob unter den Vorlagen, optimierte Vorlagen für die Barrierefreiheit,
   vorhanden sind, diese müssen deutlich identifizierbar sein
