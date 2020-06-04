@@ -11,17 +11,17 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videos mit Untertiteln überträgt, konvertiert oder
+Wenn die Web-App Videos mit Untertiteln überträgt, konvertiert oder
 aufnimmt, sollen die Untertitel so erhalten bleiben, dass die Prüfschritte
-ifdef::env_embedded[x23 "Wiedergabe von Untertiteln"]
+ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
-  <<x23 EN_7.1.1 Wiedergabe von Untertiteln.adoc#,x23 Wiedergabe von
+  <<7.1.1 Wiedergabe von Untertiteln.adoc#,7.1.1 Wiedergabe von
   Untertiteln>>
 endif::env_embedded[]
 und
-ifdef::env_embedded[x24 "Synchrone Untertitel"]
+ifdef::env_embedded[7.1.2 "Synchrone Untertitel"]
 ifndef::env_embedded[]
-  <<x24 EN_7.1.2 Synchrone Untertitel.adoc#,x24 Synchrone Untertitel>>
+  <<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
 endif::env_embedded[]
 erfüllt werden.
 
@@ -34,7 +34,7 @@ Dazu müssen z. B. die Zeitstempel der Untertitel erhalten bleiben.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videos mit Untertiteln
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Untertiteln
 Übertragen, konvertieren oder aufnehmen kann.
 
 === Prüfung
@@ -44,7 +44,7 @@ vollständig geklärt.
 Hinweise zu diesem Prüfschritt können Sie auf GitHub {web-issue-url}[in
 einem Issue hinterlassen].
 
-Wenn die Software Videos mit Untertiteln konvertiert oder aufnimmt, sollte das
+Wenn die Web-App Videos mit Untertiteln konvertiert oder aufnimmt, sollte das
 Zielvideo in einem konformen Player abgespielt und untersucht werden.
 
 * Sind alle Untertitel ausder Quelle vorhanden?
