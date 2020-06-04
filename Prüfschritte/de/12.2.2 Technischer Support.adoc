@@ -13,13 +13,13 @@ In dieser Tabelle wird auf Abschnitt
 
 Der technische Support (über Telefon, Mail, ...) soll Informationen zur
 Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
-können, die die Software betrifft.
+können, die die Web-App betrifft.
 Dies soll mindestens die Informationen umfassen, die dazu in der
-Software-Dokumentation erwähnt werden (siehe auch Prüfschritt
-ifdef::env_embedded[x34 "Dokumentation von Kompatibilität und Barrierefreiheit"]
+Web-App-Dokumentation erwähnt werden (siehe auch Prüfschritt
+ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
-  <<x34 EN_12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
-  x34 Dokumentation von Kompatibilität und Barrierefreiheit>>
+  <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
+  12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit>>
 endif::env_embedded[]
 
 ).
@@ -37,7 +37,7 @@ vollständig geklärt.
 Hinweise dazu können Sie in einem GitHub {web-issue-url}[Issue hinterlassen].
 
 Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Software-Dokumentation, den technischen Support zu kontaktieren und einige
+Web-App-Dokumentation, den technischen Support zu kontaktieren und einige
 Fragen zur Barrierefreiheit stichprobenartig zu stellen.
 
 Falls möglich, können auch die Dokumente, die dem technischem Support zur
