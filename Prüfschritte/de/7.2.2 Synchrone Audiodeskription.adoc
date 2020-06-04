@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videos mit Audiodeskription abspielen kann, soll die
+Wenn die Web-App Videos mit Audiodeskription abspielen kann, soll die
 Synchronität zwischen Bild und Audiodeskription beim Abspielen erhalten
 bleiben.
 
@@ -19,15 +19,15 @@ bleiben.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audiodeskription
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audiodeskription
 abspielen kann.
 
 === Prüfung
 
-Falls die Software keine eigenen Inhalte bereithält, muss ggf. eine
-Beispiel-Video-Datei mit Audiodeskription in der Software geöffnet werden.
+Falls die Web-App keine eigenen Inhalte bereithält, muss ggf. eine
+Beispiel-Video-Datei mit Audiodeskription in der Web-App geöffnet werden.
 
-. App starten
+. App öffnen
 . prüfen, ob Video-Inhalte mit Audiodeskription in der App zu finden sind
 . ein Video mit Audiodeskription aufrufen
 . prüfen, ob die Audiodeskription synchron zum Bild abgespielt wird
