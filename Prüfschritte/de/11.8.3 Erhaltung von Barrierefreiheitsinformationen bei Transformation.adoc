@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software ein Autorenwerkzeug ist und Umstrukturierungen oder
+Wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen oder
 Funktionen zur Neucodierung bietet, dann werden die Informationen zur
 Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung
 der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren,
@@ -21,7 +21,7 @@ der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren,
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
+Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
 Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur
 Neucodierung bietet.
 
@@ -62,10 +62,10 @@ zum PDF-Dokument:
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
 * ...
 
-Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Software für
+Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für
 die Transformation unterstützt, wiederholt werden.
 
-Auch wenn die Software lediglich die Struktur des Eingangsdokuments verändert,
+Auch wenn die Web-App lediglich die Struktur des Eingangsdokuments verändert,
 muss sichergestellt werden, dass die Ausgangsdatei noch alle, für die
 Barrierefreiheit relevanten, Informationen enthält.
 
