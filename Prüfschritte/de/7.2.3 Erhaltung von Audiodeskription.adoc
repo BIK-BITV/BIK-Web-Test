@@ -11,21 +11,21 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videos mit Audiodeskription überträgt, konvertiert oder
+Wenn die Web-App Videos mit Audiodeskription überträgt, konvertiert oder
 aufnimmt, sollen die Audiodeskriptionen während oder nach dem Vorgang erhalten
 bleiben.
 
 In einem konformen Player sollen dabei in Zusammenhang mit dem Zielvideo die
 Prüfschritte
-ifdef::env_embedded[x26 "Wiedergabe von Audiodeskription"]
+ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
-  <<x26 EN_7.2.1 Wiedergabe von Audiodeskription.adoc#,x26 Wiedergabe von
+  <<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von
   Audiodeskription>>
 endif::env_embedded[]
 und
-ifdef::env_embedded[x27 "Synchrone Audiodeskription"]
+ifdef::env_embedded[7.2.2 "Synchrone Audiodeskription"]
 ifndef::env_embedded[]
-  <<x27 EN_7.2.2 Synchrone Audiodeskription.adoc#,x27 Synchrone
+  <<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone
   Audiodeskription>>
 endif::env_embedded[]
 erfüllt werden.
@@ -37,7 +37,7 @@ laufen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audiodeskription
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audiodeskription
 übertragen, konvertieren oder aufnehmen kann.
 
 === Prüfung
@@ -46,15 +46,15 @@ Dieser Prüfschritt benötigt noch einige Hinweise für die Prüfpraxis, dazu
 kann auf GitHub {web-issue-url}[ein Issue hinterlassen] werden.
 
 Für die Prüfung ist ggf. ein Player notwendig, der mit den Prüfschritten
-ifdef::env_embedded[x26 "Wiedergabe von Audiodeskription"]
+ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
-  <<x26 EN_7.2.1 Wiedergabe von Audiodeskription.adoc#,x26 Wiedergabe von
+  <<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von
   Audiodeskription>>
 endif::env_embedded[]
 und
-ifdef::env_embedded[x27 "Synchrone Audiodeskription"]
+ifdef::env_embedded[7.2.2 "Synchrone Audiodeskription"]
 ifndef::env_embedded[]
-  <<x27 EN_7.2.2 Synchrone Audiodeskription.adoc#,x27 Synchrone
+  <<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone
   Audiodeskription>>
 endif::env_embedded[]
 konform ist.
