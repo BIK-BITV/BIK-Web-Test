@@ -11,16 +11,16 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software ein Autorenwerkzeug ist und Funktionen zur Erkennung von
+Wenn die Web-App ein Autorenwerkzeug ist und Funktionen zur Erkennung von
 Barrierefreiheitsproblemen in Dokumenten, die das Werkzeug unterstützt,
-anbietet, soll die Software Vorschläge zur Reparatur dieser Probleme machen.
+anbietet, soll die Web-App Vorschläge zur Reparatur dieser Probleme machen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
-Probleme in Bezug auf Barrierefreiheit in den Dokumenten, welche die Software
+Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
+Probleme in Bezug auf Barrierefreiheit in den Dokumenten, welche die Web-App
 erstellen kann, detektieren kann.
 
 === Prüfung
@@ -28,7 +28,7 @@ erstellen kann, detektieren kann.
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
-Wenn die Software Probleme im Bereich Barrierefreiheit in den Dokumenten
+Wenn die Web-App Probleme im Bereich Barrierefreiheit in den Dokumenten
 erkennt und auflistet, sollen für die einzelnen Probleme Hinweise für die
 Reparatur gegeben werden.
 
