@@ -11,25 +11,25 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videos mit Audio-Inhalten abspielen kann, sollen verfügbare
+Wenn die Web-App Videos mit Audio-Inhalten abspielen kann, sollen verfügbare
 Untertitel in den Quell-Video-Dateien synchron zum Video abgespielt werden
 können.
-Für diese Anforderung kann die Software einen separaten Modus bereitstellen.
+Für diese Anforderung kann die Web-App einen separaten Modus bereitstellen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audio-Inhalten
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audio-Inhalten
 abspielen kann.
 
 === Prüfung
 
-Wenn die Software die Wiedergabe von externen bzw. eigenen Videos erlaubt,
+Wenn die Web-App die Wiedergabe von externen bzw. eigenen Videos erlaubt,
 müssen die Untertitel von Videos mit eingebetteten Untertiteln (closed
 captions) synchron zum Video angezeigt werden können.
 
-Wenn die Software die Wiedergabe von externen bzw. eigenen Videos *nicht*
+Wenn die Web-App die Wiedergabe von externen bzw. eigenen Videos *nicht*
 zulässt sondern nur mitgelieferte Videos abspielt, muss die Software
 Untertitel anzeigen können, wenn diese mitgelieferten Videos mindestens
 teilweise eingebettete Untertitel (closed captions) enthalten.
@@ -40,16 +40,16 @@ Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 
 ==== Prüfung mit externen Videos
 
-Wenn die Software externe bzw. eigene Videos abspielen kann, kann ein eigenes
+Wenn die Web-App externe bzw. eigene Videos abspielen kann, kann ein eigenes
 Video mit eingebetteten Untertiteln (closed captions) für die Prüfung in der
-Software abgespielt werden.
+Web-App abgespielt werden.
 
-Die Software muss in diesem Fall die Möglichkeit bieten, die eingebetteten
+Die App muss in diesem Fall die Möglichkeit bieten, die eingebetteten
 Untertitel synchron zum Video abzuspielen.
 
 ==== Hinweise
 
-Wird eine Braillezeile angeschlossen, sollte die Software eine Funktion zur
+Wird eine Braillezeile angeschlossen, sollte die Web-App eine Funktion zur
 Verfügung stellen, um die eingebetteten Untertitel auf dieser anzuzeigen.
 
 == Quellen
