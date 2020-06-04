@@ -11,37 +11,37 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Videos mit Audio abspielen kann, sollen dabei enthaltene
+Wenn die Web-App Videos mit Audio abspielen kann, sollen dabei enthaltene
 Audiodeskriptionen abspielbar sein.
 
-Wenn die Software die auswahl von Tonspuren erlaubt, ist dieser Prüfschritt
+Wenn die Web-App die auswahl von Tonspuren erlaubt, ist dieser Prüfschritt
 ebenfalls erfüllt.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videos mit Audio abspielen
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audio abspielen
 kann.
 
 === Prüfung
 
 ==== Prüfung mit externem Beispiel-Video
 
-Wenn die Software externe Videos abspielen kann, kann der Prüfschritt mit
+Wenn die Web-App externe Videos abspielen kann, kann der Prüfschritt mit
 einer Beispiel-Video-Datei mit Audiodeskription getestet werden.
 Diese Beispieldatei wird dann in der App geöffnet.
-Um den Prüfschritt zu erfüllen, muss die Software dann eine Funktion zum
+Um den Prüfschritt zu erfüllen, muss die Web-App dann eine Funktion zum
 Abspielen der Audiodeskription anbieten.
 Alternativ muss die Möglichkeit bestehen, andere, im Video enthaltene,
 Tonspuren auszuwählen.
 
 ==== Prüfung anhand mitgelieferter Videos
 
-Unterstützt die Software nur die Wiedergabe mitgelieferter Videos, wird
+Unterstützt die Web-App nur die Wiedergabe mitgelieferter Videos, wird
 stichprobenartig geprüft, ob sich darunter Videos mit Audiodeskription
 befinden.
-Die Software muss dann eine Möglichkeit bieten, die Videos mit
+Die Web-App muss dann eine Möglichkeit bieten, die Videos mit
 Audiodeskription abzuspielen.
 
 == Quellen
