@@ -36,7 +36,9 @@ einschränken.
 
 === 1Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Die Prüfung des Wechsels derBildschirmausrichtung sollte  immer anwendbar
+sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung
+funktionieren.
 
 === 2Prüfung
 
