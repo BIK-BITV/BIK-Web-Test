@@ -11,16 +11,22 @@ einer unerwarteten Kontextänderung führen.
 
 Unerwartete und unangekündigte Kontextänderungen bei von Fokussierung einer
 Komponente (z.Bdas automatisches Abschicken von Formularen), können die
-Orientierung von Nutzern beeinträchtigenKontextänderungen auf der Seite selbst
+Orientierung von Nutzern beeinträchtigen.
+Kontextänderungen auf der Seite selbst
 können Nutzer ablenken und verwirren oder auch unbemerkt bleiben und dadurch
-für Verwirrung sorgenSie sollten deshalb erwartet und klar nachvollziehbar
+für Verwirrung sorgen.
+Sie sollten deshalb erwartet und klar nachvollziehbar
 sein.
 
 Das Öffnen neuer Fenster bei Fokussierung einer Komponente oder beim Laden
-einer Seite kann die Orientierung des Benutzers ebenfalls beeinträchtigenDas
-gilt ganz besonders für blinde und sehbehinderte BenutzerSie bemerken
-möglicherweise nicht, dass sich der Kontext geändert hatWenn das neue Fenster
-den Fokus erhält, funktioniert der Zurück-Button des Browsers nicht mehrDer
+einer Seite kann die Orientierung des Benutzers ebenfalls beeinträchtigen.
+Das
+gilt ganz besonders für blinde und sehbehinderte Benutzer.
+Sie bemerken
+möglicherweise nicht, dass sich der Kontext geändert hat.
+Wenn das neue Fenster
+den Fokus erhält, funktioniert der Zurück-Button des Browsers nicht mehr.
+Der
 Überblick kann verloren gehen, möglicherweise wird dann versehentlich das
 falsche Fenster (mit der History der bislang besuchten Seiten) geschlossen.
 
@@ -34,7 +40,8 @@ Der Prüfschritt ist immer anwendbar.
 
 Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
 [#F52]Das Laden der Seite sollte kein neues Fenster öffnen.
-Mit der Tabulatortaste die Links und Formularelemente durchgehenDer
+Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+Der
 Fokuserhalt soll keine automatischen Kontextänderungen (etwa Pop-up-Fenster
 oder automatisches Abschicken von Formularen) auslösen.
 
@@ -77,14 +84,17 @@ Kontextänderung.
 
 == Fragen zu diesem Prüfschritt
 
-=== Der Prüfschritt bezieht sich nur auf das Öffnen neuer Fenster beim Laden der SeiteErlaubt die BITV 2.0 jetzt das unangekündigte Öffnen von neuen Fenstern über Links?
+=== Der Prüfschritt bezieht sich nur auf das Öffnen neuer Fenster beim Laden der Seite.
+Erlaubt die BITV 2.0 jetzt das unangekündigte Öffnen von neuen Fenstern über Links?
 
 Die WCAG empfehlen in den _Advisory Techniques_ https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200] und https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201], das Öffnen neuer Fenster auf Fälle zu beschränken, in denen das aus einer Zugänglichkeitsperspektive sinnvoll ist und Benutzer zuvor über das Öffnen eines neuen Fensters zu informieren (etwa als Teil des Links, der das Fenster öffnet).
 
 Das unangekündigte Öffnen neuer Fenster bei der Aktivierung von Links wird
-jedoch grundsätzlich akzeptiertDies ist dadurch gerechtfertigt, das moderne
+jedoch grundsätzlich akzeptiert.
+Dies ist dadurch gerechtfertigt, das moderne
 Benutzeragenten Einstellungsmöglichkeiten für den Umgang mit automatisch
-öffnenden Fenstern bietenIn den meisten aktuellen Browser-Versionen lässt sich
+öffnenden Fenstern bieten.
+In den meisten aktuellen Browser-Versionen lässt sich
 inzwischen festlegen, ob neue Fenster also zusätzliches Browser-Fenster oder
 in einem Tab (Registrierkarte) geöffnet werden sollen oder ob unangekündigte
 Fenster grundsätzlich unterdrückt werden sollen (Stichwort

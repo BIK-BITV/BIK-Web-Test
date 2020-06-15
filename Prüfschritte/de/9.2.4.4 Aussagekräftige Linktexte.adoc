@@ -21,19 +21,23 @@ Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
 
 Screenreader bieten die Möglichkeit der Auflistung sämtlicher Links der Seite
 und damit einen schnellen Überblick, selbst wenn die Seite ansonsten schlecht
-zugänglich istDiese Technik funktioniert allerdings nicht, wenn alle Linktexte
+zugänglich ist.
+Diese Technik funktioniert allerdings nicht, wenn alle Linktexte
 gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
 
 Für Angebote in anderen Formaten als HTML (zum Beispiel PDF- oder
 Word-Dokumente) benötigt der Benutzer zusätzliche Programme oder Plugins, die
-aber nicht jeder auf seinem Rechner installiert hatManche Programme arbeiten
+aber nicht jeder auf seinem Rechner installiert hat.
+Manche Programme arbeiten
 schlecht mit Screenreadern oder anderen Hilfsanwendungen zusammen, manche
-Dateiformate sind nicht oder nur schlecht zugänglichFür viele Benutzer ist es
+Dateiformate sind nicht oder nur schlecht zugänglich.
+Für viele Benutzer ist es
 wichtig zu wissen, in welchem Format Informationen angeboten werden, bevor sie
 einen Link aktivieren.
 
 Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
-wichtig ist: Der Benutzer weiß dann, was auf ihn zukommtEr ist nicht
+wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt.
+Er ist nicht
 überrascht oder irritiert, wenn plötzlich Browserfunktionen nicht mehr
 vorhanden sind oder der E-Mail-Client geöffnet wird.
 
@@ -77,7 +81,8 @@ Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wi
 * Der Linktext kann auch aus dem ``alt``-Text einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
 * Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten `li`-Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
 * Zusätzlicher, per CSS unsichtbar gemachter Linktext darf nicht via `display:none` versteckt werden: er wird sonst von Screenreadern ignoriert.
-* Das ``title``-Attribut eines Links wird in manchen Fällen nicht von Screenreadern ausgewertetEs ist gemäß Spezifikation für zusätzliche Informationen gedacht.
+* Das ``title``-Attribut eines Links wird in manchen Fällen nicht von Screenreadern ausgewertet.
+Es ist gemäß Spezifikation für zusätzliche Informationen gedacht.
 
 === 4Bewertung
 
@@ -94,17 +99,21 @@ Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wi
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des `img`-ElementsDie
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des `img`-Elements.
+Die
 Aussagekraft des ``alt``-Textes wird jedoch geprüft in:
 
 * Prüfschritt link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente"
 
 In diesem Prüfschritt wird nur geprüft, ob die Information über das
-Dateiformat überhaupt vorhanden istDas ist der Fall, wenn das Dateiformat in
+Dateiformat überhaupt vorhanden ist.
+Das ist der Fall, wenn das Dateiformat in
 einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
 
-Nicht geprüft wird, ob die Information auch gut zugänglich istDafür reicht die
-alleinige Anzeige als Grafik nicht ausWenn das Dateiformat mit einer Grafik
+Nicht geprüft wird, ob die Information auch gut zugänglich ist.
+Dafür reicht die
+alleinige Anzeige als Grafik nicht aus.
+Wenn das Dateiformat mit einer Grafik
 angezeigt wird, muss geprüft werden, ob diese Information auch als Text
 verfügbar ist.
 
@@ -158,9 +167,12 @@ verfügbar ist.
 
 ____
 Assistive technology has the ability to provide users with a list of links
-that are on the Web pageLink text that is as meaningful as possible will aid
-users who want to choose from this list of linksMeaningful link text also
-helps those who wish to tab from link to linkMeaningful links help users
+that are on the Web page.
+Link text that is as meaningful as possible will aid
+users who want to choose from this list of links.
+Meaningful link text also
+helps those who wish to tab from link to link.
+Meaningful links help users
 choose which links to follow without requiring complicated strategies to
 understand the page.
 ____
@@ -170,7 +182,8 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html
 === Gruppen zusammengehöriger Links
 
 Bei einer Gruppe zusammengehöriger Links kann im ersten Link Ziel oder Zweck
-genannt werden und in den folgenden Links unterscheidende InformationenDie
+genannt werden und in den folgenden Links unterscheidende Informationen.
+Die
 WCAG 2.1 geben folgendes Beispiel:
 
 ____
@@ -186,10 +199,13 @@ Whenever possible, provide link text that identifies the purpose of the link
 without needing additional context.
 
 In some situations, authors may want to provide part of the description of the
-link in logically related text that provides the context for the linkIn this
+link in logically related text that provides the context for the link.
+In this
 case the user should be able to identify the purpose of the link without
-moving focus from the linkIn other words, they can arrive on a link and find
-out more about it without losing their placeThis can be achieved by putting
+moving focus from the link.
+In other words, they can arrive on a link and find
+out more about it without losing their place.
+This can be achieved by putting
 the description of the link in the same sentence, paragraph, list item, the
 heading immediately preceding the link, or table cell as the link, or in the
 table header cell for a link in a data table, because these are directly
@@ -202,29 +218,37 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html
 
 ____
 The `title` attribute is used to provide additional information to help
-clarify or further describe the purpose of a linkIf the supplementary
+clarify or further describe the purpose of a link.
+If the supplementary
 information provided through the `title` attribute is something the user
 should know before following the link, such as a warning, then it should be
 provided in the link text rather than in the title attribute.
 
-Because of the extensive user agent limitations in supporting access to the `title` attribute, authors should use caution in applying this techniqueFor this reason, it is preferred that the author use technique https://www.w3.org/WAI/WCAG21/Techniques/css/C7.html[C7: Using CSS to hide a portion of the link text] (CSS) or https://www.w3.org/WAI/WCAG21/Techniques/html/H30.html[H30: Providing link text that describes the purpose of a link for anchor elements] (HTML).
+Because of the extensive user agent limitations in supporting access to the `title` attribute, authors should use caution in applying this technique.
+For this reason, it is preferred that the author use technique https://www.w3.org/WAI/WCAG21/Techniques/css/C7.html[C7: Using CSS to hide a portion of the link text] (CSS) or https://www.w3.org/WAI/WCAG21/Techniques/html/H30.html[H30: Providing link text that describes the purpose of a link for anchor elements] (HTML).
 ____
 
 Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[H33: Supplementing link text with the title attribute]
 
 == Fragen zu diesem Prüfschritt
 
-=== Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe Seite verlinktDas beeinträchtigt die Brauchbarkeit der von Screenreadern generierten LinklistenWie wird das bewertet?
+=== Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe Seite verlinkt.
+Das beeinträchtigt die Brauchbarkeit der von Screenreadern generierten Linklisten.
+Wie wird das bewertet?
 
 Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste
-unpraktisch, sie machen die Liste länger und unübersichtlicherUnbrauchbar wird
+unpraktisch, sie machen die Liste länger und unübersichtlicher.
+Unbrauchbar wird
 die Linkliste aber nicht, solange durch die Linktexte deutlich wird, dass es
 sich mehrfache Links auf dasselbe Ziel handelt.
 
 Für sehende Nutzer kann die Mehrfachverlinkung von Überschrift, Abbildung und
-mehr-Link dagegen praktisch seinSie müssen nicht erst nach einem kleinen
+mehr-Link dagegen praktisch sein.
+Sie müssen nicht erst nach einem kleinen
 mehr-Link am Ende des Anreißertexts suchen, sondern können auf das meist
 größere und damit leichter zu treffende Bild oder auch gleich auf die
 Überschrift klicken.
 
-Hier gibt es also kein "richtig" oder "falsch", die verschiedenen Ansätze haben alle ihre Vor- und NachteileWichtig ist, dass alle Linktexte so aussagekräftig sind, dass der Benutzer die Mehrfachverlinkung in der Linkliste erkennen kannWenn das sichergestellt ist, wird Mehrfachverlinkung nicht negativ bewertet.
+Hier gibt es also kein "richtig" oder "falsch", die verschiedenen Ansätze haben alle ihre Vor- und Nachteile.
+Wichtig ist, dass alle Linktexte so aussagekräftig sind, dass der Benutzer die Mehrfachverlinkung in der Linkliste erkennen kann.
+Wenn das sichergestellt ist, wird Mehrfachverlinkung nicht negativ bewertet.

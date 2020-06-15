@@ -36,7 +36,8 @@ bzw -Formate auf Barrierefreiheit geprüft werden müssen.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
+Hub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
 . App öffnen

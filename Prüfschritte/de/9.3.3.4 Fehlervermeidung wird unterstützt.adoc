@@ -6,18 +6,23 @@ include::include/attributes.adoc[]
 
 Bei wichtigen Dateneingaben (etwa bei finanziellen Transaktionen) gibt es die
 Möglichkeit, die Dateneingabe rückgängig zu machen oder sie vor dem Abschicken
-zu überprüfen und zu korrigierenErfolgreiche Eingaben werden bestätigt.
+zu überprüfen und zu korrigieren.
+Erfolgreiche Eingaben werden bestätigt.
 
 == Warum wird das geprüft?
 
-Bei jeder Dateneingabe können Fehler passierenGerade wenn sich der Prozess
+Bei jeder Dateneingabe können Fehler passieren.
+Gerade wenn sich der Prozess
 nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die
 eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
 
-Dies ist für alle Benutzer wichtigFür Benutzer mit Behinderungen ist jedoch in
-vielen Fällen das Risiko von Fehleingaben größerBenutzer mit Legastenie
+Dies ist für alle Benutzer wichtig.
+Für Benutzer mit Behinderungen ist jedoch in
+vielen Fällen das Risiko von Fehleingaben größer.
+Benutzer mit Legastenie
 vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken
-häufiger versehentlich falsche TastaturtastenDeshalb ist das Rückgängig-Machen
+häufiger versehentlich falsche Tastaturtasten.
+Deshalb ist das Rückgängig-Machen
 oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten
 für diese Benutzer besonders wichtig.
 
@@ -26,12 +31,14 @@ für diese Benutzer besonders wichtig.
 === 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen
-enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehenDazu
+enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehen.
+Dazu
 gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
 
 === 2Prüfung
 
-Formular mit Beispieldaten ausfüllen und Prozess fortsetzenEine der folgenden
+Formular mit Beispieldaten ausfüllen und Prozess fortsetzen.
+Eine der folgenden
 drei Optionen soll erfüllt sein:
 
 [#G98]**Datenanzeige mit Korrekturmöglichkeit.** Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
@@ -40,7 +47,10 @@ drei Optionen soll erfüllt sein:
 
 === 3Hinweise
 
-Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem endgültigen Abschicken des FormularsSolche Checkboxen werden häufig für formalrechtlich relevante Funktionen genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines AnbietersSie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und routinemäßig gesetztFür die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
+Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem endgültigen Abschicken des Formulars.
+Solche Checkboxen werden häufig für formalrechtlich relevante Funktionen genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines Anbieters.
+Sie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und routinemäßig gesetzt.
+Für die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
 
 [#G199]Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 
@@ -49,7 +59,8 @@ Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit
 ==== Nicht voll erfüllt:
 
 * Daten werden vor dem Abschicken zum Überprüfen angezeigt, es gibt aber keinen expliziten Link zurück zum Formular, um Daten zu korrigieren oder zu ergänzen.
-* [#G155]Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die Möglichkeit der unmittelbaren RückabwicklungZum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkbox über dem "Abschicken"-Button.
+* [#G155]Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die Möglichkeit der unmittelbaren Rückabwicklung.
+Zum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkbox über dem "Abschicken"-Button.
 * Nach dem erfolgreichen Abschicken gibt es keine Bestätigung.
 
 ==== Nicht erfüllt:

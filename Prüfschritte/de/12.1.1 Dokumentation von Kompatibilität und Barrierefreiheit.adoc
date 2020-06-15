@@ -29,7 +29,8 @@ werden.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
+Hub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
 Alle für die Barrierefreiheit relevanten Informationen zur Web-App sollen
@@ -66,7 +67,8 @@ are built-in and accessibility features that provide compatibility with
 assistive technology. 
 
 NOTE 2:
-It is best practice to use WebSchemas/Accessibility 2.0 [i.38] to provide meta
+It is best practice to use Web.
+Schemas/Accessibility 2.0 [i.38] to provide meta
 data on the accessibility of the ICT.
 
 NOTE 3:

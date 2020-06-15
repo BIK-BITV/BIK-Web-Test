@@ -6,7 +6,8 @@ include::include/attributes.adoc[]
 
 Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine
 semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes
-ermöglichenGeeignet dafür ist zur Zeit das HTML `autocomplete`-Attribut, mit
+ermöglichen.
+Geeignet dafür ist zur Zeit das HTML `autocomplete`-Attribut, mit
 dem sich der Eingabezweck für Felder wie etwa Name, E-Mail oder Telefonnummer
 ebenso wie für Adress-Daten oder Kreditkarten-Daten definieren lässt.
 
@@ -22,15 +23,18 @@ Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten
 Beschriftung des Feldes und unabhängig von der natürlichen Sprache des
 Angebots.
 
-Zusätzliche Informationen können etwa Bilder bzwIcons sein, die über ein
+Zusätzliche Informationen können etwa Bilder bzw.
+Icons sein, die über ein
 Browser-Plugin oder eine externe assistive Technologie bereitgestellt werden
 und über bzwvor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer
-eine bestimmte Tastenkombunation drückenFür Menschen, die Schwierigkeiten mit
+eine bestimmte Tastenkombunation drücken.
+Für Menschen, die Schwierigkeiten mit
 dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies
 eine Identifizierung von nutzerbezogenen Feldern in Formularen.
 
 Darüber hinaus bietet `autocomplete` Eingabevorschläge für das Feld, welche
-Nutzer einfach übernehmen könnenDas erleichtert die Texteingabe.
+Nutzer einfach übernehmen können.
+Das erleichtert die Texteingabe.
 
 == Wie wird geprüft?
 
@@ -49,10 +53,13 @@ _tel_ etwa sollte nicht für eine Kreditkartennummer verwendet werden).
 === 3Hinweis
 
 Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst
-beziehenSie gilt nicht für Seiten, auf denen die Eingabe von persönlichen
+beziehen.
+Sie gilt nicht für Seiten, auf denen die Eingabe von persönlichen
 Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht
-besonders gekennzeichnet sindEin Beispiel dafür sind Ticketbuchungsseiten von
-FluglinienHier sind die Eingabefelder für den Nutzer nicht von den Feldern für
+besonders gekennzeichnet sind.
+Ein Beispiel dafür sind Ticketbuchungsseiten von
+Fluglinien.
+Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für
 Mitreisende unterscheidbar.
 
 === 4Bewertung

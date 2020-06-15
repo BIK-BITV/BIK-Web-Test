@@ -44,11 +44,14 @@ Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate u
 
 Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als
 eigenständige Abschnitte gefasst sind) mit dem vorgesehenen
-HTML-Strukturelement `q` ausgezeichnet sindIn Bezug auf die Zugänglichkeit ist
+HTML-Strukturelement `q` ausgezeichnet sind.
+In Bezug auf die Zugänglichkeit ist
 der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit
-normalen Anführungszeichen geringZudem gibt es technische Probleme: Der
+normalen Anführungszeichen gering.
+Zudem gibt es technische Probleme: Der
 Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit
-AnführungszeichenMan müsste also zusätzlich Anführungszeichen setzen, was aber
+Anführungszeichen.
+Man müsste also zusätzlich Anführungszeichen setzen, was aber
 in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen
 würde.
 

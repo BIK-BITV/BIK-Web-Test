@@ -27,7 +27,8 @@ Der Prüfschritt ist immer anwendbar.
 === 3Hinweis zur Abwertung
 
 Wenn die Seite größere flackernde Elemente enthält, wird das Gesamtergebnis
-der Prüfung abgewertetFlackern wird dadurch hervorgerufen, dass die Farbe oder
+der Prüfung abgewertet.
+Flackern wird dadurch hervorgerufen, dass die Farbe oder
 das Muster einer Fläche pro Sekunde mindestens 4 mal wechselt.
 
 == Einordnung des Prüfschritts
@@ -73,9 +74,12 @@ Quelle: https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-thres
 ____
 Note: The terms "blinking" and "flashing" can sometimes refer to the same content.
 
-* "Blinking" refers to content that causes a distraction problemBlinking can be allowed for a short time as long as it stops (or can be stopped)
-* "Flashing" refers to content that can trigger a seizure (if it is more than 3 per second and large and bright enough)This cannot be allowed even for a second or it could cause a seizureAnd turning the flash off is also not an option since the seizure could occur faster than most users could turn it off.
-* Blinking usually does not occur at speeds of 3 per second or more, but it canIf blinking occurs faster than 3 per second, it would also be considered a flash.
+* "Blinking" refers to content that causes a distraction problem.
+Blinking can be allowed for a short time as long as it stops (or can be stopped)
+* "Flashing" refers to content that can trigger a seizure (if it is more than 3 per second and large and bright enough)This cannot be allowed even for a second or it could cause a seizure.
+And turning the flash off is also not an option since the seizure could occur faster than most users could turn it off.
+* Blinking usually does not occur at speeds of 3 per second or more, but it can.
+If blinking occurs faster than 3 per second, it would also be considered a flash.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[Pause, Stop, Hide: Understanding SC 2.2.2]

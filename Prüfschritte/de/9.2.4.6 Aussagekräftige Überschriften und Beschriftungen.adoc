@@ -9,7 +9,8 @@ sinngebend.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-Inhalte durch Überschriften strukturiertDank dieser
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiert.
+Dank dieser
 Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der
 Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn
 interessieren.
@@ -45,7 +46,8 @@ sind, was aber nicht zu einer negativen Bewertung führen soll.
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und BeschriftungenDie programmatische Ermittelbarkeit durch Assistive Technologien ist den Prüfkriterien link:/index.php?a=di&iid=72&s=n[1.3.1a] "HTML-Strukturelemente für Überschriften" und link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar" zugeordnet.
+In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und Beschriftungen.
+Die programmatische Ermittelbarkeit durch Assistive Technologien ist den Prüfkriterien link:/index.php?a=di&iid=72&s=n[1.3.1a] "HTML-Strukturelemente für Überschriften" und link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar" zugeordnet.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

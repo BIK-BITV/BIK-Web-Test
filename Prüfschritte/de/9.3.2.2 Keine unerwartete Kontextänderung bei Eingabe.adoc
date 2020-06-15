@@ -5,7 +5,8 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Nutzereingaben auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen
-führenAlle Kontextänderungen müssen unterhalb des auslösenden Elements
+führen.
+Alle Kontextänderungen müssen unterhalb des auslösenden Elements
 geschehen und sollen klar nachvollziehbar sein, der Fokus soll nicht versetzt
 werden.
 
@@ -14,7 +15,8 @@ werden.
 Unerwartete und unangekündigte Kontextänderungen bei einer Auswahl in
 Formularen (etwa eine Checkbox oder ein Radio-Button, deren Auswahl eine neue
 Seite aufruft, oder eine Auswahlliste ohne Submit-Button, die auf `onchange`
-reagiert) können die Orientierung von Nutzern beeinträchtigenKontextänderungen
+reagiert) können die Orientierung von Nutzern beeinträchtigen.
+Kontextänderungen
 auf der Seite selbst können Nutzer ablenken und verwirren oder auch unbemerkt
 bleiben und dadurch für Verwirrung sorgen (plötzlich sind Inhalte
 verändert)Sie sollten deshalb erwartet und klar nachvollziehbar sein.
@@ -30,7 +32,8 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 === 2Prüfung
 
 Seite im Browser (Chrome oder Firefox) aufrufen.
-[#F36][#F37]Formularelemente (Checkboxes, Radio Buttons, Auswahllisten) ausprobierenWerden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
+[#F36][#F37]Formularelemente (Checkboxes, Radio Buttons, Auswahllisten) ausprobieren.
+Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
 [#G80][#H32][#H84][#F9][#F60]Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen zusätzlicher Formularfelder)Sind die Inhaltsänderungen begrenzt und gut nachvollziehbar [#G13][#F76]oder werden *vor* dem auslösenden Element angekündigt bzwerklärt?
 Prüfen, ob Inhaltsänderungen *unterhalb* des Elements, das sie auslöst, hervorgerufen werden.
 Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa
@@ -39,7 +42,8 @@ dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen.
 === 3Hinweise
 
 Fehlermeldungen, die über die Javascript-Funktion `alert()` ausgegeben werden,
-gelten nicht als Pop-Ups im Sinne des PrüfschrittsDenn sie öffnen sich als
+gelten nicht als Pop-Ups im Sinne des Prüfschritts.
+Denn sie öffnen sich als
 Antwort auf Benutzereingaben und sie sind modal, in Hinblick auf die
 Orientierung daher unproblematisch.
 
@@ -49,7 +53,8 @@ einer Such-Funktion, sollen nicht den aktuellen Fokus versetzen.
 
 Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:
 
-* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung erscheinenAuch das Auslösen von Sprunglinks zu Ankern auf derselben Seite ist als Kontextänderung zu betrachten.
+* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung erscheinen.
+Auch das Auslösen von Sprunglinks zu Ankern auf derselben Seite ist als Kontextänderung zu betrachten.
 * Davon abgrenzen muss man bloße Inhaltsänderungen (in den WCAG 2.1: _changes of content_)Diese liegen vor, wenn etwa die Auswahl in einer Auswahlliste (`select`) die Inhalte einer darunter befindlichen Auswahlliste dynamisch aktualisiert (etwa: die Wahl eines Kontinents aktualisiert eine Auswahlliste mit Ländern)Auch das Ausklappen zusätzlicher Formularbereiche _unterhalb_ des auslösenden Elements kann als Inhaltsänderung gelten, wenn Fokus und Scrollstatus der Seite unverändert bleiben.
 
 Ob Änderungen _unerwartet_ sind oder nicht, lässt sich nur aus dem

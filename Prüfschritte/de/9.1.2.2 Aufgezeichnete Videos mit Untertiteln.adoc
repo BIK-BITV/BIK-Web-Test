@@ -9,7 +9,8 @@ Untertitel als Alternative bereitgestellt werden.
 
 == Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehenDaher muss für Menschen
+Filme sind in der Regel ohne den Ton nicht zu verstehen.
+Daher muss für Menschen
 mit Hörbehinderung der Inhalt der Tonspur durch Untertitel bereitgestellt
 werden.
 
@@ -21,7 +22,8 @@ Personen, die mit der Sprache des Films nicht vertraut sind.
 === 1Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn aufgezeichnete Videos mit synchroner Bild- und Tonspur vorhanden sind.
-* Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für sie nicht anwendbarAlternativen für Videos ohne Tonspur werden in Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen" geprüft.
+* Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für sie nicht anwendbar.
+Alternativen für Videos ohne Tonspur werden in Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen" geprüft.
 
 === [#G87][#G93]2Prüfung auf Untertitel
 
@@ -29,7 +31,8 @@ Das Video wird im auf der Website eingebundenen Player oder in einem externen,
 vom Format abhängigen Video-Player abgespielt.
 Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
 oder zugeschaltet werden können.
-[#F8][#F75]Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechenDies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
+[#F8][#F75]Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen.
+Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
 
 === 3Prüfung von Videos als Medienalternative
 
@@ -43,7 +46,8 @@ Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton transpo
 
 ==== Erfüllt:
 
-* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte Untertitel, die alle Informationen der Tonspur enthaltenDazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
+* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte Untertitel, die alle Informationen der Tonspur enthalten.
+Dazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
 
 ==== Teilweise erfüllt
 
@@ -68,7 +72,10 @@ Die Untertitelung von Live-Videos wird in Prüfschritt 1.2.4a geprüft.
 
 ==== Stumme Videodateien
 
-Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und akustischen InformationenDer Prüfschritt ist relevant, wenn für das Verständnis eines Elements die parallele Wahrnehmung von Bild und Ton erforderlich istEin einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann nicht (mehr) ausreichendStumme Video-Dateien werden im Prüfschritt Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Alternativen für Audiodateien und stumme Videos" geprüft.
+Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und akustischen Informationen.
+Der Prüfschritt ist relevant, wenn für das Verständnis eines Elements die parallele Wahrnehmung von Bild und Ton erforderlich ist.
+Ein einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann nicht (mehr) ausreichend.
+Stumme Video-Dateien werden im Prüfschritt Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Alternativen für Audiodateien und stumme Videos" geprüft.
 
 ==== Alternativtexte für Objekte
 
@@ -121,7 +128,9 @@ Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder App
 === Zum Stellenwert von Untertiteln und Gebärdensprache:
 
 ____
-Sign languages for the Deaf (I know of three used in english-speaking countries besides "signed english") normally have their own grammar and syntax, their own ways of adding emphasis or modifying the "tone" of a statementThey are generally recognised as being languages in their own right, and not just a pictorial representation of words in a spoken languageWhich brings up all the problems associated with translation - it is not easy, and automatic translators are still quite primitive.
+Sign languages for the Deaf (I know of three used in english-speaking countries besides "signed english") normally have their own grammar and syntax, their own ways of adding emphasis or modifying the "tone" of a statement.
+They are generally recognised as being languages in their own right, and not just a pictorial representation of words in a spoken language.
+Which brings up all the problems associated with translation - it is not easy, and automatic translators are still quite primitive.
 
 This explains why sign language users (not all people who are deaf are sign users) generally prefer sign language interpretation to captioning - with captions they have to read what amounts to a foreign language, and reading text is not a skill that is easy to acquire without hearing (since it is based on an abstract representation of the sound of a language, whereas sign languages tend to be based on an abstract representation of visual experience of the world, and since sign languages generally don't have a written form).
 
@@ -131,15 +140,20 @@ foreign language for chat systems etc is important.
 Note that typically this applies to the minority who lose their hearing before they learn to speak a language - people who are hearing impaired or lose their hearing later in life, tend to be more (or often only) proficient in a spoken/written language, so captions are indeed necessary.
 ____
 
-Quelle: http://lists.w3.org/Archives/Public/w3c-wai-ig/2003JulSep/0222.html
+Quelle: http://lists.w3.org/Archives/Public/w3c-wai-ig/2003Jul.
+Sep/0222.html
 
 == Fragen zu diesem Prüfschritt
 
 === Können an Stelle der Untertitel auch Filme mit gebärdensprachlicher Darstellung eingeblendet werden?
 
 Solche Filme sind hilfreich für Personen, die über Gebärdensprache
-kommunizierenMeist sind das Personen, die gehörlos geboren oder schon früh
-ertaubt sindDagegen können Personen, die erst im Alter ertaubt sind, in der
-Regel nicht über Gebärdensprache kommunizierenSie benötigen
-UntertitelGebärdensprachliche Darstellungen sind also kein Ersatz für die
+kommunizieren.
+Meist sind das Personen, die gehörlos geboren oder schon früh
+ertaubt sind.
+Dagegen können Personen, die erst im Alter ertaubt sind, in der
+Regel nicht über Gebärdensprache kommunizieren.
+Sie benötigen
+Untertitel.
+Gebärdensprachliche Darstellungen sind also kein Ersatz für die
 Untertitel.

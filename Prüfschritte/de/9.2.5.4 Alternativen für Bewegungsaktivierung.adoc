@@ -23,13 +23,16 @@ deaktivieren.
 == Warum wird das geprüft?
 
 Menschen mit motorischen Einschränkungen können Bewegungseingaben oft nicht,
-oder nicht gezielt, ausführenIn manchen Fällen sind Geräte fest montiert, zum
-Beispiel an einem Rollstuhl, was Bewegungseingaben unmöglich machtDeshalb ist
+oder nicht gezielt, ausführen.
+In manchen Fällen sind Geräte fest montiert, zum
+Beispiel an einem Rollstuhl, was Bewegungseingaben unmöglich macht.
+Deshalb ist
 es wichtig, dass es auch andere Möglichkeiten der Eingabe über Bedienelemente
 des Webinhaltes gibt.
 
 Bei anderen motorischen Einschränkungen kann es durch unwillkürliche
-Bewegungen zu ungewollten Eingaben kommenDeshalb ist es wichtig, dass sich von
+Bewegungen zu ungewollten Eingaben kommen.
+Deshalb ist es wichtig, dass sich von
 Webinhalten bereitgestelte motorische Eingaben deaktivieren lassen.
 
 == Wie wird geprüft?

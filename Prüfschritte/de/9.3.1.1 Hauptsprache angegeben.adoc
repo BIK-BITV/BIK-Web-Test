@@ -9,7 +9,8 @@ Die Hauptsprache der Webseite soll angegeben werden.
 == Warum wird das geprüft?
 
 Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter
-festgelegt istSie müssen wissen, in welcher Sprache ein Text verfasst ist,
+festgelegt ist.
+Sie müssen wissen, in welcher Sprache ein Text verfasst ist,
 damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen
 können.
 

@@ -5,7 +5,8 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Webinhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten
-anpassenSie sollten sowohl im Hochformat als auch im Querformat dargestellt
+anpassen.
+Sie sollten sowohl im Hochformat als auch im Querformat dargestellt
 werden und nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts
 ist unerlässlich.
 
@@ -16,14 +17,16 @@ Anwendung bei der es keine binäre Ausrichting gibt (also nicht: entweder Hoch-
 oder Querformat).
 
 Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in
-der gleichen Form angeboten werdenSo können in einer anderen Orientierung
+der gleichen Form angeboten werden.
+So können in einer anderen Orientierung
 Inhalte ggferst nach Aktivierung von Ausklapbereichen oder mittels Links auf
 andere Seiten angeboten werden.
 
 == Warum wird das geprüft?
 
 Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät
-(z.Bein Smartphone) in einer bestimmten Ausrichtung nutzen könnenWenn
+(z.Bein Smartphone) in einer bestimmten Ausrichtung nutzen können.
+Wenn
 beispielsweise Text stark vergrößert wird, bietet die Verwendung des
 Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
 
@@ -36,7 +39,8 @@ einschränken.
 
 === 1Anwendbarkeit des Prüfschritts
 
-Die Prüfung des Wechsels derBildschirmausrichtung sollte  immer anwendbar
+Die Prüfung des Wechsels der.
+Bildschirmausrichtung sollte  immer anwendbar
 sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung
 funktionieren.
 
@@ -50,7 +54,8 @@ Der zu prüfende Inhalt wird im Browser Chrome (Android) oder Safari (iOS) erst
 in der einen Ausrichtung neu geladen.
 Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
 Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
-Prüfen, ob Inhalte dargestellt werden und nutzbar sindTreten Beschränkungen
+Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
+Treten Beschränkungen
 beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der
 jeweils anderen Ausrichtung auffordern?
 Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung
@@ -78,7 +83,8 @@ neu geladen werden.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Gegenstand dieses Prüfschritts ist die Anpassbarkeit der Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel hervorgerufen werdenDies ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=87&s=n[1.4.4a] "Text auf 200% vergrößerbar" und link:/index.php?a=di&iid=108&s=n[1.4.10a] "Inhalte brechen um".
+Gegenstand dieses Prüfschritts ist die Anpassbarkeit der Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel hervorgerufen werden.
+Dies ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=87&s=n[1.4.4a] "Text auf 200% vergrößerbar" und link:/index.php?a=di&iid=108&s=n[1.4.10a] "Inhalte brechen um".
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 

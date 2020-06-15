@@ -13,8 +13,10 @@ Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
 == Warum wird das geprüft?
 
 Viele Benutzer haben Schwierigkeiten, Seiten zu nutzen, die mit blinkenden
-oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sindSolche
-Elemente lenken abDer Benutzer kann sich möglicherweise nicht auf andere
+oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind.
+Solche
+Elemente lenken ab.
+Der Benutzer kann sich möglicherweise nicht auf andere
 Elemente des Webauftritts konzentrieren.
 
 Viele Benutzer haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte
@@ -24,21 +26,31 @@ Interaktive bewegte Inhalte können für Benutzer mit motorischen
 Einschränkungen problematisch sein.
 
 Automatisch aktualisierte Nachrichten-Aufmacher (Teaser) ändern unangekündigt
-die angezeigten Inhalte und stören dadurch die Wahrnehmung und OrientierungDas
+die angezeigten Inhalte und stören dadurch die Wahrnehmung und Orientierung.
+Das
 beeinträchtigt besonders Nutzer von Bildschirmvergrößerungssoftware und
-solche, die mehr Zeit zum Lesen brauchenBei Screenreader-Nutzern kann es zu
+solche, die mehr Zeit zum Lesen brauchen.
+Bei Screenreader-Nutzern kann es zu
 unvermittelten Fokus-Verschiebungen kommen.
 
 Einige Bewegungen (etwa von animated gifs) lassen sich über die esc-Taste
-beenden, aber die meisten Nutzer kennen diese Funktion nichtAuch das
-Deaktivieren von JavaScript führt in manchen Fällen zum Beenden der Bewegung,
-etwa von skriptgesteuerten Tickern oder wechselnden TeasernDieses Deaktivieren
+beenden, aber die meisten Nutzer kennen diese Funktion nicht.
+Auch das
+Deaktivieren von Java.
+Script führt in manchen Fällen zum Beenden der Bewegung,
+etwa von skriptgesteuerten Tickern oder wechselnden Teasern.
+Dieses Deaktivieren
 ist aber zunehmend problematisch, da sich immer mehr Websites auf aktiviertes
-JavaScript verlassenSelbst wenn die Website dann noch funktioniert, wissen
-Nutzer nicht, was ihnen ohne JavaScript entgeht.
+Java.
+Script verlassen.
+Selbst wenn die Website dann noch funktioniert, wissen
+Nutzer nicht, was ihnen ohne Java.
+Script entgeht.
 
-Schaltflächen zum Beenden der Bewegung sind problematischSie müssen erst
-einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung stoppen könnenDa
+Schaltflächen zum Beenden der Bewegung sind problematisch.
+Sie müssen erst
+einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung stoppen können.
+Da
 sie zur Zeit sehr selten eingesetzt werden, erwarten und erkennen Benutzer sie
 häufig nicht.
 
@@ -87,10 +99,12 @@ Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 
 Dieser Prüfschritt 2.2.2a betrifft bewegte Inhalte, die Benutzer ablenken oder
 durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer schwierig
-wahrnehmbar sindHier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte
+wahrnehmbar sind.
+Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte
 Inhalte anzuhalten oder auszublenden.
 
-Der Prüfschritt link:/index.php?a=di&iid=90&s=n[2.2.1a] "Zeitbegrenzungen anpassbar" betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nichtGeprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
+Der Prüfschritt link:/index.php?a=di&iid=90&s=n[2.2.1a] "Zeitbegrenzungen anpassbar" betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht.
+Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
 
 Zur Abgrenzung von Blinken und Flackern siehe Abschnitt "Quellen" bei Prüfschritt link:/index.php?a=di&iid=21&s=n[2.3.1a] "Verzicht auf Flackern".
 
@@ -140,7 +154,8 @@ pause to read content and works best when the content is not associated with a
 real-time event or status.
 +
 _Note_: See https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html[Understanding Success Criterion 2.2.1 Timing Adjustable] for additional requirements related to time-limits for reading.
-Pausing and jumping to current display (when pause is released) is better for information that is real-time or "status" in natureFor example, weather radar, a stock ticker, a traffic camera, or an auction timer, would present misleading information if a pause caused it to display old information when the content was restarted.
+Pausing and jumping to current display (when pause is released) is better for information that is real-time or "status" in nature.
+For example, weather radar, a stock ticker, a traffic camera, or an auction timer, would present misleading information if a pause caused it to display old information when the content was restarted.
 +
 _Note_: Hiding content would have the same result as pausing and jumping to
 current display (when pause is released).

@@ -5,7 +5,8 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Seiteninhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist
-abschaltbar, oder sie kann verlängert werdenDies betrifft etwa:
+abschaltbar, oder sie kann verlängert werden.
+Dies betrifft etwa:
 
 * zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
 * Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
@@ -18,7 +19,8 @@ Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und
 unvermittelt von vorne beginnen.
 
 Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie auf
-eine andere Seite weitergeleitet werdenDie Zeitbegrenzung macht die
+eine andere Seite weitergeleitet werden.
+Die Zeitbegrenzung macht die
 zwischendurch angezeigte Seite für viele nicht zugänglich.
 
 Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können
@@ -43,7 +45,8 @@ Zeitbegrenzungen unterliegen (etwa beim Online-Banking oder Online-Shops).
 
 Quelltextanalyse: Vorhandensein des Markups prüfen.
 
-* Taucht `http-equiv="refresh"` im Kopfbereich der Seite aufDann muss `content="0"` sein (also eine Weiterleitung ohne Zeitverzögerung auslösen bzwkeine Aktualisierung auslösen).
+* Taucht `http-equiv="refresh"` im Kopfbereich der Seite auf.
+Dann muss `content="0"` sein (also eine Weiterleitung ohne Zeitverzögerung auslösen bzwkeine Aktualisierung auslösen).
 
 ==== 2.2Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
 
@@ -52,9 +55,11 @@ Quelltextanalyse: Vorhandensein des Markups prüfen.
 Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise
 anzeigen:
 
-* Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigtJede Interaktion setzt die Session-Dauer automatisch zurück.
+* Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigt.
+Jede Interaktion setzt die Session-Dauer automatisch zurück.
 * [#SCR16]Rechtzeitig vor Ablauf der Zeit erscheint ein Dialog zum Verlängern der Zeitbegrenzung.
-* [#G133][#G180][#G198][#SCR1]Ein Kontrollelement erlaubt das Abschalten oder Verlängern der ZeitbegrenzungNutzer haben genügend Zeit, das Kontrollelement vor dem Ablauf der Zeit zu finden.
+* [#G133][#G180][#G198][#SCR1]Ein Kontrollelement erlaubt das Abschalten oder Verlängern der Zeitbegrenzung.
+Nutzer haben genügend Zeit, das Kontrollelement vor dem Ablauf der Zeit zu finden.
 
 ===== 2.2.2Nicht unmittelbar sichtbare Zeitbegrenzungen
 
@@ -90,7 +95,8 @@ serverseitig gesetzt werden.
 
 * Die Seite wird über Reload (`http-equiv="refresh"`) periodisch aktualisiert.
 * Es gibt eine verzögerte Weiterleitung auf eine andere Seite.
-* Der Ablauf einer Zeitbegrenzung wird nicht angezeigtErst mit dem Abschicken des Formulars wird darüber informiert, dass die Sessiondauer überschritten wurde.
+* Der Ablauf einer Zeitbegrenzung wird nicht angezeigt.
+Erst mit dem Abschicken des Formulars wird darüber informiert, dass die Sessiondauer überschritten wurde.
 
 ==== Nicht voll erfüllt:
 
@@ -103,12 +109,15 @@ serverseitig gesetzt werden.
 
 Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Seite
 betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also
-ablenken) oder nichtGeprüft wird, ob solche Zeitbegrenzungen abschaltbar oder
+ablenken) oder nicht.
+Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder
 verlängerbar sind.
 
-Der Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte abschaltbar" betrifft dagegen bewegte oder autoaktualisierte Inhalte, die Nutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Nutzer schwierig wahrnehmbar sindHier wird geprüft, ob Nutzer die Möglichkeit haben, bewegte oder oder autoaktualisierte Inhalte anzuhalten oder auszublenden.
+Der Prüfschritt link:/index.php?a=di&iid=20&s=n[2.2.2a] "Bewegte Inhalte abschaltbar" betrifft dagegen bewegte oder autoaktualisierte Inhalte, die Nutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Nutzer schwierig wahrnehmbar sind.
+Hier wird geprüft, ob Nutzer die Möglichkeit haben, bewegte oder oder autoaktualisierte Inhalte anzuhalten oder auszublenden.
 
-Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Zeitbegrenzungen abzuschalten oder zu verlängern, wird in diesem Prüfschritt lediglich geprüft, ob Nutzer genügend Zeit haben, diesen Mechanismus zu finden und zu nutzenIn anderen Prüfkriterien wird geprüft, ob der Mechanismus selbst zugänglich und verständlich ist (etwa in link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" oder link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar").
+Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Zeitbegrenzungen abzuschalten oder zu verlängern, wird in diesem Prüfschritt lediglich geprüft, ob Nutzer genügend Zeit haben, diesen Mechanismus zu finden und zu nutzen.
+In anderen Prüfkriterien wird geprüft, ob der Mechanismus selbst zugänglich und verständlich ist (etwa in link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" oder link:/index.php?a=di&iid=79&s=n[1.3.1h] "Beschriftung programmatisch ermittelbar").
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -144,7 +153,8 @@ Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Ze
 
 Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung
 nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum
-Abschalten gestoßen istDaher sollte die Schaltfläche oder der Link zum
+Abschalten gestoßen ist.
+Daher sollte die Schaltfläche oder der Link zum
 Abschalten oder Verlängern am Seitenbeginn oder nahe am Seitenbeginn angezeigt
 werden, damit er von Menschen mit verschiedensten Behinderungen auch gefunden
 und aktiviert werden kann.

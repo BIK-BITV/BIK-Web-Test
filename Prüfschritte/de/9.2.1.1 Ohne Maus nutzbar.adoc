@@ -9,8 +9,10 @@ benutzen sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
-mit der Maus als auch mit der Tastatur möglich seinDenn auch andere
+Die Bedienung soll geräteunabhängig möglich sein.
+Das bedeutet: Sie muss sowohl
+mit der Maus als auch mit der Tastatur möglich sein.
+Denn auch andere
 Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
@@ -41,15 +43,23 @@ Seite im Chrome Browser aufrufen und Schritte 2 bis 5 wiederholen.
 
 Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
 
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursachtDie Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von Java.
+Script verursacht.
+Die Prüfung erfolgt also bei *eingeschaltetem* Java.
+Script.
 
 Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind+
 Wichtig in diesem Zusammenhang:
 
-* Die Felder von Formularen können im Internet Explorer trotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werdenWenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein klicken und dann erst mit der Tastaturbedienung anfangenDer Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
-* [#select-pruefung]Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können ggfmit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wirdUm solche Auswahllisten durchzublättern, muss man sie ggfzunächst mit der Tastenkombination "Alt + Pfeil nach unten" öffnenDann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
+* Die Felder von Formularen können im Internet Explorer trotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werden.
+Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein klicken und dann erst mit der Tastaturbedienung anfangen.
+Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
+* [#select-pruefung]Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können ggfmit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wird.
+Um solche Auswahllisten durchzublättern, muss man sie ggfzunächst mit der Tastenkombination "Alt + Pfeil nach unten" öffnen.
+Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
 
-Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechenEs
+Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechen.
+Es
 ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
 Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf
 der betreffenden Seiten mehrere Schritte erforderlich sind.
@@ -127,14 +137,18 @@ ____
 If all functionality can be achieved using the keyboard, it can be
 accomplished by keyboard users, by speech input (which creates keyboard
 input), by mouse (using on-screen keyboards), and by a wide variety of
-assistive technologies that create simulated keystrokes as their outputNo
+assistive technologies that create simulated keystrokes as their output.
+No
 other input form has this flexibility or is universally supported and operable
 by people with different disabilities, as long as the keyboard input is not
 time-dependent.
 
-Note that providing universal keyboard input does not mean that other types of input should not be supportedOptimized speech input, optimized mouse/pointer input, etc., are also goodThe key is to provide keyboard input and control as well.
+Note that providing universal keyboard input does not mean that other types of input should not be supported.
+Optimized speech input, optimized mouse/pointer input, etc., are also good.
+The key is to provide keyboard input and control as well.
 
-Some devices do not have native keyboards?for example, a PDA or cell phoneIf these devices have a Web browsing capability, however, they will have some means of generating text or "keystrokes." This guideline uses the term "keyboard interface" to acknowledge that Web content should be controlled from keystrokes that may come from a keyboard, keyboard emulator, or other hardware or software that generates keyboard or text input.
+Some devices do not have native keyboards?for example, a PDA or cell phone.
+If these devices have a Web browsing capability, however, they will have some means of generating text or "keystrokes." This guideline uses the term "keyboard interface" to acknowledge that Web content should be controlled from keystrokes that may come from a keyboard, keyboard emulator, or other hardware or software that generates keyboard or text input.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html[Keyboard Accessible: Understanding Guideline 2.1]

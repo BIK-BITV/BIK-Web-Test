@@ -13,7 +13,8 @@ haben.
 == Warum wird das geprüft?
 
 Tastaturkurzbefehle sind für Menschen, die am Computer oder einem mobilen
-Gerät die Spracheingabe benutzen, häufig problematischSpracheingaben können
+Gerät die Spracheingabe benutzen, häufig problematisch.
+Spracheingaben können
 unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch
 verloren.
 
@@ -25,7 +26,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2Prüfung
 
-Seite neu ladenWenn dies den Fokus auf ein Interface-Element setzt (z.Bauf ein
+Seite neu laden.
+Wenn dies den Fokus auf ein Interface-Element setzt (z.Bauf ein
 Eingabefeld), auf einen leeren Bereich der Seite klicken, um sicherzustellen,
 dass keine Interface-Elemente fokussiert sind.
 Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab,
@@ -45,14 +47,18 @@ Auswahllisten-Element bzw`select`Hier dient z.Bdas Drücken einer
 Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
 Über das Anzeigen von Seitenskripten und das Suchen nach typischen
-Tastatur-Event-Handlern wie `document.addEventListener` oder das Vorhandensein
+Tastatur-Event-Handlern wie `document.add.
+EventListener` oder das Vorhandensein
 des `.keycode` Attributs lässt sich ggfdas Vorhandensein von Skripten
 überprüfen, welche auf Tasteneingaben reagieren, bei denen nicht
-Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werdenDa es mehrere
+Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werden.
+Da es mehrere
 Möglichkeiten gibt, Tastatur-Events zu implementieren, ist diese Methode aber
 nicht als zuverlässig zu betrachten.
 
-Einige Browser verwenden Tastenkombinationen mit der UmschalttasteSo öffnet Firefox eine Seitensuche, wenn man Umschalttaste + / drückt, und eine Suche in Seitenlinks, wenn man Umschalttaste + ' drücktIn diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen leeren Teil der Seite zu klicken, um den Fokus aus der Browser-Sucheingabe zu entfernen.
+Einige Browser verwenden Tastenkombinationen mit der Umschalttaste.
+So öffnet Firefox eine Seitensuche, wenn man Umschalttaste + / drückt, und eine Suche in Seitenlinks, wenn man Umschalttaste + ' drückt.
+In diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen leeren Teil der Seite zu klicken, um den Fokus aus der Browser-Sucheingabe zu entfernen.
 
 === 4Bewertung
 
@@ -83,6 +89,8 @@ Einige Browser verwenden Tastenkombinationen mit der UmschalttasteSo öffnet Fir
 
 == Quellen
 
-https://testen.bitv-test.de/bookmarklets.html#kurzbefehle[Bookmarklet "Tastatur-Kurzbefehle auslösen"] von Prüfstelle T-Systems MMS kann ggfzusätzlich eingesetzt werden, um der Reihe nach alle erforderlichen Tasten auszulösenDabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzwgeändert hatDie Konsole der Entwickler-Tools zeigt die simulierten Eingaben.
+https://testen.bitv-test.de/bookmarklets.html#kurzbefehle[Bookmarklet "Tastatur-Kurzbefehle auslösen"] von Prüfstelle T-Systems MMS kann ggfzusätzlich eingesetzt werden, um der Reihe nach alle erforderlichen Tasten auszulösen.
+Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzwgeändert hat.
+Die Konsole der Entwickler-Tools zeigt die simulierten Eingaben.
 
 https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[Understanding Success Criterion 2.1.4: Character Key Shortcuts] (zur Zeit nur auf Englisch verfügbar)

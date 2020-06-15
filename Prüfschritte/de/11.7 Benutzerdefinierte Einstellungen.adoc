@@ -32,7 +32,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === Prüfung
 
-Für die Praxis fehlen noch Hinweise, Sie können auf GitHub
+Für die Praxis fehlen noch Hinweise, Sie können auf Git.
+Hub
 {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen], um bei der
 Entwicklung des Prüfschritts mitzuwirken.
 

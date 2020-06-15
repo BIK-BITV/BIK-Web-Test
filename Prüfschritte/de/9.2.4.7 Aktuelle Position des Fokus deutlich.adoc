@@ -19,9 +19,11 @@ gerade befindet, welcher Link also ausgelöst wird, wenn er die Enter-Taste
 drückt.
 
 Viele Webseiten erleichtern Mausbenutzern die Bedienung, indem sie darauf
-reagieren, dass der Mauszeiger sich über einem Link befindetDann ändert sich
+reagieren, dass der Mauszeiger sich über einem Link befindet.
+Dann ändert sich
 zum Beispiel die Text- oder Hintergrundfarbe oder der Linktext wird
-unterstrichenDiese Unterstützung soll auch für Tastaturbenutzer funktionieren,
+unterstrichen.
+Diese Unterstützung soll auch für Tastaturbenutzer funktionieren,
 Webseiten sollen sie gegenüber den zahlreicheren Mausnutzern nicht
 benachteiligen.
 
@@ -44,14 +46,19 @@ Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
 prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
 Zustand mindestens 3:1 beträgt.
 Bei Links, die sich nicht grafisch verändern, prüfen, ob sie auf den
-Mauszeiger reagierenWenn dies der Fall ist: Abbruch oder weiter mit 6.
-Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint, prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS gefärbten) Hintergründen gut zu erkennen istIn Zweifelsfällen gemäß Prüfschritt 1.4.3a "Kontraste von Texten ausreichend" ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt
+Mauszeiger reagieren.
+Wenn dies der Fall ist: Abbruch oder weiter mit 6.
+Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint, prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS gefärbten) Hintergründen gut zu erkennen ist.
+In Zweifelsfällen gemäß Prüfschritt 1.4.3a "Kontraste von Texten ausreichend" ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt
 Seite im Chrome Browser laden und die Schritte 2-5 wiederholen.
 
 === 3Hinweise
 
-* Die Prüfung muss mit aktiviertem JavaScript erfolgen.
-* [#G149]Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor vorhanden ist, die Webseite also den browsereigenen Tastaturcursor (zum Beispiel mit JavaScript `blur()` oder CSS `outline:none`) unterdrücktDann ist eventuell auch Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" nicht erfüllt!
+* Die Prüfung muss mit aktiviertem Java.
+Script erfolgen.
+* [#G149]Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor vorhanden ist, die Webseite also den browsereigenen Tastaturcursor (zum Beispiel mit Java.
+Script `blur()` oder CSS `outline:none`) unterdrückt.
+Dann ist eventuell auch Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar" nicht erfüllt!
 
 === 4Bewertung
 
@@ -91,7 +98,8 @@ ____
 In combination with 2.4.7 Focus Visible, the visual focus indicator for a
 component must have sufficient contrast against the adjacent background when
 the component is focused, except where the appearance of the component is
-determined by the user agent and not modified by the authorIf the focus state
+determined by the user agent and not modified by the author.
+If the focus state
 relies on a change of color (e.g., changing only the background color of a
 button), then changing from one color to another that has at least a 3:1
 contrast ratio with the previous state of the control is a method for meeting
@@ -137,8 +145,11 @@ ____
 Alle Browser zeigen dem Tastaturnutzer in irgendeiner Weise, wo der Fokus ist,
 wenn diese Anzeige nicht aktiv unterdrückt wird.
 
-Dennoch ist die Anzeige des Fokus nicht allein Sache des BrowsersDie Webseite
-legt fest, wie sie im Browser aussehen sollSie ändert etwa die Farben
+Dennoch ist die Anzeige des Fokus nicht allein Sache des Browsers.
+Die Webseite
+legt fest, wie sie im Browser aussehen soll.
+Sie ändert etwa die Farben
 fokussierter Links und Linkhintergründe oder setzt andere Gestaltungselemente
-einIn dieser von der Webseite festgelegten Umgebung muss der Fokus für
+ein.
+In dieser von der Webseite festgelegten Umgebung muss der Fokus für
 Tastaturnutzer gut sichtbar sein.

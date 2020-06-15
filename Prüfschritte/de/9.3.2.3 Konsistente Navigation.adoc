@@ -45,7 +45,8 @@ Bewertung als nicht oder teilweise erfüllt immer erläutern!
 === Abgrenzung von anderen Prüfschritten
 
 * Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsmechanismen einheitlich, d.hgleich angeordnet und gestaltet sind, wird in Prüfschritt link:/index.php?a=di&iid=101&s=n[2.4.8a] "Position im Webauftritt klar" dagegen geprüft, ob die *Position* des Benutzers im Angebot klar erkennbar ist.
-* Geprüft wird in der "Normaleinstellung", also mit eingeschaltetem Javascript und mit den für den Webauftritt vorgesehenen StylesheetsDer Prüfschritt link:/index.php?a=di&iid=82&s=n[1.3.3a] "Ohne Bezug auf sensorische Merkmale nutzbar" klärt, ob die Navigation auch funktioniert, wenn die zugeordneten Stylesheets nicht verwendet werden.
+* Geprüft wird in der "Normaleinstellung", also mit eingeschaltetem Javascript und mit den für den Webauftritt vorgesehenen Stylesheets.
+Der Prüfschritt link:/index.php?a=di&iid=82&s=n[1.3.3a] "Ohne Bezug auf sensorische Merkmale nutzbar" klärt, ob die Navigation auch funktioniert, wenn die zugeordneten Stylesheets nicht verwendet werden.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -74,13 +75,15 @@ Bewertung als nicht oder teilweise erfüllt immer erläutern!
 ____
 Ensuring that repeated components occur in the same order on each page of a
 site helps users become comfortable that they will able to predict where they
-can find things on each pageThis helps users with cognitive limitations, users
+can find things on each page.
+This helps users with cognitive limitations, users
 with low vision, users with intellectual disabilities, and also those who are
 blind.
 
 (...) Individuals with low vision who use screen magnification to display a
 small portion of the screen at a time often use visual cues and page
-boundaries to quickly locate repeated contentPresenting repeated content in
+boundaries to quickly locate repeated content.
+Presenting repeated content in
 the same order is also important for visual users who use spatial memory or
 visual cues within the design to locate repeated content.
 

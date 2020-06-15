@@ -22,7 +22,8 @@ Der Prüfschritt ist immer anwendbar.
 
 ==== 2.1 Textliche Bezüge auf Farben und andere sensorische Merkmale
 
-[#F14]Prüfen, ob textliche Verweise auf Seiteninhalte diese nur über die Angabe sensorischer Merkmale wie Farbe, Form, Größe, Position, oder Orientierung identifizieren [#G96]und nicht auch sinnesunabhängig, etwa durch Nennung einer Überschrift oder eines LabelsBeispiele für Bezugnahmen, die nur sensorische Merkmale nennen:
+[#F14]Prüfen, ob textliche Verweise auf Seiteninhalte diese nur über die Angabe sensorischer Merkmale wie Farbe, Form, Größe, Position, oder Orientierung identifizieren [#G96]und nicht auch sinnesunabhängig, etwa durch Nennung einer Überschrift oder eines Labels.
+Beispiele für Bezugnahmen, die nur sensorische Merkmale nennen:
 
 * Klicken Sie auf den grünen Knopf, um ...
 * Über die runde Taste können Sie...
@@ -68,7 +69,8 @@ Prüfschritt link:/index.php?a=di&iid=83&s=n[1.4.1a] "Ohne Farben nutzbar" behan
 === Sensory Characteristics: Understanding SC 1.3.3
 
 ____
-People who are blind and people who have low vision may not be able to understand information if it is conveyed by shape and/or locationProviding additional information other than shape and/or location will allow them to understand the information conveyed by shape and/or alone.
+People who are blind and people who have low vision may not be able to understand information if it is conveyed by shape and/or location.
+Providing additional information other than shape and/or location will allow them to understand the information conveyed by shape and/or alone.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html[https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html]

@@ -21,9 +21,12 @@ Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind
 zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
 werden, aus mehreren Gründen problematisch:
 
-* Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbarNutzer müssen in der Lage sein, den Zeiger von dem auslösenden Element über den eingeblendeten Inhalt zu bewegen (was meist den sichtbaren Ausschnitt verschiebt), ohne dass der eingeblendete Inhalt schließt.
-* Eingeblendete Inhalte verdecken häufig andere InhalteNutzer müssen in der Lage sein, den eingeblendeten Inhalt wieder zu schließen, ohne den Fokus zu bewegen (was passieren würde, wenn etwa nach einem Schließen-Element gesucht werden müsste)Die Escape-Taste oder ein Aktivieren des auslösenden Elements, das zur Zeit den Fokus hat, sollte den eingeblendeten Inhalt schließen.
-* Sehbehinderte Nutzer brauchen ggfmehr Zeit, Inhalte zu lesenEingeblendete Inhalte sollten deshalb solange zur Verfügung stehen, bis sie vom Nutzer geschlossen werden (etwa über Weiter-Tabben, Wegbewegen des Zeigers von auslösenden Element und eingeblendetem Inhalt, oder explizites Schließen über die Tastatur).
+* Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbar.
+Nutzer müssen in der Lage sein, den Zeiger von dem auslösenden Element über den eingeblendeten Inhalt zu bewegen (was meist den sichtbaren Ausschnitt verschiebt), ohne dass der eingeblendete Inhalt schließt.
+* Eingeblendete Inhalte verdecken häufig andere Inhalte.
+Nutzer müssen in der Lage sein, den eingeblendeten Inhalt wieder zu schließen, ohne den Fokus zu bewegen (was passieren würde, wenn etwa nach einem Schließen-Element gesucht werden müsste)Die Escape-Taste oder ein Aktivieren des auslösenden Elements, das zur Zeit den Fokus hat, sollte den eingeblendeten Inhalt schließen.
+* Sehbehinderte Nutzer brauchen ggfmehr Zeit, Inhalte zu lesen.
+Eingeblendete Inhalte sollten deshalb solange zur Verfügung stehen, bis sie vom Nutzer geschlossen werden (etwa über Weiter-Tabben, Wegbewegen des Zeigers von auslösenden Element und eingeblendetem Inhalt, oder explizites Schließen über die Tastatur).
 
 == Wie wird geprüft?
 
@@ -46,10 +49,12 @@ Zeit selbsttätig schließtAusgenommen sind Fälle, bei denen der eingeblendete
 Inhalt nicht länger gültig ist.
 Prüfen, ob sich der eingeblendete Inhalt durch die Escape-Taste oder ein
 Aktivieren des die Einblendung auslösenden Elements (Klicken, Tippen)
-schließen lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt
+schließen lässt.
+Ausgenommen sind hier Fälle, bei denen der eingeblendete Inhalt
 eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
 Inhalt erneut über Hover einblenden und den Zeiger über den neu eingeblendeten
-Inhalt bewegenDer Inhalt sollte weiter sichtbar sein.
+Inhalt bewegen.
+Der Inhalt sollte weiter sichtbar sein.
 
 ==== 2.2 Tastaturfokus-Prüfung
 
@@ -62,7 +67,8 @@ kurzer Zeit selbsttätig schließtAusgenommen sind Fällebei denen der
 eingeblendete Inhalt nicht länger gültig ist.
 Prüfen, ob sich der eingeblendete Inhalt über die Escape-Taste oder ein
 Aktivieren des die Einblendung auslösenden Elements (Enter) schließen
-lässtAusgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine
+lässt.
+Ausgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine
 Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
 
 === 3Hinweise
@@ -78,7 +84,8 @@ etwa das Aktivieren eines Links).
 
 Wenn Inhalte durch Hover eingeblendet werden, sollten sie in der Regel auch
 bei Tastaturfokus eingeblendet werden, falls sie nicht alternativ zur
-Verfügung gestellt werdenDies wird in Prüfschritt 2.1.1a geprüft.
+Verfügung gestellt werden.
+Dies wird in Prüfschritt 2.1.1a geprüft.
 
 == Einordnung des Prüfschritts
 

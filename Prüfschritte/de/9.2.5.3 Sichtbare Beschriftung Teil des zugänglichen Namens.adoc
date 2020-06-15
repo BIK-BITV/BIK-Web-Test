@@ -5,17 +5,21 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Sichtbare Beschriftungen von Bedienelementen sollen im zugänglichen Name des
-Bedienelements vorkommenDies betrifft zum Beispiel Links, Beschriftungen von
+Bedienelements vorkommen.
+Dies betrifft zum Beispiel Links, Beschriftungen von
 Textfeldern, Buttons oder Checkboxen.
 
 == Warum wird das geprüft?
 
 Spracheingabenutzer können Bedienelemente wie Links, Tasten oder Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit Befehlen (z.B_Klick "Abschicken"_)Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen des Bedienelements (also dem Text, der programmatisch als Beschriftung ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht oder nur über Umwege mittels Spracheingabe aktivieren.
 
-Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute wie `aria-label` oder über nur bei Mausnutzung eingeblendete Attribute wie `title` festgelegt wirdSo könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen" ersetzt werdenWenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
+Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute wie `aria-label` oder über nur bei Mausnutzung eingeblendete Attribute wie `title` festgelegt wird.
+So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen" ersetzt werden.
+Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
 
 Manchmal wird versteckter Text benutzt, um sichtbare Beschriftungen zu
-erweitern, oft auch in der Absicht, Hilfsmittelnutzern zu helfenDas ist dann
+erweitern, oft auch in der Absicht, Hilfsmittelnutzern zu helfen.
+Das ist dann
 in Ordnung, wenn die sichtbare Beschriftung durchgehend in dem zugänglichen
 Namen enthalten ist, am besten zu Beginn.
 
@@ -30,7 +34,8 @@ oder einer Checkbox direkt zugeordnet sind.
 Auf Bedienelemente, die durch mehrere sichtbare Elemente beschriftet sind, ist
 der Prüfschritt nicht anwendbar, so wenn Elemente über eine tabellarische
 Matrix über Beschriftungen in Spalten- und Zeilenüberschriften ihren
-zugänglichen Namen empfangenIn diesen Fällen ist es für den
+zugänglichen Namen empfangen.
+In diesen Fällen ist es für den
 Spracheingabe-Nutzer unklar, welche Elemente als Beschriftung des
 Bedienelements gelten und dementsprechend für ein Diktat per Spracheingabe
 benutzt werden sollten.

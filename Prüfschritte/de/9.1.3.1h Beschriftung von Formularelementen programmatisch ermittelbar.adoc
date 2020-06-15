@@ -8,7 +8,8 @@ Beschriftungen sollen über Markup mit den Formularelementen, die sie
 beschriften, verknüpft sein.
 
 Bei `label`-Elementen geschieht das über das `for`-Attribut oder den
-Einschluss des beschrifteten Formularelements in das `label`-ElementSind
+Einschluss des beschrifteten Formularelements in das `label`-Element.
+Sind
 Beschriftungen nicht mit dem `label`-Element ausgezeichnet, soll eine
 Beschriftung des zugehörigen Formularelements auf anderem Weg (etwa über das
 `aria-labelledby`-Attribut) sichergestellt sein.
@@ -66,17 +67,23 @@ Auch wenn die Beschriftungen (Labels) der Formularelemente korrekt ausgezeichnet
 ==== 3.2 Kombinierte Formular-Elemente (etwa bei Datumseingabe)
 
 Bei kombinierten Formular-Elementen hat nicht immer jedes Element eine
-zugeordnete BeschriftungIn diesem Fall sollen Elemente mit einem erklärenden
-``title``-Attribut versehen werdenBeispiel: In einem Formular werden für die
+zugeordnete Beschriftung.
+In diesem Fall sollen Elemente mit einem erklärenden
+``title``-Attribut versehen werden.
+Beispiel: In einem Formular werden für die
 Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr)Die
-drei Auswahllisten haben eine gemeinsame Beschriftung: DatumDie Auswahllisten
+drei Auswahllisten haben eine gemeinsame Beschriftung: Datum.
+Die Auswahllisten
 für Tag, Monat und Jahr sind mit einem erklärenden ``title``-Attribut
-versehenAlternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
+versehen.
+Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
 `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
 
-==== 3.3 Suchfeld mit nachfolgenem Button bzwInput
+==== 3.3 Suchfeld mit nachfolgenem Button bzw.
+Input
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendigHier ist es ausreichend, wenn Eingabefeld und Button sichtbar nebeneinander (und im Quellcode nacheinander) positioniert sind, das Eingabefeld eine Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen" oder Lupen-Icon mit aussagekräftigem Alternativtext)Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges ``title``-Attribut, ein verküpftes verstecktes Label oder ein `aria-label`-Attriut haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig.
+Hier ist es ausreichend, wenn Eingabefeld und Button sichtbar nebeneinander (und im Quellcode nacheinander) positioniert sind, das Eingabefeld eine Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen" oder Lupen-Icon mit aussagekräftigem Alternativtext)Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen entweder ein aussagekräftiges ``title``-Attribut, ein verküpftes verstecktes Label oder ein `aria-label`-Attriut haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
 
 ==== 3.4 Zusätzliche Beschriftungen
 
@@ -99,7 +106,8 @@ Sichtbare zusätzliche erklärende Beschriftungen sollten über
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Ob die Beschriftungen von Formular-Elementen (auch bei Nutzung von Gruppenüberschriften als Ergänzung der unmittelbaren Beschriftungen) hinreichend aussagekräftig sind, wird in Prüfschritt link:/index.php?a=di&iid=80&s=n[2.4.6a] "Aussagekräftige Überschriften und Beschriftungen" geprüftHier geht es um die programmatische Ermittelbarkeit.
+* Ob die Beschriftungen von Formular-Elementen (auch bei Nutzung von Gruppenüberschriften als Ergänzung der unmittelbaren Beschriftungen) hinreichend aussagekräftig sind, wird in Prüfschritt link:/index.php?a=di&iid=80&s=n[2.4.6a] "Aussagekräftige Überschriften und Beschriftungen" geprüft.
+Hier geht es um die programmatische Ermittelbarkeit.
 * Ob die sichtbare Beschriftung überhaupt vorhanden ist, wird in Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Beschriftungen von Formularelementen vorhanden" geprüft.
 * Ob die sichtbare Beschriftung im zugänglichen Namen des Formularelements vorkommt, wird in Prüfschritt link:/index.php?a=di&iid=117&s=n[2.5.3a] "Sichtbare Beschriftung Teil des zugänglichen Namens" geprüft.
 

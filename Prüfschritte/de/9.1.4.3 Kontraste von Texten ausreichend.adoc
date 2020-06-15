@@ -4,8 +4,10 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle Texte der Seite sollen ausreichende Helligkeitskontraste habenSie sollen
-auch für farbfehlsichtige Benutzer wahrnehmbar seinBei Seiten, die eine
+Alle Texte der Seite sollen ausreichende Helligkeitskontraste haben.
+Sie sollen
+auch für farbfehlsichtige Benutzer wahrnehmbar sein.
+Bei Seiten, die eine
 ausreichend kontrastreiche Version über einen Styleswitcher anbieten, wird
 auch geprüft, ob der Ausgangszustand Mindestanforderungen an Schriftkontraste
 erfüllt.
@@ -18,7 +20,8 @@ von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
 
 Die Ausgabe einer kontrastreicheren Seite durch einen Styleswitcher darf nicht
 dazu führen, dass die Standardseite sich nicht mehr um nutzbare Kontraste
-kümmertDenn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr,
+kümmert.
+Denn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr,
 verstehen die Funktion nicht, oder möchten die Seite lieber im Ausgangszustand
 nutzen.
 
@@ -34,16 +37,22 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
 ==== 2.1Prüfung der Textkontraste der Standardversion
 
-Prüfung nicht festgelegter FarbenÜber das Bookmarklet https://testen.bitv-test.de/bookmarklets.html["Vorder-und Hintergrundfarbe definiert"] oder ein User Stylesheet (`html {background-color:black;color:white})` prüfen, ob für jedes Element, für das eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe festgelegt ist und umgekehrt.
-SichtpüfungSind die Schriftkontraste stark genug?
-Im Zweifel den http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[Contrast Analyser] öffenSchriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
+Prüfung nicht festgelegter Farben.
+Über das Bookmarklet https://testen.bitv-test.de/bookmarklets.html["Vorder-und Hintergrundfarbe definiert"] oder ein User Stylesheet (`html {background-color:black;color:white})` prüfen, ob für jedes Element, für das eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe festgelegt ist und umgekehrt.
+Sichtpüfung.
+Sind die Schriftkontraste stark genug?
+Im Zweifel den http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[Contrast Analyser] öffen.
+Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
 In der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Informationen > Elementinformationen einblenden_ aktivieren.
-Text, der überprüft werden soll, anklickenIm eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die jeweilige Schriftgröße in Pixeln angegeben.
+Text, der überprüft werden soll, anklicken.
+Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die jeweilige Schriftgröße in Pixeln angegeben.
 Mit Hilfe des Contrast Analysers im Bereich _Vordergrund_ mit der Pipette die
 Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
-HintergrundfarbeFür Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
+Hintergrundfarbe.
+Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
 fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
-liegtFür große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
+liegt.
+Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
 liegt.
 Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
 Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
@@ -54,9 +63,11 @@ Standardfließtext mindestens 3:1 beträgt.
 Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
 Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 
-Textkontrast des Styleswitcher-Schaltelements prüfenDas Kontrastverhältnis
+Textkontrast des Styleswitcher-Schaltelements prüfen.
+Das Kontrastverhältnis
 muss 4,5:1 oder besser sein, und auch die anderen Anforderungen (zum Beispiel
-tastaturbedienbar, ohne Stylesheets nutzbar) müssen erfüllt seinSonst
+tastaturbedienbar, ohne Stylesheets nutzbar) müssen erfüllt sein.
+Sonst
 abbrechen.
 Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
 Textkontraste der alternativen Ansicht prüfen (wie in 2.1 _Prüfung der
@@ -66,10 +77,19 @@ Textkontraste der Standardversion_).
 
 ==== 3.1Allgemeine Hinweise
 
-* Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastierenAlso zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte Menüoption; auch in einer anderen Farbe dargestellte, besuchte LinksFür die Bewertung entscheidend ist der jeweils *schlechtere* Helligkeitskontrast.
-* Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden Zuständen verhältnismäßig einfach ist: die Hervorhebung des Maus- und TastaturfokusHier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im Fokus) der Helligkeitskontrast besser istDieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den allgemeinen Grenzwert von 4,5:1 erfüllenDas Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
-* Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer Webseite erleichternEin Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht verfügbar sind, werden schwach kontrastierend dargestelltDas ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich istDer Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar
-* Bei Bereichen, die mit Farbwechseln auf den Mauszeiger reagieren, kann ein Screenshot helfen, den Farbwert im "Ruhezustand" zu ermittelnAlternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann den Kontrast mit der Pipette des Contrast Analyser messen.
+* Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastieren.
+Also zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
+Für die Bewertung entscheidend ist der jeweils *schlechtere* Helligkeitskontrast.
+* Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden Zuständen verhältnismäßig einfach ist: die Hervorhebung des Maus- und Tastaturfokus.
+Hier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im Fokus) der Helligkeitskontrast besser ist.
+Dieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den allgemeinen Grenzwert von 4,5:1 erfüllen.
+Das Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
+* Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer Webseite erleichtern.
+Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht verfügbar sind, werden schwach kontrastierend dargestellt.
+Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich ist.
+Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar
+* Bei Bereichen, die mit Farbwechseln auf den Mauszeiger reagieren, kann ein Screenshot helfen, den Farbwert im "Ruhezustand" zu ermitteln.
+Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann den Kontrast mit der Pipette des Contrast Analyser messen.
 * Wenn Kontraste dünner Schriften zu prüfen sind, gegebenenfalls Schrift vergrößern und die Schriftenglättung ausschalten.
 * Sollen die Farbwerte sehr kleiner Bereiche (feine Schriften oder kleine Icons) ermittelt werden, ist es unter Umständen einfacher, ein Screenshot zu machen und die leistungsfähigeren Zoom- und Pipettenwerkzeuge eines Bildbearbeitungsprogramms zu nutzen.
 * Der Farbkontrast von Textvorbelegungen von Formularfeldern oft nicht die Mindest-Anforderung von 4,5:1.
@@ -86,8 +106,10 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 ==== 3.3Hinweise zur Messung des Kontrastverhältnisses
 
 * Für die Bewertung zählt das Kontrastverhältnis (_relative luminosity_) nach einer in den WCAG 2.1 definierten Formel.
-* Die Prüfung der Kontraste für normalen Text und großen Text orientiert sich an den gemessenen Werten der Schriftgröße in Pixel (http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar], _Funktion Elementinformationen einblenden_), denn eine Messung der tatsächlich dargestellten Punktgröße auf dem Bildschirm mit einem Typometer ist nicht praktikabelBei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa 24 Pixeln, 14 Punkt entsprechen etwa 18,7 Pixeln.
-* Die Messung des Pixel-Äquivalents ist dadurch gerechtfertigt, dass die bisher getesteten _User Agents_ die Auszeichnung in Pixel und Punkt analog behandeln (im Verhältnis 4:3), also unabhängig von der Bildschirmauflösung, unter der der Text angezeigt wirdRichtiger wäre es, wenn _User Agents_ die Bildschirmauflösung auswerten würden, um die Ausgabegröße zu berechnen (also mehr Pixel pro Punkt bei höher auflösenden Bildschirmen)Für die Prüfung maßgeblich ist der Referenzwert von 96 dpi Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
+* Die Prüfung der Kontraste für normalen Text und großen Text orientiert sich an den gemessenen Werten der Schriftgröße in Pixel (http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar], _Funktion Elementinformationen einblenden_), denn eine Messung der tatsächlich dargestellten Punktgröße auf dem Bildschirm mit einem Typometer ist nicht praktikabel.
+Bei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa 24 Pixeln, 14 Punkt entsprechen etwa 18,7 Pixeln.
+* Die Messung des Pixel-Äquivalents ist dadurch gerechtfertigt, dass die bisher getesteten _User Agents_ die Auszeichnung in Pixel und Punkt analog behandeln (im Verhältnis 4:3), also unabhängig von der Bildschirmauflösung, unter der der Text angezeigt wird.
+Richtiger wäre es, wenn _User Agents_ die Bildschirmauflösung auswerten würden, um die Ausgabegröße zu berechnen (also mehr Pixel pro Punkt bei höher auflösenden Bildschirmen)Für die Prüfung maßgeblich ist der Referenzwert von 96 dpi Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
 
 === 4Bewertung
 
@@ -101,7 +123,8 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 
 === Abgrenzung zu anderen Prüfschritten
 
-Prüfschritt link:/index.php?a=di&iid=109&s=n[1.4.11a] "Kontraste von Grafiken und Bedienelementen ausreichend" behandelt den Kontrast von GrafikenSchriftgrafiken (zur Definition vergleiche auch Prüfschritt link:/index.php?a=di&iid=54&s=n[1.4.5a]) werden jedoch in diesem Prüfschritt bewertet.
+Prüfschritt link:/index.php?a=di&iid=109&s=n[1.4.11a] "Kontraste von Grafiken und Bedienelementen ausreichend" behandelt den Kontrast von Grafiken.
+Schriftgrafiken (zur Definition vergleiche auch Prüfschritt link:/index.php?a=di&iid=54&s=n[1.4.5a]) werden jedoch in diesem Prüfschritt bewertet.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -135,25 +158,33 @@ https://www.w3.org/TR/css3-values/#absolute-lengths[CSS Values and Units Module 
 
 == Fragen zu diesem Prüfschritt
 
-=== Das Ergebnis der http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-69-head[WCAG 2.1 Formel zur Messung des Kontrastverhältnisses] entspricht oft nicht dem subjektiven EindruckWie zuverlässig ist es?
+=== Das Ergebnis der http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-69-head[WCAG 2.1 Formel zur Messung des Kontrastverhältnisses] entspricht oft nicht dem subjektiven Eindruck.
+Wie zuverlässig ist es?
 
 Zwei Punkte sind hier zu beachten:
 
 Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den
-GesamtkontrastInsofern ist klar, dass das Ergebnis für den Helligkeitskontrast
-nicht dem subjektiven Eindruck entsprichtEs soll gar nicht dem subjektiven
+Gesamtkontrast.
+Insofern ist klar, dass das Ergebnis für den Helligkeitskontrast
+nicht dem subjektiven Eindruck entspricht.
+Es soll gar nicht dem subjektiven
 Gesamteindruck entsprechen, denn schließlich geht es darum, ob die
 Helligkeitsunterschiede der Farben für sich genommen ausreichend
-kontrastierenWenn man normalsichtig ist, entspricht der subjektive Eindruck
+kontrastieren.
+Wenn man normalsichtig ist, entspricht der subjektive Eindruck
 der Graustufenansicht dagegen schon eher dem Formelergebnis.
 Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne
 Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte, möglicherweise
-werden die Kontraste durch Schriftenglättung abgeschwächtDie Formel
-berücksichtigt all diese Faktoren nichtZumindest wenn es um Texte geht, ist
-dies auch angemessenDenn die genannten Einflüsse stehen nicht fest, sie hängen
+werden die Kontraste durch Schriftenglättung abgeschwächt.
+Die Formel
+berücksichtigt all diese Faktoren nicht.
+Zumindest wenn es um Texte geht, ist
+dies auch angemessen.
+Denn die genannten Einflüsse stehen nicht fest, sie hängen
 zum Beispiel von der gewählten Schriftgröße ab.
 
 Für die Prüfung bedeutet das: Wer mit der formelbasierten Bewertung von
 Helligkeitskontrasten noch keine Erfahrungen hat, kann sich nicht auf seinen
-subjektiven Eindruck verlassenEr muss die Formel fast auf alle
+subjektiven Eindruck verlassen.
+Er muss die Formel fast auf alle
 Farbkombinationen anwenden.

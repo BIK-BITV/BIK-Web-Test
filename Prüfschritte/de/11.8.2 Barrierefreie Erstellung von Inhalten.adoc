@@ -33,7 +33,8 @@ müsste.
 === Prüfung
 
 Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
-Sie auf GitHub
+Sie auf Git.
+Hub
 {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 In der Web-App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine

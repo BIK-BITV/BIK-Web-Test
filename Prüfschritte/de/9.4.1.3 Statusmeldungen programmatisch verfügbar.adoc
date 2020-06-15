@@ -27,7 +27,8 @@ In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
 Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
 Ergebnis von Interaktionen (wie z.Bdie Anzahl der beim Filtern einer
 Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
-von Transaktionen gebenDiese Meldungen sind ebenso wichtig für nicht-visuelle
+von Transaktionen geben.
+Diese Meldungen sind ebenso wichtig für nicht-visuelle
 Nutzer und sollten für assistive Technologien verfügbar sein, damit die Nutzer
 auf sie aufmerksam werden, ohne ihren aktuellen Fokus oder Standpunkt ändern
 zu müssen.
@@ -37,7 +38,8 @@ zu müssen.
 === 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
-die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im
+die nicht den Fokus erhalten.
+Er ist nicht anwendbar, wenn Meldungen im
 Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem
 Abschicken eines Formulars die Seite neulädt und dann vor dem Formular eine
 Fehlermeldung erscheint.
@@ -45,7 +47,8 @@ Fehlermeldung erscheint.
 === 2Prüfung
 
 Screenreader NVDA im Firefox-Browser aktivieren.
-Eingaben vornehmen, die zur Generierung von Statusmeldungen führenWenn das
+Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
+Wenn das
 Angebot von sich aus Statusmeldungen, z.Bbei aktualisierten Inhalten,
 generiert, diese Meldungen abwarten.
 Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
@@ -59,14 +62,17 @@ Nicht als Statusmeldung gelten:
 
 Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
 Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
-Screenreader unterschiedlich ausfallenDer Erfolg kann davon abhängen, ob die
+Screenreader unterschiedlich ausfallen.
+Der Erfolg kann davon abhängen, ob die
 Statusmeldung in ein bereits bestehendes Elementes eingefügt wird oder ob ein
 kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
 
-Das HTML-Element der Statusmeldung muss mit den zugehörigen Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt, also in das HTML-Element eingefügt wirdDas Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei getrennte Aktionen.
+Das HTML-Element der Statusmeldung muss mit den zugehörigen Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt, also in das HTML-Element eingefügt wird.
+Das Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei getrennte Aktionen.
 
 ARIA-Attribute wie `aria-atomic`, `aria-busy`, `aria-relevant` müssen auf
-Statusmeldungen in der Regel nicht eingesetzt werdenDie Angabe der geeigneten
+Statusmeldungen in der Regel nicht eingesetzt werden.
+Die Angabe der geeigneten
 Rolle definiert passende Werte für diese Attribute bereits implizit.
 
 === 4Bewertung

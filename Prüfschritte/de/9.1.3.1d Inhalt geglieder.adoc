@@ -17,7 +17,8 @@ Verständnis.
 
 Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass
 diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene
-festgelegt und zugänglich istBenutzer, die mit der vorgegebenen visuellen
+festgelegt und zugänglich ist.
+Benutzer, die mit der vorgegebenen visuellen
 Präsentation der Elemente auf der Seite nichts anfangen können, finden sich
 dann trotzdem zurecht, oder sie können eine eigene, besser passende
 Präsentation anwenden.
@@ -57,7 +58,8 @@ Prüfen, ob über die Pseudo-Elemente :after bzw:before und der "content"-Eigens
 
 * Es soll nicht bewertet werden, ob die vorhandene, sichtbare Gliederung der Seite sinnvoll ist, sondern nur, ob sie mit geeigneten HTML-Strukturelementen umgesetzt wurde.
 * Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften, Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt.
-* Die Inhalte von Iframes werden ebenso überprüft wie andere SeiteninhalteDazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
+* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte.
+Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
 * Wenn es sich bei dem über CSS eingebundenen Inhalt um Überschriften, Listen oder Tabellen handelt, wird dies in den entsprechenden Prüfschritten bewertet.
 
 === 4Bewertung

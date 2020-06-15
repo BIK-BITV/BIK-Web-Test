@@ -16,7 +16,8 @@ verwendet.
 === [#G115][#G140]2Prüfung
 
 Seite im Firefox aufrufen.
-Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufenTabellen-Auszeichnungen werden jetzt angezeigt.
+Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufen.
+Tabellen-Auszeichnungen werden jetzt angezeigt.
 [#H39][#H43][#H73][#F46]Prüfen, ob strukturelle Auszeichnungen (`th`, `caption`, `summary`, `headers`, `id`) in Layouttabellen vermieden werden.
 
 === 3Hinweis
@@ -62,7 +63,12 @@ Auch wenn Tabellen mit #role="presentation"# bzw#role="none"# ausgezeichnet sind
 === F46: Failure of Success Criterion 1.3.1 due to using `th` elements, `caption` elements, or non-empty `summary` attributes in layout tables
 
 ____
-Although WCAG 2.1 does not prohibit the use of layout tables, CSS-based layouts are recommended in order to retain the defined semantic meaning of the HTML table elements and to conform to the coding practice of separating presentation from contentWhen a table is used for layout purposes the th element should not be usedSince the table is not presenting data there is no need to mark any cells as column or row headersLikewise, there is no need for an additional description of a table which is only used to layout contentDo not include a summary attribute and do not use the `summary` attribute to describe the table as, for instance, "layout table"When spoken, this information does not provide value and will only distract users navigating the content via a screen readerEmpty summary attributes are acceptable on layout tables, but not recommended.
+Although WCAG 2.1 does not prohibit the use of layout tables, CSS-based layouts are recommended in order to retain the defined semantic meaning of the HTML table elements and to conform to the coding practice of separating presentation from content.
+When a table is used for layout purposes the th element should not be used.
+Since the table is not presenting data there is no need to mark any cells as column or row headers.
+Likewise, there is no need for an additional description of a table which is only used to layout content.
+Do not include a summary attribute and do not use the `summary` attribute to describe the table as, for instance, "layout table"When spoken, this information does not provide value and will only distract users navigating the content via a screen reader.
+Empty summary attributes are acceptable on layout tables, but not recommended.
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Techniques/failures/F46.html[https://www.w3.org/WAI/WCAG21/Techniques/failures/F46.html]

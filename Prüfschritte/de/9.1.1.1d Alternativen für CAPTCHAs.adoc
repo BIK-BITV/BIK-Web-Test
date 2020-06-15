@@ -15,9 +15,12 @@ muss vorhanden sein.
 
 In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche
 Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu
-erreichenFür blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht
-zugänglichAudio-Captchas sind für höreingeschränkte Nutzer nicht
-zugänglichDeshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative
+erreichen.
+Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht
+zugänglich.
+Audio-Captchas sind für höreingeschränkte Nutzer nicht
+zugänglich.
+Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative
 angeboten werden.
 
 Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs
@@ -38,7 +41,8 @@ Teil der Prüfung und wird nicht bewertet.
 
 Die Seite im Firefox laden.
 {blank}
-In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufenAlternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
+In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufen.
+Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
 Prüfen, ob beim CAPTCHA-Bild das ``alt``-Attribut vorhanden ist und der dort hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
 
 ==== [#G144]2.2 Vorhandensein von CAPTCHA-Alternativen
@@ -64,7 +68,8 @@ CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche Nutze
 
 === Abgrenzung zu anderen Prüfschritten
 
-Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insgesamt zugänglich istDie Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Formularfelder richtig beschriftet" geprüft.
+Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insgesamt zugänglich ist.
+Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Formularfelder richtig beschriftet" geprüft.
 
 === Einordung des Prüfschritts nach WCAG 2.1
 
@@ -96,4 +101,7 @@ http://www.karlgroves.com/2012/04/03/captcha-less-security/[CAPTCHA-less Securit
 
 === In welchen Fällen führt ein visuelles CAPTCHA ohne Alternative zu einer Abwertung des Angebotes auf "nicht zugänglich"?
 
-Dies muss im Einzelfall entschieden werdenWenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind, ist eine Abwertung angebrachtEin Beispiel ist etwa das Online-Banking auf der Website einer BankIn anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie "Seite weiterempfehlen"Hier wäre eine Abwertung nicht angemessen.
+Dies muss im Einzelfall entschieden werden.
+Wenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind, ist eine Abwertung angebracht.
+Ein Beispiel ist etwa das Online-Banking auf der Website einer Bank.
+In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie "Seite weiterempfehlen"Hier wäre eine Abwertung nicht angemessen.

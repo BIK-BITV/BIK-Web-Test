@@ -4,16 +4,19 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Grafiken sollen nicht für die Darstellung von Schriften verwendet werdenLogos
+Grafiken sollen nicht für die Darstellung von Schriften verwendet werden.
+Logos
 sind hiervon ausgenommen.
 
 == Warum wird das geprüft?
 
 Schriftgrafiken, die als Bitmap-Grafik eingebunden werden (z.Bals JPEG, PNG,
 oder GIF), können nicht oder nur eingeschränkt an Benutzeranforderungen
-angepasst werdenIhre Farben können nicht individuell eingestellt werden, auch
+angepasst werden.
+Ihre Farben können nicht individuell eingestellt werden, auch
 die individuelle Anpassung der Schriftgröße wirkt nicht auf grafische
-SchriftenUnd bei Zoomvergrößerung werden die Schriftkanten unscharf.
+Schriften.
+Und bei Zoomvergrößerung werden die Schriftkanten unscharf.
 
 == Wie wird geprüft?
 
@@ -77,33 +80,43 @@ Die Bereitstellung von Alternativtexten für Schriftgrafiken ist Gegenstand der 
 
 == Fragen zu diesem Prüfschritt
 
-=== Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehenAlso zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
+=== Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehen.
+Also zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
 
 Moderne Betriebssysteme stellen die Schriftzeichen aller verbreiteten Sprachen
-zur VerfügungIn aller Regel sind Schriftzeichen, mit denen ein möglicher
-Nutzer etwas anfangen könnte, auch installiertDie grafische Darstellung von
+zur Verfügung.
+In aller Regel sind Schriftzeichen, mit denen ein möglicher
+Nutzer etwas anfangen könnte, auch installiert.
+Die grafische Darstellung von
 Schriftzeichen ist daher nur als zusätzliches Angebot sinnvoll.
 
 Im BITV-Test wird nur geprüft, ob Text in Form von Text verfügbar
-istZusätzliche grafische Angebote werden nicht berücksichtigt.
+ist.
+Zusätzliche grafische Angebote werden nicht berücksichtigt.
 
 === Was ist mit auf Fotos abgebildeten Schriften?
 
 Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes
-dann nicht mehr flexibel istBei abgebildeten Schriften, also zum Beispiel bei
-Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörigDieser
+dann nicht mehr flexibel ist.
+Bei abgebildeten Schriften, also zum Beispiel bei
+Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörig.
+Dieser
 Prüfschritt ist also nicht anwendbar.
 
 Davon ausgenommen sind allerdings Abbildungen, die wie Schriftgrafiken
 verwendet werden, also zum Beispiel als Überschriften dienen.
 
-=== Oft ist es nicht möglich, auf Schriftgrafiken zu verzichtenDenn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
+=== Oft ist es nicht möglich, auf Schriftgrafiken zu verzichten.
+Denn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
 
-Sicher gibt es gute Gründe für den Einsatz von SchriftgrafikenDer Einsatz von
+Sicher gibt es gute Gründe für den Einsatz von Schriftgrafiken.
+Der Einsatz von
 Schriftgrafiken ist aber auf der anderen Seite aus Sicht der Barrierefreiheit
-problematischEs muss also entschieden werden, ob das einheitliche Corporate
+problematisch.
+Es muss also entschieden werden, ob das einheitliche Corporate
 Design wichtiger ist, als die barrierefreie Zugänglichkeit des
-WebauftrittsWenn die barrierefreie Zugänglichkeit der im Webauftritt
+Webauftritts.
+Wenn die barrierefreie Zugänglichkeit der im Webauftritt
 bereitgestellten Inhalte Priorität haben soll, wird es erforderlich sein, das
 Corporate Design anzupassen oder auf seinen durchgängigen Einsatz zu
 verzichten.
@@ -111,6 +124,7 @@ verzichten.
 === Wie wird Text in Firmenlogos bewertet?
 
 In diesem Prüfschritt geht es um die Verwendung von grafischen Schriften für
-Texte, Überschriften und BedienelementeDas Firmenlogo ist nicht relevant, so
+Texte, Überschriften und Bedienelemente.
+Das Firmenlogo ist nicht relevant, so
 lange es nicht (oder nur zusätzlich) als Überschrift oder Bedienelement
 eingesetzt wird.

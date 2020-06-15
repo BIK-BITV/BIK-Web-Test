@@ -5,19 +5,23 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Seiteninhalte sollen unabhängig von der Darstellung in einer sinnvollen und
-brauchbaren Reihenfolge stehenWas inhaltlich zusammengehört (etwa eine
+brauchbaren Reihenfolge stehen.
+Was inhaltlich zusammengehört (etwa eine
 Überschrift und die dazugehörigen Inhalte darunter) soll nicht
-auseinandergerissen werdenMittels CSS versteckte Seiteninhalte sollen deshalb
+auseinandergerissen werden.
+Mittels CSS versteckte Seiteninhalte sollen deshalb
 an sinnvoller Stelle im Seitenquelltext erscheinen.
 
 Dynamische Inhalte, die im Ausgangszustand visuell versteckt sind, sollen auch
 für Screenreader verborgen sein, damit sie nicht die Lesereihenfolge stören.
 
-Ausschlaggebend bei der Prüfung ist nicht, ob die Seite in der Ansicht ohne CSS visuell eine verständliche Lesereihenfolge hatAusschlaggebend ist, ob *bei eingeschaltetem CSS* die Reihenfolge beim lineraren Lesen mit dem Screenreader sinnvoll ist.
+Ausschlaggebend bei der Prüfung ist nicht, ob die Seite in der Ansicht ohne CSS visuell eine verständliche Lesereihenfolge hat.
+Ausschlaggebend ist, ob *bei eingeschaltetem CSS* die Reihenfolge beim lineraren Lesen mit dem Screenreader sinnvoll ist.
 
 == Warum wird das geprüft?
 
-Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind, *nacheinander* vor - und zwar in der Reihenfolge, in der sie im Quellcode stehenDie Reihenfolge der Elemente muss also gut verständlich und nutzbar sein.
+Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind, *nacheinander* vor - und zwar in der Reihenfolge, in der sie im Quellcode stehen.
+Die Reihenfolge der Elemente muss also gut verständlich und nutzbar sein.
 
 == Wie wird geprüft?
 
@@ -31,10 +35,14 @@ eingefügt werden.
 
 ==== 2.1Lesereihenfolge für Screenreader-Nutzer
 
-Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen und in der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] _CSS > Disable All Styles_ wählenBleibt die logische Reihenfolge von sichbaren Seiten-Inhalten nach dem Abschalten von CSS erhalten?
-CSS wieder einschaltenDie Reihenfolge der Inhalte mit dem Screenreader NVDA im
-Lesemodus (Pfeiltaste nach unten) überprüfenGibt es Linearisierungsprobleme,
-die bei der Screenreader-Nutzung störend sindWerden visuell versteckte Inhlate
+Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen und in der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] _CSS > Disable All Styles_ wählen.
+Bleibt die logische Reihenfolge von sichbaren Seiten-Inhalten nach dem Abschalten von CSS erhalten?
+CSS wieder einschalten.
+Die Reihenfolge der Inhalte mit dem Screenreader NVDA im
+Lesemodus (Pfeiltaste nach unten) überprüfen.
+Gibt es Linearisierungsprobleme,
+die bei der Screenreader-Nutzung störend sind.
+Werden visuell versteckte Inhlate
 vorgelesen?
 
 ==== [#F49]2.2 Prüfung der Linearisierbarkeit von Layouttabellen
@@ -51,15 +59,18 @@ Prüfen, ob die lineare Reihenfolge der angezeigten Inhalte sinnvoll ist.
 ==== Reihenfolge von Inhalten
 
 Die visuelle Anordnung der Seitenelemente kann von der Reihenfolge im
-Quelltext abweichenSichtbare Inhalte sollen in der Regel in der gleichen
-Reihenfolge wie im Quelltext stehenBei der Nutzung von CSS Layout-Technik
+Quelltext abweichen.
+Sichtbare Inhalte sollen in der Regel in der gleichen
+Reihenfolge wie im Quelltext stehen.
+Bei der Nutzung von CSS Layout-Technik
 `grid` kommt es hier häufiger zu Problemen.
 
 ==== Dynamische Elemente
 
 Häufig und deshalb auch zu akzeptieren sind durch CSS versteckte Inhalte etwa
 Ausklappmenüs oder Popup-Elemente, die bei der Ansicht ohne CSS sichtbar
-werdenProblematisch sind sie für Screenreader-Nutzer vor allem dann, wenn sie
+werden.
+Problematisch sind sie für Screenreader-Nutzer vor allem dann, wenn sie
 zwar visuell mittels CSS versteckt werden, aber vom Screenreader im Lesemodus
 dennoch erreicht werden, z.Bweil sie nicht mit geeigneten Mitteln wie
 `display:none` versteckt wurden.

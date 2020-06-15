@@ -11,9 +11,11 @@ sich bei Ihnen bereits um Medienalternativen für Text.
 == Warum wird das geprüft?
 
 Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt
-zugänglich, deshalb brauchen sie eine TranskriptionStumme Videodateien (etwa
+zugänglich, deshalb brauchen sie eine Transkription.
+Stumme Videodateien (etwa
 eine Film- oder Animationsequenz, die zeigt, wie ein Gerät zusammengesetzt
-wird) sind für blinde und sehbehinderte Nutzer nicht verfügbarSie brauchen
+wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar.
+Sie brauchen
 deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 == Wie wird geprüft?
@@ -27,24 +29,29 @@ der Seite eingebunden sind.
 
 ==== [#G158]2.1Transkription für Audiodateien:
 
-Im Browser die Audiodatei abspielenPrüfen, ob Informationen vermittelt werden
+Im Browser die Audiodatei abspielen.
+Prüfen, ob Informationen vermittelt werden
 (zBüber eine Kommentarstimme)Dann ist eine Transkription erforderlich.
 Prüfen, ob eine Transkription angeboten wird.
 Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die
-Audiodatei vermitteltBei Audiodateien mit verschiedenen Stimmen gibt es in der
+Audiodatei vermittelt.
+Bei Audiodateien mit verschiedenen Stimmen gibt es in der
 Transkription eine Kennzeichnung der Sprecher.
 
 ==== [#G159][#G166]2.2Medienalternative für stumme Film- oder Bildsequenzen:
 
-Im Browser die stumme Videodatei abspielenPrüfen, ob Informationen vermittelt
+Im Browser die stumme Videodatei abspielen.
+Prüfen, ob Informationen vermittelt
 werden.
-Prüfen, ob eine Medienalternative angeboten wirdDies kann eine Textversion
+Prüfen, ob eine Medienalternative angeboten wird.
+Dies kann eine Textversion
 (direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche
 Audiodatei sein.
 Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die
 stumme Film- oder Bildsequenz vermittelt.
 
-==== 2.3Prüfung der Erreichbarkeit der Transkription bzwMedienalternative:
+==== 2.3Prüfung der Erreichbarkeit der Transkription bzw.
+Medienalternative:
 
 Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder
 Videodatei angeboten wird.
@@ -63,7 +70,8 @@ Link.
 
 Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer
 Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar
-dieselben Inhalte wiedergegeben werdenBei Transkriptionen von mehreren Stimmen
+dieselben Inhalte wiedergegeben werden.
+Bei Transkriptionen von mehreren Stimmen
 (etwa Dialogen) sollen die Sprecher im Text identifiziert sein.
 
 === 4Bewertung
@@ -75,13 +83,15 @@ dieselben Inhalte wiedergegeben werdenBei Transkriptionen von mehreren Stimmen
 
 ==== Abwertung des Gesamtergebnisses
 
-* Die Abwertung ist erforderlich, wenn Audiodateien oder stumme Videodateien ohne Alternativen angeboten werden und gleichzeitig für die Nutzung des Webauftritts von zentraler Bedeutung sindDer Webauftritt kann dann wegen der Unzugänglichkeit der Videoinhalte von blinden oder sehbehinderten Menschen oder wegen der Unzugänglichkeit der Audioinhalte von hörbehinderten Menschen nicht genutzt werden.
+* Die Abwertung ist erforderlich, wenn Audiodateien oder stumme Videodateien ohne Alternativen angeboten werden und gleichzeitig für die Nutzung des Webauftritts von zentraler Bedeutung sind.
+Der Webauftritt kann dann wegen der Unzugänglichkeit der Videoinhalte von blinden oder sehbehinderten Menschen oder wegen der Unzugänglichkeit der Audioinhalte von hörbehinderten Menschen nicht genutzt werden.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizierenDies ist Gegenstand des Prüfschritts link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
+Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
+Dies ist Gegenstand des Prüfschritts link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
 
 In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von
 gleichwertigen Alternativen für reine Audio- oder Videoinhalte.

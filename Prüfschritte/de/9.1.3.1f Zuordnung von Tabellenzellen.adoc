@@ -13,18 +13,24 @@ korrekt sein.
 
 Bei komplexen Tabellen können Screenreader aus dem Tabellengerüst allein nicht
 schließen, welche Bezüge es zwischen Daten- und Überschriftenzellen
-gibtDeshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung
+gibt.
+Deshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung
 stehenden Attribute ausdrücklich definiert werden.
 
 In der Praxis sind manchmal auch einfache Datentabellen mit `headers`- und
-`id`-Attributen ausgezeichnetScreenreader richten sich dann nicht nach
-allgemeinen Regeln, sondern nach der vorliegenden AuszeichnungDeshalb muss die
-Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäreDenn
+`id`-Attributen ausgezeichnet.
+Screenreader richten sich dann nicht nach
+allgemeinen Regeln, sondern nach der vorliegenden Auszeichnung.
+Deshalb muss die
+Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäre.
+Denn
 bei falscher direkter Zuordnung von Datenzellen werden die Überschriften nicht
 oder fehlerhaft ausgegeben.
 
 Hinweis: +
-Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen als einfache, selbst bei perfekter AuszeichnungZu empfehlen ist also die Vermeidung von Tabellen mit mehreren logischen Ebenen (siehe link:#log[Frage zu Tabellen mit mehreren logischen Ebenen])In vielen Fällen können komplexe Tabellen geteilt und durch mehrere einfache Tabellen ersetzt werdenDie beste Bewertung für dieses Prüfschritt ist deshalb immer "nicht anwendbar".
+Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen als einfache, selbst bei perfekter Auszeichnung.
+Zu empfehlen ist also die Vermeidung von Tabellen mit mehreren logischen Ebenen (siehe link:#log[Frage zu Tabellen mit mehreren logischen Ebenen])In vielen Fällen können komplexe Tabellen geteilt und durch mehrere einfache Tabellen ersetzt werden.
+Die beste Bewertung für dieses Prüfschritt ist deshalb immer "nicht anwendbar".
 
 == Wie wird geprüft?
 
@@ -38,12 +44,14 @@ wenn in einer einfachen Datentabelle Zellen ausdrücklich (per `headers` und
 `id`) bestimmten Überschriften zugeordnet sind (auch wenn diese Zuordnung
 eigentlich nicht erforderlich wäre).
 
-Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur jeweils eine Zeile oder Spalte für ÜberschriftenBei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren" Überschriften zuzuordnen.
+Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur jeweils eine Zeile oder Spalte für Überschriften.
+Bei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren" Überschriften zuzuordnen.
 
 === 2Prüfung
 
 Seite im Firefox laden.
-Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufenTabellen-Auszeichnungen werden jetzt angezeigt.
+Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufen.
+Tabellen-Auszeichnungen werden jetzt angezeigt.
 Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
 `scope`-Attribut definiert ist oder die einzelnen Zellen mithilfe von
 `headers`- und `id`-Attributen korrekt ihren Überschriften zugeordnet sind.
@@ -94,12 +102,14 @@ headers.
 Tables with two or more levels are those where the row of headers "closest to the content" itself has headersA trivial example would be months, which have season headers (...)
 ____
 
-Quelle: http://lists.w3.org/Archives/Public/wai-wcag-editor/2000OctDec/0155.html
+Quelle: http://lists.w3.org/Archives/Public/wai-wcag-editor/2000Oct.
+Dec/0155.html
 
 === Technique H63: Using the scope attribute to associate header cells and data cells in data tables
 
 ____
-"At the current time, those who want to ensure consistent support across Assistive Technologies for tables where the headers are not in the first row/column may want to use the technique for complex tables H43: Using id and headers attributes to associate data cells with header cells in data tablesFor simple tables that have headers in the first column or row we recommend the use of the th and td elements."
+"At the current time, those who want to ensure consistent support across Assistive Technologies for tables where the headers are not in the first row/column may want to use the technique for complex tables H43: Using id and headers attributes to associate data cells with header cells in data tables.
+For simple tables that have headers in the first column or row we recommend the use of the th and td elements."
 ____
 
 Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html
@@ -107,9 +117,14 @@ Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html
 === Technique H43: Using id and headers attributes to associate data cells with header cells in data tables
 
 ____
-"The objective of this technique is to associate each data cell (in a data table) with the appropriate headersThis technique adds a headers attribute to each data cell (td element)It also adds an id attribute to any cell used as a header for other cellsThe headers attribute of a cell contains a list of the id attributes of the associated header cellsIf there is more than one id, they are separated by spaces.
+"The objective of this technique is to associate each data cell (in a data table) with the appropriate headers.
+This technique adds a headers attribute to each data cell (td element)It also adds an id attribute to any cell used as a header for other cells.
+The headers attribute of a cell contains a list of the id attributes of the associated header cells.
+If there is more than one id, they are separated by spaces.
 
-This technique is used when data cells are associated with more than one row and/or one column headerThis allows screen readers to speak the headers associated with each data cell when the relationships are too complex to be identified using the th element alone or the th element with the scope attributeUsing this technique also makes these complex relationships perceivable when the presentation format changes.
+This technique is used when data cells are associated with more than one row and/or one column header.
+This allows screen readers to speak the headers associated with each data cell when the relationships are too complex to be identified using the th element alone or the th element with the scope attribute.
+Using this technique also makes these complex relationships perceivable when the presentation format changes.
 
 This technique is not recommended for layout tables since its use implies a relationship between cells that is not meaningful when tables are used for layout."
 ____

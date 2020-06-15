@@ -5,12 +5,14 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Kann der Tastaturfokus auf ein Element der Seite bewegt werden, muss er auch
-von diesem Element wieder wegbewegt werden könnenDer Inhalt darf keine
+von diesem Element wieder wegbewegt werden können.
+Der Inhalt darf keine
 Tastaturfalle erzeugen.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich seinDas bedeutet: Sie muss sowohl
+Die Bedienung soll geräteunabhängig möglich sein.
+Das bedeutet: Sie muss sowohl
 mit der Maus als auch mit der Tastatur möglich sein.
 
 Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
@@ -34,7 +36,10 @@ Seite in Chrome aufrufen und Schritte 1 bis 2 wiederholen.
 
 ==== 3.1Allgemeine Hinweise
 
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursachtDie Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von Java.
+Script verursacht.
+Die Prüfung erfolgt also bei *eingeschaltetem* Java.
+Script.
 
 ==== 3.2Hinweise zu Tastaturfallen
 

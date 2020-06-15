@@ -25,7 +25,8 @@ erstellen kann, detektieren kann.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
+Hub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
 
 Wenn die Web-App Probleme im Bereich Barrierefreiheit in den Dokumenten

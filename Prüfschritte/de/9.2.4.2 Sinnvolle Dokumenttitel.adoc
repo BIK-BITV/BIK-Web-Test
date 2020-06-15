@@ -9,8 +9,10 @@ können für die Unterscheidung und Auswahl von Seiten genutzt werden.
 
 == Warum wird das geprüft?
 
-Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit BookmarksSie
-sind wichtig für die Navigation und Orientierung in WebangebotenWenn das
+Dokumenttitel vertreten die Seiten, zum Beispiel in Listen mit Bookmarks.
+Sie
+sind wichtig für die Navigation und Orientierung in Webangeboten.
+Wenn das
 Angebot oder der Inhalt der Seite nicht bezeichnet sind, ist die Orientierung
 beeinträchtigt.
 
@@ -25,18 +27,21 @@ Der Prüfschritt ist immer anwendbar.
 
 === [#G88][#G127][#H25][#F25]2Prüfung
 
-Dokumenttitel in der Browserleiste ansehenBezeichnet der Titel die Website und
+Dokumenttitel in der Browserleiste ansehen.
+Bezeichnet der Titel die Website und
 den Inhalt der jeweiligen Seite, ist er für die Unterscheidung und Auswahl von
 Seiten geeignet?
 
 Falls Seiten Frames haben:
 
 * Einzelne Frames in neuem Tab oder Fenster öffnen.
-* Dokumenttitel in der Browserleiste ansehenHaben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames kennzeichnen?
+* Dokumenttitel in der Browserleiste ansehen.
+Haben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames kennzeichnen?
 
 === 3Hinweis
 
-Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergebenEin guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste.
+Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergeben.
+Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste.
 
 === 4Bewertung
 

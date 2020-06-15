@@ -27,7 +27,8 @@ Mögliche Anwendungen der Strukturelemente für Listen:
 === 1Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Elemente enthält, die von ihrem
-Erscheinungsbild oder ihrer Funktion her Listen sindDas ist bei
+Erscheinungsbild oder ihrer Funktion her Listen sind.
+Das ist bei
 informationsorientierten Seiten häufig der Fall.
 
 Da auch die missbräuchliche Verwendung der HTML-Elemente für Listen geprüft
@@ -37,25 +38,30 @@ Elemente enthält, die als Listen ausgezeichnet worden sind.
 === 2Prüfung
 
 * Seite im Firefox aufrufen.
-* Lists Bookmarklet aufrufenListenauszeichnungen, soweit vorhanden, werden nun dargestellt.
+* Lists Bookmarklet aufrufen.
+Listenauszeichnungen, soweit vorhanden, werden nun dargestellt.
 * Prüfen, ob alle Listen inklusive der Menüs mit den vorgesehenen HTML-Strukturelementen für Listen ausgezeichnet sind (`ul`, `ol`, `dl`).
 * Prüfen, ob Listen-Markup für Elemente verwendet wird, die nicht Listen sind.
 
 === 3Hinweise
 
 Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht
-besser in Listenform dargestellt werden solltenEs soll nur geprüft werden, ob
+besser in Listenform dargestellt werden sollten.
+Es soll nur geprüft werden, ob
 vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
 
-Listen erkennt man normalerweise an ihrer Darstellung auf dem BildschirmSie
+Listen erkennt man normalerweise an ihrer Darstellung auf dem Bildschirm.
+Sie
 heben sich deutlich von normalen Textabschnitten ab, oft sind sie eingerückt,
 meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen vorangestellt.
 
 Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer
-Listen, egal wie sie gestaltet sindSie sollten deshalb auch als Listen
+Listen, egal wie sie gestaltet sind.
+Sie sollten deshalb auch als Listen
 ausgezeichnet werden.
 
-Definitionslisten dienen hauptsächlich zur Auszeichnung von GlossarenIhr
+Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren.
+Ihr
 Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und
 Bildtext, wird akzeptiert.
 
