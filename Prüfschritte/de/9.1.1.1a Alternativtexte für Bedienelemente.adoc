@@ -45,34 +45,38 @@ Der Prüfschritt ist anwendbar, wenn Grafiken, Icon Fonts oder SVGs als
 Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt
 werden.
 
-=== 2Prüfung
+=== 2 Prüfung
 
-==== 2.1Anzeige der Alternativtexte von Grafiken
+==== 2.1 Anzeige der Alternativtexte von Grafiken
 
 . Die Seite im Firefox aufrufen.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
 . In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
   aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
-  Alternativtexten versehen sind (siehe link:#angemessen[2.4])Alternativ kann
+  Alternativtexten versehen sind (siehe
+  <<2.6Gleichwertige (äquivalente) Alternativtexte>>)Alternativ kann
   auch das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
   Images bookmarklet] eingesetzt werden.
 . Feststellen, ob die Seite Image maps enthält.
   Hierfür kann gegebenenfalls der Quelltext nach `map` durchsucht werden.
-  Ist ein Image map vorhanden, weiter mit 2.2.
+  Ist ein Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
 
-==== 2.2Anzeige von Image maps
+==== 2.2 Anzeige von Image maps
 
 Falls Image maps eingesetzt werden:
 
-Die Firefox Developer Tools öffnen und im Quellcode prüfen, ob für jeden Link (`area`-Element der Image map, aktiver Bereich) *und* für das Gesamtbild der Image map ein gleichwertiger Alternativtext vorhanden ist (siehe link:#angemessen[2.6]).
+Die Firefox Developer Tools öffnen und im Quellcode prüfen, ob für jeden
+Link (`area`-Element der Image map, aktiver Bereich) *und* für das Gesamtbild
+der Image map ein gleichwertiger Alternativtext vorhanden ist (siehe
+<<2.6Gleichwertige (äquivalente) Alternativtexte>>).
 
 Der Alternativtext für die gesamte Image map sollte in der Regel die Image map
 beschreiben, die Alternativtexte für die aktiven Bereiche (``area``-Elemente)
 sollten die Linkziele bezeichnen.
 
-==== 2.3Textalternativen für Hintergrundgrafiken
+==== 2.3 Textalternativen für Hintergrundgrafiken
 
 Hintergrundgrafiken haben kein ``alt``-Attribut, auf diese Weise kann also keine
 Textalternative hinterlegt werden.
@@ -115,9 +119,10 @@ Wenn `display:none` verwendet
 wird, ist dies wie ein nicht vorhandenes oder leeres ``alt``-Attribut zu werten.
 Falls ein geeignetes Bildersetzungsverfahren verwendet wurde:
 Prüfen, ob der Textlink eine äquivalente Textalternative für das
-Hintergrundbild darstellt (siehe link:#angemessen[2.6]).
+Hintergrundbild darstellt (siehe
+<<2.6Gleichwertige (äquivalente) Alternativtexte>>).
 
-==== 2.4 Textalternativen für Icon Fonts:
+==== 2.4 Textalternativen für Icon Fonts
 
 Beim Einsatz von Icon Fonts ist es nicht möglich, mittels ``alt``-Attribut eine
 Textalternative zu hinterlegen.
@@ -152,14 +157,15 @@ sind: Prüfen, welches Verfahren verwendet wurde, um diese zu versteckenWenn
 ``alt``-Attribut zu werten.
 Falls ein geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
 äquivalente Textalternative für das Icon darstellt
-(siehe link:#angemessen[2.6]).
+(siehe
+<<2.6Gleichwertige (äquivalente) Alternativtexte>>).
 Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
 über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
 Falls für die Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
-ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B.
+ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
 ``aria-hidden="true"``).
 
-==== 2.5 Textalternativen für Inline-SVGs:
+==== 2.5 Textalternativen für Inline-SVGs
 
 ===== Prüfung
 
@@ -172,7 +178,8 @@ direkt in HTML eingebundene SVG handelt (Inline SVG).
 Prüfen, ob eine Textalternative vorhanden ist
 Prüfen, ob ein ``title``-Element (für längere Beschreibungen das
 ``desc``-Element) vorhanden ist und die dort hinterlegte Textalternative das
-Bild in angemessener Weise ersetzt (siehe link:#angemessen[2.6]).
+Bild in angemessener Weise ersetzt (siehe
+<<2.6Gleichwertige (äquivalente) Alternativtexte>>).
 Das `title-` bzw. ``desc-``Element sollte das erste Kind-Element des
 ``svg``-Eltern-Elements sein.
 Da SVG noch nicht ausreichend von allen Screenreader-Browser-Kombinationen
@@ -194,7 +201,7 @@ Diese kommt für komplexere SVG-Grafiken wie z. B. Erklärbilder, Diagramme,
 oder Bilder mit eingebundenen Links zum Einsatz (das Ausmaß der
 Unterstützung durch Screenreader ist zur Zeit unklar).
 
-==== 2.6Gleichwertige (äquivalente) Alternativtexte:
+==== 2.6Gleichwertige (äquivalente) Alternativtexte
 
 Entscheidend ist: die Seite soll benutzbar sein, wenn Grafiken, oder Bilder
 oder Objekte durch die entsprechenden Alternativtexte oder Textalternativen
@@ -216,7 +223,7 @@ In der Regel bedeutet das:
   werden kann, und eine entsprechende Meldung generiert.
   In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine
   Überschrift im unmittelbaren Kontext identifiziert wird.
-* [#G92][#H30][#F20]Bei *verlinkten Abbildungen* gibt es folgende
+* Bei *verlinkten Abbildungen* gibt es folgende
   Möglichkeiten:
 ** Beschreibung des abgebildeten Gegenstandes in den Alternativtext (wenn der
    abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
@@ -230,9 +237,9 @@ In der Regel bedeutet das:
    Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt
    werden.
 
-=== 3Hinweise
+=== 3 Hinweise
 
-==== 3.1Alternativtexte für redundant verlinkte Abbildungen
+==== 3.1 Alternativtexte für redundant verlinkte Abbildungen
 
 Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel
 verweisen, muss geprüft werden, ob Abbildung und Text in den selben Link
@@ -251,7 +258,7 @@ Denn gängige Screenreader verlassen sich nicht darauf, daß leere
 Bedienelementen leere wie fehlende ``alt``-Attribute und lesen den Dateinamen
 der Grafik / die URL der Zieldatei vor.
 
-==== 3.2Unterstützung von SVGs durch assistive Technologien
+==== 3.2 Unterstützung von SVGs durch assistive Technologien
 
 Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
 unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden
@@ -265,15 +272,15 @@ Die Rolle kann entfallen, wenn Text im gleichen Link das Linkziel
 aussagekräftig beschreibt: dann sollte die SVG-Grafik mit `aria-hidden="true"`
 ausgezeichnet werden.
 
-=== 4Bewertung
+=== 4 Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
 * Der Alternativtext fehlt beim Link zum Seitenanfang oder bei einem anderen
   für die Benutzung der Seite weniger wichtigen Bedienelement.
 * Alternativtexte sind missverständlich, undeutlich oder extrem lang.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
 * Der Alternativtext für ein wichtiges Bedienelement fehlt oder er ist
   unbrauchbar.
@@ -282,10 +289,10 @@ ausgezeichnet werden.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewertenDas gilt auch
-dann, wenn die Grafiken neben der Information über das Linkziel auch noch eine
-andere Information vermitteln sollen, wie zum Beispiel auf die Startseite
-verlinkte Logos.
+Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewerten.
+Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
+auch noch eine andere Information vermitteln sollen, wie zum Beispiel auf die
+Startseite verlinkte Logos.
 
 Einzige Ausnahme: Grafik und danebenstehender Text sind ein zusammengehöriger
 Link.
