@@ -28,80 +28,114 @@ beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1 Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
 
 Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht
 Teil der Prüfung und wird nicht bewertet.
 
-=== 2Prüfung
+=== 2 Prüfung
 
-==== [#G143]2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
+==== 2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
 Die Seite im Firefox laden.
-{blank}
-In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_ aufrufen.
-Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Images bookmarklet] eingesetzt werden.
-Prüfen, ob beim CAPTCHA-Bild das ``alt``-Attribut vorhanden ist und der dort hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
+In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
+aufrufen.
+Alternativ kann auch das
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+Images bookmarklet] eingesetzt werden.
+Prüfen, ob beim CAPTCHA-Bild das ``alt``-Attribut vorhanden ist und der dort
+hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel:
+"Geben sie die im Bild dargestellte Zeichenfolge ein").
 
-==== [#G144]2.2 Vorhandensein von CAPTCHA-Alternativen
+==== 2.2 Vorhandensein von CAPTCHA-Alternativen
 
-* Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder Audio-Captchas eine Alternative angeboten wird.
+* Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder
+  Audio-Captchas eine Alternative angeboten wird.
 
-=== 3Hinweise
+=== 3 Hinweise
 
-CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0 http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-3-head[Note on CAPTCHA]).
+CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche
+Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0
+http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-3-head[
+Note on CAPTCHA]).
 
-=== 4Bewertung
+=== 4 Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Alternativtexte nennen nicht den Zweck des CAPTCHAs.
-* Ein Alternativ-CAPTCHA ist vorhanden, aber es wird darauf nicht im Alternativtext verwiesen oder es ist nicht im unmittelbaren Kontext zugänglich.
+* Alternativtexte nennen nicht den Zweck des CAPTCHAs
+* Alternativ-CAPTCHA ist vorhanden, aber es wird darauf nicht im
+  Alternativtext verwiesen oder es ist nicht im unmittelbaren Kontext
+  zugänglich
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht vorhanden.
+* Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht
+  vorhanden
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es insgesamt zugänglich ist.
-Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt link:/index.php?a=di&iid=81&s=n[3.3.2a] "Formularfelder richtig beschriftet" geprüft.
+Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es
+insgesamt zugänglich ist.
+Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt
+ifdef::env_embedded[9.3.3.2 "Beschriftungen von Formularelementen vorhanden"]
+ifndef::env_embedded[]
+  <<9.3.3.2 Beschriftungen von Formularelementen vorhanden.adoc#,9.3.3.2
+  Beschriftungen von Formularelementen vorhanden>>
+endif::env_embedded[]
+geprüft.
 
-=== Einordung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* http://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language]
+* http://www.w3.org/TR/WCAG21/#text-alternatives[
+  Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text
+  content so that it can be changed into other forms people need, such as large
+  print, braille, speech, symbols or simpler language]
 
 ==== Success Criterion
 
-* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content] (Level A)
+* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[
+  1.1.1 Non-text Content] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G143.html[G143: Providing a text alternative that describes the purpose of the CAPTCHA]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G144.html[G144: Ensuring that the Web Page contains another CAPTCHA serving the same purpose using a different modality]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G143.html[
+  G143: Providing a text alternative that describes the purpose of the CAPTCHA]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G144.html[
+  G144: Ensuring that the Web Page contains another CAPTCHA serving the same
+  purpose using a different modality]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F3[F3: Failure of Success Criterion 1.1.1 due to using CSS to include images that convey important information]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F69[F65: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute on `img` elements, `area` elements, and `input` elements of type 'image']
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F3[
+  F3: Failure of Success Criterion 1.1.1 due to using CSS to include images
+  that convey important information]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F69[
+  F69: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute
+  on `img` elements, `area` elements, and `input` elements of type 'image']
 
 == Quellen
 
-http://www.karlgroves.com/2012/04/03/captcha-less-security/[CAPTCHA-less Security] by Karl Groves, 2012
+* http://www.karlgroves.com/2012/04/03/captcha-less-security/[
+  CAPTCHA-less Security] by Karl Groves, 2012
 
 == Fragen zu diesem Prüfschritt
 
 === In welchen Fällen führt ein visuelles CAPTCHA ohne Alternative zu einer Abwertung des Angebotes auf "nicht zugänglich"?
 
 Dies muss im Einzelfall entschieden werden.
-Wenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind, ist eine Abwertung angebracht.
+Wenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind,
+ist eine Abwertung angebracht.
 Ein Beispiel ist etwa das Online-Banking auf der Website einer Bank.
-In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie "Seite weiterempfehlen"Hier wäre eine Abwertung nicht angemessen.
+In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral
+wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie
+"Seite weiterempfehlen".
+Hier wäre eine Abwertung nicht angemessen.
