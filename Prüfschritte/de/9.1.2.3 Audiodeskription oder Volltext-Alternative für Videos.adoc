@@ -1,0 +1,174 @@
+= 9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder
+Volltext-Alternative bereitgestellt werden.
+
+== Warum wird das geprüft?
+
+Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden.
+Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
+verstehen, worum es geht.
+Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig
+gesprochen wird und Inhalte über das Bild vermittelt werden.
+Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
+Passagen beschrieben werden.
+Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+* Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur
+  vorhanden sind und Informationen über das Bildgeschehen für das Verständnis
+  erforderlich sind.
+* Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens
+  nicht in Worte gefasst werden kann.
+  Der Prüfschritt ist dann nicht anwendbar.
+* Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von
+  Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder
+  wenn das Video keine Tonspur hat (siehe Prüfschritt
+ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos").]
+ifndef::env_embedded[]
+  <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>).
+endif::env_embedded[]
+* Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als
+  Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
+  zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer
+  Form zu vermitteln.
+  Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende
+  Informationen bieten und die klar als Medienalternative zum Text erkennbar
+  sind.
+* Gebärdensprachvideos brauchen keine Audiodeskription.
+
+=== 2. Prüfung
+
+==== 2.1. Audiodeskription prüfen
+
+Es wird eine Sicht- und Hörprüfung vorgenommen.
+
+Art der Einbindung feststellen.
+Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
+
+* Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
+* Eine weitere Version des Videos mit Audiodeskription wird angeboten.
+  Diese Version wird geprüft.
+  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext
+  des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das
+  Zurückspringen funktioniert über den Zurück-Button des Browsers).
+* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
+  Diese Spur wird zusätzlich geschaltet.
+
+Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+vom Format abhängigen Video-Player abgespielt.
+
+Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
+Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+
+==== 2.2. Volltextalternative prüfen
+
+Es wird eine Sicht- und Hörprüfung vorgenommen.
+
+Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+vom Format abhängigen Video-Player abgespielt.
+
+Volltextalternative prüfen.
+Sie sollte folgende Informationen enthalten:
+
+* Eine fortlaufende Beschreibung des Geschehens
+* Alle visuellen Information, eingeschlossen Beschreibungen des visuellen
+  Kontexts, Aktionen und der Ausdruck der Schauspieler.
+* Geräusche (Gelächter, off-Screen-Stimmen etc.)
+* Transkriptionen aller Dialoge
+
+Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video
+entsprechen.
+
+Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
+Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
+vorsehen, um dieselbe Funktionalität zu gewährleisten.
+
+=== 3. Bewertung
+
+==== Nicht voll erfüllt
+
+Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte
+sind nicht vollständig in der angebotenen Volltextalternative enthalten.
+
+==== Nicht erfüllt
+
+Das informationstragende, visuelle Video hat weder eine Audiodeskription noch
+eine Volltextalternative.
+
+==== Abwertung des Gesamtergebnisses
+
+Die Abwertung ist erforderlich, wenn Bildinhalte eines Videos ohne
+Audiodeskription für die Nutzung des Webauftritts von zentraler Bedeutung sind:
+der Webauftritt kann wegen Unzugänglichkeit des Videos von blinden oder
+sehbehinderten Menschen nicht genutzt werden.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#time-based-media[
+  Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded[
+  1.2.3 Audio Description or Media Alternative (Prerecorded)] (Level A)
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G58[
+  G58: Placing a link to the alternative for time-based media immediately next
+  to the non-text content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G69[
+  G69: Providing an alternative for time based media]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G78[
+  G78: Providing a second, user-selectable, audio track that includes audio
+  descriptions]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G173[
+  G173: Providing a version of a movie with audio descriptions]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G203[
+  G203: Using a static text alternative to describe a talking head video]
+
+===== SMIL Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM1[
+  SM1: Adding extended audio description in SMIL 1.0]
+* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM2[
+  SM2: Adding extended audio description in SMIL 2.0]
+* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM6[
+  SM6: Providing audio description in SMIL 1.0]
+* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM7[
+  SM7: Providing audio description in SMIL 2.0]
+
+== Quellen
+
+=== BIK für Alle: Leitfaden barrierefreie Online-Videos
+
+* http://www.bik-fuer-alle.de/fuer-webentwickler-einbindung-in-die-internetseite.html[
+  Für Webentwickler: Einbindung in die Internetseite] +
+Hinweise zur Wahl von Mediaelementen.
+* http://www.bik-fuer-alle.de/audiodeskription.html[
+  Audiodeskription]
+
+=== Blogartikel von 'Sprungmarker' zur Barrierefreiheit von Media-Playern (Stand 09/2014):
+
+* http://sprungmarker.de/2010/barrierefreiheit_mediaplayer_eine_kurzuebersicht/[
+  Barrierefreiheit & Media Player: eine Kurzübersicht - Teil 1]
+
+=== Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
+
+* http://terrillthompson.com/blog/813[
+  My Audio Description Talk @ CSUN]
