@@ -18,29 +18,32 @@ Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente auf der
 Seite nichts anfangen können, finden sich dann trotzdem zurecht oder sie
 können eine eigene, besser passende Präsentation anwenden.
 
-Mögliche Anwendungen des Strukturelements `blockquote`:
+Mögliche Anwendungen des Strukturelements ``blockquote``:
 
 * Das Zitat überspringen, im folgenden Text weiterlesen (Tastaturbenutzer)
-* Zitate anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
+* Zitate anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung
+  nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite eigenständige Abschnitte
 enthält, die als Zitate verstanden werden können oder wenn die Seite Elemente
 enthält, die als Zitate ausgezeichnet worden sind.
 
-=== 2Prüfung
+=== 2. Prüfung
 
 Die Seite im Firefox aufrufen.
 Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem
 dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind.
 Im Firefox in über F12 die _Web Developer Tools_ öffen und im Bereich
 _Inspector_ im Suchfeld nach `blockquote` suchen.
-Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
+Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate
+und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt
+wird.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als
 eigenständige Abschnitte gefasst sind) mit dem vorgesehenen
@@ -55,16 +58,19 @@ Man müsste also zusätzlich Anführungszeichen setzen, was aber
 in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen
 würde.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
-* Als eigenständige Abschnitte gefasste Zitate sind durchgängig mit `blockquote` ausgezeichnet.
+* Als eigenständige Abschnitte gefasste Zitate sind durchgängig mit
+  `blockquote` ausgezeichnet.
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Auf der Seite sind als eigenständige Abschnitte gefasste Zitate vorhanden, es ist jedoch keines mit `blockquote` ausgezeichnet.
-* `blockquote` wird lediglich zu Formatierungszwecken eingestzt (etwa Einrückung).
+* Auf der Seite sind als eigenständige Abschnitte gefasste Zitate vorhanden,
+  es ist jedoch keines mit `blockquote` ausgezeichnet.
+* `blockquote` wird lediglich zu Formatierungszwecken eingesetzt
+  (etwa Einrückung).
 
 == Einordnung des Prüfschritts
 
@@ -72,23 +78,32 @@ würde.
 
 ==== Guidelines
 
-* https://www.w3.org/TR/WCAG21/#adaptable[Guideline 1.3 Adaptable: Create content that can be presented in different ways (for example simpler layout) without losing information or structure]
+* https://www.w3.org/TR/WCAG21/#adaptable[
+  Guideline 1.3 Adaptable: Create content that can be presented in different
+  ways (for example simpler layout) without losing information or structure]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#info-and-relationships[1.3.1 Info and Relationships] (Level A)
+* https://www.w3.org/TR/WCAG21/#info-and-relationships[
+  1.3.1 Info and Relationships] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[G115: Using semantic elements to mark up structure]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating information and structure from presentation to enable different presentations]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[
+  G115: Using semantic elements to mark up structure]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[
+  G140: Separating information and structure from presentation to enable
+  different presentations]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H49.html[H49: Using semantic markup to mark emphasized or special text]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H49.html[
+  H49: Using semantic markup to mark emphasized or special text]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[F92: Failure of Success Criterion 1.3.1 due to the use of role presentation on content which conveys semantic information]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[
+  F92: Failure of Success Criterion 1.3.1 due to the use of role presentation
+  on content which conveys semantic information]
