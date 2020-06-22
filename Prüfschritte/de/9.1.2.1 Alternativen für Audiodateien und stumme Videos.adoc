@@ -15,43 +15,39 @@ zugänglich, deshalb brauchen sie eine Transkription.
 Stumme Videodateien (etwa
 eine Film- oder Animationsequenz, die zeigt, wie ein Gerät zusammengesetzt
 wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar.
-Sie brauchen
-deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
+Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1 Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien auf
 der Seite eingebunden sind.
 
-=== 2Prüfung
+=== 2 Prüfung
 
-==== [#G158]2.1Transkription für Audiodateien:
+==== 2.1 Transkription für Audiodateien
 
 Im Browser die Audiodatei abspielen.
 Prüfen, ob Informationen vermittelt werden
-(zBüber eine Kommentarstimme)Dann ist eine Transkription erforderlich.
+(z. B. über eine Kommentarstimme)Dann ist eine Transkription erforderlich.
 Prüfen, ob eine Transkription angeboten wird.
 Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die
 Audiodatei vermittelt.
 Bei Audiodateien mit verschiedenen Stimmen gibt es in der
 Transkription eine Kennzeichnung der Sprecher.
 
-==== [#G159][#G166]2.2Medienalternative für stumme Film- oder Bildsequenzen:
+==== 2.2 Medienalternative für stumme Film- oder Bildsequenzen
 
 Im Browser die stumme Videodatei abspielen.
-Prüfen, ob Informationen vermittelt
-werden.
+Prüfen, ob Informationen vermittelt werden.
 Prüfen, ob eine Medienalternative angeboten wird.
-Dies kann eine Textversion
-(direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche
-Audiodatei sein.
+Dies kann eine Textversion (direkt oder über einen Link), eine alternative
+Tonspur oder eine zusätzliche Audiodatei sein.
 Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die
 stumme Film- oder Bildsequenz vermittelt.
 
-==== 2.3Prüfung der Erreichbarkeit der Transkription bzw.
-Medienalternative:
+==== 2.3 Prüfung der Erreichbarkeit der Transkription bzw. Medienalternative
 
 Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder
 Videodatei angeboten wird.
@@ -59,7 +55,7 @@ Falls die Medienalternative auf einer anderen Seite steht: gibt es zu ihr
 einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder
 Videodatei?
 
-=== 3Hinweise
+=== 3 Hinweise
 
 Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst
 als ergänzende Medienalternative angeboten werden (etwa eine schriftliche
@@ -74,48 +70,78 @@ dieselben Inhalte wiedergegeben werden.
 Bei Transkriptionen von mehreren Stimmen
 (etwa Dialogen) sollen die Sprecher im Text identifiziert sein.
 
-=== 4Bewertung
+=== 4 Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Es gibt eine Medienalternative, aber der Bezug zu der entsprechenden Audiodatei oder stummen Videodatei ist nicht deutlich.
-* Es gibt eine Medienalternative, aber die Inhalte der Audio- oder stummen Videodatei sind darin nicht vollständig wiedergegeben.
+* Es gibt eine Medienalternative, aber der Bezug zu der entsprechenden
+  Audiodatei oder stummen Videodatei ist nicht deutlich.
+* Es gibt eine Medienalternative, aber die Inhalte der Audio- oder stummen
+  Videodatei sind darin nicht vollständig wiedergegeben.
 
 ==== Abwertung des Gesamtergebnisses
 
-* Die Abwertung ist erforderlich, wenn Audiodateien oder stumme Videodateien ohne Alternativen angeboten werden und gleichzeitig für die Nutzung des Webauftritts von zentraler Bedeutung sind.
-Der Webauftritt kann dann wegen der Unzugänglichkeit der Videoinhalte von blinden oder sehbehinderten Menschen oder wegen der Unzugänglichkeit der Audioinhalte von hörbehinderten Menschen nicht genutzt werden.
+* Die Abwertung ist erforderlich, wenn Audiodateien oder stumme Videodateien
+  ohne Alternativen angeboten werden und gleichzeitig für die Nutzung des
+  Webauftritts von zentraler Bedeutung sind.
+  Der Webauftritt kann dann wegen der Unzugänglichkeit der Videoinhalte von
+  blinden oder sehbehinderten Menschen oder wegen der Unzugänglichkeit der
+  Audioinhalte von hörbehinderten Menschen nicht genutzt werden.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
-Dies ist Gegenstand des Prüfschritts link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
-
-In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von
+Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall
+von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden
+Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt
+werden können, diese kurz identifizieren.
+Dies ist Gegenstand des Prüfschritts
+ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte".]
+ifndef::env_embedded[]
+  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+endif::env_embedded[]
+In diesem Prüfschritt 9.1.2.1 geht es dagegen um die Bereitstellung von
 gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
-Im Prüfschritt link:/index.php?a=di&iid=68&s=n[1.2.3a] geht es schließlich um die Bereitstellung von zusätzlichen Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und Tonspur)Dort geht es also um *zusätzliche* akustische Informationen über Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
+Im Prüfschritt
+ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos"]
+ifndef::env_embedded[]
+  <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
+  Audiodeskription oder Volltext-Alternative für Videos>>
+endif::env_embedded[]
+geht es schließlich um die Bereitstellung von zusätzlichen
+Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und
+Tonspur).
+Dort geht es also um *zusätzliche* akustische Informationen über
+Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
+* https://www.w3.org/TR/WCAG21/#time-based-media[
+  Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded[1.2.1 Audio-only and Video-only (Prerecorded)] (Level A)
+* https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded[
+  1.2.1 Audio-only and Video-only (Prerecorded)] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G166[G166: Providing audio that describes the important video content and describing it as such]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G158[G158: Providing an alternative for time-based media for audio-only content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G159[G159: Providing an alternative for time-based media for video-only content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G166[
+  G166: Providing audio that describes the important video content and
+  describing it as such]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G158[
+  G158: Providing an alternative for time-based media for audio-only content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G159[
+  G159: Providing an alternative for time-based media for video-only content]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H53.html[H53: Using the body of the object element]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H53.html[
+  H53: Using the body of the object element]
