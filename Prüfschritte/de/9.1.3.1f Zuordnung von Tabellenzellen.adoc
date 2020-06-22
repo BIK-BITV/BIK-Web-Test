@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 In komplexen Datentabellen soll der Bezug von Überschriften und Inhalten (über
-`scope` oder über `id` und `headers`) definiert sein, ausdrückliche
+`scope` oder über `id` und ``headers``) definiert sein, ausdrückliche
 Zuordnungen von Überschriften und Inhalten in einfachen Datentabellen sollen
 korrekt sein.
 
@@ -18,47 +18,61 @@ Deshalb müssen diese Verknüpfungen mithilfe der in HTML zur Verfügung
 stehenden Attribute ausdrücklich definiert werden.
 
 In der Praxis sind manchmal auch einfache Datentabellen mit `headers`- und
-`id`-Attributen ausgezeichnet.
+``id``-Attributen ausgezeichnet.
 Screenreader richten sich dann nicht nach
 allgemeinen Regeln, sondern nach der vorliegenden Auszeichnung.
-Deshalb muss die
-Auszeichnung auch dann richtig sein, wenn sie eigentlich nicht nötig wäre.
-Denn
-bei falscher direkter Zuordnung von Datenzellen werden die Überschriften nicht
-oder fehlerhaft ausgegeben.
+Deshalb muss die Auszeichnung auch dann richtig sein, wenn sie eigentlich
+nicht nötig wäre.
+Denn bei falscher direkter Zuordnung von Datenzellen werden die Überschriften
+nicht oder fehlerhaft ausgegeben.
 
-Hinweis: +
-Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen als einfache, selbst bei perfekter Auszeichnung.
-Zu empfehlen ist also die Vermeidung von Tabellen mit mehreren logischen Ebenen (siehe link:#log[Frage zu Tabellen mit mehreren logischen Ebenen])In vielen Fällen können komplexe Tabellen geteilt und durch mehrere einfache Tabellen ersetzt werden.
-Die beste Bewertung für dieses Prüfschritt ist deshalb immer "nicht anwendbar".
+Hinweis:
+Für Benutzer von Screenreadern sind komplexe Tabellen schwerer zu erfassen
+als einfache, selbst bei perfekter Auszeichnung.
+Zu empfehlen ist also die Vermeidung von Tabellen mit mehreren logischen
+Ebenen (siehe
+<<Was sind Tabellen mit mehreren logischen Ebenen?>>).
+In vielen Fällen können komplexe Tabellen geteilt und durch mehrere einfache
+Tabellen ersetzt werden.
+Die beste Bewertung für diesen Prüfschritt ist deshalb immer "nicht anwendbar".
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar,
-
-wenn eine Datentabelle komplex ist, also mehrstufige Zeilen- oder
-Spaltenüberschriften vorhanden sind oder
+Der Prüfschritt ist anwendbar, wenn eine Datentabelle komplex ist, also
+mehrstufige Zeilen- oder Spaltenüberschriften vorhanden sind oder
 wenn in einer einfachen Datentabelle Zellen ausdrücklich (per `headers` und
-`id`) bestimmten Überschriften zugeordnet sind (auch wenn diese Zuordnung
+``id``) bestimmten Überschriften zugeordnet sind (auch wenn diese Zuordnung
 eigentlich nicht erforderlich wäre).
 
-Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur jeweils eine Zeile oder Spalte für Überschriften.
-Bei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren" Überschriften zuzuordnen.
+Einfache Datentabellen haben im Unterschied zu komplexen Datentabellen nur
+jeweils eine Zeile oder Spalte für Überschriften.
+Bei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren"
+Überschriften zuzuordnen.
 
-=== 2Prüfung
+=== 2. Prüfung
 
 Seite im Firefox laden.
-Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[Tables bookmarklet] aufrufen.
+Das
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+Tables bookmarklet] aufrufen.
 Tabellen-Auszeichnungen werden jetzt angezeigt.
 Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
-`scope`-Attribut definiert ist oder die einzelnen Zellen mithilfe von
-`headers`- und `id`-Attributen korrekt ihren Überschriften zugeordnet sind.
+``scope``-Attribut definiert ist oder die einzelnen Zellen mithilfe von
+``headers``- und ``id``-Attributen korrekt ihren Überschriften zugeordnet sind.
 
-=== 3Hinweis
+=== 3. Hinweis
 
-Grundlage der Prüfung ist die vorangegangene Überprüfung des Aufbaus der Datentabelle und der Auszeichnung von Überschriften in Prüfschritt link:/index.php?a=di&iid=77&s=n[1.3.1e] "Datentabellen richtig aufgebaut"Dieser Prüfschritt 1.3.1f beschränkt sich auf die Vollständigkeit und die formale Korrektheit der Zuordnung von Inhalten zu Überschriften.
+Grundlage der Prüfung ist die vorangegangene Überprüfung des Aufbaus der
+Datentabelle und der Auszeichnung von Überschriften in Prüfschritt
+ifdef::env_embedded[9.1.3.1e "Datentabellen richtig aufgebaut".]
+ifndef::env_embedded[]
+  <<9.1.3.1e Datentabellen richtig aufgebaut.adoc#,9.1.3.1e Datentabellen
+  richtig aufgebaut>>.
+endif::env_embedded[]
+Dieser Prüfschritt 9.1.3.1f beschränkt sich auf die Vollständigkeit und die
+formale Korrektheit der Zuordnung von Inhalten zu Überschriften.
 
 == Einordnung des Prüfschritts
 
@@ -66,33 +80,48 @@ Grundlage der Prüfung ist die vorangegangene Überprüfung des Aufbaus der Date
 
 ==== Guideline
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#adaptable[Guideline 1.3 Adaptable: Create content that can be presented in different ways (for example simpler layout) without losing information or structure]
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#adaptable[
+  Guideline 1.3 Adaptable: Create content that can be presented in different
+  ways (for example simpler layout) without losing information or structure]
 
 ==== Success criterion
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#info-and-relationships[1.3.1 Info and Relationships] (Level A)
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#info-and-relationships[
+  1.3.1 Info and Relationships] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[G115: Using semantic elements to mark up structure]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating information and structure from presentation to enable different presentations]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[
+  G115: Using semantic elements to mark up structure]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[
+  G140: Separating information and structure from presentation to enable
+  different presentations]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H43.html[H43 Using `id` and `headers` attributes to associate data cells with header cells in data tables]
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html[H63 Using the `scope` attribute to associate header cells and data cells in data tables]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H43.html[
+  H43 Using `id` and `headers` attributes to associate data cells with header
+  cells in data tables]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html[
+  H63 Using the `scope` attribute to associate header cells and data cells in
+  data tables]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F90.html[F90: Failure of Success Criterion 1.3.1 for incorrectly associating table headers and content via the `headers` and `id` attributes]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[F92: Failure of Success Criterion 1.3.1 due to the use of role presentation on content which conveys semantic information]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F90.html[
+  F90: Failure of Success Criterion 1.3.1 for incorrectly associating table
+  headers and content via the `headers` and `id` attributes]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[
+  F92: Failure of Success Criterion 1.3.1 due to the use of role presentation
+  on content which conveys semantic information]
 
 == Quellen
 
-=== [#log]Was sind Tabellen mit mehreren logischen Ebenen?
+=== Was sind Tabellen mit mehreren logischen Ebenen?
 
+[.BLOCK_LANG_EN]
 ____
 (...) the average table of data with a row of headers across the top, and a
 column of headers down one side or the other (or sometimes the same headers
@@ -102,36 +131,55 @@ headers.
 Tables with two or more levels are those where the row of headers "closest to the content" itself has headersA trivial example would be months, which have season headers (...)
 ____
 
-Quelle: http://lists.w3.org/Archives/Public/wai-wcag-editor/2000Oct.
-Dec/0155.html
+(http://lists.w3.org/Archives/Public/wai-wcag-editor/2000OctDec/0155.html)
 
+[.BLOCK_LANG_EN]
 === Technique H63: Using the scope attribute to associate header cells and data cells in data tables
 
+[.BLOCK_LANG_EN]
 ____
-"At the current time, those who want to ensure consistent support across Assistive Technologies for tables where the headers are not in the first row/column may want to use the technique for complex tables H43: Using id and headers attributes to associate data cells with header cells in data tables.
-For simple tables that have headers in the first column or row we recommend the use of the th and td elements."
+"At the current time, those who want to ensure consistent support across
+Assistive Technologies for tables where the headers are not in the first
+row/column may want to use the technique for complex tables H43: Using id and
+headers attributes to associate data cells with header cells in data tables.
+For simple tables that have headers in the first column or row we recommend
+the use of the th and td elements."
 ____
 
-Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html
+(https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html)
 
+[.BLOCK_LANG_EN]
 === Technique H43: Using id and headers attributes to associate data cells with header cells in data tables
 
+[.BLOCK_LANG_EN]
 ____
-"The objective of this technique is to associate each data cell (in a data table) with the appropriate headers.
-This technique adds a headers attribute to each data cell (td element)It also adds an id attribute to any cell used as a header for other cells.
-The headers attribute of a cell contains a list of the id attributes of the associated header cells.
+"The objective of this technique is to associate each data cell (in a data
+table) with the appropriate headers.
+This technique adds a headers attribute to each data cell (td element)It also
+adds an id attribute to any cell used as a header for other cells.
+The headers attribute of a cell contains a list of the id attributes of the
+associated header cells.
 If there is more than one id, they are separated by spaces.
 
-This technique is used when data cells are associated with more than one row and/or one column header.
-This allows screen readers to speak the headers associated with each data cell when the relationships are too complex to be identified using the th element alone or the th element with the scope attribute.
-Using this technique also makes these complex relationships perceivable when the presentation format changes.
+This technique is used when data cells are associated with more than one row
+and/or one column header.
+This allows screen readers to speak the headers associated with each data cell
+when the relationships are too complex to be identified using the th element
+alone or the th element with the scope attribute.
+Using this technique also makes these complex relationships perceivable when
+the presentation format changes.
 
-This technique is not recommended for layout tables since its use implies a relationship between cells that is not meaningful when tables are used for layout."
+This technique is not recommended for layout tables since its use implies a
+relationship between cells that is not meaningful when tables are used for
+layout."
 ____
 
-Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H43.html
+(https://www.w3.org/WAI/WCAG21/Techniques/html/H43.html)
 
 === Weiterführende Links:
 
-* pro-barrierefreiheit: http://www.pro-barrierefreiheit.de/entwickler/tabellen/strukturierung/[Strukturierung von Tabelleninhalten]
-* Roger Hudson, Web Usability: http://www.usability.com.au/resources/tables.cfm[Accessible Data Tables]
+* pro-barrierefreiheit:
+  http://www.pro-barrierefreiheit.de/entwickler/tabellen/strukturierung/[
+  Strukturierung von Tabelleninhalten]
+* Roger Hudson, Web Usability: http://www.usability.com.au/resources/tables.cfm[
+  Accessible Data Tables]
