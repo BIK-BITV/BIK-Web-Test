@@ -11,40 +11,51 @@ Untertitel als Alternative bereitgestellt werden.
 
 Filme sind in der Regel ohne den Ton nicht zu verstehen.
 Dies gilt auch für Live-Übertragungen.
-Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch Untertitel bereitgestellt werden+
+Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch
+Untertitel bereitgestellt werden.
 Untertitel können auch für andere Nutzer hilfreich sein, zum Beispiel für
 Personen, die mit der Sprache des Films nicht vertraut sind.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-* Der Prüfschritt ist anwendbar, wenn Live-Übertragungen mit synchroner Bild- und Tonspur vorhanden sind.
-* Live-Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für sie nicht anwendbar.
-Alternativen für Videos ohne Tonspur werden in Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Audiodateien und stumme Videodateien mit Textalternativen" geprüft.
+* Der Prüfschritt ist anwendbar, wenn Live-Übertragungen mit synchroner
+  Bild- und Tonspur vorhanden sind.
+* Live-Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist
+  für sie nicht anwendbar.
+  Alternativen für Videos ohne Tonspur werden in Prüfschritt
+ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
+ifndef::env_embedded[]
+  <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>
+endif::env_embedded[]
+  geprüft.
 
-=== [#G87][#G93]2Prüfung auf Untertitel
+=== 2. Prüfung auf Untertitel
 
 Das Video wird im auf der Website eingebundenen Player oder in einem externen,
 vom Format abhängigen Video-Player abgespielt.
 Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
 oder zugeschaltet werden können.
-[#F8][#F75]Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen.
-Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
+Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
+Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
+dem hörbaren Inhalt entsprechen.
+Dies betrifft auch akustische Ereignisse, die für das Verständnis des
+Inhalts wichtig sind.
 
-=== 3Bewertung
+=== 3. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
 Live-Übertragungen mit synchroner Bild- und Tonspur haben erweiterte
 Untertitel, die alle Informationen der Tonspur enthalten.
-Dazu gehört
-gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse
-(etwa informationstragende Geräusche, Lachen, oder Applaus).
+Dazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende
+Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-Live-Übertragungen sind ohne Untertitel.
+Live-Übertragungen haben keine Untertitel.
 
 == Einordnung des Prüfschritts
 
@@ -52,38 +63,67 @@ Live-Übertragungen sind ohne Untertitel.
 
 ==== Aufgezeichnete Videos
 
-Die Untertitelung von aufgezeichneten Videos wird in Prüfschritt link:/index.php?a=di&iid=67&s=n[1.2.2a] "Aufgezeichnete Videos mit Untertiteln" geprüft.
+Die Untertitelung von aufgezeichneten Videos wird in Prüfschritt
+ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
+ifndef::env_embedded[]
+  <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
+  Videos mit Untertiteln>>
+endif::env_embedded[]
+geprüft.
 
 ==== Stumme Videodateien
 
-Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und akustischen Informationen.
-Der Prüfschritt ist relevant, wenn für das Verständnis eines Elements die parallele Wahrnehmung von Bild und Ton erforderlich ist.
-Ein einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann nicht (mehr) ausreichend.
-Stumme Video-Dateien werden im Prüfschritt Prüfschritt link:/index.php?a=di&iid=16&s=n[1.2.1a] "Alternativen für Audiodateien und stumme Videos" geprüft.
+Bei diesem Prüfschritt geht es um die synchrone Vermittlung von visuellen und
+akustischen Informationen.
+Der Prüfschritt ist relevant, wenn für das Verständnis eines Elements die
+parallele Wahrnehmung von Bild und Ton erforderlich ist.
+Ein einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann
+nicht (mehr) ausreichend.
+Stumme Video-Dateien werden im Prüfschritt
+ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
+ifndef::env_embedded[]
+  <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>
+endif::env_embedded[]
+geprüft.
 
 ==== Alternativtexte für Objekte
 
-Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder Applets, werden in Prüfschritt link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte" geprüft.
+Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder
+Applets, werden in Prüfschritt
+ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
+* https://www.w3.org/TR/WCAG21/#time-based-media[
+  Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#captions-live[1.2.4 Captions (Live)] (Level AA)
+* https://www.w3.org/TR/WCAG21/#captions-live[
+  1.2.4 Captions (Live)] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G9[G9: Creating captions for live synchronized media]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G87[G87: Providing closed captions]
-* http://www.w3.org/TR/WCAG20-TECHS/G93[G93: Providing open (always visible) captions]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G9[
+  G9: Creating captions for live synchronized media]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G87[
+  G87: Providing closed captions]
+* http://www.w3.org/TR/WCAG20-TECHS/G93[
+  G93: Providing open (always visible) captions]
 
 ===== SMIL Techniques
 
-* http://www.w3.org/TR/WCAG20-TECHS/SM11.html[SM11: Providing captions through synchronized text streams in SMIL 1.0]
-* http://www.w3.org/TR/WCAG20-TECHS/SM12.html[SM12: Providing captions through synchronized text streams in SMIL 2.0]
+* http://www.w3.org/TR/WCAG20-TECHS/SM11.html[
+  SM11: Providing captions through synchronized text streams in SMIL 1.0]
+* http://www.w3.org/TR/WCAG20-TECHS/SM12.html[
+  SM12: Providing captions through synchronized text streams in SMIL 2.0]
