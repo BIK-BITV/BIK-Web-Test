@@ -14,28 +14,24 @@ muss vorhanden sein.
 == Warum wird das geprüft?
 
 In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche
-Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu
-erreichen.
-Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht
-zugänglich.
-Audio-Captchas sind für höreingeschränkte Nutzer nicht
-zugänglich.
-Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative
-angeboten werden.
+Nutzer als Text eingeben müssen, um bestimmte Bereiche von Webangeboten zu erreichen.
+Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglich.
+Audio-Captchas sind für höreingeschränkte Nutzer nicht zugänglich.
+Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
 
 Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs
 beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
 
 == Wie wird geprüft?
 
-=== 1 Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
 
 Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht
 Teil der Prüfung und wird nicht bewertet.
 
-=== 2 Prüfung
+=== 2. Prüfung
 
 ==== 2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
@@ -54,14 +50,14 @@ hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel:
 * Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder
   Audio-Captchas eine Alternative angeboten wird.
 
-=== 3 Hinweise
+=== 3. Hinweise
 
 CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche
 Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0
 http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-3-head[
 Note on CAPTCHA]).
 
-=== 4 Bewertung
+=== 4. Bewertung
 
 ==== Nicht voll erfüllt
 
@@ -73,7 +69,7 @@ Note on CAPTCHA]).
 ==== Nicht erfüllt
 
 * Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht
-  vorhanden
+  vorhanden.
 
 == Einordnung des Prüfschritts
 
@@ -86,8 +82,7 @@ ifdef::env_embedded[9.3.3.2 "Beschriftungen von Formularelementen vorhanden"]
 ifndef::env_embedded[]
   <<9.3.3.2 Beschriftungen von Formularelementen vorhanden.adoc#,9.3.3.2
   Beschriftungen von Formularelementen vorhanden>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -137,5 +132,4 @@ ist eine Abwertung angebracht.
 Ein Beispiel ist etwa das Online-Banking auf der Website einer Bank.
 In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral
 wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie
-"Seite weiterempfehlen".
-Hier wäre eine Abwertung nicht angemessen.
+"Seite weiterempfehlen". Hier wäre eine Abwertung nicht angemessen.
