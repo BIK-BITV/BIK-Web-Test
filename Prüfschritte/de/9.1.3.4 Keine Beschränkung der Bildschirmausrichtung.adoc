@@ -6,58 +6,54 @@ include::include/attributes.adoc[]
 
 Webinhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten
 anpassen.
-Sie sollten sowohl im Hochformat als auch im Querformat dargestellt
-werden und nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts
-ist unerlässlich.
+Sie sollten sowohl im Hochformat als auch im Querformat dargestellt werden und
+nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts ist
+unerlässlich.
 
 Beispiele für Inhalte, bei denen die Ausrichtung unerlässlich sein können,
 sind ein Bankcheck, eine online-Klavier-Tastatur, Präsentationsfolien für
 einen Projektor oder Bildschirm, oder Inhalte eine Virtual-Reality (VR)
-Anwendung bei der es keine binäre Ausrichting gibt (also nicht: entweder Hoch-
+Anwendung bei der es keine binäre Ausrichtung gibt (also nicht: entweder Hoch-
 oder Querformat).
 
 Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in
 der gleichen Form angeboten werden.
-So können in einer anderen Orientierung
-Inhalte ggferst nach Aktivierung von Ausklapbereichen oder mittels Links auf
-andere Seiten angeboten werden.
+So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung
+von Ausklapbereichen oder mittels Links auf andere Seiten angeboten werden.
 
 == Warum wird das geprüft?
 
 Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät
-(z.Bein Smartphone) in einer bestimmten Ausrichtung nutzen können.
-Wenn
-beispielsweise Text stark vergrößert wird, bietet die Verwendung des
+(z. B. ein Smartphone) in einer bestimmten Ausrichtung nutzen zu können.
+Wenn beispielsweise Text stark vergrößert wird, bietet die Verwendung des
 Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
 
 Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung
-montiert (z.Bam Arm eines Elektrorollstuhls)Daher sollten Websites und
-Anwendungen die Darstellung vion Inhalten nicht auf eine Ausrichtung
-einschränken.
+montiert (z. B. am Arm eines Elektrorollstuhls).
+Daher sollten Websites und Anwendungen die Darstellung von Inhalten *nicht* auf
+lediglich eine Ausrichtung einschränken.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Die Prüfung des Wechsels der.
-Bildschirmausrichtung sollte  immer anwendbar
+Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar
 sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung
 funktionieren.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-Ein aktuelles Android-Smartphone oder iPhone mit ca4-6 Zoll
+Ein aktuelles Android-Smartphone oder iPhone mit ca. 4-6 Zoll
 Bildschirmdiagonale zur Prüfung verwenden.
 Sicherstellen, dass auf dem mobilen Prüfgerät die Ausrichtung nicht hardware-
-oder betriebssystemseitig festgestellt bzwarretiert ist.
+oder betriebssystemseitig festgestellt bzw. arretiert ist.
 Der zu prüfende Inhalt wird im Browser Chrome (Android) oder Safari (iOS) erst
 in der einen Ausrichtung neu geladen.
 Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
 Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
 Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
-Treten Beschränkungen
-beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der
-jeweils anderen Ausrichtung auffordern?
+Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen,
+welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
 Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung
 entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber
 eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist:
@@ -65,16 +61,17 @@ Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der
 nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt
 werden könnten.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte
 dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten
-meist auch der Fall ist)Der Inhalt muss also in beiden Ausrichtungen jeweils
+meist auch der Fall ist).
+Der Inhalt muss also in beiden Ausrichtungen jeweils
 neu geladen werden.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Prüfschritt erfüllt:
+==== Prüfschritt erfüllt
 
 * Beide Ausrichtungen werden unterstützt.
 * Wenn nur eine Ausrichtung angeboten wird, ist sie für den Inhalt unerlässlich.
@@ -83,28 +80,51 @@ neu geladen werden.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Gegenstand dieses Prüfschritts ist die Anpassbarkeit der Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel hervorgerufen werden.
-Dies ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=87&s=n[1.4.4a] "Text auf 200% vergrößerbar" und link:/index.php?a=di&iid=108&s=n[1.4.10a] "Inhalte brechen um".
+Gegenstand dieses Prüfschritts ist die Anpassbarkeit der
+Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der
+Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel
+hervorgerufen werden.
+Dies ist Gegenstand von Prüfschritt
+ifdef::env_embedded[9.1.4.4 "Text auf 200% vergrößerbar"]
+ifndef::env_embedded[]
+  <<9.1.4.4 Text auf 200% vergrößerbar.adoc#,9.1.4.4 Text auf 200%
+  vergrößerbar>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[9.1.4.10 "Inhalte brechen um".]
+ifndef::env_embedded[]
+  <<9.1.4.10 Inhalte brechen um.adoc#,9.1.4.10 Inhalte brechen um>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#adaptable[Guideline 1.3 Adaptable: Create content that can be presented in different ways (for example simpler layout) without losing information or structure.]
+* https://www.w3.org/TR/WCAG21/#adaptable[
+  Guideline 1.3 Adaptable: Create content that can be presented in different
+  ways (for example simpler layout) without losing information or structure.]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#orientation[1.3.4 Orientation] (Level AA)
+* https://www.w3.org/TR/WCAG21/#orientation[
+  1.3.4 Orientation] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G214[G214: Using a control to allow access to content in different orientations which is otherwise restricted]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G214[
+  G214: Using a control to allow access to content in different orientations
+  which is otherwise restricted]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F97.html[F97: Failure due to locking the orientation to landscape or portrait view]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F100[F100: Failure of Success Criterion 1.3.4 due to showing a message asking to reorient device]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F97.html[
+  F97: Failure due to locking the orientation to landscape or portrait view]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F100[
+  F100: Failure of Success Criterion 1.3.4 due to showing a message asking to
+  reorient device]
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/orientation.html[Understanding Success Criterion 1.3.4: Orientation] (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/orientation.html[
+  Understanding Success Criterion 1.3.4: Orientation] (zur Zeit nur auf
+  Englisch verfügbar)
