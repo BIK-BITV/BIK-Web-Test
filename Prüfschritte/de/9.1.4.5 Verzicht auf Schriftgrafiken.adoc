@@ -5,12 +5,11 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Grafiken sollen nicht für die Darstellung von Schriften verwendet werden.
-Logos
-sind hiervon ausgenommen.
+Logos sind hiervon ausgenommen.
 
 == Warum wird das geprüft?
 
-Schriftgrafiken, die als Bitmap-Grafik eingebunden werden (z.Bals JPEG, PNG,
+Schriftgrafiken, die als Bitmap-Grafik eingebunden werden (z. B. als JPEG, PNG,
 oder GIF), können nicht oder nur eingeschränkt an Benutzeranforderungen
 angepasst werden.
 Ihre Farben können nicht individuell eingestellt werden, auch
@@ -20,75 +19,109 @@ Und bei Zoomvergrößerung werden die Schriftkanten unscharf.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#G140]2Prüfung
+=== 2. Prüfung
 
-Die Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-In der http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle Grafiken auszublenden (oder alternativ _Bilder > Bilder mit ALT-Attributen ersetzen_)Prüfen, ob dadurch Schrift verschwindet.
+. Die Seite im
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. In der
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] die Funktion
+  _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle
+  Grafiken auszublenden (oder alternativ
+  _Bilder > Bilder mit ALT-Attributen ersetzen_).
+  . Prüfen, ob dadurch Schrift verschwindet.
 
-=== 3Hinweise
+=== 3. Hinweise
 
-In der Regel nicht negativ bewertet werden grafische Schriften auf *Logos* oder in *Fotos*.
+In der Regel nicht negativ bewertet werden grafische Schriften auf *Logos*
+oder in *Fotos*.
 
-Ebenfalls nicht negativ bewertet wird, wenn das SVG `text`-Element in
+Ebenfalls nicht negativ bewertet wird, wenn das SVG ``text``-Element in
 Inline-SVGs verwendet wird.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
+* Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne
+  Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken verwendet.
+* Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für
+  Schaltflächen, deren Beschriftung gelesen werden muss, werden
+  Schriftgrafiken verwendet.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Die Bereitstellung von Alternativtexten für Schriftgrafiken ist Gegenstand der Prüfschritte link:/index.php?a=di&iid=64&s=n[1.1.1a] "Alternativtexte für Bedienelemente" und link:/index.php?a=di&iid=65&s=n[1.1.1b] "Alternativtexte für Grafiken und Objekte".
+Die Bereitstellung von Alternativtexten für Schriftgrafiken ist Gegenstand der
+Prüfschritte
+ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
+ifndef::env_embedded[]
+  <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
+  Alternativtexte für Bedienelemente>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte".]
+ifndef::env_embedded[]
+  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+* https://www.w3.org/TR/WCAG21/#distinguishable[
+  Guideline 1.4 Distinguishable: Make it easier for users to see and hear
+  content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#images-of-text[1.4.5 Images of Text] (Level AA)
+* https://www.w3.org/TR/WCAG21/#images-of-text[
+  1.4.5 Images of Text] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating information and structure from presentation to enable different presentations]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[
+  G140: Separating information and structure from presentation to enable
+  different presentations]
 
 ===== CSS Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C22.html[C22: Using CSS to control visual presentation of text]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C30.html[C30: Using CSS to replace text with images of text and providing user interface controls to switch]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C22.html[
+  C22: Using CSS to control visual presentation of text]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C30.html[
+  C30: Using CSS to replace text with images of text and providing user
+  interface controls to switch]
 
 == Quellen
 
-* https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson, The Paciello Group blog, Dezember 2015)
-* https://css-tricks.com/accessible-svgs-high-contrast-mode/[Accessible SVGs in High Contrast Mode] (Eric Bailey, CSS-Tricks, June 2017)
+* https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[
+  Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson, The
+  Paciello Group blog, Dezember 2015)
+* https://css-tricks.com/accessible-svgs-high-contrast-mode/[
+  Accessible SVGs in High Contrast Mode] (Eric Bailey, CSS-Tricks, June 2017)
 
 == Fragen zu diesem Prüfschritt
 
-=== Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehen.
-Also zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
+=== Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehen? Also zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
 
 Moderne Betriebssysteme stellen die Schriftzeichen aller verbreiteten Sprachen
 zur Verfügung.
 In aller Regel sind Schriftzeichen, mit denen ein möglicher
 Nutzer etwas anfangen könnte, auch installiert.
-Die grafische Darstellung von
-Schriftzeichen ist daher nur als zusätzliches Angebot sinnvoll.
+Die grafische Darstellung von Schriftzeichen ist daher nur als zusätzliches
+Angebot sinnvoll.
 
 Im BITV-Test wird nur geprüft, ob Text in Form von Text verfügbar
 ist.
@@ -100,19 +133,16 @@ Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes
 dann nicht mehr flexibel ist.
 Bei abgebildeten Schriften, also zum Beispiel bei
 Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörig.
-Dieser
-Prüfschritt ist also nicht anwendbar.
+Dieser Prüfschritt ist also nicht anwendbar.
 
 Davon ausgenommen sind allerdings Abbildungen, die wie Schriftgrafiken
 verwendet werden, also zum Beispiel als Überschriften dienen.
 
-=== Oft ist es nicht möglich, auf Schriftgrafiken zu verzichten.
-Denn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
+=== Oft ist es nicht möglich, auf Schriftgrafiken zu verzichten, denn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
 
 Sicher gibt es gute Gründe für den Einsatz von Schriftgrafiken.
-Der Einsatz von
-Schriftgrafiken ist aber auf der anderen Seite aus Sicht der Barrierefreiheit
-problematisch.
+Der Einsatz von Schriftgrafiken ist aber auf der anderen Seite aus Sicht der
+Barrierefreiheit problematisch.
 Es muss also entschieden werden, ob das einheitliche Corporate
 Design wichtiger ist, als die barrierefreie Zugänglichkeit des
 Webauftritts.
