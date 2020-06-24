@@ -29,8 +29,7 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[]
-  geprüft.
+endif::env_embedded[] geprüft.
 
 === 2. Prüfung auf Untertitel
 
@@ -68,8 +67,7 @@ ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
   <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
   Videos mit Untertiteln>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 ==== Stumme Videodateien
 
@@ -84,8 +82,7 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 ==== Alternativtexte für Objekte
 
@@ -95,8 +92,7 @@ ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
