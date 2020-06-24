@@ -4,7 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Über Farben vermittelte Informationen sollen auch *ohne* Wahrnehmung der Farbe verfügbar sein, also zusätzlich durch andere Mittel (etwa Fettung oder Einrückung) hervorgehoben sein.
+Über Farben vermittelte Informationen sollen auch *ohne* Wahrnehmung der
+Farbe verfügbar sein, also zusätzlich durch andere Mittel (etwa Fettung oder
+Einrückung) hervorgehoben sein.
 
 == Warum wird das geprüft?
 
@@ -16,13 +18,13 @@ identifizieren und unterscheiden.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-==== [#G138][#G14][#F81]2.1 Vermittlung von Informationen über die Farbgebung
+==== 2.1 Vermittlung von Informationen über die Farbgebung
 
 Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen
 vermitteln.
@@ -31,25 +33,37 @@ Beispiele dafür:
 * Überschriften werden farblich hervorgehoben
 * Ausgewählte Menueinträge werden in einer anderen Farbe dargestellt
 * Links im Fließtext werden in einer anderen Farbe dargestellt
-* Eine Grafik verwendet unterschiedliche Farben für die vergleichende Darstellung des Kursverlaufs verschiedener Aktien
-* Pflichtfelder in Formularen werden farblich gekennzeichnet (die gelb unterlegten Felder müssen immer ausgefüllt werden)
+* Eine Grafik verwendet unterschiedliche Farben für die vergleichende
+  Darstellung des Kursverlaufs verschiedener Aktien
+* Pflichtfelder in Formularen werden farblich gekennzeichnet (die gelb
+  unterlegten Felder müssen immer ausgefüllt werden)
 
 Solche Hervorhebungen sind positiv.
 Die Vermittlung wichtiger Informationen soll
 sich aber _nicht ausschließlich_ auf _einfache_ Farbänderungen stützen.
-Zu
-prüfen ist also, ob die Informationen zusätzlich noch auf einem anderen Weg
+Zu prüfen ist also, ob die Informationen zusätzlich noch auf einem anderen Weg
 vermittelt werden.
+
 Beispiele für zusätzliche Vermittlung:
 
-* Überschriften sind zusätzlich eingerückt oder durch eine andere Schriftgröße hervorgehoben (das ist fast immer der Fall)
-* Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1 zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung, Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der Form des Menü-Eintrags oder dergleichen hervorgehoben.
-* Links im Fließtext sind nicht nur farblich abgesetzt, sondern zusätzlich unterstrichen, gefettet, invertiert oder mit einer Markierung versehen+
-Ausnahme: Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe *und* zwischen Linkfarbe und Hintergrund ist 3:1 oder besser.
-In diesem Fall kann im Ausgangszustand auf die zusätzliche Hervorhebung verzichtet werden.
-Die Links müssen dann aber bei Fokuserhalt zusätzlich hervorgehoben werden.
-* [#G111]Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster
-* Pflichtfelder im Formular sind zusätzlich mit einem Stern [#H92](mit Bedeutungserklärung am Formularbeginn) oder textlich ("Pflichtfeld") gekennzeichnet
+* Überschriften sind zusätzlich eingerückt oder durch eine andere
+  Schriftgröße hervorgehoben (das ist fast immer der Fall)
+* Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1
+  zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung,
+  Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der
+  Form des Menü-Eintrags oder dergleichen hervorgehoben.
+* Links im Fließtext sind nicht nur farblich abgesetzt, sondern zusätzlich
+  unterstrichen, gefettet, invertiert oder mit einer Markierung versehen.
+  Ausnahme: Das Kontrastverhältnis zwischen Linkfarbe und umgebender
+  Textfarbe *und* zwischen Linkfarbe und Hintergrund ist 3:1 oder besser.
+  In diesem Fall kann im Ausgangszustand auf die zusätzliche Hervorhebung
+  verzichtet werden.
+  Die Links müssen dann aber bei Fokuserhalt zusätzlich hervorgehoben werden.
+* Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen,
+  Flächen haben unterscheidbare Muster
+* Pflichtfelder im Formular sind zusätzlich mit einem Stern mit
+  Bedeutungserklärung am Formularbeginn) oder textlich ("Pflichtfeld")
+  gekennzeichnet
 
 Ebenfalls andere, zusätzliche Vermittlungswege sind am Beispiel der
 Hervorhebung der aktuell ausgewählten Menüoption:
@@ -59,34 +73,57 @@ Hervorhebung der aktuell ausgewählten Menüoption:
 
 Ebenfalls nicht als einfache Farbunterschiede gelten:
 
-* die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder ändert sich)
-* [#C15]der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der Austausch wahrnehmbar)
+* die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder
+  ändert sich)
+* der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein
+  Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der
+  Austausch wahrnehmbar)
 
-=== 3Bewertung
+=== 3. Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Fließtextlinks sind von ihrer Textumgebung nur durch abweichende Farbe mit einem Kontrastunterscheid von unter 3:1 unterscheidbar.
+* Fließtextlinks sind von ihrer Textumgebung nur durch abweichende Farbe mit
+  einem Kontrastunterschied von unter 3:1 unterscheidbar.
 
 ==== Nicht erfüllt
 
-* Informationen (etwa richtig / falsch) werden lediglich über die Farbe (etwa grün=richtig, rot=falsch) vermittelt.
+* Informationen (etwa richtig / falsch) werden lediglich über die Farbe
+  (etwa grün=richtig, rot=falsch) vermittelt.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-==== 1Abgrenzung zur Prüfung der Kontraste
+==== 1. Abgrenzung zur Prüfung der Kontraste
 
 In diesem Prüfschritt geht es nicht um die Prüfung der Kontraste.
-Dies ist Aufgabe der Prüfkriterien link:/index.php?a=di&iid=86&s=n[1.4.3a] "Kontraste von Texten ausreichend".
+Dies ist Aufgabe der Prüfkriterien
+ifdef::env_embedded[9.1.4.3 "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
+  Texten ausreichend>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[9.1.4.11 "Kontraste von Grafiken und grafischen Bedienelementen ausreichend".]
+ifndef::env_embedded[]
+  <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,
+  9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>>.
+endif::env_embedded[]
 
-==== 2Abgrenzung zum Prüfschritt 1.3.3.a Ohne Bezug auf sensorische Merkmale nutzbar
+==== 2. Abgrenzung zum Prüfschritt 9.1.3.3. Ohne Bezug auf sensorische Merkmale nutzbar
 
-In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf Seiteninhalte mit Hilfe der Angabe von Farben.
-Die sinnesunabhängige Bereitstellung von Verweisen auf Seiteninhalte wird im Prüfschritt link:/index.php?a=di&iid=82&s=n[1.3.3a] "Ohne Bezug auf sensorische Merkmale nutzbar" geprüft.
+In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf
+Seiteninhalte mit Hilfe der Angabe von Farben.
+Die sinnesunabhängige Bereitstellung von Verweisen auf Seiteninhalte wird im Prüfschritt
+ifdef::env_embedded[9.1.3.3 "Ohne Bezug auf sensorische Merkmale nutzbar"]
+ifndef::env_embedded[]
+  <<9.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar.adoc#,9.1.3.3 Ohne
+  Bezug auf sensorische Merkmale nutzbar>>
+endif::env_embedded[]
+geprüft.
 
-==== 2Abgrenzung zur Prüfung des Markup
+==== 3. Abgrenzung zur Prüfung des Markups
 
 In diesem Prüfschritt wird die Auszeichnung von Elementen durch Markup nicht
 beachtet.
@@ -96,102 +133,138 @@ dagegen darum, dass Informationen _unabhängig_ von der Darstellung auf dem
 Bildschirm verfügbar sind oder dass der Benutzer die Darstellung auf dem
 Bildschirm _anpassen_ kann.
 
-==== 3Abgrenzung zu fehlenden Hervorhebungen
+==== 4. Abgrenzung zu fehlenden Hervorhebungen
 
-In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit _vorhandener_
+In diesem Prüfschritt 9.1.4.1 geht es um die Farbunabhängigkeit _vorhandener_
 Seitenelemente.
 
-Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text oder Menü-Elemente nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder andere Markierung) gekennzeichnet sind.
-Wenn Links im Text _überhaupt nicht_ gekennzeichnet sind, ist der Prüfschritt dagegen nicht anwendbar.
-Das ist dann vielmehr ein Verstoß gegen Prüfschritt link:/index.php?a=di&iid=97&s=n[3.2.3a] "Konsistente Navigation" bzwlink:/index.php?a=di&iid=102&s=n[2.4.7a] "Aktuelle Position des Fokus deutlich"
+Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text
+oder Menü-Elemente nur durch die Farbe (und nicht zusätzlich durch
+Unterstreichung, Fettung oder andere Markierung) gekennzeichnet sind.
+Wenn Links im Text _überhaupt nicht_ gekennzeichnet sind, ist der
+Prüfschritt dagegen nicht anwendbar.
+Das ist dann vielmehr ein Verstoß gegen Prüfschritt
+ifdef::env_embedded[9.3.2.3 "Konsistente Navigation"]
+ifndef::env_embedded[]
+ <<9.3.2.3 Konsistente Navigation.adoc#,9.3.2.3 Konsistente Navigation>>
+endif::env_embedded[]
+bzw.
+ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
+  Position des Fokus deutlich>>.
+endif::env_embedded[]
 
 Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle
-Position _überhaupt nicht_ anzeigt, verstößt nicht gegen dieses Prüfschritt
-1.4.1a.
+Position _überhaupt nicht_ anzeigt, verstößt nicht gegen diesen Prüfschritt
+9.1.4.1.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guidelines
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+* https://www.w3.org/TR/WCAG21/#distinguishable[
+  Guideline 1.4 Distinguishable: Make it easier for users to see and hear
+  content including separating foreground from background]
 
 ==== Success criteria
 
-* https://www.w3.org/TR/WCAG21/#use-of-color[1.4.1 Use of Color] (Level A)
-* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-text contrast] (Level AA)
+* https://www.w3.org/TR/WCAG21/#use-of-color[
+  1.4.1 Use of Color] (Level A)
+* https://www.w3.org/TR/WCAG21/#non-text-contrast[
+  1.4.11 Non-text contrast] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G14.html[G14: Ensuring that information conveyed by color differences is also available in text]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G111.html[G111: Using color and pattern]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G182.html[G182: Ensuring that additional visual cues are available when text color differences are used to convey information]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html[G183: Using a contrast ratio of 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html[G205: Including a text cue for colored form control labels]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G14.html[
+  G14: Ensuring that information conveyed by color differences is also
+  available in text]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G111.html[
+  G111: Using color and pattern]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G182.html[
+  G182: Ensuring that additional visual cues are available when text color
+  differences are used to convey information]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html[
+  G183: Using a contrast ratio of 3:1 with surrounding text and providing
+  additional visual cues on focus for links or controls where color alone is
+  used to identify them]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html[
+  G205: Including a text cue for colored form control labels]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F13.html[F13: Failure of Success Criterion 1.4.1 due to having a text alternative that does not include information that is conveyed by color differences in the image]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F73.html[F73: Failure of Success Criterion 1.4.1 due to creating links that are not visually evident without color vision]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F81.html[F81: Failure of Success Criterion 1.4.1 due to identifying required or error fields using color differences only]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F13.html[
+  F13: Failure of Success Criterion 1.4.1 due to having a text alternative
+  that does not include information that is conveyed by color differences in
+  the image]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F73.html[
+  F73: Failure of Success Criterion 1.4.1 due to creating links that are not
+  visually evident without color vision]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F81.html[
+  F81: Failure of Success Criterion 1.4.1 due to identifying required or error
+  fields using color differences only]
 
 == Quellen
 
+[.BLOCK_LANG_EN]
 === Use of Color: Understanding SC 1.4.1
 
+[.BLOCK_LANG_EN]
 ____
 The intent of this Success Criterion is to ensure that all users can access
 information that is conveyed by color differences, that is, by the use of
 color where each color has a meaning assigned to it.
-If the information is
-conveyed through color differences in an image (or other non-text format), the
-color may not be seen by users with color deficiencies.
-In this case, providing
-the information conveyed with color through another visual means ensures users
-who cannot see color can still perceive the information.
+If the information is conveyed through color differences in an image (or other
+non-text format), the color may not be seen by users with color deficiencies.
+In this case, providing the information conveyed with color through another
+visual means ensures users who cannot see color can still perceive the
+information.
 
 Color is an important asset in design of Web content, enhancing its aesthetic
 appeal, its usability, and its accessibility.
-However, some users have
-difficulty perceiving color.
-People with partial sight often experience limited
-color vision, and many older users do not see color well.
-In addition, people
-using text-only, limited-color or monochrome displays and browsers will be
-unable to access information that is presented only in color.
+However, some users have difficulty perceiving color.
+People with partial sight often experience limited color vision, and many
+older users do not see color well.
+In addition, people using text-only, limited-color or monochrome displays and
+browsers will be unable to access information that is presented only in color.
 
-Examples of information conveyed by color differences: "required fields are red", "error is shown in red", and "Mary's sales are in red, Tom's are in blue"Examples of indications of an action include: using color to indicate that a link will open in a new window or that a database entry has been updated successfully.
-An example of prompting a response would be: using highlighting on form fields to indicate that a required field had been left blank.
+Examples of information conveyed by color differences: "required fields are
+red", "error is shown in red", and "Mary's sales are in red, Tom's are in blue".
+Examples of indications of an action include: using color to indicate that a
+link will open in a new window or that a database entry has been updated
+successfully.
+An example of prompting a response would be: using highlighting on form fields
+to indicate that a required field had been left blank.
 
 Note: This should not in any way discourage the use of color on a page, or
 even color coding if it is redundant with other visual indication.
 ____
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
+(https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
 
 === Definieren von Farben
 
-Vordergrundfarbe und Hintergrundfarbe von Text müssen an der selben Stelle definiert werden.
-Sonst kann es zum Beispiel passieren, dass die Farbe der Schrift als Hintergrundfarbe ausgewählt wird und die Schrift nicht mehr zu lesen ist.
-Artikel dazu: +
+Vordergrundfarbe und Hintergrundfarbe von Text müssen an der selben Stelle
+definiert werden.
+Sonst kann es zum Beispiel passieren, dass die Farbe der Schrift als
+Hintergrundfarbe ausgewählt wird und die Schrift nicht mehr zu lesen ist.
+Artikel dazu:
 http://www.w3.org/QA/Tips/color
 
 == Fragen zu diesem Prüfschritt
 
-=== Häufig werden besuchte Links in einer anderen Farbe dargestellt.
-Fällt das auch unter dieses Prüfschritt?
+=== Häufig werden besuchte Links in einer anderen Farbe dargestellt Fällt das auch unter diesen Prüfschritt?
 
 Die Unterscheidung besuchter und nicht besuchter Links ist hilfreich.
-Der
-Benutzer kann gleich sehen, welche Seiten er schon besucht hat.
-Ideal wäre es
-daher, wenn besuchte Links zum Beispiel zusätzlich durch eine andere
-Unterstreichung markiert würden.
+Der Benutzer kann gleich sehen, welche Seiten er schon besucht hat.
+Ideal wäre es daher, wenn besuchte Links zum Beispiel zusätzlich durch eine
+andere Unterstreichung markiert würden.
 
 Aber die verfügbaren Gestaltungsmöglichkeiten sind begrenzt.
-Und zu viele
-unterschiedliche Kennzeichnungen von Links können auch Verwirrung stiften.
+Und zu viele unterschiedliche Kennzeichnungen von Links können auch
+Verwirrung stiften.
 
 In diesem Prüfschritt des BITV-Tests wird die Kennzeichnung besuchter Links
 nicht berücksichtigt, sie ist für die Bewertung nicht relevant.
