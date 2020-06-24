@@ -29,8 +29,7 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[]
-  geprüft.
+endif::env_embedded[] geprüft.
 
 === 2. Prüfung auf Untertitel
 
@@ -69,8 +68,8 @@ endif::env_embedded[]
 
 * Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte
   Untertitel, die alle Informationen der Tonspur enthalten.
-  Dazu gehört gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende
-  Tonereignisse (etwa informationstragende Geräusche, Lachen, oder Applaus).
+  Dazu gehören gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende
+  Tonereignisse (etwa informationstragende Geräusche, Lachen, Applaus).
 
 ==== Teilweise erfüllt
 
@@ -103,8 +102,7 @@ ifdef::env_embedded[9.1.2.4 "Videos (live) mit Untertiteln"]
 ifndef::env_embedded[]
   <<9.1.2.4 Videos (live) mit Untertiteln.adoc#,9.1.2.4 Videos (live) mit
   Untertiteln>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 ==== Stumme Videodateien
 
@@ -119,8 +117,7 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 ==== Alternativtexte für Objekte
 
@@ -130,8 +127,7 @@ ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[]
-geprüft.
+endif::env_embedded[] geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -230,12 +226,8 @@ ____
 
 === Können an Stelle der Untertitel auch Filme mit gebärdensprachlicher Darstellung eingeblendet werden?
 
-Solche Filme sind hilfreich für Personen, die über Gebärdensprache
-kommunizieren.
-Meist sind das Personen, die gehörlos geboren oder schon früh
-ertaubt sind.
-Dagegen können Personen, die erst im Alter ertaubt sind, in der
-Regel nicht über Gebärdensprache kommunizieren.
+Solche Filme sind hilfreich für Personen, die über Gebärdensprache kommunizieren.
+Meist sind das Personen, die gehörlos geboren oder schon früh ertaubt sind.
+Dagegen können Personen, die erst im Alter ertaubt sind, in der Regel nicht über Gebärdensprache kommunizieren.
 Sie benötigen Untertitel.
-Gebärdensprachliche Darstellungen sind also kein Ersatz für die
-Untertitel.
+Gebärdensprachliche Darstellungen sind also kein Ersatz für die Untertitel.

@@ -12,13 +12,10 @@ bereitgestellt werden.
 Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden.
 Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
 verstehen, worum es geht.
-Dagegen enthalten Spielfilme und Reportagen oft
-Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt
+Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt
 werden.
-Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
-Passagen beschrieben werden.
-Hierfür wird das Verfahren der Audiodeskription
-eingesetzt.
+Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werden.
+Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 
 == Wie wird geprüft?
 
@@ -74,8 +71,7 @@ Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 ==== Nicht voll erfüllt
 
-Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder
-nicht vollständig.
+Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder nicht vollständig.
 
 ==== Nicht erfüllt
 
@@ -91,8 +87,7 @@ ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Vid
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
-endif::env_embedded[]
-bewertet.
+endif::env_embedded[] bewertet.
 Braucht ein Video eine Audiodeskription und sind weder eine Audiodeskription
 noch eine Volltextalternative vorhanden, sind sowohl dieser Prüfschritt als auch
 Prüfschritt
@@ -100,8 +95,7 @@ ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Vid
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
-endif::env_embedded[]
-nicht bzw. nicht voll erfüllt.
+endif::env_embedded[] nicht bzw. nicht voll erfüllt.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
