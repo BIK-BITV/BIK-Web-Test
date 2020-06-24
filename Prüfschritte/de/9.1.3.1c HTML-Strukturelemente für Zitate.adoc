@@ -48,22 +48,18 @@ wird.
 Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als
 eigenständige Abschnitte gefasst sind) mit dem vorgesehenen
 HTML-Strukturelement `q` ausgezeichnet sind.
-In Bezug auf die Zugänglichkeit ist
-der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit
+In Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit
 normalen Anführungszeichen gering.
-Zudem gibt es technische Probleme: Der
-Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit
+Zudem gibt es technische Probleme: Der Internet Explorer umschließt mit `q` ausgezeichnete Zitate nicht mit
 Anführungszeichen.
-Man müsste also zusätzlich Anführungszeichen setzen, was aber
-in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen
-würde.
+Man müsste also zusätzlich Anführungszeichen setzen, 
+was aber in standardkonform arbeitenden Browsern wie Mozilla zu einer Doppelung führen würde.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-* Als eigenständige Abschnitte gefasste Zitate sind durchgängig mit
-  `blockquote` ausgezeichnet.
+* Als eigenständige Abschnitte gefasste Zitate sind durchgängig mit `blockquote` ausgezeichnet.
 
 ==== Nicht voll erfüllt
 
