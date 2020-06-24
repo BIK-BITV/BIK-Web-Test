@@ -85,8 +85,7 @@ Sie sollte folgende Informationen enthalten:
 * Geräusche (Gelächter, off-Screen-Stimmen etc.)
 * Transkriptionen aller Dialoge
 
-Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video
-entsprechen.
+Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
 
 Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
 Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
