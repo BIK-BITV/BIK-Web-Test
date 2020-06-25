@@ -15,8 +15,8 @@ wird.
 Bei mehrfarbigen oder abgetönten Elementen gilt die Kontrastanforderung für
 jene visuelle Information, über die das Element (oder dessen Zustand)
 hinreichend klar identifizierbar ist.
-Es müssen also nicht sämtliche Bereiche
-einer Grafik die Kontrastanforderung erfüllen.
+Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung
+erfüllen.
 
 Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das
 Bedienelement bzwdessen Zustand hinreichend kennzeichnet, müssen grafische
@@ -25,7 +25,7 @@ Elemente die Kontrastanforderung nicht erfüllen.
 == Warum wird das geprüft?
 
 Viele Menschen mit Sehbehinderungen brauchen gute Kontraste, um grafische
-Bedienelemente bzwderen Zustände oder Elemente in informationstragenden
+Bedienelemente bzw. deren Zustände oder Elemente in informationstragenden
 Grafiken, etwa statistischen Diagrammen oder Schaubildern, wahrnehmen zu
 können.
 Die Forderung nach einem Minimalkontrast für informationstragende
@@ -33,7 +33,7 @@ Grafiken hilft diesen Menschen.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn informationstragende grafische
 Bedienelemente, die nicht lediglich ergänzend (etwa zu Text) eingesetzt
@@ -49,66 +49,71 @@ beeinflusst wurden, etwa native HTML-Checkboxen, sowie auf inaktive
 Bedienelemente, also solche, die zustandsabhängig für die Interaktion nicht
 zur Verfügung stehen.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-Hinweis: Für die aufgeführten Prüfungen 2.2 bis 2.4 ist eine Sichtprüfung ausreichend, wenn der Kontrast *sehr deutlich* über 3:1 liegt.
+Hinweis: Für die aufgeführten Prüfungen 2.2 bis 2.4 ist eine Sichtprüfung
+ausreichend, wenn der Kontrast *sehr deutlich* über 3:1 liegt.
 Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
 ==== 2.1 Prüfung nicht festgelegter Farben
 
-Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon-Fonts), für die über
-CSS eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe
-festgelegt ist (und umgekehrt).
-
-Das Bookmarklet https://testen.bitv-test.de/bookmarklets.html[Vorder-und Hintergrundfarbe definiert] oder ein User Stylesheet (`html {background-color:black;color:white}`) aktivieren.
-Prüfen, ob Grafiken oder Bedienelemente nun verschwinden oder schlecht zu
-erkennen sind.
-In diesen Fällen fehlt entweder die Festlegung der Farbe oder die
-der Hintergrundfarbe.
+. Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon-Fonts), für die
+  über CSS eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe
+  festgelegt ist (und umgekehrt).
+. Das Bookmarklet
+  https://testen.bitv-test.de/bookmarklets.html[
+  Vorder-und Hintergrundfarbe definiert] oder ein User Stylesheet
+  (``html {background-color:black;color:white}``) aktivieren.
+. Prüfen, ob Grafiken oder Bedienelemente nun verschwinden oder schlecht zu
+  erkennen sind.
+  In diesen Fällen fehlt entweder die Festlegung der Farbe oder die
+  der Hintergrundfarbe.
 
 ==== 2.2 Prüfung von Bedienelementen in der Ausgangsansicht
 
-Grafische Bedienelemente (etwa Icons) auf der Seite identifizieren, die keinen
-nebenstehenden Text haben, der dessen Bedeutung und ggfauch wechselnde
-Zustände nach Interaktion identifiziert.
-Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
-Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder)
-identifizieren.
-Wenn das Bedienelement nur über den Rahmen (oder einen Teil des
-Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol
-umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
+. Grafische Bedienelemente (etwa Icons) auf der Seite identifizieren, die keinen
+  nebenstehenden Text haben, der dessen Bedeutung und ggf. auch wechselnde
+  Zustände nach Interaktion identifiziert.
+  Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
+. Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder)
+  identifizieren.
+  Wenn das Bedienelement nur über den Rahmen (oder einen Teil des
+  Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol
+  umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
 
 ==== 2.3 Prüfung von Bedienelement-Zuständen nach Fokussierung oder Aktivierung
 
-Bedienelemente mit der Tastatur und der Maus fokussieren.
-Ist der Kontrast der
-Fokushervorhebung zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
-Bei Bedienelementen, die verschiedene funktionale Zustände haben (etwa
-Checkboxen, Radio-Buttons, Reiter in Registerbereichen) die verfügbaren
-anderen Zustände aufrufen.
-Ist der Kontrast der informationstragenden Teile der
-Bedienelemente zu angrenzenden Farben klar ausreichend (3:1 oder
-besser)Hinweis: Ausgenommen von der Anforderung sind native, also vom Autor
-nicht gestylte, Bedienelemente.
+. Bedienelemente mit der Tastatur und der Maus fokussieren.
+  Ist der Kontrast der Fokushervorhebung zu angrenzenden Farben klar
+  ausreichend (3:1 oder besser)?
+. Bei Bedienelementen, die verschiedene funktionale Zustände haben (etwa
+  Checkboxen, Radio-Buttons, Reiter in Registerbereichen) die verfügbaren
+  anderen Zustände aufrufen.
+  Ist der Kontrast der informationstragenden Teile der
+  Bedienelemente zu angrenzenden Farben klar ausreichend (3:1 oder
+  besser).
+  Hinweis: Ausgenommen von der Anforderung sind native, also vom Autor
+  nicht gestylte, Bedienelemente.
 
 ==== 2.4 Prüfung von Informationsgrafiken
 
-Informationstragende Grafiken identifizieren, bei denen die Information nur
-über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text
-vermittelt wird.
-Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast
-von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
-ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
+. Informationstragende Grafiken identifizieren, bei denen die Information nur
+  über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text
+  vermittelt wird.
+. Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast
+  von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
+  ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 ==== 3.1 Zur Identifizierung notwendige Teile von Bedienelementen
 
 Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es
-sich um visuell sichtbare Elemente (z.BElement-Rahmen, aktivierter Zustand
+sich um visuell sichtbare Elemente (z. B. Element-Rahmen, aktivierter Zustand
 eines Elements, informationstragender Teil eines Icons) die wichtige
 Informationen enthalten, also etwa den Umriss, den Wert, oder den Zustand
 eines Bedienelements anzeigen.
+
 Beispiele:
 
 * Die Fokushervorhebung eines Bedienelements
@@ -116,21 +121,35 @@ Beispiele:
 * Die Ränder eines Eingabefelds oder eines Buttons
 * Der Haken einer Custom-Checkbox
 
-Visuelle Beispiele dazu finden sich im Dokument https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[Understanding Success Criterion 1.4.11: Non-text Contrast].
+Visuelle Beispiele dazu finden sich im Dokument
+https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+Understanding Success Criterion 1.4.11: Non-text Contrast].
 
 ==== 3.2 Vernachlässigbare Rahmen und Umrisslinien
 
 Wenn die Farbe eines Elements (etwa die innere Hintergrundfarbe eines
 Schalters oder das Segment eines Kuchendiagramms) ausreichend Kontrast zu
-Hintergrund hat, auf dem sich das Element befindet, können Rahmen
-bzw.
+Hintergrund hat, auf dem sich das Element befindet, können Rahmen bzw.
 Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
 
 ==== 3.3 Kontrast-Differenz bei Zuständen
 
-* Nicht verlangt wird ein Kontrast von 3:1 für die _Differenz_ zwischen verschiedenen _funktionalen_ Zuständen des gleichen Bedienelements (etwa Umschalter aktiviert/ nicht aktiviert).
-* Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die _Differenz_ zwischen verschiedenen _Interaktions_-Zuständen des gleichen Bedienelements (etwa fokussiert / nicht fokussiert)Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form, Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
-Dies ist Gegenstand der Prüfung in Prüfschritt 2.4.7 "Aktuelle Position des Fokus sichtbar".
+* Nicht verlangt wird ein Kontrast von 3:1 für die _Differenz_ zwischen
+  verschiedenen _funktionalen_ Zuständen des gleichen Bedienelements
+  (etwa Umschalter aktiviert/ nicht aktiviert).
+* Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die _Differenz_
+  zwischen verschiedenen _Interaktions_-Zuständen des gleichen Bedienelements
+  (etwa fokussiert / nicht fokussiert).
+  Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel
+  angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form,
+  Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der
+  Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
+  Dies ist Gegenstand der Prüfung in Prüfschritt
+  ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
+  Position des Fokus deutlich>>.
+endif::env_embedded[]
 
 Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils
 angrenzenden Farbe.
@@ -139,31 +158,49 @@ angrenzenden Farbe.
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um die Kontraste von Grafiken und grafischen Attributen wie Umrisslinien.
-Der Kontrast von Schrift, einschließlich der von Schriftgrafiken, wird in Prüfschritt link:/index.php?a=di&iid=86&s=n[1.4.3a] "Kontraste von Texten ausreichend" bewertet.
+In diesem Prüfschritt geht es um die Kontraste von Grafiken und grafischen
+Attributen wie Umrisslinien.
+Der Kontrast von Schrift, einschließlich der von Schriftgrafiken, wird in Prüfschritt
+ifdef::env_embedded[9.1.4.3 "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
+  Texten ausreichend>>
+endif::env_embedded[]
+bewertet.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+* https://www.w3.org/TR/WCAG21/#distinguishable[
+  Guideline 1.4 Distinguishable: Make it easier for users to see and hear
+  content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast] (Level AA)
+* https://www.w3.org/TR/WCAG21/#non-text-contrast[
+  1.4.11 Non-Text Contrast] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G174[G174: Providing a control with a sufficient contrast ratio that allows users to switch to a presentation that uses sufficient contrast]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an author-supplied, highly visible focus indicator]
-
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html[G207: Ensuring that a contrast ratio of 3:1 is provided for icons]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html[G209: Provide sufficient contrast at the boundaries between adjoining colors]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G174[
+  G174: Providing a control with a sufficient contrast ratio that allows users
+  to switch to a presentation that uses sufficient contrast]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[
+  G195: Using an author-supplied, highly visible focus indicator]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html[
+  G207: Ensuring that a contrast ratio of 3:1 is provided for icons]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html[
+  G209: Provide sufficient contrast at the boundaries between adjoining colors]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78[F78: Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78[
+  F78: Failure of Success Criterion 2.4.7 due to styling element outlines and
+  borders in a way that removes or renders non-visible the visual focus indicator]
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[Understanding Success Criterion 1.4.11: Non-text Contrast] (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+  Understanding Success Criterion 1.4.11: Non-text Contrast]
+  (zur Zeit nur auf Englisch verfügbar)
