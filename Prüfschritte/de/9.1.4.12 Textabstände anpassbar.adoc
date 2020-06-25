@@ -22,23 +22,26 @@ führt.
 Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern,
 wenn sie über Werkzeuge wie Bookmarklets oder über eigene Stylesheets die
 Abstände zwische Zeilen, Absätzen, Zeichen und Worten anpassen können.
-Solche
-Anpassungen führen dazu, das Texte ggfmehr Platz brauchen und Container
-dementsprechend dynamisch angelegt sein müssen, um den längeren Text ohne
-Verlust zu zeigen.
+Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und
+Inhalts-Container dementsprechend dynamisch angelegt sein müssen, um den
+längeren Text ohne Verlust zu zeigen.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite echten Text enthält (also Text,
 der nicht über eine Grafik bereitgestellt wird).
 
-=== 2Prüfung
+=== 2. Prüfung
 
-Benutze https://testen.bitv-test.de/bookmarklets.html[Bookmarklet Textabstände] oder eine Browser-Erweiterung, um die Werte für Zeilenhöhe, Abstand nach Absätzen, Buchstabenabstand und Wortabstand auf die maximal geforderten Werte zu setzen.
-Prüfe, ob es durch die neuen Werte zum Abschneiden oder Überlappen von Text
-oder den Verlust von Funktionalität kommt.
+. Textabstände mit dem
+  https://testen.bitv-test.de/bookmarklets.html[
+  Bookmarklet Textabstände] oder mit einer Browser-Erweiterung setzen.
+  Die Werte für Zeilenhöhe, Abstand nach Absätzen, Buchstabenabstand und
+  Wortabstand werden auf die maximal geforderten Werte gesetzt.
+. Prüfen, ob es durch die neuen Werte zum Abschneiden oder Überlappen von Text
+  oder den Verlust von Funktionalität kommt.
 
 == Einordnung des Prüfschritts
 
@@ -46,23 +49,34 @@ oder den Verlust von Funktionalität kommt.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background]
+* https://www.w3.org/TR/WCAG21/#distinguishable[
+  Guideline 1.4 Distinguishable: Make it easier for users to see and hear
+  content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#text-spacing[1.4.12 Text Spacing] (Level AA)
+* https://www.w3.org/TR/WCAG21/#text-spacing[
+  1.4.12 Text Spacing] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C36.html[C36: Allowing for text spacing override]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C35.html[C35: Allowing for text spacing without wrapping]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C36.html[
+  C36: Allowing for text spacing override]
+* https://www.w3.org/WAI/WCAG21/Techniques/css/C35.html[
+  C35: Allowing for text spacing without wrapping]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F104[F104: Failure of Success Criterion 1.4.12 due to clipped or overlapped content when text spacing is adjusted]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F104[
+  F104: Failure of Success Criterion 1.4.12 due to clipped or overlapped
+  content when text spacing is adjusted]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[Understanding Success Criterion 1.4.12: Text Spacing] (zur Zeit nur auf Englisch verfügbar)
-* https://github.com/openstyles/stylus/blob/master/README.md[Stylus Browsererweiterung]
-* https://www.html5accessibility.com/tests/tsbookmarklet.html[Text Spacing Bookmarklet]
+* https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[
+  Understanding Success Criterion 1.4.12: Text Spacing]
+  (zur Zeit nur auf Englisch verfügbar)
+* https://github.com/openstyles/stylus/blob/master/README.md[
+  Stylus Browsererweiterung]
+* https://www.html5accessibility.com/tests/tsbookmarklet.html[
+  Text Spacing Bookmarklet]
