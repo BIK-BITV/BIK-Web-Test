@@ -23,7 +23,7 @@ Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
-* Nur die Überschriften anzeigen lassen - als Inhaltsverzeichnis für die
+* Nur die Überschriften anzeigen lassen – als Inhaltsverzeichnis für die
   schnelle Orientierung (besonders wichtig für blinde Benutzer)
 * Von Überschrift zu Überschrift springen (blinde Nutzer)
 * Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene
@@ -35,8 +35,7 @@ So können Benutzer die Überschriften-Elemente anwenden:
 
 Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch
 Überschriften strukturiert werden können.
-Das ist bei informationsorientierten
-Seiten in der Regel der Fall.
+Das ist bei informationsorientierten Seiten in der Regel der Fall.
 
 === 2. Prüfung
 

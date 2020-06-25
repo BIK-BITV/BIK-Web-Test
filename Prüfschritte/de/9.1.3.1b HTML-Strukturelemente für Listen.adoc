@@ -45,10 +45,8 @@ Listenauszeichnungen, soweit vorhanden, werden nun dargestellt.
 
 === 3. Hinweise
 
-Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht
-besser in Listenform dargestellt werden sollten.
-Es soll nur geprüft werden, ob vorhandene, erkennbare Listen auch
-entsprechend ausgezeichnet sind.
+Es soll nicht beurteilt werden, ob auf der Seite enthaltene Texte vielleicht besser in Listenform dargestellt werden sollten.
+Es soll nur geprüft werden, ob vorhandene, erkennbare Listen auch entsprechend ausgezeichnet sind.
 
 Listen erkennt man normalerweise an ihrer Darstellung auf dem Bildschirm.
 Sie heben sich deutlich von normalen Textabschnitten ab, oft sind sie
@@ -60,16 +58,14 @@ Listen, egal wie sie gestaltet sind.
 Sie sollten deshalb auch als Listen ausgezeichnet werden.
 
 Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren.
-Ihr Einsatz für andere gemeinhin übliche paarige Informationen, etwa Bild und
-Bildtext, wird akzeptiert.
+Ihr Einsatz für andere gemeinhin übliche paarige Informationen, 
+etwa Bild und Bildtext, wird akzeptiert.
 
 Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht
 gefordert ist:
 
-* Die "Sie-sind-hier"-Navigation am Seitenanfang (auch breadcrumb trail oder
-  Krümelpfad).
-* Die horizontale Seitenauswahl (Blättermenü) am Kopf- und Fußende, etwa
-  bei mehrseitigen Artikeln
+* Die "Sie-sind-hier"-Navigation am Seitenanfang (auch breadcrumb trail oder Krümelpfad)
+* Die horizontale Seitenauswahl (Blättermenü) am Kopf- und Fußende, etwa bei mehrseitigen Artikeln
 * Auswahlleisten mit seriellen Einträgen, etwa alphabetische Einträge (A-Z)
   bei Glossaren, oder eine Auswahlleiste mit Jahreszahlen
 * Gruppen von verschiedenartigen Links am Seitenende mit drei oder weniger

@@ -42,8 +42,8 @@ Bedeutung im Kontext nicht vermittelt.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video-
-oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn unverlinkte informative Grafiken oder Bilder, Video-
+oder Audio-Dateien, oder Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten:
 
