@@ -12,8 +12,8 @@ benutzen sein.
 Die Bedienung soll geräteunabhängig möglich sein.
 Das bedeutet: Sie muss sowohl
 mit der Maus als auch mit der Tastatur möglich sein.
-Denn auch andere
-Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
+Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie eine
+Tastatur.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
 Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedacht.
@@ -23,132 +23,201 @@ eingeschränkte Menschen oder Blinde.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#G202]2Prüfung
+=== 2. Prüfung
 
-Seite im Firefox Browser aufrufen.
-Mit der Tabulatortaste die Links und Formularelemente durchgehen.
-[#G21][#H91][#SCR20][#SCR29][#SCR35][#SCR37][#F10][#F42][#F55]Prüfen, ob alle wesentlichen Links und Formularelemente erreicht und benutzt werden können[#G107]
-[#G90][#SCR2][#F54]Falls die Seite Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht mit der Tabulatortaste angesteuert werden, prüfen, ob diese Elemente auf die Maus reagieren (zum Beispiel mit Bewegung, Vergrößerung, Einblenden von weiteren Inhalten).
-Falls die Seite scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte
-dieser Bereiche auch über die Tastatur erreichbar sein.
-Seite im Chrome Browser aufrufen und Schritte 2 bis 5 wiederholen.
+. Seite im Firefox Browser aufrufen.
+. Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+. Prüfen, ob alle wesentlichen Links und Formularelemente erreicht und
+  benutzt werden können
+. Falls die Seite Elemente enthält, die wie Bedienelemente aussehen, jedoch
+  nicht mit der Tabulatortaste angesteuert werden, prüfen, ob diese Elemente
+  auf die Maus reagieren (zum Beispiel mit Bewegung, Vergrößerung,
+  Einblenden von weiteren Inhalten).
+. Falls die Seite scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte
+  dieser Bereiche auch über die Tastatur erreichbar sein.
+. Seite im Chrome Browser aufrufen und Schritte 2 bis 5 wiederholen.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 ==== 3.1 Allgemeine Hinweise
 
-Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
+Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser
+selbst angeboten werden (beispielsweise "Fenster schließen").
 
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von Java.
-Script verursacht.
-Die Prüfung erfolgt also bei *eingeschaltetem* Java.
-Script.
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von
+JavaScript verursacht.
+Die Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
 
-Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind+
+Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein,
+er muss wissen, welche Tasten und Tastenkombinationen für die
+Tastaturbedienung vorgesehen sind.
 Wichtig in diesem Zusammenhang:
 
-* Die Felder von Formularen können im Internet Explorer trotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werden.
-Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein klicken und dann erst mit der Tastaturbedienung anfangen.
-Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
-* [#select-pruefung]Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können ggfmit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wird.
-Um solche Auswahllisten durchzublättern, muss man sie ggfzunächst mit der Tastenkombination "Alt + Pfeil nach unten" öffnen.
-Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
+* Die Felder von Formularen können im Internet Explorer trotz korrekter
+  Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert
+  werden.
+* Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein
+  klicken und dann erst mit der Tastaturbedienung anfangen.
+  Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
+* Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können
+  ggf. mit den Pfeiltasten allein nicht bedient werden, da immer schon die
+  erste Listenoption ausgelöst wird.
+  Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit der
+  Tastenkombination "Alt + Pfeil nach unten" öffnen.
+  Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen
+  blättern und mit der Eingabetaste eine Option auswählen.
 
 Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechen.
-Es
-ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
+Es ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
 Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf
 der betreffenden Seiten mehrere Schritte erforderlich sind.
 
 Für diesen Prüfschritt spielt die Reihenfolge, in der Links und
 Formularelemente angesteuert werden, keine Rolle.
 
-Manche Elemente lassen sich ggfbei eingeschaltetem Screenreader NVDA nicht aktivieren (oder nur bei zusätzlichem Drücken der ``alt``-Taste)Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und wird in Prüfschritt 4.1.2a "Name, Rolle, Wert verfügbar" bewertet.
+Manche Elemente lassen sich ggf. bei eingeschaltetem Screenreader NVDA nicht
+aktivieren (oder nur bei zusätzlichem Drücken der ``alt``-Taste).
+Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und
+wird in Prüfschritt
+ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
+ifndef::env_embedded[]
+  <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert verfügbar>>
+endif::env_embedded[]
+bewertet.
 
-==== [#SCR27]3.2 Hinweis zu Drag-and-Drop-Funktionen
+==== 3.2 Hinweis zu Drag-and-Drop-Funktionen
 
 Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind,
 müssen auch tastaturnutzbare Alternativen angeboten werden.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
-* Alle wesentlichen Inhalte und Funktionen sind in Firefox und Chrome im Prinzip erreichbar und bedienbar.
+* Alle wesentlichen Inhalte und Funktionen sind in Firefox und Chrome im
+  Prinzip erreichbar und bedienbar.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Wesentliche Inhalte und Funktionen sind in Firefox oder Chrome mit der Tastatur nicht erreichbar oder nicht bedienbar.
+* Wesentliche Inhalte und Funktionen sind in Firefox oder Chrome mit der
+  Tastatur nicht erreichbar oder nicht bedienbar.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Dieser Prüfschritt betrifft die *Auslösbarkeit* von Funktionen und Links auch über die Tastatur.
-* *Tastaturfallen* sind Gegenstand von Prüfschritt link:/index.php?a=di&iid=89&s=n[2.1.2a]
-* Bei skriptgenerierten oder über Skripts eingeblendeten Elementen (etwa ausklappenden Texten oder Lightboxen) ist die *sinnvolle Reihenfolge* im Quellcode Gegenstand von Prüfschritt link:/index.php?a=di&iid=37&s=n[1.3.2b].
-* Die Fokus**hervorhebung** ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=102&s=n[2.4.7a] "Aktuelle Position des Fokus deutlich"
-* Die Sinnvolle Fokus**reihenfolge** wird in link:/index.php?a=di&iid=91&s=n[2.4.3a] "Schlüssige Reihenfolge bei Tastaturbedienung" bewertet.
+* Dieser Prüfschritt betrifft die *Auslösbarkeit* von Funktionen und Links
+  auch über die Tastatur.
+* *Tastaturfallen* sind Gegenstand von Prüfschritt
+ifdef::env_embedded[9.2.1.2 "Keine Tastaturfalle"]
+ifndef::env_embedded[]
+  <<9.2.1.2 Keine Tastaturfalle.adoc#,9.2.1.2 Keine Tastaturfalle>>
+endif::env_embedded[]
+* Bei skriptgenerierten oder über Skripts eingeblendeten Elementen (etwa
+  ausklappenden Texten oder Lightboxen) ist die *sinnvolle Reihenfolge* im
+  Quellcode Gegenstand von Prüfschritt
+ifdef::env_embedded[9.1.3.2 "Sinnvolle Reihenfolge".]
+ifndef::env_embedded[]
+  <<9.1.3.2 Sinnvolle Reihenfolge.adoc#,9.1.3.2 Sinnvolle Reihenfolge>>.
+endif::env_embedded[]
+* Die Fokus**hervorhebung** ist Gegenstand von Prüfschritt
+ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
+  Position des Fokus deutlich>>.
+endif::env_embedded[]
+* Die Sinnvolle Fokus**reihenfolge** wird in
+ifdef::env_embedded[9.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung"]
+ifndef::env_embedded[]
+  <<9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,9.2.4.3
+  Schlüssige Reihenfolge bei der Tastaturbedienung>>
+endif::env_embedded[]
+  bewertet.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#keyboard-accessible[Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard.]
+* https://www.w3.org/TR/WCAG21/#keyboard-accessible[
+  Guideline 2.1 Keyboard Accessible: Make all functionality available from a
+  keyboard.]
 
 ==== Success criteria
 
-* https://www.w3.org/TR/WCAG21/#keyboard[2.1.1 Keyboard] (Level A)
+* https://www.w3.org/TR/WCAG21/#keyboard[
+  2.1.1 Keyboard] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G90.html[G90: Providing keyboard-triggered event handlers]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G202.html[G202: Ensuring keyboard control for all functionality]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G90.html[
+  G90: Providing keyboard-triggered event handlers]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G202.html[
+  G202: Ensuring keyboard control for all functionality]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H91.html[H91: Using HTML form controls and links]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H91.html[
+  H91: Using HTML form controls and links]
 
 ===== Scripting Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR2.html[SCR2: Using redundant keyboard and mouse event handlers]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR20.html[SCR20: Using both keyboard and other device-specific functions]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27.html[SCR27: Reordering page sections using the Document Object Model]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR29.html[SCR29: Adding keyboard-accessible actions to static HTML elements]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35.html[SCR35: Making actions keyboard accessible by using the onclick event of anchors and buttons]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR2.html[
+  SCR2: Using redundant keyboard and mouse event handlers]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR20.html[
+  SCR20: Using both keyboard and other device-specific functions]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27.html[
+  SCR27: Reordering page sections using the Document Object Model]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR29.html[
+  SCR29: Adding keyboard-accessible actions to static HTML elements]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35.html[
+  SCR35: Making actions keyboard accessible by using the onclick event of
+  anchors and buttons]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F42.html[F42: Failure of Success Criterion 1.3.1 and 2.1.1 due to using scripting events to emulate links in a way that is not programmatically determinable]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F54.html[F54: Failure of Success Criterion 2.1.1 due to using only pointing-device-specific event handlers (including gesture) for a function]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F42.html[
+  F42: Failure of Success Criterion 1.3.1 and 2.1.1 due to using scripting
+  events to emulate links in a way that is not programmatically determinable]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F54.html[
+  F54: Failure of Success Criterion 2.1.1 due to using only
+  pointing-device-specific event handlers (including gesture) for a function]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[
+  F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script
+  to remove focus when focus is received]
 
 == Quellen
 
 === Die WCAG 2.1 zur Tastaturbedienbarkeit
 
+[.BLOCK_LANG_EN]
 ____
 If all functionality can be achieved using the keyboard, it can be
 accomplished by keyboard users, by speech input (which creates keyboard
 input), by mouse (using on-screen keyboards), and by a wide variety of
 assistive technologies that create simulated keystrokes as their output.
-No
-other input form has this flexibility or is universally supported and operable
-by people with different disabilities, as long as the keyboard input is not
-time-dependent.
+No other input form has this flexibility or is universally supported and
+operable by people with different disabilities, as long as the keyboard input
+is not time-dependent.
 
-Note that providing universal keyboard input does not mean that other types of input should not be supported.
+Note that providing universal keyboard input does not mean that other types of
+input should not be supported.
 Optimized speech input, optimized mouse/pointer input, etc., are also good.
 The key is to provide keyboard input and control as well.
 
-Some devices do not have native keyboards?for example, a PDA or cell phone.
-If these devices have a Web browsing capability, however, they will have some means of generating text or "keystrokes." This guideline uses the term "keyboard interface" to acknowledge that Web content should be controlled from keystrokes that may come from a keyboard, keyboard emulator, or other hardware or software that generates keyboard or text input.
+Some devices do not have native keyboards?
+for example, a PDA or cell phone.
+If these devices have a Web browsing capability, however, they will have some
+means of generating text or "keystrokes." This guideline uses the term
+"keyboard interface" to acknowledge that Web content should be controlled from
+keystrokes that may come from a keyboard, keyboard emulator, or other hardware
+or software that generates keyboard or text input.
 ____
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html[Keyboard Accessible: Understanding Guideline 2.1]
+(https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html[
+Keyboard Accessible: Understanding Guideline 2.1])
