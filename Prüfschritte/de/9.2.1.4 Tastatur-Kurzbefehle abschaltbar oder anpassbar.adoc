@@ -14,58 +14,63 @@ haben.
 
 Tastaturkurzbefehle sind für Menschen, die am Computer oder einem mobilen
 Gerät die Spracheingabe benutzen, häufig problematisch.
-Spracheingaben können
-unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch
-verloren.
+Spracheingaben können unerwartet Befehle für Funktionen auslösen, der
+Nutzungskontext geht dadurch verloren.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-Seite neu laden.
-Wenn dies den Fokus auf ein Interface-Element setzt (z.Bauf ein
-Eingabefeld), auf einen leeren Bereich der Seite klicken, um sicherzustellen,
-dass keine Interface-Elemente fokussiert sind.
-Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab,
-Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten
-drücken, d.hauf alle Nummern- Buchstaben-, Symbol- und Zeichensetzungs-Tasten.
-Die Umschalttaste halten und die gleichen Tasten erneut betätigen.
-Falls einzelne Tasten Funktionen auslösen, prüfen, ob die Website oder App
-Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten
-abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu
-mappen.
+. Seite neu laden.
+. Wenn dies den Fokus auf ein Interface-Element setzt (z. B. auf ein
+  Eingabefeld), auf einen leeren Bereich der Seite klicken, um sicherzustellen,
+  dass keine Interface-Elemente fokussiert sind.
+. Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab,
+  Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten
+  drücken, d. h. auf alle Nummern- Buchstaben-, Symbol- und
+  Zeichensetzungs-Tasten.
+. Die Umschalttaste halten und die gleichen Tasten erneut betätigen.
+. Falls einzelne Tasten Funktionen auslösen, prüfen, ob die Website oder App
+  Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten
+  abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu
+  mappen.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind,
 sobald bestimmte Interface-Elemente den Fokus haben, etwa ein
-Auswahllisten-Element bzw`select`Hier dient z.Bdas Drücken einer
+Auswahllisten-Element bzw. `select`Hier dient z. B. das Drücken einer
 Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
 Über das Anzeigen von Seitenskripten und das Suchen nach typischen
-Tastatur-Event-Handlern wie `document.add.
-EventListener` oder das Vorhandensein
+Tastatur-Event-Handlern wie ``document.add.
+EventListener`` oder das Vorhandensein
 des `.keycode` Attributs lässt sich ggfdas Vorhandensein von Skripten
 überprüfen, welche auf Tasteneingaben reagieren, bei denen nicht
 Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werden.
-Da es mehrere
-Möglichkeiten gibt, Tastatur-Events zu implementieren, ist diese Methode aber
-nicht als zuverlässig zu betrachten.
+Da es mehrere Möglichkeiten gibt, Tastatur-Events zu implementieren, ist
+diese Methode aber nicht als zuverlässig zu betrachten.
 
 Einige Browser verwenden Tastenkombinationen mit der Umschalttaste.
-So öffnet Firefox eine Seitensuche, wenn man Umschalttaste + / drückt, und eine Suche in Seitenlinks, wenn man Umschalttaste + ' drückt.
-In diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen leeren Teil der Seite zu klicken, um den Fokus aus der Browser-Sucheingabe zu entfernen.
+So öffnet Firefox eine Seitensuche, wenn man Umschalttaste + / drückt, und
+eine Suche in Seitenlinks, wenn man Umschalttaste + ' drückt.
+In diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen
+leeren Teil der Seite zu klicken, um den Fokus aus der Browser-Sucheingabe zu
+entfernen.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Prüfschritt erfüllt:
+==== Prüfschritt erfüllt
 
-* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts oder des Kontexts.
-* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über Einstellungen der Website oder App abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
+* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts
+  oder des Kontexts.
+* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über
+  Einstellungen der Website oder App abschaltbar oder auf Tastenkombinationen mit
+  Modifikator-Tasten umstellbar.
 
 == Einordnung des Prüfschritts
 
@@ -73,24 +78,36 @@ In diesen Fällen ist es notwendig, die ESC-Taste zu drücken oder auf einen lee
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#keyboard-accessible[Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard]
+* https://www.w3.org/TR/WCAG21/#keyboard-accessible[
+  Guideline 2.1 Keyboard Accessible: Make all functionality available from a
+  keyboard]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#character-key-shortcuts[2.1.4 Character Key Shortcuts] (Level A)
+* https://www.w3.org/TR/WCAG21/#character-key-shortcuts[
+  2.1.4 Character Key Shortcuts] (Level A)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G217[G217: Providing a mechanism to allow users to remap or turn off character key shortcuts]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G217[
+  G217: Providing a mechanism to allow users to remap or turn off character
+  key shortcuts]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F99[F99: Failure of Success Criterion 2.1.4 due to implementing character key shortcuts that cannot be turned off or remapped]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F99[
+  F99: Failure of Success Criterion 2.1.4 due to implementing character key
+  shortcuts that cannot be turned off or remapped]
 
 == Quellen
 
-https://testen.bitv-test.de/bookmarklets.html#kurzbefehle[Bookmarklet "Tastatur-Kurzbefehle auslösen"] von Prüfstelle T-Systems MMS kann ggfzusätzlich eingesetzt werden, um der Reihe nach alle erforderlichen Tasten auszulösen.
-Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzwgeändert hat.
+* https://testen.bitv-test.de/bookmarklets.html#kurzbefehle[
+  Bookmarklet "Tastatur-Kurzbefehle auslösen"] von Prüfstelle T-Systems MMS
+  kann ggf. zusätzlich eingesetzt werden, um der Reihe nach alle
+  erforderlichen Tasten auszulösen.
+  Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw.
+  geändert hat.
 Die Konsole der Entwickler-Tools zeigt die simulierten Eingaben.
-
-https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[Understanding Success Criterion 2.1.4: Character Key Shortcuts] (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
+  Understanding Success Criterion 2.1.4: Character Key Shortcuts]
+  (zur Zeit nur auf Englisch verfügbar)
