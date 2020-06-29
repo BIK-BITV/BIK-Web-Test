@@ -13,27 +13,28 @@ nachvollziehbar sein.
 Die Bedienung soll geräteunabhängig möglich sein.
 Das bedeutet: Sie muss sowohl
 mit der Maus als auch mit der Tastatur möglich sein.
-Denn auch andere
-Spezialgeräte verhalten sich so wie eine Maus oder wie eine Tastatur.
+Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie eine
+Tastatur.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
 Webnutzer arbeitet mit der Maus, daher wird oft nur an die gedacht.
-Auf die
-Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
 eingeschränkte Menschen oder Blinde.
 
 Durch eine nicht nachvollziehbare Reihenfolge der Links und Formularelemente
 kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Manche Seiten präsentieren mittels Java.
-Script dynamische Inhalte, etwa
+Manche Seiten präsentieren mittels JavaScript dynamische Inhalte, etwa
 Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die
 im Wechsel angezeigt werden.
 Während dynamische Änderungen der Seite für sehende
 Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern
 gar nicht oder erst mit Verzögerung wahrgenommen.
 
-Wenn nach dem Laden einer Seite weitere Elemente über DOM-Scripting in den Quellcode einer Seite eingefügt werden, soll diese Einfügung *unterhalb* des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
+Wenn nach dem Laden einer Seite weitere Elemente über DOM-Scripting in den
+Quellcode einer Seite eingefügt werden, soll diese Einfügung *unterhalb* des
+auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente
+bemerken und vorlesen.
 
 In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch
 weiter unten auf der Seite eingefügt oder verändert werden (also nicht direkt
@@ -46,134 +47,213 @@ mitbekommen.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder
 Objekte enthält.
 
-=== [#G59][#H4][#F44][#F85]2Prüfung
+=== 2. Prüfung
 
-Seite im Firefox Browser laden.
-Mit der Tabulatortaste die Links, Formularelemente und Objekte durchgehen und
-prüfen, ob die Reihenfolge im Wesentlichen nachvollziehbar ist.
-Seite in Chrome aufrufen und die Prüfung wiederholen.
+. Seite im Firefox Browser laden.
+. Mit der Tabulatortaste die Links, Formularelemente und Objekte durchgehen und
+  prüfen, ob die Reihenfolge im Wesentlichen nachvollziehbar ist.
+. Seite in Chrome aufrufen und die Prüfung wiederholen.
 
-==== 2.1Prüfung von dynamisch eingefügten Inhalten
+==== 2.1 Prüfung von dynamisch eingefügten Inhalten
 
 Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite
 Inhalte hinzufügen, die nicht schon in der Ansicht ohne CSS auf der frisch
 geladenen Seite sichtbar sind):
 
-Seite im http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
-Voreinstellung im Firefox: Im Menü _Extras > Einstellungen_ wählen.
-Den Bereich "Erweitert" auswählen, im linken Reiter "Allgemein" im Bereich "Eingabehilfen" die Option "Markieren von Text mit der Tastatur zulassen" auswählen.
-Hierdurch wird die Cursor-Position als blinkende Einfügemarke angezeigt.
-Dies entspricht in der Regel dem Screenreader-Fokus.
-Dynamisch eingefügte Inhalte aufrufen, etwa durch Formulareingabe oder
-Auslösen eines Links.
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#fb[]Browsereigenes Entwicklerwerkzeug (_Inspektor_ für Firefox) aufrufen, das Element-Symbol (das Icon zeigt den Cursor auf einer Taste) links in der Menüleiste auswählen und den eingefügten Inhalt anklicken.
-Im eingeblendeten Fenster lässt sich nun der generierte Quellcode im Zusammenhang einsehen.
-[#SCR26][#SCR27][#SCR37]Position des eingefügten Elements prüfen.
+. Seite im
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Voreinstellung im Firefox: Im Menü _Extras > Einstellungen_ wählen.
+  Den Bereich "Erweitert" auswählen, im linken Reiter "Allgemein" im Bereich
+  "Eingabehilfen" die Option "Markieren von Text mit der Tastatur zulassen"
+  auswählen.
+  Hierdurch wird die Cursor-Position als blinkende Einfügemarke angezeigt.
+  Dies entspricht in der Regel dem Screenreader-Fokus.
+. Dynamisch eingefügte Inhalte aufrufen, etwa durch Formulareingabe oder
+  Auslösen eines Links.
+. http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#fb[
+  Browsereigenes Entwicklerwerkzeug] (_Inspektor_ für Firefox) aufrufen, das
+  Element-Symbol (das Icon zeigt den Cursor auf einer Taste) links in der
+  Menüleiste auswählen und den eingefügten Inhalt anklicken.
+  Im eingeblendeten Fenster lässt sich nun der generierte Quellcode im
+  Zusammenhang einsehen.
+. Position des eingefügten Elements prüfen.
 +
-Fall 1: Erscheint der eingefügte Inhalt im Quellcode *unterhalb* des auslösenden Elements(Siehe dazu die link:#einfuegen[Erläuterung in Abschnitt 3Hinweise].)
+* Fall 1: Erscheint der eingefügte Inhalt im Quellcode *unterhalb* des
+  auslösenden Elements(Siehe dazu die
+  Erläuterung in Abschnitt <<3. Hinweise>>).
+* Fall 2: Wenn generierte Pseudo-Fenster (Modalen Dialogen) im Quellcode nicht
+  direkt nach dem auslösenden Element, sondern *an anderer Stelle*, etwa ganz
+  am Seitenende, eingefügt werden:
+
+[start=1]
+. Pseudo-Fenster schließen und vom auslösenden Element aus erneut mit der
+  Tastatur aufrufen.
+. Erkennen auch Screenreader-Nutzer, dass ein neuer Inhalt hinzugefügt wurde?
+  Das kann auf verschiedene Weise geschehen, z. B.:
 +
-Fall 2: Wenn generierte Pseudo-Fenster (Modalen Dialogen) im Quellcode nicht direkt nach dem auslösenden Element, sondern *an anderer Stelle*, etwa ganz am Seitenende, eingefügt werden:
-.Pseudo-Fenster schließen und vom auslösenden Element aus erneut mit der
-Tastatur aufrufen.
-.Erkennen auch Screenreader-Nutzer, dass ein neuer Inhalt hinzugefügt wurde.
-Das
-kann auf verschiedene Weise geschehen, z.B.:
-* Der Fokus wird über einen Skript zum Beginn des eingefügten Elements verschoben (die blinkende Einfügemarke ist an dessen Beginn sichtbar)
-* Der Link-/Button-Text oder eine Eigenschaft des auslösenden Elements (etwa `disabled`) wird geändert *und* beim Weiter-Tabben erhält das hinzugefügte Element den nächsten Fokus
-.Wenn das Pseudo-Fenster geschlossen wird: wird der Fokus auf das auslösende
-Element zurückverschoben?
+* Der Fokus wird über ein Skript zum Beginn des eingefügten Elements
+  verschoben (die blinkende Einfügemarke ist an dessen Beginn sichtbar)
+* Der Link-/Button-Text oder eine Eigenschaft des auslösenden Elements (etwa
+  ``disabled``) wird geändert *und* beim Weiter-Tabben erhält das
+  hinzugefügte Element den nächsten Fokus
 
-=== 3Hinweise
+. Wenn das Pseudo-Fenster geschlossen wird: wird der Fokus auf das auslösende
+  Element zurückverschoben?
 
-* Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen.
-Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
-* Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht.
-Das betrifft insbesondere aufeinander folgende nicht sichtbare Sprunglinks.
-* Wenn die Tabulatorreihenfolge nicht gut erkennbar ist, weil z.Bdie Fokushervorhebung unterdrückt wird, ist das Bookmarklet https://codepen.io/jeffsmith/details/beb.
-Kpq[Show Tab Focus] von Jeff Smith ein hilfreiches Werkzeug zum hervorheben der aktuellen Position.
-* Die Prüfung erfolgt bei *eingeschaltetem* Java.
-Script.
-* Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind.
+=== 3. Hinweise
+
+* Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf
+  dem Bildschirm folgen.
+  Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht
+  möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend
+  abzuleiten.
+* Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über
+  unsichtbare ausführbare Elemente geht.
+  Das betrifft insbesondere aufeinander folgende nicht sichtbare Sprunglinks.
+* Wenn die Tabulatorreihenfolge nicht gut erkennbar ist, weil z. B. die
+  Fokushervorhebung unterdrückt wird, ist das Bookmarklet
+  https://codepen.io/jeffsmith/details/beb.
+Kpq[
+Show Tab Focus] von Jeff Smith ein hilfreiches Werkzeug zum hervorheben der
+aktuellen Position.
+* Die Prüfung erfolgt bei *eingeschaltetem* JavaScript.
+* Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut
+  sein, er muss wissen, welche Tasten und Tastenkombinationen für die
+  Tastaturbedienung vorgesehen sind.
 +
 Wichtig in diesem Zusammenhang:
-** Die Felder von Formularen können ggftrotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werden.
-Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hineinklicken und dann erst mit der Tastaturbedienung anfangen.
-Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
-** Auswahllisten ohne Submit-Button, die auf `onchange` reagieren, können ggfmit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wird.
-Um solche Auswahllisten durchzublättern, muss man sie ggfzunächst mit der Tastenkombination "ALT + Pfeil nach unten" öffnen.
-Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
+** Die Felder von Formularen können ggftrotz korrekter Auszeichnung unter
+  Umständen nicht mit der Tabulatortaste durchwandert werden.
+  Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach
+  hineinklicken und dann erst mit der Tastaturbedienung anfangen.
+  Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
+** Auswahllisten ohne Submit-Button, die auf `onchange` reagieren, können ggf.
+  mit den Pfeiltasten allein nicht bedient werden, da immer schon die erste
+  Listenoption ausgelöst wird.
+  Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit
+  der Tastenkombination "ALT + Pfeil nach unten" öffnen.
+  Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen
+  blättern und mit der Eingabetaste eine Option auswählen.
 
-==== Zur Einfügung dynamisch generierter Inhalte unterhalb des auslösenden Elements:
+==== Zur Einfügung dynamisch generierter Inhalte unterhalb des auslösenden Elements
 
 In manchen Fällen kann es angemessen sein, Inhalte nicht unmittelbar nach dem
 auslösenden Element, sondern weiter unten auf der Seite dynamisch einzufügen
-bzwzu aktualisieren.
+bzw. zu aktualisieren.
 Ein Beispiel ist die dynamische Ergebnisanzeige unterhalb
 eines mehrstufigen Suchformulars.
 Hier ist zu prüfen, ob das dynamische
 Verhalten des Formulars schon aus dem Kontext der Eingabefelder
-bzw.
-Auswahllisten heraus bzwdurch erläuternde Texte oder Hilfefunktionen
+bzw. Auswahllisten heraus bzw. durch erläuternde Texte oder Hilfefunktionen
 deutlich wird.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und schlüssig.
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der
+  Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und
+  schlüssig.
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen im Browserfenster nicht sichtbar.
-* Pseudofenster, die außerhalb der normalen Quellcodereihenfolge, also etwa am Seitenende, eingefügt werden, erhalten nicht unmittelbar oder beim nächsten Tabben den Fokus.
-* Beim Schließen von Pseudofenstern wird der Fokus nicht auf das auslösende Element zurückgesetzt.
+* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne
+  nachvollziehbaren Grund von der visuellen Anordnung ab oder der
+  Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen im
+  Browserfenster nicht sichtbar.
+* Pseudofenster, die außerhalb der normalen Quellcodereihenfolge, also etwa
+  am Seitenende, eingefügt werden, erhalten nicht unmittelbar oder beim
+  nächsten Tabben den Fokus.
+* Beim Schließen von Pseudofenstern wird der Fokus nicht auf das auslösende
+  Element zurückgesetzt.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert die Bedienung mit der Tastatur erheblich.
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der
+  Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert
+  die Bedienung mit der Tastatur erheblich.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-* In diesem Prüfschritt wird die *Tabreihenfolge* geprüft, egal, ob diese der Anordnung fokussierbarer Elemente im Quellcode entspricht oder über `tabindex` und Skripte erzeugt wird.
-* Die grundsätzliche *Erreichbarkeit* und *Auslösbarkeit* von interaktiven Elementen ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=88&s=n[2.1.1a] "Ohne Maus nutzbar".
-* Die *Sichtbarkeit* des Fokus ist Gegenstand von Prüfschritt link:/index.php?a=di&iid=102&s=n[2.4.7a] "Aktuelle Position des Fokus deutlich"
-* Geprüft wird hier die richtige *Position* eingeblendeter oder eingefügter Inhalte.
-Ob diese Inhalte selbst sinnvoll sind, wird in anderen Prüfkriterien wie link:/index.php?a=di&iid=104&s=n[3.3.3a] "Hilfe bei Fehlern"" oder link:/index.php?a=di&iid=94&s=n[2.4.4a] "Aussagekräftige Linktexte" geprüft.
+* In diesem Prüfschritt wird die *Tabreihenfolge* geprüft, egal, ob diese
+  der Anordnung fokussierbarer Elemente im Quellcode entspricht oder über
+  `tabindex` und Skripte erzeugt wird.
+* Die grundsätzliche *Erreichbarkeit* und *Auslösbarkeit* von interaktiven
+  Elementen ist Gegenstand von Prüfschritt
+ifdef::env_embedded[9.2.1.1 "Ohne Maus nutzbar".]
+ifndef::env_embedded[]
+  <<9.2.1.1 Ohne Maus nutzbar.adoc#,9.2.1.1 Ohne Maus nutzbar>>.
+endif::env_embedded[]
+* Die *Sichtbarkeit* des Fokus ist Gegenstand von Prüfschritt
+ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
+  Position des Fokus deutlich>>.
+endif::env_embedded[]
+* Geprüft wird hier die richtige *Position* eingeblendeter oder eingefügter
+  Inhalte.
+Ob diese Inhalte selbst sinnvoll sind, wird in anderen Prüfkriterien wie
+ifdef::env_embedded[9.3.3.3 "Hilfe bei Fehlern"]
+ifndef::env_embedded[]
+  <<9.3.3.3 Hilfe bei Fehlern.adoc#,9.3.3.3 Hilfe bei Fehlern>>
+endif::env_embedded[]
+  oder
+ifdef::env_embedded[9.2.4.4 "Aussagekräftige Linktexte"]
+ifndef::env_embedded[]
+  <<9.2.4.4 Aussagekräftige Linktexte.adoc#,9.2.4.4 Aussagekräftige
+  Linktexte>>
+endif::env_embedded[]
+  geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are]
+* https://www.w3.org/TR/WCAG21/#navigable[
+  Guideline 2.4 Navigable: Provide ways to help users navigate, find content,
+  and determine where they are]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#focus-order[2.4.3 Focus Order] (Level A)
+* https://www.w3.org/TR/WCAG21/#focus-order[
+  2.4.3 Focus Order] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html[G59: Placing the interactive elements in an order that follows sequences and relationships within the content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html[
+  G59: Placing the interactive elements in an order that follows sequences and
+  relationships within the content]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H4.html[H4: Creating a logical tab order through links, form controls, and objects]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H4.html[
+  H4: Creating a logical tab order through links, form controls, and objects]
 
 ===== Scripting Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR26.html[SCR26: Inserting dynamic content into the Document Object Model immediately following its trigger element]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37.html[SCR37: Creating Custom Dialogs in a Device Independent Way]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27.html[SCR27: Reordering page sections using the Document Object Model]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR26.html[
+  SCR26: Inserting dynamic content into the Document Object Model immediately
+  following its trigger element]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37.html[
+  SCR37: Creating Custom Dialogs in a Device Independent Way]
+* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27.html[
+  SCR27: Reordering page sections using the Document Object Model]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F44.html[F44: Failure of Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F85.html[F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F44.html[
+  F44: Failure of Success Criterion 2.4.3 due to using tabindex to create a
+  tab order that does not preserve meaning and operability]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F85.html[
+  F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that
+  are not adjacent to their trigger control in the sequential navigation order]
