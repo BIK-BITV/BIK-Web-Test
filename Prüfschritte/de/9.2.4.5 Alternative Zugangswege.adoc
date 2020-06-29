@@ -10,12 +10,10 @@ Angebotes zu gelangen.
 == Warum wird das geprüft?
 
 Benutzer bevorzugen verschiedene Zugangswege, um zu Inhalten zu gelangen.
-Manche
-orientieren sich an hierarchischen Navigationsmenüs, andere nutzen ein
+Manche orientieren sich an hierarchischen Navigationsmenüs, andere nutzen ein
 Inhaltsverzeichnis (Sitemap), noch andere ziehen eine Suchfunktion vor.
-Gerade
-sehbehinderte Benutzer kommen oft schneller über eine Suche zu den gewünschten
-Inhalten.
+Gerade sehbehinderte Benutzer kommen oft schneller über eine Suche zu den
+gewünschten Inhalten.
 
 Deshalb sollte das Angebot verschiedene Zugangswege zu den Inhalten
 bereitstellen.
@@ -29,31 +27,49 @@ und aus mehr als einer Seite besteht.
 
 === Prüfung
 
-Das Angebot auf vorhandene Zugangswege hin betrachten.
-Übliche Zugangswege sind:
+. Das Angebot auf vorhandene Zugangswege hin betrachten.
+  Übliche Zugangswege sind:
++
 * Durchgängig verfügbare Navigationsmenüs
 * Inhaltsverzeichnis (Sitemap)
-* [#G161]Suchfunktion (direkt über ein Sucheingabefeld oder über Verlinkung auf eine zentrale Suchseite)
-* [#G185]Alle Seiten des Angebots sind von der Startseite her verlinkt [#G126] oder auf jeder Seite des Angebots verlinkt (nur für kleine Sites geeignet)
-* Sequenzielle Verlinkung aller Seiten (höchstens für kleine Sites geeignet, oder für Sites, in denen die Wahrnehmung der Seiten in einer bestimmten Reihenfolge sinnvoll ist)
+* Suchfunktion (direkt über ein Sucheingabefeld oder über Verlinkung auf
+  eine zentrale Suchseite)
+* Alle Seiten des Angebots sind von der Startseite her verlinkt oder auf jeder
+  Seite des Angebots verlinkt (nur für kleine Sites geeignet)
+* Sequenzielle Verlinkung aller Seiten (höchstens für kleine Sites geeignet,
+  oder für Sites, in denen die Wahrnehmung der Seiten in einer bestimmten
+  Reihenfolge sinnvoll ist)
 * als Teil eines Prozesses erzeugte Seiten (etwa als Ergebnis einer Transaktion)
-Gibt es mindestens zwei Zugangswege, etwa eine hierarchisches Navigationsmenü
-und eine Suchfunktion, oder ein Navigationsmenü und ein Inhaltsverzeichnis
-(Sitemap)?
-[#G63][#G64][#G125]Zugangswege stichprobenartig ausprobieren, um deren Funktionsfähigkeit zu überprüfen
+
+. Gibt es mindestens zwei Zugangswege, etwa eine hierarchisches Navigationsmenü
+  und eine Suchfunktion, oder ein Navigationsmenü und ein Inhaltsverzeichnis
+  (Sitemap)?
+. Zugangswege stichprobenartig ausprobieren, um deren Funktionsfähigkeit
+  zu überprüfen
 
 === Hinweise
 
-* Es wird nicht gefordert, dass hierarchische Navigationsmenüs die tieferen Ebenen des Angebots vollständig abbilden.
-* Es spielt für diesen Prüfschritt keine Rolle, ob Navigationsmenüs vertikal oder horizontal orientiert sind.
-Sie sollen aber als eigenständige Bereiche kenntlich sein.
-* Die Kombination aus hierarchischem Hauptmenü und untergeordneten Bereichsmenüs git als *ein* Zugangsweg.
+* Es wird nicht gefordert, dass hierarchische Navigationsmenüs die tieferen
+  Ebenen des Angebots vollständig abbilden.
+* Es spielt für diesen Prüfschritt keine Rolle, ob Navigationsmenüs
+  vertikal oder horizontal orientiert sind.
+  Sie sollen aber als eigenständige Bereiche kenntlich sein.
+* Die Kombination aus hierarchischem Hauptmenü und untergeordneten
+  Bereichmenüs gilt als *ein* Zugangsweg.
 * Ein hierarchischer Navigationspfad (Breadcrumb) ist sinnvoll.
-Er gilt jedoch nicht als eigenständiger Zugangsweg, da er nur die Navigation zu höheren Ebenen der Seitenhierarchie erlaubt, nicht den Zugang zu weiter unten liegenden Ebenen.
-* Bei kleinen Angeboten mit nur wenigen Seiten, die *alle* von der Startseite verlinkt sind, gilt diese gleichzeitig als Sitemap, sofern auf allen Unterseiten des Angebotes deutlich ein Link auf die Startseite angeboten wird.
-* Bei sequenziellen Prozessen kann es sinnvoll sein, dass außer der Navigation zu folgenden und vorhergehenden Prozessschritten keine weitere Navigation angeboten wird.
-Denn die Seiten (oder Instanzen) des Prozesses machen nur innerhalb des Gesamtprozesses Sinn und sollen nicht einzeln erreichbar sein.
-Hier sollte das Fehlen weiterer Navigationsoptionen nicht negativ bewertet werden.
+  Er gilt jedoch nicht als eigenständiger Zugangsweg, da er nur die
+  Navigation zu höheren Ebenen der Seitenhierarchie erlaubt, nicht den Zugang
+  zu weiter unten liegenden Ebenen.
+* Bei kleinen Angeboten mit nur wenigen Seiten, die *alle* von der Startseite
+  verlinkt sind, gilt diese gleichzeitig als Sitemap, sofern auf allen
+  Unterseiten des Angebotes deutlich ein Link auf die Startseite angeboten wird.
+* Bei sequenziellen Prozessen kann es sinnvoll sein, dass außer der
+  Navigation zu folgenden und vorhergehenden Prozessschritten keine weitere
+  Navigation angeboten wird.
+  Denn die Seiten (oder Instanzen) des Prozesses machen nur innerhalb des
+  Gesamtprozesses Sinn und sollen nicht einzeln erreichbar sein.
+  Hier sollte das Fehlen weiterer Navigationsoptionen nicht negativ bewertet
+  werden.
 
 == Einordnung des Prüfschritts
 
@@ -61,32 +77,53 @@ Hier sollte das Fehlen weiterer Navigationsoptionen nicht negativ bewertet werde
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are.]
+* https://www.w3.org/TR/WCAG21/#navigable[
+  Guideline 2.4 Navigable: Provide ways to help users navigate, find content,
+  and determine where they are.]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#multiple-ways[2.4.5 Multiple Ways] (Level AA)
+* https://www.w3.org/TR/WCAG21/#multiple-ways[
+  2.4.5 Multiple Ways] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G63.html[G63: Providing a site map]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html[G64: Providing a Table of Contents]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G125.html[G125: Providing links to navigate to related Web pages]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G126.html[G126: Providing a list of links to all other Web pages]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G161.html[G161: Providing a search function to help users find content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G185.html[G185: Linking to all of the pages on the site from the home page]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G63.html[
+  G63: Providing a site map]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html[
+  G64: Providing a Table of Contents]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G125.html[
+  G125: Providing links to navigate to related Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G126.html[
+  G126: Providing a list of links to all other Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G161.html[
+  G161: Providing a search function to help users find content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G185.html[
+  G185: Linking to all of the pages on the site from the home page]
 
 == Quellen
 
-=== Multiple Ways - Specific Benefits of Success Criterion 2.4.5:
+[.BLOCK_LANG_EN]
+=== Multiple Ways - Specific Benefits of Success Criterion 2.4.5
 
+[.BLOCK_LANG_EN]
 ____
-* Providing an opportunity to navigate sites in more than one manner can help people find information faster.
-Users with visual impairments may find it easier to navigate to the correct part of the site by using a search, rather than scrolling through a large navigation bar using a screen magnifier or screen readerA person with cognitive disabilities may prefer a table of contents or site map that provides an overview of the site rather than reading and traversing through several Web pages.
-Some users may prefer to explore the site in a sequential manner, moving from Web page to Web page in order to best understand the concepts and layout.
-* Individuals with cognitive limitations may find it easier to use search features than to use a hierarchical navigation scheme that be difficult to understand.
+* Providing an opportunity to navigate sites in more than one manner can help
+people find information faster.
+Users with visual impairments may find it easier to navigate to the correct
+part of the site by using a search, rather than scrolling through a large
+navigation bar using a screen magnifier or screen reader.
+A person with cognitive disabilities may prefer a table of contents or site
+map that provides an overview of the site rather than reading and traversing
+through several Web pages.
+Some users may prefer to explore the site in a sequential manner, moving from
+Web page to Web page in order to best understand the concepts and layout.
+* Individuals with cognitive limitations may find it easier to use search
+features than to use a hierarchical navigation scheme that be difficult to
+understand.
 ____
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html[Multiple Ways: Understanding SC 2.4.5]
+(https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html[
+Multiple Ways: Understanding SC 2.4.5])
