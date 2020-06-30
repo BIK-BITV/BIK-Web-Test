@@ -11,21 +11,32 @@ Textfeldern, Buttons oder Checkboxen.
 
 == Warum wird das geprüft?
 
-Spracheingabenutzer können Bedienelemente wie Links, Tasten oder Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit Befehlen (z.B_Klick "Abschicken"_)Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen des Bedienelements (also dem Text, der programmatisch als Beschriftung ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht oder nur über Umwege mittels Spracheingabe aktivieren.
+Spracheingabenutzer können Bedienelemente wie Links, Tasten oder
+Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der
+Verbindung mit Befehlen (z. B. _Klick "Abschicken"_).
+Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen
+des Bedienelements (also dem Text, der programmatisch als Beschriftung
+ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht
+oder nur über Umwege mittels Spracheingabe aktivieren.
 
-Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute wie `aria-label` oder über nur bei Mausnutzung eingeblendete Attribute wie `title` festgelegt wird.
-So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen" ersetzt werden.
-Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
+Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren
+Beschriftung abweicht, weil er über nicht sichtbare Attribute wie `aria-label`
+oder über nur bei Mausnutzung eingeblendete Attribute wie `title` festgelegt
+wird.
+So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den
+hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen"
+ersetzt werden.
+Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser
+Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
 
 Manchmal wird versteckter Text benutzt, um sichtbare Beschriftungen zu
 erweitern, oft auch in der Absicht, Hilfsmittelnutzern zu helfen.
-Das ist dann
-in Ordnung, wenn die sichtbare Beschriftung durchgehend in dem zugänglichen
-Namen enthalten ist, am besten zu Beginn.
+Das ist dann in Ordnung, wenn die sichtbare Beschriftung durchgehend in dem
+zugänglichen Namen enthalten ist, am besten zu Beginn.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar auf Bedienelemente, die entweder sich selbst
 beschriften (Links, Tasten) oder einem Bedienelement wie einem Texteingabefeld
@@ -40,26 +51,26 @@ Spracheingabe-Nutzer unklar, welche Elemente als Beschriftung des
 Bedienelements gelten und dementsprechend für ein Diktat per Spracheingabe
 benutzt werden sollten.
 
-=== 2Prüfung
+=== 2. Prüfung
 
 Für jedes Bedienelement, das sich selbst beschriftet oder durch eine einfachen
 zugeordneten Text beschriftet ist, prüfen, ob der Text in der gleichen Form im
 zugänglichen Namen des Bedienelements vorkommt.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 Verwenden Sie einen Screenreader, die Entwickler-Werkzeuge des Browsers oder
 ein anderes Tool (etwa ein Bookmarklet), um den zugänglichen Namen jedes
 Bedienelements für den Vergleich mit dem Text der sichtbaren Beschriftung zu
 ermitteln(Beachten Sie, dass die Screenreader-Ausgabe Informationen enthalten
 kann, die nicht Teil des zugänglichen Namens sind, zum Beispiel die Rolle des
-Bedienelements oder eine zusätzliche Beschreibung.)
+Bedienelements oder eine zusätzliche Beschreibung).
 
 Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, aber
 die Zeichenkette der Beschriftung sollte in der gleichen Form in der
 Zeichenkette des zugänglichen Namens enthalten sein.
 
-=== 4Bewertung
+=== 4. Bewertung
 
 Der Prüfschritt ist erfüllt, wenn der Beschriftungstext in der gleichen Form
 im zugänglichen Namen vorkommt.
@@ -70,22 +81,32 @@ im zugänglichen Namen vorkommt.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+* https://www.w3.org/TR/WCAG21/#input-modalities[
+  Guideline 2.5 Input Modalities: Make it easier for users to operate
+  functionality through various inputs beyond keyboard]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#label-in-name[2.5.3 Label in Name] (Level A)
+* https://www.w3.org/TR/WCAG21/#label-in-name[
+  2.5.3 Label in Name] (Level A)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G208[G208: Including the text of the visible label as part of the accessible name]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G211[G211: Matching the accessible name to the visible label]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G208[
+  G208: Including the text of the visible label as part of the accessible name]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G211[
+  G211: Matching the accessible name to the visible label]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F96[F96: Failure due to the accessible name not containing the visible label text]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F96[
+  F96: Failure due to the accessible name not containing the visible label text]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/label-in-name[Understanding Success Criterion 2.5.3: Label in Name] (zur Zeit nur auf Englisch verfügbar)
-* Accessible Name and Description Computation: https://www.w3.org/TR/accname/#mapping_additional_nd_te (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/label-in-name[
+  Understanding Success Criterion 2.5.3: Label in Name]
+  (zur Zeit nur auf Englisch verfügbar)
+* Accessible Name and Description Computation:
+  https://www.w3.org/TR/accname/#mapping_additional_nd_te
+  (zur Zeit nur auf Englisch verfügbar)
