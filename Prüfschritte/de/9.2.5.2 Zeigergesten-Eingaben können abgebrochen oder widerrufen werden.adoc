@@ -4,7 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z.BMauszeiger, Trackpad-Zeiger, Finger oder Eingabestift) auf einem Bedienelement ausgeführt werden; falls doch, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.
+Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines
+Zeigers (z. B. Mauszeiger, Trackpad-Zeiger, Finger oder Eingabestift) auf
+einem Bedienelement ausgeführt werden; falls doch, muss es eine Möglichkeit
+geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu
+machen.
 
 Eine Ausnahme für diese Anforderung besteht, wenn das Auslösen der Funktion
 durch das Down-Ereignis essenziell ist (etwa beim Zeichnen mittels Maus,
@@ -15,11 +19,10 @@ Interagieren mit einer virtuellen Tastatur).
 
 Menschen mit motorischen Beeinträchtigungen haben häufig Schwierigkeiten,
 Zeiger-Gesten auf Schnittstellen-Elementen zielgerichtet auszuführen.
-Die
-Ausführung beim Up-Event (etwa wenn die Maustaste losgelassen wird oder der
-Finger vom Touchscreen abgehoben wird) gibt diesen Menschen die Möglichkeit,
-Fehleingaben zu vermeiden, da es sie befähigt, vor Auslösen des Up-Events den
-Zeiger vom Interface-Element wegzubewegen.
+Die Ausführung beim Up-Event (etwa wenn die Maustaste losgelassen wird oder
+der Finger vom Touchscreen abgehoben wird) gibt diesen Menschen die
+Möglichkeit, Fehleingaben zu vermeiden, da es sie befähigt, vor Auslösen
+des Up-Events den Zeiger vom Interface-Element wegzubewegen.
 Wenn Down-Events bereits Funktionen
 auslösen, besteht diese Korrekturmöglichkeit nicht.
 
@@ -34,55 +37,55 @@ Target definiert ist und das Element zum Ausgangspunkt zurückspringen lässt.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn auf der Seite Bedienelemente vorhanden
 sind.
 
-=== 2Prüfung
+=== 2. Prüfung
 
 Es wird auf einem Smartphone überprüft, ob es Bedienelemente gibt, deren
 Funktionen durch Down-Events ausgelöst werden.
 Die Prüfung auf dem Desktop ist
-nicht ausreichend, weil hier Touch-Events wie `touchstart` ggfnicht
+nicht ausreichend, weil hier Touch-Events wie `touchstart` ggf. nicht
 ausgewertet werden.
 
-Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger kurz
-liegen lassen.
-Beobachten, ob nun schon eine Funktion ausgeführt wird.
-Dies geschieht
-wahrscheinlich aufgrund eines Down-Events.
-Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen
-und loslassen.
+. Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger kurz
+  liegen lassen.
+. Beobachten, ob nun schon eine Funktion ausgeführt wird.
+  Dies geschieht wahrscheinlich aufgrund eines Down-Events.
+. Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen
+  und loslassen.
 Dadurch wird in der Regel der Aufruf des Links oder der Funktion
-vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite
-gescrollt wird).
-Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion
-abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
-rückgängig gemacht wird.
+  vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite
+  gescrollt wird).
+. Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion
+  abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
+  rückgängig gemacht wird.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 Es ist in der Regel nicht notwendig, jedes einzelne Bedienelement aufzurufen,
 wenn eine stichprobenartige Prüfung zeigt, das die Umsetzung gleichartig
 ist.
 Für ein Menü etwa reicht es dann, bei jeder Art von Menüeintrag (etwa
 Hauptmenü- und Untermenü-Einträge) ein Element zu testen.
-Das Gleiche gilt für
-Fließtextlinks.
+Das Gleiche gilt für Fließtextlinks.
 
 Es kann bei der Prüfung zum Aufruf von Funktionen des Browsers kommen (etwa:
 ein Kontextmenü wird angezeigt)Dies ist nicht Teil der Prüfung und sollte
 ignoriert werrden.
 
-Als Zeiger-Down-Events gelten `mousedown`, `touchstart` und `pointerdown`.
+Als Zeiger-Down-Events gelten ``mousedown``, `touchstart` und ``pointerdown``.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Prüfschritt erfüllt:
+==== Prüfschritt erfüllt
 
 * Keine Funktionen werden beim Down-Event ausgelöst.
-* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden.
+* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen,
+  zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt
+  werden.
 
 == Einordnung des Prüfschritts
 
@@ -90,29 +93,46 @@ Als Zeiger-Down-Events gelten `mousedown`, `touchstart` und `pointerdown`.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+* https://www.w3.org/TR/WCAG21/#input-modalities[
+  Guideline 2.5 Input Modalities: Make it easier for users to operate
+  functionality through various inputs beyond keyboard]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#pointer-cancellation[2.5.2 Pointer Cancellation] (Level A)
+* https://www.w3.org/TR/WCAG21/#pointer-cancellation[
+  2.5.2 Pointer Cancellation] (Level A)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G210[G210: Ensuring that drag-and-drop actions can be cancelled]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G212[G212: Using native controls to ensure functionality is triggered on the up-event.]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G210[
+  G210: Ensuring that drag-and-drop actions can be cancelled]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G212[
+  G212: Using native controls to ensure functionality is triggered on the
+  up-event.]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of Success Criterion 2.5.2 due to activating a control on the down-event]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[
+  F101: Failure of Success Criterion 2.5.2 due to activating a control on the
+  down-event]
 
 == Quellen
 
-* Das Bookmarklet https://testen.bitv-test.de/bookmarklets.html#downevent[Down-Events auslösen] von Prüfstelle T-Systems MMS kann ggfzusätzlich eingesetzt werden, um der Reihe nach auf allen Elementen down-events auszulösen.
-Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzwgeändert hat.
-Die Geschwindigkeit (Intervall in Millisekunden) kann am Beginn eingestellt werden.
-* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[Understanding Success Criterion 2.5.2: Pointer Cancellation] (zur Zeit nur auf Englisch verfügbar)
-* Spezifikation Pointer.
-Events (https://www.w3.org/TR/pointerevents/)
-* Spezifikation Touch.
-Events (https://www.w3.org/TR/touch-events/)
-* Spezifikation UIEvents (https://www.w3.org/TR/uievents/)
+* Das Bookmarklet
+  https://testen.bitv-test.de/bookmarklets.html#downevent[
+  Down-Events auslösen] von Prüfstelle T-Systems MMS kann ggf. zusätzlich
+  eingesetzt werden, um der Reihe nach auf allen Elementen down-events
+  auszulösen.
+  Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw.
+  geändert hat.
+  Die Geschwindigkeit (Intervall in Millisekunden) kann am Beginn eingestellt
+  werden.
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[
+  Understanding Success Criterion 2.5.2: Pointer Cancellation]
+  (zur Zeit nur auf Englisch verfügbar)
+* Spezifikation PointerEvents
+  (https://www.w3.org/TR/pointerevents/)
+* Spezifikation TouchEvents
+  (https://www.w3.org/TR/touch-events/)
+* Spezifikation UIEvents
+  (https://www.w3.org/TR/uievents/)
