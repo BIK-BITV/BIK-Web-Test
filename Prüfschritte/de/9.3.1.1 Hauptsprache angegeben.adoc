@@ -16,45 +16,54 @@ können.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== [#H57]2Prüfung
+=== 2. Prüfung
 
 Quelltextanalyse: Den Quelltext der Seite ansehen und prüfen, ob im öffnenden
-`html`-Element das `lang`-Attribut (bzwbei xhtml-Seiten das
-`xml:lang`-Attribut) verwendet wird und darin die Hauptsprache der Seite
+``html``-Element das ``lang``-Attribut (bzw. bei xhtml-Seiten das
+``xml:lang``-Attribut) verwendet wird und darin die Hauptsprache der Seite
 richtig angegeben ist.
 
-=== 4Bewertung
+=== 3. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
 * Die Hauptsprache der Webseite ist korrekt angegeben.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Die Hauptsprache der Webseite ist nicht angegeben oder es wird eine falsche Sprache angegeben.
+* Die Hauptsprache der Webseite ist nicht angegeben oder es wird eine falsche
+  Sprache angegeben.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Prüfschritt link:/index.php?a=di&iid=93&s=n[3.1.2a] "Anderssprachige Wörter und Abschnitte ausgezeichnet"
+* Prüfschritt
+ifdef::env_embedded[9.3.1.2 "Anderssprachige Wörter und Abschnitte ausgezeichnet"]
+ifndef::env_embedded[]
+  <<9.3.1.2 Anderssprachige Wörter und Abschnitte ausgezeichnet.adoc#,9.3.1.2
+  Anderssprachige Wörter und Abschnitte ausgezeichnet>>
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text content readable and understandable]
+* https://www.w3.org/TR/WCAG21/#readable[
+  Guideline 3.1 Readable: Make text content readable and understandable]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page] (Level A)
+* https://www.w3.org/TR/WCAG21/#language-of-page[
+  3.1.1 Language of Page] (Level A)
 
 ==== Techniques
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H57.html[H57: Using language attributes on the html element]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H57.html[
+  H57: Using language attributes on the html element]
