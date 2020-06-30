@@ -9,7 +9,9 @@ Wenn Webinhalte Funktionen implementieren, die über pfadbasierte Zeiger-Gesten
 können, gibt es Alternativen für die Aktivierung mittels einer einfachen
 Zeigereingabe.
 
-'Zeiger' schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie direkte Eingaben ein, etwa mit dem Finger auf dem Touchscreen oder mit dem Stift auf einem Grafiktablett.
+'Zeiger' schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie
+direkte Eingaben ein, etwa mit dem Finger auf dem Touchscreen oder mit dem
+Stift auf einem Grafiktablett.
 
 Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe
 essenziell wichtig ist - etwa bei der
@@ -26,11 +28,12 @@ Beispiele für pfadbasierte Gesten:
 
 * Streichgeste, etwa zum Bewegen etwa von Slider-Bereichen
 * Ziehen eines Sliders/Range
-* Zeichnen eines Pfads, z.Bein 'Z' zum Widerrufen
+* Zeichnen eines Pfads, z. B. ein 'Z' zum Widerrufen
 
 Beispiele für Mehrpunkt Gesten:
 
-* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies vom Webinhalt und nicht vom Browser implementiert ist)
+* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies vom Webinhalt und nicht vom
+  Browser implementiert ist)
 * "Split tap" (ein Finger hält und der andere tippt)
 * Streichen mit mehreren Fingern
 
@@ -42,9 +45,8 @@ dazwischen beliebig ist.
 
 Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise
 unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen.
-Deshalb sollen solche
-Gesten, wenn Sie von Web-Inhalten implementiert werden, nicht der einzige Weg
-sein, eine Funktion auszuführen.
+Deshalb sollen solche Gesten, wenn Sie von Web-Inhalten implementiert werden,
+nicht der einzige Weg sein, eine Funktion auszuführen.
 Beispiele für komplexe Gesten sind
 Streichgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von
 Karussell-Inhalten, Zieh-Gesten zum Verstellen von Schiebereglern, oder
@@ -52,40 +54,48 @@ Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Web-Inhalte Eventhandler implementieren,
 die auf komplexe Gesten (etwa Streichgesten, Mehrpunkt-Gesten) ansprechen.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-Seite auf einem Smartphone aufrufen.
-Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren
-(z.Bauf Karussels, Slidern)lassen sich Slider durch Streichgesten
-bewegen.
-Werden durch Streichgesten vom Rand her Menüs oder andere Webinhalte
-eingeblendet.
-Reagieren bestimmte Elemente (etwa Karten) auf die
-Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
-Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über
-einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten
-ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen
-Elementen (z.BTasten, die Slider bewegen, Werte erhöhen oder verringern, oder
-Menüs einblenden).
+. Seite auf einem Smartphone aufrufen.
+. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren
+  (z. B. auf Karussels, Slidern).
+  Lassen sich Slider durch Streichgesten bewegen?
+  Werden durch Streichgesten vom Rand her Menüs oder andere Webinhalte
+  eingeblendet?
+  Reagieren bestimmte Elemente (etwa Karten) auf die
+  Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über
+  einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten
+  ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen
+  Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
+  Menüs einblenden).
 
-=== 3Anmerkungen
+=== 3. Anmerkungen
 
-* Webinhalte können ggf.
-Alternativen zur Aktivierung über einfache Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten anbieten, nicht aber in anderen.
-So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein, um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern verfügbar sind.
-* Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf komplexen Pfaden oder Mehrpunktgesten basieren.
-So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus pfadbasiert sein.
+* Webinhalte können ggf. Alternativen zur Aktivierung über einfache
+  Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten
+  anbieten, nicht aber in anderen.
+  So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein,
+  um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen
+  zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern
+  verfügbar sind.
+* Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf
+  komplexen Pfaden oder Mehrpunktgesten basieren.
+  So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus
+  pfadbasiert sein.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Prüfschritt erfüllt:
+==== Prüfschritt erfüllt
 
-* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
+* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es
+  alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den
+  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
 
 == Einordnung des Prüfschritts
 
@@ -93,21 +103,31 @@ So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus pfadbasier
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+* https://www.w3.org/TR/WCAG21/#input-modalities[
+  Guideline 2.5 Input Modalities: Make it easier for users to operate
+  functionality through various inputs beyond keyboard]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#pointer-gestures[2.5.1 Pointer Gestures] (Level A)
+* https://www.w3.org/TR/WCAG21/#pointer-gestures[
+  2.5.1 Pointer Gestures] (Level A)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G215[G215: Providing controls to achieve the same result as path based or multipoint gestures]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G216[G216: Providing single point activation for a control slider]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G215[
+  G215: Providing controls to achieve the same result as path based or
+  multipoint gestures]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G216[
+  G216: Providing single point activation for a control slider]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F105[F105: Failure of Success Criterion 2.5.1 due to providing functionality via a path-based gesture without simple pointer alternative]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F105[
+  F105: Failure of Success Criterion 2.5.1 due to providing functionality via
+  a path-based gesture without simple pointer alternative]
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[Understanding Success Criterion 2.5.1: Pointer Gestures] (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
+  Understanding Success Criterion 2.5.1: Pointer Gestures]
+  (zur Zeit nur auf Englisch verfügbar)
