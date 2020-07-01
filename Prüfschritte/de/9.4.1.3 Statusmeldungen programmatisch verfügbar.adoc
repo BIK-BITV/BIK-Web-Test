@@ -25,13 +25,12 @@ Beispiele für Statusmeldungen:
 
 In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
 Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
-Ergebnis von Interaktionen (wie z. B. die Anzahl der beim Filtern einer
+Ergebnis von Interaktionen (z. B. die Zahl der beim Filtern einer
 Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
 von Transaktionen geben.
-Diese Meldungen sind ebenso wichtig für nicht-visuelle
-Nutzer und sollten für assistive Technologien verfügbar sein, damit die Nutzer
-auf sie aufmerksam werden, ohne ihren aktuellen Fokus oder Standpunkt ändern
-zu müssen.
+Diese Meldungen sind ebenso wichtig für nicht-visuelle Nutzer und sollten 
+für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, 
+ohne ihren aktuellen Fokus oder Standpunkt ändern zu müssen.
 
 == Wie wird geprüft?
 
@@ -39,18 +38,16 @@ zu müssen.
 
 Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
 die nicht den Fokus erhalten.
-Er ist nicht anwendbar, wenn Meldungen im
-Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem
-Abschicken eines Formulars die Seite neulädt und dann vor dem Formular eine
-Fehlermeldung erscheint.
+Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, 
+zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neu lädt und 
+dann vor dem Formular eine Fehlermeldung erscheint.
 
 === 2. Prüfung
 
 . Screenreader NVDA im Firefox-Browser aktivieren.
 . Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
-  Wenn das
-  Angebot von sich aus Statusmeldungen, z. B. bei aktualisierten Inhalten,
-  generiert, diese Meldungen abwarten.
+  Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei 
+  aktualisierten Inhalten, diese Meldungen abwarten.
 . Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben
   werden.
 
@@ -65,9 +62,9 @@ Nicht als Statusmeldung gelten:
 Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
 Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
 Screenreader unterschiedlich ausfallen.
-Der Erfolg kann davon abhängen, ob die
-Statusmeldung in ein bereits bestehendes Element eingefügt wird oder ob eine
-kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
+Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits 
+bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung 
+vor der Generierung der Meldung definiert worden ist.
 
 Das HTML-Element der Statusmeldung muss mit den zugehörigen
 Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt
