@@ -18,10 +18,9 @@ Verständnis.
 Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass
 diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene
 festgelegt und zugänglich ist.
-Benutzer, die mit der vorgegebenen visuellen
-Präsentation der Elemente auf der Seite nichts anfangen können, finden sich
-dann trotzdem zurecht, oder sie können eine eigene, besser passende
-Präsentation anwenden.
+Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente 
+auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, 
+oder sie können eine eigene, besser passende Präsentation anwenden.
 
 Die Auszeichnungen `strong` und `em` sind allgemein und nicht
 darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle
