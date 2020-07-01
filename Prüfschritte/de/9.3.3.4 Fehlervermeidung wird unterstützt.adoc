@@ -12,61 +12,75 @@ Erfolgreiche Eingaben werden bestätigt.
 == Warum wird das geprüft?
 
 Bei jeder Dateneingabe können Fehler passieren.
-Gerade wenn sich der Prozess
-nicht rückgängig machen lässt, ist es wichtig, Benutzer dazu anzuhalten, die
-eingegebenen Daten vor dem Abschicken noch einmal zu überprüfen.
+Gerade wenn sich der Prozess nicht rückgängig machen lässt, ist es wichtig,
+Benutzer dazu anzuhalten, die eingegebenen Daten vor dem Abschicken noch
+einmal zu überprüfen.
 
 Dies ist für alle Benutzer wichtig.
 Für Benutzer mit Behinderungen ist jedoch in
 vielen Fällen das Risiko von Fehleingaben größer.
-Benutzer mit Legastenie
-vertauschen häufiger Zahlen, Benutzer mit motorischen Einschränkungen drücken
-häufiger versehentlich falsche Tastaturtasten.
-Deshalb ist das Rückgängig-Machen
-oder Anzeigen, Überprüfen und gegebenenfalls Korrigieren eingegebener Daten
-für diese Benutzer besonders wichtig.
+Benutzer mit Legastenie vertauschen häufiger Zahlen, Benutzer mit motorischen
+Einschränkungen drücken häufiger versehentlich falsche Tastaturtasten.
+Deshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und
+gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders
+wichtig.
 
 == Wie wird geprüft?
 
-=== 1Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Formulare für Transaktionen
 enthält, durch die Nutzer rechtlich bindende Verpflichtungen eingehen.
-Dazu
-gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
+Dazu gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
 
-=== 2Prüfung
+=== 2. Prüfung
 
 Formular mit Beispieldaten ausfüllen und Prozess fortsetzen.
-Eine der folgenden
-drei Optionen soll erfüllt sein:
+Eine der folgenden drei Optionen soll erfüllt sein:
 
-[#G98]**Datenanzeige mit Korrekturmöglichkeit.** Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
-[#G168]**Bestätigung.** Das Abschicken erfolgt erst nach Bestätigung eines Dialogs, der die Konsequenzen der Transaktion beschreibt.
-[#G99][#G164]*Unmittelbare Rückabwicklung.* Die Transaktion (etwa das Löschen von angelegten Datensätzen) kann unmittelbar rückgängig gemacht werden.
+* Datenanzeige mit Korrekturmöglichkeit:
+  Die eingegebenen Daten werden dem Benutzer vor dem Abschicken noch einmal
+  angezeigt, es gibt an dieser Stelle die Möglichkeit, die Daten zu korrigieren.
+* Bestätigung:
+  Das Abschicken erfolgt erst nach Bestätigung eines Dialogs, der die
+  Konsequenzen der Transaktion beschreibt.
+* Unmittelbare Rückabwicklung:
+  Die Transaktion (etwa das Löschen von angelegten Datensätzen) kann
+  unmittelbar rückgängig gemacht werden.
 
-=== 3Hinweise
+=== 3. Hinweise
 
-Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem endgültigen Abschicken des Formulars.
-Solche Checkboxen werden häufig für formalrechtlich relevante Funktionen genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines Anbieters.
-Sie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und routinemäßig gesetzt.
+Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der
+Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument
+als die Anzeige der kompletten Eingabe auf einer neuen Seite vor dem
+endgültigen Abschicken des Formulars.
+Solche Checkboxen werden häufig für formalrechtlich relevante Funktionen
+genutzt, wie etwa die Bestätigung der Geschäftsbedingungen eines Anbieters.
+Sie werden deshalb von vielen Benutzern nicht richtig wahrgenommen und
+routinemäßig gesetzt.
 Für die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
 
-[#G199]Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
+Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 
-=== 4Bewertung
+=== 4. Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
-* Daten werden vor dem Abschicken zum Überprüfen angezeigt, es gibt aber keinen expliziten Link zurück zum Formular, um Daten zu korrigieren oder zu ergänzen.
-* [#G155]Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die Möglichkeit der unmittelbaren Rückabwicklung.
-Zum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkbox über dem "Abschicken"-Button.
+* Daten werden vor dem Abschicken zum Überprüfen angezeigt, es gibt aber
+  keinen expliziten Link zurück zum Formular, um Daten zu korrigieren oder zu
+  ergänzen.
+* Es gibt weder eine Datenanzeige mit Korrekturmöglichkeit noch die
+  Möglichkeit der unmittelbaren Rückabwicklung.
+  Zum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine
+  Checkbox über dem "Abschicken"-Button.
 * Nach dem erfolgreichen Abschicken gibt es keine Bestätigung.
 
-==== Nicht erfüllt:
+==== Nicht erfüllt
 
-* Wichtige Daten werden ohne vorherige Datenanzeige, Dialog zur Bestätigung, oder Möglichkeit der sofortigen Rückabwicklung abgeschickt.
-* Bei Neuanzeige des Formulars sind bereits gemachte Eingaben gelöscht, die Felder sind wieder leer und müssen erneut ausgefüllt werden.
+* Wichtige Daten werden ohne vorherige Datenanzeige, Dialog zur Bestätigung,
+  oder Möglichkeit der sofortigen Rückabwicklung abgeschickt.
+* Bei Neuanzeige des Formulars sind bereits gemachte Eingaben gelöscht, die
+  Felder sind wieder leer und müssen erneut ausgefüllt werden.
 
 == Einordnung des Prüfschritts
 
@@ -74,19 +88,29 @@ Zum Bestätigen der Eingabe gibt es keinen Dialog, sondern lediglich eine Checkb
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.]
+* https://www.w3.org/TR/WCAG21/#input-assistance[
+  Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data[3.3.4 Error prevention (Legal, Financial, Data)] (Level AA)
+* https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data[
+  3.3.4 Error prevention (Legal, Financial, Data)] (Level AA)
 
 ==== Techniques
 
 ===== General techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G98.html[G98: Providing the ability for the user to review and correct answers before submitting]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G99[G99: Providing the ability to recover deleted information]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G155[G155: Providing a checkbox in addition to a submit button]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G164[G164: Providing a stated time within which an online request (or transaction) may be amended or canceled by the user after making the request]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G168[G168: Requesting confirmation to continue with selected action]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G199[G199: Providing success feedback when data is submitted successfully]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G98.html[
+  G98: Providing the ability for the user to review and correct answers before
+  submitting]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G99[
+  G99: Providing the ability to recover deleted information]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G155[
+  G155: Providing a checkbox in addition to a submit button]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G164[
+  G164: Providing a stated time within which an online request (or transaction)
+  may be amended or canceled by the user after making the request]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G168[
+  G168: Requesting confirmation to continue with selected action]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G199[
+  G199: Providing success feedback when data is submitted successfully]
