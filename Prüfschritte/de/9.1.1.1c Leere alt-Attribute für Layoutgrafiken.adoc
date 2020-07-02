@@ -52,18 +52,19 @@ Font Icons oder SVGs für Layoutzwecke verwendet werden.
 
 ==== 2.1 Leere ``alt``-Attribute für Layoutgrafiken
 
-Die Seite im Firefox laden.
-In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
-aufrufen.
-Alternativ kann auch das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
-Images bookmarklet] eingesetzt werden.
-Prüfen, ob Layoutgrafiken und dekorative Grafiken leere ``alt``-Attribute
-enthalten.
-Falls bei solchen Grafiken ``title``-Attribute vergeben sind, müssen
-auch diese leer sein.
-Zu bemängeln sind komplett fehlende ``alt``-Attribute (werden durch die
-Toolbar-Funktion mit "No Alt!" gekennzeichnet) und auch Bezeichnungen wie
-"Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
+. Die Seite im Firefox laden.
+. In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
+  aufrufen.
+  Alternativ kann auch das
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+  Images bookmarklet] eingesetzt werden.
+. Prüfen, ob Layoutgrafiken und dekorative Grafiken leere ``alt``-Attribute
+  enthalten.
+  Falls bei solchen Grafiken ``title``-Attribute vergeben sind, müssen
+  auch diese leer sein.
+  Zu bemängeln sind komplett fehlende ``alt``-Attribute (werden durch die
+  Toolbar-Funktion mit "No Alt!" gekennzeichnet) und auch Bezeichnungen wie
+  "Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
 
 ==== 2.2 Dekorative Icon Fonts:
 
@@ -71,29 +72,31 @@ Beim Einsatz von Icon Fonts ist es nicht möglich, das leere ``alt``-Attribut
 einzusetzen.
 
 Ein dekoratives Icon wird von assistiven Technologien ignoriert, wenn es mit
-einem geeigneten Verfahren vor diesen versteckt wird (z. B. ``aria-hidden="true"``).
+einem geeigneten Verfahren vor diesen versteckt wird (z. B.
+``aria-hidden="true"``).
 
 ===== Prüfung
 
-Seite in
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die
-Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen
-Zwecken eingebunden wird.
-Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
-ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
-``aria-hidden="true"``).
+. Seite in
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die
+  Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen
+  Zwecken eingebunden wird.
+. Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
+  ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
+  ``aria-hidden="true"``).
 
 ==== 2.3 Dekorative SVGs
 
 ===== Prüfung
 
-Seite in http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Mit Firebug prüfen, ob es sich um ein direkt in HTML eingebundene SVG handelt
-(Inline SVG).
-Prüfen, ob die Grafik mit `aria-hidden="true"` versteckt wird.
+. Seite in
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit Firebug prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt
+  (Inline SVG).
+. Prüfen, ob die Grafik mit `aria-hidden="true"` versteckt wird.
 
 === 3. Hinweise
 
