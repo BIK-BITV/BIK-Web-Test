@@ -89,18 +89,18 @@ Images bookmarklet] eingesetzt werden.
 
 ==== 2.2 Anzeige der Alternativtexte von Objekten
 
-Prüfen, ob die Seite Objekte enthält. 
-Dazu kann folgende Methode genutzt werden: 
-In der Web Developer Toolbar _CSS > Disable All Styles_ und _Images >
-Hide Images_ wählen.
+. Prüfen, ob die Seite Objekte enthält. 
+  Dazu kann folgende Methode genutzt werden: 
+  In der Web Developer Toolbar _CSS > Disable All Styles_ und _Images >
+  Hide Images_ wählen.
 Werden jetzt noch Elemente angezeigt, bei denen es sich offensichtlich nicht um
-einfachen Text handelt? 
-Im Quelltext prüfen, ob eine Alternative vorhanden ist, die das Objekt in
-angemessener Weise ersetzt (siehe <<2.6 Angemessene Alternativtexte>>). 
-Falls es sich bei der Alternative für das Objekt um ein ``img``-Element
-handelt:
-Den Alternativtext des Bildes wie unter
-<<2.6 Angemessene Alternativtexte>> beschrieben prüfen.
+  einfachen Text handelt? 
+. Im Quelltext prüfen, ob eine Alternative vorhanden ist, die das Objekt in
+  angemessener Weise ersetzt (siehe <<2.6 Angemessene Alternativtexte>>). 
+. Falls es sich bei der Alternative für das Objekt um ein ``img``-Element
+  handelt:
+  Den Alternativtext des Bildes wie unter
+  <<2.6 Angemessene Alternativtexte>> beschrieben prüfen.
 
 ==== 2.3 Textalternativen für Hintergrundgrafiken
 
@@ -123,34 +123,34 @@ Verfahren verwendet wurde (nicht `display:none`).
 
 ===== Grundeinstellung in Firefox
 
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen und im Menü _Extras > Einstellungen > Allgemein >
-Schriftarten & Farben_ wählen.
-Im Bereich "Text und Hintergrund" als Hintergrundfarbe eine Farbe wählen, die
-normalerweise eher selten für die Seitengestaltung verwendet wird (gut
-geeignet sind zum Beispiel helle Rosa- oder Grüntöne).
-Im Select _Ausgewählte Farben anstatt Farben der Seite verwenden_ die Option
-_Immer_ wählen.
-Die Dialogfenster mit "OK" schließen.
+. http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen und im Menü _Extras > Einstellungen > Allgemein >
+  Schriftarten & Farben_ wählen.
+. Im Bereich "Text und Hintergrund" als Hintergrundfarbe eine Farbe wählen, die
+  normalerweise eher selten für die Seitengestaltung verwendet wird (gut
+  geeignet sind zum Beispiel helle Rosa- oder Grüntöne).
+. Im Select _Ausgewählte Farben anstatt Farben der Seite verwenden_ die Option
+  _Immer_ wählen.
+. Die Dialogfenster mit "OK" schließen.
 
 ===== Prüfung
 
-Seite in
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Prüfen, ob informative Grafiken oder Bilder verschwinden.
-Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
-Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind:
-Prüfen, ob das Hintergrundbild einen tatsächlich im HTML-Dokument
-vorhandenen Text ersetzt.
-Falls nicht, ist dies wie ein fehlendes ``alt``-Attribut zu werten.
-Falls Texte durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren
-für die Bildersetzung verwendet wurde.
-Wenn `display:none` verwendet wird, ist
-dies wie ein fehlendes ``alt``-Attribut zu werten.
-Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der
-Text eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe
-<<2.6 Angemessene Alternativtexte>>).
+. Seite in
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Prüfen, ob informative Grafiken oder Bilder verschwinden.
+  Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
+. Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind:
+  Prüfen, ob das Hintergrundbild einen tatsächlich im HTML-Dokument
+  vorhandenen Text ersetzt.
+  Falls nicht, ist dies wie ein fehlendes ``alt``-Attribut zu werten.
+. Falls Texte durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren
+  für die Bildersetzung verwendet wurde.
+  Wenn `display:none` verwendet wird, ist
+  dies wie ein fehlendes ``alt``-Attribut zu werten.
+. Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der
+  Text eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe
+  <<2.6 Angemessene Alternativtexte>>).
 
 ==== 2.4 Textalternativen für Icon Fonts:
 
@@ -167,45 +167,48 @@ Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
 
 ===== Prüfung
 
-Seite in
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
-CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
-Inhalt (Font Icons) eingebunden wird.
-Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt
-wird (z. B. ``aria-hidden="true"``).
-Für informationstragende Icons prüfen, ob eine HTML-Textalternative vorhanden
-ist, die per CSS unsichtbar gemacht wird.
-Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
-sind: Prüfen, welches Verfahren verwendet wurde, um diese zu verstecken.
-Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder
-leeres ``alt``-Attribut zu werten.
-Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
-äquivalente Textalternative für das Icon darstellt (siehe
-<<2.6 Angemessene Alternativtexte>>).
-Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
-über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
-Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
-ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
-``aria-hidden="true"``).
+. Seite in
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
+  CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
+  Inhalt (Font Icons) eingebunden wird.
+. Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt
+  wird (z. B. ``aria-hidden="true"``).
+. Für informationstragende Icons prüfen, ob eine HTML-Textalternative vorhanden
+  ist, die per CSS unsichtbar gemacht wird.
+. Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
+  sind: Prüfen, welches Verfahren verwendet wurde, um diese zu verstecken.
+  Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder
+  leeres ``alt``-Attribut zu werten.
+. Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
+  äquivalente Textalternative für das Icon darstellt (siehe
+  <<2.6 Angemessene Alternativtexte>>).
+. Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
+  über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
+. Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
+  ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
+  ``aria-hidden="true"``).
 
 ==== 2.5 Textalternativen für Inline SVGs
 
 ===== Prüfung
 
-Seite in
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein
-direkt in HTML eingebundene SVG handelt (Inline SVG).
-Prüfen, ob ein ``title``-Element (bei längeren Beschreibungen ein
-``desc-``Element) vorhanden ist und die dort hinterlegte Textalternative das
-Bild in angemessener Weise ersetzt (siehe
-<<2.6 Angemessene Alternativtexte>>). Das `title-` bzw. ``desc-``Element sollte
-das erste Kindelement des Elternelements sein.
-Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
-unterstützt werden, prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet ist:
+. Seite in
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um eine
+  direkt in HTML eingebundene SVG handelt (Inline SVG).
+. Prüfen, ob ein ``title``-Element (bei längeren Beschreibungen ein
+  ``desc-``Element) vorhanden ist und die dort hinterlegte Textalternative das
+  Bild in angemessener Weise ersetzt (siehe
+  <<2.6 Angemessene Alternativtexte>>).
+  Das `title-` bzw. ``desc-``Element sollte
+  das erste Kindelement des Elternelements sein.
+. Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
+  unterstützt werden, prüfen, ob die Zugänglichkeit über WAI ARIA
+  gewährleistet ist:
++
 * SVG-Grafiken sollten `role="img"` tragen, sonst wird ggf. ihr
   ``title``-Element nicht ausgegeben.
 * Wird das SVG ``title``-Element als zugänglicher Name genutzt, sollte das
