@@ -12,9 +12,10 @@ bereitgestellt werden.
 Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden.
 Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
 verstehen, worum es geht.
-Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt
-werden.
-Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werden.
+Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig
+gesprochen wird und Inhalte über das Bild vermittelt werden.
+Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
+Passagen beschrieben werden.
 Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 
 == Wie wird geprüft?
@@ -44,14 +45,14 @@ endif::env_embedded[]
   sind.
 * Gebärdensprachvideos brauchen keine Audiodeskription.
 
-=== 2. Audiodeskription prüfen
+=== 2. Prüfung
 
-Es wird eine Sicht- und Hörprüfung vorgenommen.
+Es wird eine Sicht- und Hörprüfung vorgenommen:
 
-Art der Einbindung feststellen.
-Die Audiodeskription kann auf verschiedenem Wege
-angeboten werden:
-
+. Art der Einbindung feststellen.
+  Die Audiodeskription kann auf verschiedenem Wege
+  angeboten werden:
++
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
 * Eine weitere Version des Videos mit Audiodeskription wird angeboten.
   Diese Version wird geprüft.
@@ -61,21 +62,21 @@ angeboten werden:
 * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
   Diese Spur wird zusätzlich geschaltet.
 
-Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-vom Format abhängigen Video-Player abgespielt.
-
-Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
-Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+  vom Format abhängigen Video-Player abgespielt.
+. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
+  Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 === 3. Bewertung
 
 ==== Nicht voll erfüllt
 
-Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder nicht vollständig.
+* Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder
+  nicht vollständig.
 
 ==== Nicht erfüllt
 
-Das informationstragende, visuelle Video hat keine Audiodeskription.
+* Das informationstragende, visuelle Video hat keine Audiodeskription.
 
 == Einordnung des Prüfschritts
 
@@ -87,7 +88,8 @@ ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Vid
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
-endif::env_embedded[] bewertet.
+endif::env_embedded[]
+bewertet.
 Braucht ein Video eine Audiodeskription und sind weder eine Audiodeskription
 noch eine Volltextalternative vorhanden, sind sowohl dieser Prüfschritt als auch
 Prüfschritt
@@ -95,7 +97,8 @@ ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Vid
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
-endif::env_embedded[] nicht bzw. nicht voll erfüllt.
+endif::env_embedded[]
+nicht bzw. nicht voll erfüllt.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
