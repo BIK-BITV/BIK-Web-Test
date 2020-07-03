@@ -29,19 +29,20 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[] geprüft.
+endif::env_embedded[]
+  geprüft.
 
 === 2. Prüfung auf Untertitel
 
-Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-vom Format abhängigen Video-Player abgespielt.
-Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
-oder zugeschaltet werden können.
-Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
-Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
-dem hörbaren Inhalt entsprechen.
-Dies betrifft auch akustische Ereignisse, die für das Verständnis des
-Inhalts wichtig sind.
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+  vom Format abhängigen Video-Player abgespielt.
+. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
+  oder zugeschaltet werden können.
+. Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
+  Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
+  dem hörbaren Inhalt entsprechen.
+  Dies betrifft auch akustische Ereignisse, die für das Verständnis des
+  Inhalts wichtig sind.
 
 === 3. Bewertung
 
@@ -67,7 +68,8 @@ ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
   <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
   Videos mit Untertiteln>>
-endif::env_embedded[] geprüft.
+endif::env_embedded[]
+  geprüft.
 
 ==== Stumme Videodateien
 
@@ -82,7 +84,8 @@ ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[] geprüft.
+endif::env_embedded[]
+  geprüft.
 
 ==== Alternativtexte für Objekte
 
@@ -92,7 +95,8 @@ ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[] geprüft.
+endif::env_embedded[]
+  geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
