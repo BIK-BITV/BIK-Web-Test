@@ -39,25 +39,25 @@ Das ist bei informationsorientierten Seiten in der Regel der Fall.
 
 === 2. Prüfung
 
-Seite im
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-Über die
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile
-deaktivieren > Alle Stile deaktivieren_ wählen), dann das
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
-Bookmarklet "Inhalte gegliedert"] aufrufen.
-Alternativ das
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[
-HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
-Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, mittels
-der HTML-Strukturelemente `h1` bis `h6` als Überschriften ausgezeichnet
-sind.
-Die Hierarchie der eingesetzten HTML-Überschriftselemente soll der
-Gliederung der Inhalte entsprechen.
-Prüfen, ob HTML-Strukturelemente `h1` bis `h6` lediglich zur Erzeugung
-unterschiedlicher Schriftgrößen eingesetzt werden.
+. Seite im
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Über die
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile
+  deaktivieren > Alle Stile deaktivieren_ wählen), dann das
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
+  Bookmarklet "Inhalte gegliedert"] aufrufen.
+  Alternativ das
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[
+  HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
+. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, mittels
+  der HTML-Strukturelemente `h1` bis `h6` als Überschriften ausgezeichnet
+  sind.
+  Die Hierarchie der eingesetzten HTML-Überschriftselemente soll der
+  Gliederung der Inhalte entsprechen.
+. Prüfen, ob HTML-Strukturelemente `h1` bis `h6` lediglich zur Erzeugung
+  unterschiedlicher Schriftgrößen eingesetzt werden.
 
 === 3. Hinweise
 
@@ -65,7 +65,8 @@ unterschiedlicher Schriftgrößen eingesetzt werden.
   der Überschriften den jeweiligen Inhalten angemessen sind.
 * Überschriften sollten korrekt geschachtelt sein (`h1` gefolgt von `h2`
   gefolgt von `h3`, und so weiter), um die Gliederung der Text-Inhalte abzubilden.
-  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies
+  durch die Gliederung der Inhalte gerechtfertigt ist.
 * Die erste Regel für den Einsatz von WAI-ARIA besagt, man soll wenn möglich
   native HTML-Elemente einsetzen.
   Siehe
