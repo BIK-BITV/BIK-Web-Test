@@ -47,13 +47,13 @@ endif::env_embedded[]
 
 === 2. Prüfung
 
-==== 2.1. Audiodeskription prüfen
+==== 2.1 Audiodeskription prüfen
 
-Es wird eine Sicht- und Hörprüfung vorgenommen.
+Es wird eine Sicht- und Hörprüfung vorgenommen:
 
-Art der Einbindung feststellen.
-Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
-
+. Art der Einbindung feststellen.
+  Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
++
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
 * Eine weitere Version des Videos mit Audiodeskription wird angeboten.
   Diese Version wird geprüft.
@@ -63,33 +63,31 @@ Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
   Diese Spur wird zusätzlich geschaltet.
 
-Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
 vom Format abhängigen Video-Player abgespielt.
+. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
+  Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
-Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
-Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+==== 2.2 Volltextalternative prüfen
 
-==== 2.2. Volltextalternative prüfen
+Es wird eine Sicht- und Hörprüfung vorgenommen:
 
-Es wird eine Sicht- und Hörprüfung vorgenommen.
-
-Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-vom Format abhängigen Video-Player abgespielt.
-
-Volltextalternative prüfen.
-Sie sollte folgende Informationen enthalten:
-
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+  vom Format abhängigen Video-Player abgespielt.
+. Volltextalternative prüfen, diese sollte folgende Informationen enthalten:
++
 * Eine fortlaufende Beschreibung des Geschehens
 * Alle visuellen Information, eingeschlossen Beschreibungen des visuellen
   Kontexts, Aktionen und der Ausdruck der Schauspieler.
 * Geräusche (Gelächter, off-Screen-Stimmen etc.)
 * Transkriptionen aller Dialoge
++
+Hinweis: Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video
+entsprechen.
 
-Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
-
-Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
-Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
-vorsehen, um dieselbe Funktionalität zu gewährleisten.
+. Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
+  Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
+  vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
 === 3. Bewertung
 
