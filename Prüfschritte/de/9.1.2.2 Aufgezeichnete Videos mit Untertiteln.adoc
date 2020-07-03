@@ -24,45 +24,48 @@ Personen, die mit der Sprache des Films nicht vertraut sind.
   Bild- und Tonspur vorhanden sind.
 * Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der
   Prüfschritt ist für sie nicht anwendbar.
-Alternativen für Videos ohne Tonspur werden in Prüfschritt
+  Alternativen für Videos ohne Tonspur werden in Prüfschritt
 ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[] geprüft.
+endif::env_embedded[]
+  geprüft.
 
-=== 2. Prüfung auf Untertitel
+=== 2. Prüfung
 
-Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-vom Format abhängigen Video-Player abgespielt.
-Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
-oder zugeschaltet werden können.
-Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
-Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
-dem hörbaren Inhalt entsprechen.
-Dies betrifft auch akustische Ereignisse, die für das Verständnis des
-Inhalts wichtig sind.
+==== 2.1 Prüfung auf Untertitel
 
-=== 3. Prüfung von Videos als Medienalternative
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
+  vom Format abhängigen Video-Player abgespielt.
+. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
+  oder zugeschaltet werden können.
+. Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
+  Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
+  dem hörbaren Inhalt entsprechen.
+  Dies betrifft auch akustische Ereignisse, die für das Verständnis des
+  Inhalts wichtig sind.
 
-Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende
-Medienalternative zu einem Text angeboten wird.
+==== 2.2 Prüfung von Videos als Medienalternative
 
-Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige
-Textversion verweist und diese entweder in unmittelbarer Nachbarschaft
-verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
-Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton
-transportiert Wenn das Video wichtige über den Textinhalt hinausgehende
-Informationen trägt, ist das Video keine Medienalternative, es braucht
-Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch
-Prüfschritt
+. Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende
+  Medienalternative zu einem Text angeboten wird.
+. Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige
+  Textversion verweist und diese entweder in unmittelbarer Nachbarschaft
+  verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
+. Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton
+  transportiert.
+  . Wenn das Video wichtige über den Textinhalt hinausgehende
+  Informationen trägt, ist das Video keine Medienalternative, es braucht
+  Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch
+  Prüfschritt
 ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos").]
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>).
 endif::env_embedded[]
 
-=== 4. Bewertung
+=== 3. Bewertung
 
 ==== Erfüllt
 
