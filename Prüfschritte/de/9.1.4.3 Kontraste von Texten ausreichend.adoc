@@ -6,9 +6,6 @@ include::include/attributes.adoc[]
 
 Alle Texte der Seite sollen ausreichende Helligkeitskontraste haben.
 Sie sollen auch für farbfehlsichtige Benutzer wahrnehmbar sein.
-Bei Seiten, die eine ausreichend kontrastreiche Version über einen
-Styleswitcher anbieten, wird auch geprüft, ob der Ausgangszustand
-Mindestanforderungen an Schriftkontraste erfüllt.
 
 == Warum wird das geprüft?
 
