@@ -70,7 +70,6 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 . Überprüfen, ob sich die Größe von allen Schriften ändert.
 . Wenn sich die Größe von einigen Schriften nicht ändert: Überprüfen, ob diese
   Schriften sehr groß sind.
-+
   Sie sind sehr groß, wenn sie mindestens genauso groß
   sind, wie die größte der auf _Sehr groß_ skalierten relativ definierten
   Schriften.
