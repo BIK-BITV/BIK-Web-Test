@@ -80,16 +80,6 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
   Sie sollen vollständig dargestellt werden, ohne dass es zu Überlappungen
   kommt oder dass Textteile abgeschnitten werden.
   Die Zeilenhöhe soll sich der Schriftgröße anpassen.
-. Prüfen, ob Fließtexte ohne zeilenweises waagerechtes Scrollen gelesen werden
-  können.
-  Das bloße Vorhandensein des Querscrollbalkens wird nicht negativ bewertet.
-  Vielmehr kommt es darauf an, dass alle Fließtexte ohne dauerndes waagerechtes
-  Scrollen gelesen werden können.
-  Der waagerechte Scrollbalken wird dafür so eingestellt, dass der Inhalt der
-  breitesten Spalte im Fenster angezeigt wird.
-  Kann der Fließtext in dieser Ausrichtung gelesen werden, ohne bei jeder
-einzelnen Zeile den waagerechten Scrollbalken nach links und rechts zu
-  verschieben?
 . Die Seite im
   http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#ie[
   Internet Explorer] aufrufen.
