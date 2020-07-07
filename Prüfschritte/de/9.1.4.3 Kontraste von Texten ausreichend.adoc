@@ -13,7 +13,7 @@ Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben
 sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren oder
 von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
 
-Die Ausgabe einer kontrastreicheren Seite durch einen Styleswitcher darf nicht
+Die Ausgabe einer kontrastreicheren Seite durch einen Styleswitcher sollte nicht
 dazu führen, dass die Standardseite sich nicht mehr um nutzbare Kontraste
 kümmert.
 Denn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr,
