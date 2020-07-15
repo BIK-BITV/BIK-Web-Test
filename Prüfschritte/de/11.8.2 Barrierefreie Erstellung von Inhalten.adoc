@@ -31,8 +31,6 @@ Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test
 
 === Prüfung
 
-Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können Sie auf GitHub {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
-
 Auf der Seite wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine Ausgabe generiert (und ggf. freigegeben).
 Die Ansicht der Seite, in der die Ausgabe angezeigt wird, muss dann bei der Prüfung berücksichtigt werden.
 Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiele:
@@ -42,6 +40,8 @@ Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiel
 *  Im Autorenwerkzeug festgelegte Absätze sollten in der Ausgabe mit Absatz-Markup ausgezeichnet sein (nicht div)
 *  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
 *  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bide zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
+
+Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben Sie auf GitHub {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 ==== Hinweise
 
