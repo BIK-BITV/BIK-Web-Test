@@ -41,34 +41,26 @@ Dies könnte z. B. die Umwandlung eines HTML-Dokuments zum PDF sein.
 
 === Prüfung
 
-Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
-Sie auf Git.
-Hub
-{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+Für die Prüfung muss ein Beispieldokument im Eingangsformat vorgehalten werden.
+Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
 
-Für die Prüfung muss ein Beispieldokument im Eingangsformat vorgehalten
-werden.
-Z. B. bei der Rekodierungstransformation von HTML nach PDF, eine HTML-Datei.
+Anschließend wird die Eingangsdatei in der App geöffnet und in das Zielformat bzw. in eine andere Struktur umgewandelt.
 
-Anschließend wird die Eingangsdatei in der App geöffnet und in das
-Zielformat bzw. in eine andere Struktur umgewandelt.
-
-Zum Schluss muss die Zieldatei überprüft werden, je nach Dokumententyp sind
-dies sehr individuelle Schritte.
-Hier können nur Beispiele genannt werden, z. B. die Transformation eines HTML-
-zum PDF-Dokument:
+Im Anschluss muss die Zieldatei überprüft werden. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments zum PDF-Dokument:
 
 * Sind alle Überschriften aus der Quelle übernommen worden?
-* Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten
+* Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten?
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
-* ...
 
 Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für
 die Transformation unterstützt, wiederholt werden.
 
 Auch wenn die Web-App lediglich die Struktur des Eingangsdokuments verändert,
-muss sichergestellt werden, dass die Ausgangsdatei noch alle, für die
-Barrierefreiheit relevanten, Informationen enthält.
+muss sichergestellt werden, dass die Ausgangsdatei noch alle für die
+Barrierefreiheit relevanten Informationen enthält.
+
+Wenn Sie Hinweise zur Verbesserung der Prüfanleitung haben, können Sie auf GitHub
+{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 == Quellen
 
