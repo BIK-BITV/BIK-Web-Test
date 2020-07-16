@@ -11,32 +11,37 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Web-App ein Autorenwerkzeug ist und Funktionen zur Erkennung von
-Barrierefreiheitsproblemen in Dokumenten, die das Werkzeug unterstützt,
-anbietet, soll die Web-App Vorschläge zur Reparatur dieser Probleme machen.
+Wenn die Seite Teil eines Autorenwerkzeugs ist und Funktionen zur Erkennung von
+Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten bietet, soll sie Vorschläge zur Behebung dieser Fehler machen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
-Probleme in Bezug auf Barrierefreiheit in den Dokumenten, welche die Web-App
-erstellen kann, detektieren kann.
+Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist oder eine Autorfunktion enthält (etwa eine Kommentarfunktion), und
+Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten aufzeigen kann (z.B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Altenrativtext").
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
-Hub können Sie
-{web-issue-url}[dazu ein Issue eröffnen].
+.  Auf der Seite Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z. B.:
+   *  Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen
+   *  Bilder einfügen, ohne einen Alternativtext festzulegen
+   *  Falls Listenauszeichnung angeboten wird, Listen nur mittels Spiegelstrichen auszeichnen
+   *  In ein E-Mail-Adressen-Feld eine fehlerhaften Email-Adresse eingeben
 
-Wenn die Web-App Probleme im Bereich Barrierefreiheit in den Dokumenten
-erkennt und auflistet, sollen für die einzelnen Probleme Hinweise für die
-Reparatur gegeben werden.
+.  Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet
+.  Falls eine Fehlerprüfung stattfindet (z.B. wenn das Sichern oder Abschicken nicht möglich 
+   ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), 
+   prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden
 
-Der Begriff "Dokumente" wird dabei weit gefasst und umfasst Web- und
+=== Hinweise
+Der Begriff "Dokumente" wird in deiser Anforderung weit gefasst und umfasst Web- und
 Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
 EN 301 549.
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+{web-issue-url}[dazu ein Issue eröffnen].
 
 == Quellen
 
