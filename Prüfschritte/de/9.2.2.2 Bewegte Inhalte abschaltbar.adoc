@@ -52,7 +52,7 @@ sie häufig nicht.
 
 Der Prüfschritt ist immer anwendbar, wenn bewegte Inhalte gleichzeitig mit
 anderen nicht bewegten Inhalten dargestellt werden (etwa die Navigation oder
-statische Inhalte).
+statische Inhalte). Nich anwendbar ist der Prüfschritt auf essenziell wichtige Aktualisierungen von Inhalten, zum Beispiel, wenn die verbleibende Zeit einer Session heruntergezählt wird oder Die Höhe eines Auktionsgebots dynamisch aktualisiert wird.
 
 === 2. Prüfung
 
