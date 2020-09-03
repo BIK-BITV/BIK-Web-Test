@@ -19,29 +19,29 @@ Nutzer dabei unterstützen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist.
-Der Dokumententyp, den die Web-App erstellt, muss grundsätzlich für die
-Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
-anwendbar.
-Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
-lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
-Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem
-App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die
-Barrierefreiheit der durch das Tool generierten Dateien geprüft werden
-müsste.
+Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen wie Content Management Systemen anwendbar,  Ergebnis eines Autorenwerkzeugs ist, etwa eines Content Management Systems. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben, etwa die Vergabe einer Kommentareüberschrift oder Funktionen zur Binnenauszeichnung des Kommentars, wie etwa Listen oder Texthervorhebungen.
+
+Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+
+Der Dokumenttyp, den das Autorenwerkzeug erstellt, muss für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar. Dies ist für Web Content Managment Systeme und Kommentarfunktionen grundsätzlich gegeben. 
+
+Die Ausgabe des Autorenwerkzeugs muss innerhalb einer Webumgebung dargestellt werden. Es können lediglich Autorenwerkzeuge geprüft werden, die eine HTML-Ausgabe generieren, die auch für die Überprüfung verfügbar ist, etwa in einer Vorschau. 
+Zudem können in das Frontend integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden, deren Output entweder unmittelbar oder nach Freigabe überprüft werden kann.
+Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test derzeit nicht geprüft werden, da in diesem Verfahren die Barrierefreiheit der durch das Tool generierten Dateien nicht überprüft werden kann.
 
 === Prüfung
 
-Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
-Sie auf Git.
-Hub
-{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+Auf der Seite wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine Ausgabe generiert (und ggf. freigegeben).
+Die Ansicht der Seite, in der die Ausgabe angezeigt wird, muss dann bei der Prüfung berücksichtigt werden.
+Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiele:
 
-In der Web-App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
-Ausgabe generiert.
-Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
-Prüfung berücksichtigt werden.
-Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
+*  Im Autorenwerkzeug festgelegte Überschriften sollen in der Ausgabe mit Überschriften-Markup ausgezeichnet sein (also nicht über Fettung oder CSS Styles)
+*  Im Autorenwerkzeug angelegte Listen sollen in der Ausgabe mit Listen-Markup ausgezeichnet sein (also nicht Pseudo-Listen über vorangestellte Spiegelstriche)
+*  Im Autorenwerkzeug festgelegte Absätze sollten in der Ausgabe mit Absatz-Markup ausgezeichnet sein (nicht div)
+*  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
+*  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bide zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
+
+Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
 ==== Hinweise
 
