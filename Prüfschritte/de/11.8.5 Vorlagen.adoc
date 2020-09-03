@@ -11,44 +11,30 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Web-App ein Autorenwerkzeug ist und Vorlagen für die Dokumente, die
-es erstellt, anbietet, soll mindestens eines der Vorlagen die Kriterien
-für Web- oder Nicht-Web-Dokumente erfüllen (je nach Dokumententyp).
-Die entsprechenden Kriterien sind in der EN 301 549 im Kapitel 9 und 10 zu
-finden.
+Wenn die Seite Teil eines Autorenwerkzeugs ist und Vorlagen bzw. Eingabemasken für die Dokumente, die
+es erstellt, anbietet, soll mindestens eine der angebotenen Vorlagen die Erstellung barrierefreier Web- oder Nicht-Web-Dokumente ermöglichen (je nach Dokumententyp).
 
-Die für die Barrierefreiheit optimierten Vorlagen sollen dabei eindeutig als
-solche zu identifizieren sein.
+Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte Vorlagen sollen eindeutig als solche zu identifizieren sein.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
-Vorlagen für die Dokumente, die es erstellt, anbietet.
-Das App-Test-Verfahren prüft jedoch keine Dokumente.
-Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden,
-dessen Ausgabe in der gleichen App stattfindet (z. B. Kommentarfunktion in
-einer Social-Media-App).
-Für komplexere Werkzeuge, dessen Ausgaben nicht nur in der App selbst
-stattfinden, muss ein extra Auftrag erteilt werden, da hier die Ausgabe-Dateien
-bzw -Formate auf Barrierefreiheit geprüft werden müssen.
+Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist und
+Vorlagen (z. B. Eingabemasken) für die Dokumente, die es erstellt, anbietet.
+Im BITV-Test können lediglich webbasierte Autorenwerkzeuge getestet werden, die eine Ausgabe im Web-Format erzeugen (z. B. ein Content Management System, dessen Web-Output sich mit dem BITV-Test überprüfen lässt).
+Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, sondern z. B. ein PDF erzeugen, ist dieser Prüfschritt nur in Kombination mit einer zusätzlichen Prüfung der Nicht-Web-Ausgabe in einem anderen Verfahren anwendbar.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
-Hub können Sie
+. Autorenwerkzeug öffnen
+. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen für die Erstellung von Inhalten anbietet
+. Prüfen, ob bei Vorhandensein alternativer Vorlagen, welche die Erstellung barrierefreier Inhalte unterstützen, diese deutlich als solche markiert sind. (Wenn es nur eine Vorlage gibt, muss diese nicht extra als barrierefreiheits-unterstützend markiert sein).
+. Testausgaben mit der barrierefreiheits-unterstützenden Vorlage erstellen, ansonsten die Standardvorlage nutzen
+. Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen)
+  
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 {web-issue-url}[dazu ein Issue eröffnen].
-
-. App öffnen
-. prüfen, ob die App Vorlagen anbietet
-. prüfen, ob unter den Vorlagen, optimierte Vorlagen für die Barrierefreiheit,
-  vorhanden sind, diese müssen deutlich identifizierbar sein
-. Testausgaben möglichst mit den vorhandenen
-  Barrierefreiheits-Optimierten-Vorlagen erstellen, ansonsten
-  Standardvorlage nutzen
-. Testausgaben auf Barrierefreiheit prüfen (sämtliche anwendbaren
-  Prüfschritte auf Ansicht mit der Ausgabe)
 
 == Quellen
 
