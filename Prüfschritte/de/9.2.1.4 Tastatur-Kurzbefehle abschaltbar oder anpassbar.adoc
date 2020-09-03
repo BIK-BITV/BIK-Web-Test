@@ -47,9 +47,9 @@ Auswahllisten-Element bzw. `select`Hier dient z. B. das Drücken einer
 Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
 Über das Anzeigen von Seitenskripten und das Suchen nach typischen
-Tastatur-Event-Handlern wie ``document.add.
-EventListener`` oder das Vorhandensein
-des `.keycode` Attributs lässt sich ggfdas Vorhandensein von Skripten
+Tastatur-Event-Handlern wie ``document.addEventListener`` 
+oder das Vorhandensein
+der `.keycode`-Eigenschaft lässt sich ggf. das Vorhandensein von Skripten
 überprüfen, welche auf Tasteneingaben reagieren, bei denen nicht
 Modifikator-Tasten wie ALT oder STR gleichzeitig gedrückt werden.
 Da es mehrere Möglichkeiten gibt, Tastatur-Events zu implementieren, ist
