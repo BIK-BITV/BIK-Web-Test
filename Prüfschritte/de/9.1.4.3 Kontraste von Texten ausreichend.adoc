@@ -91,14 +91,7 @@ Textkontraste der alternativen Ansicht prüfen (wie in
   Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
   Für die Bewertung entscheidend ist der jeweils *schlechtere*
   Helligkeitskontrast.
-* Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden
-  Zuständen verhältnismäßig einfach ist: die Hervorhebung des Maus- und
-  Tastaturfokus.
-  Hier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im
-  Fokus) der Helligkeitskontrast besser ist.
-  Dieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den
-  allgemeinen Grenzwert von 4,5:1 erfüllen.
-  Das Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
+* Auch für den fokussierten Zustand von Text wird ein Kontrast von 4,5:1 oder mehr verlangt.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit
   einer Webseite erleichtern.
   Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber
