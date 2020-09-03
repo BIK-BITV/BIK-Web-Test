@@ -91,7 +91,7 @@ Textkontraste der alternativen Ansicht prüfen (wie in
   Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
   Für die Bewertung entscheidend ist der jeweils *schlechtere*
   Helligkeitskontrast.
-* Auch für den fokussierten Zustand von Text wird ein Kontrast von 4,5:1 oder mehr verlangt.
+* Auch für den fokussierten Zustand von Links oder anderen textbasieren Bedienelementen wird ein Kontrast von 4,5:1 oder mehr verlangt.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit
   einer Webseite erleichtern.
   Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber
