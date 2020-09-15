@@ -10,15 +10,14 @@ In dieser Tabelle wird auf Abschnitt 12.2.4 "Accessible documentation" verwiesen
 
 == Was wird geprüft?
 
-Wenn durch technischen Support Dokumentation geboten wird, soll diese
+Wenn durch technischen Support eines Angebots Dokumentation angeboten wird, soll diese
 mindestens in einem der folgenden Formate barrierefrei bereitgestellt
 werden:
 
 * Ein Web-Dokument, das die Kriterien der EN 301 549 Kapitel 9 erfüllt
-* Nicht-Web-Dokument (z.B. ein PDF), dass Kriterien der EN 301 549 Kapitel 10 erfüllt
+* Nicht-Web-Dokument (z.B. ein PDF oder eine Word-Datei), dass Kriterien der EN 301 549 Kapitel 10 erfüllt
 
-Weitere ggf. nicht barrierefreie Versionen der Dokumentation werden nicht
-bewertet.
+Weitere ggf. nicht barrierefreie Versionen der Dokumentation werden nicht bewertet.
 
 == Wie wird geprüft?
 
