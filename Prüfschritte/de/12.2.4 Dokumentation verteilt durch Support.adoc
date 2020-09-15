@@ -34,7 +34,6 @@ Beispiele wären:
 * Der Anbieter eines web-basierten Drucker-Management-Systems schickt auf Anfrage ein PDF-Handbuch mit einer vollständige Liste der verfügbaren Touch-Displays eines Druckers mit Dokumentation aller angebotenen Funktionen (dieses Handbuch wäre nicht im Test zu prüfen, der Auftraggeber wird darauf hingewiesen, hier ggf. einen Zusatzauftrag für eine PDF-Prüfung zu erteilen)
 
 Wenn zusätzliche technische Dokumentation im HTML-Format bereitgestellt wird, wird diese in der Seitenauswahl des Tests berücksichtigt und mitgetestet.
-Für Hinweise zu diesem Prüfschritt können Sie auf GitHub {web-issue-url}[ein Issue eröffnen].
 
 ==== Hinweise
 
