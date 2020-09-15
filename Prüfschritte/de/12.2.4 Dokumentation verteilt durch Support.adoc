@@ -1,4 +1,4 @@
-= Prüfschritt 12.2.4 Dokumentation verteilt durch Support
+= Prüfschritt 12.2.4 Bereitgestellte Dokumentation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -6,49 +6,43 @@ include::include/attributes.adoc[]
 
 Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
 V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.2.4 "Accessible documentation" verwiesen.
+In dieser Tabelle wird auf Abschnitt 12.2.4 "Accessible documentation" verwiesen.
 
 == Was wird geprüft?
 
-Die Dokumentation, *die durch den (technischen) Support* verteilt wird, soll
-mindestens in eines der folgenden Formate barrierefrei zur Verfügung gestellt
+Wenn durch technischen Support Dokumentation geboten wird, soll diese
+mindestens in einem der folgenden Formate barrierefrei bereitgestellt
 werden:
 
-* Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
-* Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
+* Ein Web-Dokument, das die Kriterien der EN 301 549 Kapitel 9 erfüllt
+* Nicht-Web-Dokument (z.B. ein PDF), dass Kriterien der EN 301 549 Kapitel 10 erfüllt
 
-Weitere, ggf. nicht barrierefreie Versionen der Dokumentation, werden nicht
+Weitere ggf. nicht barrierefreie Versionen der Dokumentation werden nicht
 bewertet.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
-Im BIK BITV-Test können lediglich Dokumente auf basis von Web-Technologien
-getestet werden.
-Für andere Formate muss ein extra Auftrag erstellt werden.
+Der Prüfschritt ist anwendbar, wenn Support Services technische Dokumentation zur Nutzung des Angebots bereitstellen, etwa HTML-basierte Hilfe-Systeme, PDF-Handbücher, oder Anleitungen.
+Im BIK BITV-Test können lediglich Dokumente auf Basis von Web-Technologien getestet werden. Falls von Support Services webbasierte Dokumentation bereitgestellt wird, sollte dies vorab mit dem Anbieter geklärt werden, damit diese Dokumentation bereits bei der Seitenauswahl berücksichtigt werden kann. Für andere Formate (etwa PDF) muss ggf. ein getrennter Prüfauftrag erteilt werden, da sich diese Formate im BITV-Test nicht prüfen lassen.
 
 === Prüfung
 
-Wie dieser Prüfschritt in der Praxis berücksichtigt werdenkann, ist noch
-nicht vollständig geklärt.
-Für Hinweise zu diesem Prüfschritt können Sie auf Git.
-Hub
-{web-issue-url}[ein Issue eröffnen].
+Gibt es ein Support-Dienstleistung, die technische Dokumentation zur Nutzung bzw. zum Verständnis der angebotenen Funtionen bereitstellt?
+Beispiele wären:
+* Ein Datenbank-Anbieter schickt auf Anfrage den Link zu einer HTML-Anwendung mit einer Erklärung der angebotenen Such- und Filter-Funktionen
+* Ein Dokumenten-Management-System schickt auf Anfrage eine HTML-Referenzseite zu unterstützten Tastaturbefehlen
+* Der Anbieter eines web-basierten Drucker-Management-Systems schickt auf Anfrage ein PDF-Handbuch mit einer vollständige Liste der verfügbaren Touch-Displays eines Druckers mit Dokumentation aller angebotenen Funktionen (dieses Handbuch wäre nicht im Test zu prüfen, der Auftraggeber wird darauf hingewiesen, hier ggf. einen Zusatzauftrag für eine PDF-Prüfung zu erteilen)
+
+Wenn zusätzliche technische Dokumentation im HTML-Format bereitgestellt wird, wird diese in der Seitenauswahl des Tests berücksichtigt und mitgetestet.
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub {web-issue-url}[ein Issue eröffnen].
 
 ==== Hinweise
 
-Dokumentation bezieht sich in diesem Prüfschritt auf alle, *durch den Support*,
-für den Nutzer zur Verfügung gestellten Dokumente.
-Dies sind also Dokumente, die dem (technischen) Support vorliegen und auf
-Anfrage bzw. zur Problemlösung, dem Nutzer bereitgestellt werden.
+Dokumentation bezieht sich in diesem Prüfschritt auf alle Dokumente die dem Nutzer auf Anfrage *durch den Support* zur Verfügung gestellt werden.
 
-Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
-anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B.
-Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
-für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
 == Quellen
 
