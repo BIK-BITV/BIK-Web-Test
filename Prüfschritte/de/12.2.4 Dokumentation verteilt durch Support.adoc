@@ -1,4 +1,4 @@
-= Prüfschritt 12.2.4 Bereitgestellte Dokumentation
+= Prüfschritt 12.2.4 Vom Support bereitgestellte Dokumentation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
