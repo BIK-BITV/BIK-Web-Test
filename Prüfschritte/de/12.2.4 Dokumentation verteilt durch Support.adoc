@@ -26,8 +26,9 @@ Im BIK BITV-Test können lediglich Dokumente auf Basis von Web-Technologien gete
 
 === Prüfung
 
-Gibt es ein Support-Dienstleistung, die technische Dokumentation zur Nutzung bzw. zum Verständnis der angebotenen Funtionen bereitstellt?
+Gibt es eine Support-Dienstleistung, die technische Dokumentation zur Nutzung bzw. zum Verständnis der angebotenen Funtionen bereitstellt?
 Beispiele wären:
+
 * Ein Datenbank-Anbieter schickt auf Anfrage den Link zu einer HTML-Anwendung mit einer Erklärung der angebotenen Such- und Filter-Funktionen
 * Ein Dokumenten-Management-System schickt auf Anfrage eine HTML-Referenzseite zu unterstützten Tastaturbefehlen
 * Der Anbieter eines web-basierten Drucker-Management-Systems schickt auf Anfrage ein PDF-Handbuch mit einer vollständige Liste der verfügbaren Touch-Displays eines Druckers mit Dokumentation aller angebotenen Funktionen (dieses Handbuch wäre nicht im Test zu prüfen, der Auftraggeber wird darauf hingewiesen, hier ggf. einen Zusatzauftrag für eine PDF-Prüfung zu erteilen)
