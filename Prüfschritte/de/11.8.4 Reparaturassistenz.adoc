@@ -26,7 +26,6 @@ Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten aufzeigen ka
 .  Auf der Seite Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z. B.:
    *  Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen
    *  Bilder einfügen, ohne einen Alternativtext festzulegen
-   *  Falls Listenauszeichnung angeboten wird, Listen nur mittels Spiegelstrichen auszeichnen
    *  In ein E-Mail-Adressen-Feld eine fehlerhaften Email-Adresse eingeben
 
 .  Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet
@@ -41,7 +40,7 @@ Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
 EN 301 549.
 
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-{web-issue-url}[dazu ein Issue eröffnen].
+{https://github.com/BIK-BITV/BIK-Web-Test/issues}[dazu ein Issue eröffnen].
 
 == Quellen
 
