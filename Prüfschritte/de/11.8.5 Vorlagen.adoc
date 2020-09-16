@@ -34,7 +34,7 @@ Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, sondern z. B. ein PDF
 . Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen)
   
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-{web-issue-url}[dazu ein Issue eröffnen].
+https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
 == Quellen
 

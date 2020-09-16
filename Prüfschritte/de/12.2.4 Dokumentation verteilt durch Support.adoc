@@ -34,9 +34,8 @@ Für andere Formate muss ein extra Auftrag erstellt werden.
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werdenkann, ist noch
 nicht vollständig geklärt.
-Für Hinweise zu diesem Prüfschritt können Sie auf Git.
-Hub
-{web-issue-url}[ein Issue eröffnen].
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 ==== Hinweise
 

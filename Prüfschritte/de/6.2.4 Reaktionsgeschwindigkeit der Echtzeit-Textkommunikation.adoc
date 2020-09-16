@@ -33,7 +33,7 @@ der Praxis.
 Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
 von der App abgeschickt werden.
 Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
-können Sie auf GitHub {web-issue-url}[ein Issue eröffnen].
+können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation
 zwischen zwei Geräten hergestellt wird.

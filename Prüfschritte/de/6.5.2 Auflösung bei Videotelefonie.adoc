@@ -31,7 +31,7 @@ Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
 * App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
 * Testübertragung: Scheint die Angabe in der App-Dokumentation plausibel?
 
-Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne {web-issue-url}[ein
+Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein
 Issue auf GitHub].
 
 == Quellen

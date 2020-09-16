@@ -26,8 +26,7 @@ Der Prüfschritt ist immer anwendbar.
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
 nicht vollständig geklärt.
-Auf Git.
-Hub können Sie {web-issue-url}[Hinweise zu diesem Prüfschritt
+Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt
 hinterlassen].
 
 Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene

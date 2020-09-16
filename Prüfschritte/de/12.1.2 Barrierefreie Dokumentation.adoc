@@ -32,9 +32,8 @@ zu erteilen.
 
 === Prüfung
 
-Für weitere Hinweise zu diesem Prüfschritt können Sie auf Git.
-Hub
-{web-issue-url}[ein Issue eröffnen].
+Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 Im BIK BITV-Test können derzeit nur Dokumentationen auf Basis von
 Web-Technologien geprüft werden. Für andere Formate muss ein extra Auftrag

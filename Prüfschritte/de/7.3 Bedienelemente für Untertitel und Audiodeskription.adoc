@@ -28,7 +28,7 @@ Wiedergabe von Video-Inhalten mit Ton gedacht ist.
 === Prüfung
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-{web-issue-url}[ein Issue anlegen].
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 . App öffnen
 . Video aufrufen

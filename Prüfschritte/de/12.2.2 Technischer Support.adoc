@@ -34,8 +34,7 @@ Der Prüfschritt ist immer anwendbar.
 
 Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
 vollständig geklärt.
-Hinweise dazu können Sie in einem Git.
-Hub {web-issue-url}[Issue hinterlassen].
+Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
 
 Zielführend könnte es bspw. sein, anhand der Informationen aus der
 Web-App-Dokumentation, den technischen Support zu kontaktieren und einige

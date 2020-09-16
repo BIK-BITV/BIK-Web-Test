@@ -36,7 +36,7 @@ teilweise eingebettete Untertitel (closed captions) enthalten.
 Wie dies jedoch sinnvoll geprüft werden kann, ist derzeit unklar.
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-{web-issue-url}[ein Issue eröffnen].
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 ==== Prüfung mit externen Videos
 

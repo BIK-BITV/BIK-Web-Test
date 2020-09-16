@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
 
 Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
 nicht geklärt.
-Hinweise dazu können Sie in einem {web-issue-url}[Issue auf GitHub, mit Bezug
+Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug
 zu diesem Prüfschritt, hinterlassen].
 
 In der Praxis sollten Web-Apps, bei der die Untertitel ohne merkliche

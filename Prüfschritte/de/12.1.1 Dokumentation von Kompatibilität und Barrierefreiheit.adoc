@@ -29,9 +29,8 @@ werden.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf Git.
-Hub können Sie
-{web-issue-url}[dazu ein Issue eröffnen].
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
 Alle für die Barrierefreiheit relevanten Informationen zur Web-App sollen
 in der Dokumentation aufgelistet und erklärt werden.

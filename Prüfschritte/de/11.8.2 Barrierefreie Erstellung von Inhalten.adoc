@@ -41,7 +41,7 @@ Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiel
 *  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
 *  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bide zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
 
-Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub {web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
 ==== Hinweise
 

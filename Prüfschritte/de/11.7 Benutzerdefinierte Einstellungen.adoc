@@ -33,7 +33,7 @@ Der Prüfschritt ist immer anwendbar.
 === Prüfung
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
-{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen], um bei der
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der
 Entwicklung der Prüfung mitzuwirken.
 
 ==== Hinweise

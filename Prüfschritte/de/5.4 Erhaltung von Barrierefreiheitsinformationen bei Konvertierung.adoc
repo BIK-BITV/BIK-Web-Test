@@ -46,7 +46,7 @@ berücksichtigt werden.
 Beispiele und weitere Hinweise sollen zukünftig zu diesem Prüfschritt
 ergänzt werden.
 
-Für Hinweise zur Prüfpraxis, eröffnen Sie gerne {web-issue-url}[ein Issue
+Für Hinweise zur Prüfpraxis, eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue
 auf GitHub].
 
 == Quellen

@@ -60,7 +60,7 @@ muss sichergestellt werden, dass die Ausgangsdatei noch alle für die
 Barrierefreiheit relevanten Informationen enthält.
 
 Wenn Sie Hinweise zur Verbesserung der Prüfanleitung haben, können Sie auf GitHub
-{web-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
 == Quellen
 
