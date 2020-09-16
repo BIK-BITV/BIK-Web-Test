@@ -39,8 +39,8 @@ Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
 EN 301 549.
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-{https://github.com/BIK-BITV/BIK-Web-Test/issues}[dazu ein Issue eröffnen].
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie ein Iassue anlegen
+https://github.com/BIK-BITV/BIK-Web-Test/issues
 
 == Quellen
 
