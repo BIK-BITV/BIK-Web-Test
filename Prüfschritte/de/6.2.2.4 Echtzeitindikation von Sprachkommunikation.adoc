@@ -1,0 +1,63 @@
+= Prüfschritt 6.2.2.4 Echtzeitindikation von Sprachkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
+V3.1.1.
+In dieser Tabelle wird auf Abschnitt
+6.2.2 "Display of RTT" verwiesen.
+
+== Was wird geprüft?
+
+Wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur
+Echtzeit-Textkommunikation bietet, soll die Sprachkommunikation in
+Echtzeit visualisiert werden.
+Der Indikator soll dabei programmatisch ermittelbar sein, sodass auch
+taubblinde Menschen z. B. über eine Braillezeile über die laufende
+Audiokommunikation informiert werden.
+Es wird dabei lediglich signalisiert, dass Kommunikation stattfindet, die
+Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation
+unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
+
+=== Prüfung
+
+. Web-App öffnen
+. prüfen, ob die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur
+  Echtzeit-Textkommunikation bietet
+. eine Verbindung mit einem weiteren Gerät über die App herstellen
+. prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B.
+  blinkendes Icon
+. falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die
+  Signalisierung programmatisch ermittelbar ist und auf der Braillezeile
+  platzsparend über blinkende Braillemodule o. ä. dargestellt wird
+
+  == Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.2.4 Visual indicator of Audio with RTT
+
+[.BLOCK_LANG_EN]
+--
+Where ICT provides two-way voice communication, and has RTT capabilities, the
+ICT shall provide a real-time visual 
+indicator of audio activity on the display.
+NOTE 1:
+The visual indicator may be a simple character position on the display that
+flickers on and off to reflect audio activity, or presentation of the
+information in another way that can be both visible to sighted users and
+passed on to deaf-blind users who are using a braille display.
+
+NOTE 2:
+Without this indication a person who lacks the ability to hear does not know
+when someone is talking.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.4 "Visual indicator of Audio with RTT")
