@@ -12,31 +12,39 @@ In dieser Tabelle wird auf Abschnitt
 == Was wird geprüft?
 
 Wenn die Seite Teil eines Autorenwerkzeugs ist und Funktionen zur Erkennung von
-Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten bietet, soll sie Vorschläge zur Behebung dieser Fehler machen.
+Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten bietet, soll sie
+Vorschläge zur Behebung dieser Fehler machen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist oder eine Autorfunktion enthält (etwa eine Kommentarfunktion), und
-Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten aufzeigen kann (z.B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Altenrativtext").
+Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist
+oder eine Autorfunktion enthält (etwa eine Kommentarfunktion), und
+Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten aufzeigen
+kann (z. B. "Bitte vergeben Sie eine Überschrift" oder
+"Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen
+passenden Alternativtext").
 
 === Prüfung
 
-.  Auf der Seite Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z. B.:
-   *  Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen
-   *  Bilder einfügen, ohne einen Alternativtext festzulegen
-   *  Falls Listenauszeichnung angeboten wird, Listen nur mittels Spiegelstrichen auszeichnen
-   *  In ein E-Mail-Adressen-Feld eine fehlerhaften Email-Adresse eingeben
+. Auf der Seite Inhalte erstellen und dabei vorhandene
+  Auszeichnungsmöglichkeiten *nicht* nutzen, z. B.:
+   * Vorhandene Felder für Überschriften leer lassen,
+     Überschriftenauszeichung von Text-Editoren nicht nutzen
+   * Bilder einfügen, ohne einen Alternativtext festzulegen
+   * In ein E-Mail-Adressen-Feld eine fehlerhafte E-Mail-Adresse eingeben
 
-.  Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet
-.  Falls eine Fehlerprüfung stattfindet (z.B. wenn das Sichern oder Abschicken nicht möglich 
-   ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), 
-   prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden
+. Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf
+  Fehler stattfindet
+. Falls eine Fehlerprüfung stattfindet (z. B. wenn das Sichern oder Abschicken
+  nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch
+  hervorgehoben werden),
+  prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden
 
 === Hinweise
-Der Begriff "Dokumente" wird in deiser Anforderung weit gefasst und umfasst Web- und
-Nicht-Web-Dokumente.
+Der Begriff "Dokumente" wird in dieser Anforderung weit gefasst und umfasst Web-
+und Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
 EN 301 549.
 
