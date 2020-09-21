@@ -20,18 +20,28 @@ jeweiligen Sende- oder Empfangsrichtung.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App eine Funktion zur Echtzeit
-Textkommunikation bietet.
+Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
+senden und empfangen kann.
 
 === Prüfung
 
-Dieser Prüfschritt kann derzeit nur mittels Blackbox-Test unter Verwendung
-eines Screenreaders getestet werden.
-Die Web-App-Ansicht mit der Echtzeit-Textkommunikation muss sehr genau mit dem
+Die Web-App-Ansicht mit der Echtzeit-Textkommunikation sollte zusätzlich zur
+Quelltext-Analyse mit dem
 Screenreader geprüft werden, um zu beurteilen, ob die notwendigen
-Informationen an den Screenreader gesendet werden und dieser die Richtung der
-einzelnen Textnachrichten ansagen kann bzw. diese aus der Ausgabe deutlich
-hervorgeht.
+Informationen korrekt an den Screenreader gesendet werden und dieser die
+Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der
+Ausgabe deutlich hervorgeht.
+
+==== Prüfung im Quelltext
+
+. Web-App öffnen
+. Prüfen, ob die Web-App das Senden und Empfangen von Echtzeit
+  Textkommunikation anbietet
+. Prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch
+  voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext der
+  jeweilige Verfasser mit Uhrzeit genannt werden.
+
+==== Zusätzliche Prüfung mittels Screenreader
 
 . Screenreader starten
 . die zu prüfende Web-App mit der Ansicht für die Echtzeit-Textkommunikation
