@@ -28,14 +28,20 @@ senden und empfangen kann.
 . prüfen, ob die Web-App das Senden und Empfangen von Echtzeit Textkommunikation
   anbietet
 . prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich
-  voneinander unterscheidbar sind und separat angezeigt werden
+  voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
++
+* Rahmen für Textnachricht (mit gutem Kontrast nach außen)
+* Positionierung der eigenen Nachrichten rechtsbündig und der
+  Gesprächsteilnehmer linksbündig oder umgekehrt
+* Nennung des Namens vor Beginn der Nachricht
+* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen
+  durch unterschiedliche Farbgebung (mit gutem Kontrast)
 
 ==== Hinweise
 
 Wenn die Web-App verschiedene Optionen für die Anzeige der Nachrichten
 anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht
 schlecht bewertet werden.
-Voraussetzung dafür ist jedoch, dass die konforme Ansicht voreingestellt ist.
 
 Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
 der Nutzer erfüllen.
