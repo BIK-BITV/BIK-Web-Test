@@ -39,11 +39,19 @@ verfügbar sein.
 
 Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
 
-* Features für die Barrierefreiheit
-* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102
+* Einzelheiten zu Features für die Barrierefreiheit
+** Vorlesefunktion
+** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
+   Maus-/Tastaturfokus
+** Vergrößerungsfunktion
+** Anpassung von Textabständen
+** Deaktivierung von Bewegungen oder automatischen Audios
+** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
 * Informationen zur Kompatibilität mit assistiven Technologien
-* Einschränkungen der Barrierefreiheit
-* Auflistung von Barrieren
+* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Verzeichnisse für Abkürzungen
+* Verweise zuHilfeseiten
 
 Die Web-App soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
