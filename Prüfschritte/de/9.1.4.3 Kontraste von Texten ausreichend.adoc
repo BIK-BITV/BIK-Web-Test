@@ -36,62 +36,48 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 
 ===== Sichtprüfung
 
-Sind die Schriftkontraste stark genug?
-Im Zweifel den
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[
-Contrast Analyzer] öffnen.
-Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
-In der
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-Web Developer Toolbar] die Funktion
-_Informationen > Elementinformationen einblenden_ aktivieren.
-Text, der überprüft werden soll, anklicken.
-Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
-jeweilige Schriftgröße in Pixeln angegeben.
-Mit Hilfe des Contrast Analyzers im Bereich _Vordergrund_ mit der Pipette die
-Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
-Hintergrundfarbe.
-Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
-fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
-liegt.
-Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
-liegt.
-Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
-Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
-Standardfließtext mindestens 3:1 beträgt.
+. Sind die Schriftkontraste stark genug?
+  Im Zweifel den
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[
+  Contrast Analyzer] öffnen.
+. Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
+. In der
+  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] die Funktion
+  _Informationen > Elementinformationen einblenden_ aktivieren.
+  Text, der überprüft werden soll, anklicken.
+. Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
+  jeweilige Schriftgröße in Pixeln angegeben.
+. Mit Hilfe des Contrast Analyzers im Bereich _Vordergrund_ mit der Pipette die
+  Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
+  Hintergrundfarbe.
+. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
+  fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
+  liegt.
+. Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
+  liegt.
 
 ==== 2.2 Styleswitcher-Prüfung, Prüfung der Textkontraste der alternativen Ansicht
 
 Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
 Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 
-Textkontrast des Styleswitcher-Schaltelements prüfen.
-Das Kontrastverhältnis muss 4,5:1 oder besser sein, und auch die anderen
-Anforderungen (zum Beispiel tastaturbedienbar, ohne Stylesheets nutzbar)
-müssen erfüllt sein.
-Sonst abbrechen.
-Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
-Textkontraste der alternativen Ansicht prüfen (wie in
-<<2.1 Prüfung der Textkontraste der Standardversion>>).
+. Textkontrast des Styleswitcher-Schaltelements prüfen.
+  Das Kontrastverhältnis muss 4,5:1 oder besser sein, und auch die anderen
+  Anforderungen (zum Beispiel tastaturbedienbar, ohne Stylesheets nutzbar)
+  müssen erfüllt sein.
+  Sonst abbrechen.
+. Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
+. Textkontraste der alternativen Ansicht prüfen (wie in
+  <<2.1 Prüfung der Textkontraste der Standardversion>>).
 
 === 3. Hinweise
 
 ==== 3.1 Allgemeine Hinweise
 
 * Elemente, die unterschiedliche Zustände haben können, sollten immer
-  ausreichend kontrastieren.
-  Also zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte
-  Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
-  Für die Bewertung entscheidend ist der jeweils *schlechtere*
-  Helligkeitskontrast.
-* Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden
-  Zuständen verhältnismäßig einfach ist: die Hervorhebung des Maus- und
-  Tastaturfokus.
-  Hier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im
-  Fokus) der Helligkeitskontrast besser ist.
-  Dieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den
-  allgemeinen Grenzwert von 4,5:1 erfüllen.
-  Das Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
+  ausreichend kontrastieren. Also zum Beispiel: auch die Hervorhebung des Maus- und 
+  Tastaturfokus muss den allgemeinen Grenzwert von 4,5:1 (bei großen Schriften 3,0:1) erfüllen.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit
   einer Webseite erleichtern.
   Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber
@@ -102,7 +88,7 @@ Textkontraste der alternativen Ansicht prüfen (wie in
   deaktivierter Bedienelemente in der Regel nicht anwendbar
 * Bei Bereichen, die mit Farbwechseln auf den Mauszeiger reagieren, kann ein
   Screenshot helfen, den Farbwert im "Ruhezustand" zu ermitteln.
-Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
+  Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
   den Kontrast mit der Pipette des Contrast Analyzers messen.
 * Wenn Kontraste dünner Schriften zu prüfen sind, gegebenenfalls Schrift
   vergrößern und die Schriftenglättung ausschalten.
