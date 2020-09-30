@@ -29,8 +29,8 @@ hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht gep
 
 === 1. Anwendbarkeit des Prüfschritts
 
-*	Der Prüfschritt ist anwendbar, wenn aufgezeichnete Videos mit synchroner 
-  Bild- und Tonspur vorhanden sind.
+*	Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
+  der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt.
 *	Aufgezeichnete Videos ohne Tonspur, stumme Videos, brauchen keine Untertitelung, 
   der Prüfschritt ist für sie nicht anwendbar.
 
