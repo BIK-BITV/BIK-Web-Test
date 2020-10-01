@@ -53,7 +53,7 @@ benutzt werden sollten.
 
 === 2. Prüfung
 
-Für jedes Bedienelement, das sich selbst beschriftet oder durch eine einfachen
+Für jedes Bedienelement, das sich selbst beschriftet oder durch einen einfachen
 zugeordneten Text beschriftet ist, prüfen, ob der Text in der gleichen Form im
 zugänglichen Namen des Bedienelements vorkommt.
 
