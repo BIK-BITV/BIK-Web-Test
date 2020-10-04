@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Verschiedenen Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können
+Verschiedene Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können
 von Nutzern assistiver Technologien übersprungen werden.
 Der Seitenaufbau soll unabhängig von der Darstellung deutlich werden.
 Eine der folgenden Voraussetzungen soll erfüllt sein:
@@ -42,7 +42,7 @@ Dabei wird das ``title``-Attribut vorrangig ausgegeben.
 Sie sprechen beim Umschalten zwischen den Frames mit den Tastenkürzeln den
 Titel des aktiven Frames aus.
 
-Der Einsatz von HTML5 Elementen für Regionen wird inzwischen gut von
+Der Einsatz von HTML5-Elementen für Regionen wird inzwischen gut von
 assistiven Technologien unterstützt.
 Die zusätzliche Berücksichtigung eines role-Attributs
 (WAI ARIA document landmarks) kann die Unterstützung von
@@ -187,7 +187,7 @@ Bei solchen Frames sollte als Bezeichnung "Leer" gewählt werden.
 * Bereichsüberschriften oder Sprunglinks sind mittels `display:none` versteckt
 * Der Seitenpfad (Breadcrumb) ist als Liste ausgezeichnet, hat aber keinen
   vorangestellten Hinweis (z. B. Überschrift)
-* Mehre wichtige Navigationsbereiche sind mit WAI-ARIA document landmarks oder
+* Mehrere wichtige Navigationsbereiche sind mit WAI-ARIA document landmarks oder
   HTML5-Elementen für Bereiche ausgezeichnet und sind nicht mit aria-label
   oder aria-labelledby unterschieden.
 
