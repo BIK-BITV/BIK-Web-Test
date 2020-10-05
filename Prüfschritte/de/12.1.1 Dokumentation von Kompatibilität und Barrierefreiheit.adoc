@@ -38,8 +38,8 @@ Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen
 in der Dokumentation aufgelistet und erklärt werden.
 Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden
 oder separat verfügbar sein.
-Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen
-oder Wikis.
+Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen,
+Wikis oder der Erklärung zur Barrierefreiheit.
 
 Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern
 relevant:
