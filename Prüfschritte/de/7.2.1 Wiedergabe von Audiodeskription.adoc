@@ -70,7 +70,7 @@ Audiodeskription vorhanden ist. Es geht also um die inhaltliche Beurteilung.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
 
-* In der Tabelle A1 wird auf 7.1.2 "Audio Description Playback“ verwiesen.
+* In der Tabelle A1 wird auf 7.2.1 "Audio Description Playback“ verwiesen.
 
 == Quellen
 
