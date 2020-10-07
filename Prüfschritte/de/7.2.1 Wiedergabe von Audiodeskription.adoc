@@ -31,7 +31,7 @@ eine Audiodeskription benötigen.
 
 === 2. Prüfung
 
-. Das Video wird im auf der Website eingebundenen Player abspielen.
+. Das Video wird im auf der Website eingebundenen Player abgespielt.
 . Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten 
   von Audiodeskription ermöglicht.
 . Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, 
