@@ -11,8 +11,8 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Die Dokumentation der Web-App soll die Eigenschaften und Funktionen in  Bezug
-auf Barrierefreiheit auflisten undessen Nutzung erklären.
+Die Dokumentation der Webseite / Web-App soll die Eigenschaften und Funktionen
+in Bezug auf Barrierefreiheit auflisten undessen Nutzung erklären.
 Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
 == Wie wird geprüft?
@@ -20,32 +20,46 @@ Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 === Anwendbarkeit des Prüfschritts
 
 Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
-mit Barrierefreiheit und Kompatibilität beschäftigt, in die App integriert
+mit Barrierefreiheit und Kompatibilität beschäftigt, auf der Webseite, auf
+HTML-Basis, integriert
 ist.
-Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
-kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden.
+Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird
+und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses
+Prüfverfahrens mitgetestet werden.
 Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
 werden.
 
 === Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
-Alle für die Barrierefreiheit relevanten Informationen zur Web-App sollen
+Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen
 in der Dokumentation aufgelistet und erklärt werden.
-Die Dokumentation kann dabei mit der Web-App mitgeliefert werden oder separat
-verfügbar sein.
+Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden
+oder separat verfügbar sein.
+Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen,
+Wikis oder der Erklärung zur Barrierefreiheit.
 
-Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
+Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern
+relevant:
 
-* Features für die Barrierefreiheit
-* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
+* Einzelheiten zu Features für die Barrierefreiheit (auf der Webseite 
+  integriert)
+** Vorlesefunktion
+** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
+   Maus-/Tastaturfokus
+** Vergrößerungsfunktion
+** Anpassung von Textabständen
+** Deaktivierung von Bewegungen oder automatischen Audios
+** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
+** ...
 * Informationen zur Kompatibilität mit assistiven Technologien
-* Einschränkungen der Barrierefreiheit
-* Auflistung von Barrieren
+* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Verzeichnisse für Abkürzungen
 
-Die Web-App soll, wenn möglich, Metadaten für die unterstützten
+Die Webseite soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
 Formaten, bereitstellen.
 
