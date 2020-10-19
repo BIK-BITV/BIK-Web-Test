@@ -44,7 +44,7 @@ http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#f
 Firefox] aufrufen und in der
 http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
 Web Developer Toolbar] _CSS > Disable All Styles_ wählen.
-Bleibt die logische Reihenfolge von sichbaren Seiten-Inhalten nach dem
+Bleibt die logische Reihenfolge von sichtbaren Seiten-Inhalten nach dem
 Abschalten von CSS erhalten?
 CSS wieder einschalten.
 Die Reihenfolge der Inhalte mit dem Screenreader NVDA im
