@@ -4,10 +4,8 @@ include::include/attributes.adoc[]
 
 == Grundlage des Prüfschritts
 
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.5.4 "Synchronization between audio and video" verwiesen.
+Der Abschnitt 6.5.4 der EN 301 549 wird in Tabelle A.1 *nicht* verwiesen und ist
+daher derzeit für Webseiten nicht anwendbar.
 
 == Was wird geprüft?
 
@@ -18,8 +16,10 @@ Audio und Video nicht mehr als 100 Millisekunden betragen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie inkl.
-Sprachübertragung unterstützt.
+Siehe <<Grundlage des Prüfschritts>>.
+
+// Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie inkl.
+// Sprachübertragung unterstützt.
 
 === Prüfung
 

@@ -4,10 +4,8 @@ include::include/attributes.adoc[]
 
 == Grundlage des Prüfschritts
 
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.4 "Alternatives to voice-based services" verwiesen.
+Der Abschnitt 6.4 der EN 301 549 wird in Tabelle A.1 *nicht* verwiesen und ist
+daher derzeit für Webseiten nicht anwendbar.
 
 == Was wird geprüft?
 
@@ -21,15 +19,17 @@ Fähigkeiten des Nutzers bereitgestellt werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit-Sprachkommunikation
-und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
-Menüführung, einsetzt, dann sollen etwaige Aufgaben auch ohne hören und sprechen
-lösbar sein bzw. sollen gebotene Informationen auch ohne diese
-Fähigkeiten des Nutzers bereitgestellt werden.
+Siehe <<Grundlage des Prüfschritts>>.
 
-Ein Beispiel für einen solchen Dienst ist z. B. das Video-Ident-Verfahren.
-Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt.
-Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
+// Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit-Sprachkommunikation
+// und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
+// Menüführung, einsetzt, dann sollen etwaige Aufgaben auch ohne hören und sprechen
+// lösbar sein bzw. sollen gebotene Informationen auch ohne diese
+// Fähigkeiten des Nutzers bereitgestellt werden.
+
+// Ein Beispiel für einen solchen Dienst ist z. B. das Video-Ident-Verfahren.
+// Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt.
+// Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
 
 === Prüfung
 
