@@ -32,7 +32,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 ==== 2.1 Prüfung der Zoomvergrößerung über Browser-Einstellungen
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Falls nötig unter _Ansicht > Zoom_ die Option _Nur Text zoomen_ deaktivieren.
 . Mithilfe der
@@ -57,7 +57,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 ==== 2.2 Prüfung der Schriftvergrößerung über Browser-Einstellungen
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Mithilfe der
   http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[

@@ -40,7 +40,7 @@ Das ist bei informationsorientierten Seiten in der Regel der Fall.
 === 2. Prüfung
 
 . Seite im
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Über die
   http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[

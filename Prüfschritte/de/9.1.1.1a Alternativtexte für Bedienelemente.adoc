@@ -89,7 +89,7 @@ verwendet wurde (nicht ``display:none``).
 
 ===== Grundeinstellung in Firefox
 
-. http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._
   aufrufenDen Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die
   Option _Farben..._ wählen.
@@ -103,7 +103,7 @@ verwendet wurde (nicht ``display:none``).
 ===== Prüfung
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Prüfen, ob grafische Bedienelemente verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
@@ -141,7 +141,7 @@ bereitgestellt wird.
 ===== Prüfung
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Bedienelemente feststellen.
 . Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
@@ -170,7 +170,7 @@ bereitgestellt wird.
 ===== Prüfung
 
 . Seite im
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Bedienelemente feststellen.
 . Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein

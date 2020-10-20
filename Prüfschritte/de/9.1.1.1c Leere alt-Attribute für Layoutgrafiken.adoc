@@ -78,7 +78,7 @@ einem geeigneten Verfahren vor diesen versteckt wird (z. B.
 ===== Prüfung
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die
   Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen
@@ -92,7 +92,7 @@ einem geeigneten Verfahren vor diesen versteckt wird (z. B.
 ===== Prüfung
 
 . Seite in
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Mit Firebug prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt
   (Inline SVG).

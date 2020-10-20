@@ -26,7 +26,7 @@ Der Prüfschritt ist immer anwendbar.
 === 2. Prüfung
 
 . Die Seite im
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . In der
   http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[

@@ -40,7 +40,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Absätze gibt.
 ==== 2.1 Prüfung mit Bookmarklet
 
 Seite in
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
 Firefox] aufrufen.
 Das Bookmarklet
 http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[

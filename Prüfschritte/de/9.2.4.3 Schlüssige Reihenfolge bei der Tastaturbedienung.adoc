@@ -66,7 +66,7 @@ Inhalte hinzufügen, die nicht schon in der Ansicht ohne CSS auf der frisch
 geladenen Seite sichtbar sind):
 
 . Seite im
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
 . Voreinstellung im Firefox: Im Menü _Extras > Einstellungen_ wählen.
   Den Bereich "Erweitert" auswählen, im linken Reiter "Allgemein" im Bereich
