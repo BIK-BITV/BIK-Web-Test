@@ -27,8 +27,7 @@ oder andere größere Abschnitte in einer anderen Sprache enthält.
 . Das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
   Lang bookmarklet] aufrufen.
-. Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind
-  (siehe <<3.Hinweise>>).
+. Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind. Ausnahmen gelten für Eigennamen, Fachbegriffe und unklare Sprache (siehe <<3.Hinweise>>).
 
 === 3.Hinweise
 
@@ -50,7 +49,7 @@ oder andere größere Abschnitte in einer anderen Sprache enthält.
   Dies ist jedoch nicht durchgängig der Fall, auch geläufige Fremdwörter
   werden ohne Auszeichnung falsch ausgesprochen.
   Daher macht ihre Auszeichnung Sinn, auch wenn sie nicht gefordert wird.
-  Beispiele für geläufige Fremdwörter, die ausgezeichnet werden können:
+  Beispiele für geläufige Fremdwörter, die ausgezeichnet werden können, aber nicht müssen:
   Copyright, Website, Site, Homepage.
 
 === 4. Bewertung
