@@ -68,9 +68,7 @@ geladenen Seite sichtbar sind):
 . Seite im
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] aufrufen.
-. Voreinstellung im Firefox: Im Menü _Extras > Einstellungen_ wählen.
-  Den Bereich "Erweitert" auswählen, im linken Reiter "Allgemein" im Bereich
-  "Eingabehilfen" die Option "Markieren von Text mit der Tastatur zulassen"
+. Voreinstellung im Firefox: Im Browser-Menü _Einstellungen_ wählen. Dort im Bereich "Surfen" die Option "Markieren von Text mit der Tastatur zulassen"
   auswählen.
   Hierdurch wird die Cursor-Position als blinkende Einfügemarke angezeigt.
   Dies entspricht in der Regel dem Screenreader-Fokus.
