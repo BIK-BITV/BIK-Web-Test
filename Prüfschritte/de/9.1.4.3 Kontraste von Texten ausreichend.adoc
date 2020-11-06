@@ -63,9 +63,6 @@ fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
 liegt.
 Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
 liegt.
-Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
-Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
-Standardfließtext mindestens 3:1 beträgt.
 
 ==== 2.2 Styleswitcher-Prüfung, Prüfung der Textkontraste der alternativen Ansicht
 
