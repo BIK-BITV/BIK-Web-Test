@@ -133,9 +133,7 @@ ausgezeichnet sind.
 Das ``summary``-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
 mehr erlaubt.
 Falls in HTML5-Dokumenten eine Beschreibung der Tabelle
-bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, wie
-z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure`
-und ``figcaption``.
+bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
 
 Die Mindestanforderung: Offenkundige, unverzichtbare und visuell
 hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis
