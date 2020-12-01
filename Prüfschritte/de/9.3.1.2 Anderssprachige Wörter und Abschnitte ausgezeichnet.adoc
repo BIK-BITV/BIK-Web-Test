@@ -27,7 +27,7 @@ oder andere größere Abschnitte in einer anderen Sprache enthält.
 . Das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
   Lang bookmarklet] aufrufen.
-. Prüfen, ob andersprachige Wörter und Abschnitte richtig ausgezeichnet sind. Ausnahmen gelten für Eigennamen, Fachbegriffe und unklare Sprache (siehe <<3.Hinweise>>).
+. Prüfen, ob anderssprachige Wörter und Abschnitte richtig ausgezeichnet sind. Ausnahmen gelten für Eigennamen, Fachbegriffe und unklare Sprache (siehe <<3.Hinweise>>).
 
 === 3.Hinweise
 
