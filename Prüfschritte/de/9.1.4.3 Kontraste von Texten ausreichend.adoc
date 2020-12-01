@@ -27,7 +27,7 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
 ===== Prüfung nicht festgelegter Farben
 
-Über das Bookmarklet
+* Über das Bookmarklet
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#vorderhintergrundfarbebm[
 "Vorder-und Hintergrundfarbe definiert"] oder ein User Stylesheet
 (``html {background-color:black;color:white}``) prüfen, ob für jedes
@@ -36,28 +36,27 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 
 ===== Sichtprüfung
 
-Sind die Schriftkontraste stark genug?
-Im Zweifel den
+* Sind die Schriftkontraste stark genug? 
+* Im Zweifel den
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
 Contrast Analyzer] öffnen.
-Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
-In der
+* Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
+* Falls unklar ist, ob für Schrift der Wert für große Schrift (3:1) oder für kleine Schrift (4,5:1) gilt: In der
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
 Web Developer Toolbar] die Funktion
-_Informationen > Elementinformationen einblenden_ aktivieren.
-Text, der überprüft werden soll, anklicken.
+_Informationen > Elementinformationen einblenden_ aktivieren. Text, der überprüft werden soll, anklicken.
 Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
 jeweilige Schriftgröße in Pixeln angegeben.
-Mit Hilfe des http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
+* Mit Hilfe des http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
 Contrast Analyzers] im Bereich _Vordergrund_ mit der Pipette die
 Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
 Hintergrundfarbe.
-Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
+* Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
 fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
 liegt.
-Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
+* Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
 liegt.
-Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
+* Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
 Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
 Standardfließtext mindestens 3:1 beträgt.
 
