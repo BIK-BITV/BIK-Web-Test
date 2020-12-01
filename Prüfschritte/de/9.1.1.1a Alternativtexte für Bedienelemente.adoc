@@ -111,7 +111,7 @@ verwendet wurde (nicht ``display:none``).
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
 . Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
   eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
-  HTML-Dokument vorhandenen Textlink ersetzt.
+  HTML-Dokument vorhandenen Textlink ersetzt oder ein aussagekräftiger Alternativtext auf andere Art hinterlegt ist (z.B. als ``aria-label`` oder ``title`` auf dem Link).
 . Wenn ein leeres ``a``-Element ohne
   eingeschlossenen Text durch ein Hintergrundbild ersetzt wird, ist dies wie ein
   nicht vorhandenes oder leeres ``alt``-Attribut zu werten.
