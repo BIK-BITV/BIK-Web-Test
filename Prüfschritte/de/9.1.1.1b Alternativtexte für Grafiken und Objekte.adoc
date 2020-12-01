@@ -79,19 +79,21 @@ vorhanden sind.
 
 ==== 2.1 Anzeige der Alternativtexte von Grafiken
 
-In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
+In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
 aufrufen und prüfen, ob das ``alt``-Attribut vorhanden ist und der dort
 hinterlegte Alternativtext das Bild in angemessener Weise ersetzt (siehe
 <<2.6 Angemessene Alternativtexte>>). 
 Alternativ kann auch das
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
 Images bookmarklet] eingesetzt werden.
 
 ==== 2.2 Anzeige der Alternativtexte von Objekten
 
 . Prüfen, ob die Seite Objekte enthält. 
   Dazu kann folgende Methode genutzt werden: 
-  In der Web Developer Toolbar _CSS > Disable All Styles_ und _Images >
+  In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] _CSS > Disable All Styles_ und _Images >
   Hide Images_ wählen.
 Werden jetzt noch Elemente angezeigt, bei denen es sich offensichtlich nicht um
   einfachen Text handelt? 
@@ -123,7 +125,7 @@ Verfahren verwendet wurde (nicht `display:none`).
 
 ===== Grundeinstellung in Firefox
 
-. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen und im Menü _Extras > Einstellungen > Allgemein >
   Schriftarten & Farben_ wählen.
 . Im Bereich "Text und Hintergrund" als Hintergrundfarbe eine Farbe wählen, die
@@ -136,7 +138,7 @@ Verfahren verwendet wurde (nicht `display:none`).
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Prüfen, ob informative Grafiken oder Bilder verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
@@ -168,9 +170,9 @@ Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
+. Mit den Web Developer Tools des Browsers prüfen, ob mit der
   CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
   Inhalt (Font Icons) eingebunden wird.
 . Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt
@@ -195,9 +197,9 @@ Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um eine
+. Mit den Web Developer Tools des Browsers prüfen, ob es sich um eine
   direkt in HTML eingebundene SVG handelt (Inline SVG).
 . Prüfen, ob ein ``title``-Element (bei längeren Beschreibungen ein
   ``desc-``Element) vorhanden ist und die dort hinterlegte Textalternative das
