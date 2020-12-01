@@ -123,13 +123,12 @@ benutzbar.
 
 ==== 2.3 Prüfung der Auszeichnung von Tabellen:
 
-Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+* Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] laden.
-Das
+* Das
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
-Tables bookmarklet] aufrufen.
-Tabellen-Auszeichnungen werden jetzt angezeigt.
-Prüfen, ob alle Spalten- und Zeilenüberschriften korrekt mit `th`
+Tables bookmarklet] aufrufen. Tabellen-Auszeichnungen werden jetzt angezeigt.
+* Prüfen, ob alle Spalten- und Zeilenüberschriften korrekt mit `th`
 ausgezeichnet sind.
 Das ``summary``-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
 mehr erlaubt.
