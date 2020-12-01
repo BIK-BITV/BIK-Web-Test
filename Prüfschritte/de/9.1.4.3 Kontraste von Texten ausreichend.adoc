@@ -28,7 +28,7 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 ===== Prüfung nicht festgelegter Farben
 
 Über das Bookmarklet
-https://testen.bitv-test.de/bookmarklets.html[
+http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#vorderhintergrundfarbebm[
 "Vorder-und Hintergrundfarbe definiert"] oder ein User Stylesheet
 (``html {background-color:black;color:white}``) prüfen, ob für jedes
 Element, für das eine Vordergrundfarbe festgelegt wurde, auch eine
@@ -38,17 +38,18 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 
 Sind die Schriftkontraste stark genug?
 Im Zweifel den
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#analyser[
+http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
 Contrast Analyzer] öffnen.
 Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
 In der
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
 Web Developer Toolbar] die Funktion
 _Informationen > Elementinformationen einblenden_ aktivieren.
 Text, der überprüft werden soll, anklicken.
 Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
 jeweilige Schriftgröße in Pixeln angegeben.
-Mit Hilfe des Contrast Analyzers im Bereich _Vordergrund_ mit der Pipette die
+Mit Hilfe des http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
+Contrast Analyzers] im Bereich _Vordergrund_ mit der Pipette die
 Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
 Hintergrundfarbe.
 Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
