@@ -39,18 +39,17 @@ eingefügt werden.
 
 ==== 2.1 Lesereihenfolge für Screenreader-Nutzer
 
-Seite im
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
-Firefox] aufrufen und in der
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+* Seite im
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+Firefox] aufrufen.
+* In der http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
 Web Developer Toolbar] _CSS > Disable All Styles_ wählen.
-Bleibt die logische Reihenfolge von sichtbaren Seiten-Inhalten nach dem
+* Bleibt die logische Reihenfolge von sichtbaren Seiten-Inhalten nach dem
 Abschalten von CSS erhalten?
-CSS wieder einschalten.
-Die Reihenfolge der Inhalte mit dem Screenreader NVDA im
+* CSS wieder einschalten.
+* Die Reihenfolge der Inhalte mit dem Screenreader NVDA im
 Lesemodus (Pfeiltaste nach unten) überprüfen.
-Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind?
-Werden visuell versteckte Inhalte
+* Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind? Werden visuell versteckte Inhalte
 vorgelesen?
 
 ==== 2.2 Prüfung der Linearisierbarkeit von Layouttabellen
