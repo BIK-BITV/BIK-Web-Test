@@ -37,7 +37,8 @@ Elemente enthält, die als Listen ausgezeichnet worden sind.
 === 2. Prüfung
 
 * Seite im Firefox aufrufen.
-* Lists Bookmarklet aufrufen.
+* https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#listsbm[
+  Lists Bookmarklet] aufrufen.
 Listenauszeichnungen, soweit vorhanden, werden nun dargestellt.
 * Prüfen, ob alle Listen inklusive der Menüs mit den vorgesehenen
   HTML-Strukturelementen für Listen ausgezeichnet sind (``ul``, ``ol``, ``dl``).
