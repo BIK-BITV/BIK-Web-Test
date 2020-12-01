@@ -53,10 +53,11 @@ Font Icons oder SVGs für Layoutzwecke verwendet werden.
 ==== 2.1 Leere ``alt``-Attribute für Layoutgrafiken
 
 . Die Seite im Firefox laden.
-. In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
+. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar]  das Menü _Images > Display Alt Attributes_
   aufrufen.
   Alternativ kann auch das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
   Images bookmarklet] eingesetzt werden.
 . Prüfen, ob Layoutgrafiken und dekorative Grafiken leere ``alt``-Attribute
   enthalten.
@@ -78,9 +79,9 @@ einem geeigneten Verfahren vor diesen versteckt wird (z. B.
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit Firebug prüfen, ob mit der CSS-Eigenschaft `content` für die
+. Mit den Web Developer Tools prüfen, ob mit der CSS-Eigenschaft `content` für die
   Pseudoelemente `:before` oder `:after` Inhalt (Font Icons) zu dekorativen
   Zwecken eingebunden wird.
 . Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
@@ -92,9 +93,9 @@ einem geeigneten Verfahren vor diesen versteckt wird (z. B.
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit Firebug prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt
+. Mit den Web Developer Tools prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt
   (Inline SVG).
 . Prüfen, ob die Grafik mit `aria-hidden="true"` versteckt wird.
 
