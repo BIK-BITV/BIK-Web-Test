@@ -61,10 +61,7 @@ unterstützte Alternative (etwa ``role="group"``) ausgezeichnet ist.
 
 ==== 2.3 Gliederung von Auswahllisten
 
-* Wenn Auswahllisten (`select`) voneinander abgesetzte Gruppen von Optionen
-  enthalten, sind diese mit `optgroup` ausgezeichnet (mit der Web Developer
-  Toolbar > Informationen > Elementinformationen einblenden > Kindelemente
-  überprüfen)
+Wenn Auswahllisten (`select`) voneinander abgesetzte Gruppen von Optionen enthalten, sind diese mit `optgroup` ausgezeichnet (mit der Web Developer Toolbar > Informationen > Elementinformationen einblenden > Kindelemente überprüfen)
 
 === 3. Hinweise
 
