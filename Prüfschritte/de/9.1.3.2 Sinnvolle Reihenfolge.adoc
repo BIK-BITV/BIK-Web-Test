@@ -58,10 +58,11 @@ vorgelesen?
 Wenn Tabellen für das Layout (die Anordnung von Elementen auf der Seite)
 eingesetzt werden, müssen sie linearisierbar sein.
 
-Seite im Firefox anzeigen.
-Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_
+* Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] anzeigen.
+* Mittels https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+Web Developer Toolbar] die Funktion _Miscellaneous > Linearize page_
 die Struktur der Seite und damit die der Layouttabelle linearisieren.
-Prüfen, ob die lineare Reihenfolge der angezeigten Inhalte sinnvoll ist.
+* Prüfen, ob die lineare Reihenfolge der angezeigten Inhalte sinnvoll ist.
 
 === 3. Hinweise
 
