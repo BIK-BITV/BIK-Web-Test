@@ -40,25 +40,14 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 * Im Zweifel den
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
 Contrast Analyzer] öffnen.
-* Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
+* Im Bereich _Vordergrund_ mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die Hintergrundfarbe.
 * Falls unklar ist, ob für Schrift der Wert für große Schrift (3:1) oder für kleine Schrift (4,5:1) gilt: In der
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-Web Developer Toolbar] die Funktion
-_Informationen > Elementinformationen einblenden_ aktivieren. Text, der überprüft werden soll, anklicken.
-Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
+Web Developer Toolbar] die Funktion _Informationen > Elementinformationen einblenden_ aktivieren. Text, der überprüft werden soll, anklicken. Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die
 jeweilige Schriftgröße in Pixeln angegeben.
-* Mit Hilfe des http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
-Contrast Analyzers] im Bereich _Vordergrund_ mit der Pipette die
-Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die
-Hintergrundfarbe.
-* Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei
-fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer
-liegt.
-* Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer
-liegt.
-* Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
-Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum
-Standardfließtext mindestens 3:1 beträgt.
+* Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
+* Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer liegt.
+* Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der Auszeichung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis zum Standardfließtext mindestens 3:1 beträgt.
 
 ==== 2.2 Styleswitcher-Prüfung, Prüfung der Textkontraste der alternativen Ansicht
 
