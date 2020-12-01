@@ -53,13 +53,12 @@ Bei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren"
 
 === 2. Prüfung
 
-Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+* Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] laden.
-Das
+* Das
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
-Tables bookmarklet] aufrufen.
-Tabellen-Auszeichnungen werden jetzt angezeigt.
-Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
+Tables bookmarklet] aufrufen. Tabellen-Auszeichnungen werden jetzt angezeigt.
+* Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
 ``scope``-Attribut definiert ist oder die einzelnen Zellen mithilfe von
 ``headers``- und ``id``-Attributen korrekt ihren Überschriften zugeordnet sind.
 
