@@ -298,7 +298,7 @@ dem er gehört.
 Erforderlich ist also die parallele oder wechselnde Darstellung von
 Grafik/Objekt und zugehörigem Alternativtext.
 
-Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden (siehe Prüfschritt 9.4.1.2 Namem, Rolle, Wert verfügbar).
+Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden (siehe Prüfschritt 9.4.1.2 Name, Rolle, Wert verfügbar).
 
 == Einordnung des Prüfschritts
 
