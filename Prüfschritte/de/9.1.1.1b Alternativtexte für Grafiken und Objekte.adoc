@@ -254,11 +254,9 @@ In der Regel bedeutet das:
   Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder
   Identifizierung bieten und, falls vorhanden, auf eine Medienalternative
   verweisen.
-+
   Zusätzlich ist es sinnvoll, dass ein Skript auswertet, ob das Objekt wegen
   deaktiviertem JavaScript und/oder deaktiviertem Plugin nicht angezeigt werden
   kann, und eine entsprechende Meldung generiert.
-+
   Wenn solche Meldungen erzeugt werden, müssen sie den tatsächlichen
   Browser-Einstellungen entsprechen.
   Wenn also etwa das Flash-Plugin ausgeschaltet ist, aber JavaScript an, 
