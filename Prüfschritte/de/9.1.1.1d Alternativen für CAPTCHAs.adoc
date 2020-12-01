@@ -35,11 +35,11 @@ Teil der Prüfung und wird nicht bewertet.
 
 ==== 2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
-. Die Seite im Firefox laden.
+. Die Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] laden.
 . In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
   aufrufen.
   Alternativ kann auch das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
   Images bookmarklet] eingesetzt werden.
 . Prüfen, ob beim CAPTCHA-Bild das ``alt``-Attribut vorhanden ist und der dort
   hinterlegte Alternativtext den Zweck des CAPTCHAs beschreibt (zum Beispiel:
