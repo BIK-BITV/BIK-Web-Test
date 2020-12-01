@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle Texte der Seite sollen ausreichende Helligkeitskontraste haben.
+Alle Texte der Seite sollen in allen Zuständen ausreichende Helligkeitskontraste haben.
 Sie sollen auch für farbfehlsichtige Benutzer wahrnehmbar sein.
 
 == Warum wird das geprüft?
