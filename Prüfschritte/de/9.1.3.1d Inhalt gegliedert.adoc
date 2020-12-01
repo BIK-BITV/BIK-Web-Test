@@ -43,7 +43,7 @@ Seite in
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
 Firefox] aufrufen.
 Das Bookmarklet
-http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
+http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
 Inhalte gegliedert] aufrufen.
 Prüfen, ob Absätze mit `p` ausgezeichnet sind.
 Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
