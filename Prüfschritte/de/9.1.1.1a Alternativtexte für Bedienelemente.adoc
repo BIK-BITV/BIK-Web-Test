@@ -49,15 +49,17 @@ werden.
 
 ==== 2.1 Anzeige der Alternativtexte von Grafiken
 
-. Die Seite im Firefox aufrufen.
+. Die Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
-. In der _Web Developer Toolbar_ das Menü _Images > Display Alt Attributes_
+. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
   aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
   Alternativtexten versehen sind (siehe
-  <<2.6Gleichwertige (äquivalente) Alternativtexte>>). Alternativ kann
+  <<2.6 Gleichwertige (äquivalente) Alternativtexte>>). Alternativ kann
   auch das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
   Images bookmarklet] eingesetzt werden.
 . Feststellen, ob die Seite Image maps enthält.
   Hierfür kann gegebenenfalls der Quelltext nach `map` durchsucht werden.
@@ -67,10 +69,10 @@ werden.
 
 Falls Image maps eingesetzt werden:
 
-Die Firefox Developer Tools öffnen und im Quellcode prüfen, ob für jeden
+Die Web Developer Tools öffnen und im Quellcode prüfen, ob für jeden
 Link (`area`-Element der Image map, aktiver Bereich) *und* für das Gesamtbild
 der Image map ein gleichwertiger Alternativtext vorhanden ist (siehe
-<<2.6Gleichwertige (äquivalente) Alternativtexte>>).
+  <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
 
 Der Alternativtext für die gesamte Image map sollte in der Regel die Image map
 beschreiben, die Alternativtexte für die aktiven Bereiche (``area``-Elemente)
@@ -89,7 +91,7 @@ verwendet wurde (nicht ``display:none``).
 
 ===== Grundeinstellung in Firefox
 
-. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._
   aufrufenDen Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die
   Option _Farben..._ wählen.
@@ -103,7 +105,7 @@ verwendet wurde (nicht ``display:none``).
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Prüfen, ob grafische Bedienelemente verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
@@ -141,7 +143,7 @@ bereitgestellt wird.
 ===== Prüfung
 
 . Seite in
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Bedienelemente feststellen.
 . Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
@@ -170,16 +172,16 @@ bereitgestellt wird.
 ===== Prüfung
 
 . Seite im
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Bedienelemente feststellen.
-. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob es sich um ein
+. Mit den Web Developer Tools des Browsers prüfen, ob es sich um ein
   direkt in HTML eingebundene SVG handelt (Inline SVG).
 . Prüfen, ob eine Textalternative vorhanden ist
 . Prüfen, ob ein ``title``-Element (für längere Beschreibungen das
   ``desc``-Element) vorhanden ist und die dort hinterlegte Textalternative das
   Bild in angemessener Weise ersetzt (siehe
-  <<2.6Gleichwertige (äquivalente) Alternativtexte>>).
+  <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
   Das `title-` bzw. ``desc-``Element sollte das erste Kind-Element des
   ``svg``-Eltern-Elements sein.
 . Da SVG noch nicht ausreichend von allen Screenreader-Browser-Kombinationen
