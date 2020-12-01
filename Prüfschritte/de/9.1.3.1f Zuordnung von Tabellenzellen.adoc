@@ -53,9 +53,10 @@ Bei solchen Tabellen ist es eigentlich nicht erforderlich, die Zellen "ihren"
 
 === 2. Prüfung
 
-Seite im Firefox laden.
+Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+Firefox] laden.
 Das
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
 Tables bookmarklet] aufrufen.
 Tabellen-Auszeichnungen werden jetzt angezeigt.
 Prüfen, ob der Geltungsbereich der Überschriften korrekt über das
