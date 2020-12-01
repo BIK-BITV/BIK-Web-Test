@@ -65,7 +65,7 @@ Textkontraste der alternativen Ansicht prüfen (wie in
 
 ==== 3.1 Allgemeine Hinweise
 
-* Elemente, die unterschiedliche Zustände haben können, sollen in allen Zuständen immer ausreichend Kontrast zum Hintergrund haben. Also zum Beispiel: auch die Hervorhebung des Maus- und Tastaturfokus muss den allgemeinen Kontrast-Grenzwert von 4,5:1 (bei großen Schriften 3,0:1) erfüllen.
+* Elemente, die unterschiedliche Zustände haben können, sollen in allen Zuständen immer ausreichend Kontrast zum Hintergrund haben. So muss auch die Hervorhebung des Maus- bzw. des Tastaturfokus den allgemeinen Kontrast-Grenzwert von 4,5:1 (bei großen Schriften 3,0:1) erfüllen.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit
   einer Webseite erleichtern.
   Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber
