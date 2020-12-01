@@ -65,20 +65,7 @@ Textkontraste der alternativen Ansicht prüfen (wie in
 
 ==== 3.1 Allgemeine Hinweise
 
-* Elemente, die unterschiedliche Zustände haben können, sollten immer
-  ausreichend kontrastieren.
-  Also zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte
-  Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
-  Für die Bewertung entscheidend ist der jeweils *schlechtere*
-  Helligkeitskontrast.
-* Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden
-  Zuständen verhältnismäßig einfach ist: die Hervorhebung des Maus- und
-  Tastaturfokus.
-  Hier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im
-  Fokus) der Helligkeitskontrast besser ist.
-  Dieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den
-  allgemeinen Grenzwert von 4,5:1 erfüllen.
-  Das Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
+* Elemente, die unterschiedliche Zustände haben können, sollen in allen Zuständen immer ausreichend Kontrast zum Hintergrund haben. Also zum Beispiel: auch die Hervorhebung des Maus- und Tastaturfokus muss den allgemeinen Kontrast-Grenzwert von 4,5:1 (bei großen Schriften 3,0:1) erfüllen.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit
   einer Webseite erleichtern.
   Ein Beispiel dafür: Funktionen, die prinzipiell vorgesehen, aktuell aber
