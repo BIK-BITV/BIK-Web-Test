@@ -45,11 +45,12 @@ Das ist bei informationsorientierten Seiten in der Regel der Fall.
 . das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#headingsmap[
   HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
-  Das ggf. auch versteckte Überschriften oder Überschriften in ausgeblendeten Bereichen verwendet werden, https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+. Da ggf. auch versteckte Überschriften oder Überschriften in ausgeblendeten Bereichen verwendet werden, https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
   Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile
   deaktivieren > Alle Stile deaktivieren_ wählen), dann das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
   Bookmarklet "Inhalte gegliedert"] aufrufen.
+. Ist die Überschriften-Hierarchie sinnvoll?
 . Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, mittels
   der HTML-Strukturelemente `h1` bis `h6` als Überschriften ausgezeichnet
   sind.
