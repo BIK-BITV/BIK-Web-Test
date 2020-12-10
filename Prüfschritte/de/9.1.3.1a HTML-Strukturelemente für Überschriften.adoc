@@ -42,10 +42,10 @@ Das ist bei informationsorientierten Seiten in der Regel der Fall.
 . Seite im
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. das
+. Mittels
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#headingsmap[
-  HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
-. Da ggf. auch versteckte Überschriften oder Überschriften in ausgeblendeten Bereichen verwendet werden, https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  HeadingsMap Browser-Plugin] die Überschriften-Hierarchie anzuzeigen.
+. Alternativ über die https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
   Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile
   deaktivieren > Alle Stile deaktivieren_ wählen), dann das
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
