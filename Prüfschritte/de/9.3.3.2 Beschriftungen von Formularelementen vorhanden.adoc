@@ -79,7 +79,7 @@ auch) *nach* dem Formularelement stehen.
 
 ==== Nicht erfüllt
 
-* Wichtige Formularelemente (z. B. die Sucheingabe) sind ohne Beschriftung,
+* Wichtige Formularelemente (z. B. die Sucheingabe) sind ohne sichtbare Beschriftung,
   auch angrenzende Elemente erklären nicht die Funktion.
 
 ==== Nicht voll erfüllt
