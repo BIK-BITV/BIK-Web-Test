@@ -90,7 +90,7 @@ auch) *nach* dem Formularelement stehen.
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um sichtbare Beschriftungen. Das Vorhandensein programmatisch ermittelbarer Namen von Formularelementen wird dagegen in Prüfschritt ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+In diesem Prüfschritt geht es um sichtbare Beschriftungen. Das Vorhandensein programmatisch ermittelbarer Namen von Formularelementen wird dagegen in Prüfschritt 
 ifndef::env_embedded[]
   <<1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,1.3.1h
   Beschriftung von Formularelementen programmatisch ermittelbar>>
