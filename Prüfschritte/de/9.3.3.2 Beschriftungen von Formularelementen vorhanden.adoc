@@ -60,17 +60,11 @@ auch) *nach* dem Formularelement stehen.
   Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum.
   Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden ``title``-Attribut versehen.
 * Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button
-  besteht, ist oftmals keine sichtbare Beschriftung notwendig.
-  Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander
+  besteht, ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander
   positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder
   die Beschriftung des Buttons die Funktion eindeutig kennzeichnet
   (etwa "Suchen").
-  Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen
-  entweder ein aussagekräftiges ``title``-Attribut oder ein verstecktes Label
-  haben, da für Screenreader-Nutzer der nachfolgende Button nicht
-  gleichermaßen als Beschriftung taugt.
-  Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
-  `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
+
 * Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder
   zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor
   jedem einzelnen Eingabefeld.
