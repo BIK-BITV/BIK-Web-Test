@@ -2,55 +2,98 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.1.1 "Captioning playback" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Videos mit Audio-Inhalten abspielen kann, sollen verfügbare
-Untertitel in den Quell-Video-Dateien synchron zum Video abgespielt werden
-können.
-Für diese Anforderung kann die Web-App einen separaten Modus bereitstellen.
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, bietet der Videoplayer 
+die Möglichkeit, die Untertitel anzuzeigen. Werden dynamisch zuschaltbare, 
+textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer 
+die Möglichkeit, diese ein- und auszublenden. 
+
+== Warum wird das geprüft?
+
+Filme sind in der Regel ohne den Ton nicht zu verstehen. 
+Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur 
+durch Untertitel bereitgestellt werden. 
+
+Untertitel können auf unterschiedliche Arten eingebunden werden: 
+Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, 
+die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement 
+am Player flexibel zuschaltbar sind. 
+
+Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden 
+wahrgenommen werden können, ist es erforderlich, dass der Videoplayer 
+die Möglichkeit bietet, diese ein- und auszublenden. Bei Open captions handelt es sich 
+hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audio-Inhalten
-abspielen kann.
+*	Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
+  der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt.
+*	Aufgezeichnete Videos ohne Tonspur, stumme Videos, brauchen keine Untertitelung, 
+  der Prüfschritt ist für sie nicht anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wenn die Web-App die Wiedergabe von externen bzw. eigenen Videos erlaubt,
-müssen die Untertitel von Videos mit eingebetteten Untertiteln (closed
-captions) synchron zum Video angezeigt werden können.
+==== 2.1 Anzeigen von open captions
 
-Wenn die Web-App die Wiedergabe von externen bzw. eigenen Videos *nicht*
-zulässt sondern nur mitgelieferte Videos abspielt, muss die Software
-Untertitel anzeigen können, wenn diese mitgelieferten Videos mindestens
-teilweise eingebettete Untertitel (closed captions) enthalten.
-Wie dies jedoch sinnvoll geprüft werden kann, ist derzeit unklar.
+. Das Video wird im auf der Website eingebundenen Videoplayer abgespielt. 
+. Untertitel werden angezeigt (open captions).
 
-Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+==== 2.1 Anzeigen von closed captions
 
-==== Prüfung mit externen Videos
+. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. 
+  Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. 
+  Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` 
+  spezifiziert, dass es sich um Untertitel handelt.
+. Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer 
+  eine Möglichkeit bietet, diese ein- und auszublenden.
 
-Wenn die Web-App externe bzw. eigene Videos abspielen kann, kann ein eigenes
-Video mit eingebetteten Untertiteln (closed captions) für die Prüfung in der
-Web-App abgespielt werden.
+=== 3. Hinweise
 
-Die App muss in diesem Fall die Möglichkeit bieten, die eingebetteten
-Untertitel synchron zum Video abzuspielen.
+* Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, 
+  um die Untertitel auf einer Braillezeile anzuzeigen.
+* Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei
+  Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video 
+  mit open captions über einen zweiten Player angezeigt wird.
 
-==== Hinweise
+=== 4. Bewertung
 
-Wird eine Braillezeile angeschlossen, sollte die Web-App eine Funktion zur
-Verfügung stellen, um die eingebetteten Untertitel auf dieser anzuzeigen.
+==== Erfüllt: 
+
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel 
+als fester Bestandteil des Videos angezeigt (open captions) 
+oder können über ein Bedienelement des Videoplayers ein- und ausgeblendet werden 
+(closed captions).
+
+==== Nicht voll erfüllt: 
+
+Es werden eine Untertitel-Datei angeboten, der Player bietet jedoch 
+keine Möglichkeit, diese anzuzeigen.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von 
+Untertiteln während der Wiedergabe sowie um die Bedienelemente zum Ein- und 
+Ausschalten von Untertiteln im Videoplayer.
+
+ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
+ifndef::env_embedded[]
+<<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
+Videos mit Untertiteln>>
+endif::env_embedded[]
+bezieht sich hingegen 
+auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
+der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde 
+und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
+Untertitel verwendet werden kann. 
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
+
+* Tabelle A1: Verweis auf 7.1.1 "Captioning playback"
 
 == Quellen
 
