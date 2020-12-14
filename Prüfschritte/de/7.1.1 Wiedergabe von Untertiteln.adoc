@@ -80,8 +80,13 @@ Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von
 Untertiteln während der Wiedergabe sowie um die Bedienelemente zum Ein- und 
 Ausschalten von Untertiteln im Videoplayer.
 
-7.1.2.2 „Aufgezeichnete Videos mit Untertiteln“ bezieht sich hingegen 
-auf den Inhalt der Untertitel. Es geht es darum, dass der Autor bei der Erstellung 
+ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
+ifndef::env_embedded[]
+<<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
+Videos mit Untertiteln>>
+endif::env_embedded[]
+bezieht sich hingegen 
+auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
 der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde 
 und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
 Untertitel verwendet werden kann. 
