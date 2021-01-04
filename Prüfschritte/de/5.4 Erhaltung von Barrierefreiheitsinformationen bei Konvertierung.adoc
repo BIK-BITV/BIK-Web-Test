@@ -9,6 +9,22 @@ V3.1.1.
 In dieser Tabelle wird auf Abschnitt
 5.4 "Preservation of accessibility information during conversion" verwiesen.
 
+== Warum wird das geprüft?
+
+Wenn die Webseite Konvertierungsfunktionen anbietet, sollen
+Barrierefreiheitsinformationen im Ausgangsformat nicht unnötigerweise im
+Zielformat verloren gehen.
+Unnötig ist der Verlust von Barrierefreiheitsinformationen dann, wenn das
+Zielformat prinzipiell die Aufnahme der Barrierefreiheitsinformation
+unterstützt, durch die Konvertierungsfunktion jedoch nicht genutzt wird.
+Beispielsweise unterstützen HTML- und PDF-Dateien die Auszeichnung von
+Überschriften, eine Konvertierungsfunktion könnte daher problemlos die
+Überschriftsauszeichnung aus dem HTML-Quelltext für PDF adaptieren.
+
+Hinzunehmen ist der Verlust von Barrierefreiheitsinformationen nur dann, wenn
+das Zielformat keine Unterstützung für die im Ausgangsformat genutzte
+Informationsart anbietet.
+
 == Was wird geprüft?
 
 Wenn die Webseite Dokumente in andere Formate konvertiert, sollen vorhandene
