@@ -9,6 +9,18 @@ V3.1.1.
 In dieser Tabelle wird auf Abschnitt
 5.3 "Biometrics" verwiesen.
 
+== Warum wird das geprüft?
+
+Wenn biometrische Merkmale zur Nutzeridentifizierung und/oder zur Bedienung der
+Webseite eingesetzt werden, müssen dazu Alternativmethoden angeboten werden,
+Nutzeridentifizierung und Bedienung der Seite darf sich *nicht* auf ein
+biometrisches Merkmal allein verlassen.
+
+Der Prüfschritt stellt sicher, dass Nutzer, die nicht über ein bestimmtes
+biometrisches Merkmal verfügen
+(z. B. keine Hände und damit auch kein Fingerabdruck) dennoch in der Lage sind
+sich zu authentifizieren bzw. die Webseite zu bedienen.
+
 == Was wird geprüft?
 
 Wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder
