@@ -9,6 +9,23 @@ V3.1.1.
 In dieser Tabelle wird auf Abschnitt
 5.2 "Activation of accessibility features" verwiesen.
 
+== Warum wird das geprüft?
+
+Barrierefreiheitsfunktionen, die von der zu testenden Webseite bereitgestellt
+werden, d. h. *nicht* vom Betriebssystem oder dem Browser bereitgestellt
+werden, sollen von ihrer potentiellen Nutzerschaft selbstständig aktivierbar
+sein.
+
+Wenn die Webseite beispielsweise eine Funktion zur Verfügung stellt, mit
+derer die Kontrastverhältnisse innerhalb der Seite verbessert werden, müssen
+sämtliche Bedienelemente, die zur Aktivierung der Funktion bedient werden
+müssen, auch in der Standardansicht ein ausreichendes Kontrastverhältnis
+aufweisen.
+Damit wird sichergestellt, dass auch Nutzer, die mit kontrastarmen Inhalten
+und Bedienelementen Schwierigkeiten haben
+(also zur Zielgruppe der Barrierefreiheitsfunktion gehören), die Funktion zur
+Kontrasterhöhung selbstständig aktivieren können.
+
 == Was wird geprüft?
 
 Wenn die Webseite Funktionen für die Barrierefreiheit bereithält, die
