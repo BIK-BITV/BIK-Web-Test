@@ -11,10 +11,8 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, soll
-die Sende- und Empfangsrichtung programmatisch ermittelbar sein.
-Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der
-jeweiligen Sende- oder Empfangsrichtung.
+Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, sollen gesendeter und empfangener Text programmatisch unterscheidbar sein.
+Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweiligen Sende- oder Empfangsrichtung.
 
 == Wie wird geprüft?
 
