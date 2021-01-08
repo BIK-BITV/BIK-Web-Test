@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
 
 === Prüfung
 
-Der Prüfschritt sollte anhand der technischen Dokumentation der We-App in
+Der Prüfschritt sollte anhand der technischen Dokumentation der Web-App in
 Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
 
 * App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
