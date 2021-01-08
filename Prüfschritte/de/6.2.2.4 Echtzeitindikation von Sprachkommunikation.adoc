@@ -11,7 +11,7 @@ Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549 V3.1.1
 Wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet, soll die Aktivität von Sprechern in
 Echtzeit visualisiert werden.
 Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden.
-Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts
+Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
 
 == Wie wird geprüft?
 
@@ -23,12 +23,10 @@ unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
 === Prüfung
 
 . Web-App öffnen
-. prüfen, ob die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur
-  Echtzeit-Textkommunikation bietet
-. eine Verbindung mit einem weiteren Gerät über die App herstellen
-. prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B.
+. Eine Verbindung mit einem weiteren Gerät über die App herstellen
+. Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B.
   blinkendes Icon
-. falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die
+. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die
   Signalisierung programmatisch ermittelbar ist und auf der Braillezeile
   platzsparend über blinkende Braillemodule o. ä. dargestellt wird
 
