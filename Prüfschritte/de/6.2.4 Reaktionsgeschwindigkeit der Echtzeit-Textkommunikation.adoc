@@ -6,15 +6,11 @@ include::include/attributes.adoc[]
 
 Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
 V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.4 "RTT responsiveness" verwiesen.
+In dieser Tabelle wird auf Abschnitt 6.2.4 "RTT responsiveness" verwiesen (RTT steht für Real-Time text).
 
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit-Textkommunikation unterstützt und entsprechende
-Nutzereingaben entgegennimmt, soll die kleinste Texteinheit
-(einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt
-werden.
+Wenn die Web-App Echtzeit-Textkommunikation unterstützt und Texteingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. Es geht hier also um Systeme, die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, sondern erscheint unmittelbar.
 
 == Was wird geprüft?
 
