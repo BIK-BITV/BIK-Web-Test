@@ -84,4 +84,6 @@ A delay of 300 ms, or less, produces a better impression of flow to the user.
 
 (Aus EN 301 549 V3.1.1 Abschnitt 6.2.4 "RTT responsiveness")
 
-=== Wikipedia-Eintrag für Real-Time Text https://en.wikipedia.org/wiki/Real-time_text
+=== Wikipedia-Eintrag für Real-Time Text 
+
+https://en.wikipedia.org/wiki/Real-time_text
