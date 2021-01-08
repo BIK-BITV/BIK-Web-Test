@@ -72,8 +72,8 @@ sind neuere Standards für die Kommunikationsmethode mittlerweile gängig.
 * Wenn andere Kommunikationsmethoden verwendet werden:
 +
   Gemeinsame, relevante und veröffentlichte Standards werden unterstützt.
-  Dabei unterstützt der gemeinsame Standard die Signalisierung von verlorenen
-  und fehlerhaft übertragenen Zeichen.
+  Dabei unterstützt der gemeinsame Standard eine Methode, über die angezeigt wird, wenn Zeichen verloren gingen
+  oder fehlerhaft übertragen wurden.
 
 == Quellen
 
