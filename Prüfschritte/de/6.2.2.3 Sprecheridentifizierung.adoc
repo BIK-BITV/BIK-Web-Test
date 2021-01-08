@@ -11,35 +11,30 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann und den
+Wenn die Web-App Echtzeit Textkommunikation unterstützt und den
 aktiven Sprecher über Sprache identifiziert, sollen auch Sprecher, die
-Echtzeit-Textkommunikation nutzen, identifiziert und beim Kommunizieren
-vergleichbar angezeigt
-werden.
+Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
-senden und empfangen kann und den aktiven Sprecher über Sprache identifiziert.
+unterstützt und den aktiven Sprecher über Sprache identifiziert.
 Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig
 hervorgehoben.
 
 === Prüfung
 
 . Web-App öffnen
-. prüfen, ob die Web-App das Senden und Empfangen von Echtzeit
-  Textkommunikation anbietet
-. prüfen, ob der aktive Sprecher über Sprache identifiziert und in der App
+. Prüfen, ob der aktive Sprecher über Sprache identifiziert und in der App
   markiert oder anderweitig hervorgehoben wird
-. ist dies der Fall, prüfen, ob auch Teilnehmer die Echtzeit-Textkommunikation
-  nutzen, beim Kommunizieren markiert oder anderweitig hervorgehoben werden
+. Ist dies der Fall, prüfen, ob auch Teilnehmer, die Echtzeit-Texteingabe verwenden, beim Eingaben markiert oder anderweitig hervorgehoben werden
 
 ==== Hinweise
 
 Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern
-etabliert werden um eine eventuelle Markierung oder anderweitige Hervorhebung
+etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung
 zweifelsfrei festzustellen.
 
 == Quellen
