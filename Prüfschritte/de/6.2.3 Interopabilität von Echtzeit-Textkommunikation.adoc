@@ -66,7 +66,7 @@ sind neuere Standards für die Kommunikationsmethode mittlerweile gängig.
 
 * Voice over IP (VoIP) über das IP Multimedia Sub-System (IMS):
 +
-  Hier sind die Protocole ETSI TS 126 114
+  Hier sind die Protokolle ETSI TS 126 114
   [i.10], ETSI TS 122 173 [i.11] und ETSI TS 134 229 [i.12] relevant.
 
 * Wenn andere Kommunikationsmethoden verwendet werden:
