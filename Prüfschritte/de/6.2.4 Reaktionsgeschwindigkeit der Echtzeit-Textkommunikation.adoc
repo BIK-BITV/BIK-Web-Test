@@ -20,19 +20,16 @@ werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Eingaben für
-Echtzeit-Textkommunikation verwendet.
-Das ist bspw. der Fall, wenn es sich um eine App zur Kommunikation handelt, die
-Echtzeit-Textkommunikation unterstützt und im Userinterface eine entsprechende
-Eingabemöglichkeit für den Nutzer bereithält.
+Der Prüfschritt ist anwendbar, wenn die Web-App Eingaben für Echtzeit-Textkommunikation unterstützt.
+Das ist z.B. der Fall, wenn es sich um eine App zur Kommunikation handelt, die
+Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende
+Eingabemöglichkeit bereithält.
 
 === Prüfung
 
-Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in
-der Praxis.
+Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis.
 Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der App abgeschickt werden.
-Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
+von der App abgeschickt werden. Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
 können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation
@@ -49,7 +46,7 @@ Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
 
 ==== Hinweise
 
-Es sollte eine maximale Verzögerung von300 Millisekunden für das Abschicken
+Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken
 der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss
 verbessert.
 
