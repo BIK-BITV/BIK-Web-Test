@@ -38,7 +38,7 @@ Entwicklung der Prüfung mitzuwirken.
 
 ==== Hinweise
 
-Wenn einer der unten genannten Einstellungen in den verschiedenen Browsern
+Wenn einer der genannten Einstellungen in den verschiedenen Browsern
 nicht zu finden ist und somit vom Nutzer nicht angepasst werden kann, wird
 diese Einstellung bei der Prüfung nicht berücksichtigt.
 
