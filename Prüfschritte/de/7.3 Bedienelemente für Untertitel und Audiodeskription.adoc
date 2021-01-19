@@ -32,7 +32,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 . App öffnen
 . Video aufrufen
-. Prüfen ob Bedienelemente zur Anzeige von Untertiteln und/ oder Audiodeskription auf gleicher Ebene wie die übrigen Steuerelemente angeboten werden
+. Prüfen, ob Bedienelemente zur Anzeige von Untertiteln und/ oder Audiodeskription auf gleicher Ebene wie die übrigen Steuerelemente angeboten werden
 
 ==== Hinweise
 
