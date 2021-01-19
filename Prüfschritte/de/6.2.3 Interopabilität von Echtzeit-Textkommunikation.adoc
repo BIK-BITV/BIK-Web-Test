@@ -14,7 +14,7 @@ In dieser Tabelle wird auf Abschnitt
 Web-Apps, die Textkommunikation in Echtzeit unterstützen und mit anderen
 Anwendungen mit Echtzeit-Textkommunikation-Funktionalität zusammenarbeiten,
 sollen implementationsspezifische Methoden zur Interopabilität von
-Echtzeit-Textkommunikationunterstützen.
+Echtzeit-Textkommunikation unterstützen.
 
 == Wie wird geprüft?
 
