@@ -43,10 +43,6 @@ Fragen zur Barrierefreiheit stichprobenartig zu stellen.
 Falls möglich, können auch die Dokumente, die dem technischem Support zur
 Verfügung stehen, stichprobenartig geprüft werden.
 
-Verbreitet sollten jedoch Assistenzsysteme sein, die den Support-Mitarbeiter
-durch die Problemlösung führt.
-Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine Prüfung
-bekommen würde.
 
 == Quellen
 
