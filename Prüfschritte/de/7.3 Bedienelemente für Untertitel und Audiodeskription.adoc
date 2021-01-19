@@ -32,8 +32,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 . App öffnen
 . Video aufrufen
-. Bedienelemente zur Wiedergabekontrolle prüfen, werden Bedienelemente zur
-  Steuerung von Untertitel und Audiodeskription auf gleicher Ebene angeboten?
+. Prüfen ob Bedienelemente zur Anzeige von Untertiteln und/ oder Audiodeskription auf gleicher Ebene angeboten werden
 
 ==== Hinweise
 
