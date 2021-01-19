@@ -30,8 +30,6 @@ unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
 === Prüfung
 
 . Web-App öffnen
-. prüfen, ob die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur
-  Echtzeit-Textkommunikation bietet
 . eine Verbindung mit einem weiteren Gerät über die App herstellen
 . prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B.
   blinkendes Icon
