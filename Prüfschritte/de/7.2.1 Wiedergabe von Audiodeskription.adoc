@@ -2,47 +2,75 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.2.1 "Audio description playback" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Videos mit Audio abspielen kann, sollen dabei enthaltene
-Audiodeskriptionen abspielbar sein.
+Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind 
+(und Informationen über das Bildgeschehen für das Verständnis erforderlich sind), 
+ist ein Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription 
+vorhanden.
 
-Wenn die Web-App die auswahl von Tonspuren erlaubt, ist dieser Prüfschritt
-ebenfalls erfüllt.
+Audiodeskription kann alternativ auch aus einer von mehrere Audiospuren ausgewählt 
+und abgespielt werden. 
+
+== Warum wird das geprüft?
+
+Werden Inhalte eines Videos nur über Bilder vermittelt, müssen solche Bildsequenzen 
+für blinde Menschen beschrieben werden, damit sie das Video verstehen können. 
+Hierfür wird das Verfahren der Audiodeskription eingesetzt. Damit Audiodeskription 
+ein- und ausgeschaltet werden kann, muss der eingesetzte Player ein entsprechendes 
+AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den 
+Spracheinstellungen zu aktivieren, anbieten.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audio abspielen
-kann.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
+der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und diese Videos 
+eine Audiodeskription benötigen.
 
-=== Prüfung
+=== 2. Prüfung
 
-==== Prüfung mit externem Beispiel-Video
+. Das Video wird im auf der Website eingebundenen Player abgespielt.
+. Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten 
+  von Audiodeskription ermöglicht.
+. Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, 
+  ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann.
+  
+=== 3. Hinweise
 
-Wenn die Web-App externe Videos abspielen kann, kann der Prüfschritt mit
-einer Beispiel-Video-Datei mit Audiodeskription getestet werden.
-Diese Beispieldatei wird dann in der App geöffnet.
-Um den Prüfschritt zu erfüllen, muss die Web-App dann eine Funktion zum
-Abspielen der Audiodeskription anbieten.
-Alternativ muss die Möglichkeit bestehen, andere, im Video enthaltene,
-Tonspuren auszuwählen.
+Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), 
+noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten 
+Player wird negativ bewertet.
 
-==== Prüfung anhand mitgelieferter Videos
+Wenn die Zugänglichkeit bereits vor der Produktion von Videos berücksichtigt wird, 
+können die Kosten und der Aufwand für die Entwicklung der Beschreibung  möglicherweise reduziert 
+werden. Bei einigen Arten von Videos (wie z.B. einigen Schulungsvideos) kann die Beschreibung der 
+visuellen Informationen von den Sprechern nahtlos integriert werden. Wenn aus
+diesem oder anderen Gründen eine zusätzliche Audiodeskripiton nicht nötig ist, 
+sollte das Fehlen eines AD-Buttons am Player nicht negativ bewertet werden.
 
-Unterstützt die Web-App nur die Wiedergabe mitgelieferter Videos, wird
-stichprobenartig geprüft, ob sich darunter Videos mit Audiodeskription
-befinden.
-Die Web-App muss dann eine Möglichkeit bieten, die Videos mit
-Audiodeskription abzuspielen.
+=== 4. Bewertung
+
+==== Nicht voll erfüllt:
+
+Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt geht es darum, dass der Videoplayer Bedienelemente zum 
+Ein- und Ausschalten der Audiobeschreibung anbietet und die Bereitstellung 
+während der Wiedergabe ermöglicht.
+
+In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüft, 
+ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine 
+Audiodeskription vorhanden ist. Es geht also um die inhaltliche Beurteilung.
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
+
+* In der Tabelle A1 wird auf 7.2.1 "Audio Description Playback“ verwiesen.
 
 == Quellen
 
