@@ -44,7 +44,7 @@ Viele Menschen mit Behinderung nutzen verschieden Eingabemöglichkeiten, z.B. fa
 Bedienelemente für Barrierefreiheits-Funktionen sollen grundsätzlich alle Barrierefreiheits-Anforderungen erfüllen. Zwei Beispiele:
 
 . Ein Schalter zum Laden einer Version in Leichter Sprache sollte leicht verständlich, kontrastreich und zugänglich beschriftet sein, denn es gibt Menschen mit kognitiven Einschränkungen, die außerdem sehbehindert oder blind sind.
-. Ein Kontrastmodus für Menschen mit Sehbehinderung braucht eine zugängliche Beschriftung, die ihn auch für Screenreader-Nutzer identifizierbar macht, denn manche sehbehinderte Menschne nutzen auch den Screenreader. 
+. Ein visueller Kontrastmodus-Schalter für Menschen mit Sehbehinderung braucht auch eine zugängliche Beschriftung, denn manche sehbehinderte Menschen nutzen auch den Screenreader. 
 
 == Einordnung des Prüfschritts
 
