@@ -46,6 +46,16 @@ Bedienelemente für Barrierefreiheits-Funktionen sollen grundsätzlich alle Barr
 . Ein Schalter zum Laden einer Version in Leichter Sprache sollte leicht verständlich, kontrastreich und zugänglich beschriftet sein, denn es gibt Menschen mit kognitiven Einschränkungen, die außerdem sehbehindert oder blind sind.
 . Ein visueller Kontrastmodus-Schalter für Menschen mit Sehbehinderung braucht auch eine zugängliche Beschriftung, denn manche sehbehinderte Menschen nutzen auch den Screenreader. 
 
+=== 4. Bewertung
+
+==== Erfüllt:
+
+Die Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
+
+==== Nicht erfüllt:
+
+Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen gegen Anforderungen der EN.
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A
