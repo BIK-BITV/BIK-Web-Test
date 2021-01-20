@@ -20,12 +20,12 @@ Beispiele für Barrierefreiheitsfunktionen:
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite spezielle Barrierefreiheits-Funktionen bereithält (hierfür müssen bei Webanwendungen auch die Einstellungen der Web-App überprüft werden).
 Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser oder Betriebssystem).
 
-=== Prüfung
+=== 2. Prüfung
 
 . Webseite aufrufen.
 . Falls Barrierefreiheitsfunktionen angeboten werden:
@@ -33,13 +33,13 @@ Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser 
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe identifizierbar?
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe selbstständig aktivierbar?
 
-=== Hinweise
+=== 3. Hinweise
 
-==== Hinweis zur Bestimmung der Zielgruppe der Barrierefreiheits-Funktion
+==== 3.1 Hinweis zur Bestimmung der Zielgruppe der Barrierefreiheits-Funktion
 
 Viele Menschen mit Behinderung nutzen verschieden Eingabemöglichkeiten, z.B. fallweise die Maus oder die Tastatur. Menschen mit kognitiven Einschränkungen haben zum Teil auch andere Einschränkungen. Bei der Bestimmung der Zielgruppe ist es deshalb wichtig, auch Anforderungen zu berücksichtigen, die nicht direkt mit der Einschränkung zu tun haben, für die die Barrierefreiheits-Funktion gedacht ist.
 
-==== Hinweis zur Identifizierbarkeit und Aktivierbarkeit
+==== 3.2 Hinweis zur Identifizierbarkeit und Aktivierbarkeit
 
 Bedienelemente für Barrierefreiheits-Funktionen sollen grundsätzlich alle Barrierefreiheits-Anforderungen erfüllen. Zwei Beispiele:
 
