@@ -47,7 +47,7 @@ einem Issue hinterlassen].
 Wenn die Web-App Videos mit Untertiteln konvertiert oder aufnimmt, sollte das
 Zielvideo in einem konformen Player abgespielt und untersucht werden.
 
-* Sind alle Untertitel ausder Quelle vorhanden?
+* Sind alle Untertitel aus der Quelle vorhanden?
 * Lassen sich alle Untertitel abspielen?
 * Sind alle Untertitel synchron zu Bild und Ton?
 
