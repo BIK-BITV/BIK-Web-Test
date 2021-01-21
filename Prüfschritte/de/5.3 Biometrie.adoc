@@ -2,44 +2,25 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-5.3 "Biometrics" verwiesen.
-
 == Was wird geprüft?
 
 Wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder
 die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal
 beschränken.
+Die Alternativen zu einer biometrischen Identifizierungsmethode werden in der Regel nicht-biometrische Methoden für die Nutzeridentifizierung sein, etwa die Eingabe von Nutzername und Passwort oder einer Identifikationsnummer. Auch eine zweite biometrische Methode würde diesen Prüfschritt erfüllen, z.B. zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, Sprachmusters, oder die Gesichtserkennung.
 
-Statt sich z. B. auf den Fingerabdruck zu beschränken, könnte eine
-Webseite auch zusätzlich Alternativen wie Irismuster, Gesichtserkennung oder
-Sprachmuster für die Nutzeridentifizierung anbieten.
+== Warum wird das geprüft?
 
-Alternativen zu einer biometrischen Identifizierungsmetode oder -Steuerung
-können auch nicht biometrische Methoden sein:
-
-.Nutzeridentifizierung
-* klassisch über Benutzername und Passwort
-* PIN
-* Identifizierung per TAN
-
-.Steuerung
-* Bedienung per Tastatur
-* Bedienung per Maus
-* Bedienung per Touch-Gesten
+Die Biometrische Authentifizierung kann gerade für Menschen mit Behinderung sinnvoll sein und den Zugang zu geschützten Systemen erleichtern. So ist für viele die Berührung eines Sensors mit dem Finger meist schneller und einfacher als die Eingabe einer Pin oder eines Passworts. Es muss aber für menschen, welche z.B. aufgrung von behinderungen die angebotene Methode der biometrischen Authentifizierung nicht nutzen können, eine nutzbare Alternative geben. 
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für
 die Nutzeridentifizierung oder Steuerung nutzt.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Webseite öffnen
 . prüfen, ob die Webseite eine Identifizierung über biometrische Merkmale
@@ -51,6 +32,10 @@ die Nutzeridentifizierung oder Steuerung nutzt.
   * Wird Biometrie für die Steuerung genutzt?
   * Werden zur biometrischen Steuerung zusätzlich alternative biometrische
     oder nicht biometrische Steuerungsmethoden angeboten?
+
+== Einordnung des Prüfschritts 
+
+EN 301 549, 5.3 "Biometrics"
 
 == Quellen
 
