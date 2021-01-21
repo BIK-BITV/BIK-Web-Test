@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn die Webseite Dokumente in andere Formate konvertiert, sollen vorhandene 
-Barrirefreiheits-Informationen im Zielformat übernommen werden, wenn das
+Barrierefreiheits-Informationen im Zielformat übernommen werden, wenn das
 Zielformat diese Informationen grundsätzlich unterstützt.
 
 Zum Beispiel könnte eine Web-App HTML-Dateien in PDF konvertieren.
@@ -29,7 +29,7 @@ sofern die Zielformate die Information grundsätzlich unterstützen.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Webseite Dokumente konvertiert.
-Dokumente umfasst dabei alle digitalen Formate wie Text, Audio und Video.
+'Dokumente' umfasst dabei alle digitalen Formate wie Text, Audio und Video.
 
 === 2. Prüfung
 
