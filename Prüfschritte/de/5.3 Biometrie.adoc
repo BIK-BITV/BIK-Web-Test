@@ -36,11 +36,11 @@ Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich in Prozesse einge
 
 ==== Erfüllt:
 
-Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine nich-biometrische oder biomterische Methode.
+Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine nicht-biometrische oder eine weitere biometrische Methode.
 
 ==== Nicht erfüllt:
 
-Nutzeridentifizierung oder Steuerung wird nur über eine spezifische biometrische Methode angeboten.
+Nutzeridentifizierung oder Steuerung beschränkt sich auf nur ein biometrisches merkmal, es gibt keine Alternativen dazu.
 
 == Einordnung des Prüfschritts 
 
