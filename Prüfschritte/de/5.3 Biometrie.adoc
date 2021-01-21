@@ -6,31 +6,41 @@ include::include/attributes.adoc[]
 
 Wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
 
-Die Alternativen zu einer biometrischen Identifizierungsmethode werden in der Regel nicht-biometrische Methoden für die Nutzeridentifizierung sein, etwa die Eingabe von Nutzername und Passwort oder von einer Pin. Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, z.B. zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, des Sprachmusters, oder des Gesichts.
+Die Alternativen zu einer biometrischen Identifizierung werden in der Regel nicht-biometrische Methoden sein, etwa die Eingabe von Nutzername und Passwort. (Für diese gelten dann natürlich alle anderen Anforderungen, etwa die der Tastaturbedienbarkeit und der Verfügbarkeit zugänglicher Namen.) Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, z.B. wenn zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, des Sprachmusters, oder des Gesichts angeboten wird.
 
 == Warum wird das geprüft?
 
-Die Biometrische Authentifizierung kann gerade für Menschen mit Behinderung sinnvoll sein und den Zugang zu geschützten Systemen erleichtern. So ist für viele die Berührung eines Sensors mit dem Finger meist schneller und einfacher als die Eingabe einer Pin oder eines Passworts. Es muss aber für menschen, welche z.B. aufgrung von behinderungen die angebotene Methode der biometrischen Authentifizierung nicht nutzen können, eine nutzbare Alternative geben. 
+Die biometrische Identifizierung (bzw. Authentifizierung) kann gerade für Menschen mit Behinderung sinnvoll sein und den Zugang zu geschützten Systemen erleichtern. Die Berührung eines Sensors mit dem Finger ist schneller und einfacher als die Eingabe einer Pin oder eines Passworts. Es muss aber für Menschen, welche z.B. aufgrund von Behinderungen die angebotene Methode der biometrischen Identifizierung nicht nutzen können, eine nutzbare Alternative geben. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für
-die Nutzeridentifizierung oder Steuerung nutzt.
+Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder Steuerung nutzt.
 
 === 2. Prüfung
 
 . Webseite öffnen
-. prüfen, ob die Webseite eine Identifizierung über biometrische Merkmale
-  benötigt, falls ja, prüfen ob biometrische oder nicht biometrische
-  Alternativen zur Identifizierung angeboten werden
+. prüfen, ob nicht biometrische oder biometrische Alternativen zur Identifizierung angeboten werden.
 . Bedienkonzept der wesentlichen Funktionen auf den zu testenden Webseiten
   untersuchen:
 +
   * Wird Biometrie für die Steuerung genutzt?
-  * Werden zur biometrischen Steuerung zusätzlich alternative biometrische
-    oder nicht biometrische Steuerungsmethoden angeboten?
+  * Gibt es neben der biometrischen Steuerung alternative nicht biometrische oder Steuerungsmethoden?
+
+=== 3. Hinweise
+
+Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich in Prozesse eingeschobene Nutzer-Authentifizierung, etwa wenn ein Fingerabdrucksensor die Einfügung eines im System gespeicherten Passwortes für einen eingegebenen Nutzernamen freigibt. Andere Formen der Steuerung sind denkbar. Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. Manche Systeme halten den Schärfepunkt automatisch auf einer (biometrisch identifizierten) Person, wenn sich diese durch den BIldraum bewegt. Auch in Spielen auf Basis von AUgmented Reality wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine nich-biometrische oder biomterische Methode.
+
+==== Nicht erfüllt:
+
+Nutzeridentifizierung oder Steuerung wird nur über eine spezifische biometrische Methode angeboten.
 
 == Einordnung des Prüfschritts 
 
