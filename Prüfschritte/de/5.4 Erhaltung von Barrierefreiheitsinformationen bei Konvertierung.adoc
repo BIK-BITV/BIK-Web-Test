@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
 == Was wird geprüft?
 
 Wenn die Webseite Dokumente in andere Formate konvertiert, sollen vorhandene 
