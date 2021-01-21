@@ -21,7 +21,7 @@ Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die
 === 2. Prüfung
 
 . Webseite öffnen
-. prüfen, ob nicht biometrische oder biometrische Alternativen zur Identifizierung angeboten werden.
+. Prüfen, ob nicht-biometrische oder biometrische Alternativen zur angebotenen biometrischen Identifizierung angeboten werden.
 . Bedienkonzept der wesentlichen Funktionen auf den zu testenden Webseiten
   untersuchen:
 +
@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die
 
 === 3. Hinweise
 
-Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich in Prozesse eingeschobene Nutzer-Authentifizierung, etwa wenn ein Fingerabdrucksensor die Einfügung eines im System gespeicherten Passwortes für einen eingegebenen Nutzernamen freigibt. Andere Formen der Steuerung sind denkbar. Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. Manche Systeme halten den Schärfepunkt automatisch auf einer (biometrisch identifizierten) Person, wenn sich diese durch den BIldraum bewegt. Auch in Spielen auf Basis von AUgmented Reality wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
+Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich die Nutzer-Identifizierung als ein Schritt innerhalb eines Prozesses. So kann die Berührung eines Fingerabdrucksensors die Einfügung eines im System gespeicherten Passwortes für einen eingegebenen Nutzernamen freigeben. Diese Funktionalität wird aber in der Regel vom System bereitgestellt, der Autor hat darauf keinen Einfluss. Andere vom Autor gestaltbare Formen der Steuerung sind denkbar. Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. Manche Systeme halten den Schärfepunkt automatisch auf einer (biometrisch identifizierten) Person, wenn sich diese durch den Bildraum bewegt. Auch in Spielen auf Basis von Augmented Reality wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 
 === 4. Bewertung
 
