@@ -13,12 +13,12 @@ Audiodeskription kann alternativ auch aus einer von mehrere Audiospuren ausgewä
 und abgespielt werden. 
 
 == Warum wird das geprüft?
+Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen der Bildsequenzen 
+für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür 
+das Verfahren der Audiodeskription ein.
 
-Werden Inhalte eines Videos nur über Bilder vermittelt, müssen solche Bildsequenzen 
-für blinde Menschen beschrieben werden, damit sie das Video verstehen können. 
-Hierfür wird das Verfahren der Audiodeskription eingesetzt. Damit Audiodeskription 
-ein- und ausgeschaltet werden kann, muss der eingesetzte Player ein entsprechendes 
-AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den 
+Damit Nutzende Audiodeskription ein- und ausschalten können, muss der eingesetzte Player ein 
+entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den 
 Spracheinstellungen zu aktivieren, anbieten.
 
 == Wie wird geprüft?
@@ -26,8 +26,7 @@ Spracheinstellungen zu aktivieren, anbieten.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
-der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und diese Videos 
-eine Audiodeskription benötigen.
+der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und die Videos Audiodeskription benötigen.
 
 === 2. Prüfung
 
@@ -39,16 +38,17 @@ eine Audiodeskription benötigen.
   
 === 3. Hinweise
 
-Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), 
+* Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), 
 noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten 
 Player wird negativ bewertet.
-
-Wenn die Zugänglichkeit bereits vor der Produktion von Videos berücksichtigt wird, 
-können die Kosten und der Aufwand für die Entwicklung der Beschreibung  möglicherweise reduziert 
-werden. Bei einigen Arten von Videos (wie z.B. einigen Schulungsvideos) kann die Beschreibung der 
-visuellen Informationen von den Sprechern nahtlos integriert werden. Wenn aus
-diesem oder anderen Gründen eine zusätzliche Audiodeskripiton nicht nötig ist, 
-sollte das Fehlen eines AD-Buttons am Player nicht negativ bewertet werden.
+* Wenn alle Informationen der Videospur bereits in der Audiospur enthalten sind, ist keine 
+Audiodeskription und damit auch kein AD-Button erforderlich.
+* Die Anforderung 7.2.1 erlaubt zwar die Auswahl der Audiodeskription aus einer von mehreren Tonspuren. 
+Anforderung  7.3.1 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription 
+auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle 
+(z.B. Abspielen, Pause, Lautstärke etc.) befinden.
+* Wenn 7.3.1 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, ist 7.2.1 Wiedergabe von 
+Audiodeskripiton ebenfalls erfüllt.
 
 === 4. Bewertung
 
@@ -59,14 +59,12 @@ Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
-
-In diesem Prüfschritt geht es darum, dass der Videoplayer Bedienelemente zum 
-Ein- und Ausschalten der Audiobeschreibung anbietet und die Bereitstellung 
-während der Wiedergabe ermöglicht.
-
-In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüft, 
-ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine 
-Audiodeskription vorhanden ist. Es geht also um die inhaltliche Beurteilung.
+Dieser Prüfschritt geht fordert, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der 
+Audiobeschreibung anbietet, es geht um die Möglichkeit der Bereitstellung von Audiodeskription 
+während der Wiedergabe.
+In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüft, ob für Inhalte eines Videos, 
+die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist. Es geht dort um die inhaltliche 
+Beurteilung.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
 
