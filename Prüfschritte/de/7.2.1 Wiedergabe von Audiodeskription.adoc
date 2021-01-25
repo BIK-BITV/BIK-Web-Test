@@ -47,7 +47,7 @@ Audiodeskription und damit auch kein AD-Button erforderlich.
 Anforderung  7.3.1 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription 
 auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle 
 (z.B. Abspielen, Pause, Lautstärke etc.) befinden.
-* Wenn 7.3.1 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, ist 7.2.1 Wiedergabe von 
+* Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, ist 7.2.1 Wiedergabe von 
 Audiodeskripiton ebenfalls erfüllt.
 
 === 4. Bewertung
