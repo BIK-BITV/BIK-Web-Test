@@ -59,16 +59,16 @@ Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
-Dieser Prüfschritt geht fordert, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der 
-Audiobeschreibung anbietet, es geht um die Möglichkeit der Bereitstellung von Audiodeskription 
-während der Wiedergabe.
-In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüft, ob für Inhalte eines Videos, 
+Dieser Prüfschritt fordert, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der 
+Audiobeschreibung anbietet. Eine Bereitstellung von Audiodeskription 
+soll dadurch während der Wiedergabe möglich sein.
+In Prüfschritt 9.1.2.5 Audiodeskription für Videos wird hingegen geprüft, ob für Inhalte eines Videos, 
 die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist. Es geht dort um die inhaltliche 
 Beurteilung.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
 
-* In der Tabelle A1 wird auf 7.2.1 "Audio Description Playback“ verwiesen.
+* In der Tabelle A1 wird auf 7.2.1 UpAudio Description Playback verwiesen.
 
 == Quellen
 
