@@ -41,7 +41,7 @@ der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und die Vide
 * Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), 
 noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten 
 Player wird negativ bewertet.
-* Wenn alle Informationen der Videospur bereits in der Audiospur enthalten sind, ist keine 
+* Wenn alle wichtigen Informationen der Videospur bereits über der Audiospur vermittelt werden, ist keine 
 Audiodeskription und damit auch kein AD-Button erforderlich.
 * Die Anforderung 7.2.1 erlaubt zwar die Auswahl der Audiodeskription aus einer von mehreren Tonspuren. 
 Anforderung  7.3.1 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription 
@@ -52,7 +52,7 @@ Audiodeskripiton ebenfalls erfüllt.
 
 === 4. Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht erfüllt:
 
 Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
 
