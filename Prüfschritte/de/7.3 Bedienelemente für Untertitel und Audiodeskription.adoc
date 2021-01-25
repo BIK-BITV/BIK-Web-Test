@@ -12,12 +12,11 @@ auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontroll
 == Warum wird das geprüft?
 
 Videoplayer bieten den Menschen eine Vielzahl von Interaktionsmöglichkeiten. 
-Primäre Mediensteuerelemente (die Bedienelemente zur Wiedergabekontrolle) verwenden 
-die Nutzenden am häufigsten. Sie sind daher prominent auf der obersten Interaktionsebene 
+Am wichtigsten sind dabei die Bedienelemente zur Wiedergabekontrolle. Sie sind daher prominent auf der obersten Interaktionsebene 
 des Players positioniert. Bedienelemente für das Ein- und Ausblenden der Untertitel bzw. 
-das Starten und Beenden der Audiodeskription sind für Nutzende, die diese Funktion benötigen, 
-ebenfalls wichtige Steuerelemente. Sie werden viel genutzt, müssen schnell gefunden werden 
-und sollten daher ebenfalls auf der obersten Interaktionsebene positioniert sein.
+das Starten und Beenden der Audiodeskription sind für Menschen, die diese Funktion benötigen, 
+ebenfalls wichtige Steuerelemente. Sie sollen leicht gefunden werden 
+und müssen daher ebenfalls auf der obersten Interaktionsebene positioniert sein.
 
 == Wie wird geprüft?
 
@@ -29,9 +28,6 @@ Audiodeskription für das Verständnis nötig sind.
 
 === 2. Prüfung
 
-Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
-
 . Das Video mit dem auf der Website eingebundenen Player abspielen.
 . Prüfen, ob Bedienelemente zur Anzeige von Untertiteln und / oder Audiodeskription auf 
   gleicher Ebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, 
@@ -42,6 +38,9 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, 
 ist 7.1.1 Wiedergabe von Untertiteln und 7.2.1 Wiedergabe von Audiodeskripiton ebenfalls 
 erfüllt.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 === 4. Bewertung
 ==== Nicht erfüllt:
