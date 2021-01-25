@@ -2,47 +2,64 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.3 "User controls for captions and audio description" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App hauptsächlich Video-Inhalte mit Audio abspielt, sollen
-Bedienelemente zur Steuerung von Untertiteln und Audiodeskription auf der
-gleichen Interaktionsebene wie die üblichen Bedienelemente für die
-Wiedergabekontrolle (Play, Pause, Lautstärke etc.) zu finden sein.
+Wenn ein Videoplayer Video-Inhalte mit zugehörigen Audioinhalten abspielt, 
+befinden sich die Bedienelemente zur Aktivierung der Untertitelung und Audiodeskription 
+auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle 
+(z.B. Abspielen, Pause, Lautstärke etc.).
 
-Diese Bedienelemente sollen also *nicht* in Menüs der Web-App versteckt werden.
+== Warum wird das geprüft?
+
+Videoplayer bieten den Menschen eine Vielzahl von Interaktionsmöglichkeiten. 
+Primäre Mediensteuerelemente (die Bedienelemente zur Wiedergabekontrolle) verwenden 
+die Nutzenden am häufigsten. Sie sind daher prominent auf der obersten Interaktionsebene 
+des Players positioniert. Bedienelemente für das Ein- und Ausblenden der Untertitel bzw. 
+das Starten und Beenden der Audiodeskription sind für Nutzende, die diese Funktion benötigen, 
+ebenfalls wichtige Steuerelemente. Sie werden viel genutzt, müssen schnell gefunden werden 
+und sollten daher ebenfalls auf der obersten Interaktionsebene positioniert sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App hauptsächlich für die
-Wiedergabe von Video-Inhalten mit Ton gedacht ist.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
+der Video-Inhalte mit zugehörigen Audioinhalten abspielt und wenn Untertitel und / oder 
+Audiodeskription für das Verständnis nötig sind.
 
-=== Prüfung
+=== 2. Prüfung
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
-. App öffnen
-. Video aufrufen
-. Prüfen, ob Bedienelemente zur Anzeige von Untertiteln und/ oder Audiodeskription auf gleicher Ebene wie die übrigen Steuerelemente angeboten werden
+. Das Video auf der Website eingebundenen Player abspielen.
+. Prüfen, ob Bedienelemente zur Anzeige von Untertiteln und/ oder Audiodeskription auf 
+  gleicher Ebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, 
+  Lautstärke etc.) angeboten werden.
 
-==== Hinweise
+==== 3. Hinweise
 
-Es ist vorteilhaft, wenn die Web-App eine Möglichkeit bietet, Untertitel und
-Audiodeskription standardmäßig bei der Wiedergabe von Videos einzuschalten.
+Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, 
+ist 7.1.1 Wiedergabe von Untertiteln und 7.2.1 Wiedergabe von Audiodeskripiton ebenfalls 
+erfüllt.
 
-== Quellen
+=== 4. Bewertung
+==== Nicht erfüllt:
+Die Bedienelemente zur Aktivierung der Untertitel und Audiodeskription sind nicht auf der 
+gleichen Interaktionsebene positioniert wie die Bedienelemente zur Wiedergabekontrolle.
+
+== Einordnung des Prüfschritts
+Bei diesem Prüfschritt geht es darum, *wo* die Bedienelemente für Untertitel und Audiodeskription 
+positioniert sind. In Prüfschritt 7.2.1 Wiedergabe von Audiodeskription geht es darum, dass überhaupt 
+entsprechende Bedienelemente vorhanden sind.
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A
+In der Tabelle A1 wird auf 7.3 "User controls for captions and audio description"  verwiesen.
+
+=== Quellen
 
 [.BLOCK_LANG_EN]
-=== 7.3 User controls for captions and audio description
+==== 7.3 User controls for captions and audio description
 
 [.BLOCK_LANG_EN]
 --
