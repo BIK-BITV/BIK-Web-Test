@@ -8,7 +8,7 @@ Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann, soll die 
 
 == Warum wird das geprüft?
 
-Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten zu unterscheiden, sowohl visuell als auch programmatisch (z.B. beim Lesen der Nachrichten mit dem Screenreader).
+Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden.
 
 == Wie wird geprüft?
 
