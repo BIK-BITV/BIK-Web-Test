@@ -13,7 +13,7 @@ Audiodeskription kann alternativ auch aus einer von mehrere Audiospuren ausgewä
 und abgespielt werden. 
 
 == Warum wird das geprüft?
-Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen der Bildsequenzen 
+Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen der visuellen Inhalte 
 für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür 
 das Verfahren der Audiodeskription ein.
 
