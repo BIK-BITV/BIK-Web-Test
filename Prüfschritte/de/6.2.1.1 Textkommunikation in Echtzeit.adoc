@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls Textkommunikation in Echtzeit zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
+== Warum wird das geprüft?
+
+Menschen, die nicht Sprache nutzen können oder wollen, sollen die Möglichkeit haben, über Echtzeit-Textkommunikation (RTT, Real-time Text) gleichrangig an Kommunikation teilzuhaben.
+
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
