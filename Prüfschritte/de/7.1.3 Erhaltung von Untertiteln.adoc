@@ -2,17 +2,10 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.1.3 "Preservation of captioning" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Videos mit Untertiteln überträgt, konvertiert oder
-aufnimmt, sollen die Untertitel so erhalten bleiben, dass die Prüfschritte
+Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben 
+die Untertitel erhalten, so dass die Prüfschritte
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
   <<7.1.1 Wiedergabe von Untertiteln.adoc#,7.1.1 Wiedergabe von
@@ -23,33 +16,62 @@ ifdef::env_embedded[7.1.2 "Synchrone Untertitel"]
 ifndef::env_embedded[]
   <<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
 endif::env_embedded[]
-erfüllt werden.
+erfüllt sind.
+Das bedeutet, die Untertitel sind nach Übertragung, Konvertierung oder Aufnahme des Videos abspielbar 
+(7.1.1 Wiedergabe von Untertiteln) und werden weiterhin synchron zu Video und Audio 
+(7.1.2 Synchrone Untertitel) dargestellt. Die Zeitstempel der Untertitel bleiben erhalten. 
+Darstellungsbezogene Aspekte, die eine Bedeutung tragen, sind in unverändert vorhanden.
 
-Die Untertitel müssen also während bzw. nach Übertragung, Konvertierung
-oder Aufnahme des Videos abspielbar und synchron zu Video und Audio dargestellt
-werden können.
-Dazu müssen z. B. die Zeitstempel der Untertitel erhalten bleiben.
+== Warum wird das geprüft?
+
+Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, 
+sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor der Aktion. 
+Dazu gehört, dass Nutzende sie weiterhin anzeigen können und dass sie synchron zu 
+Video und Audio abgespielt werden. Zusätzlich kann eine bestimmte Darstellung der Untertitel, 
+je nach regionalen Konventionen, eine Bedeutung tragen. Wenn sich die Darstellung 
+aufgrund der Übertragung, Konvertierung oder Aufnahme ändert, wird die Bedeutung nicht mehr 
+übermittelt. Damit dies nicht passiert, sollen darstellungsbezogene Aspekte, 
+die eine Bedeutung tragen, nicht verändert sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Untertiteln
-Übertragen, konvertieren oder aufnehmen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln übertragen, 
+konvertieren oder aufnehmen kann.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt in der Praxis geprüft werden kann, ist noch nicht
-vollständig geklärt.
+* Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
+  anschließend Video in einem konformen Player abspielen:
+
+** Sind alle Untertitel aus der Quelle vorhanden?
+** Lassen sich alle Untertitel anzeigen?
+** Sind alle Untertitel weiterhin synchron zu Bild und Ton?
+
+* Prüfen, ob Untertitel in einer Art und Weise dargestellt werden, 
+  die eine Bedeutung vermitteln. Bleiben bedeutungstragende Aspekte erhalten?
+
+=== 3. Hinweise
+
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in
 einem Issue hinterlassen].
 
-Wenn die Web-App Videos mit Untertiteln konvertiert oder aufnimmt, sollte das
-Zielvideo in einem konformen Player abgespielt und untersucht werden.
+=== 4. Bewertung
 
-* Sind alle Untertitel aus der Quelle vorhanden?
-* Lassen sich alle Untertitel abspielen?
-* Sind alle Untertitel synchron zu Bild und Ton?
+==== Nicht erfüllt:
+Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen 
+oder sind nicht mehr synchron zu Bild und Ton.
+
+== Einordnung des Prüfschritts
+* In der Tabelle A1 wird auf 7.1.3  Preservation of captioning verwiesen.
+
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme 
+zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt. 
+In den Prüfschritten 7.1.1 Wiedergabe von Untertiteln und 7.1.2 Synchrone Untertitel 
+geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
 
 == Quellen
 
