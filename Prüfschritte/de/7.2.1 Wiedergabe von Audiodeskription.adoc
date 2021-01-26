@@ -13,13 +13,9 @@ Audiodeskription kann alternativ auch aus einer von mehrere Audiospuren ausgewä
 und abgespielt werden. 
 
 == Warum wird das geprüft?
-Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen der visuellen Inhalte 
-für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür 
-das Verfahren der Audiodeskription ein.
+Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen dieser visuellen Inhalte für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür das Verfahren der Audiodeskription ein.
 
-Damit Nutzende Audiodeskription ein- und ausschalten können, muss der eingesetzte Player ein 
-entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den 
-Spracheinstellungen zu aktivieren, anbieten.
+Damit Nutzende Audiodeskription ein- und ausschalten können, muss der eingesetzte Player ein entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren, anbieten.
 
 == Wie wird geprüft?
 
