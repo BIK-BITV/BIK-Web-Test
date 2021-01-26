@@ -2,51 +2,42 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.2 "Display of RTT" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann,
-soll die Anzeige von empfangenen und gesendeten Nachrichten visuell
-unterscheidbar sein und somit voneinander separiert werden.
+Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell unterscheidbar sein und somit voneinander separiert werden.
+
+== Warum wird das geprüft?
+
+Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten zu unterscheiden, sowohl visuell als auch programmatisch (z.B. beim Lesen der Nachrichten mit dem Screenreader).
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
-senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Web-App öffnen
-. prüfen, ob die Web-App das Senden und Empfangen von Echtzeit Textkommunikation
-  anbietet
-. prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich
-  voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
+. prüfen, ob die Web-App das Senden und Empfangen von Echtzeit Textkommunikation anbietet
+. prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
 +
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
-* Positionierung der eigenen Nachrichten rechtsbündig und der
-  Gesprächsteilnehmer linksbündig oder umgekehrt
+* Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
-* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen
-  durch unterschiedliche Farbgebung (mit gutem Kontrast)
+* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen durch unterschiedliche Farbgebung (mit gutem Kontrast)
 
-==== Hinweise
+=== 3. Hinweise
 
-Wenn die Web-App verschiedene Optionen für die Anzeige der Nachrichten
-anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht
-schlecht bewertet werden.
+Wenn die Web-App verschiedene Optionen für die Anzeige der Nachrichte anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht schlecht bewertet werden.
 
-Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
-der Nutzer erfüllen.
-Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten
-Nachrichten für Braille-Nutzer vorteilhaft sein.
+Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten Nachrichten für Braille-Nutzer vorteilhaft sein.
+
+=== 4. Einordnung des Prüfschritss
+
+==== Einordnung des Prüschritts nach der EN 301 549 V3.1.1., Annex A
+
+Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
 
 == Quellen
 
