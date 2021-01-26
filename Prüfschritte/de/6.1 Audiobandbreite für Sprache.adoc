@@ -2,48 +2,29 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.1 "Audio bandwidth for speech" verwiesen.
-
 == Was wird geprüft?
 
-Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu
-garantieren, soll die Web-App beim Kodieren
-und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze
-mindestens bis 7.000 Hz reicht.
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die Web-App beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
 
-Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens
-HD-Telefonie / Telefonie in ISDN-Qualität bieten.
-Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
+Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App eine
-Zwei-Wege-Sprachkommunikation anbietet.
+Der Prüfschritt ist anwendbar, wenn die Web-App eine Zwei-Wege-Sprachkommunikation anbietet.
 
-=== Prüfung
+=== 2. Prüfung
 
-Bei diesem Prüfschritt sollte die Sprachqualität in einem Praxistest
-beurteilt werden.
-Die Sprachqualität muss mindestens der Qualität aktueller
-Festnetztelefonie entsprechen.
+. Die Sprachqualität der Audio-Verbindung im Praxistest beurteilen. Enspricht die Qualität der Qualität aktueller Festnetztelefonie? Es muss dabei sichergestellt werden, dass die Internetverbindung an beiden Enden nicht beeinträchtigt ist. Ggf. wird der Test dazu wiederholt. 
+. Führt der Hörtest zu keinem klaren Ergebnis, sollte die Dokumentation der Software konsultiert werden. Hier sollte der verwendete Codec zu finden sein. Ggf. muss beim Hersteller der Webanwendung nachgefragt werden.
+. Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich in Erfahrung zu bringen. Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
 
-Bei diesem Hörtest muss unbedingt sichergestellt werden, dass die
-Internetverbindung an beiden Enden nicht beeinträchtigt ist.
-Ggf. wird der Test dazu wiederholt. 
+== Einordnung des Prüfschritts
 
-Führt der Hörtest zu keinem klaren Ergebnis, sollte die Dokumentation der
-Software konsultiert werden, hier sollte der verwendete Codec zu finden sein,
-ggf.  wird beim Hersteller danach gefragt.
-Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich
-in Erfahrung zu bringen.
-Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
+=== Einordnungs de sPrüfschritts nach EN 301 549 V3.1.1., Annex A 
+
+In der Tabelle A.1 wird auf Abschnitt 6.1 "Audio bandwidth for speech" verwiesen.
 
 == Quellen
 
