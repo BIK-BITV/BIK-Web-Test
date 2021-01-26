@@ -2,36 +2,26 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.1.1 "RTT communication" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls
-Textkommunikation in Echtzeit zur Verfügung stellen.
-
-Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
-wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls Textkommunikation in Echtzeit zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu testende Web-App
-Zwei-Wege-Kommunikation ermöglicht.
-Dies umfasst z. B. Sprach- und Videotelefonie.
+Der Prüfschritt ist anwendbar, wenn die zu testende Web-App Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
 
 === Prüfung
 
-. Web-App öffnen
-. prüfen, ob die Web-App Zwei-Wege-Kommunikation ermöglicht, z. B. Sprach- und /
-  oder Videotelefonie
-. wenn eine Funktion zur Zwei-Wege-Kommunikation geboten wird, prüfen ob
-  Textkommunikation in Echtzeit unterstützt wird
+. Web-Anwendung öffnen.
+. Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit unterstützt wird.
+  
+== Einordnung des Prüfschritts 
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1., Annex A 
+
+In der Tabelle A1 wird auf Abschnitt 6.2.1.1 "RTT communication" verwiesen.
 
 == Quellen
 
