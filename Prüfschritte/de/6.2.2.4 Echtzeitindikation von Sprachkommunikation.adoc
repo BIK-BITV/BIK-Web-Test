@@ -2,35 +2,34 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549 V3.1.1. In dieser Tabelle wird auf Abschnitt 6.2.2 "Display of RTT" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet, soll die Aktivität von Sprechern in
-Echtzeit visualisiert werden.
-Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden.
-Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
+Wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
+
+== Warum wird das geprüft?
+
+Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmer, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation
-unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
+Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Web-App öffnen
 . Eine Verbindung mit einem weiteren Gerät über die App herstellen
-. Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B.
-  blinkendes Icon
-. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die
-  Signalisierung programmatisch ermittelbar ist und auf der Braillezeile
-  platzsparend über blinkende Braillemodule o. ä. dargestellt wird
+. Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B. über ein blinkendes Icon
+. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird
 
-  == Quellen
+=== 3. Einordnung des Prüfschritts
+  
+==== Einordnung des Prüfschritts nach der EN 301 549 V3.1.1, Annex A
+  
+Die Tabelle A.1 verweist auf Abschnitt 6.2.2 "Display of RTT".
+  
+== Quellen
 
 [.BLOCK_LANG_EN]
 === 6.2.2.4 Visual indicator of Audio with RTT
