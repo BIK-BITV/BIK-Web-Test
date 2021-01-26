@@ -22,7 +22,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-App eine Zwei-Wege-Sprachkommunikat
 
 == 3. Einordnung des Prüfschritts
 
-=== Einordnungs des Prüfschritts nach EN 301 549 V3.1.1., Annex A 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1., Annex A 
 
 In der Tabelle A.1 wird auf Abschnitt 6.1 "Audio bandwidth for speech" verwiesen.
 
