@@ -2,27 +2,23 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.2.2 "Audio description synchronization" verwiesen.
-
 == Was wird geprüft?
 
 Wenn die Web-App Videos mit Audiodeskription abspielen kann, soll die
 Synchronität zwischen Bild und Audiodeskription beim Abspielen erhalten
 bleiben.
 
+== Warum wird das geprüft?
+Folgt
+
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1 Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audiodeskription
 abspielen kann.
 
-=== Prüfung
+=== 2 Prüfung
 
 Falls die Web-App keine eigenen Inhalte bereithält, muss ggf. eine
 Beispiel-Video-Datei mit Audiodeskription in der Web-App geöffnet werden.
@@ -31,6 +27,17 @@ Beispiel-Video-Datei mit Audiodeskription in der Web-App geöffnet werden.
 . prüfen, ob Video-Inhalte mit Audiodeskription in der App zu finden sind
 . ein Video mit Audiodeskription aufrufen
 . prüfen, ob die Audiodeskription synchron zum Bild abgespielt wird
+
+=== 3 Hinweise
+
+=== 4 Bewertungen
+==== Nicht erfüllt:
+Folgt
+
+== Einordnung des Prüfschritts
+Folgt
+
+=== Abgrenzung zu anderen Prüfschritten
 
 == Quellen
 
