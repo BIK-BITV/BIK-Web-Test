@@ -61,7 +61,7 @@ einem Issue hinterlassen].
 
 ==== Nicht erfüllt:
 Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen 
-oder sind nicht mehr synchron zu Bild und Ton.
+oder sind nicht mehr synchron zu Ton.
 
 == Einordnung des Prüfschritts
 * In der Tabelle A1 wird auf 7.1.3  Preservation of captioning verwiesen.
