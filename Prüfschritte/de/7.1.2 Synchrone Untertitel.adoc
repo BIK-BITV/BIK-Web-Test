@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.1.2 "Captioning synchronization" verwiesen.
-
 == Was wird geprüft?
 
 Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der
@@ -20,13 +13,16 @@ Dies bezieht sich auch auf Live-Untertitel, sobald die Web-App die Untertitel
 empfängt, soll sich die Anzeige der Untertitel nicht länger als um 100
 Millisekunden verzögern.
 
+== Warum wird das geprüft?
+Folgt
+
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
 
-=== Prüfung
+=== 2. Prüfung
 
 Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
 nicht geklärt.
@@ -57,16 +53,26 @@ Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
 höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
 selbst.
 
-==== Hinweise
+==== 3. Hinweise
 
 In diesem Prüfschritt werden keine Inhalte geprüft!
 Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
 Untertiteln synchron darzustellen.
 
+=== 4. Bewertungen
+==== Nicht erfüllt:
+Folgt
+
+== Einordnung des Prüfschritts
+folgt
+
+=== Abgrenzung zu anderen Prüfschritten
+folgt
+
 == Quellen
 
 [.BLOCK_LANG_EN]
-=== Captioning synchronization
+=== 7.1.2 Captioning synchronization
 
 [.BLOCK_LANG_EN]
 --
