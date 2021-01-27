@@ -4,14 +4,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der
-Untertitel-Quelle definiert, zum Video und Audio anzeigen.
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, 
+dass der Videoplayer Untertiel und Ton synchron darstellt. Das bedeutet
 
-Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom
-Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen.
-Dies bezieht sich auch auf Live-Untertitel, sobald die Web-App die Untertitel
-empfängt, soll sich die Anzeige der Untertitel nicht länger als um 100
-Millisekunden verzögern.
+* für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht 
+  nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab.
+
+* für Live-Untertitelung: Die Anzeige des Untertitels erfolgt innerhalb 
+  von 100 ms nach der Verfügbarkeit im Player.
 
 == Warum wird das geprüft?
 Folgt
@@ -20,54 +20,38 @@ Folgt
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild- und 
+Tonspur sowie Untertiteln vorhanden sind.
 
 === 2. Prüfung
+==== 2.1 Prüfung von Untertiteln eines aufgezeichneten Videos:
+. Das Video in dem auf der Webseite eingebundenen Player abspielen.
+. Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
+. Werden Untertitel nicht synchron angezeigt, prüfen, ob die Zeitstempel korrekt gesetzt sind. 
+  Sind die Zeitstempel korrekt, ist ist davon auszugehen, dass der Videoplayer die Untertitel 
+  nicht synchron darstellt.
 
-Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
-nicht geklärt.
-Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug
-zu diesem Prüfschritt, hinterlassen].
-
-In der Praxis sollten Web-Apps, bei der die Untertitel ohne merkliche
-Verzögerung angezeigt werden, zu diesem Prüfschritt konform sein.
-
-Detailliertere Untersuchungen scheinen derzeit nur möglich, wenn die Web-App
-die Wiedergabe von externen Videoinhalten zulässt.
-
-Hier kann dann anhand einer Beispiel-Video-Datei mit eingebetteten Untertiteln,
-die korrekte Zeitstempel gesetzt hat, ein Vergleich angestellt
-werden:
-
-Das Video wird dabei in einem konformen Player abgespielt und zusätzlich in der
-zu testenden Web-App.
-Wenn die Untertitel in der Web-App im vergleich zum konformen Player verzögert
-dargestellt werden, ist dieses Problem damit auf die Web-App zurückzuführen.
-
-Spielt die Web-App jedoch nur mitgelieferte Videos ab, sollte
-Stichprobenartig geprüft werden, ob es in der App Videos gibt, bei denen
-die Untertitel korrekt und damit synchron zum Video dargestellt werden.
-Wenn dies der Fall ist, kann die Web-App Untertitel prinzipiell korrekt
-darstellen.
-Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
-höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
-selbst.
+==== 2.2 Prüfung von Live-Untertitelung:
+. Das Video in dem auf der Webseite eingebundenen Player abspielen.
+. Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
+. ???
 
 === 3. Hinweise
-
-In diesem Prüfschritt werden keine Inhalte geprüft!
-Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
-Untertiteln synchron darzustellen.
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertungen
 ==== Nicht erfüllt:
-Folgt
+Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel der 
+Untertiteldatei sind korrekt gesetzt.
 
 == Einordnung des Prüfschritts
-folgt
+Die Tabelle A1 verweist auf 7.1.2 Captioning synchronization
 
 === Abgrenzung zu anderen Prüfschritten
-folgt
+
+In diesem Prüfschritt wird geprüft, ob der Videoplayer Untertitel synchron anzeigt. 
+In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche 
+Prüfung der Untertitel (@dfischer auch - theoretisch - der korrekte Zeitstempel?)
 
 == Quellen
 
