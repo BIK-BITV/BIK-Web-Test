@@ -25,19 +25,24 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
 * Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
-* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen durch unterschiedliche Farbgebung (mit gutem Kontrast)
 
 === 3. Hinweise
 
-Wenn die Webangebot verschiedene Optionen für die Anzeige der Nachrichte anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht schlecht bewertet werden.
+* Wenn die Webangebot verschiedene Optionen für die Anzeige der Nachrichte anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht schlecht bewertet werden.
 
-Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten Nachrichten für Braille-Nutzer vorteilhaft sein.
+* Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten Nachrichten für Braille-Nutzer vorteilhaft sein.
+
+* Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abrenzung zu anderen Prüfschritten
 
 === 4. Einordnung des Prüfschritss
 
-==== Einordnung des Prüschritts nach der EN 301 549 V3.1.1., Annex A
+==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1., Annex A
 
 Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
+
+==== 4.2 Abgrenzung zu anderen Prüfschritten
+
+Wenn Nachichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt.
 
 == Quellen
 
