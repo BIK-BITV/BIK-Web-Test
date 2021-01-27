@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben 
-die Untertitel erhalten, sie sind weiterhin abspielbar und werden sychnron zum Ton dargestellt. Das heißt, 
+die Untertitel erhalten, sie lassen sich weiterhin anzeigen und werden sychnron zum Ton dargestellt. Das heißt, 
 die Prüfschritte
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
@@ -18,18 +18,13 @@ ifndef::env_embedded[]
   <<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
 endif::env_embedded[]
 sind weiterhin erfüllt
-Darstellungsbezogene Aspekte, die eine Bedeutung tragen, sind unverändert vorhanden.
+
 
 == Warum wird das geprüft?
 
 Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, 
 sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor dem Vorgang. 
-Dazu gehört, dass Nutzende sie weiterhin anzeigen können und dass sie synchron zum 
-Ton dargestellt werden. Zusätzlich kann eine bestimmte Darstellung der Untertitel, 
-je nach regionalen Konventionen, eine Bedeutung tragen. Wenn sich die Darstellung 
-aufgrund der Übertragung, Konvertierung oder Aufnahme ändert, wird die Bedeutung nicht mehr 
-übermittelt. Damit dies nicht passiert, sollen darstellungsbezogene Aspekte, 
-die eine Bedeutung tragen, nicht verändert sein.
+Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.
 
 == Wie wird geprüft?
 
@@ -40,17 +35,15 @@ konvertieren oder aufnehmen kann.
 
 === 2. Prüfung
 
-* Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
+Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
   Video anschließend in einem konformen Player abspielen:
 
-** Sind alle Untertitel aus der Quelle weiterhin vorhanden?
-** Lassen sich alle Untertitel anzeigen?
-** Ist die Darstellung der Untertitel weiterhin synchron zum Ton?
-
-* Prüfen, ob Untertitel in einer Art und Weise dargestellt werden, 
-  die eine Bedeutung vermitteln. Bleiben bedeutungstragende Aspekte erhalten?
+* Sind alle Untertitel aus der Quelle weiterhin vorhanden?
+* Lassen sich alle Untertitel anzeigen?
+* Ist die Darstellung der Untertitel weiterhin synchron zum Ton?
 
 === 3. Hinweise
+Wenn gestalterische Aspekte der Untertitel (z.B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in
 einem Issue hinterlassen].
@@ -62,7 +55,7 @@ Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht 
 oder sind nicht mehr synchron zum Ton.
 
 == Einordnung des Prüfschritts
-* In der Tabelle A1 wird auf 7.1.3  Preservation of captioning verwiesen.
+In der Tabelle A1 wird auf 7.1.3  Preservation of captioning verwiesen.
 
 === Abgrenzung zu anderen Prüfschritten
 
