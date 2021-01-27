@@ -53,7 +53,7 @@ Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
 höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
 selbst.
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 In diesem Prüfschritt werden keine Inhalte geprüft!
 Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
