@@ -22,21 +22,17 @@ sind weiterhin erfüllt
 
 == Warum wird das geprüft?
 
-Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, 
-sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor dem Vorgang. 
-Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.
+Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt,  sollen diese Untertitel in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln übertragen, 
-konvertieren oder aufnehmen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln übertragen, konvertieren oder aufnehmen kann.
 
 === 2. Prüfung
 
-Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
-  Video anschließend in einem konformen Player abspielen:
+Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließend in einem konformen Player abspielen:
 
 * Sind alle Untertitel aus der Quelle weiterhin vorhanden?
 * Lassen sich alle Untertitel anzeigen?
@@ -45,24 +41,19 @@ Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt,
 === 3. Hinweise
 Wenn gestalterische Aspekte der Untertitel (z.B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in
-einem Issue hinterlassen].
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertung
 
 ==== Nicht erfüllt:
-Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen 
-oder sind nicht mehr synchron zum Ton.
+Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.
 
 == Einordnung des Prüfschritts
 In der Tabelle A1 wird auf 7.1.3  Preservation of captioning verwiesen.
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme 
-zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt. 
-In den Prüfschritten 7.1.1 Wiedergabe von Untertiteln und 7.1.2 Synchrone Untertitel 
-geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
+In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt. In den Prüfschritten 7.1.1 Wiedergabe von Untertiteln und 7.1.2 Synchrone Untertitel geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
 
 == Quellen
 
