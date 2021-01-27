@@ -45,7 +45,7 @@ konvertieren oder aufnehmen kann.
 * Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
   anschließend Video in einem konformen Player abspielen:
 
-** Sind alle Untertitel aus der Quelle vorhanden?
+** Sind alle Untertitel aus der Quelle weiterhin vorhanden?
 ** Lassen sich alle Untertitel anzeigen?
 ** Sind alle Untertitel weiterhin synchron zu Ton?
 
