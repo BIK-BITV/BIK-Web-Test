@@ -30,7 +30,7 @@ Wenn das Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, anschließ
 
 * Ist Audiodeskription aus der Quelle weiterhin vorhanden?
 * Lässt sich Audiodeskription abspielen?
-* Ist die Audiodeskription weiterhin synchron zu Bild und Ton?
+* Ist die Audiodeskription weiterhin synchron zu Bild und Ton gewährleistet?
 
 === 3. Hinweise
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
