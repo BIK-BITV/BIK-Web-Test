@@ -31,7 +31,7 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 
 Wenn die Webangebot verschiedene Optionen für die Anzeige der Nachrichte anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht schlecht bewertet werden.
 
-Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten Nachrichten für Braille-Nutzer vorteilhaft sein.
+Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Fleißtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
 
 === 4. Einordnung des Prüfschritss
 
