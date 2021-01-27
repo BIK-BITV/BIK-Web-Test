@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben 
-die Untertitel erhalten, sie sind weiterhin abspielbar, und werden sychnron zum Ton dargestellt. Das heißt, 
+die Untertitel erhalten, sie sind weiterhin abspielbar und werden sychnron zum Ton dargestellt. Das heißt, 
 die Prüfschritte
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
@@ -23,7 +23,7 @@ Darstellungsbezogene Aspekte, die eine Bedeutung tragen, sind unverändert vorha
 == Warum wird das geprüft?
 
 Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, 
-sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor der Aktion. 
+sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor dem Vorgang. 
 Dazu gehört, dass Nutzende sie weiterhin anzeigen können und dass sie synchron zum 
 Ton dargestellt werden. Zusätzlich kann eine bestimmte Darstellung der Untertitel, 
 je nach regionalen Konventionen, eine Bedeutung tragen. Wenn sich die Darstellung 
@@ -41,7 +41,7 @@ konvertieren oder aufnehmen kann.
 === 2. Prüfung
 
 * Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, 
-  anschließend Video in einem konformen Player abspielen:
+  Video anschließend in einem konformen Player abspielen:
 
 ** Sind alle Untertitel aus der Quelle weiterhin vorhanden?
 ** Lassen sich alle Untertitel anzeigen?
