@@ -4,38 +4,34 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Videos mit Audiodeskription abspielen kann, soll die
-Synchronität zwischen Bild und Audiodeskription beim Abspielen erhalten
-bleiben.
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, 
+dass der Videoplayer Audiodeskription synchron zu  Bild und Ton wiedergibt. 
 
 == Warum wird das geprüft?
 Folgt
 
 == Wie wird geprüft?
 
-=== 1 Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audiodeskription
-abspielen kann.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner 
+Bild- und Tonspur sowie Audiodeskription vorhanden sind.
 
-=== 2 Prüfung
+=== 2. Prüfung
 
-Falls die Web-App keine eigenen Inhalte bereithält, muss ggf. eine
-Beispiel-Video-Datei mit Audiodeskription in der Web-App geöffnet werden.
+. Das Video in dem auf der Webseite eingebundenen Player abspielen.
+. Prüfen, ob die Audiodeskription synchron zu Bild und Ton wiedergegeben wird.
 
-. App öffnen
-. prüfen, ob Video-Inhalte mit Audiodeskription in der App zu finden sind
-. ein Video mit Audiodeskription aufrufen
-. prüfen, ob die Audiodeskription synchron zum Bild abgespielt wird
+=== 3. Hinweise
 
-=== 3 Hinweise
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
-=== 4 Bewertungen
+=== 4. Bewertungen
 ==== Nicht erfüllt:
-Folgt
+Der Videoplayer stellt Audiodekription nicht synchron zum Bild und Ton dar.
 
 == Einordnung des Prüfschritts
-Folgt
+Die Tabelle A1 verweist auf 7.2.2 Audio description synchronization
 
 === Abgrenzung zu anderen Prüfschritten
 
