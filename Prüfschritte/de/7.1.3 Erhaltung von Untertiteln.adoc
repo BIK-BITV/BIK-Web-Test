@@ -18,7 +18,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 erfüllt sind.
 Das bedeutet, die Untertitel sind nach Übertragung, Konvertierung oder Aufnahme des Videos abspielbar 
-(7.1.1 Wiedergabe von Untertiteln) und werden weiterhin synchron zu Video und Audio 
+(7.1.1 Wiedergabe von Untertiteln) und werden weiterhin synchron zu Audio 
 (7.1.2 Synchrone Untertitel) dargestellt. Die Zeitstempel der Untertitel bleiben erhalten. 
 Darstellungsbezogene Aspekte, die eine Bedeutung tragen, sind in unverändert vorhanden.
 
@@ -27,7 +27,7 @@ Darstellungsbezogene Aspekte, die eine Bedeutung tragen, sind in unverändert vo
 Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, 
 sollen diese Untertitel in gleicher Weise nutzbar sein, wie vor der Aktion. 
 Dazu gehört, dass Nutzende sie weiterhin anzeigen können und dass sie synchron zu 
-Video und Audio abgespielt werden. Zusätzlich kann eine bestimmte Darstellung der Untertitel, 
+Audio abgespielt werden. Zusätzlich kann eine bestimmte Darstellung der Untertitel, 
 je nach regionalen Konventionen, eine Bedeutung tragen. Wenn sich die Darstellung 
 aufgrund der Übertragung, Konvertierung oder Aufnahme ändert, wird die Bedeutung nicht mehr 
 übermittelt. Damit dies nicht passiert, sollen darstellungsbezogene Aspekte, 
@@ -47,7 +47,7 @@ konvertieren oder aufnehmen kann.
 
 ** Sind alle Untertitel aus der Quelle vorhanden?
 ** Lassen sich alle Untertitel anzeigen?
-** Sind alle Untertitel weiterhin synchron zu Bild und Ton?
+** Sind alle Untertitel weiterhin synchron zu Ton?
 
 * Prüfen, ob Untertitel in einer Art und Weise dargestellt werden, 
   die eine Bedeutung vermitteln. Bleiben bedeutungstragende Aspekte erhalten?
