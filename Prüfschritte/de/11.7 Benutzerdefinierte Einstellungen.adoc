@@ -18,7 +18,7 @@ Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, w
 
 == Warum wird das geprüft?
 
-Wenn Menschen eigene Einstellungen im System oder im Browser vornehmen, zum Beispiel wei sie größere Schrift oder Kontrasteinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
+Wenn Menschen eigene Einstellungen im System oder im Browser vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
 
 == Wie wird geprüft?
 
@@ -34,15 +34,25 @@ Der Prüfschritt ist immer anwendbar.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
 . Prüfen, ob sich die Einstellungen auf die Darstellung der Seite auswirken.
 
-==== 3. Hinweise
+=== 3. Hinweise
 
-* Wenn einer der genannten Einstellungen in den verschiedenen Browsern nicht zu finden ist und somit vom Nutzer nicht angepasst werden kann, wird
-diese Einstellung bei der Prüfung nicht berücksichtigt.
+* Wenn einer der genannten Einstellungen in den verschiedenen Browsern nicht zu finden ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung bei der Prüfung nicht berücksichtigt.
 * Änderungen der Standard-Schriftart werden zur Zeit weder im Firefox- noch im Chrome-Browser übernommen, sobald über CSS für die zu prüfende Seite eine Schriftart festgelegt worden ist, etwa über `font-family` auf dem `body`-Element. Die Wirksamkeit der Änderung der Standard-Schriftart wird deshalb zurzeit nicht geprüft.
-* Die Schriftart und -Größe muss sich nur in Fließtexten an den Browsereinstellungen richten. Es wird nicht verlangt, dass Bedienelemente der Webseite dynamische Veränderungen dieser Einstellungen unterstützen, da hier das Layout der Webseite verändert würde.
+* Die Schriftart und -Größe muss sich nur in Fließtexten an die Einstellungen anpassen. Es wird nicht verlangt, dass Bedienelemente der Webseite dynamische Veränderungen dieser Einstellungen unterstützen, da hiermit das Layout der Webseite verändert würde.
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
+
+=== 4. Bewertung
+
+==== Erfüllt: 
+
+Die Seite wird nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Fließtexte erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert.
+
+==== Nicht voll erfüllt:
+ 
+* Texte haben bei Nutzung eigener Farbeinstellungen nicht genug Kontrast oder verschwinden
+* Fließtext wird nicht vergrößert dargestellt.
 
 == Einordnung des Prüfschritts
 
