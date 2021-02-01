@@ -11,30 +11,31 @@ dass der Videoplayer Untertiel und Ton synchron darstellt. Das bedeutet
   nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab.
 
 * für Live-Untertitelung: Die Anzeige des Untertitels erfolgt innerhalb 
-  von 100 ms nach der Verfügbarkeit im Player.
+  von 100 ms nachdem sie im Player verfügbar ist.
 
 == Warum wird das geprüft?
-Folgt
+Die Untertitel-Standards fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild- und 
-Tonspur sowie Untertiteln vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und 
+Tonspur sowie Untertiteln vorhanden sind. Für Live-Videos muss eine Live-Untertitelung verfügbar sein.
 
 === 2. Prüfung
 ==== 2.1 Prüfung von Untertiteln eines aufgezeichneten Videos:
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, prüfen, ob die Zeitstempel korrekt gesetzt sind. 
-  Sind die Zeitstempel korrekt, ist ist davon auszugehen, dass der Videoplayer die Untertitel 
-  nicht synchron darstellt.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder 
+  an fehlerhaften Zeitstempel in der Untertitel-Datei liegen. 
+  Die Ursache muss vom Web-Autor geprüft werden.
 
 ==== 2.2 Prüfung von Live-Untertitelung:
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. ???
+. Werden Untertitel nicht synchron angezeigt, kann das unterschiedliche Ursachen haben und muss 
+  vom Web-Autor geprüft werden. 
 
 === 3. Hinweise
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
@@ -51,8 +52,9 @@ Die Tabelle A1 verweist auf 7.1.2 Captioning synchronization
 
 In diesem Prüfschritt wird geprüft, ob der Videoplayer Untertitel synchron anzeigt. 
 In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche 
-Prüfung der Untertitel (@dfischer auch - theoretisch - der korrekte Zeitstempel?)
-
+Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von 
+nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. 
+Werden Untertitel nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
 == Quellen
 
 [.BLOCK_LANG_EN]
