@@ -21,6 +21,8 @@ Bild- und Tonspur sowie Audiodeskription vorhanden sind.
 
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Audiodeskription synchron zu Bild und Ton wiedergegeben wird.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players 
+  oder an fehlerhaften Umsetzung der Audiodeskription liegen. Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
 
 === 3. Hinweise
 
@@ -30,10 +32,11 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 ==== Nicht erfüllt:
 Der Videoplayer stellt Audiodekription nicht synchron zum Bild und Ton dar.
 
-== Einordnung des Prüfschritts
-Die Tabelle A1 verweist auf 7.2.2 Audio description synchronization
+== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+7.2.2 Audio description synchronization
 
 === Abgrenzung zu anderen Prüfschritten
+In diesem Prüfschritt wird geprüft, ob der Videoplayer Audiodeskription synchron anzeigt. In Prüfschritt 9.1.2.5 Audiodeskription für Videos erfolgt hingegen die inhaltliche Prüfung der Audiodeskription. Die Prüfung, ob der Player oder die Umsetzung der Audiodeskription fehlerhaft ist, kann derzeit nicht erfolgen. Wird Audiodeskription nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
 
 == Quellen
 
