@@ -23,7 +23,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation u
 . Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B. über ein blinkendes Icon
 . Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird
 
-== 3. Einordnung des Prüfschritts nach der EN 301 549 V3.1.1
+== Einordnung des Prüfschritts nach der EN 301 549 V3.1.1
   
 6.2.2.4 Visual indicator of Audio with RTT
   
