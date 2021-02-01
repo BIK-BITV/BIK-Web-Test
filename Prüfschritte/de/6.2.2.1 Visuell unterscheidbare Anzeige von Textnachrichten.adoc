@@ -35,11 +35,11 @@ Wenn die Webangebot verschiedene Optionen für die Anzeige der Nachrichte anbiet
 
 Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Fleißtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
 
-=== 4. Einordnung des Prüfschritss
+== Einordnung des Prüfschritss
 
-==== Einordnung des Prüschritts nach der EN 301 549 V3.1.1., Annex A
+==== Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
-Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
+ 6.2.2.1 Visually distinguishable display
 
 == Quellen
 
