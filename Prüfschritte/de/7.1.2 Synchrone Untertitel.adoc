@@ -14,7 +14,7 @@ dass der Videoplayer Untertiel und Ton synchron darstellt. Das bedeutet
   von 100 ms nachdem sie im Player verfügbar ist.
 
 == Warum wird das geprüft?
-Die Untertitel-Standards fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten.
+Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-Standards,untertitelstandards102.html[Untertitel-Standards] fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten.
 
 == Wie wird geprüft?
 
@@ -29,12 +29,12 @@ Tonspur sowie Untertiteln vorhanden sind. Für Live-Videos muss eine Live-Untert
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
 . Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder 
   an fehlerhaften Zeitstempel in der Untertitel-Datei liegen. 
-  Die Ursache muss vom Web-Autor geprüft werden.
+  Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
 
 ==== 2.2 Prüfung von Live-Untertitelung:
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, kann das unterschiedliche Ursachen haben und muss 
+. Werden Untertitel nicht synchron angezeigt, kann das unterschiedliche Ursachen haben und kann derzeit nur 
   vom Web-Autor geprüft werden. 
 
 === 3. Hinweise
@@ -55,6 +55,7 @@ In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen d
 Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von 
 nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. 
 Werden Untertitel nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
+
 == Quellen
 
 [.BLOCK_LANG_EN]
