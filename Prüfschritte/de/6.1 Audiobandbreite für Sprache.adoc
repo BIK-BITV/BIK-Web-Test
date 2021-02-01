@@ -20,11 +20,11 @@ Der Prüfschritt ist anwendbar, wenn die Web-App eine Zwei-Wege-Sprachkommunikat
 . Führt der Hörtest zu keinem klaren Ergebnis, sollte die Dokumentation der Software konsultiert werden. Hier sollte der verwendete Codec zu finden sein. Ggf. muss beim Hersteller der Webanwendung nachgefragt werden.
 . Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich in Erfahrung zu bringen. Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
 
-== 3. Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1., Annex A 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-In der Tabelle A.1 wird auf Abschnitt 6.1 "Audio bandwidth for speech" verwiesen.
+6.1 Audio bandwidth for speech
 
 == Quellen
 
