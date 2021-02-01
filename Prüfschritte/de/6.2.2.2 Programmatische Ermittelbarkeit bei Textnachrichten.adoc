@@ -2,44 +2,44 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.2 "Display of RTT" verwiesen.
 
 == Was wird geprüft?
 
-Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, sollen gesendeter und empfangener Text programmatisch unterscheidbar sein.
+Wenn das Webangebot eine Funktion zur Echtzeit Textkommunikation anbietet, sind gesendeter und empfangener Text programmatisch unterscheidbar.
 Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweiligen Sende- oder Empfangsrichtung.
+
+== Warum wird das geprüft?
+Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, einem Empfänger eine Nachricht zeichenweise anzuzeigen. Ein Empfänger kann jeden Buchstaben, den man schreibt, in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken.
+
+Diese Kommunikationsform ist beispielsweise in Notsituationen hilfreich, in der keine Zeit vergeudet werden soll. Echtzeit-Textkommunikation kann auch für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog darstellen.
+Menschen, die Echtzeit-Textkommunikastion mit einem Hilfsmittel  wie Screenreadern nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten programmatisch zu unterscheiden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
+Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit Textkommunikation
 senden und empfangen kann.
 
-=== Prüfung
+=== 2. Prüfung
 
-Die Web-App-Ansicht mit der Echtzeit-Textkommunikation sollte zusätzlich zur
+Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur
 Quelltext-Analyse mit dem
 Screenreader geprüft werden, um zu beurteilen, ob die notwendigen
 Informationen korrekt an den Screenreader gesendet werden und dieser die
 Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der
 Ausgabe deutlich hervorgeht.
 
-==== Prüfung im Quelltext
+==== 2.1 Prüfung im Quelltext
 
-. Web-App öffnen
-. Prüfen, ob die Web-App das Senden und Empfangen von Echtzeit
+. Webangebot öffnen
+. Prüfen, ob das Webangebot das Senden und Empfangen von Echtzeit
   Textkommunikation anbietet
 . Prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch
   voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext der
   jeweilige Verfasser mit Uhrzeit genannt werden.
 
-==== Zusätzliche Prüfung mittels Screenreader
+==== 2.2 Zusätzliche Prüfung mittels Screenreader
 
 . Screenreader starten
 . die zu prüfende Web-App mit der Ansicht für die Echtzeit-Textkommunikation
@@ -49,6 +49,14 @@ Ausgabe deutlich hervorgeht.
 . auf die Ausgabe des Screenreaders achten, die Sende- und Empfangsrichtung
   muss durch die Ausgabe deutlich und unmissverständlich hervorgehen
 
+== 3. Hinweise
+
+== 4. Bewertung
+
+== Einordnung des Prüfschritts
+Die Tabelle A1 verweist auf 6.6.2.2 Programmatically determinable send and receive direction
+
+=== Abgrenzung zu anderen Prüfschritten
 == Quellen
 
 [.BLOCK_LANG_EN]
