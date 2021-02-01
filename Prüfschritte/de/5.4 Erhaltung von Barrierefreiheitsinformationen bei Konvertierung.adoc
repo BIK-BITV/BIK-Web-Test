@@ -43,9 +43,9 @@ Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des 
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* Die Tabelle A1 verweist auf Abschnitt 5.4 "Preservation of accessibility information during conversion".
+5.4 Preservation of accessibility information during conversion
 
 == Quellen
 
