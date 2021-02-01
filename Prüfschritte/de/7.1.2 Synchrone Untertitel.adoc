@@ -45,8 +45,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel der 
 Untertiteldatei sind korrekt gesetzt.
 
-== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-7.1.2 Captioning synchronization
+== Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
@@ -55,6 +54,9 @@ In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen d
 Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von 
 nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. 
 Werden Untertitel nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+7.1.2 Captioning synchronization
 
 == Quellen
 
