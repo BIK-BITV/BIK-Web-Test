@@ -7,7 +7,9 @@ include::include/attributes.adoc[]
 Wenn das Webangebot Echtzeit Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell unterscheidbar sein und somit voneinander separiert werden.
 
 == Warum wird das geprüft?
+Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, einem Empfänger eine Nachricht zeichenweise anzuzeigen. Ein Empfänger kann jeden Buchstaben, den man schreibt, in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken.
 
+Diese Kommunikationsform ist beispielsweise in Notsituationen hilfreich, in der keine Zeit vergeudet werden soll. Echtzeit-Textkommunikation kann auch für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog darstellen.
 Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden.
 
 == Wie wird geprüft?
