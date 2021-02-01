@@ -58,7 +58,7 @@ Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 5.2 "Activation of accessibility features".
 
