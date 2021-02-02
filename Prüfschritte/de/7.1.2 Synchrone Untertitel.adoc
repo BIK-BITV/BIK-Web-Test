@@ -4,14 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, 
-dass der Videoplayer Untertiel und Ton synchron darstellt. Das bedeutet
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, dass der Videoplayer Untertiel und Ton synchron darstellt. Das bedeutet
 
-* für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht 
-  nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab.
+* für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab.
 
-* für Live-Untertitelung: Die Anzeige des Untertitels erfolgt innerhalb 
-  von 100 ms nachdem sie im Player verfügbar ist.
+* für Live-Untertitelung: Die Anzeige des Untertitels erfolgt innerhalb von 100 ms nachdem sie im Player verfügbar ist.
 
 == Warum wird das geprüft?
 Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-Standards,untertitelstandards102.html[Untertitel-Standards] fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten.
