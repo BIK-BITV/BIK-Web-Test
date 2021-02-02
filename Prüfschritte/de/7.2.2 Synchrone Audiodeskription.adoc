@@ -30,13 +30,13 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === 4. Bewertungen
 ==== Nicht erfüllt:
-Der Videoplayer stellt Audiodekription nicht synchron zum Bild und Ton dar.
+Bild/Ton und Audiodeskription sind nicht synchron.
 
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
-In diesem Prüfschritt wird geprüft, ob der Videoplayer Audiodeskription synchron anzeigt. In Prüfschritt 9.1.2.5 Audiodeskription für Videos erfolgt hingegen die inhaltliche Prüfung der Audiodeskription. Die Prüfung, ob der Player oder die Umsetzung der Audiodeskription fehlerhaft ist, kann derzeit nicht erfolgen. Wird Audiodeskription nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
+In diesem Prüfschritt wird geprüft, ob der Videoplayer Audiodeskription synchron anzeigt. In Prüfschritt 9.1.2.5 Audiodeskription für Videos erfolgt hingegen die inhaltliche Prüfung der Audiodeskription. Die Prüfung, ob der Player oder die Umsetzung der Audiodeskription fehlerhaft ist, kann derzeit nicht erfolgen. Wird Audiodeskription nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 7.2.2 Audio description synchronization
