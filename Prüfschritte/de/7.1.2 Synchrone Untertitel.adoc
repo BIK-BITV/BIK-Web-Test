@@ -42,10 +42,7 @@ Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel de
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird geprüft, ob der Videoplayer Untertitel synchron anzeigt. 
-In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche 
-Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von 
-nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. 
-Werden Untertitel nicht synchron dargestellt, wird bei beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
+In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. Werden Untertitel nicht synchron dargestellt, wird das in beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 7.1.2 Captioning synchronization
