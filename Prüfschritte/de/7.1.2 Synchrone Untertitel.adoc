@@ -11,7 +11,7 @@ Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, dass
 * für Live-Untertitelung: Die Anzeige des Untertitels erfolgt innerhalb von 100 ms nachdem sie im Player verfügbar ist.
 
 == Warum wird das geprüft?
-Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-Standards,untertitelstandards102.html[Untertitel-Standards] fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten.
+Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-Standards,untertitelstandards102.html[Untertitel-Standards] fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten. Außerdem leidet die Gesamtverständlichkeit, wenn Bild/Ton und Untertitel nicht synchron sind.
 
 == Wie wird geprüft?
 
@@ -35,14 +35,13 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === 4. Bewertungen
 ==== Nicht erfüllt:
-Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel der Untertiteldatei sind korrekt gesetzt.
+Bild/Ton und Untertitel sind nicht synchron. 
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird geprüft, ob der Videoplayer Untertitel synchron anzeigt. 
-In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche Prüfung der Untertitel  (@dfischer auch - theoretisch - der korrekte Zeitstempel?). Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. Werden Untertitel nicht synchron dargestellt, wird das in beiden Prüfschritten negativ bewertet mit dem Hinweis auf eine unklare Ursache.
+In diesem Prüfschritt wird geprüft, ob der Videoplayer Untertitel synchron anzeigt. In Prüfschritt 9.1.2.2 Aufgezeichnete Videos mit Untertiteln erfolgt hingegen die inhaltliche Prüfung der Untertitel. Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen. Werden Untertitel nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 7.1.2 Captioning synchronization
