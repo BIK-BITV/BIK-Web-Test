@@ -17,30 +17,25 @@ Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-St
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und 
-Tonspur sowie Untertiteln vorhanden sind. Für Live-Videos muss eine Live-Untertitelung verfügbar sein.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur sowie Untertiteln vorhanden sind. Für Live-Videos muss eine Live-Untertitelung verfügbar sein.
 
 === 2. Prüfung
 ==== 2.1 Prüfung von Untertiteln eines aufgezeichneten Videos:
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder 
-  an fehlerhaften Zeitstempel in der Untertitel-Datei liegen. 
-  Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.  Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
 
 ==== 2.2 Prüfung von Live-Untertitelung:
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, kann das unterschiedliche Ursachen haben und kann derzeit nur 
-  vom Web-Autor geprüft werden. 
+. Werden Untertitel nicht synchron angezeigt, kann das unterschiedliche Ursachen haben und kann derzeit nur vom Web-Autor geprüft werden. 
 
 === 3. Hinweise
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertungen
 ==== Nicht erfüllt:
-Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel der 
-Untertiteldatei sind korrekt gesetzt.
+Der Videoplayer stellt Untertitel nicht synchron zum Ton dar. Die Zeitstempel der Untertiteldatei sind korrekt gesetzt.
 
 == Einordnung des Prüfschritts
 
