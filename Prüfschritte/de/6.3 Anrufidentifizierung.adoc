@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.3 "Caller ID" verwiesen.
-
 == Was wird geprüft?
 
 Wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet,
@@ -20,28 +13,25 @@ Anrufer identifizieren können.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Telekommunikationsfunktionen
-mit Anrufidentifizierung bietet.
+Der Prüfschritt ist anwendbar, wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufers.
 
-Anrufidentifizierung bedeutet hier, die Signalisierung bzw. Anzeige des
-Anrufers.
-
-=== Prüfung
+=== 2. Prüfung
 
 Für die Prüfung muss die Web-App ggf. auf zwei Geräten geöffnet werden.
 
 . Screenreader starten
 . Web-App öffnen
 . Anruf von einem zweiten Gerät tätigen
-. Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader
-  signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die
-  Informationen über den Anrufer im Browser für den Screenreader
-  ohne Umwege auslesbar?
-. Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige
-  muss den Anrufer in irgend einer Weise in Textform identifizieren, z. B. über
-  die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
+. Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die Informationen über den Anrufer im Browser für den Screenreader ohne Umwege auslesbar?
+. Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufer in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
+  
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+* 6.3 Caller ID
 
 == Quellen
 
