@@ -21,7 +21,7 @@ Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Ang
 . Videotelefonieverbindung zwischen den Geräten herstellen
 . Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.
 
