@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der Untertitel-Quelle definiert, zum Video und Audio anzeigen.
+Web-Angebote, die Untertitel anzeigen, sollen diese synchron zum Video und dessen Audio anzeigen, wie in der Untertitel-Quelle definiert.
 
 Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen. Dies bezieht sich theoretisch auch auf Live-Untertitel, die jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text unterliegen, besonders wenn die Konvertierung nicht automatisch erfolgt, sondern durch Menschen geschieht. 
 
