@@ -8,7 +8,7 @@ Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet,
 dass der Videoplayer Audiodeskription synchron zu  Bild und Ton wiedergibt. 
 
 == Warum wird das geprüft?
-Folgt
+Bildbeschreibungen sollten möglichst handlungsynchron umgesetzt werden (siehe auch https://www.ndr.de/fernsehen/barrierefreie_angebote/audiodeskription/Vorgaben-fuer-Audiodeskriptionen,audiodeskription140.html[Vorgaben der Rundfunkanstaltung für Audiodeskription]). Das bedeutet, dass die Audiodekription auf die visuellen Elemente des zu beschreibenden Videos abgestimmt und damit synchron ist. Die sychrone Ausgabe ist für die Gesamtverständlichkeit wichtig.
 
 == Wie wird geprüft?
 
