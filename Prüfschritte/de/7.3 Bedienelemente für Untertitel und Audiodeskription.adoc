@@ -33,7 +33,7 @@ Audiodeskription für das Verständnis nötig sind.
   gleicher Ebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, 
   Lautstärke etc.) angeboten werden.
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription erfüllt ist, 
 ist 7.1.1 Wiedergabe von Untertiteln und 7.2.1 Wiedergabe von Audiodeskripiton ebenfalls 
@@ -48,12 +48,14 @@ Die Bedienelemente zur Aktivierung der Untertitel und Audiodeskription sind nich
 gleichen Interaktionsebene positioniert wie die Bedienelemente zur Wiedergabekontrolle.
 
 == Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
 Bei diesem Prüfschritt geht es darum, *wo* die Bedienelemente für Untertitel und Audiodeskription 
 positioniert sind. In Prüfschritt 7.2.1 Wiedergabe von Audiodeskription geht es darum, dass überhaupt 
 entsprechende Bedienelemente vorhanden sind.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A
-In der Tabelle A1 wird auf 7.3 "User controls for captions and audio description"  verwiesen.
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+User controls for captions and audio description
 
 === Quellen
 
