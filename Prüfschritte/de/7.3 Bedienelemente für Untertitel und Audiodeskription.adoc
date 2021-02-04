@@ -55,7 +55,7 @@ positioniert sind. In Prüfschritt 7.2.1 Wiedergabe von Audiodeskription geht es
 entsprechende Bedienelemente vorhanden sind.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-User controls for captions and audio description
+7.3 User controls for captions and audio description
 
 === Quellen
 
