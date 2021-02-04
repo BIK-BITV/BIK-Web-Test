@@ -8,6 +8,10 @@ Web-Angebote, die Untertitel anzeigen, sollen diese synchron zum Video und desse
 
 Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen. Dies bezieht sich theoretisch auch auf Live-Untertitel, die jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text unterliegen, besonders wenn die Konvertierung nicht automatisch erfolgt, sondern durch Menschen geschieht. 
 
+== Warum wird das geprüft?
+
+Wenn Untertitel nicht synchron laufen, wird für Menshcn mit Hörbehinderung das Verständnis der Video-Inhalte schwierig bis unmöglich, gerade wenn es sich um Dialoge handelt oder die Ton sich auf Bildinhalte bezieht.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
