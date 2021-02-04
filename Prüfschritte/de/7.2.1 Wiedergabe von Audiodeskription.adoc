@@ -68,9 +68,9 @@ In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüf
 ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine 
 Audiodeskription vorhanden ist. Es geht also um die inhaltliche Beurteilung.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* In der Tabelle A1 wird auf 7.2.1 "Audio Description Playback“ verwiesen.
+7.2.1 Audio Description Playback
 
 == Quellen
 
