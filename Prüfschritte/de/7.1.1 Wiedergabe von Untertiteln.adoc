@@ -91,9 +91,9 @@ der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde
 und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
 Untertitel verwendet werden kann. 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* Tabelle A1: Verweis auf 7.1.1 "Captioning playback"
+7.1.1 "Captioning playback"
 
 == Quellen
 
