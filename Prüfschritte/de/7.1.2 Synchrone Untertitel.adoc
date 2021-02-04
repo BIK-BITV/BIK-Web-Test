@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
 == Was wird geprüft?
 
 Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der Untertitel-Quelle definiert, zum Video und Audio anzeigen.
