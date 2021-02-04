@@ -4,64 +4,57 @@ include::include/attributes.adoc[]
 
 == Grundlage des Prüfschritts
 
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.1.2 "Captioning synchronization" verwiesen.
-
 == Was wird geprüft?
 
-Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der
-Untertitel-Quelle definiert, zum Video und Audio anzeigen.
+Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der Untertitel-Quelle definiert, zum Video und Audio anzeigen.
 
-Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom
-Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen.
-Dies bezieht sich auch auf Live-Untertitel, sobald die Web-App die Untertitel
-empfängt, soll sich die Anzeige der Untertitel nicht länger als um 100
-Millisekunden verzögern.
+Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen. Dies bezieht sich theoretisch auch auf Live-Untertitel, die jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text unterliegen, besonders wenn die Konvertierung nicht automatisch erfolgt, sondern durch Menschen geschieht. 
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
+Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit zusätzlich eingebundenen Untertiteln (open captions) enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
-nicht geklärt.
-Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug
-zu diesem Prüfschritt, hinterlassen].
-
-In der Praxis sollten Web-Apps, bei der die Untertitel ohne merkliche
-Verzögerung angezeigt werden, zu diesem Prüfschritt konform sein.
+. Video mit zusätzlich eingebundenen Untertitel abspielen. Ist die Untertitelung synchron?
+. Wenn Ton und Untertitelung auseinanderlaufen, die Video-Datei in einem konformen Player abspielen. Laufen Ton und Untertitelung auch hier auseinander?
 
 Detailliertere Untersuchungen scheinen derzeit nur möglich, wenn die Web-App
 die Wiedergabe von externen Videoinhalten zulässt.
 
-Hier kann dann anhand einer Beispiel-Video-Datei mit eingebetteten Untertiteln,
-die korrekte Zeitstempel gesetzt hat, ein Vergleich angestellt
-werden:
+=== 3. Hinweise
 
-Das Video wird dabei in einem konformen Player abgespielt und zusätzlich in der
-zu testenden Web-App.
-Wenn die Untertitel in der Web-App im vergleich zum konformen Player verzögert
-dargestellt werden, ist dieses Problem damit auf die Web-App zurückzuführen.
+Falls sich die niht synchrone Video-Datei nicht herunterladen lässt um sie in einem anderen konformen Player abzuspielen, muss ggf. der Anbieter um Zugang zu der Videodatei einschließlich Untertitel-Track gebeten werden.
 
-Spielt die Web-App jedoch nur mitgelieferte Videos ab, sollte
-Stichprobenartig geprüft werden, ob es in der App Videos gibt, bei denen
-die Untertitel korrekt und damit synchron zum Video dargestellt werden.
-Wenn dies der Fall ist, kann die Web-App Untertitel prinzipiell korrekt
-darstellen.
-Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
-höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
-selbst.
+Ist ein Vergleich zwischen dem eingebundenen Plaer und eine mkonformen Plaxer nicht möglich, kann ggf. stichprobenartig geprüft werden, ob es im Webangebot Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden.
+Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt.
+Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
+
+Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch nicht geklärt. Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug zu diesem Prüfschritt, hinterlassen].
+
+=== 4. Bewertung
+
+==== Erfüllt: 
+
+Die Untertitel sind auch beim Abspeilen im konformen Player nicht synchron, das Problem liegt damit höchstwahrscheinlich an der Codierung der Untertitel-Datei und nicht am eingebundenen Player. Dann ist voraussichtlich der Prüfschritt 9.1.2.2 Untertitel nicht oder nicht voll erfüllt.
+
+==== Nicht voll erfüllt:
+
+Die im der Web-Anwendung nicht synchron Untertitel laufen beim Abspielen in einem konformen Player synchron. Hier liegt vermutlich ein Bug des eingebundenen Players vor.
 
 ==== Hinweise
 
-In diesem Prüfschritt werden keine Inhalte geprüft!
-Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
-Untertiteln synchron darzustellen.
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschrtts nach EN 301 549 V3.1.1
+
+* 7.1.2 Captioning synchronization
+
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt werden nicht Inhalte, Qualität und Angemessenheit der Untertitel geprüft, dies geschieht in Prüfschritt 9.1.2.2.  Der eingebundene Player soll lediglich grundsätzlich in der Lage sein, Videos mit Untertiteln synchron darzustellen.
 
 == Quellen
 
