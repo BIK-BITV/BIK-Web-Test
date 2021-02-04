@@ -30,9 +30,7 @@ die Wiedergabe von externen Videoinhalten zulässt.
 
 Falls sich die niht synchrone Video-Datei nicht herunterladen lässt um sie in einem anderen konformen Player abzuspielen, muss ggf. der Anbieter um Zugang zu der Videodatei einschließlich Untertitel-Track gebeten werden.
 
-Ist ein Vergleich zwischen dem eingebundenen Plaer und eine mkonformen Plaxer nicht möglich, kann ggf. stichprobenartig geprüft werden, ob es im Webangebot Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden.
-Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt.
-Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
+Ist ein Vergleich zwischen dem eingebundenen Player und einem konformen Player nicht möglich, kann ggf. stichprobenartig geprüft werden, ob es im Webangebot Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden. Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt. Der Prüfschritt ist damit erfüllt, Probleme mit der Synchronität sind dann höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
 
 Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch nicht geklärt. Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug zu diesem Prüfschritt, hinterlassen].
 
