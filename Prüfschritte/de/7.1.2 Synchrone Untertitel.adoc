@@ -16,7 +16,7 @@ Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-St
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur sowie Untertiteln vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur sowie zuschaltbare Untertiteln (closed captions) vorhanden sind.
 
 === 2. Prüfung
 ==== 2.1 Prüfung von Untertiteln eines aufgezeichneten Videos:
