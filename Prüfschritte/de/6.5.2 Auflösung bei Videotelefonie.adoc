@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
 == Was wird geprüft?
 
 Web-Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
