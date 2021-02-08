@@ -4,20 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
+Wenn das Web-Angebot Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Web-Angebot Videotelefonie unterstützt.
 
 === 2. Prüfung
 
-Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken abgeglichen werden. Für die Prüfung muss die Web-App auf zwei Geräten geöffnet werden.
+Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken abgeglichen werden. Für die Prüfung muss das Web-Angebot auf zwei Geräten geöffnet werden.
 
-. Die unterstützte Bildwiederholfrequenz der App-Dokumentation entnehmen oder vom Hersteller erfragen. Werden mindestens 20 Bilder pro Sekunde unterstützt?
-. App auf zwei Geräten öffnen
+. Die unterstützte Bildwiederholfrequenz der Dokumentation des Web-Angebots entnehmen oder vom Hersteller erfragen. Werden mindestens 20 Bilder pro Sekunde unterstützt?
+. Web-Angebot auf zwei Geräten öffnen
 . Videotelefonieverbindung zwischen den Geräten herstellen
 . Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?
 
@@ -29,7 +29,7 @@ Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noc
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfaschritts naxh EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 * 6.5.3 Framerate
 
