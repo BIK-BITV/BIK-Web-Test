@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls Textkommunikation in Echtzeit zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss sie ebenfalls Textkommunikation in Echtzeit zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
 
 == Warum wird das geprüft?
 
@@ -12,20 +12,20 @@ Menschen, die nicht Sprache nutzen können oder wollen, sollen die Möglichkeit 
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu testende Web-App Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
+Der Prüfschritt ist anwendbar, wenn das zu testende Webangebot Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Web-Anwendung öffnen.
+. Webangebot öffnen.
 . Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit unterstützt wird.
   
 == Einordnung des Prüfschritts 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1., Annex A 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-In der Tabelle A1 wird auf Abschnitt 6.2.1.1 "RTT communication" verwiesen.
+6.2.1.1 RTT communication
 
 == Quellen
 
