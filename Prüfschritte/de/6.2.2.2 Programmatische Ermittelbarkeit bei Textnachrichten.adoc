@@ -24,26 +24,18 @@ senden und empfangen kann.
 === 2. Prüfung
 
 Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur
-Quelltext-Analyse mit dem
-Screenreader geprüft werden, um zu beurteilen, ob die notwendigen
-Informationen korrekt an den Screenreader gesendet werden und dieser die
-Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der
-Ausgabe deutlich hervorgeht.
+Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die notwendigen Informationen korrekt an den Screenreader gesendet werden und dieser die Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der Ausgabe deutlich hervorgeht.
 
 ==== 2.1 Prüfung im Quelltext
 
 . Webangebot öffnen
-. Prüfen, ob das Webangebot das Senden und Empfangen von Echtzeit
-  Textkommunikation anbietet
-. Prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch
-  voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext der
-  jeweilige Verfasser mit Uhrzeit genannt werden.
+. Prüfen, ob das Webangebot das Senden und Empfangen von Echtzeit-Textkommunikation anbietet
+. Prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext der jeweilige Verfasser mit Uhrzeit genannt werden.
 
 ==== 2.2 Zusätzliche Prüfung mittels Screenreader
 
 . Screenreader starten
-. die zu prüfende Web-App mit der Ansicht für die Echtzeit-Textkommunikation
-  aufrufen
+. das zu prüfende Web-Angebot mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
 . einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
 . die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
 . auf die Ausgabe des Screenreaders achten, die Sende- und Empfangsrichtung
