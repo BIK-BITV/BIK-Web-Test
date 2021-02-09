@@ -33,8 +33,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 ==== 2.1 Anzeigen von closed captions
 
-. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. 
-  Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` spezifiziert, dass es sich um Untertitel handelt.
+. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` spezifiziert, dass es sich um Untertitel handelt.
 . Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer eine Möglichkeit bietet, diese ein- und auszublenden.
 
 === 3. Hinweise
@@ -62,9 +61,7 @@ ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
 <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
 Videos mit Untertiteln>>
-endif::env_embedded[] bezieht sich hingegen auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
-der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
-Untertitel verwendet werden kann. 
+endif::env_embedded[] bezieht sich hingegen auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter Untertitel verwendet werden kann. 
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
