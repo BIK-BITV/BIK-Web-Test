@@ -31,13 +31,13 @@ Der Prüfschritt ist immer anwendbar.
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
 . Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
-. Über den Button "Erweitert..." für die Schrifttypen "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schriftarten einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
+. Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
 . Prüfen, ob sich die Einstellungen der Schrift, Schriftgröße und Farben auf die Darstellung der Seite auswirken.
 
 === 3. Hinweise
 
-Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellugsmöglichkeiten bietet.  In anderen Browsern sinf ggf. nicht alle dieser Einstellungen zu finden oder sie sind unwirksam.
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellugsmöglichkeiten bietet.  In anderen Browsern sind ggf. nicht alle dieser Einstellungen zu finden oder sie sind unwirksam.
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
@@ -46,7 +46,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Erfüllt: 
 
-Die Seite wird nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Fließtexte erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert.
+Die Seite wird nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Schriften erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert in der jeweils eingestelten Schrifttype.
 
 ==== Nicht voll erfüllt:
  
