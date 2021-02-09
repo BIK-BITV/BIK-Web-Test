@@ -37,7 +37,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === 3. Hinweise
 
-* Zur Prüfung sollte wenn möglich der Firefox Browser genutzt werden, der diese Enistellugsmöglichkeiten bietet.  In anderen Browsern sinf ggf, nicht alle dieser Einstellungen zu finden, oder sie werden nicht wirksam.
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellugsmöglichkeiten bietet.  In anderen Browsern sinf ggf. nicht alle dieser Einstellungen zu finden oder sie sind unwirksam.
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
