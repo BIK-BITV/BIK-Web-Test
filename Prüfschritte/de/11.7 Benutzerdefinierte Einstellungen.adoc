@@ -39,6 +39,8 @@ Der Prüfschritt ist immer anwendbar.
 
 Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet.  In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
 
+Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
+
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
 
@@ -46,7 +48,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Erfüllt: 
 
-Die Seite wird nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Schriften erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert in der jeweils eingestelten Schrifttype.
+Die Seite wird im Firefox-Browser  nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Schriften erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert in der jeweils eingestelten Schrifttype.
 
 ==== Nicht voll erfüllt:
  
