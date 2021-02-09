@@ -64,8 +64,6 @@ Videos mit Untertiteln>> bezieht sich hingegen auf den Inhalt der Untertitel. Es
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
-
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 * 7.1.1 "Captioning playback"
