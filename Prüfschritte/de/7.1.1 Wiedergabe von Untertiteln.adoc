@@ -69,7 +69,7 @@ der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde
 und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
 Untertitel verwendet werden kann. 
 
-Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tasstaturbedienbarkeit, Fokushervorhebung usw. werden in den entsptechenden Prüfschritten geprüft.
+Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
 
