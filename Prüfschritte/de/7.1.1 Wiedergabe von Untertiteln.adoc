@@ -62,18 +62,18 @@ ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
 <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
 Videos mit Untertiteln>>
-endif::env_embedded[]
-bezieht sich hingegen 
-auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
-der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde 
-und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
+endif::env_embedded[] bezieht sich hingegen auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
+der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
 Untertitel verwendet werden kann. 
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
 
-* Tabelle A1: Verweis auf 7.1.1 "Captioning playback"
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+
+7.1.1 "Captioning playback"
 
 == Quellen
 

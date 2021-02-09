@@ -37,11 +37,13 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 ==== Nicht erfüllt:
 
 == Einordnung des Prüfschritts
-* In dieser Tabelle A1 wird auf 7.2.3 Preservation of audio description verwiesen.
 
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Audiodeskription kommt. In den Prüfschritten 7.2.1 und 7.2.2 geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+7.2.3 Preservation of audio description
 
 == Quellen
 
