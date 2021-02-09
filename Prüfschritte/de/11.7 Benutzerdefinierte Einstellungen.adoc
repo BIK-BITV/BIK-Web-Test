@@ -48,7 +48,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Erfüllt: 
 
-Die Seite wird im Firefox-Browser  nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Schriften erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert in der jeweils eingestelten Schrifttype.
+* Die Seite wird im Firefox-Browser  nach dem Vornehmen von eigenen Farbeinstellungen (z.B. heller Text auf dunklem Hintergrund) richtig dargestellt, Schriften erscheinen nach Vergrößerung der Standard-Schriftgröße in den Browsereinstellungen vergrößert in der jeweils eingestelten Schrifttype.
 
 ==== Nicht voll erfüllt:
  
