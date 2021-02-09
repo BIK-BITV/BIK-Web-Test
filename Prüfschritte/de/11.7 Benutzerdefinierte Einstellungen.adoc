@@ -31,14 +31,13 @@ Der Prüfschritt ist immer anwendbar.
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
 . Im Bereich "Sprache und Erscheinungsbild" Die Größe auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
+. Über den Button Erweitert... für Serif, Sans Serif und Feste Breite duetlich abweichende Schriftarten einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
-. Prüfen, ob sich die Einstellungen auf die Darstellung der Seite auswirken.
+. Prüfen, ob sich die Einstellungen der Schrift, Schriftgröße und Farben auf die Darstellung der Seite auswirken.
 
 === 3. Hinweise
 
-* Wenn einer der genannten Einstellungen in den verschiedenen Browsern nicht zu finden ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung bei der Prüfung nicht berücksichtigt.
-* Änderungen der Standard-Schriftart werden zur Zeit weder im Firefox- noch im Chrome-Browser übernommen, sobald über CSS für die zu prüfende Seite eine Schriftart festgelegt worden ist, etwa über `font-family` auf dem `body`-Element. Die Wirksamkeit der Änderung der Standard-Schriftart wird deshalb zurzeit nicht geprüft.
-* Die Schriftart und -Größe muss sich nur in Fließtexten an die Einstellungen anpassen. Es wird nicht verlangt, dass Bedienelemente der Webseite dynamische Veränderungen dieser Einstellungen unterstützen, da hiermit das Layout der Webseite verändert würde.
+* Zur Prüfung sollte wenn möglich der Firefox Browser genutzt werden, der diese Enistellugsmöglichkeiten bietet.  In anderen Browsern sinf ggf, nicht alle dieser Einstellungen zu finden, oder sie werden nicht wirksam.
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
