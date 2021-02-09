@@ -19,7 +19,7 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild
 
 . Das Video mit zugeschalteter Audiodeskription in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Audiodeskription synchron zu Bild und Ton wiedergegeben wird.
-. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Umsetzung der Audiodeskription liegen. Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
+. Wird die zugeschaltetet Audiodeskription nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Umsetzung der Audiodeskription liegen. Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
 
 === 3. Hinweise
 
