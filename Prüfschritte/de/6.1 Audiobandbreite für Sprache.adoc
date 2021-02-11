@@ -10,12 +10,7 @@ Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie 
 
 == Warum wird das geprüft? 
 
-Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig.
-
-== Warum wird das geprüft?
-
-Um eine gute Sprachverständlichkeit zu garantieren, wird ein
-verbindlicher Mindeststandard für die Audioqualität festgelegt.
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshaklb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
 
 == Wie wird geprüft?
 
