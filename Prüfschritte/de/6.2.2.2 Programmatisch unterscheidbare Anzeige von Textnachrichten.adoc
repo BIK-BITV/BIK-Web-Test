@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
 
+== Warum wird das geprüft?
+
+Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in einer Kommunikation lesen wollen, müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. (Darüber hinaus ist es auch sinnvoll, programmatisch zwischen empfangenen Texten verschiedener Teilnehmenr unterscheiden zu können).
+
 == 1. Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
@@ -27,7 +31,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation send
 . auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
 
 === 3. Hinweise
-Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anznehmen, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innenn unterscheidbar sind.
+Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anznehmen, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
 
 === 4. Bewertung
 
