@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.7 "User preferences" verwiesen.
-
 == Was wird geprüft?
 
 Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen.
@@ -21,46 +14,52 @@ Im Einzelnen können dies folgende Punkte sein:
 * Schriftgrößen
 * Darstellung des Fokuscursors
 
-Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten,
-wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden.
+Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden.
+
+== Warum wird das geprüft?
+
+Wenn Menschen eigene Einstellungen im System oder im Browser vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
+
+. Die Seite im Firefox Browser laden
+. Einstellungen öffnen (Element Menü öffnen > Einstellungen)
+. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
+. Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
+. Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
+. Prüfen, ob sich die Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken.
+
+=== 3. Hinweise
+
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet.  In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
+
+Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der
-Entwicklung der Prüfung mitzuwirken.
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
 
-==== Hinweise
+=== 4. Bewertung
 
-Wenn einer der unten genannten Einstellungen in den verschiedenen Browsern
-nicht zu finden ist und somit vom Nutzer nicht angepasst werden kann, wird
-diese Einstellung bei der Prüfung nicht berücksichtigt.
+==== Erfüllt: 
 
-Die Schriftart und -Größe muss sich nur in Fließtexten an den
-Browsereinstellungen richten.
-Es wird nicht verlangt, dass Bedienelemente der Webseite dynamische
-Veränderungen dieser Einstellungen unterstützen, da hier das Layout der
-Webseite verändert würde.
+* Die Seite wird im Firefox-Browser nach dem Vornehmen von abweichenden Einstellungen (z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt, Schriften erscheinen vergrößert und in der jeweils eingestelten Schrifttype.
 
-===== Farben
+==== Nicht voll erfüllt:
+ 
+* Texte haben bei Nutzung eigener Farbeinstellungen nicht genug Kontrast oder verschwinden
+* Fließtext wird nicht vergrößert dargestellt.
 
-Wenn der Browser Optionen für die Darstellung von Farben anbietet,
-müssen diese in der zu prüfenden Seite übernommen werden.
-Für die Prüfung werden Browsereinstellungen verändert und die
-zu prüfende Seite erneut geöffnet.
-Die Änderungen sollten dann in allen Ansichten der Webseite sichtbar sein.
+== Einordnung des Prüfschritts
 
-===== Schriftart und Schriftgröße
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1, Annex A
 
-Die Darstellung von Fließtexten richtet sich nach den Einstellungen im Browser.
-Für die Prüfung werden die Einstellungen verändert und die zu
-prüfende Webseite wird erneut geöffnet.
+Tabelle A1 verweist auf Abschnitt 11.7 "User preferences".
 
 == Quellen
 

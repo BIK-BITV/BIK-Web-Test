@@ -19,7 +19,7 @@ Nutzer dabei unterstützen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen wie Content Management Systemen anwendbar,  Ergebnis eines Autorenwerkzeugs ist, etwa eines Content Management Systems. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben, etwa die Vergabe einer Kommentareüberschrift oder Funktionen zur Binnenauszeichnung des Kommentars, wie etwa Listen oder Texthervorhebungen.
+Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen wie Content Management Systemen anwendbar. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben, zum Beispiel die Vergabe einer Kommentar-Überschrift oder Funktionen zur Binnenauszeichnung des Kommentars, etwa Listen oder Texthervorhebungen.
 
 Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
 
