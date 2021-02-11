@@ -1,4 +1,6 @@
 = Prüfschritt 6.2.2.4 Echtzeitanzeige von Sprech-Aktivität
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
