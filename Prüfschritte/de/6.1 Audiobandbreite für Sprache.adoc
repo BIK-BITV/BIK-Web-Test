@@ -8,6 +8,10 @@ Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garanti
 
 Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
+== Warum wird das geprüft? 
+
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
