@@ -1,0 +1,70 @@
+= Prüfschritt 6.2.2.2 Programmatisch unterscheidbare Anzeige von Echtzeit-Textnachrichten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
+
+== 1. Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann.
+
+=== 2. Prüfung
+
+==== 2.1 Quelltext-Prüfung
+. Web-App öffnen
+. In den Developer Tools des Browsers prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext die jeweilige Verfasser:innen mit Uhrzeit genannt werden. Die unterscheidenden Merkmale (etwa Nutzer-Namen oder Kürzel) dürfen dabei nicht vor Hilfsmitteln versteckt sein, etwa über ´display:none´ oder ´aria-hidden=true´.
+
+==== 2.2 Zusätzliche Prüfung mittels Screenreader
+
+. Screenreader starten
+. die zu prüfende Web-App mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
+. einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
+. die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
+. auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
+
+=== 3. Hinweise
+Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anznehmen, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innenn unterscheidbar sind.
+
+=== 4. Bewertung
+
+==== Erfüllt: 
+
+Die Eingaben des Nutzers selbst und die emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, z.B. über einen Präfix.
+
+==== Eher erfüllt:
+
+Die Eingaben des Nutzers selbst snd von emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
+
+==== Nicht erfüllt
+
+Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichkeit, programmatisch zwischen eigenen und fremden Eingaben zu unterscheiden.
+
+== Einordnung des Prüfaschritts 
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.1.1
+
+* 6.2.2 "Display of RTT"
+* 6.2.2.2 Programmatically determinable send and receive direction
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.2.2.2 Programmatically determinable send and receive direction
+
+[.BLOCK_LANG_EN]
+--
+Where ICT has RTT send and receive capabilities, the send/receive direction of
+transmitted/received text shall be programmatically determinable, unless the
+RTT is implemented as closed functionality. 
+
+NOTE:
+This enables screen readers to distinguish between incoming text and outgoing
+text when used with RTT functionality.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.2 "Programmatically determinable send
+and receive direction")
