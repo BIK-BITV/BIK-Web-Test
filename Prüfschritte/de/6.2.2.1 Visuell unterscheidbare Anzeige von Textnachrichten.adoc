@@ -40,7 +40,7 @@ Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
 
 ==== 4.2 Abgrenzung zu anderen Prüfschritten
 
-Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt.
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa das der Text selbst oder auch Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
 
 [.BLOCK_LANG_EN]
 === 6.2.2.1 Visually distinguishable display
