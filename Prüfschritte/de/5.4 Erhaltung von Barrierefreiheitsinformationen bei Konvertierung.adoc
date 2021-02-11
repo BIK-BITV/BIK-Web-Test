@@ -10,9 +10,9 @@ Wenn zum Beispiel  eine Web-App HTML-Dateien in PDF konvertiert, sollen nach der
 
 Proprietäre Erweiterungen müssen nicht berücksichtigt werden. Dies könnten spezielle Dateiformatserweiterungen von einzelnen Herstellern sein, die nur von einer begrenzten Anzahl an User-Agents / Anzeigeprogrammen unterstützt werden und dabei nicht offen standardisiert sind.
 
-=== Warum wird das geprüft?
+== Warum wird das geprüft?
 
-Nutzer, die die Barrierefreiheits-Informationen (Überschriftenauszeichnung, Alternativtexte, Untertitel usw.) benötigen, sollen diese auch im Zielformat nutzen können, sofern die Zielformate die Information grundsätzlich unterstützen.
+Nutzer, welche die Barrierefreiheits-Informationen (Überschriftenauszeichnung, Alternativtexte, Untertitel usw.) benötigen, sollen diese auch im Zielformat nutzen können, sofern die Zielformate die Information grundsätzlich unterstützen.
 
 == Wie wird geprüft?
 
