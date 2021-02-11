@@ -17,7 +17,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung (zusätzlich zur Sprachko
 
 === 2. Prüfung
 
-. Die Dokumentation der Web-Anwendung oder den Anbieter der Web-Anwendung konsultieren. Werden (je nach technischer Umsetzung) die jeweils geltenden aktellen Standards unterstützt?
+. Die Dokumentation der Web-Anwendung oder den Anbieter der Web-Anwendung konsultieren. Werden (je nach technischer Umsetzung) die jeweils anwendbaren aktuellen technischen Standards für Echtzeit-Textkommunikation unterstützt?
 
 === 3. Hinweise
 
