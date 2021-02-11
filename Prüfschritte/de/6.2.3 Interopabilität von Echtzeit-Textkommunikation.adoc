@@ -1,79 +1,52 @@
-= Prüfschritt 6.2.3 Interopabilität von Echtzeit-Kommunikation
+= Prüfschritt 6.2.3 Interoperabilität von Echtzeit-Kommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.3 "Interoperability" verwiesen.
-
 == Was wird geprüft?
 
-Web-Apps, die Textkommunikation in Echtzeit unterstützen und mit anderen
-Anwendungen mit Echtzeit-Textkommunikation-Funktionalität zusammenarbeiten,
-sollen implementationsspezifische Methoden zur Interopabilität von
-Echtzeit-Textkommunikationunterstützen.
+Web-Anwendungen, welche (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation mit anderen Anwendungen erlauben, sollen Interoperabilität, also die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards für Echtzeit Text-Kommunikation unterstützen.
+
+== Warum wird das geprüft?
+Wenn Web-Anwendungen, die zusätzlich zur Kommunikation über Sprache außerdem Echtzeit-Text-Kommunikation (RTT) bieten, mit anderen solchen Anwendungen in Austausch treten, sollen die Mechanismen bei der Echtzeit-Text-Kommunikation auf beiden Seiten gleichermaßen funktionieren. Dies betrifft etwa die Anzeige von nicht oder fehlerhaft übertragenen Zeichen. Dies ist sichergestellt, wenn auf beiden Seiten jeweils geltende technische Standards der ITU, der IETF oder von ETSI unterstützt werden. Wenn von der Web-Anwendung stattdessen proprietäre Mechanismen für RTT eingesetzt werden, funktionieren diese ggf. nicht beim Austausch mit anderen Anwendungen, die RTT unterstützen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Textkommunikation in
-Echtzeit unterstützt und mit anderer Software mit dieser Unterstützung
-zusammenarbeitet.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung (zusätzlich zur Sprachkommunikation) Echtzeit-Textkommunikation unterstützt und potentiell mit anderer Kommunikations-Software mit solcher Unterstützung kommunizieren kann.
 
-Wenn also z. B. App A mit App B Sprachtelefonie unterstützt, muss auch die
-Unterstützung von Textkommunikation in Echtzeit gegeben sein, sodass beide
-Apps auch mit Echtzeit-Text kommunizieren können.
-Voraussetzung ist dabei, dass beide Apps Textkommunikation in Echtzeit
-generell unterstützen.
+=== 2. Prüfung
 
-=== Prüfung
+Die Dokumentation der Web-Anwendung oder den Anbieter der Web-Anwendung konsultieren. Werden (je nach technischer Umsetzung) die jeweils anwendbaren aktuellen technischen Standards für Echtzeit-Textkommunikation unterstützt?
 
-Es muss zuallererst ermittelt werden ob die App generell mit anderen Apps eine
-Kommunikation (z. B. Sprach- oder Videotelefonie) ermöglicht.
-Diese anderen Apps müssen dabei ebenfalls Echtzeit-Textkommunikation
-unterstützen.
+=== 3. Hinweise
 
-Ist dies der Fall, muss getestet werden, ob eine Echtzeit-Textkommunikation
-mit den verschiedenen Apps etabliert werden kann.
+Bei der Beurteilung der Standards-Unterstützung muss die aktuelle Entwicklung der Standards berücksichtigt werden. Ggf. sind mittlerweile neuere Standards für die Kommunikationsmethode gängig.
 
-Funktioniert die Inter-App-Kommunikation mittels Echtzeit-Text, ist dies ein
-Indiz für eine gute Interopabilität.
-Dennoch müssen weitere Hinweise beachtet werden, um den Grad der
-Interopabilität koreekt zu beurteilen.
+EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standards:
 
-Um die verwendeten Standards und Protokolle im Folgenden in Erfahrung zu
-bringen muss die technische Dokumentation oder der Software-Hersteller befragt
-werden.
-
-Je nach Kommunikationsmethode, müssen die korrespondierenden Standards für
-die Echtzeit-Textkommunikation unterstützt werden.
-Dabei ist die aktuelle Entwicklung der Standards zu berücksichtigen, ggf.
-sind neuere Standards für die Kommunikationsmethode mittlerweile gängig.
-
-* Die App kommuniziert über das öffentliche Telefonnetz:
-+
-  Die Empfehlungen ITU-T V.18 [i.23] oder dessen Text-Telefonie-Standards in
-  den Anhängen werden für die Echtzeit-Textkommunikation verwendet.
+* Die  Web-Anwendung kommuniziert über das öffentliche Telefonnetz:
+Die Empfehlungen ITU-T V.18 [i.23] oder dessen Text-Telefonie-Standards in
+den Anhängen werden für die Echtzeit-Textkommunikation verwendet.
 
 * Voice over IP (VoIP) über das Session Initiation Protocol (SIP):
-+
-  Empfehlungen der IETF zu Echtzeit-Textkommunikation RFC 4103 [i.13] werden
-  verwendet.
+Empfehlungen der IETF zu Echtzeit-Textkommunikation RFC 4103 [i.13] werden
+verwendet.
 
-* Voice over IP (VoIP) über das IP Multimedia Sub-System (IMS):
-+
-  Hier sind die Protocole ETSI TS 126 114
-  [i.10], ETSI TS 122 173 [i.11] und ETSI TS 134 229 [i.12] relevant.
+* Die Web-Anwendung nutzt Voice over IP (VoIP) über das IP Multimedia Sub-System (IMS):
+Hier sind die Protokolle ETSI TS 126 114
+[i.10], ETSI TS 122 173 [i.11] und ETSI TS 134 229 [i.12] relevant.
 
 * Wenn andere Kommunikationsmethoden verwendet werden:
-+
-  Gemeinsame, relevante und veröffentlichte Standards werden unterstützt.
-  Dabei unterstützt der gemeinsame Standard die Signalisierung von verlorenen
-  und fehlerhaft übertragenen Zeichen.
+Gemeinsame, relevante und veröffentlichte Standards werden unterstützt. 
+Dabei unterstützt der gemeinsame Standard die Anzeige von verlorenen 
+und fehlerhaft übertragenen Zeichen.
+  
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschriftts nach EN 301 549 V3.1.1
+
+* 6.2.3 Interoperability
 
 == Quellen
 

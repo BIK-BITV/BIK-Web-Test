@@ -45,7 +45,7 @@ schlecht bewertet werden.
 
 Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
 der Nutzer erfüllen.
-Beispielsweise kann die Inline-Darstellung von Empfangenen und gesendeten
+Beispielsweise kann die Inline-Darstellung von empfangenen und gesendeten
 Nachrichten für Braille-Nutzer vorteilhaft sein.
 
 == Quellen

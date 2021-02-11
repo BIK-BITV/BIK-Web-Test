@@ -35,13 +35,13 @@ Für die Prüfung muss die Web-App ggf. auf zwei Geräten geöffnet werden.
 . Screenreader starten
 . Web-App öffnen
 . Anruf von einem zweiten Gerät tätigen
-. prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader
-  signalisiert wird, wird der Anrufer automatisch angesagt oder sind die
+. Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader
+  signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die
   Informationen über den Anrufer im Browser für den Screenreader
   ohne Umwege auslesbar?
-. prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird, die Anzeige
-  muss den Anrufer in irgendeinerweise in Textform identifizieren, z. B. über
-  die Telefonnummer, Name etc
+. Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige
+  muss den Anrufer in irgend einer Weise in Textform identifizieren, z. B. über
+  die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
 
 == Quellen
 

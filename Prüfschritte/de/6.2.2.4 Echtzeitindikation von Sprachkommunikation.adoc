@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.2.4 Echtzeitindikation von Sprachkommunikation
+= Prüfschritt 6.2.2.4 Echtzeitanzeige von Sprech-Aktivität
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -47,8 +47,8 @@ unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
 [.BLOCK_LANG_EN]
 --
 Where ICT provides two-way voice communication, and has RTT capabilities, the
-ICT shall provide a real-time visual 
-indicator of audio activity on the display.
+ICT shall provide a real-time visual indicator of audio activity on the display.
+
 NOTE 1:
 The visual indicator may be a simple character position on the display that
 flickers on and off to reflect audio activity, or presentation of the

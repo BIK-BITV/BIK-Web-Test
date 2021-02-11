@@ -14,7 +14,7 @@ In dieser Tabelle wird auf Abschnitt
 Wenn die Web-Anwendung Zwei-Wege-Kommunikation ermöglicht, muss sie ebenfalls
 Textkommunikation in Echtzeit zur Verfügung stellen.
 
-Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
+Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen
 wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
 == Wie wird geprüft?

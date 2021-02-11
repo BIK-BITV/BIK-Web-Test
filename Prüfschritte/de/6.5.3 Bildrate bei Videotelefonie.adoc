@@ -37,7 +37,7 @@ Für die Prüfung muss die Web-App auf zwei Geräten geöffnet werden.
   erfragen, sind dies mindestens 20 Bilder pro Sekunde?
 . App auf zwei Geräten öffnen
 . Videotelefonieverbindung zwischen den Geräten herstellen
-. Prüfen, ob das Bild flüssig dargestellt wird, scheint die Angabe des
+. Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des
   Herstellers über die Bildrate plausibel?
 
 ==== Hinweise
