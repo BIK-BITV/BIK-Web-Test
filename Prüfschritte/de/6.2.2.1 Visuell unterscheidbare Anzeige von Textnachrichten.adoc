@@ -8,7 +8,7 @@ Wenn das Webangebot Echtzeit-Textkommunikation senden und empfangen kann, soll d
 
 == Warum wird das geprüft?
 
-Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden. So kpnnen sie leichter Dinge finden, die sie selbst oder die andere gesagt (technisch: geschrieben) haben.
+Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.
 
 == Wie wird geprüft?
 
@@ -32,11 +32,11 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 
 * Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
 
-=== 4. Einordnung des Prüfschritss
+== Einordnung des Prüfschritts
 
-==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1., Annex A
+==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
-Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
+ * 6.2.2.1 Visually distinguishable display
 
 ==== 4.2 Abgrenzung zu anderen Prüfschritten
 
