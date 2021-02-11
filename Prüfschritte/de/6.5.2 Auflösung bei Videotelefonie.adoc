@@ -8,7 +8,7 @@ Web-Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für 
 
 == Warum wird das geprüft?
 
-Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig - zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen oder die zusätzliche Aufnahme von Mundbild, Mimik und Gestik eine simultane Verschriftlichung besser verstehen können.
+Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig - zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen oder durch die zusätzliche Aufnahme von Mundbild, Mimik und Gestik eine simultane Verschriftlichung besser verstehen können.
 
 == Wie wird geprüft?
 
