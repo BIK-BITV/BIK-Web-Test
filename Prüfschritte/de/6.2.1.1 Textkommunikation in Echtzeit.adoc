@@ -19,7 +19,7 @@ Der Prüfschritt ist anwendbar, wenn das zu testende Webangebot Zwei-Wege-Kommun
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit unterstützt wird.
+. Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
   
 == Einordnung des Prüfschritts 
 
