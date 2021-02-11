@@ -42,7 +42,7 @@ EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standa
 
 * Wenn andere Kommunikationsmethoden verwendet werden:
 +
-  Gemeinsame, relevante und veröffentlichte Standards werden unterstützt. Dabei unterstützt der gemeinsame Standard die Signalisierung von verlorenen und fehlerhaft übertragenen Zeichen.
+  Gemeinsame, relevante und veröffentlichte Standards werden unterstützt. Dabei unterstützt der gemeinsame Standard die Anzeige von verlorenen und fehlerhaft übertragenen Zeichen.
   
 == Einordnung des Prüfschritts
 
