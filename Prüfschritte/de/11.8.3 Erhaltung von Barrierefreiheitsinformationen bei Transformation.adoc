@@ -2,65 +2,52 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.3 "Preservation of accessibility information in transformations" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen oder
-Funktionen zur Neucodierung bietet, dann werden die Informationen zur
-Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung
-der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren,
-übernommen.
+Wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Neucodierung bietet, dann werden die Informationen zur Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren, übernommen.
+
+== Warum wird das geprüft?
+
+Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel durch Überschriften oder richtig aufgebaute Datentabellen), um Inhalte effektiv zu nutzen. Werden diese Auszeichnungen in Transformationen entfernt oder korrumpiert, leidet die Benutzbarkeit der Dokumente.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und
-Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur
+Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur
 Neucodierung bietet.
 
-==== Restrukturierungstransformationen
+==== 1.1 Restrukturierungstransformationen
 
-Restrukturierungstransformationen sind Transformationen, bei denen 
-die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen,
-Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine
-Datei zusammengeführt werden).
-Der Dokumententyp bzw. die Technologie bleibt gleich.
+Restrukturierungstransformationen sind Transformationen, bei denen  die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen,
+Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
 
-==== Rekodierungstransformationen 
+==== 1.2 Rekodierungstransformationen 
 
-Rekodierungstransformationen sind Transformationen, bei denen die Technologie
-bzw. der Dokumententyp geändert wird.
-Dies könnte z. B. die Umwandlung eines HTML-Dokuments zum PDF sein.
+Rekodierungstransformationen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies könnte z. B. die Umwandlung eines HTML Dokuments zum PDF sein.
 
-=== Prüfung
+=== 2Prüfung
 
-Für die Prüfung muss ein Beispieldokument im Eingangsformat vorgehalten werden.
-Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
-
-Anschließend wird die Eingangsdatei in der App geöffnet und in das Zielformat bzw. in eine andere Struktur umgewandelt.
-
-Im Anschluss muss die Zieldatei überprüft werden. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments zum PDF-Dokument:
+. Beispieldokument im Ausgangsformat wählen. Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
+. Beispieldokument in der Web-Anwendung öffnen und in das Zielformat bzw. in eine andere Struktur umgewandeln.
+. Zieldatei überprüfen. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments zum PDF-Dokument:
 
 * Sind alle Überschriften aus der Quelle übernommen worden?
 * Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten?
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
 
-Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für
-die Transformation unterstützt, wiederholt werden.
+Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für die Transformation unterstützt, wiederholt werden.
 
-Auch wenn die Web-App lediglich die Struktur des Eingangsdokuments verändert,
-muss sichergestellt werden, dass die Ausgangsdatei noch alle für die
-Barrierefreiheit relevanten Informationen enthält.
+Auch wenn die Web-App lediglich die Struktur des Eingangsdokuments verändert, muss sichergestellt werden, dass die Ausgangsdatei noch alle für die Barrierefreiheit relevanten Informationen enthält.
 
 Wenn Sie Hinweise zur Verbesserung der Prüfanleitung haben, können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nich EN 301 549 V3.1.1
+
+11.8.3 Preservation of accessibility information in transformations
 
 == Quellen
 
