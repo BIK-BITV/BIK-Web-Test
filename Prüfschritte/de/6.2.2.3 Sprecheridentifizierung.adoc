@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert, sollen auch Sprecher, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
 
+== Warum wird das geprüft?
+
+Für alle Teilnehmer:innen in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
