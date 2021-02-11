@@ -26,22 +26,22 @@ Bei der Beurteilung der Standards-Unterstützung muss die aktuelle Entwicklung d
 EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standards:
 
 * Die  Web-Anwendung kommuniziert über das öffentliche Telefonnetz:
-+
+  
   Die Empfehlungen ITU-T V.18 [i.23] oder dessen Text-Telefonie-Standards in
   den Anhängen werden für die Echtzeit-Textkommunikation verwendet.
 
 * Voice over IP (VoIP) über das Session Initiation Protocol (SIP):
-+
+
   Empfehlungen der IETF zu Echtzeit-Textkommunikation RFC 4103 [i.13] werden
   verwendet.
 
 * Die Web-Anwendung nutzt Voice over IP (VoIP) über das IP Multimedia Sub-System (IMS):
-+
+
   Hier sind die Protokolle ETSI TS 126 114
   [i.10], ETSI TS 122 173 [i.11] und ETSI TS 134 229 [i.12] relevant.
 
 * Wenn andere Kommunikationsmethoden verwendet werden:
-+
+
   Gemeinsame, relevante und veröffentlichte Standards werden unterstützt. 
   Dabei unterstützt der gemeinsame Standard die Anzeige von verlorenen 
   und fehlerhaft übertragenen Zeichen.
