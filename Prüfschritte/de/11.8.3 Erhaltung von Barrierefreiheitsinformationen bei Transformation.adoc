@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Neucodierung bietet, dann werden die Informationen zur Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren, übernommen.
+Wenn die Web-Anwendung ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Neucodierung bietet, dann werden die Informationen zur Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren, übernommen.
 
 == Warum wird das geprüft?
 
@@ -14,21 +14,21 @@ Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel dur
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App ein Autorenwerkzeug ist und Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung ein Autorenwerkzeug ist und Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur
 Neucodierung bietet.
 
 ==== 1.1 Restrukturierungstransformationen
 
-Restrukturierungstransformationen sind Transformationen, bei denen  die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen,
+Restrukturierungstransformationen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen,
 Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
 
 ==== 1.2 Rekodierungstransformationen 
 
 Rekodierungstransformationen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies könnte z. B. die Umwandlung eines HTML Dokuments zum PDF sein.
 
-=== 2Prüfung
+=== 2. Prüfung
 
-. Beispieldokument im Ausgangsformat wählen. Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
+. Beispieldokument im Eingangsformat wählen. Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
 . Beispieldokument in der Web-Anwendung öffnen und in das Zielformat bzw. in eine andere Struktur umgewandeln.
 . Zieldatei überprüfen. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments zum PDF-Dokument:
 
@@ -38,7 +38,7 @@ Rekodierungstransformationen sind Transformationen, bei denen die Technologie bz
 
 Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für die Transformation unterstützt, wiederholt werden.
 
-Auch wenn die Web-App lediglich die Struktur des Eingangsdokuments verändert, muss sichergestellt werden, dass die Ausgangsdatei noch alle für die Barrierefreiheit relevanten Informationen enthält.
+Auch wenn die Web-Anwendung lediglich die Struktur des Eingangsdokuments verändert, muss sichergestellt werden, dass die Ausgangsdatei noch alle für die Barrierefreiheit relevanten Informationen enthält.
 
 Wenn Sie Hinweise zur Verbesserung der Prüfanleitung haben, können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
