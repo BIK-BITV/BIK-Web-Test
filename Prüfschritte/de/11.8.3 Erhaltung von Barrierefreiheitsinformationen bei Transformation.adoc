@@ -36,6 +36,8 @@ Rekodierungstransformationen sind Transformationen, bei denen die Technologie bz
 * Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten?
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
 
+=== 3. Hinweise
+
 Die Schritte müssen für jedes Ein- und Ausgangsformat, das die Web-App für die Transformation unterstützt, wiederholt werden.
 
 Auch wenn die Web-Anwendung lediglich die Struktur des Eingangsdokuments verändert, muss sichergestellt werden, dass die Ausgangsdatei noch alle für die Barrierefreiheit relevanten Informationen enthält.
