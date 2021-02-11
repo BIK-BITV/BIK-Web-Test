@@ -15,7 +15,7 @@ Für Hilfsmittelnutzer, die eine programmatische Ermittelbarkeit von Information
 
 Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen wie Content Management Systemen anwendbar. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben, zum Beispiel die Vergabe einer Kommentar-Überschrift oder Funktionen zur Binnenauszeichnung des Kommentars, etwa Listen oder Texthervorhebungen.
 
-Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+Die Prüfung bezieht sich in erster Linie auf die Ausgabe des jeweiligen Autorenwerkzeugs.
 
 Der Dokumenttyp, den das Autorenwerkzeug erstellt, muss für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar. Dies ist für Web Content Managment Systeme und Kommentarfunktionen grundsätzlich gegeben. 
 
@@ -32,7 +32,7 @@ Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test
 *  Im Autorenwerkzeug angelegte Listen sollen in der Ausgabe mit Listen-Markup ausgezeichnet sein (also nicht Pseudo-Listen über vorangestellte Spiegelstriche)
 *  Im Autorenwerkzeug festgelegte Absätze sollten in der Ausgabe mit Absatz-Markup ausgezeichnet sein (nicht div)
 *  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
-*  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bide zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
+*  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bild zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
 
 Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
