@@ -2,52 +2,37 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.1.2 "Concurrent voice and text" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
-anbietet, soll die gleichzeitige Kommunikation mittels Sprache und
-Echtzeit-Textkommunikation möglich sein.
+Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit anbietet, soll die gleichzeitige Kommunikation mittels Sprache und Echtzeit-Textkommunikation möglich sein.
+
+== Warum wird das geprüft?
+
+Menschen, die statt Sprache die Eingabe von Echtzeit-Text nutzen, sollen gleichrangig behandelt werden. Funktionen wie das Sich-Einreihen in eine Warteschlange für Beiträge durch digitales "Handheben" soll von Arten von Nutzern gleichrangig genutzt werden können
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Kommunikation
-und zusätzlich Textkommunikation in Echtzeit ermöglicht.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation und zusätzlich Textkommunikation in Echtzeit ermöglicht. Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
-Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie.
-
-Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
-wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
-
-=== Prüfung
+=== 2. Prüfung
 
 . Web-App öffnen
-. prüfen, ob die Web-App Zwei-Wege-Kommunikation und Textkommunikation in
-  Echtzeit ermöglicht
-. prüfen, ob die gleichzeitige Kommunikation via Echtzeit-Text und Sprache
-  möglich ist
+. Prüfen, ob die gleichrangige Kommunikation via Echtzeit-Text und Sprache möglich ist und Funktionen wie das digitale Handheben ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen. Wenn es eine Warteschlange für Beiträge gibt, landen Sprachnutzer un Echtzeit-Text-Nutzer in der gleichen Schlange.
 
-==== Hinweise
+=== 3. Hinweise
 
-Bei Konferenzen, also die Kommunikation mit mehr als zwei Personen, soll die
-Kommunikation mittels Textkommunikation in Echtzeit, der Kommunikation mit
-Sprache gleichgestellt sein.
-Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde
-Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese
-Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
+Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
 
-Bei Konferenzen die gleichzeitig eine herkömmliche Chat-Funktion bieten,
-sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in
-separaten Programmfenstern, damit sich diese verschiedenen
-Kommunikationsarten nicht gegenseitig stören und nicht zur Verwirrung führen.
+Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
+
+== 4. Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritt nach EN 301 549 V3.1.1., Annex A
+
+Tabelle A1 verweist auf Abschnitt 6.2.1.2 "Concurrent voice and text".
+
 
 == Quellen
 

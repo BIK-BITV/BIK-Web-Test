@@ -1,6 +1,4 @@
-= Prüfschritt 6.2.2.4 Anzeige von Sprech-Aktivität in Zwei-Wege-Sprachkommunikation
-include::include/author.adoc[]
-include::include/attributes.adoc[]
+= Prüfschritt 6.2.2.4 Echtzeitanzeige von Sprech-Aktivität
 
 == Was wird geprüft?
 
