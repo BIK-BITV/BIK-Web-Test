@@ -20,6 +20,11 @@ Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens
 HD-Telefonie / Telefonie in ISDN-Qualität bieten.
 Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
+== Warum wird das geprüft?
+
+Um eine gute Sprachverständlichkeit zu garantieren, wird ein
+verbindlicher Mindeststandard für die Audioqualität festgelegt.
+
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
