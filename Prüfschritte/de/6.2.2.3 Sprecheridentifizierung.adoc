@@ -20,8 +20,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikatio
 
 === 3. Hinweise
 
-Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung
-zweifelsfrei festzustellen.
+Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
 
 == Einordnung des Prüfschritts
 
