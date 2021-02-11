@@ -4,12 +4,12 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet,
-soll die Identifizierung (auch) in Textform verfügbar und programmatisch
+Wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch
 ermittelbar sein.
 
-Diese Anforderung stellt sicher, dass auch Nutzer von Hilfstechnologien den
-Anrufer identifizieren können.
+== Warum wird das geprüft?
+
+Diese Anforderung stellt sicher, dass auch Nutzer von Hilfstechnologien den Anrufer identifizieren können.
 
 == Wie wird geprüft?
 
