@@ -1,16 +1,14 @@
-= Prüfschritt 6.2.2.1 Visuell unterscheidbare Anzeige von Textnachrichten
+= Prüfschritt 6.2.2.1 Visuell unterscheidbare Anzeige von Echtzeit-Textnachrichten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell unterscheidbar sein und somit voneinander separiert werden.
+Wenn das Webangebot Echtzeit-Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
 
 == Warum wird das geprüft?
-Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, einem Empfänger eine Nachricht zeichenweise anzuzeigen. Ein Empfänger kann jeden Buchstaben, den man schreibt, in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken.
 
-Diese Kommunikationsform ist beispielsweise in Notsituationen hilfreich, in der keine Zeit vergeudet werden soll. Echtzeit-Textkommunikation kann auch für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog darstellen.
-Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden.
+Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.
 
 == Wie wird geprüft?
 
@@ -27,21 +25,24 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
 * Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
-* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen durch unterschiedliche Farbgebung (mit gutem Kontrast)
 
 === 3. Hinweise
 
-Wenn die Webangebot verschiedene Optionen für die Anzeige der Nachrichte anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht schlecht bewertet werden.
+* Wenn das Webangebot weitere Optionen für die Anzeige der Nachrichten anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht negativ bewertet werden. Andere Darstellungsweisen sind positiv, sie können bestimmte Nutzer-Bedürfnisse erfüllen. So kann die Fließtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
 
-Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse der Nutzer erfüllen. Beispielsweise kann die Fleißtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
+* Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
 
-== Einordnung des Prüfschritss
+* Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
 
-==== Einordnung des Prüschritts nach der EN 301 549 V3.1.1
+== Einordnung des Prüfschritts
 
- 6.2.2.1 Visually distinguishable display
+==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
-== Quellen
+ * 6.2.2.1 Visually distinguishable display
+
+==== 4.2 Abgrenzung zu anderen Prüfschritten
+
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa das der Text selbst oder auch Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
 
 [.BLOCK_LANG_EN]
 === 6.2.2.1 Visually distinguishable display
