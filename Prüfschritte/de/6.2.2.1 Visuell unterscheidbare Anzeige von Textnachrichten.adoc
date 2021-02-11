@@ -32,6 +32,8 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 
 * Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
 
+* Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
+
 == Einordnung des Prüfschritts
 
 ==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
