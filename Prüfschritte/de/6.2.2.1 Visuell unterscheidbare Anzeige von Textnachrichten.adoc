@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell unterscheidbar sein und somit voneinander separiert werden.
+Wenn das Webangebot Echtzeit-Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
 
 == Warum wird das geprüft?
 
-Menschen, die Echtzeit-Textkommunikastion nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden.
+Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten visuell zu unterscheiden. So kpnnen sie leichter Dinge finden, die sie selbst oder die andere gesagt (technisch: geschrieben) haben.
 
 == Wie wird geprüft?
 
@@ -40,9 +40,7 @@ Tabelle A2 verweist auf Abschnitt 6.2.2 "Display of RTT".
 
 ==== 4.2 Abgrenzung zu anderen Prüfschritten
 
-Wenn Nachichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt.
-
-== Quellen
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt.
 
 [.BLOCK_LANG_EN]
 === 6.2.2.1 Visually distinguishable display
