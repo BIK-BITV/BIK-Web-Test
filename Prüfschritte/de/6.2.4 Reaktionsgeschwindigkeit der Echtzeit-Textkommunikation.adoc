@@ -4,19 +4,19 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit-Textkommunikation unterstützt und entsprechende Nutzereingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden.
+Wenn das Webangebot Echtzeit-Textkommunikation unterstützt und entsprechende Nutzereingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden.
 
 == Was wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Eingaben für Echtzeit-Textkommunikation unterstützt. Das ist z.B. der Fall, wenn es sich um eine App zur Kommunikation handelt, die Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textkommunikation unterstützt. Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, die Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
 
 === 2. Prüfung
 
 Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis.
 Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der App abgeschickt werden. Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
+von der Anwendung abgeschickt werden. Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
 können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
@@ -34,7 +34,7 @@ Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken d
 
 === Einordnunng des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.2.4 RTT responsiveness
+6.2.4 RTT responsiveness
 
 == Quellen
 
