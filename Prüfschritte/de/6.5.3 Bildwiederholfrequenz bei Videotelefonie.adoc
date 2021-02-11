@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn das Web-Angebot Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
 
+== Warum wird das geprüft?
+
+Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
