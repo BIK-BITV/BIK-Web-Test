@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation soll mindestens in eines der folgenden Formate barrierefrei
+Die Dokumentation soll mindestens in einer der folgenden Formate barrierefrei
 zur Verfügung gestellt werden:
 
 * Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
@@ -18,8 +18,7 @@ bewertet.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
-Im App-Test-Verfahren kann jedoch lediglich das Vorhandensein der Dokumentation
-in den geforderten Formaten geprüft werden.
+
 Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
 zu erteilen.
 
