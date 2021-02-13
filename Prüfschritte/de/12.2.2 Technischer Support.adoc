@@ -5,10 +5,10 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Der technische Support (über Telefon, Mail, ...) soll Informationen zur
-Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
-können, die die Web-App betrifft.
-Dies soll mindestens die Informationen umfassen, die dazu in der
-Web-App-Dokumentation erwähnt werden (siehe auch Prüfschritt
+Barrierefreiheit des Webangebots und Kompatibilität mit assistiven Technologien bereitstellen
+können.
+Dies soll mindestens die Informationen umfassen, die in der
+Dokumentation der Webanwndung erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
@@ -24,8 +24,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Web-App-Dokumentation, den technischen Support zu kontaktieren und einige
+Zielführend könnte beispielsweise sein, anhand der Informationen aus der
+Dokumentation der Webanwendung, den technischen Support zu kontaktieren und einige
 Fragen zur Barrierefreiheit stichprobenartig zu stellen.
 
 Falls möglich, können auch die Dokumente, die dem technischem Support zur
