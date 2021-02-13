@@ -4,8 +4,8 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation der Webseite / Web-App soll die Eigenschaften und Funktionen
-in Bezug auf Barrierefreiheit auflisten undessen Nutzung erklären.
+Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen
+in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären.
 Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
 == Wie wird geprüft?
