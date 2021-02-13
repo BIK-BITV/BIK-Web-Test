@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.1.1 "Accessibility and compatibility features" verwiesen.
-
 == Was wird geprüft?
 
 Die Dokumentation der Webseite / Web-App soll die Eigenschaften und Funktionen
@@ -17,7 +10,7 @@ Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
 mit Barrierefreiheit und Kompatibilität beschäftigt, auf der Webseite, auf
@@ -29,10 +22,7 @@ Prüfverfahrens mitgetestet werden.
 Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
 werden.
 
-=== Prüfung
-
-Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+=== 2. Prüfung
 
 Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen
 in der Dokumentation aufgelistet und erklärt werden.
@@ -62,6 +52,17 @@ relevant:
 Die Webseite soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
 Formaten, bereitstellen.
+
+=== 3. Hinwiese
+
+Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie
+https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.1.1 Accessibility and compatibility features
 
 == Quellen
 
