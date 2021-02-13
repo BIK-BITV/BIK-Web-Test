@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.1.2 "Accessible documentation" verwiesen.
-
 == Was wird geprüft?
 
 Die Dokumentation soll mindestens in eines der folgenden Formate barrierefrei
@@ -22,7 +15,7 @@ bewertet.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 Im App-Test-Verfahren kann jedoch lediglich das Vorhandensein der Dokumentation
@@ -30,10 +23,7 @@ in den geforderten Formaten geprüft werden.
 Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
 zu erteilen.
 
-=== Prüfung
-
-Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+=== 2. Prüfung
 
 Im BIK BITV-Test können derzeit nur Dokumentationen auf Basis von
 Web-Technologien geprüft werden. Für andere Formate muss ein extra Auftrag
@@ -43,12 +33,21 @@ Wenn die Dokumentation (auch) im HTML-Format vorliegt, ist dieser Prüfschritt
 erfüllt, wenn sämtliche anwendbaren Prüfschritte des Verfahrens mit dem
 Ergebnis konform durchlaufen wurden.
 
-==== Hinweise
+=== 3. Hinweise
 
 Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
 anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B.
 Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
 für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+
+Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.1.2 Accessible documentation
 
 == Quellen
 
