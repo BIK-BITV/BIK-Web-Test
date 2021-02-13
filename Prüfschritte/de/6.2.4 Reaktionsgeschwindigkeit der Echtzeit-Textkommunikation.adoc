@@ -21,7 +21,7 @@ können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue
 
 Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
 
-Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu instantan nach der Eingabe auf dem zweiten Gerät erscheinen.
+Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu unverzüglich nach der Eingabe auf dem zweiten Gerät erscheinen.
 
 Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
 Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
