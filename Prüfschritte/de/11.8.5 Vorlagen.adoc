@@ -2,39 +2,40 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.5 "Templates" verwiesen.
-
 == Was wird geprüft?
 
 Wenn die Seite Teil eines Autorenwerkzeugs ist und Vorlagen bzw. Eingabemasken für die Dokumente, die
 es erstellt, anbietet, soll mindestens eine der angebotenen Vorlagen die Erstellung barrierefreier Web- oder Nicht-Web-Dokumente ermöglichen (je nach Dokumententyp).
 
-Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte Vorlagen sollen eindeutig als solche zu identifizieren sein.
+Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte Vorlagen eindeutig als solche zu identifizieren sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist und
 Vorlagen (z. B. Eingabemasken) für die Dokumente, die es erstellt, anbietet.
 Im BITV-Test können lediglich webbasierte Autorenwerkzeuge getestet werden, die eine Ausgabe im Web-Format erzeugen (z. B. ein Content Management System, dessen Web-Output sich mit dem BITV-Test überprüfen lässt).
 Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, sondern z. B. ein PDF erzeugen, ist dieser Prüfschritt nur in Kombination mit einer zusätzlichen Prüfung der Nicht-Web-Ausgabe in einem anderen Verfahren anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Autorenwerkzeug öffnen
-. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen für die Erstellung von Inhalten anbietet
+. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen für die Erstellung von Inhalten anbietet.
 . Prüfen, ob bei Vorhandensein alternativer Vorlagen, welche die Erstellung barrierefreier Inhalte unterstützen, diese deutlich als solche markiert sind. (Wenn es nur eine Vorlage gibt, muss diese nicht extra als barrierefreiheits-unterstützend markiert sein).
-. Testausgaben mit der barrierefreiheits-unterstützenden Vorlage erstellen, ansonsten die Standardvorlage nutzen
-. Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen)
-  
+. Testausgaben mit der barrierefreiheits-unterstützenden Vorlage erstellen, ansonsten die Standardvorlage nutzen.
+. Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen).
+
+=== 3. Hinweise
+
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+1.8.5 Templates
 
 == Quellen
 
