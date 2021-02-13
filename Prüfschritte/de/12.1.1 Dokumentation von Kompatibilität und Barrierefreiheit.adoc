@@ -13,9 +13,7 @@ Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 === 1. Anwendbarkeit des Prüfschritts
 
 Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
-mit Barrierefreiheit und Kompatibilität beschäftigt, auf der Webseite auf
-HTML-Basis, integriert
-ist.
+mit Barrierefreiheit und Kompatibilität beschäftigt, auf HTML-Basis integriert ist.
 Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird
 und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses
 Prüfverfahrens mitgetestet werden.
