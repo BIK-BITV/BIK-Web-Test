@@ -25,7 +25,7 @@ Der Prüfschritt ist immer anwendbar.
 === 2. Prüfung
 
 Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Web-App-Dokumentation, den technischen Support zu kontaktieren und einige
+Dokumentation der Webanwendung, den technischen Support zu kontaktieren und einige
 Fragen zur Barrierefreiheit stichprobenartig zu stellen.
 
 Falls möglich, können auch die Dokumente, die dem technischem Support zur
