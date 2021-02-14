@@ -6,9 +6,9 @@ include::include/attributes.adoc[]
 
 Der technische Support (über Telefon, Mail, ...) soll Informationen zur
 Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
-können, die die Web-App betrifft.
+können, die die Webanwendung betreffen.
 Dies soll mindestens die Informationen umfassen, die dazu in der
-Web-App-Dokumentation erwähnt werden (siehe auch Prüfschritt
+Dokumentation der Webanwendung erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
