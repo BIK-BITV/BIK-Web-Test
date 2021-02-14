@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn es sich bei der zu testenden Web-App um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den Nutzer dabei unterstützen.
+Wenn es sich bei der zu testenden Webanwendung um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den Nutzer dabei unterstützen.
 
 == Warum wird das geprüft?
 Für Hilfsmittelnutzer, die eine programmatische Ermittelbarkeit von Informationen brauchen, ist es wichtig, dass Autorenwerkzeuge dies bei der Erzeugung von Inhalten unterstützen. Wenn zum Beispiel ein Kommentar-Eingabefeld die Vergabe einer Überschrift erlaubt, sollte diese auf der erzeugten (bzw. aktualisierten) Seite auch als Überschrift ausgezeichnet sein, damit Hilfsmittel-Nutzer diese semantische Information auswerten können (zum Beispiel zum Navigieren von Kommentar zu Kommentar).
