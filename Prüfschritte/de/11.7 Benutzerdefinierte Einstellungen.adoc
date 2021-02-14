@@ -57,9 +57,9 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1, Annex A
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-Tabelle A1 verweist auf Abschnitt 11.7 "User preferences".
+11.7 User preferences
 
 == Quellen
 
