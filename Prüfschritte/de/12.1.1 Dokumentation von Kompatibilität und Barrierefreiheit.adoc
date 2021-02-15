@@ -19,8 +19,8 @@ Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen in d
 Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern relevant:
 
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
-* Einzelheiten zu Features für die Barrierefreiheit (auf der Webseite 
-  integriert)
+* Einzelheiten zu Features für die Barrierefreiheit (sofern sie auf der Webseite 
+  integriert sind), zum Beispiel:
 ** Vorlesefunktion
 ** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
    Maus-/Tastaturfokus
@@ -28,7 +28,6 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
 ** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
-** ...
 * Informationen zur Kompatibilität mit assistiven Technologien
 * spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Verzeichnisse für Abkürzungen
