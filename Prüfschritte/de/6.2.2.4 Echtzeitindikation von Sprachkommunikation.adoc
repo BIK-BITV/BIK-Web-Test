@@ -14,7 +14,7 @@ Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
 
 === 2. Prüfung
 
