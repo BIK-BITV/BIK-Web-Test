@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen für die allgemeine Nutzung von Funktionen des Angebots, aber oft auch Hinweise auf zusätzliche Funktionen, welche die Barrierefreiheit für bestimmete Nutzergruppen verbessern. Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
+Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen für die allgemeine Nutzung von Funktionen des Angebots, aber oft auch Hinweise auf zusätzliche Funktionen, welche die Barrierefreiheit für bestimmte Nutzergruppen verbessern. Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
 
 Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, soll diese mindestens in einer der folgenden Formate barrierefrei zur Verfügung gestellt werden:
 
