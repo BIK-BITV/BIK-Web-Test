@@ -4,9 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die Web-App beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die Webanwendung beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
 
-Damit die Web-App diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
+Damit die Webanwendung diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
 == Warum wird das geprüft? 
 
@@ -16,7 +16,7 @@ Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App eine Zwei-Wege-Sprachkommunikation anbietet.
+Der Prüfschritt ist anwendbar, wenn die Webanwendung eine Zwei-Wege-Sprachkommunikation anbietet.
 
 === 2. Prüfung
 
