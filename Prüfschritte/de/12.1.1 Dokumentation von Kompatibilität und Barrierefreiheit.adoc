@@ -36,7 +36,7 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität gemäß den Konventionen von https://www.w3.org/wiki/WebSchemas/Accessibility[WebSchemas/Accessibility 2.0] bereitzustellen.
 
 === 3. Hinweise
-. Das Fehlen von zusätzlichen Barrierefreiheits-Funktionen wird nicht negativ bewertet. Wenn sie eingesetzt werden, sollen sie aber dokumentiert sein.
+. Das Fehlen von zusätzlichen Barrierefreiheits-Funktionen wird nicht negativ bewertet. Wenn sie eingesetzt werden, müssen sie aber dokumentiert sein.
 . Es wird nur die Dokumentation von Barrierefreiheits-Funktionen verlangt, die vom Webangebot selbst implementiert werden. Dazu gehören auch Features wie Vorlesefunktionen, die von Drittanbietern definiert und im Angebot eingebunden werden. Barrierefreiheits-Funktionen des Browsers oder des jeweiligen Betriebssystems müssen dagegen nicht dokumentiert werden.
 
 . Zum Punkt Hinweise auf unterstütze Umgebungen: Wenn das Angebot explizit für einen eingeschränkten Nutzerkreis (zum Beispiel ein Firmen-Intranet) entwickelt wurde und für diesen eine bestimmte unterstützte Nutzungsumgebung (beispielsweise ein bestimmter Browser und ein bestimmter Screenreader) festgelegt wurde, soll die Dokumentation die unterstützte Umgebung nennen. Nutzer, die in anderen Umgebungen auf Barrieren stoßen, können dann wengistens ermitteln, woran es liegt, und können ggf. ihre Nutzungsumgebung anpassen. Für Angebote, die allgemein im Web zugänglich sind und mit verschiedensten Browsern und Hilfsmitteln genutzt werden, sind solche Einschränkungen nicht zulässig.
