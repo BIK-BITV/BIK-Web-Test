@@ -4,16 +4,18 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation soll mindestens in einer der folgenden Formate barrierefrei zur Verfügung gestellt werden:
+Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen für die allgemeine Nutzung von Funktionen des Angebots, aber oft auch Hinweise auf zusätzliche Funktionen, welche die Barrierefreiheit für bestimmete Nutzergruppen verbessern. Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
 
-* Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
-* Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
+Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, soll diese mindestens in einer der folgenden Formate barrierefrei zur Verfügung gestellt werden:
+
+* Als Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
+* Als Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
 
 Nicht-Web-Dokumente werden nicht in diesem Prüfverfahren bewertet.
 
 == Warum wird das geprüft?
 
-Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, benötigte Informationen in anderer Form zu erhalten. Es ist deshalb wichtig, dass diese Erklärung barrierefrei ist. Sie wird deshalb, wenn vorhanden, immer in die Seitenauswahl einbezogen. Auch weitere Seiten zur Dokumentation des Webangebots, wenn vorhanden, sollen barrierefrei sein und werden deshalb in die Seitenauswahl mit einbezogen.
+Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, benötigte Informationen in anderer Form zu erhalten. Es ist deshalb wichtig, dass diese Erklärung barrierefrei ist. Sie wird deshalb, wenn vorhanden, immer in die Seitenauswahl einbezogen. Auch weitere Seiten zur Dokumentation des Webangebots, wenn vorhanden, sollen barrierefrei sein und werden in die Seitenauswahl mit einbezogen.
 
 == Wie wird geprüft?
 
