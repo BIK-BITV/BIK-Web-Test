@@ -2,53 +2,41 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.4 "RTT responsiveness" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit-Textkommunikation unterstützt und entsprechende
-Nutzereingaben entgegennimmt, soll die kleinste Texteinheit
-(einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt
-werden.
+Wenn das Webangebot Echtzeit-Textkommunikation unterstützt und entsprechende Nutzereingaben entgegen nimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden.
 
-== Was wird geprüft?
+== Warum wird das geprüft?
+[folgt]
 
-=== Anwendbarkeit des Prüfschritts
+== Wie wird das geprüft?
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Eingaben für Echtzeit-Textkommunikation unterstützt.
-Das ist z.B. der Fall, wenn es sich um eine App zur Kommunikation handelt, die
-Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende
-Eingabemöglichkeit bereithält.
+=== 1. Anwendbarkeit des Prüfschritts
 
-=== Prüfung
+Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textkommunikation unterstützt. Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, die Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
 
-Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis.
-Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der App abgeschickt werden. Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann,
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+=== 2. Prüfung
 
-Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation
-zwischen zwei Geräten hergestellt wird.
+Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis. Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
+von der Anwendung abgeschickt werden. 
+Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
 
-Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu
-instantan nach der Eingabe auf dem zweiten Gerät erscheinen.
+Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu unverzüglich nach der Eingabe auf dem zweiten Gerät erscheinen.
 
-Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern.
-Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt
-und abgezogen werden.
-Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant.
-Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
+Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
+Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
 
-==== Hinweise
+=== 3. Hinweise
 
-Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken
-der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss
-verbessert.
+Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss verbessert.
+
+Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+
+== Einordung des Prüfschritts
+
+=== Einordnunng des Prüfschritts nach EN 301 549 V3.1.1
+
+6.2.4 RTT responsiveness
 
 == Quellen
 
