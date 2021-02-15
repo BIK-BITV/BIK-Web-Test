@@ -4,33 +4,19 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen
-in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären.
-Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
+Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären. Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
-mit Barrierefreiheit und Kompatibilität beschäftigt, auf HTML-Basis integriert ist.
-Eine Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird,
-und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses
-Prüfverfahrens mitgetestet werden.
-Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
-werden.
+Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich mit Barrierefreiheit und Kompatibilität beschäftigt, auf HTML-Basis integriert ist. Eine Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird, und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden. Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft werden.
 
 === 2. Prüfung
 
-Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen
-in der Dokumentation aufgelistet und erklärt werden.
-Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden
-oder separat verfügbar sein.
-Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen,
-Wikis oder der Erklärung zur Barrierefreiheit.
+Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen in der Dokumentation aufgelistet und erklärt werden. Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden oder separat verfügbar sein. Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen, Wikis oder der Erklärung zur Barrierefreiheit.
 
-Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern
-relevant:
+Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern relevant:
 
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
 * Einzelheiten zu Features für die Barrierefreiheit (auf der Webseite 
@@ -47,14 +33,11 @@ relevant:
 * spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Verzeichnisse für Abkürzungen
 
-Die Webseite soll, wenn möglich, Metadaten für die unterstützten
-Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
-Formaten, bereitstellen.
+Die Webseite soll, wenn möglich, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität maschinenlesbar, in geeigneten Formaten, bereitstellen.
 
 === 3. Hinwiese
 
-Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
 == Einordnung des Prüfschritts
 
