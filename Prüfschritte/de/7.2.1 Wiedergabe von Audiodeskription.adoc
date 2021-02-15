@@ -52,7 +52,7 @@ In Prüfschritt 9.1.2.5 Audiodeskription für Videos wird hingegen geprüft, ob 
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-7.2.1 Audio Description Playback verwiesen.
+7.2.1 Audio Description Playback
 
 == Quellen
 
