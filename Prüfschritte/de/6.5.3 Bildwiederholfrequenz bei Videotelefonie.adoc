@@ -35,7 +35,7 @@ Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noc
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.5.3 Framerate
+6.5.3 Framerate
 
 == Quellen
 
