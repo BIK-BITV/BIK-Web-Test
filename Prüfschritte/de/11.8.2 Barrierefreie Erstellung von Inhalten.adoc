@@ -34,13 +34,13 @@ Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test
 *  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
 *  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bild zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
 
-Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
-
 === 3. Hinweise
 
 * Der Prüfschritt verlangt nicht die Bereitstellung bestimmter semantischer Umsetzungen. Wenn zum Beispiel bei einer Kommentarfunktion von Nutzern keine Überschrift vergeben werden kann, ist dies hier nicht negativ zu bewerten.  Hier entsteht kein Nachteil gegenüber sehenden Nutzern, auch diese haben keine Überschrift. Anders bei Bildern: Wenn ein Bild eingefügt werden kann, entsteht ein Nachteil für nicht-visuelle Nutzer, wenn nicht im selben Zug ein Alternativtext definiert werden kann, der den Bildinhalt benennt oder beschreibt.
 
 * Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln sein.
+
+Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
 == Einordnung des Prüfschrtts
 
