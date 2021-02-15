@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
+Wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
 
 == Warum wird das geprüft?
 
@@ -18,8 +18,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Zwei-Wege-Sprachkommunikation u
 
 === 2. Prüfung
 
-. Web-App öffnen
-. Eine Verbindung mit einem weiteren Gerät über die App herstellen
+. Web-Anwendung öffnen
+. Eine Verbindung mit einem weiteren Gerät über die Anwendung herstellen
 . Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B. über ein blinkendes Icon
 . Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird
 
