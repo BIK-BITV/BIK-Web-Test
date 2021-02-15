@@ -19,22 +19,22 @@ Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen in d
 Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern relevant:
 
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
-* Einzelheiten zu Features für die Barrierefreiheit (sofern sie auf der Webseite 
-  integriert sind), zum Beispiel:
+* Einzelheiten zu Features für die Barrierefreiheit, sofern sie auf der Webseite integriert sind, zum Beispiel:
 ** Vorlesefunktion
 ** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
    Maus-/Tastaturfokus
 ** Vergrößerungsfunktion
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
-** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
-* Informationen zur Kompatibilität mit assistiven Technologien
-* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+** besondere Bedienungsarten mit Tastatur / Tastenkombinationen, z.B. spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Hinweise auf unterstütze Umgebungen, falls es Einschränkungen bei der Nutzbarkeit mit assistiven Technologien gibt
 * Verzeichnisse für Abkürzungen
 
 Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität gemäß den Konventionen von https://www.w3.org/wiki/WebSchemas/Accessibility[WebSchemas/Accessibility 2.0] bereitzustellen.
 
-=== 3. Hinwiese
+=== 3. Hinweise
+
+Zum Punkt Hinweise auf unterstütze Umgebungen: Wenn das Angebot explizit für einen eingeschränkten Nutzerkreis (zum Beispiel ein Firmen-Intranet) entwickelt wurde und für diesen eine bestimmte Nutzungsumgebung (beispielsweise ein bestimmter Browser und ein bestimmter Screenreader) festgelegt wurde, soll die Dokumentation die unterstütze Umgebung nennen. Nutzer, die in anderen Umgebungen auf Barrieren stoßen, wissen dann wengistens, woran es liegt, und können ihre Nutzungsumgebung anpassen. Für Angebote, die allgemein im Web zugänglich sind und mit verschiedensten Browsern und Hilfsmitteln genutzt werden, sind solcherlei Einschränkungen nicht zulässig.
 
 Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
