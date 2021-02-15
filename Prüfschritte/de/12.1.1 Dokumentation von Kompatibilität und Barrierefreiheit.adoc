@@ -27,7 +27,7 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
 ** besondere Bedienungsarten mit Tastatur / Tastenkombinationen, z.B. spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
-* Hinweise auf unterstütze Umgebungen, falls es Einschränkungen bei der Nutzbarkeit mit assistiven Technologien gibt
+* Hinweise auf unterstützte Umgebungen, falls es Einschränkungen bei der Nutzbarkeit mit assistiven Technologien gibt
 * Verzeichnisse für Abkürzungen
 
 Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität gemäß den Konventionen von https://www.w3.org/wiki/WebSchemas/Accessibility[WebSchemas/Accessibility 2.0] bereitzustellen.
