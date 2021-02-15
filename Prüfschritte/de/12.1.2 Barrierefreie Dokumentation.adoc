@@ -4,49 +4,44 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation soll mindestens in einer der folgenden Formate barrierefrei
-zur Verfügung gestellt werden:
+Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen für die allgemeine Nutzung von Funktionen des Angebots, aber oft auch Hinweise auf zusätzliche Funktionen, welche die Barrierefreiheit für bestimmete Nutzergruppen verbessern. Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
 
-* Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
-* Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
+Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, soll diese mindestens in einer der folgenden Formate barrierefrei zur Verfügung gestellt werden:
 
-Weitere, ggf. nicht barrierefreie Versionen der Dokumentation, werden nicht
-bewertet.
+* Als Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
+* Als Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
+
+Nicht-Web-Dokumente werden nicht in diesem Prüfverfahren bewertet.
+
+== Warum wird das geprüft?
+
+Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, benötigte Informationen in anderer Form zu erhalten. Es ist deshalb wichtig, dass diese Erklärung barrierefrei ist. Sie wird deshalb, wenn vorhanden, immer in die Seitenauswahl einbezogen. Auch weitere Seiten zur Dokumentation des Webangebots, wenn vorhanden, sollen barrierefrei sein und werden in die Seitenauswahl mit einbezogen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn eine Produkt-Dokumentation angeboten wird. Dazu gehört auch die Erklärung zur Barrierefreiheit.
 
-Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
-zu erteilen.
+Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa von PDFs) kann nicht Teil des Prüfverfahrens sein, sie muss in einem separaten Auftrag erfolgen.
 
 === 2. Prüfung
 
-Im BIK BITV-Test können derzeit nur Dokumentationen auf Basis von
-Web-Technologien geprüft werden. Für andere Formate muss ein extra Auftrag
-gestellt werden.
-
-Wenn die Dokumentation (auch) im HTML-Format vorliegt, ist dieser Prüfschritt
-erfüllt, wenn sämtliche anwendbaren Prüfschritte des Verfahrens mit dem
-Ergebnis konform durchlaufen wurden.
+. Wenn vorhanden, muss die Erklärung zu Barrierefreiheit Teil der Seitenauswahl sein.
+. Wenn weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, soll auch diese in die Seitenauswahl einbezogen werden.
+. Wenn sämtliche anwendbaren Prüfschritte des Verfahrens konform sind, ist auch dieser Prüfschritt konform.
 
 === 3. Hinweise
 
-Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
-anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B.
-Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
-für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache  für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
-Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-12.1.2 Accessible documentation
+* 12.1.2 Accessible documentation
 
 == Quellen
 
@@ -55,30 +50,22 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 [.BLOCK_LANG_EN]
 --
-Product documentation provided with the ICT shall be made available in at
-least one of the following electronic formats:
+Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:
 
 * a Web format that conforms to the requirements of clause 9; or 
 * a non-web format that conforms to the requirements of clause 10. 
 
 NOTE 1:
-This does not preclude the possibility of also providing the product
-documentation in other formats (electronic, printed or audio) that are not
-accessible. 
+This does not preclude the possibility of also providing the product documentation in other formats (electronic, printed or audio) that are not accessible. 
 
 NOTE 2:
-It also does not preclude the possibility of providing alternate formats that
-meet the needs of some specific type of users (e.g. Braille documents for
-blind people or easy-to-read information for persons with limited cognitive,
-language and learning abilities). 
+It also does not preclude the possibility of providing alternate formats that meet the needs of some specific type of users (e.g. Braille documents for blind people or easy-to-read information for persons with limited cognitive, language and learning abilities). 
 
 NOTE 3:
-Where documentation is incorporated into the ICT, the documentation falls
-under the requirements for accessibility in the present document. 
+Where documentation is incorporated into the ICT, the documentation falls under the requirements for accessibility in the present document. 
 
 NOTE 4:
-A user agent that supports automatic media conversion would be beneficial to
-enhancing accessibility.
+A user agent that supports automatic media conversion would be beneficial to enhancing accessibility.
 --
 
 (Aus EN 301 549 V3.1.1 Abschnitt 12.1.2 "Accessible documentation")
