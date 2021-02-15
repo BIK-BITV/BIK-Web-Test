@@ -13,7 +13,7 @@ Nicht-Web-Dokumente werden nicht in diesem Prüfverfahren bewertet.
 
 == Warum wird das geprüft?
 
-Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, benötigte Informationen in anderer Form zu erhalten. Es ist deshalb wichtig, dass diese Erklärung barrierefrei ist. Sie wird deshalb, wenn vorhanden, immer in die Seitenauswahl einbezogen. Auch weitere Seiten zu Dokumentation des Webangebots, wenn vorhanden, sollen barrierefrei sein und werden deshalb in die Seitenauswahl mit einbezogen.
+Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, benötigte Informationen in anderer Form zu erhalten. Es ist deshalb wichtig, dass diese Erklärung barrierefrei ist. Sie wird deshalb, wenn vorhanden, immer in die Seitenauswahl einbezogen. Auch weitere Seiten zur Dokumentation des Webangebots, wenn vorhanden, sollen barrierefrei sein und werden deshalb in die Seitenauswahl mit einbezogen.
 
 == Wie wird geprüft?
 
