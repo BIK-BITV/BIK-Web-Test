@@ -31,7 +31,7 @@ Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, solle
 
 === Einordnung des Prüfschritt nach EN 301 549 V3.1.1
 
-6.2.1.2 "Concurrent voice and text
+6.2.1.2 Concurrent voice and text
 
 
 == Quellen
