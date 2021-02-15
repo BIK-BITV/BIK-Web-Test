@@ -52,23 +52,16 @@ Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie htt
 
 [.BLOCK_LANG_EN]
 --
-Product documentation provided with the ICT whether provided separately or
-integrated within the ICT shall list and explain how to use the accessibility
-and compatibility features of the ICT. 
+Product documentation provided with the ICT whether provided separately or integrated within the ICT shall list and explain how to use the accessibility and compatibility features of the ICT. 
 
 NOTE 1:
-Accessibility and compatibility features include accessibility features that
-are built-in and accessibility features that provide compatibility with
-assistive technology. 
+Accessibility and compatibility features include accessibility features that are built-in and accessibility features that provide compatibility with assistive technology. 
 
 NOTE 2:
-It is best practice to use Web.
-Schemas/Accessibility 2.0 [i.38] to provide meta
-data on the accessibility of the ICT.
+It is best practice to use WebSchemas/Accessibility 2.0 [i.38] to provide meta data on the accessibility of the ICT.
 
 NOTE 3:
-The accessibility statement and help pages are both examples of the provision
-of product information.
+The accessibility statement and help pages are both examples of the provision of product information.
 --
 
 (Aus EN 301 549 V3.1.1 Abschnitt 12.1.1 "Accessibility and compatibility
