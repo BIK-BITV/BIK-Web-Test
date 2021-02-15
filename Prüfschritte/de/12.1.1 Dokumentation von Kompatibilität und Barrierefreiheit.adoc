@@ -33,7 +33,7 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 * spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Verzeichnisse für Abkürzungen
 
-Die Webseite soll, wenn möglich, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität maschinenlesbar, in geeigneten Formaten, bereitstellen.
+Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität gemäß den Konventionen von https://www.w3.org/wiki/WebSchemas/Accessibility[WebSchemas/Accessibility 2.0] bereitzustellen.
 
 === 3. Hinwiese
 
