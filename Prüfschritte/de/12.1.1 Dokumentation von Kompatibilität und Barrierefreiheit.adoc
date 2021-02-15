@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären. Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
+Die Dokumentation des Webangebots soll vorhandene zusätzliche Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und deren Nutzung erklären, sofern diese als Teil des Web-Angebots selbst implementiert wurden. Dazu gehören zum Beispiel angepasste Ansichten mit geänderten Kontrasten oder Textgrößen, Vorlesefunktionen, oder verfügbare Tastaturkurzbefehle. Auch Informationen zur (möglicherweise eingeschränkten) Kompatibilität mit assistiven Technologien zählen dazu.
 
 == Warum wir das geprüft?
 
@@ -25,8 +25,7 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
 * Einzelheiten zu Features für die Barrierefreiheit, sofern sie auf der Webseite integriert sind, zum Beispiel:
 ** Vorlesefunktion
-** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
-   Maus-/Tastaturfokus
+** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter Darstellungen Maus-/Tastaturfokus
 ** Vergrößerungsfunktion
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
@@ -38,7 +37,9 @@ Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen
 
 === 3. Hinweise
 
-Zum Punkt Hinweise auf unterstütze Umgebungen: Wenn das Angebot explizit für einen eingeschränkten Nutzerkreis (zum Beispiel ein Firmen-Intranet) entwickelt wurde und für diesen eine bestimmte Nutzungsumgebung (beispielsweise ein bestimmter Browser und ein bestimmter Screenreader) festgelegt wurde, soll die Dokumentation die unterstütze Umgebung nennen. Nutzer, die in anderen Umgebungen auf Barrieren stoßen, wissen dann wengistens, woran es liegt, und können ihre Nutzungsumgebung anpassen. Für Angebote, die allgemein im Web zugänglich sind und mit verschiedensten Browsern und Hilfsmitteln genutzt werden, sind solcherlei Einschränkungen nicht zulässig.
+. Es wird nur die Dokumentation von Barrierefreiheits-Funktionen verlangt, die vom Webangebot selbst implementiert werden. Dazu gehören auch Features wie Vorlesefunktionen, die von Drittanbietern definiert und im Angebot eingebunden werden. Barrierefreiheits-Funktionen des Browsers oder des jeweiligen Betriebssystems müssen dagegen nicht dokumentiert werden.
+
+. Zum Punkt Hinweise auf unterstütze Umgebungen: Wenn das Angebot explizit für einen eingeschränkten Nutzerkreis (zum Beispiel ein Firmen-Intranet) entwickelt wurde und für diesen eine bestimmte Nutzungsumgebung (beispielsweise ein bestimmter Browser und ein bestimmter Screenreader) festgelegt wurde, soll die Dokumentation die unterstütze Umgebung nennen. Nutzer, die in anderen Umgebungen auf Barrieren stoßen, wissen dann wengistens, woran es liegt, und können ihre Nutzungsumgebung anpassen. Für Angebote, die allgemein im Web zugänglich sind und mit verschiedensten Browsern und Hilfsmitteln genutzt werden, sind solcherlei Einschränkungen nicht zulässig.
 
 Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
