@@ -2,13 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.2.3 "Effective communication" verwiesen.
-
 == Was wird geprüft?
 
 Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit
@@ -18,16 +11,11 @@ Dies kann auch durch die Vermittlung von Dritten ermöglicht werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
-
-Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
-nicht vollständig geklärt.
-Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt
-hinterlassen].
+=== 2. Prüfung
 
 Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene
 Kommunikationsarten für die Nutzer anzubieten.
@@ -37,6 +25,19 @@ Kommunikationsarten für die Nutzer anzubieten.
 * Chat
 * Telefon
 * Videotelefonie
+
+=== 3. Hinweise
+
+Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
+nicht vollständig geklärt.
+Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt
+hinterlassen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.2.3 Effective communication
 
 == Quellen
 

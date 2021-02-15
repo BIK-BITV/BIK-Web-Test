@@ -4,35 +4,25 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden, bietet der Videoplayer 
-die Möglichkeit, die Untertitel anzuzeigen. Werden dynamisch zuschaltbare, 
-textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer 
-die Möglichkeit, diese ein- und auszublenden. 
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, bietet der Videoplayer die Möglichkeit, die Untertitel anzuzeigen. Werden dynamisch zuschaltbare,  textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
 
 == Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehen. 
-Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur 
-durch Untertitel bereitgestellt werden. 
+Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden. 
 
 Untertitel können auf unterschiedliche Arten eingebunden werden: 
 Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, 
 die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement 
 am Player flexibel zuschaltbar sind. 
 
-Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden 
-wahrgenommen werden können, ist es erforderlich, dass der Videoplayer 
-die Möglichkeit bietet, diese ein- und auszublenden. Bei Open captions handelt es sich 
-hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
+Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die Möglichkeit bietet, diese ein- und auszublenden. Bei Open captions handelt es sich hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-*	Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
-  der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt.
-*	Aufgezeichnete Videos ohne Tonspur, stumme Videos, brauchen keine Untertitelung, 
-  der Prüfschritt ist für sie nicht anwendbar.
+*	Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt.
+*	Aufgezeichnete Videos ohne Tonspur, stumme Videos, brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
 
 === 2. Prüfung
 
@@ -43,57 +33,40 @@ hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht gep
 
 ==== 2.1 Anzeigen von closed captions
 
-. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. 
-  Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. 
-  Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` 
-  spezifiziert, dass es sich um Untertitel handelt.
-. Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer 
-  eine Möglichkeit bietet, diese ein- und auszublenden.
+. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` spezifiziert, dass es sich um Untertitel handelt.
+. Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer eine Möglichkeit bietet, diese ein- und auszublenden.
 
 === 3. Hinweise
 
-* Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, 
-  um die Untertitel auf einer Braillezeile anzuzeigen.
-* Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei
-  Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video 
-  mit open captions über einen zweiten Player angezeigt wird.
+* Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, um die Untertitel auf einer Braillezeile anzuzeigen.
+* Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video mit open captions über einen zweiten Player angezeigt wird.
 
 === 4. Bewertung
 
 ==== Erfüllt: 
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel 
-als fester Bestandteil des Videos angezeigt (open captions) 
-oder können über ein Bedienelement des Videoplayers ein- und ausgeblendet werden 
-(closed captions).
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel als fester Bestandteil des Videos angezeigt (open captions) oder können über ein Bedienelement des Videoplayers ein- und ausgeblendet werden (closed captions).
 
 ==== Nicht voll erfüllt: 
 
-Es werden eine Untertitel-Datei angeboten, der Player bietet jedoch 
-keine Möglichkeit, diese anzuzeigen.
+Es wird eine Untertitel-Datei angeboten, der Player bietet jedoch keine Möglichkeit, diese anzuzeigen.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von 
-Untertiteln während der Wiedergabe sowie um die Bedienelemente zum Ein- und 
-Ausschalten von Untertiteln im Videoplayer.
+Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von Untertiteln während der Wiedergabe sowie um die Bedienelemente zum Ein- und Ausschalten von Untertiteln im Videoplayer.
 
 ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
 <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
-Videos mit Untertiteln>>
-endif::env_embedded[]
-bezieht sich hingegen 
-auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung 
-der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde 
-und in einem Format erfasst werden, das für die Bereitstellung synchronisierter 
-Untertitel verwendet werden kann. 
+Videos mit Untertiteln>> bezieht sich hingegen auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter Untertitel verwendet werden kann. 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1 Annex A 
+Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
-* Tabelle A1: Verweis auf 7.1.1 "Captioning playback"
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+7.1.1 Captioning playback
 
 == Quellen
 

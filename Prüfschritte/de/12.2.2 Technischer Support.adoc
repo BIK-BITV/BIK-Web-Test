@@ -2,42 +2,30 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.2.2 "Information on accessibility and compatibility features" verwiesen.
-
 == Was wird geprüft?
 
 Der technische Support (über Telefon, Mail, ...) soll Informationen zur
 Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
-können, die die Web-App betrifft.
+können, die die Webanwendung betreffen.
 Dies soll mindestens die Informationen umfassen, die dazu in der
-Web-App-Dokumentation erwähnt werden (siehe auch Prüfschritt
+Dokumentation der Webanwendung erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
   12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit>>
 endif::env_embedded[]
-
 ).
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
-
-Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
-vollständig geklärt.
-Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
+=== 2. Prüfung
 
 Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Web-App-Dokumentation, den technischen Support zu kontaktieren und einige
+Dokumentation der Webanwendung, den technischen Support zu kontaktieren und einige
 Fragen zur Barrierefreiheit stichprobenartig zu stellen.
 
 Falls möglich, können auch die Dokumente, die dem technischem Support zur
@@ -47,6 +35,19 @@ Verbreitet sollten jedoch Assistenzsysteme sein, die den Support-Mitarbeiter
 durch die Problemlösung führt.
 Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine Prüfung
 bekommen würde.
+
+=== 3. Hinweise
+
+Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
+vollständig geklärt.
+Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.2.2 Information on accessibility and compatibility features
+
 
 == Quellen
 

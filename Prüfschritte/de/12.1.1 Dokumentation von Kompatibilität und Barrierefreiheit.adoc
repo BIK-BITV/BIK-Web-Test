@@ -2,66 +2,47 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.1.1 "Accessibility and compatibility features" verwiesen.
-
 == Was wird geprüft?
 
-Die Dokumentation der Webseite / Web-App soll die Eigenschaften und Funktionen
-in Bezug auf Barrierefreiheit auflisten undessen Nutzung erklären.
-Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
+Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären. Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
-mit Barrierefreiheit und Kompatibilität beschäftigt, auf der Webseite, auf
-HTML-Basis, integriert
-ist.
-Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird
-und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses
-Prüfverfahrens mitgetestet werden.
-Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
-werden.
+Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich mit Barrierefreiheit und Kompatibilität beschäftigt, auf HTML-Basis integriert ist. Eine Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird, und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden. Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft werden.
 
-=== Prüfung
+=== 2. Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen in der Dokumentation aufgelistet und erklärt werden. Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden oder separat verfügbar sein. Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen, Wikis oder der Erklärung zur Barrierefreiheit.
 
-Alle für die Barrierefreiheit relevanten Informationen zur Webseite sollen
-in der Dokumentation aufgelistet und erklärt werden.
-Die Dokumentation kann dabei auf der Webseite zur Verfügung gestellt werden
-oder separat verfügbar sein.
-Zu finden ist die Dokumentation z. B. auf Hilfeseiten bzw. in Support-Bereichen,
-Wikis oder der Erklärung zur Barrierefreiheit.
-
-Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern
-relevant:
+Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern relevant:
 
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
-* Einzelheiten zu Features für die Barrierefreiheit (auf der Webseite 
-  integriert)
+* Einzelheiten zu Features für die Barrierefreiheit, sofern sie auf der Webseite integriert sind, zum Beispiel:
 ** Vorlesefunktion
 ** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
    Maus-/Tastaturfokus
 ** Vergrößerungsfunktion
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
-** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
-** ...
-* Informationen zur Kompatibilität mit assistiven Technologien
-* spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+** besondere Bedienungsarten mit Tastatur / Tastenkombinationen, z.B. spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
+* Hinweise auf unterstützte Umgebungen, falls es Einschränkungen bei der Nutzbarkeit mit assistiven Technologien gibt
 * Verzeichnisse für Abkürzungen
 
-Die Webseite soll, wenn möglich, Metadaten für die unterstützten
-Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
-Formaten, bereitstellen.
+Es wird empfohlen, Metadaten für die unterstützten Barrierefreiheitsfunktionen und Kompatibilität gemäß den Konventionen von https://www.w3.org/wiki/WebSchemas/Accessibility[WebSchemas/Accessibility 2.0] bereitzustellen.
+
+=== 3. Hinweise
+
+Zum Punkt Hinweise auf unterstütze Umgebungen: Wenn das Angebot explizit für einen eingeschränkten Nutzerkreis (zum Beispiel ein Firmen-Intranet) entwickelt wurde und für diesen eine bestimmte Nutzungsumgebung (beispielsweise ein bestimmter Browser und ein bestimmter Screenreader) festgelegt wurde, soll die Dokumentation die unterstütze Umgebung nennen. Nutzer, die in anderen Umgebungen auf Barrieren stoßen, wissen dann wengistens, woran es liegt, und können ihre Nutzungsumgebung anpassen. Für Angebote, die allgemein im Web zugänglich sind und mit verschiedensten Browsern und Hilfsmitteln genutzt werden, sind solcherlei Einschränkungen nicht zulässig.
+
+Für die Prüfpraxis sind weitere Hinweise nützlich, auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.1.1 Accessibility and compatibility features
 
 == Quellen
 
@@ -70,23 +51,16 @@ Formaten, bereitstellen.
 
 [.BLOCK_LANG_EN]
 --
-Product documentation provided with the ICT whether provided separately or
-integrated within the ICT shall list and explain how to use the accessibility
-and compatibility features of the ICT. 
+Product documentation provided with the ICT whether provided separately or integrated within the ICT shall list and explain how to use the accessibility and compatibility features of the ICT. 
 
 NOTE 1:
-Accessibility and compatibility features include accessibility features that
-are built-in and accessibility features that provide compatibility with
-assistive technology. 
+Accessibility and compatibility features include accessibility features that are built-in and accessibility features that provide compatibility with assistive technology. 
 
 NOTE 2:
-It is best practice to use Web.
-Schemas/Accessibility 2.0 [i.38] to provide meta
-data on the accessibility of the ICT.
+It is best practice to use WebSchemas/Accessibility 2.0 [i.38] to provide meta data on the accessibility of the ICT.
 
 NOTE 3:
-The accessibility statement and help pages are both examples of the provision
-of product information.
+The accessibility statement and help pages are both examples of the provision of product information.
 --
 
 (Aus EN 301 549 V3.1.1 Abschnitt 12.1.1 "Accessibility and compatibility
