@@ -18,7 +18,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation u
 
 === 2. Prüfung
 
-. Web-App öffnen
+. Web-Anwendung öffnen
 . Prüfen, ob die gleichrangige Kommunikation via Echtzeit-Text und Sprache möglich ist und Funktionen wie das digitale Handheben ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen. Wenn es eine Warteschlange für Beiträge gibt, landen Sprachnutzer un Echtzeit-Text-Nutzer in der gleichen Schlange.
 
 === 3. Hinweise
