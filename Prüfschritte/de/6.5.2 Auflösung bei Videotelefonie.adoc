@@ -30,7 +30,7 @@ Issue auf GitHub].
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.5.2 Resolution
+6.5.2 Resolution
 
 == Quellen
 
