@@ -39,7 +39,7 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit Textkommunikation s
 
 ==== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
- * 6.2.2.1 Visually distinguishable display
+6.2.2.1 Visually distinguishable display
 
 ==== 4.2 Abgrenzung zu anderen Prüfschritten
 
