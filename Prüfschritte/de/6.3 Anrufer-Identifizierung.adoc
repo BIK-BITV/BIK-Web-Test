@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch
+Wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch
 ermittelbar sein.
 
 == Warum wird das geprüft?
@@ -15,14 +15,14 @@ Diese Anforderung stellt sicher, dass auch Nutzer von Hilfstechnologien den Anru
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufers.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufers.
 
 === 2. Prüfung
 
-Für die Prüfung muss die Web-App ggf. auf zwei Geräten geöffnet werden.
+Für die Prüfung muss die Web-Anwendung ggf. auf zwei Geräten geöffnet werden.
 
 . Screenreader starten
-. Web-App öffnen
+. Web-Anwendung öffnen
 . Anruf von einem zweiten Gerät tätigen
 . Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die Informationen über den Anrufer im Browser für den Screenreader ohne Umwege auslesbar?
 . Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufer in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
@@ -31,7 +31,7 @@ Für die Prüfung muss die Web-App ggf. auf zwei Geräten geöffnet werden.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.3 Caller ID
+6.3 Caller ID
 
 == Quellen
 
