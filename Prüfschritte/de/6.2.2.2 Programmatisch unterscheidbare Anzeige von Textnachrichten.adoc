@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App eine Funktion zur Echtzeit Textkommunikation anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
+Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
 
 == Warum wird das geprüft?
 
@@ -14,18 +14,18 @@ Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in e
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit Textkommunikation senden und empfangen kann.
 
 === 2. Prüfung
 
 ==== 2.1 Quelltext-Prüfung
-. Web-App öffnen
+. Web-Anwendung öffnen
 . In den Developer Tools des Browsers prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext die jeweilige Verfasser:innen mit Uhrzeit genannt werden. Die unterscheidenden Merkmale (etwa Nutzer-Namen oder Kürzel) dürfen dabei nicht vor Hilfsmitteln versteckt sein, etwa über ´display:none´ oder ´aria-hidden=true´.
 
 ==== 2.2 Zusätzliche Prüfung mittels Screenreader
 
 . Screenreader starten
-. die zu prüfende Web-App mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
+. die zu prüfende Web-Anwendung mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
 . einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
 . die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
 . auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
