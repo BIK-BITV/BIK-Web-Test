@@ -19,7 +19,7 @@ Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Be
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar für Angebote, die eine Erklärung zur Barrierefreiheit bereitstellen müssen. Dies ist der Fall für Angebote, die der BITV 2.0 und damit der Europäischen Webrichtlinie unterliegen.
+Der Prüfschritt ist anwendbar, wenn eine Produkt-Dokumentation angeboten wird. Dazu gehört auch die Erklärung zur Barrierefreiheit.
 
 Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa von PDFs) kann nicht Teil des Prüfverfahrens sein, sie muss in einem separaten Auftrag erfolgen.
 
