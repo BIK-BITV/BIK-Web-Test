@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Die Dokumentation der Webseite / Webanwendung soll die Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und dessen Nutzung erklären. Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
 
+== Warum wir das geprüft?
+
+Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, sollten diese gut dokumentiert sein, denn viele Nutzer werden ohne ausdrückliche Hinweise diese Funktionen nicht erkennen oder nutzen können.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
