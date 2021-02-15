@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
+Wenn die Webseite biometrische Merkmale (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
 
 Die Alternativen zu einer biometrischen Identifizierung werden in der Regel nicht-biometrische Methoden sein, etwa die Eingabe von Nutzername und Passwort. (Für diese gelten dann natürlich alle anderen Anforderungen, etwa die der Tastaturbedienbarkeit und der Verfügbarkeit zugänglicher Namen.) Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, z.B. wenn zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, des Sprachmusters, oder des Gesichts angeboten wird.
 
