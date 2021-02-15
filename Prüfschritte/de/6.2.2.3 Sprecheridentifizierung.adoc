@@ -18,8 +18,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikatio
 
 === 2. Prüfung
 
-. Web-App öffnen.
-. Prüfen, ob der aktive Sprecher über Sprache identifiziert und in der App markiert oder anderweitig hervorgehoben wird.
+. Web-Anwendung öffnen.
+. Prüfen, ob der aktive Sprecher über Sprache identifiziert und in der Anwendung markiert oder anderweitig hervorgehoben wird.
 . Ist dies der Fall, prüfen, ob auch Teilnehmer, die Echtzeit-Texteingabe verwenden, beim Eingaben markiert oder anderweitig hervorgehoben werden.
 
 === 3. Hinweise
@@ -30,7 +30,7 @@ Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern e
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.2.2 Display of RTT
+6.2.2 Display of RTT
 
 
 == Quellen
