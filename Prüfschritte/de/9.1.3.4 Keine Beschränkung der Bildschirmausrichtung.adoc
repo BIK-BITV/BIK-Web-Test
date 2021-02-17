@@ -43,8 +43,7 @@ Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar sein
 
 === 3. Hinweise
 
-Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten
-meist auch der Fall ist). Der Inhalt muss also ggf. in beiden Ausrichtungen jeweils neu geladen werden.
+Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten meist auch der Fall ist). Der Inhalt muss also ggf. in beiden Ausrichtungen jeweils neu geladen werden.
 
 === 4. Bewertung
 
