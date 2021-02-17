@@ -16,58 +16,34 @@ einen Projektor oder Bildschirm, oder Inhalte eine Virtual-Reality (VR)
 Anwendung bei der es keine binäre Ausrichtung gibt (also nicht: entweder Hoch-
 oder Querformat).
 
-Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in
-der gleichen Form angeboten werden.
-So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung
-von Ausklapbereichen oder mittels Links auf andere Seiten angeboten werden.
+Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in der gleichen Form angeboten werden. So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung von Ausklapbereichen oder mittels Links auf andere Seiten angeboten werden.
 
 == Warum wird das geprüft?
 
-Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät
-(z. B. ein Smartphone) in einer bestimmten Ausrichtung nutzen zu können.
-Wenn beispielsweise Text stark vergrößert wird, bietet die Verwendung des
-Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
+Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät (z. B. ein Smartphone) in einer bestimmten Ausrichtung nutzen zu können.
+Wenn beispielsweise Text stark vergrößert wird, bietet die Verwendung des Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
 
-Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung
-montiert (z. B. am Arm eines Elektrorollstuhls).
-Daher sollten Websites und Anwendungen die Darstellung von Inhalten *nicht* auf
-lediglich eine Ausrichtung einschränken.
+Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung montiert (z. B. am Arm eines Elektrorollstuhls). Daher sollten Websites und Anwendungen die Darstellung von Inhalten *nicht* auf lediglich eine Ausrichtung einschränken.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar
-sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung
-funktionieren.
+Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung funktionieren.
 
 === 2. Prüfung
 
-Ein aktuelles Android-Smartphone oder iPhone mit ca. 4-6 Zoll
-Bildschirmdiagonale zur Prüfung verwenden.
-Sicherstellen, dass auf dem mobilen Prüfgerät die Ausrichtung nicht hardware-
-oder betriebssystemseitig festgestellt bzw. arretiert ist.
-Der zu prüfende Inhalt wird im Browser Chrome (Android) oder Safari (iOS) erst
-in der einen Ausrichtung neu geladen.
-Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
-Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
-Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
-Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen,
-welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
-Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung
-entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber
-eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist:
-Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der
-nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt
-werden könnten.
+. Ein aktuelles mobiles Gerät (z.B. ein iPhone oder Android-Handy) zur Prüfung verwenden.
+. Sicherstellen, dass auf dem mobilen Prüfgerät die Ausrichtung nicht hardware- oder betriebssystemseitig festgestellt bzw. arretiert ist.
+. Der zu prüfende Inhalt wird im Browser Chrome (Android) oder Safari (iOS) erst in der einen Ausrichtung neu geladen.
+. Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
+. Gerät um 90 Grad drehen. Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
+. Prüfen, ob Inhalte auch in der anderen AUsrichtung dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
+. Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden könnten.
 
 === 3. Hinweise
 
-Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte
-dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten
-meist auch der Fall ist).
-Der Inhalt muss also in beiden Ausrichtungen jeweils
-neu geladen werden.
+Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten meist auch der Fall ist). Der Inhalt muss also ggf. in beiden Ausrichtungen jeweils neu geladen werden.
 
 === 4. Bewertung
 
@@ -80,11 +56,8 @@ neu geladen werden.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Gegenstand dieses Prüfschritts ist die Anpassbarkeit der
-Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der
-Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel
-hervorgerufen werden.
-Dies ist Gegenstand von Prüfschritt
+Gegenstand dieses Prüfschritts ist die Anpassbarkeit der Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel hervorgerufen werden.
+Dies ist Gegenstand von Prüfschritt 
 ifdef::env_embedded[9.1.4.4 "Text auf 200% vergrößerbar"]
 ifndef::env_embedded[]
   <<9.1.4.4 Text auf 200% vergrößerbar.adoc#,9.1.4.4 Text auf 200%
