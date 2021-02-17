@@ -25,7 +25,7 @@ Die Dokumentation muss dabei z. B. folgende Informationen enthalten, sofern rele
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102 (ggf. verlinkt)
 * Einzelheiten zu Features für die Barrierefreiheit, sofern sie auf der Webseite integriert sind, zum Beispiel:
 ** Vorlesefunktion
-** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter Darstellungen Maus-/Tastaturfokus
+** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter Darstellungen des Maus- oder Tastaturfokus
 ** Vergrößerungsfunktion
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
