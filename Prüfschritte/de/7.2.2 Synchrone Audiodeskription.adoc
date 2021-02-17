@@ -13,8 +13,7 @@ Bildbeschreibungen sollten möglichst handlungsynchron umgesetzt werden (siehe a
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild- und Tonspur sowie einer zusätzlich eingebundenen Tonspur für Audiodeskription vorhanden sind. Ist die Audiodeskription integrierter Teil der Video-Tonspur, liegt eine festgestellte mangelnde Synchronität in jedem Fall an der eingebundenen Video-Datei, nicht am Player.
-
+Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild- und Tonspur sowie einer zusätzlich eingebundenen Tonspur für Audiodeskription vorhanden sind. Eine Alternative wäre die Verwendung des track Elements mit kind="description", eine im video-Element eingebunde Textdatei, aus der ggf. eine Audio-Ausgabe synthetisiert wird. Wenn also ein Player bei der Auswahl einer angebotenen 'Version mit Audiodeskription' eine andere Videodatei mit erweitertem Ton lädt, ist der Prüfschritt nicht anwendbar, denn eine festgestellte mangelnde Synchronität läge dann in jedem Fall an der eingebundenen Video-Datei, nicht am Player. 
 === 2. Prüfung
 
 . Das Video mit zugeschalteter Audiodeskription in dem auf der Webseite eingebundenen Player abspielen.
