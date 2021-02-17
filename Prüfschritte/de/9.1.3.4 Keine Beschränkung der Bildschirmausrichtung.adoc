@@ -39,9 +39,7 @@ Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar sein
 . Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
 . Gerät um 90 Grad drehen. Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
 . Prüfen, ob Inhalte auch in der anderen AUsrichtung dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
-. Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber
-eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt
-werden könnten.
+. Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden könnten.
 
 === 3. Hinweise
 
