@@ -40,7 +40,7 @@ Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine weite
 
 ==== Nicht erfüllt:
 
-Nutzeridentifizierung oder Steuerung beschränken sind nur über **ein** biometrisches Merkmal möglich, es gibt keine Alternativen dazu.
+Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkmal möglich, es gibt keine Alternativen dazu.
 
 == Einordnung des Prüfschritts 
 
