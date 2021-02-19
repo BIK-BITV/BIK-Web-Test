@@ -26,7 +26,7 @@ Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die
   untersuchen:
 +
   * Wird Biometrie für die Steuerung genutzt?
-  * Gibt es neben der biometrischen Steuerung alternative nicht biometrische oder Steuerungsmethoden?
+  * Gibt es neben der identifizierten biometrischen Steuerung alternative nicht biometrische oder biometrische Steuerungsmethoden?
 
 === 3. Hinweise
 
@@ -40,7 +40,7 @@ Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine nicht
 
 ==== Nicht erfüllt:
 
-Nutzeridentifizierung oder Steuerung beschränkt sich auf nur ein biometrisches merkmal, es gibt keine Alternativen dazu.
+Nutzeridentifizierung oder Steuerung beschränken sind nur über **ein** biometrisches Merkmal möglich, es gibt keine Alternativen dazu.
 
 == Einordnung des Prüfschritts 
 
@@ -55,13 +55,10 @@ Nutzeridentifizierung oder Steuerung beschränkt sich auf nur ein biometrisches 
 
 [.BLOCK_LANG_EN]
 --
-Where ICT uses biological characteristics, it shall not rely on the use of a
-particular biological characteristic as the only means of user identification
-or for control of ICT. 
+Where ICT uses biological characteristics, it shall not rely on the use of a particular biological characteristic as the only means of user identification or for control of ICT. 
 
 NOTE 1:
-Alternative means of user identification or for control of ICT could be
-non-biometric or biometric. 
+Alternative means of user identification or for control of ICT could be non-biometric or biometric. 
 
 NOTE 2:
 Biometric methods based on dissimilar biological characteristics increase the
