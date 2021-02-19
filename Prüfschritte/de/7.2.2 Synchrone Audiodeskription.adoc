@@ -19,12 +19,12 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite Videos mit synchroner Bild
 
 . Das Video mit zugeschalteter Audiodeskription in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Audiodeskription synchron zu Bild und Ton wiedergegeben wird.
-. Falls die Audiodeskription nicht synchron läuft: Mittels Web Developer Tools prüfen, ob beim Abspielen der Versionen mit und ohne Audiodeskription unterschiedliche Quell-Dateien genutzt werden. Das `src`-Attribut des `video`-Elements hat in diesem Fall abweichende Pfade, etwa `../video-name.mp4` und `../video-name-AD.mp4`. Ist das der Fall ist die Audiodeskription mit großer Wahrscheinlichkeit integrierter Teil der Video-Tonspur. Mangelnde Synchronität liegt in diesem Fall nicht am Player, der Prüfschritt ist erfüllt. Wahrscheinlich muss dann aber Prüfschritt 9.1.2.5 "Audiodeskription für Videos" negativ bewertet werden!
-. Wird die zugeschaltetet Audiodeskription nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Umsetzung der Audiodeskription liegen. Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
+. Falls die Audiodeskription nicht synchron läuft: Mittels Web Developer Tools prüfen, ob beim Abspielen der Versionen mit und ohne Audiodeskription unterschiedliche Quell-Dateien genutzt werden. Das `src`-Attribut des `video`-Elements hat in diesem Fall abweichende Pfade, etwa `../video-name.mp4` und `../video-name-AD.mp4`. Ist das der Fall, ist die Audiodeskription mit großer Wahrscheinlichkeit integrierter Teil der Video-Tonspur. Mangelnde Synchronität liegt in diesem Fall nicht am Player, der Prüfschritt ist erfüllt. Wahrscheinlich muss dann aber Prüfschritt 9.1.2.5 "Audiodeskription für Videos" negativ bewertet werden!
+. Falls der Dateipfad des Videos nach Zuschalten der Audiodeskription gleich bleibt, ist bei mangelnder Synchronität entweder der Player fehlerhalft oder es liegt an einer fehlerhaften Umsetzung der Audiodeskription. Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
 
 === 3. Hinweise
 
-Wenn zugeschaltete Audiodeskription nicht synchron läuft und im Angebot andere Videos mit zusätzlichen Tracks für Audiodeskription vorhanden sind, dort prüfen, ob ebenfalls Mängel bei der Synchronität bestehen. Ist die zugeschaltete Audiodeskription bei anderen Videos synchron, deutet dies darauf hin, dass das Problem nicht beim Player, sondern bei spezifischen Video oder Audiodeskriptions-Dateien liegt. Der Prüfschritt wäre dann erfüllt.
+Wenn zugeschaltete Audiodeskription nicht synchron läuft und im Angebot andere Videos mit zuschaltbarer Audiodeskription vorhanden sind, dort prüfen, ob ebenfalls Mängel bei der Synchronität bestehen. Ist die zugeschaltete Audiodeskription bei anderen Videos synchron, deutet dies darauf hin, dass das Problem nicht beim Player, sondern bei spezifischen Video oder Audiodeskriptions-Dateien liegt. Der Prüfschritt wäre dann erfüllt.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
