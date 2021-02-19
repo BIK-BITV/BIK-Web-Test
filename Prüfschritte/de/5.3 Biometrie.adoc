@@ -36,7 +36,7 @@ Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich die Nutzer-Identi
 
 ==== Erfüllt:
 
-Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine nicht-biometrische oder eine weitere biometrische Methode.
+Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine weitere nicht-biometrische oder biometrische Methode.
 
 ==== Nicht erfüllt:
 
