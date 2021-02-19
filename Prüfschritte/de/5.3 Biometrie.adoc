@@ -46,7 +46,7 @@ Nutzeridentifizierung oder Steuerung beschränken sind nur über **ein** biometr
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-5.3 "Biometrics"
+* 5.3 Biometrics
 
 == Quellen
 
