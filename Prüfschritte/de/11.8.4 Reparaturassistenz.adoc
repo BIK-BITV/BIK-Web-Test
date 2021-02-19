@@ -43,7 +43,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-1.8.4 Repair assistance
+* 11.8.4 Repair assistance
 
 == Quellen
 
