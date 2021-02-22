@@ -17,8 +17,7 @@ ifdef::env_embedded[7.1.2 "Synchrone Untertitel"]
 ifndef::env_embedded[]
   <<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
 endif::env_embedded[]
-sind weiterhin erfüllt
-
+sind weiterhin erfüllt.
 
 == Warum wird das geprüft?
 
@@ -32,27 +31,39 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln über
 
 === 2. Prüfung
 
-Wenn die Webangebot Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließend in einem konformen Player abspielen:
+Wenn die Webseite Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließend in einem konformen Player abspielen:
 
 * Sind alle Untertitel aus der Quelle weiterhin vorhanden?
 * Lassen sich alle Untertitel anzeigen?
 * Ist die Darstellung der Untertitel weiterhin synchron zum Ton?
 
 === 3. Hinweise
-Wenn gestalterische Aspekte der Untertitel (z.B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
+
+Wenn gestalterische Aspekte der Untertitel (z. B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertung
 
 ==== Nicht erfüllt:
-Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.
+* Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt. In den Prüfschritten 7.1.1 Wiedergabe von Untertiteln und 7.1.2 Synchrone Untertitel geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
+In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt.
+In den Prüfschritten
+ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
+ifndef::env_embedded[]
+<<7.1.1 Wiedergabe von Untertiteln.adoc#,7.1.1 Wiedergabe von Untertiteln>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[7.1.2 "Synchrone Untertitel"]
+ifndef::env_embedded[]
+<<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
+endif::env_embedded[]
+geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind.
 
 === Einordnung des Prüfschritts nach EN 301 549 v.3.1.1
 
