@@ -4,10 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit
-Behinderungen berücksichtigen und effektive d. h. funktionierende und
-tragfähige Kommunikationskanäle anbieten.
-Dies kann auch durch die Vermittlung von Dritten ermöglicht werden.
+Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte ermöglicht werden.
 
 == Wie wird geprüft?
 
@@ -17,8 +14,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene
-Kommunikationsarten für die Nutzer anzubieten.
+Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsarten für die Nutzer anzubieten.
 
 .Kommunikation über
 * E-Mail
@@ -28,10 +24,7 @@ Kommunikationsarten für die Nutzer anzubieten.
 
 === 3. Hinweise
 
-Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch
-nicht vollständig geklärt.
-Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt
-hinterlassen].
+Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt hinterlassen].
 
 == Einordnung des Prüfschritts
 
