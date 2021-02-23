@@ -7,7 +7,8 @@ include::include/attributes.adoc[]
 Wenn das Webangebot Echtzeit-Textkommunikation unterstützt und entsprechende Nutzereingaben entgegen nimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden.
 
 == Warum wird das geprüft?
-[folgt]
+
+(folgt)
 
 == Wie wird das geprüft?
 
