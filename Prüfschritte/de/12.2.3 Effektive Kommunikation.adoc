@@ -14,7 +14,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsarten für die Nutzer anzubieten.
+Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzer anzubieten.
 
 .Kommunikation über
 * E-Mail
@@ -23,6 +23,8 @@ Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene K
 * Videotelefonie
 
 === 3. Hinweise
+
+Ein Ansatz für die Prüfung wäre, festzustellen, ob eine Kontaktmöglichkeit zum Support über mindestens zwei verschiedene Kommunikations-Kanäle (z.B. Telefon und E-Mail) zur Verfügung steht.
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt hinterlassen].
 
