@@ -41,6 +41,17 @@ Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzub
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
+=== 4. Bewertung
+
+==== Erfüllt
+
+Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) der EN
+
+==== Nicht erfüllt
+
+Die webbasierte Dokumentation erfüllt eine oder mehrere ANforderungen aus Kapitel 9 (Web) nicht.
+
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
