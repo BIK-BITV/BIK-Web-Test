@@ -45,7 +45,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 ==== Erfüllt
 
-Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) der EN
+Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) der EN.
 
 ==== Nicht erfüllt
 
