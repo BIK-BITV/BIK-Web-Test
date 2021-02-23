@@ -9,7 +9,7 @@ es erstellt, anbietet, soll mindestens eine der angebotenen Vorlagen die Erstell
 
 Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte Vorlagen eindeutig als solche zu identifizieren sein.
 
-== Was wird geprüft?
+== Warum wird das geprüft?
 
 [folgt]
 
