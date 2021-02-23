@@ -10,7 +10,7 @@ Damit die Webanwendung diesen Prüfschritt besteht, muss sie mindestens HD-Telef
 
 == Warum wird das geprüft? 
 
-Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshaklb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
 
 == Wie wird geprüft?
 
