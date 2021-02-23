@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte ermöglicht werden.
+Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte geschehen.
 
 == Wie wird geprüft?
 
