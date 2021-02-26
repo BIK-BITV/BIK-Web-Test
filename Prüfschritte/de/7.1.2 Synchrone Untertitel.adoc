@@ -24,7 +24,8 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit 
 
 . Das Video in dem auf der Webseite eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.  Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.
+. Um festzustellen, ob die Ursache beim Player liegt oder an der Unteriteldatei, können die Zeitstempel der Untertiteldatei stichprobenartig geprüft werden. Dazu im Inspektor des Browsers das track-Element suchen. Die Untertitel-Datei ist über das track-Element eingebunden. Mit Hilfe des Kontextmenüs kann man die Datei (.vtt oder .scrt) in einem neuen Tab anzeigen und prüfen, ob die Zeitstempel korrekt sind.
 
 === 3. Hinweise
 
