@@ -20,26 +20,18 @@ endif::env_embedded[]
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot in seiner Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitstellt.
 
 === 2. Prüfung
 
-Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Dokumentation der Webanwendung, den technischen Support zu kontaktieren und einige
-Fragen zur Barrierefreiheit stichprobenartig zu stellen.
-
-Falls möglich, können auch die Dokumente, die dem technischem Support zur
-Verfügung stehen, stichprobenartig geprüft werden.
-
-Verbreitet sollten jedoch Assistenzsysteme sein, die den Support-Mitarbeiter
-durch die Problemlösung führt.
-Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine Prüfung
-bekommen würde.
+. Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der FDokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
+. Werden mündlich oder über Versendung zusätzlicher Informationen Hilfestellungen gegeben?
 
 === 3. Hinweise
 
-Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
-vollständig geklärt.
+Der Prüfschritt bewertet nicht die Qualität gegebener Information und auch nicht die Zugänglichkeit von Übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder  Hilfsmittel-Kompatibilität unzugehen.
+
+Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt.
 Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
 
 == Einordnung des Prüfschritts
@@ -48,6 +40,12 @@ Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Te
 
 12.2.2 Information on accessibility and compatibility features
 
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittelkompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
+
+* Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem Support auf verschiedene Weise kommuniziert werfen kann (z.B: per Telefon, Kontaktformular, E-Mail oder Chat).
+* Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
 
 == Quellen
 
