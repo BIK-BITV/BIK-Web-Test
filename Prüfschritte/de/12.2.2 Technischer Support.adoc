@@ -14,7 +14,7 @@ endif::env_embedded[]
 
 == Warum wir das geprüft?
 
-Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. Solche zur Hilfsmittelkompatibilität in der Dokumentation können schnell veraltet sein. Es ist wichtig, dass der technische Support auf Kunden-Fragen eingehen und Hilfe bereitstellen kann.
+Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. Hinweise zur Hilfsmittel-Kompatibilität können schnell veraltet sein. Es ist wichtig, dass der technische Support auf Kunden-Fragen eingehen und Hilfe bereitstellen kann.
 
 == Wie wird geprüft?
 
@@ -25,14 +25,13 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot in seiner Dokumentation Info
 === 2. Prüfung
 
 . Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der FDokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
-. Werden mündlich oder über Versendung zusätzlicher Informationen Hilfestellungen gegeben?
+. Werden mündlich oder über die Versendung zusätzlicher Informationen Hilfestellungen gegeben?
 
 === 3. Hinweise
 
-Der Prüfschritt bewertet nicht die Qualität gegebener Information und auch nicht die Zugänglichkeit von Übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder  Hilfsmittel-Kompatibilität unzugehen.
+Der Prüfschritt bewertet nicht die Qualität der übermittelten Information und auch nicht die Zugänglichkeit von Übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder Hilfsmittel-Kompatibilität unzugehen.
 
-Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt.
-Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
+Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt. Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
 
 == Einordnung des Prüfschritts
 
@@ -42,9 +41,9 @@ Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Te
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittelkompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
+In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
 
-* Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem Support auf verschiedene Weise kommuniziert werfen kann (z.B: per Telefon, Kontaktformular, E-Mail oder Chat).
+* Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem technischen Support auf verschiedene Weise kommuniziert werfen kann (z.B. per Telefon, Kontaktformular, E-Mail oder Chat).
 * Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
 
 == Quellen
