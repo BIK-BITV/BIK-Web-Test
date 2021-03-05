@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit 
 
 === 3. Hinweise
 
-Auch wenn Fehler in der Zeitcodierung der Track-Datei gefunden werden, ist davon auszuegehen, dass der Fehler nicht beim Player liegt. Es ist es jedoch nicht ganz auszuschließen, dass eine nicht vorhandene Synchronität an der Untertitel-Datei _und_ am Player liegt.
+Wenn Fehler in der Zeitcodierung der Track-Datei gefunden werden, ist davon auszuegehen, dass der Fehler nicht beim Player liegt. Es ist es jedoch nicht ganz auszuschließen, dass eine nicht vorhandene Synchronität an der Untertitel-Datei _und_ am Player liegt.
 
 Es ist sinnvoll, stichprobenartig zu prüfen, ob es im Webangebot Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden. Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt. Der Prüfschritt ist damit erfüllt, Probleme mit der Synchronität sind dann höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
 
