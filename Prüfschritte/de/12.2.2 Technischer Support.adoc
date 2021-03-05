@@ -24,8 +24,8 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot in seiner Dokumentation Info
 
 === 2. Prüfung
 
-. Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der FDokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
-. Werden mündlich oder über die Versendung zusätzlicher Informationen Hilfestellungen gegeben?
+. Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der Dokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
+. Ist der technische Support in der Lage, mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen gegeben?
 
 === 3. Hinweise
 
