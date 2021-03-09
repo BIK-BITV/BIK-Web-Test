@@ -24,7 +24,7 @@ Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entsprich
 
 === 2. Prüfung
 
-Die Seite im Browser aufrufen.
+Die Seite im Firefox oder Chrome Browser aufrufen.
 
 ==== 2.1 Sind Beschriftungen vorhanden ?
 
