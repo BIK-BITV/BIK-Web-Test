@@ -27,7 +27,7 @@ Dies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars
 * Bei Neuanzeige des Formulars werden am Seitenbeginn Fehler beschrieben.
 * Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und mit einer geeigneten ARIA-Technik verknüpft.
 
-=== 3Hinweise
+=== 3. Hinweise
 
 * Wenn serverseitig eine Fehlermeldung auf einer neuen Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
 * Bei komplizierten Formaten, z. B. Datum, hilft eine Angabe, in welcher Weise das Datum eingegeben werden soll (z. B. tt.mm.jjjj), um Fehler zu vermeiden.
