@@ -6,24 +6,15 @@ include::include/attributes.adoc[]
 
 Beschriftungen von Formularelementen sind vorhanden.
 
-Die Beschriftung von Formularelementen soll vor (das heißt links neben oder
-über) dem zugehörigen Eingabefeld angeordnet werden.
-Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte
-normalerweise) rechts neben dem
-zugehörigen Eingabefeld angeordnet werden.
+Die Beschriftung von Formularelementen soll vor (das heißt links neben oder über) dem zugehörigen Eingabefeld angeordnet werden. Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
 
-Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die
-Anweisungen für alle Benutzer lesbar.
+Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die Anweisungen für alle Benutzer lesbar.
 
 == Warum wird das geprüft?
 
-Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche
-Eingaben erwartet werden und Fehler können vermieden werden.
+Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche Eingaben erwartet werden und Fehler können vermieden werden.
 
-Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld
-entspricht den üblichen Gestaltungskonventionen.
-Auch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird
-schnell klar, welche Beschriftung zu welchem Feld gehört.
+Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entspricht den üblichen Gestaltungskonventionen. Auch in ausschnitthaften Ansichten (etwa in Vergrößerungssoftware) wird schnell klar, welche Beschriftung zu welchem Feld gehört.
 
 == Wie wird geprüft?
 
@@ -44,7 +35,7 @@ Die Seite im Browser aufrufen.
 
 ==== 2.2 Sind Beschriftungen richtig positioniert?
 
-. Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
+. Mittels https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
 . Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
 
 === 3. Hinweise
