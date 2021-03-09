@@ -34,7 +34,7 @@ Er ist nicht anwendbar bei der Nutzung von Browsern mobiler Betriebssysteme, der
 Die Prüfung bezieht sich auf Web-Inhlate mit horizontal verlaufender Schrift.
 
 . Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#chrome[Chrome Browser] öffnen.
-. Die _Developer Tools_ rechts angedockt öffnen (etwa über Funktionstaste F12) und die vertikale Abgrenzung zwischen Seiten- und Tool-Bereich ziehen, bis oben rechts im Seiten-Bereich _320px x (Viewporthöhe)_ angezeigt wird. 
+. Die _Developer Tools_ rechts angedockt öffnen (etwa über Funktionstaste F12) und die vertikale Abgrenzung zwischen Seiten- und Tool-Bereich ziehen, bis oben rechts im Seiten-Bereich _320px x (Viewporthöhe)_ angezeigt wird (wird rechts ein Scrollbalken angezeigt, 16px dazuzählen, also _336px x )Viewporthöhe)_ einstellen). 
 . Seite neu laden.
 . Feststellen, ob Seiten-Inhalte so umbrechen, dass eine Nutzung ohne horizontales Scrollen möglich ist und keine Inhalte und Funktionen verloren gehen.
 
