@@ -4,51 +4,34 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und
-Hinweise geben, wie der Fehler zu korrigieren ist.
+Wenn ein Formular Fehlermeldungen erzeugt, müssen diese verständlich sein und Hinweise geben, wie der Fehler zu korrigieren ist.
 
 == Warum wird das geprüft?
 
-Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder
-überspringen benötigte Eingaben.
+Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.
 
-Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen
-Fehlermeldungen hilfreich sein und es den Nutzern erleichtern, Eingaben zu
-korrigieren.
+Wenn das Angebot Nutzereingaben überprüft, sollen die ausgegebenen Fehlermeldungen hilfreich sein und es den Nutzern erleichtern, Eingaben zu korrigieren.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei
-inkorrektem Ausfüllen Fehlermeldungen erzeugen.
-Dies kann schon während der
-Eingabe oder erst nach dem Abschicken des Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen.
+Dies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
 === 2. Prüfung
 
-. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen
-  von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter
-  E-Mail-Adressen.
-. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob
-  Fehlermeldungen oder Korrekturvorschläge verständlich und sinnvoll sind.
-+
-  Fehlermeldungen oder Korrekturvorschläge können auf verschiedene Weise zur
-  Verfügung gestellt werden, z. B.:
+. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter E-Mail-Adressen.
+. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob Fehlermeldungen oder Korrekturvorschläge verständlich und sinnvoll sind. Fehlermeldungen oder Korrekturvorschläge können auf verschiedene Weise zur Verfügung gestellt werden, z. B.:
 +
 * Bei Neuanzeige des Formulars werden am Seitenbeginn Fehler beschrieben.
-* Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und
-  mit einer geeigneten ARIA-Technik verknüpft.
+* Korrekturvorschläge werden nahe der betroffenen Eingabefelder angezeigt und mit einer geeigneten ARIA-Technik verknüpft.
 
 === 3Hinweise
 
-* Wenn serverseitig eine Fehlermeldung auf einer neuen Seite ausgegeben wird,
-  wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft.
-  Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
-* Bei komplizierten Formaten, z. B. Datum, hilft eine Angabe, in welcher Weise
-  das Datum eingegeben werden soll (z. B. tt.mm.jjjj), um Fehler zu vermeiden.
-* Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu
-  bewerten.
+* Wenn serverseitig eine Fehlermeldung auf einer neuen Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
+* Bei komplizierten Formaten, z. B. Datum, hilft eine Angabe, in welcher Weise das Datum eingegeben werden soll (z. B. tt.mm.jjjj), um Fehler zu vermeiden.
+* Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
 
 === 4. Bewertung
 
