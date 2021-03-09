@@ -18,7 +18,7 @@ Sehbehinderte Nutzer vergrößern häufig Seiten-Inhalte über die Zoomfunktion,
 
 Responsive Seiten-Layouts ordnen die Inhaltsblöcke neu an. Mehrspaltige Inhalte werden dabei meist so umbrochen, dass sie bei starkem Zoom einspaltig untereinander angeordnet sind. Bei Fließtexten entstehen auch neue Zeilenumbrüche mit kürzeren Zeilen.
 
-Der Vorteil: Nutzer müssen beim Lesen nur in eine Richtung scrollen (bei westlichen Sprachen: vertikal)Wenn Zeilen bei Zoomvergrößerung nicht umgebrochen werden, sind Nutzer dagegen gezwungen, beim Lesen jeder Zeile horizontal hin- und her zu scrollen, was die Aufnahme der Inhalte sehr stark beeinträchtigt und verlangsamt.
+Der Vorteil: Nutzer müssen beim Lesen nur in eine Richtung scrollen (bei westlichen Sprachen: vertikal). Wenn Zeilen bei Zoomvergrößerung nicht umgebrochen werden, sind Nutzer dagegen gezwungen, beim Lesen jeder Zeile horizontal hin- und her zu scrollen, was die Aufnahme der Inhalte sehr stark beeinträchtigt und verlangsamt.
 
 == Wie wird geprüft?
 
