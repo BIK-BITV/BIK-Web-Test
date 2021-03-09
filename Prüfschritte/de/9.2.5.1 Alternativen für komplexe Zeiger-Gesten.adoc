@@ -26,7 +26,7 @@ Beispiele für Mehrpunkt-Gesten:
 * "Split tap" (ein Finger hält, der andere tippt)
 * Streichen mit mehreren Fingern
 
-_Hinweis_: Pfadunabhängige Ziehbewegungen (dragging motions) wie Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad dazwischen beliebig ist. Wenn Elemente dem gedrückten Zeiger (Maus-Cursor oder Finger) in jede Richtung folgen und keine initiale Richtung notwendig ist, um die Geste zu vollziehen, ist von einer Ziehbewegung auszugehen.
+_Hinweis_: Pfadunabhängige Ziehbewegungen (dragging motions) wie Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad dazwischen beliebig ist. Wenn Elemente dem gedrückten Zeiger (Maus-Cursor oder Finger) in jede Richtung folgen und keine initiale Richtung notwendig ist, um die Geste zu vollziehen, ist von einer Ziehbewegung auszugehen. Abhängig von der Prüfumgebung kann diese Unterscheidung unterschiedlich ausfallen. So ist auf Touchscreens im mobilen Systemumgebungen häufig eine initiale horizontale Richtung zum Bewegen von horizontalen Slidern nötig, da bei vertikaler Bewegung stattdessen die Seite gescrollt wird. In dieser Umgebung würde die Bedienung eines solchen Sliders also  als pfadbasiert gelten müssen und deshalb unter diesen Prüfschritt fallen.
 
 == Warum wird das geprüft?
 
