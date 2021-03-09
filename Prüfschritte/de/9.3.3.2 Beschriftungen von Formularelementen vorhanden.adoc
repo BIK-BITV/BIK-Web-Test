@@ -45,8 +45,7 @@ Die Seite im Browser aufrufen.
 ==== 2.2 Sind Beschriftungen richtig positioniert?
 
 . Mittels _Web Developer Toolbar_ die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
-. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer
-direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
+. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
 
 === 3. Hinweise
 
