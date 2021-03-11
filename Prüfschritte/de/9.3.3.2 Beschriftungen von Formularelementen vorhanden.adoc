@@ -29,14 +29,15 @@ Die Seite im Firefox oder Chrome Browser aufrufen.
 ==== 2.1 Sind Beschriftungen vorhanden ?
 
 * Sind alle Formularelemente sichtbar beschriftet?
-* Sind Pflichtfelder in ``label``- oder ``legend``-Elementen klar angezeigt? Wenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, sollte
-  deren Bedeutung am Beginn des Formulars erklärt sein.
+* Sind Pflichtfelder in ``label``- oder ``legend``-Elementen klar angezeigt? Wenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, sollte deren Bedeutung am Beginn des Formulars erklärt sein.
 * Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses *vor* dem Eingabefeld oder auch im Placeholder-Text klar beschrieben (Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben").
 
 ==== 2.2 Sind Beschriftungen richtig positioniert?
 
-. Mittels https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Miscellaneous > Linearize page_ die Struktur der Seite linearisieren.
-. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel auch) *nach* dem Formularelement stehen.
+. Mittels https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Miscellaneous > Linearize page_
+aufrufen und damit die Struktur der Seite linearisieren.
+. Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel
+auch) *nach* dem Formularelement stehen.
 
 === 3. Hinweise
 
@@ -49,11 +50,14 @@ Die Seite im Firefox oder Chrome Browser aufrufen.
   gleichermaßen als Beschriftung taugt. Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
 * Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
 
+
 === 4. Bewertung
 
 ==== Nicht erfüllt
 
-* Wichtige Formularelemente (z. B. die Sucheingabe) sind ohne Beschriftung, auch angrenzende Elemente erklären nicht die Funktion.
+* Wichtige Formularelemente (z. B. die Sucheingabe) sind ohne sichtbare Beschriftung,
+  auch angrenzende Elemente erklären nicht die Funktion.
+
 
 ==== Nicht voll erfüllt
 
@@ -63,7 +67,9 @@ Die Seite im Firefox oder Chrome Browser aufrufen.
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um das Vorhandensein sichtbarer Beschriftungen. Das Vorhandensein einer programmatisch ermittelbaren Beschriftung ins Gegenstand von Prüfschritt  9.1.3.1h "Beschriftung von Formularelementen programmatisch ermittelbar".
+In diesem Prüfschritt geht es um sichtbare Beschriftungen. Das Vorhandensein programmatisch ermittelbarer Namen von Formularelementen wird dagegen in Prüfschritt 
+1.3.1h "Beschriftung von Formularelementen programmatisch ermittelbar" geprüft.
+
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
