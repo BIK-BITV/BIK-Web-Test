@@ -20,7 +20,7 @@ endif::env_embedded[]
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar wenn die Dokumentation des Web-Angebots Hinweise auf Zugänglichkeits-FUnktionen oder Kompatibilität mit Hilfsmtteln enthält.
+Der Prüfschritt ist anwendbar, wenn die Dokumentation des Web-Angebots Hinweise auf Zugänglichkeits-FUnktionen oder Kompatibilität mit Hilfsmtteln enthält.
 
 === 2. Prüfung
 
