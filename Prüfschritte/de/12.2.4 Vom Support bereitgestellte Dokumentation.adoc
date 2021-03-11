@@ -12,6 +12,10 @@ Wird durch den technischen Support eines Angebots eine Dokumentation bereitgeste
 
 Weitere gegebenenfalls nicht barrierefreie Versionen der Dokumentation werden nicht bewertet.
 
+== Warum wird das geprüft?
+
+Die technische Dokumentation ist ein wichtiger Bestandteil vieler Angebote, besonders bei komplexeren Web-Anwendungen. Damit auch Menschen mit Behinderungen sie gut nutzen können, sollte sie alle Anforderungen der Barrierefreiheit erfüllen.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
