@@ -2,66 +2,69 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.2.3 "Preservation of audio description" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Videos mit Audiodeskription überträgt, konvertiert oder
-aufnimmt, sollen die Audiodeskriptionen während oder nach dem Vorgang erhalten
-bleiben.
-
-In einem konformen Player sollen dabei in Zusammenhang mit dem Zielvideo die
-Prüfschritte
+Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, bleibt die Audiodeskription nach dem Vorgang erhalten.
+Sie ist weiterhin  zuschaltbar und wird synchron zu Bild und Ton dargestellt.
+Die Prüfschritte 
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
-  <<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von
-  Audiodeskription>>
+<<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von Audiodeskription>>
 endif::env_embedded[]
-und
+und 
 ifdef::env_embedded[7.2.2 "Synchrone Audiodeskription"]
 ifndef::env_embedded[]
-  <<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone
-  Audiodeskription>>
+<<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone Audiodeskription>>
 endif::env_embedded[]
-erfüllt werden.
+sind weiterhin erfüllt.
 
-Die Audiodeskription im Zielvideo soll also abspielbar und synchron zum Video
-laufen.
+== Warum wird das geprüft?
+
+Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt,  soll die Audiodeskription in gleicher Weise nutzbar sein wie vor dem Vorgang.
+Dazu gehört, dass sie ausgegeben werden kann und synchron abgespielt wird.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videos mit Audiodeskription
-übertragen, konvertieren oder aufnehmen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Audiodeskription übertragen, konvertieren oder aufnehmen kann.
 
-=== Prüfung
+=== 2. Prüfung
 
-Dieser Prüfschritt benötigt noch einige Hinweise für die Prüfpraxis, dazu
-kann auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue hinterlassen] werden.
+Wenn das Webangebot Videos mit Audiodeskription konvertiert oder aufnimmt, das Video anschließend in einem konformen Player abspielen:
 
-Für die Prüfung ist ggf. ein Player notwendig, der mit den Prüfschritten
+* Ist Audiodeskription aus der Quelle weiterhin vorhanden?
+* Lässt sich Audiodeskription abspielen?
+* Ist die Audiodeskription weiterhin synchron zu Bild und Ton?
+
+=== 3. Hinweise
+
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
+
+=== 4. Bewertung
+
+==== Nicht erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Ausgabe oder Synchronität von Audiodeskription kommt.
+In den Prüfschritten
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
-  <<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von
-  Audiodeskription>>
+<<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von Audiodeskription>>
 endif::env_embedded[]
 und
 ifdef::env_embedded[7.2.2 "Synchrone Audiodeskription"]
 ifndef::env_embedded[]
-  <<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone
-  Audiodeskription>>
+<<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone Audiodeskription>>
 endif::env_embedded[]
-konform ist.
+geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
 
-Nach Konvertierung oder Aufnahme eines Videos mit Audiodeskription, muss das
-Zielvideo in einem konformen Player abspielbar sein, die Audiodeskription muss
-synchron zum Bild abgespielt werden.
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+7.2.3 Preservation of audio description
 
 == Quellen
 
