@@ -2,45 +2,36 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.2 "Display of RTT" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit Textkommunikation senden und empfangen kann und den
-aktiven Sprecher über Sprache identifiziert, sollen auch Sprecher, die
-Echtzeit-Textkommunikation nutzen, identifiziert und beim Kommunizieren
-vergleichbar angezeigt
-werden.
+Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert, sollen auch Sprecher, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
+
+== Warum wird das geprüft?
+
+Für alle Teilnehmer:innen in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Echtzeit Textkommunikation
-senden und empfangen kann und den aktiven Sprecher über Sprache identifiziert.
-Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig
-hervorgehoben.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorgehoben.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Web-App öffnen
-. prüfen, ob die Web-App das Senden und Empfangen von Echtzeit
-  Textkommunikation anbietet
-. prüfen, ob der aktive Sprecher über Sprache identifiziert und in der App
-  markiert oder anderweitig hervorgehoben wird
-. ist dies der Fall, prüfen, ob auch Teilnehmer die Echtzeit-Textkommunikation
-  nutzen, beim Kommunizieren markiert oder anderweitig hervorgehoben werden
+. Web-Anwendung öffnen.
+. Prüfen, ob der aktive Sprecher über Sprache identifiziert und in der Anwendung markiert oder anderweitig hervorgehoben wird.
+. Ist dies der Fall, prüfen, ob auch Teilnehmer, die Echtzeit-Texteingabe verwenden, beim Eingaben markiert oder anderweitig hervorgehoben werden.
 
-==== Hinweise
+=== 3. Hinweise
 
-Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern
-etabliert werden um eine eventuelle Markierung oder anderweitige Hervorhebung
-zweifelsfrei festzustellen.
+Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmern etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+6.2.2 Display of RTT
+
 
 == Quellen
 

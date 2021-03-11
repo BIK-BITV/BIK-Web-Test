@@ -4,89 +4,57 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten
-Felder identifiziert und in Textform beschrieben werden.
+Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und in Textform beschrieben werden.
 
 == Warum wird das geprüft?
 
-Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder
-überspringen benötigte Eingaben.
+Bei Formulareingaben kommt es öfters zu Fehlern: Nutzer verschreiben sich oder überspringen benötigte Eingaben.
 
-Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften
-oder fehlenden Eingaben identifiziert werden.
-Dies erleichtert den Nutzern, Eingaben zu korrigieren.
+Wenn das Angebot Nutzereingaben überprüft, sollen die Felder mit fehlerhaften oder fehlenden Eingaben identifiziert werden. Dies erleichtert den Nutzern, Eingaben zu korrigieren.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei
-inkorrektem Ausfüllen Fehlermeldungen erzeugen.
-Dies kann schon während der Eingabe oder erst nach dem Abschicken des
-Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen. Dies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
 === 2. Prüfung
 
-. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen
-  von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter
-  E-Mail-Adressen.
-. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die
-  betroffenen Felder identifiziert sind.
+. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter E-Mail-Adressen.
+. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind. Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
 +
-  Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge
-  des Formulars, auf verschiedene Arten geschehen:
-+
-* Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte
-  Felder identifiziert.
+* Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
-* Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die
-  Fehler darstellungsunabhängig hinzuweisen.
-* Fehlermeldungen, die nahe am Formularfeld positioniert sind, aber nicht Teil
-  des Labels sind, sind mit` aria-labelledby ` oder `aria-describedby`
+* Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die Fehler darstellungsunabhängig hinzuweisen.
+* Fehlermeldungen, die nahe am Formularfeld positioniert sind, aber nicht Teil des Labels sind, sind programmatisch ermittelbar, etwa durch die Verknüpfung mittels `aria-labelledby` oder `aria-describedby`.
   verknüpft.
-* Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen
-  (``alertdialog``) bereitgestellt.
+* Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen (``alertdialog``) bereitgestellt.
 
-. Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars
-  zuvor angezeigte Fehlermeldungen verschwinden.
+. Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars zuvor angezeigte Fehlermeldungen verschwinden.
 
 === 3. Hinweise
 
-* Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird
-  diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft.
-  Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
-* Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu
-  bewerten.
+* Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
+* Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
 
 === 4. Bewertung
 
 ==== Nicht voll erfüllt
 
-* Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender
-  oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf
-  (etwa durch Änderung des dem Feld zugeordneten Labels, semantische
-  Hervorhebung, oder Links).
+* Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf (etwa durch Änderung des dem Feld zugeordneten Labels, semantische Hervorhebung, oder Links).
 * Fehlermeldungen sind unklar oder irreführend.
-* Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden
-  Eingaben werden lediglich grafisch oder durch zusätzliches Sternchen
-  hervorgehoben.
+* Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden Eingaben werden lediglich grafisch hervorgehoben.
 
 ==== Nicht erfüllt
 
-* Die Fehlermeldung gibt keinen Aufschluss darüber, welche Eingabe den Fehler
-  erzeugt hat.
-* Bei fehlerhafter Eingabe wird das Formular neu angezeigt.
-  Bereits gemachte korrekte Eingaben sind gelöscht, die Felder sind wieder
-  leer und müssen erneut ausgefüllt werden.
-Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
-  sicherheitsrelevanten Daten wie Passwörtern oder Benutzernamen.
+* Die Fehlermeldung gibt keinen Aufschluss darüber, welche Eingabe den Fehler erzeugt hat.
+* Bei fehlerhafter Eingabe wird das Formular neu angezeigt. Bereits gemachte korrekte Eingaben sind gelöscht, die Felder sind wieder leer und müssen erneut ausgefüllt werden. Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei sicherheitsrelevanten Daten wie Passwörtern oder Benutzernamen.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
 
-Ob infolge von Fehleingaben generierte oder eingeblendete Fehlermeldungen an
-der richtigen Stelle im Quelltext stehen, ist Gegenstand des Prüfschritts
+Ob infolge von Fehleingaben generierte oder eingeblendete Fehlermeldungen an der richtigen Stelle im Quelltext stehen, ist Gegenstand des Prüfschritts
 ifdef::env_embedded[9.1.3.2 "Sinnvolle Reihenfolge".]
 ifndef::env_embedded[]
   <<9.1.3.2 Sinnvolle Reihenfolge.adoc#,9.1.3.2 Sinnvolle Reihenfolge>>.

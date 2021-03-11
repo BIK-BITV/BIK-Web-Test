@@ -2,47 +2,49 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.2.2 "Information on accessibility and compatibility features" verwiesen.
-
 == Was wird geprüft?
 
-Der technische Support (über Telefon, Mail, ...) soll Informationen zur
-Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
-können, die die Web-App betrifft.
-Dies soll mindestens die Informationen umfassen, die dazu in der
-Web-App-Dokumentation erwähnt werden (siehe auch Prüfschritt
+Der technische Support (über Telefon, Mail, ...) soll Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die die Webanwendung betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation der Webanwendung erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
   12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit>>
 endif::env_embedded[]
-
 ).
+
+== Warum wir das geprüft?
+
+Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. Hinweise zur Hilfsmittel-Kompatibilität können schnell veraltet sein. Es ist wichtig, dass der technische Support auf Kunden-Fragen eingehen und Hilfe bereitstellen kann.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot in seiner Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitstellt.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
-vollständig geklärt.
-Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
+. Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der Dokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
+. Ist der technische Support in der Lage, mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen gegeben?
 
-Zielführend könnte es bspw. sein, anhand der Informationen aus der
-Web-App-Dokumentation, den technischen Support zu kontaktieren und einige
-Fragen zur Barrierefreiheit stichprobenartig zu stellen.
+=== 3. Hinweise
 
-Falls möglich, können auch die Dokumente, die dem technischem Support zur
-Verfügung stehen, stichprobenartig geprüft werden.
+Der Prüfschritt bewertet nicht die Qualität der übermittelten Information und auch nicht die Zugänglichkeit von Übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder Hilfsmittel-Kompatibilität unzugehen.
 
+Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt. Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+12.2.2 Information on accessibility and compatibility features
+
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
+
+* Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem technischen Support auf verschiedene Weise kommuniziert werfen kann (z.B. per Telefon, Kontaktformular, E-Mail oder Chat).
+* Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
 
 == Quellen
 

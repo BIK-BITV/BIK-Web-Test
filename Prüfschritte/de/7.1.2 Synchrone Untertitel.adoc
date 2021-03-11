@@ -2,71 +2,70 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-7.1.2 "Captioning synchronization" verwiesen.
-
 == Was wird geprüft?
 
-Web-Apps, die Untertitel anzeigt, soll diese synchron, wie in der
-Untertitel-Quelle definiert, zum Video und Audio anzeigen.
+Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, dass der Videoplayer Untertitel und Ton synchron darstellt. 
 
-Die Anzeige der Untertitel soll dabei nicht mehr als 100 Millisekunden vom
-Zeitstempel in der Untertitel-Datei (oder anderen Quellen) abweichen.
-Dies bezieht sich auch auf Live-Untertitel, sobald die Web-App die Untertitel
-empfängt, soll sich die Anzeige der Untertitel nicht länger als um 100
-Millisekunden verzögern.
+Das bedeutet für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab. 
+Dies bezieht sich theoretisch auch auf Live-Untertitel. Hier liegt jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text vor, besonders, wenn die Konvertierung nicht automatisch, sondern durch Menschen erfolgt.
+
+== Warum wird das geprüft?
+Die https://www.ndr.de/fernsehen/barrierefreie_angebote/untertitel/Untertitel-Standards,untertitelstandards102.html[Untertitel-Standards] fordern für eine Untertitelung "Synchronität". Das bedeutet, dass die Einblendung zeitgleich mit dem Bild/Ton und möglichst lippensynchron erfolgen soll. Hintergrund ist, dass Menschen mit Höreinschränkungen neben der Untertitelung auch auf das Mundbild achten. Außerdem leidet die Gesamtverständlichkeit, wenn Bild/Ton und Untertitel nicht synchron sind.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Untertitel anzeigt.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur sowie zuschaltbare Untertitel (closed captions) vorhanden sind.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt optimal in der Praxis geprüft werden kann, ist noch
-nicht geklärt.
-Hinweise dazu können Sie in einem https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue auf GitHub, mit Bezug
-zu diesem Prüfschritt, hinterlassen].
+==== 2.1 Prüfung von Untertiteln eines aufgezeichneten Videos:
 
-In der Praxis sollten Web-Apps, bei der die Untertitel ohne merkliche
-Verzögerung angezeigt werden, zu diesem Prüfschritt konform sein.
+. Das Video in dem auf der Webseite eingebundenen Player abspielen.
+. Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.
+. Um festzustellen, ob die Ursache beim Player liegt oder an der Untertitel-Datei, können die Zeitstempel der Untertitel-Datei stichprobenartig geprüft werden. 
+** Dazu im Inspektor des Browsers das `track`-Element suchen. Die Untertitel-Datei ist als .vtt oder .scrt-Datei über das `track`-Element eingebunden. 
+** Mit der Maus über den Dateipfad fahren. Mit der rechten Maustaste das Kontextmenü öffenen und mit Hilfe der Funktion "Link in neuem Tab anzeigen", die Untertitel anzeigen.
+** Alternativ den Pfad kopieren. Den Pfad im Browser hinter dem / der toplevel Domain eingeben.
+. Prüfen, ob die Zeitstempel korrekt sind.
+. Wenn die Zeitcodierung in der Track-Datei Fehler aufweist, ist davon auszugehen, dass der Fehler nicht beim Player liegt. Dieser Prüfschritt ist erfüllt. 
 
-Detailliertere Untersuchungen scheinen derzeit nur möglich, wenn die Web-App
-die Wiedergabe von externen Videoinhalten zulässt.
+=== 3. Hinweise
 
-Hier kann dann anhand einer Beispiel-Video-Datei mit eingebetteten Untertiteln,
-die korrekte Zeitstempel gesetzt hat, ein Vergleich angestellt
-werden:
+Wenn Fehler in der Zeitcodierung der Track-Datei gefunden werden, ist davon auszuegehen, dass der Fehler nicht beim Player liegt. Es ist es jedoch nicht ganz auszuschließen, dass eine nicht vorhandene Synchronität an der Untertitel-Datei _und_ am Player liegt.
 
-Das Video wird dabei in einem konformen Player abgespielt und zusätzlich in der
-zu testenden Web-App.
-Wenn die Untertitel in der Web-App im vergleich zum konformen Player verzögert
-dargestellt werden, ist dieses Problem damit auf die Web-App zurückzuführen.
+Es ist sinnvoll, stichprobenartig zu prüfen, ob es im Webangebot Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden. Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt. Der Prüfschritt ist damit erfüllt, Probleme mit der Synchronität sind dann höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
 
-Spielt die Web-App jedoch nur mitgelieferte Videos ab, sollte
-Stichprobenartig geprüft werden, ob es in der App Videos gibt, bei denen
-die Untertitel korrekt und damit synchron zum Video dargestellt werden.
-Wenn dies der Fall ist, kann die Web-App Untertitel prinzipiell korrekt
-darstellen.
-Der Prüfschritt ist damit bestanden, Probleme mit der Synchronität sind dabei
-höchstwahrscheinlich bei den Inhalten zu suchen und nicht in der Web-App
-selbst.
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
-==== Hinweise
+=== 4. Bewertungen
 
-In diesem Prüfschritt werden keine Inhalte geprüft!
-Die Web-App soll lediglich grundsätzlich in der Lage sein, Videos mit
-Untertiteln synchron darzustellen.
+==== Nicht erfüllt:
+
+* Bild/Ton und Untertitel sind nicht synchron. 
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Inhalte, Qualität und Angemessenheit der Untertitel werden in Prüfschritt
+ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
+ifndef::env_embedded[]
+<<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete Videos mit Untertiteln>>
+endif::env_embedded[]
+geprüft.
+In diesem Prüfschritt wird geprüft, ob der eingebundene Player grundsätzlich in der Lage ist, Videos mit Untertiteln synchron darzustellen. 
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+7.1.2 Captioning synchronization
 
 == Quellen
 
 [.BLOCK_LANG_EN]
-=== Captioning synchronization
+=== 7.1.2 Captioning synchronization
 
 [.BLOCK_LANG_EN]
 --

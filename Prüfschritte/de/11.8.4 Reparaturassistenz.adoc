@@ -2,31 +2,19 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.4 "Repair assistance" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Seite Teil eines Autorenwerkzeugs ist und Funktionen zur Erkennung von
-Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten bietet, soll sie
-Vorschläge zur Behebung dieser Fehler machen.
+Ist die Seite Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von
+Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen
+Vorschläge zur Behebung dieser Fehler verfügbar sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist
-oder eine Autorfunktion enthält (etwa eine Kommentarfunktion), und
-Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten aufzeigen
-kann (z. B. "Bitte vergeben Sie eine Überschrift" oder
-"Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen
-passenden Alternativtext").
+Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist oder eine Autorfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z. B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext").
 
-=== Prüfung
+=== 2. Prüfung
 
 . Auf der Seite Inhalte erstellen und dabei vorhandene
   Auszeichnungsmöglichkeiten *nicht* nutzen, z. B.:
@@ -36,13 +24,13 @@ passenden Alternativtext").
    * In ein E-Mail-Adressen-Feld eine fehlerhafte E-Mail-Adresse eingeben
 
 . Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf
-  Fehler stattfindet
+  Fehler stattfindet.
 . Falls eine Fehlerprüfung stattfindet (z. B. wenn das Sichern oder Abschicken
   nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch
   hervorgehoben werden),
-  prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden
+  prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.
 
-=== Hinweise
+== 3. Hinweise
 Der Begriff "Dokumente" wird in dieser Anforderung weit gefasst und umfasst Web-
 und Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
@@ -50,6 +38,12 @@ EN 301 549.
 
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+* 11.8.4 Repair assistance
 
 == Quellen
 
