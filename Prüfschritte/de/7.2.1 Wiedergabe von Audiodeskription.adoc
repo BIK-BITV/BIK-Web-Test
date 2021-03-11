@@ -4,23 +4,19 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind (und Informationen über das Bildgeschehen für das Verständnis erforderlich sind), ist ein Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription 
-vorhanden.
+Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, givt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
 
-Audiodeskription kann alternativ auch aus einer von mehreren Audiospuren ausgewählt und abgespielt werden.
+Für die Auswahl der Version mit Audiodeskription muss der eingesetzte Player ein entsprechendes AD-Bedienelement haben oder die Möglichkeit bieten, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren. Alternativ kann eine Version mit Audiodeskription auch im unmittelbaren Kontexts des Players angeboten werden.
 
 == Warum wird das geprüft?
 
-Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen dieser visuellen Inhalte für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür das Verfahren der Audiodeskription ein.
-
-Damit Nutzende Audiodeskription ein- und ausschalten können, muss der eingesetzte Player ein entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren, anbieten.
+Werden für visuelle Inhalte eines Videos Beschreibungen dieser visuellen Inhalte in einer Version mit Audiodeskription angeboten, soll sich diese Version auswählen bzw. zuschalten lassen. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
-der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und die Videos Audiodeskription benötigen.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeichnete Videos mit synchroner Bild- und Tonspur vorhanden sind und für diese Videos Alternativen mit Audiodeskription bereitstehen.
 
 === 2. Prüfung
 
@@ -51,7 +47,7 @@ erfüllt ist, ist 7.2.1 "Wiedergabe von Audiodeskription" (dieser Prüfschritt) 
 
 === Abgrenzung zu anderen Prüfschritten
 
-Dieser Prüfschritt fordert, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der Audiobeschreibung anbietet. Eine Bereitstellung von Audiodeskription soll dadurch während der Wiedergabe möglich sein.
+Dieser Prüfschritt fordert, dass in Fällen, wo für Videos Versionen mit Audiodeskription bereit gestellt werden, Bedienelemente zum Ein- und Ausschalten der Audiodeskription angeboten werden.
 In Prüfschritt
 ifdef::env_embedded[9.1.2.5 "Audiodeskription für Videos"]
 ifndef::env_embedded[]
