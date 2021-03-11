@@ -2,37 +2,35 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.5.2 "Resolution" verwiesen.
-
 == Was wird geprüft?
 
-Web-Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
-für die Videoübertragung unterstützen.
-Üblicherweise entspricht dies 320x240 Pixel.
-Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten
-werden.
+Web-Anwendung mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für die Videoübertragung unterstützen. Üblicherweise entspricht dies 320x240 Pixel. Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
+
+== Warum wird das geprüft?
+
+Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig - zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen oder durch die zusätzliche Aufnahme von Mundbild, Mimik und Gestik eine simultane Verschriftlichung besser verstehen können.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
 
-=== Prüfung
+=== 2. Prüfung
 
-Der Prüfschritt sollte anhand der technischen Dokumentation der Web-App in
-Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
+. Die technische Dokumentation der Web-App konsultieren.  Wird mindestens eine QVGA (320x240 Pixel) angegeben?
+. Testübertragung: Den visuellen Eindruck prüfen. Ist die Angabe in der App-Dokumentation plausibel?
 
-* App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
-* Testübertragung: Scheint die Angabe in der App-Dokumentation plausibel?
+=== 3. Hinweise
 
 Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein
 Issue auf GitHub].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+6.5.2 Resolution
 
 == Quellen
 

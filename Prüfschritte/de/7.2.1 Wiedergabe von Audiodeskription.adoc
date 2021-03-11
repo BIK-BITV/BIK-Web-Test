@@ -7,43 +7,58 @@ include::include/attributes.adoc[]
 Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind (und Informationen über das Bildgeschehen für das Verständnis erforderlich sind), ist ein Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription 
 vorhanden.
 
-Audiodeskription kann alternativ auch aus einer von mehrere Audiospuren ausgewählt und abgespielt werden. 
+Audiodeskription kann alternativ auch aus einer von mehreren Audiospuren ausgewählt und abgespielt werden.
 
 == Warum wird das geprüft?
 
-Werden Inhalte eines Videos nur über Bilder vermittelt, müssen solche Bildsequenzen für blinde Menschen beschrieben werden, damit sie das Video verstehen können. Hierfür wird das Verfahren der Audiodeskription eingesetzt. Damit Audiodeskription ein- und ausgeschaltet werden kann, muss der eingesetzte Player ein entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren, anbieten.
+Werden Inhalte eines Videos nur über Bilder vermittelt, sind Beschreibungen dieser visuellen Inhalte für blinde Menschen notwendig. Nur dann ist das Video für sie verständlich. Man setzt dafür das Verfahren der Audiodeskription ein.
+
+Damit Nutzende Audiodeskription ein- und ausschalten können, muss der eingesetzte Player ein entsprechendes AD-Bedienelement oder die Möglichkeit, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren, anbieten.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und diese Videos eine Audiodeskription benötigen.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, 
+der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt und die Videos Audiodeskription benötigen.
 
 === 2. Prüfung
 
 . Das Video wird im auf der Website eingebundenen Player abgespielt.
 . Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten von Audiodeskription ermöglicht.
 . Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann.
-  
+
 === 3. Hinweise
 
-Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten Player wird negativ bewertet.
-
-Wenn die Zugänglichkeit bereits vor der Produktion von Videos berücksichtigt wird, können die Kosten und der Aufwand für die Entwicklung der Beschreibung  möglicherweise reduziert werden. Bei einigen Arten von Videos (wie z.B. einigen Schulungsvideos) kann die Beschreibung der visuellen Informationen von den Sprechern nahtlos integriert werden. Wenn aus diesem oder anderen Gründen eine zusätzliche Audiodeskripiton nicht nötig ist, sollte das Fehlen eines AD-Buttons am Player nicht negativ bewertet werden.
+* Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten Player wird negativ bewertet.
+* Wenn alle wichtigen Informationen der Bildsequenz bereits über die Audiospur vermittelt werden, ist keine Audiodeskription und damit auch kein AD-Button erforderlich.
+* Die Anforderung 7.2.1 erlaubt zwar die Auswahl der Audiodeskription aus einer von mehreren Tonspuren. Anforderung  7.3 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription  auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, Lautstärke etc.) befinden.
+* Wenn
+* Wenn
+ifdef::env_embedded[7.3 "Bedienelemente für Untertitel und Audiodeskription"]
+ifndef::env_embedded[]
+<<7.3 Bedienelemente für Untertitel und Audiodeskription.adoc#,7.3 Bedienelemente für Untertitel und Audiodeskription>>
+endif::env_embedded[]
+erfüllt ist, ist 7.2.1 "Wiedergabe von Audiodeskription" (dieser Prüfschritt) ebenfalls erfüllt.
 
 === 4. Bewertung
 
-==== Nicht voll erfüllt:
+==== Nicht erfüllt:
 
-Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
+* Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt geht es darum, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der Audiobeschreibung anbietet und die Bereitstellung während der Wiedergabe ermöglicht.
-
-In Prüfschritt 9.1.2.5 „Audiodeskription für Videos“ wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist. Es geht also um die inhaltliche Beurteilung.
+Dieser Prüfschritt fordert, dass der Videoplayer Bedienelemente zum Ein- und Ausschalten der Audiobeschreibung anbietet. Eine Bereitstellung von Audiodeskription soll dadurch während der Wiedergabe möglich sein.
+In Prüfschritt
+ifdef::env_embedded[9.1.2.5 "Audiodeskription für Videos"]
+ifndef::env_embedded[]
+<<9.1.2.5 Audiodeskription für Videos.adoc#,9.1.2.5 Audiodeskription für Videos>>
+endif::env_embedded[]
+wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist.
+Es geht dort um die inhaltliche Beurteilung.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 

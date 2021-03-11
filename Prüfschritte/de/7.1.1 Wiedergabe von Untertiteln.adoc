@@ -31,7 +31,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 . Das Video wird im auf der Website eingebundenen Videoplayer abgespielt. 
 . Untertitel werden angezeigt (open captions).
 
-==== 2.1 Anzeigen von closed captions
+==== 2.2 Anzeigen von closed captions
 
 . Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` spezifiziert, dass es sich um Untertitel handelt.
 . Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer eine Möglichkeit bietet, diese ein- und auszublenden.
@@ -60,13 +60,14 @@ Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von Unte
 ifdef::env_embedded[9.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
 ifndef::env_embedded[]
 <<9.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,9.1.2.2 Aufgezeichnete
-Videos mit Untertiteln>> bezieht sich hingegen auf den Inhalt der Untertitel. Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter Untertitel verwendet werden kann. 
+Videos mit Untertiteln>> bezieht sich hingegen auf den Inhalt der Untertitel.
+Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen muss, dass Audioinhalt korrekt transkribiert wurde und in einem Format erfasst werden, das für die Bereitstellung synchronisierter Untertitel verwendet werden kann. 
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 7.1.1 "Captioning playback"
+7.1.1 Captioning playback
 
 == Quellen
 

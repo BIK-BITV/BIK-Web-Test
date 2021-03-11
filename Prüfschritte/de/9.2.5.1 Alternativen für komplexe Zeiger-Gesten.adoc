@@ -4,98 +4,62 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Webinhalte Funktionen implementieren, die über pfadbasierte Zeiger-Gesten
-(etwa Streich- oder Zieh-Gesten) oder über Mehrpunktgesten bedient werden
-können, gibt es Alternativen für die Aktivierung mittels einer einfachen
-Zeigereingabe.
+Wenn Webinhalte Funktionen implementieren, die über pfadbasierte Zeiger-Gesten (etwa Wischgesten oder Mehrpunktgesten) bedient werden können, gibt es Alternativen für die Aktivierung mittels einer einfachen Zeigereingabe.
 
-'Zeiger' schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie
-direkte Eingaben ein, etwa mit dem Finger auf dem Touchscreen oder mit dem
-Stift auf einem Grafiktablett.
+'Zeiger' schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie direkte Eingaben ein, etwa mit dem Finger auf dem Touchscreen oder mit dem Stift auf einem Grafiktablett.
 
-Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe
-essenziell wichtig ist - etwa bei der
-Handschrifterkennung.
-Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste
-im Sinne dieser Anforderung.
+Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe essenziell wichtig ist - etwa bei der Handschrifterkennung.
 
-Diese Anforderung gilt nur für Zeiger-Gesten, die von Webinhalten
-interpretiert und verarbeitet werden - sie betreffen also nicht Gesten für die
-Bedienung von Nutzeragenten oder Hilfsmitteln, etwa Gesten zur Navigation
-zwischen Seiten im Browser oder zur Nutzung systemseitiger Screenreader.
+Ziehbewegungen (Dragging Motions) wie in Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste im Sinne dieser Anforderung.
+
+Diese Anforderung gilt nur für Zeiger-Gesten, die von Webinhalten interpretiert und verarbeitet werden - sie betreffen also nicht Gesten für die Bedienung von Nutzeragenten oder Hilfsmitteln, etwa Gesten zur Navigation zwischen Seiten im Browser oder zur Nutzung systemseitiger Screenreader.
 
 Beispiele für pfadbasierte Gesten:
 
-* Streichgeste, etwa zum Bewegen etwa von Slider-Bereichen
-* Ziehen eines Sliders/Range
+* Wischgeste, etwa zum Bewegen etwa von Slider-Bereichen oder Löschen von Inhalten
+* Ziehen eines Sliders, wenn eine initiale Richtung nötig ist, um das Element zu bewegen
 * Zeichnen eines Pfads, z. B. ein 'Z' zum Widerrufen
 
-Beispiele für Mehrpunkt Gesten:
+Beispiele für Mehrpunkt-Gesten:
 
-* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies vom Webinhalt und nicht vom
-  Browser implementiert ist)
-* "Split tap" (ein Finger hält und der andere tippt)
+* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies vom Webinhalt und nicht vom Browser implementiert ist)
+* "Split tap" (ein Finger hält, der andere tippt)
 * Streichen mit mehreren Fingern
 
-_Hinweis_: Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses
-Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad
-dazwischen beliebig ist.
+_Hinweis_: Pfadunabhängige Ziehbewegungen (dragging motions) wie Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad dazwischen beliebig ist. Wenn Elemente dem gedrückten Zeiger (Maus-Cursor oder Finger) in jede Richtung folgen und keine initiale Richtung notwendig ist, um die Geste zu vollziehen, ist von einer Ziehbewegung auszugehen. 
+
+Abhängig von der Prüfumgebung kann diese Unterscheidung unterschiedlich ausfallen. So ist auf Touchscreens in mobilen Systemumgebungen häufig eine initiale horizontale Richtung zum Bewegen von horizontalen Slidern nötig, da bei vertikaler Bewegung stattdessen die Seite gescrollt wird. In dieser Umgebung würde die Bedienung eines solchen Sliders also als pfadbasiert gelten müssen und deshalb unter diesen Prüfschritt fallen.
 
 == Warum wird das geprüft?
 
-Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise
-unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen.
-Deshalb sollen solche Gesten, wenn Sie von Web-Inhalten implementiert werden,
-nicht der einzige Weg sein, eine Funktion auszuführen.
-Beispiele für komplexe Gesten sind
-Streichgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von
-Karussell-Inhalten, Zieh-Gesten zum Verstellen von Schiebereglern, oder
-Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
+Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen. Deshalb sollen solche Gesten, wenn Sie von Web-Inhalten implementiert werden, nicht der einzige Weg sein, eine Funktion auszuführen.
+Beispiele für komplexe Gesten sind Wischgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von Karussell-Inhalten, Zieh-Gesten oder Verstellen von Schiebereglern, oder Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
+
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Web-Inhalte Eventhandler implementieren,
-die auf komplexe Gesten (etwa Streichgesten, Mehrpunkt-Gesten) ansprechen.
+die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 
 === 2. Prüfung
 
 . Seite auf einem Smartphone aufrufen.
-. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren
-  (z. B. auf Karussels, Slidern).
-  Lassen sich Slider durch Streichgesten bewegen?
-  Werden durch Streichgesten vom Rand her Menüs oder andere Webinhalte
-  eingeblendet?
-  Reagieren bestimmte Elemente (etwa Karten) auf die
-  Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
-. Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über
-  einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten
-  ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen
-  Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
+. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren (z. B. auf Karussels, Slidern). Lassen sich Slider oder andere Inhaltselemente durch Wischgesten bewegen? Werden durch Wischgesten vom Rand her Menüs oder andere Webinhalte eingeblendet? Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
   Menüs einblenden).
 
 === 3. Anmerkungen
 
-* Webinhalte können ggf. Alternativen zur Aktivierung über einfache
-  Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten
-  anbieten, nicht aber in anderen.
-  So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein,
-  um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen
-  zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern
-  verfügbar sind.
-* Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf
-  komplexen Pfaden oder Mehrpunktgesten basieren.
-  So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus
-  pfadbasiert sein.
+* Webinhalte können ggf. Alternativen zur Aktivierung über einfache Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten anbieten, nicht aber in anderen. So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein, um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern verfügbar sind.
+* Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf komplexen Pfaden oder Mehrpunktgesten basieren. So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus pfadbasiert sein.
 
 === 4. Bewertung
 
 ==== Prüfschritt erfüllt
 
-* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es
-  alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den
-  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
+* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
 
 == Einordnung des Prüfschritts
 

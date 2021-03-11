@@ -2,26 +2,20 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.1 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.2 "Accessible content creation" verwiesen.
-
 == Was wird geprüft?
 
-Wenn es sich bei der zu testenden Web-App um ein Autorenwerkzeug handelt, soll
-die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
-Nutzer dabei unterstützen.
+Wenn es sich bei der zu testenden Webanwendung um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den Nutzer dabei unterstützen.
+
+== Warum wird das geprüft?
+Für Hilfsmittelnutzer, die eine programmatische Ermittelbarkeit von Informationen brauchen, ist es wichtig, dass Autorenwerkzeuge dies bei der Erzeugung von Inhalten unterstützen. Wenn zum Beispiel ein Kommentar-Eingabefeld die Vergabe einer Überschrift erlaubt, sollte diese auf der erzeugten (bzw. aktualisierten) Seite auch als Überschrift ausgezeichnet sein, damit Hilfsmittel-Nutzer diese semantische Information auswerten können (zum Beispiel zum Navigieren von Kommentar zu Kommentar).
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen wie Content Management Systemen anwendbar. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben, zum Beispiel die Vergabe einer Kommentar-Überschrift oder Funktionen zur Binnenauszeichnung des Kommentars, etwa Listen oder Texthervorhebungen.
 
-Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+Die Prüfung bezieht sich in erster Linie auf die Ausgabe des jeweiligen Autorenwerkzeugs.
 
 Der Dokumenttyp, den das Autorenwerkzeug erstellt, muss für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar. Dies ist für Web Content Managment Systeme und Kommentarfunktionen grundsätzlich gegeben. 
 
@@ -29,26 +23,30 @@ Die Ausgabe des Autorenwerkzeugs muss innerhalb einer Webumgebung dargestellt we
 Zudem können in das Frontend integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden, deren Output entweder unmittelbar oder nach Freigabe überprüft werden kann.
 Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test derzeit nicht geprüft werden, da in diesem Verfahren die Barrierefreiheit der durch das Tool generierten Dateien nicht überprüft werden kann.
 
-=== Prüfung
+=== 2. Prüfung
 
-Auf der Seite wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine Ausgabe generiert (und ggf. freigegeben).
-Die Ansicht der Seite, in der die Ausgabe angezeigt wird, muss dann bei der Prüfung berücksichtigt werden.
-Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiele:
+. Auf der Seite mittels Autorenwerkzeug (z. B. Kommentarfunktion) eine Ausgabe generieren (und ggf. freigegeben).
+. Die erzeugte HTML-Seite überprüfen. Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden. Einige Beispiele:
 
 *  Im Autorenwerkzeug festgelegte Überschriften sollen in der Ausgabe mit Überschriften-Markup ausgezeichnet sein (also nicht über Fettung oder CSS Styles)
 *  Im Autorenwerkzeug angelegte Listen sollen in der Ausgabe mit Listen-Markup ausgezeichnet sein (also nicht Pseudo-Listen über vorangestellte Spiegelstriche)
 *  Im Autorenwerkzeug festgelegte Absätze sollten in der Ausgabe mit Absatz-Markup ausgezeichnet sein (nicht div)
 *  Im Autorenwerkzeug festgelegte Text-Hervorhebungen sollen in der Ausgabe mit semantischen Elementen wie strong oder em ausgezeichnet sein.
-*  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bide zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
+*  Falls das Autorenwerkzeug die Einfügung von Bildern erlaubt, gibt es die Möglichkeit, einen Alternativtext für das Bild zu definieren. Der Alternativtext wird als alt-Attribut übernommen.
+
+=== 3. Hinweise
+
+* Der Prüfschritt verlangt nicht die Bereitstellung bestimmter semantischer Umsetzungen. Wenn zum Beispiel bei einer Kommentarfunktion von Nutzern keine Überschrift vergeben werden kann, ist dies hier nicht negativ zu bewerten.  Hier entsteht kein Nachteil gegenüber sehenden Nutzern, auch diese haben keine Überschrift. Anders bei Bildern: Wenn ein Bild eingefügt werden kann, entsteht ein Nachteil für nicht-visuelle Nutzer, wenn nicht im selben Zug ein Alternativtext definiert werden kann, der den Bildinhalt benennt oder beschreibt.
+
+* Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln sein.
 
 Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-==== Hinweise
+== Einordnung des Prüfschrtts
 
-Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
-anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
-Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
-sein.
+=== Einordnung des Prüfschrtts nach EN 301 549 V3.1.1
+
+* 11.8.2 Accessible content creation
 
 == Quellen
 

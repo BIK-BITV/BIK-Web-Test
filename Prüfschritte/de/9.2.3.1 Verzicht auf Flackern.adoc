@@ -86,7 +86,7 @@ where:
 
 * A red flash is defined as any pair of opposing transitions involving a
   saturated red.
-  --
+--
   
 ____
 

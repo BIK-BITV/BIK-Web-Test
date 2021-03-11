@@ -45,44 +45,21 @@ Der Prüfschritt ist immer anwendbar.
 
 ==== 3.1 Allgemeine Hinweise
 
-Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser
-selbst angeboten werden (beispielsweise "Fenster schließen").
+Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
 
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von
-JavaScript verursacht.
-Die Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
+Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursacht. Die Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
 
-Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein,
-er muss wissen, welche Tasten und Tastenkombinationen für die
+Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die
 Tastaturbedienung vorgesehen sind.
+
 Wichtig in diesem Zusammenhang:
 
-* Die Felder von Formularen können im Internet Explorer trotz korrekter
-  Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert
-  werden.
-* Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein
-  klicken und dann erst mit der Tastaturbedienung anfangen.
-  Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
-* Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können
-  ggf. mit den Pfeiltasten allein nicht bedient werden, da immer schon die
-  erste Listenoption ausgelöst wird.
-  Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit der
-  Tastenkombination "Alt + Pfeil nach unten" öffnen.
-  Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen
-  blättern und mit der Eingabetaste eine Option auswählen.
+* Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hinein klicken und dann erst mit der Tastaturbedienung anfangen. Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
+* Auswahllisten ohne Submit-Button, die auf "`onchange`" reagieren, können ggf. mit den Pfeiltasten allein nicht bedient werden, da immer schon die erste Listenoption ausgelöst wird. Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit der  Tastenkombination "Alt + Pfeil nach unten" öffnen. Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
+* Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechen. Es ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
+Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf der betreffenden Seiten mehrere Schritte erforderlich sind.
 
-Die Nutzung per Tastatur muss nicht genau der Nutzung per Maus entsprechen.
-Es ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem
-Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf
-der betreffenden Seiten mehrere Schritte erforderlich sind.
-
-Für diesen Prüfschritt spielt die Reihenfolge, in der Links und
-Formularelemente angesteuert werden, keine Rolle.
-
-Manche Elemente lassen sich ggf. bei eingeschaltetem Screenreader NVDA nicht
-aktivieren (oder nur bei zusätzlichem Drücken der ``alt``-Taste).
-Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und
-wird in Prüfschritt
+Manche Elemente lassen sich ggf. bei eingeschaltetem Screenreader NVDA nicht aktivieren (oder nur bei zusätzlichem Drücken der ``alt``-Taste). Dies ist in der Regel auf fehlerhafte ARIA-Auszeichnung zurückzuführen und wird in Prüfschritt
 ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
   <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert verfügbar>>
@@ -91,34 +68,29 @@ bewertet.
 
 ==== 3.2 Hinweis zu Drag-and-Drop-Funktionen
 
-Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind,
-müssen auch tastaturnutzbare Alternativen angeboten werden.
+Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müssen auch tastaturnutzbare Alternativen angeboten werden.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-* Alle wesentlichen Inhalte und Funktionen sind in Firefox und Chrome im
-  Prinzip erreichbar und bedienbar.
+* Alle wesentlichen Inhalte und Funktionen sind in Firefox und Chrome im Prinzip erreichbar und bedienbar.
 
 ==== Nicht erfüllt
 
-* Wesentliche Inhalte und Funktionen sind in Firefox oder Chrome mit der
-  Tastatur nicht erreichbar oder nicht bedienbar.
+* Wesentliche Inhalte und Funktionen sind in Firefox oder Chrome mit der Tastatur nicht erreichbar oder nicht bedienbar.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Dieser Prüfschritt betrifft die *Auslösbarkeit* von Funktionen und Links
-  auch über die Tastatur.
+* Dieser Prüfschritt betrifft die *Auslösbarkeit* von Funktionen und Links auch über die Tastatur.
 * *Tastaturfallen* sind Gegenstand von Prüfschritt
 ifdef::env_embedded[9.2.1.2 "Keine Tastaturfalle"]
 ifndef::env_embedded[]
   <<9.2.1.2 Keine Tastaturfalle.adoc#,9.2.1.2 Keine Tastaturfalle>>
 endif::env_embedded[]
-* Bei skriptgenerierten oder über Skripts eingeblendeten Elementen (etwa
-  ausklappenden Texten oder Lightboxen) ist die *sinnvolle Reihenfolge* im
+* Bei skriptgenerierten oder über Skripts eingeblendeten Elementen (etwa ausklappenden Texten oder Lightboxen) ist die *sinnvolle Reihenfolge* im
   Quellcode Gegenstand von Prüfschritt
 ifdef::env_embedded[9.1.3.2 "Sinnvolle Reihenfolge".]
 ifndef::env_embedded[]
@@ -127,14 +99,12 @@ endif::env_embedded[]
 * Die Fokus**hervorhebung** ist Gegenstand von Prüfschritt
 ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
 ifndef::env_embedded[]
-  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
-  Position des Fokus deutlich>>.
+  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle Position des Fokus deutlich>>.
 endif::env_embedded[]
-* Die Sinnvolle Fokus**reihenfolge** wird in
+* In diesen Prüfschritt spielt die Fokus-Reihenfolge, in der Links und Formularelemente angesteuert werden, keine Rolle.  Die Sinnvolle Fokus**reihenfolge** wird in
 ifdef::env_embedded[9.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung"]
 ifndef::env_embedded[]
-  <<9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,9.2.4.3
-  Schlüssige Reihenfolge bei der Tastaturbedienung>>
+  <<9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung>>
 endif::env_embedded[]
   bewertet.
 
