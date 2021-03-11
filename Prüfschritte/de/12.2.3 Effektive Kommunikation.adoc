@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte geschehen.
 
+== Warum wird das geprüft?
+
+Menschen mit verschiedenen Behinderungen bevorzugen verschiedene Kommunikationskanäle. So haben zum Beispiel schwerhörige Menschen Schwierigkeiten beim Telefonieren und bevorzugen E-Mail oder Chat. Für Menschen, denen Schreiben aus welchen Gründen auch immer schwer fällt, ist ein Telefonat einfacher. 
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
