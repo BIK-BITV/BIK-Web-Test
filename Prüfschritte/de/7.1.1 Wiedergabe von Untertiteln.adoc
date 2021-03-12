@@ -43,11 +43,11 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 4. Bewertung
 
-==== Erfüllt: 
+==== Erfüllt
 
 Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel als fester Bestandteil des Videos angezeigt (open captions) oder können über ein Bedienelement des Videoplayers ein- und ausgeblendet werden (closed captions).
 
-==== Nicht voll erfüllt: 
+==== Nicht voll erfüllt
 
 Es wird eine Untertitel-Datei angeboten, der Player bietet jedoch keine Möglichkeit, diese anzuzeigen.
 

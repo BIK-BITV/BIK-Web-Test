@@ -46,11 +46,11 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 === 4. Bewertung
 
-==== Erfüllt: 
+==== Erfüllt
 
 * Die Seite wird im Firefox-Browser nach dem Vornehmen von abweichenden Einstellungen (z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt, Schriften erscheinen vergrößert und in der jeweils eingestelten Schrifttype.
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
  
 * Texte haben bei Nutzung eigener Farbeinstellungen nicht genug Kontrast oder verschwinden
 * Fließtext wird nicht vergrößert dargestellt.

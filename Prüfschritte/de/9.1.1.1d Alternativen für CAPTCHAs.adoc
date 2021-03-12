@@ -93,7 +93,7 @@ endif::env_embedded[] geprüft.
   content so that it can be changed into other forms people need, such as large
   print, braille, speech, symbols or simpler language]
 
-==== Success Criterion
+==== Success criterion
 
 * http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[
   1.1.1 Non-text Content] (Level A)

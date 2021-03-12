@@ -98,7 +98,7 @@ Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 
 ==== Techniques
 
-===== General techniques
+===== General Techniques
 
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G98.html[
   G98: Providing the ability for the user to review and correct answers before

@@ -12,7 +12,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 ).
 
-== Warum wir das geprüft?
+== Warum wird das geprüft?
 
 Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. Hinweise zur Hilfsmittel-Kompatibilität können schnell veraltet sein. Es ist wichtig, dass der technische Support auf Kunden-Fragen eingehen und Hilfe bereitstellen kann.
 

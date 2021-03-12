@@ -32,11 +32,11 @@ Informationen, die das Zielformat nicht unterstützt, sollen bei der Prüfung ni
 
 === 4. Bewertung
 
-==== Erfüllt:
+==== Erfüllt
 
 Das Zielformat enthält alle Barrierefreiheits-Informationen des Ausgangsformats, die grundsätzlich unterstützt werden.
 
-==== Nicht voll erfüllt:
+==== Nicht voll erfüllt
 
 Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des Ausgangsformats gehen bei der Konvertierung verloren.
 

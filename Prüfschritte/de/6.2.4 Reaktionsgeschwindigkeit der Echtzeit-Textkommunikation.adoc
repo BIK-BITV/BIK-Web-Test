@@ -10,7 +10,7 @@ Wenn das Webangebot Echtzeit-Textkommunikation unterstützt und entsprechende Nu
 
 (folgt)
 
-== Wie wird das geprüft?
+== Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
@@ -33,9 +33,9 @@ Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken d
 
 Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
-== Einordung des Prüfschritts
+== Einordnung des Prüfschritts
 
-=== Einordnunng des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 6.2.4 RTT responsiveness
 
