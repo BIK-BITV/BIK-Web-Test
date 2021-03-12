@@ -11,26 +11,22 @@ Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweil
 == Warum wird das geprüft?
 Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, einem Empfänger eine Nachricht zeichenweise anzuzeigen. Ein Empfänger kann jeden Buchstaben, den man schreibt, in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken.
 
-Diese Kommunikationsform ist beispielsweise in Notsituationen hilfreich, in der keine Zeit vergeudet werden soll. Echtzeit-Textkommunikation kann auch für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog darstellen.
-Menschen, die Echtzeit-Textkommunikastion mit einem Hilfsmittel  wie Screenreadern nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten programmatisch zu unterscheiden.
+Die Echtzeit-Textkommunikation ist für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog. Menschen, die Echtzeit-Textkommunikastion mit einem Hilfsmittel  wie Screenreadern nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten programmatisch zu unterscheiden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit Textkommunikation
-senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit Textkommunikation senden und empfangen kann.
 
 === 2. Prüfung
 
-Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur
-Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die notwendigen Informationen korrekt an den Screenreader gesendet werden und dieser die Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der Ausgabe deutlich hervorgeht.
+Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die notwendigen Informationen korrekt an den Screenreader gesendet werden und dieser die Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der Ausgabe deutlich hervorgeht.
 
 ==== 2.1 Prüfung im Quelltext
 
 . Webangebot öffnen
-. Prüfen, ob das Webangebot das Senden und Empfangen von Echtzeit-Textkommunikation anbietet
-. Prüfen, ob die gesendeten und empfangenen Textnachrichten semantisch voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext der jeweilige Verfasser mit Uhrzeit genannt werden.
+. Prüfen, ob gesendete und empfangene Textnachrichten semantisch voneinander unterscheidbar sind. Dazu kann z. B. im HTML-Quelltext Verfasser:innen mit Uhrzeit genannt werden. 
 
 ==== 2.2 Zusätzliche Prüfung mittels Screenreader
 
@@ -38,15 +34,15 @@ Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die
 . das zu prüfende Web-Angebot mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
 . einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
 . die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
-. auf die Ausgabe des Screenreaders achten, die Sende- und Empfangsrichtung
-  muss durch die Ausgabe deutlich und unmissverständlich hervorgehen
+. auf die Ausgabe des Screenreaders achten, die Sende- und Empfangsrichtung muss durch die Ausgabe deutlich und unmissverständlich hervorgehen, etwa durch Ansage der Kürzel der Verfasser:innen.
 
 == 3. Hinweise
 
 == 4. Bewertung
 
 == Einordnung des Prüfschritts
-Die Tabelle A1 verweist auf 6.6.2.2 Programmatically determinable send and receive direction
+
+* 6.6.2.2 Programmatically determinable send and receive direction
 
 === Abgrenzung zu anderen Prüfschritten
 == Quellen
