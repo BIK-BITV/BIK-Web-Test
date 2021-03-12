@@ -42,9 +42,9 @@ Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test
 
 Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-== Einordnung des Prüfschrtts
+== Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschrtts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 * 11.8.2 Accessible content creation
 

@@ -29,7 +29,7 @@ oder andere größere Abschnitte in einer anderen Sprache enthält.
   Lang bookmarklet] aufrufen.
 . Prüfen, ob anderssprachige Wörter und Abschnitte richtig ausgezeichnet sind. Ausnahmen gelten für Eigennamen, Fachbegriffe und unklare Sprache (siehe <<3.Hinweise>>).
 
-=== 3.Hinweise
+=== 3. Hinweise
 
 * Keinen praktischen Nutzen hat die Auszeichnung von Wörtern, die ohne
   Auszeichnung üblicherweise nicht anders ausgesprochen werden.

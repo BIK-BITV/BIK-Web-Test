@@ -10,9 +10,9 @@ Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation anbietet, so
 
 Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in einer Kommunikation lesen wollen, müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. (Darüber hinaus ist es auch sinnvoll, programmatisch zwischen empfangenen Texten verschiedener Teilnehmer:innen unterscheiden zu können.)
 
-== 1. Wie wird geprüft?
+== Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit Textkommunikation senden und empfangen kann.
 
@@ -35,11 +35,11 @@ Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtun
 
 === 4. Bewertung
 
-==== Erfüllt: 
+==== Erfüllt
 
 Die Eingaben des Nutzers selbst und die emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, z.B. über einen Präfix.
 
-==== Eher erfüllt:
+==== Eher erfüllt
 
 Die Eingaben des Nutzers selbst snd von emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
 
@@ -47,9 +47,9 @@ Die Eingaben des Nutzers selbst snd von emfangenen Echtzeit-Texteingaben anderer
 
 Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichkeit, programmatisch zwischen eigenen und fremden Eingaben zu unterscheiden.
 
-== Einordnung des Prüfaschritts 
+== Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V.3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 * 6.2.2 "Display of RTT"
 * 6.2.2.2 Programmatically determinable send and receive direction

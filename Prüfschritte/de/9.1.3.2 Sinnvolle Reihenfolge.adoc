@@ -96,7 +96,7 @@ Rolle.
 
 == Einordnung des Prüfschritts
 
-=== Abgerenzung zu anderen Prüfschritten
+=== Abgrenzung zu anderen Prüfschritten
 
 * _Custom controls_, die etwa Benutzerschnittstellen aus positionierten `div`s
   mit Hintergrundbildern erzeugen, werden bereits in einer Reihe von
@@ -128,7 +128,7 @@ endif::env_embedded[]
   Guideline 1.3 Adaptable: Create content that can be presented in different
   ways (for example simpler layout) without losing information or structure.]
 
-==== Success criterio
+==== Success criterion
 
 * https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#meaningful-sequence[
   1.3.2 Meaningful Sequence] (Level A)

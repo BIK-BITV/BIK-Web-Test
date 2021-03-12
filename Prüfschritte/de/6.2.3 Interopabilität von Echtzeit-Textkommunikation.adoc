@@ -44,7 +44,7 @@ und fehlerhaft übertragenen Zeichen.
   
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschriftts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 * 6.2.3 Interoperability
 

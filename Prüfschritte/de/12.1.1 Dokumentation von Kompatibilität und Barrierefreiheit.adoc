@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Die Dokumentation des Webangebots soll vorhandene zusätzliche Eigenschaften und Funktionen in Bezug auf Barrierefreiheit auflisten und deren Nutzung erklären, sofern diese als Teil des Web-Angebots selbst implementiert wurden. Dazu gehören zum Beispiel angepasste Ansichten mit geänderten Kontrasten oder Textgrößen, Vorlesefunktionen, oder verfügbare Tastaturkurzbefehle. Auch Informationen zur (möglicherweise eingeschränkten) Kompatibilität mit assistiven Technologien zählen dazu.
 
-== Warum wir das geprüft?
+== Warum wird das geprüft?
 
 Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, sollten diese gut dokumentiert sein, denn viele Nutzer werden ohne ausdrückliche Hinweise diese Funktionen nicht erkennen oder nutzen können.
 

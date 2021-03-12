@@ -37,7 +37,7 @@ Falls Seiten Frames haben:
   Haben die Frame-Seiten sinnvolle Titel, die Zweck oder Inhalt des Frames
   kennzeichnen?
 
-=== 3. Hinweis
+=== 3. Hinweise
 
 Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite
 wiedergeben.
@@ -95,7 +95,7 @@ Bookmarks-Liste.
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H86.html[
   H86: Providing text alternatives for ASCII art, emoticons, and leetspeak]
 
-==== Failure
+==== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F25.html[
   F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not

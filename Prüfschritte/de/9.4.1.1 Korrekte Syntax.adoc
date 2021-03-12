@@ -20,7 +20,7 @@ mit der Seite.
 
 == Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts:
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
