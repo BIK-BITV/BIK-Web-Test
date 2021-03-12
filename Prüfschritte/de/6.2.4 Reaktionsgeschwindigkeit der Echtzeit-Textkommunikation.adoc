@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit-Textkommunikation unterstützt und entsprechende Nutzereingaben entgegen nimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden.
+Wenn die Web-App Echtzeit-Textkommunikation unterstützt und Texteingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. Es geht hier also um Systeme, die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, sondern erscheint unmittelbar.
 
 == Warum wird das geprüft?
 
-(folgt)
+Menschen, die über Texteingabe an einer Online-Kommunikation teilnehmen, sollen gegenüber Sprechenden nicht benachteiligt werden. Die Eingaben sollen unmittelbar oder nur mit geringer Verzögerung für andere Teilnehmende sichtbar werden.
 
 == Wie wird geprüft?
 
@@ -19,12 +19,11 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textk
 === 2. Prüfung
 
 Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis. Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der Anwendung abgeschickt werden. 
-Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
+von der Anwendung abgeschickt werden. Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
 
-Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu unverzüglich nach der Eingabe auf dem zweiten Gerät erscheinen.
+Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei möglichst unmittelbar nach der Eingabe auf dem zweiten Gerät erscheinen.
 
-Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
+Die Übertragung sollte nicht mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
 Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
 
 === 3. Hinweise
