@@ -5,23 +5,22 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot eine Funktion zur Echtzeit Textkommunikation anbietet, sind gesendeter und empfangener Text programmatisch unterscheidbar.
-Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweiligen Sende- oder Empfangsrichtung.
+Wenn das Webangebot eine Funktion zur Echtzeit-Textkommunikation anbietet, sind gesendeter und empfangener Text programmatisch unterscheidbar. Dies ermöglicht Hilfsmitteltechnologien wie Screenreadern die Ansage der jeweiligen Sende- oder Empfangsrichtung (zum Beispiel durch Ausgabe der Verfasser:innen).
 
 == Warum wird das geprüft?
-Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, einem Empfänger eine Nachricht zeichenweise anzuzeigen. Ein Empfänger kann jeden Buchstaben, den man schreibt, in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken.
+Echtzeit-Textkommunikation (real time text, RTT), ermöglicht es, eine Nachricht zeichenweise schon während der Eingabe zu übermitteln. Lesende können also von anderen eingegebene Buchstaben in dem Moment sehen, in dem der Sender ihn schreibt. Die Nutzenden müssen nicht (wie etwa in einem Chat), eine Nachricht zuerst schreiben und anschließend abschicken. Die Kommunikation ist damit ebenso (annähernd) synchron wie bei der Telefonie. 
 
-Die Echtzeit-Textkommunikation ist für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog. Menschen, die Echtzeit-Textkommunikastion mit einem Hilfsmittel  wie Screenreadern nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten programmatisch zu unterscheiden.
+Die Echtzeit-Textkommunikation ist für Menschen mit einer Hör- oder Spracheinschränkung eine Alternative zum mündlichen Dialog. Menschen, die Echtzeit-Textkommunikation mit einem Hilfsmittel wie etwa einem Screenreader nutzen, sollen in der Lage sein, empfangene und gesendete Nachrichten programmatisch zu unterscheiden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit Textkommunikation senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit-Textkommunikation senden und empfangen kann.
 
 === 2. Prüfung
 
-Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die notwendigen Informationen korrekt an den Screenreader gesendet werden und dieser die Richtung der einzelnen Textnachrichten verständlich ansagt bzw. diese aus der Ausgabe deutlich hervorgeht.
+Das Webangebot mit der Echtzeit-Textkommunikation sollte zusätzlich zur Quelltext-Analyse mit dem Screenreader geprüft werden, um zu beurteilen, ob die notwendigen Informationen korrekt an den Screenreader ausgegeben werden, so dass die Sende-Richtung der einzelnen Textnachrichten verständlich ausgegeben wird.
 
 ==== 2.1 Prüfung im Quelltext
 
