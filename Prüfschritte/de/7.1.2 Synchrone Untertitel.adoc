@@ -27,7 +27,7 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite aufgezeichnete Videos mit 
 . Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.
 . Um festzustellen, ob die Ursache beim Player liegt oder an der Untertitel-Datei, können die Zeitstempel der Untertitel-Datei stichprobenartig geprüft werden. 
 ** Dazu im Inspektor des Browsers das `track`-Element suchen. Die Untertitel-Datei ist als .vtt oder .srt-Datei über das `track`-Element eingebunden. 
-** Mit der Maus über den Dateipfad fahren. Mit der rechten Maustaste das Kontextmenü öffenen und mit Hilfe der Funktion "Link in neuem Tab anzeigen", die Untertitel anzeigen.
+** Mit der Maus über den Dateipfad fahren. Mit der rechten Maustaste das Kontextmenü öffenen und mit Hilfe der Funktion "Link in neuem Tab anzeigen" die Untertitel anzeigen.
 ** Alternativ den Pfad kopieren. Den Pfad im Browser hinter dem / der toplevel Domain eingeben.
 . Prüfen, ob die Zeitstempel korrekt sind.
 . Wenn die Zeitcodierung in der Track-Datei Fehler aufweist, ist davon auszugehen, dass der Fehler nicht beim Player liegt. Dieser Prüfschritt ist erfüllt. 
