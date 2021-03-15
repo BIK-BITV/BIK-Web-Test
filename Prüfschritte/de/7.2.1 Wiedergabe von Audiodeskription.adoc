@@ -53,8 +53,9 @@ ifdef::env_embedded[9.1.2.5 "Audiodeskription für Videos"]
 ifndef::env_embedded[]
 <<9.1.2.5 Audiodeskription für Videos.adoc#,9.1.2.5 Audiodeskription für Videos>>
 endif::env_embedded[]
-wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist.
-Es geht dort um die inhaltliche Beurteilung.
+wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist. Es geht dort um die inhaltliche Beurteilung.
+
+Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskripiton ist nicht vorhanden), ist dieser Prüfschritt nicht anwendbar. 7.2.1 ist nur anwendbar, wenn eine Audiodeskription angeboten wird.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
