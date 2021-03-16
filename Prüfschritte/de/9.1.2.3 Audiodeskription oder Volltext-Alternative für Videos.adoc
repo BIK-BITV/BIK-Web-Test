@@ -9,14 +9,15 @@ Volltext-Alternative bereitgestellt werden.
 
 == Warum wird das geprüft?
 
-Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden.
-Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
+Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden. Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
 verstehen, worum es geht.
-Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig
-gesprochen wird und Inhalte über das Bild vermittelt werden.
-Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
-Passagen beschrieben werden.
-Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+
+Spielfilme und Reportagen enthalten dagegen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt werden.
+Blinden oder seheingeschränkten Menschen kann der Zugang zu solchen Videos über eine der beiden Umsetzungen ermöglicht werden:
+
+. Es wird das Verfahren der Audiodeskription eingesetzt: In den vorhandener Dialogpausen werden Passagen beschrieben, die Inhalte nur über Bilder vermitteln und die nicht in der Haupttonspur enthalten sind.
+
+. Alternativ wird eine Volltext-Alternative angeboten: Alle Informationen werden in Textform bereitgestellt. Im Gegensatz zur Audiodeskription beschränkt sich die Beschreibung des Videoteils nicht nur auf die Pausen im vorhandenen Dialog. Es werden vollständige Beschreibungen aller visuellen Informationen bereitgestellt, einschließlich des visuellen Kontexts, der Handlungen und Ausdrücke der Schauspieler. Darüber hinaus werden nichtsprachliche Geräusche (Lachen, Stimmen aus dem Off usw.) beschrieben, und es werden Transkripte aller Dialoge mitgeliefert.
 
 == Wie wird geprüft?
 
@@ -25,10 +26,10 @@ Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 * Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur
   vorhanden sind und Informationen über das Bildgeschehen für das Verständnis
   erforderlich sind.
-* Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens
+* Videos brauchen keine Audiodeskription oder Volltext-Alternative, wenn der Fortgang des Bildgeschehens
   nicht in Worte gefasst werden kann.
   Der Prüfschritt ist dann nicht anwendbar.
-* Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von
+* Verzichtbar ist die Audiodeskription oder Volltext-Alternative, wenn die synchrone Wahrnehmung von
   Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder
   wenn das Video keine Tonspur hat (siehe Prüfschritt
 ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos").]
@@ -36,7 +37,7 @@ ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>).
 endif::env_embedded[]
-* Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als
+* Verzichtbar ist die Audiodeskription oder Volltext-Alternative auch für Videos, die lediglich als
   Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
   zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer
   Form zu vermitteln.
