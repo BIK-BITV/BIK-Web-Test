@@ -30,7 +30,6 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeic
 * Wenn alle wichtigen Informationen der Bildsequenz bereits über die Audiospur vermittelt werden, ist keine Audiodeskription und damit auch kein AD-Button erforderlich.
 * Die Anforderung 7.2.1 erlaubt zwar die Auswahl der Audiodeskription aus einer von mehreren Tonspuren. Anforderung  7.3 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription  auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, Lautstärke etc.) befinden.
 * Wenn
-* Wenn
 ifdef::env_embedded[7.3 "Bedienelemente für Untertitel und Audiodeskription"]
 ifndef::env_embedded[]
 <<7.3 Bedienelemente für Untertitel und Audiodeskription.adoc#,7.3 Bedienelemente für Untertitel und Audiodeskription>>
