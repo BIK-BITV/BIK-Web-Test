@@ -31,17 +31,17 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit Textkommunikatio
 . auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
 
 === 3. Hinweise
-Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anznehmen, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
+Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-Die Eingaben des Nutzers selbst und die emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, z.B. über einen Präfix.
+Die Eingaben des Nutzers selbst und die empfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, z.B. über einen Präfix.
 
 ==== Eher erfüllt
 
-Die Eingaben des Nutzers selbst snd von emfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
+Die Eingaben des Nutzers selbst snd von empfangenen Echtzeit-Texteingaben anderer Nutzer sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
 
 ==== Nicht erfüllt
 
