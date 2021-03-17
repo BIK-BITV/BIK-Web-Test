@@ -15,7 +15,7 @@ Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“,
 die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement 
 am Player flexibel zuschaltbar sind. 
 
-Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die Möglichkeit bietet, diese ein- und auszublenden. Bei Open captions handelt es sich hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
+Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die Möglichkeit bietet, diese ein- und auszublenden. Bei open captions handelt es sich hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
 
 == Wie wird geprüft?
 
@@ -26,7 +26,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 2. Prüfung
 
-. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` spezifiziert, dass es sich um Untertitel handelt.
+. Text-Dateien für Untertitelungen werden über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` zeigt an, dass es sich um Untertitel handelt (Transkription oder Übersetzung des Dialogs). Der Wert `captions` zeigt an, dass es sich um Untertitel für hörgeschädigte und gehörlose Menschen handelt.
 . Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer eine Möglichkeit bietet, diese ein- und auszublenden.
 
 === 3. Hinweise
