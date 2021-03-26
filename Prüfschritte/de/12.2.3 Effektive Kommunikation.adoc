@@ -18,9 +18,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzer anzubieten.
-
-.Kommunikation über
+Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzer anzubieten. Also etwa Kommunikation über
 * E-Mail
 * Chat
 * Telefon
