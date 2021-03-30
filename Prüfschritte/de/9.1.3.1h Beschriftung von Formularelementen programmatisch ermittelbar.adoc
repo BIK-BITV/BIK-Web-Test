@@ -47,7 +47,7 @@ Mit der Maus auf die Beschriftung von Formular-Elementen klicken und prüfen,
 ob der Cursor dadurch auf das Formular-Element gesetzt wird.
 Ist das nicht der Fall, prüfen, ob Beschriftung und Formular-Element mit
 `aria-labelledby` verknüpft sind oder ein Name für das Formular-Element auf
-andere Weise programmatisch bereitgestellt wird
+andere Weise programmatisch bereitgestellt wird (`title` oder `placeholder`).
 
 ==== 2.2 Prüfung von Gruppen von Formular-Elementen
 
@@ -89,21 +89,7 @@ Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden
 Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
 `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
 
-==== 3.3 Suchfeld mit nachfolgenem Button bzw. Input
-
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button
-besteht, ist oftmals keine sichtbare Beschriftung notwendig.
-Hier ist es ausreichend, wenn Eingabefeld und Button sichtbar nebeneinander
-(und im Quellcode nacheinander) positioniert sind, das Eingabefeld eine
-Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig
-kennzeichnet (etwa "Suchen" oder Lupen-Icon mit aussagekräftigem
-Alternativtext).
-Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen
-entweder ein aussagekräftiges ``title``-Attribut, ein verknüpftes verstecktes
-Label oder ein ``aria-label``-Attribut haben, da für Screenreader-Nutzer der
-nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
-
-==== 3.4 Zusätzliche Beschriftungen
+==== 3.3 Zusätzliche Beschriftungen
 
 Sichtbare zusätzliche erklärende Beschriftungen sollten über
 `aria-describedby` mit betreffenden Formular-Elementen verknüpft sein.
@@ -114,7 +100,7 @@ Sichtbare zusätzliche erklärende Beschriftungen sollten über
 
 * Beschriftungen sind nicht korrekt mit den dazugehörigen Eingabefeldern
   verknüpft und ein zugänglicher Name ist auch auf andere Weise (etwa über
-  `aria-label` oder ``title``) nicht programmatisch ermittelbar.
+  `aria-label`, `title` oder `placeholder`) nicht programmatisch ermittelbar.
 
 ==== Nicht voll erfüllt
 
@@ -216,3 +202,7 @@ endif::env_embedded[]
   Labeling Controls]
 * https://www.w3.org/WAI/tutorials/forms/grouping/[
   Grouping Controls]
+
+=== HTML Accessibility API Mappings 1.0
+
+* https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element[Accessible Name and Description Computation]
