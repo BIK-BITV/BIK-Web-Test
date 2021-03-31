@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der technische Support (über Telefon, Mail, ...) soll Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die die Webanwendung betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation der Webanwendung erwähnt werden (siehe auch Prüfschritt
+Wenn es technische Supportleistungen (etwa über Telefon, Mail oder Chat) gibt, solle diese Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die das Webangebot betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation des Webangebot erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
@@ -20,7 +20,7 @@ Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. H
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot in seiner Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitstellt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung) in seiner Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitstellt und einen Kontaktmöglichkeit für technische Supportleistungen aufführt.
 
 === 2. Prüfung
 
