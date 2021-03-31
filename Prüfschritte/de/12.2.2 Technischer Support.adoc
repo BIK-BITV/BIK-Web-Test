@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn es technische Supportleistungen (etwa über Telefon, Mail oder Chat) gibt, solle diese Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die das Webangebot betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation des Webangebot erwähnt werden (siehe auch Prüfschritt
+Wenn es technische Supportleistungen (etwa über Telefon, Mail oder Chat) gibt, sollen diese Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die das Webangebot betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation des Webangebot erwähnt werden (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
