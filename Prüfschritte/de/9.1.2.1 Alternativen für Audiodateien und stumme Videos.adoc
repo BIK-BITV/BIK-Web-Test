@@ -80,15 +80,6 @@ im Text identifiziert sein.
 * Es gibt eine Medienalternative, aber die Inhalte der Audio- oder stummen
   Videodatei sind darin nicht vollständig wiedergegeben.
 
-==== Abwertung des Gesamtergebnisses
-
-* Die Abwertung ist erforderlich, wenn Audiodateien oder stumme Videodateien
-  ohne Alternativen angeboten werden und gleichzeitig für die Nutzung des
-  Webauftritts von zentraler Bedeutung sind.
-  Der Webauftritt kann dann wegen der Unzugänglichkeit der Videoinhalte von
-  blinden oder sehbehinderten Menschen oder wegen der Unzugänglichkeit der
-  Audioinhalte von hörbehinderten Menschen nicht genutzt werden.
-
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
