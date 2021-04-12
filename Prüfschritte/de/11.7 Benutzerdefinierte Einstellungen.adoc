@@ -33,7 +33,7 @@ Der Prüfschritt ist immer anwendbar.
 . Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
 . Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
-. Prüfen, ob sich die Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken.
+. Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
 
 === 3. Hinweise
 
@@ -52,8 +52,11 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Nicht voll erfüllt
  
-* Texte haben bei Nutzung eigener Farbeinstellungen nicht genug Kontrast oder verschwinden
-* Fließtext wird nicht vergrößert dargestellt.
+* Aufgrund von benutzerdefinierten Farbeinstellungen treten beispielsweise Probleme auf wie:
+** informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar
+** Texte auf Grafiken kontrastieren nicht mehr ausreichend (es fehlt ein definierter Hintergrund)
+** Schriften von Logos sind nicht mehr lesbar, weil sie einen transparenten Hintergrund haben
+* Fließtext wird nicht vergrößert dargestellt oder sind nicht mehr lesbar
 
 == Einordnung des Prüfschritts
 
