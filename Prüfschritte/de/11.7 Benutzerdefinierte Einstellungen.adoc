@@ -36,10 +36,13 @@ Der Prüfschritt ist immer anwendbar.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
 
 === 3. Hinweise
-
-Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet.  In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
+==== 3.1. Einzusetzender Browser für die Prüfung
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. DIn anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
 
 Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
+
+==== 3.2 Hinweis zur Prüfung mit Firefox
+Der Firefox-Browser übernimmt für `button`-Elemente die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe. Dies darf nicht als Fehler bewertet werden. 
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
