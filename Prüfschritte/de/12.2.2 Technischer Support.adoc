@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn es technische Supportleistungen (etwa über Telefon, Mail oder Chat) gibt, sollen diese Informationen zur Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen können, die das Webangebot betreffen. Dies soll mindestens die Informationen umfassen, die dazu in der Dokumentation des Webangebot erwähnt werden (siehe auch Prüfschritt
+Wird ein technischer Support (etwa über Telefon, Mail oder Chat) angeboten, so soll dieser Informationen zu Barrierefreiheitsfunktionen des Webangebots und Kompatibilität zu assistiven Technologien bereitstellen können. Die Informationen sollen mindestens so umfassend sein wie in der Dokumentation des Webangebots (siehe auch Prüfschritt
 ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit"]
 ifndef::env_embedded[]
   <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
@@ -20,16 +20,19 @@ Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. H
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung) in seiner Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitstellt und eine Kontaktmöglichkeit für technische Supportleistungen aufführt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung) einen technischen Support anbietet und wenn in der Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität  bereitstellt werden.
 
 === 2. Prüfung
 
+. Prüfen, ob das Webangebot einen Kontakt zu einem technischen Support anbietet.
 . Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der Dokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
-. Ist der technische Support in der Lage, mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen gegeben?
+. Ist der technische Support in der Lage, mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen zu geben?
 
 === 3. Hinweise
 
-Der Prüfschritt bewertet nicht die Qualität der übermittelten Information und auch nicht die Zugänglichkeit von Übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder Hilfsmittel-Kompatibilität unzugehen.
+Der Prüfschritt bewertet nicht die Qualität der übermittelten Information und auch nicht die Zugänglichkeit von übersandten Dokumenten. Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder Hilfsmittel-Kompatibilität unzugehen.
+
+Ein allgemeiner Kontakt zum Anbieter des Webangebots wird im Sinne des Prüfschritts noch nicht als Support verstanden. Es sollte sich um einen technischen Support handeln, dies sollte aus der Formulierung des Kontakts hervorgehen (z. B. "Technischer Support", "Support", "Hilfe bei technischen Fragen" oder ähnliches).
 
 Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt. Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
 
