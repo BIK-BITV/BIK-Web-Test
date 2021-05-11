@@ -37,8 +37,8 @@ Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa vo
 
 === 3. Hinweise
 * Treffen folgende Punkte zu, muss die Dokumentatin nicht zwingend Teil der Seitenauswahl sein:
-- Der Seitentyp ist bereits in der Seitenaswahl abgedeckt.
-- Es gibt seitenübergreifende Bereiche (Kopf- und Fußbereich), die bereits geprüft wurden.
+- Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
+- Seitenübergreifende Bereiche (Kopf- und Fußbereich) sind mit den anderen Seiten der Seitenauswahl identisch und bereits geprüft worden.
 - Der Inhaltsbereich ist sehr einfach (z.B. es handelt sich nur um strukturierter Text und Links).
 * Ist die Dokumentation nicht Teil der Seitenauswahl, ist der Prüfschritt trotzdem anwendbar und die Prüfung erfolgt, wie unter "2.2 Prüfung der Dokumentation (nicht Teil der Seitenauswahl)" beschrieben.
 * Ist die Dokumentation komplexer oder als weiterer Seitentyp einzustufen, wird sie als eine weitere Seite in die Seitenauswahl aufgenommen. Auch wenn eine weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, soll diese in die Seitenauswahl bzw. Prüfung einbezogen werden.
