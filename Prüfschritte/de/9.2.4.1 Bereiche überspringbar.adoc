@@ -101,7 +101,7 @@ erfüllt sind:
 . Quelltextanalyse: Prüfen, ob die verschiedenen Seitenbereiche durch die
   Auszeichnung mit ``header, nav, main, aside, footer`` sinnvoll erschlossen
   werden.
-. Das http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[
+. Das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#landmarksbm[
   Landmarks bookmarklet] aufrufen.
   Die document landmarks werden nun, wenn vorhanden, hervorgehoben.
 . Wenn document landmarks eingesetzt werden, prüfen, ob die Zuordnung der Rollen
