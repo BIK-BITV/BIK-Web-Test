@@ -69,7 +69,7 @@ Das ist bei informationsorientierten Seiten meist der Fall.
 
 . Seite im Firefox aufrufen.
 . Über die
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1360[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
   Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (über _CSS > Styles
   deaktivieren > Alle Styles deaktivieren_ Stylesheets deaktivieren).
 . Das https://webtest.bitv-test.de/bookmarklets.html#gegliedert[
