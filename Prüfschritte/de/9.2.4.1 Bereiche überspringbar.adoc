@@ -69,10 +69,10 @@ Das ist bei informationsorientierten Seiten meist der Fall.
 
 . Seite im Firefox aufrufen.
 . Über die
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1360[
   Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (über _CSS > Styles
   deaktivieren > Alle Styles deaktivieren_ Stylesheets deaktivieren).
-. Das http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
+. Das https://webtest.bitv-test.de/bookmarklets.html#gegliedert[
   Bookmarklet "Inhalte gegliedert"] aufrufen.
 . Die Bereichsüberschriften im Zusammenhang mit den durch sie strukturierten
   Inhalten ansehen und prüfen, ob sie aussagekräftig sind, die
