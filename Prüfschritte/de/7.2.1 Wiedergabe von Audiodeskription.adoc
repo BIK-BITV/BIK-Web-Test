@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, givt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
+Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, gibt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
 
 Für die Auswahl der Version mit Audiodeskription muss der eingesetzte Player ein entsprechendes AD-Bedienelement haben oder die Möglichkeit bieten, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren. Alternativ kann eine Version mit Audiodeskription auch im unmittelbaren Kontexts des Players angeboten werden.
 
