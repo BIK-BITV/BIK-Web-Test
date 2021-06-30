@@ -14,7 +14,7 @@ Im Einzelnen können dies folgende Punkte sein:
 * Schriftgrößen
 * Darstellung des Fokuscursors
 
-Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden.
+Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden. In manchen Fällen muss die Seite neu geladen werden, damit sich die Änderungen auswirken.
 
 == Warum wird das geprüft?
 
@@ -59,7 +59,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 ** informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar
 ** Texte auf Grafiken kontrastieren nicht mehr ausreichend (es fehlt ein definierter Hintergrund)
 ** Schriften von Logos sind nicht mehr lesbar, weil sie einen transparenten Hintergrund haben
-* Fließtext wird nicht vergrößert dargestellt oder sind nicht mehr lesbar
+** Fließtext wird nicht vergrößert dargestellt oder ist nicht mehr lesbar
 
 == Einordnung des Prüfschritts
 
