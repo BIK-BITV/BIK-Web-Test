@@ -27,14 +27,21 @@ Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa vo
 
 === 2. Prüfung
 
+==== 2.1 Prüfung der Dokumentation (Teil der Seitenauswahl)
 . Prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet worden sind.
 . Ist dies der Fall, ist auch dieser Prüfschritt konform.
 
-=== 3. Hinweise
+==== 2.2 Prüfung der Dokumentation (nicht Teil der Seitenauswahl)
+. Ist die Dokumentation nicht Teil der Seitenauswahl (siehe Erläuterungen unter "3. Hinweise"), prüfen, ob für die seitenübergreifenden Bereiche (z.B. Kopf- und   Fußbereich) sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet wurden.
+. Für den Inhaltsbereich der Seite prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet wurden (in der Regel handelt es sich bei sehr einfachen Seiten um die Prüfung der Struktur und gegebenenfalls die Tastaturbedienbarkeit).
 
-- Wenn vorhanden, muss die Erklärung zu Barrierefreiheit Teil der Seitenauswahl sein.
-- Wenn weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, soll auch diese in die Seitenauswahl einbezogen werden.
-- Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache  für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+=== 3. Hinweise
+* Die Dokumentation muss nicht zwingend Teil der Seitenauswahl sein, wenn Folgendes gegeben ist:
+- Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
+- Seitenübergreifende Bereiche (Kopf- und Fußbereich) sind mit den anderen Seiten der Seitenauswahl identisch und bereits geprüft worden.
+- Der Inhaltsbereich ist sehr einfach (es handelt sich beispielsweise nur um strukturierter Text und Links).
+* Ist die Dokumentation komplexer oder als weiterer Seitentyp einzustufen, wird sie als eine weitere Seite in die Seitenauswahl aufgenommen. Wenn eine weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, soll auch diese in die Seitenauswahl bzw. Prüfung einbezogen werden.
+* Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache  für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
@@ -42,7 +49,7 @@ Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub https://gith
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 12.1.2 Accessible documentation
+12.1.2 Accessible documentation
 
 == Quellen
 
