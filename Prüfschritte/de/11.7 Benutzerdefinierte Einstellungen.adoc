@@ -37,7 +37,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === 3. Hinweise
 ==== 3.1. Einzusetzender Browser für die Prüfung
-Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. DIn anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
 
 Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
 
