@@ -14,7 +14,7 @@ Im Einzelnen können dies folgende Punkte sein:
 * Schriftgrößen
 * Darstellung des Fokuscursors
 
-Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden.
+Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, wenn diese Einstellungen nicht genutzt werden, sollen die Browsereinstellungen übernommen werden. In manchen Fällen muss die Seite neu geladen werden, damit sich die Änderungen auswirken.
 
 == Warum wird das geprüft?
 
@@ -33,13 +33,16 @@ Der Prüfschritt ist immer anwendbar.
 . Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
 . Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
-. Prüfen, ob sich die Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken.
+. Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
 
 === 3. Hinweise
-
-Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet.  In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
+==== 3.1. Einzusetzender Browser für die Prüfung
+Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. DIn anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
 
 Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
+
+==== 3.2 Hinweis zur Prüfung mit Firefox
+Der Firefox-Browser übernimmt für `button`-Elemente die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe. Dies darf nicht als Fehler bewertet werden. 
 
 Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der Entwicklung der Prüfung mitzuwirken
@@ -52,8 +55,11 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Nicht voll erfüllt
  
-* Texte haben bei Nutzung eigener Farbeinstellungen nicht genug Kontrast oder verschwinden
-* Fließtext wird nicht vergrößert dargestellt.
+* Aufgrund von benutzerdefinierten Farbeinstellungen treten beispielsweise Probleme auf wie:
+** informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar
+** Texte auf Grafiken kontrastieren nicht mehr ausreichend (es fehlt ein definierter Hintergrund)
+** Schriften von Logos sind nicht mehr lesbar, weil sie einen transparenten Hintergrund haben
+** Fließtext wird nicht vergrößert dargestellt oder ist nicht mehr lesbar
 
 == Einordnung des Prüfschritts
 
