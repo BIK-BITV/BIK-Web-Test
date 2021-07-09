@@ -25,37 +25,27 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-. Die Seite im
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
-  Firefox] aufrufen.
-. In der
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-  Web Developer Toolbar] die Funktion
-  _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle
-  Grafiken auszublenden (oder alternativ
-  _Bilder > Bilder mit ALT-Attributen ersetzen_).
-  . Prüfen, ob dadurch Schrift verschwindet.
+. Die Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[Firefox] aufrufen.
+. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html##webdeveloper[Web Developer Toolbar] die Funktion _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle Grafiken auszublenden (oder alternativ _Bilder > Bilder mit ALT-Attributen ersetzen_).
+. Prüfen, ob dadurch Schrift verschwindet.
 
 === 3. Hinweise
 
-In der Regel nicht negativ bewertet werden grafische Schriften auf *Logos*
-oder in *Fotos*.
+In der Regel nicht negativ bewertet werden grafische Schriften auf *Logos* oder in *Fotos*.
 
-Ebenfalls nicht negativ bewertet wird, wenn das SVG ``text``-Element in
-Inline-SVGs verwendet wird.
+Ebenfalls nicht negativ bewertet wird, wenn das SVG ``text``-Element in Inline-SVGs verwendet wird.
+
+Bei Schriftgrafiken, die den Informationsinhalt im Kontext auch als Text wiedergeben, kann dieser Text als konforme Alternativversion der Schriftgrafik gelten. Das ist zum Beispiel der Fall, wenn Abbildungen von Broschüren, Plakaten oder ähnlichen Dokumenten, die Text im Bild enthalten, als Teaser-Bild verwendet werden und der Titel der Broschüre ebenfalls unmittelbar darunter, darüber oder daneben als Text zu lesen steht.
 
 === 4. Bewertung
 
 ==== Nicht voll erfüllt
 
-* Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne
-  Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
+* Für Schalter oder Schaltflächen werden Schriftgrafiken verwendet.
 
 ==== Nicht erfüllt
 
-* Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für
-  Schaltflächen, deren Beschriftung gelesen werden muss, werden
-  Schriftgrafiken verwendet.
+* Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken verwendet.
 
 == Einordnung des Prüfschritts
 
