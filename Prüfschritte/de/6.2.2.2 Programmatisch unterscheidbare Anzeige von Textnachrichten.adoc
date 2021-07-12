@@ -8,7 +8,7 @@ Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-T
 
 == Warum wird das geprüft?
 
-Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in einer Kommunikation lesen wollen, müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. (Darüber hinaus ist es auch sinnvoll, programmatisch zwischen empfangenen Texten verschiedener Teilnehmer:innen unterscheiden zu können.)
+Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in einer Kommunikation lesen wollen, müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. (Darüber hinaus ist es auch sinnvoll, programmatisch zwischen empfangenen Texten von verschiedenen Teilnehmenden unterscheiden zu können.)
 
 == Wie wird geprüft?
 
