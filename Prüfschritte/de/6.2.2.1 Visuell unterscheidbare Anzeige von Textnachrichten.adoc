@@ -29,7 +29,7 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation (
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrchten explizit abgeschickt werden und erst dann beim Empfänger erscheinen. 
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen. 
 
 * Die Anforderung gilt streng genommen nur für Echtzeit-Textkommunikation, ist aber auch für die Unterscheidung von anderen Formen von Textkommunikation (etwa Text-Chats) wichtig.
 
