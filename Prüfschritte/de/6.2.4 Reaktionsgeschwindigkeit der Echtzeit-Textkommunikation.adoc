@@ -28,7 +28,7 @@ Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die 
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrchten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
 * Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss verbessert.
 
