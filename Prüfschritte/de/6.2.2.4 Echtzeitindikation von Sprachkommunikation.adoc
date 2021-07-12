@@ -8,7 +8,7 @@ Wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt und Funktionen
 
 == Warum wird das geprüft?
 
-Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmer, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
+Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
 
 == Wie wird geprüft?
 
