@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
+Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzende beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
 
 == Warum wird das geprüft?
 
