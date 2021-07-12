@@ -9,13 +9,13 @@ ermittelbar sein.
 
 == Warum wird das geprüft?
 
-Diese Anforderung stellt sicher, dass auch Nutzer von Hilfstechnologien den Anrufer identifizieren können.
+Diese Anforderung stellt sicher, dass auch Nutzende von Hilfsmittel-Technologien den Anrufer identifizieren können.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufers.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Telekommunikationsfunktionen mit Anrufidentifizierung bietet. Anrufidentifizierung bedeutet hier die Signalisierung bzw. Anzeige des Anrufenden.
 
 === 2. Prüfung
 
@@ -24,8 +24,8 @@ Für die Prüfung muss die Web-Anwendung ggf. auf zwei Geräten geöffnet werden
 . Screenreader starten
 . Web-Anwendung öffnen
 . Anruf von einem zweiten Gerät tätigen
-. Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die Informationen über den Anrufer im Browser für den Screenreader ohne Umwege auslesbar?
-. Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufer in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
+. Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufende automatisch angesagt oder sind die Informationen über den Anrufenden im Browser für den Screenreader ohne Umwege auslesbar?
+. Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
   
 == Einordnung des Prüfschritts
 
