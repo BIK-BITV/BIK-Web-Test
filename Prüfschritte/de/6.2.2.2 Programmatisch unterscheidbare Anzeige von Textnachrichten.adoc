@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikatio
 
 * Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-* Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
+* Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmenden unterscheidbar sind.
 
 === 4. Bewertung
 
