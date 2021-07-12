@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Web-Anwendungen, welche (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation mit anderen Anwendungen erlauben, sollen Interoperabilität, also die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards für Echtzeit Text-Kommunikation unterstützen.
+Web-Anwendungen, die (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation (RTT, Real-Time Text) mit anderen Anwendungen erlauben, sollen Interoperabilität, also die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards für Echtzeit Text-Kommunikation unterstützen.
 
 == Warum wird das geprüft?
 Wenn Web-Anwendungen, die zusätzlich zur Kommunikation über Sprache außerdem Echtzeit-Text-Kommunikation (RTT) bieten, mit anderen solchen Anwendungen in Austausch treten, sollen die Mechanismen bei der Echtzeit-Text-Kommunikation auf beiden Seiten gleichermaßen funktionieren. Dies betrifft etwa die Anzeige von nicht oder fehlerhaft übertragenen Zeichen. Dies ist sichergestellt, wenn auf beiden Seiten jeweils geltende technische Standards der ITU, der IETF oder von ETSI unterstützt werden. Wenn von der Web-Anwendung stattdessen proprietäre Mechanismen für RTT eingesetzt werden, funktionieren diese ggf. nicht beim Austausch mit anderen Anwendungen, die RTT unterstützen.
@@ -21,7 +21,9 @@ Die Dokumentation der Web-Anwendung oder den Anbieter der Web-Anwendung konsulti
 
 === 3. Hinweise
 
-Bei der Beurteilung der Standards-Unterstützung muss die aktuelle Entwicklung der Standards berücksichtigt werden. Ggf. sind mittlerweile neuere Standards für die Kommunikationsmethode gängig.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+
+* Bei der Beurteilung der Standards-Unterstützung muss die aktuelle Entwicklung der Standards berücksichtigt werden. Ggf. sind mittlerweile neuere Standards für die Kommunikationsmethode gängig.
 
 EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standards:
 
