@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
+Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzer:innen beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
 
 == Warum wird das geprüft?
 
@@ -14,7 +14,7 @@ Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, die Äußerungen in e
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit Textkommunikation senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann.
 
 === 2. Prüfung
 
@@ -31,7 +31,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit Textkommunikatio
 . auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
 
 === 3. Hinweise
-Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
+* Bei Echtteit Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht dasselbe wie etwa Chat, wo Nachrchten explizit abgeschicktz werden und erst dann beim Empfänger erscheinen.
+* Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
 
 === 4. Bewertung
 
