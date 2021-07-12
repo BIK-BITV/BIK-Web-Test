@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der (technische) Support soll die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte geschehen.
+Wird ein technischer Support (etwa über Telefon, Mail oder Chat) angeboten, soll dieser die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. Dies kann auch durch die Vermittlung an Dritte geschehen.
 
 == Warum wird das geprüft?
 
@@ -14,7 +14,7 @@ Menschen mit verschiedenen Behinderungen bevorzugen verschiedene Kommunikationsk
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Angebot (meist eine Web-Anwendung) technischen Support (etwa über Telefon, Mail oder Chat) anbietet.
 
 === 2. Prüfung
 
