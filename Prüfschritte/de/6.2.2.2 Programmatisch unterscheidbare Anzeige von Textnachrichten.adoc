@@ -31,7 +31,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikatio
 . auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen und fremden Textbeiträgen unterstützt?
 
 === 3. Hinweise
-* Bei Echtteit Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht dasselbe wie etwa Chat, wo Nachrchten explizit abgeschicktz werden und erst dann beim Empfänger erscheinen.
+* Bei Echtteit Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht dasselbe wie etwa Chat, wo Nachrchten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 * Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, sie verlangt also nicht, dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. In der Praxis wird jedoch anzunehmen sein, dass  bei allen Echtzeit-Textbeiträgen der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist und somit auch empfangene Textnachrichten von verschiedenen Teilnehmer:innen unterscheidbar sind.
 
 === 4. Bewertung
