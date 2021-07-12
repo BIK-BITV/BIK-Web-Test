@@ -20,6 +20,10 @@ Der Prüfschritt ist anwendbar, wenn das zu testende Webangebot Zwei-Wege-Kommun
 
 . Webangebot öffnen.
 . Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
+
+=== 3. Hinweise
+
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
   
 == Einordnung des Prüfschritts 
 
