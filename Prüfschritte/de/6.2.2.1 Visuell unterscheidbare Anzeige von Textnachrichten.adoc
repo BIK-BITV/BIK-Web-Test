@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit-Textkommunikation senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
+Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
 
 == Warum wird das geprüft?
 
@@ -20,7 +20,7 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation (
 === 2. Prüfung
 
 . Webangebot öffnen
-. Prüfen, ob die Webangebot das Senden und Empfangen von Echtzeit Textkommunikation anbietet
+. Prüfen, ob die Webangebot das Senden und Empfangen von Echtzeit-Textkommunikation anbietet
 . Prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
 +
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
@@ -28,6 +28,10 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation (
 * Nennung des Namens vor Beginn der Nachricht
 
 === 3. Hinweise
+
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrchten explizit abgeschickt werden und erst dann beim Empfänger erscheinen. 
+
+* Die Anforderung gilt streng genommen nur für Echtzeit-Textkommunikation, ist aber auch für die Unterscheidung von anderen Formen von Textkommunikation (etwa Text-Chats) wichtig.
 
 * Wenn das Webangebot weitere Optionen für die Anzeige der Nachrichten anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht negativ bewertet werden. Andere Darstellungsweisen sind positiv, sie können bestimmte Nutzer-Bedürfnisse erfüllen. So kann die Fließtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
 
