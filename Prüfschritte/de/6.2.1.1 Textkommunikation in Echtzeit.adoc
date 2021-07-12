@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss es ebenfalls Textkommunikation in Echtzeit zur Verfügung  stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem  Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
+Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss es ebenfalls Textkommunikation in Echtzeit (RTT, Real-Time Text) zur Verfügung  stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem  Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
 
 == Warum wird das geprüft?
 
