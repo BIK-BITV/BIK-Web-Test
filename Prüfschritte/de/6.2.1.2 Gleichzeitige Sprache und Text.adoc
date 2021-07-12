@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit anbietet, soll die gleichzeitige Kommunikation mittels Sprache und Echtzeit-Textkommunikation möglich sein.
+Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit (RTT, Real-Time Text) anbietet, soll die gleichzeitige Kommunikation mittels Sprache und Echtzeit-Textkommunikation möglich sein.
 
 == Warum wird das geprüft?
 
@@ -23,9 +23,11 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation u
 
 === 3. Hinweise
 
-Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
+* Bei Echtteit Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrchten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
+* Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
+
+* Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
 
 == 4. Einordnung des Prüfschritts
 
