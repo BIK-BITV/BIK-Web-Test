@@ -27,7 +27,7 @@ Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa vo
 
 === 2. Prüfung
 
-Die Prüfung erfolgt als Teil der Seitenauswahl oder nicht als Teil der Seitenauswahl. Für die Vorgehensweise ist zu prüfen, ob die Voraussetzungen es erlauben, die Dokumentation nicht in die Seitenauswahl aufzunehmen (siehe "3. Hinweise").
+Je nach den gegebenen Voraussetzungen (siehe "3. Hinweise") muss die Dokumentation nicht Teil der Seitenauswahl sein. Die Prüfung erfolgt dann wie unter 2.2 beschrieben.
 
 ==== 2.1 Prüfung der Dokumentation (Teil der Seitenauswahl)
 . Prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet worden sind.
