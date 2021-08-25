@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Dokumenttitel bezeichnen die Site und den Inhalt der jeweiligen Seite, sie
+Dokumenttitel bezeichnen den Inhalt der indiduellen Seiten und das Webangebot. Sie
 können für die Unterscheidung und Auswahl von Seiten genutzt werden.
 
 == Warum wird das geprüft?
@@ -25,7 +25,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-Dokumenttitel in der Browserleiste ansehen. Bezeichnet der Titel den Inhalt der jeweiligen Seite und ggf. auch das Angebot, ist er für die Unterscheidung und Auswahl von Seiten geeignet?
+* Dokumenttitel in der Browserleiste ansehen. 
+* Bezeichnet der Titel den Inhalt der individuellen Seite und ggf. auch das Webangebot? Ist er für die Unterscheidung und Auswahl von Seiten geeignet?
 
 Falls Seiten Frames haben:
 
@@ -35,8 +36,7 @@ Falls Seiten Frames haben:
 === 3. Hinweise
 
 Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergeben.
-Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste. 
-Die Nennung des Angebots ist in der Regel an zweiter Stelle sinnvoll: Der erste Teil benennt die Seite selbst, der zweite des Angebot und damit den Kontext der Seite.
+Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste. Es ist daher sinnvoll, nicht nur den Inhalt der Seite, sondern auch das Webangebot selbst zu nennen. Die Nennung des Angebots ist in der Regel an zweiter Stelle sinnvoll: Der erste Teil benennt die Seite selbst, der zweite des Angebot und damit den Kontext der Seite.
 
 === 4. Bewertung
 
@@ -47,8 +47,8 @@ Die Nennung des Angebots ist in der Regel an zweiter Stelle sinnvoll: Der erste 
 ==== Eher erfüllt
 * Der Dokumenttitel enthält eine unterscheidende, individuelle Bezeichnung der jeweiligen Seite, nennt jedoch nicht das Angebot.
   
-==== Eher nicht erfüllt
-* Die individuelle Bezeichnung der Seite ist nicht sinnvoll, bezeichnet den Inhalt nicht
+==== Nicht voll erfüllt
+* Die individuelle Bezeichnung der Seite ist nicht sinnvoll, er bezeichnet den Inhalt nicht aussagekräftig.
 * Frame-Seiten haben keine sinnvollen Dokumenttitel
 * Dokumenttitel enthalten typographischen Schmuck (etwa ++++, ~~~~, ====)
 
