@@ -25,8 +25,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
 
-* Dokumenttitel in der Browserleiste ansehen. 
-* Bezeichnet der Titel den Inhalt der individuellen Seite und ggf. auch das Webangebot? Ist er für die Unterscheidung und Auswahl von Seiten geeignet?
+. Dokumenttitel in der Browserleiste ansehen. 
+. Bezeichnet der Titel den Inhalt der individuellen Seite und ggf. auch das Webangebot? Ist er für die Unterscheidung und Auswahl von Seiten geeignet?
 
 Falls Seiten Frames haben:
 
