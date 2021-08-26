@@ -48,13 +48,7 @@ Wenn die Seite eigene Bedienelemente bereithält, um die Schriftgröße zu vergr
 
 * Wenn bei Nutzung der Zoom-Funktion am Desktop das Layout für mobile Geräte ausgeliefert wird, sollten auch in diesem Layout alle Anforderungen der Barrierefreiheit erfüllt sein Probleme in dieser Ansicht werden bei den jeweils relevanten Prüfschritten bewertet.
 
-==== 3.2 Hinweise zur Prüfung der Schriftvergrößerung über Browser-Einstellungen
-
-* Bei der Prüfung reiner Schriftvergrößerung geht es nur um Textschriften. Ob grafische Schriften vorhanden sind, ist für die Bewertung nicht relevant.
-* Die Anpassung des Layouts an veränderte Schriftgrößen wird in bestimmten Fällen (zum Beispiel bei ``select``-Auswahlmenüs) erst nach dem Neuladen der Seite wirksam.
-Dies gilt nicht als Mangel, die Seite muss also im Zweifelsfall neu geladen werden.
-
-==== 3.3 Hinweise zur Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
+==== 3.2 Hinweise zur Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
 
 Die Prüfung der Schriftvergrößerung durch Bedienelemente erfolgt nur unter folgenden Bedingungen:
 
