@@ -27,7 +27,6 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
 * Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die Fehler darstellungsunabhängig hinzuweisen.
 * Fehlermeldungen, die nahe am Formularfeld positioniert sind, aber nicht Teil des Labels sind, sind programmatisch ermittelbar, etwa durch die Verknüpfung mittels `aria-labelledby` oder `aria-describedby`.
-  verknüpft.
 * Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen (``alertdialog``) bereitgestellt.
 
 . Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars zuvor angezeigte Fehlermeldungen verschwinden.
