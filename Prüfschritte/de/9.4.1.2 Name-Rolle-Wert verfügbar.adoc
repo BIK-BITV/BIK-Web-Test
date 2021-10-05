@@ -81,10 +81,8 @@ andere Event Handler reagieren) enthält.
   Falls das nicht der Fall ist, müssen Elemente also gegebenenfalls mit dem
   Cursor-Werkzeug des aViewers untersucht werden.
 
-Für die Prüfung von komplexen Widgets sollte der Screenreader ergänzend
-genutzt werden.
-Ansonsten ist die stichprobenartige Prüfung mit dem Hilfsmittel
-sinnvoll.
+* Für die Prüfung von komplexen Widgets sollte der Screenreader ergänzend genutzt werden.
+* Bei dynamischen eingeblendeten Elementen (etwa den Ausklapplisten von Comboboxen) kann es notwendig sein, den laufenden Script anzuhalten, um eingeblendete Inhalte zu untersuchen. Hierzu eignet sich die Eingabe des Scripts `setTimeout(function(){debugger}, 5000);` in der Konsole der Entwicklerwerkzeuge (diese sind aufrufbar mit F12), unmittelbar gefolgt vom Aufruf der einzublendenden Inhalte. Fünf Sekunden nach Aktivierung des Konsolen-Scripts stoppt die Ausführung des Scripts der Seite, die dynamischen Elemente können nur mittels Entwicklerwerkzeugen untersucht werden.
 
 === 4. Bewertung
 
