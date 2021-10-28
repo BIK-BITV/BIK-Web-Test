@@ -9,10 +9,9 @@ abschaltbar, oder sie kann verlängert werden.
 Dies betrifft etwa:
 
 * zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
-* Online-Transaktionen mit begrenzter Session-Dauer und automatischem
-  Ausloggen bei längerer Inaktivität
-* das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung
-  zu einer anderen Seite
+* Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
+* das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung zu einer anderen Seite
+* Wichtige Statusmeldungen, die nach kurzer Zeit automatisch schließen
 
 == Warum wird das geprüft?
 
@@ -86,6 +85,12 @@ ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
   abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens
   20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der
   Zeitbegrenzung anbietet.
+  
+
+==== 2.3 Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen
+
+. Bieten Statusmeldungen für Nutzende wesentliche Informationen und schließen automatisch nach kurzer Zeit?
+Für den Nutzer nicht wesentliche Stausmeldungen sind solche, die ein erwartetes Ergebnis einer Interaktion zusätzlich vermitteln, etwa, nach Aktivieren eines Schalters "Sichern" die Meldung "Ihr Dokument wurde gespeichert", oder, nach dem Abschicken eines Formulars, die Meldung "Ihre Angaben wurden übermittelt" oder ähnlich. Das automatische Schließen solcher nicht wesentlichen Meldungen sollte nicht negativ bewertet werden.
 
 === 3. Hinweise
 
