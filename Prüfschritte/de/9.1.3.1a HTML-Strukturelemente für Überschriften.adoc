@@ -52,7 +52,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Ü
 
 ==== Teilweise erfüllt
 
-* Es wid semantisches Mark-Up für Überschriften eingesetzt, die Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der inhaltlichen Gliederung.
+* Es wird semantisches Mark-Up für Überschriften eingesetzt, die Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der inhaltlichen Gliederung.
 
 ==== Nicht erfüllt
 
