@@ -9,63 +9,37 @@ Spaltenüberschriften sind mit `th` ausgezeichnet.
 
 == Warum wird das geprüft?
 
-Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle
-neben den Überschriften wenn nötig auch den Wertebereich.
-Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum
-Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit
-ihnen umzugehen.
+Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit ihnen umzugehen.
 
-Sehbehinderte und blinde Benutzer erschließen sich das Angebot von
-Datentabellen dagegen eher analytisch.
-Sie entwickeln ausgehend von den
-Überschriften und anderen im Kontext verfügbaren Informationen eine
-Vorstellung vom Aufbau der Tabelle.
-Diese Vorstellung ist die Grundlage für den
-Zugriff auf die angebotenen Daten.
+Sehbehinderte und blinde Benutzer erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
 
 Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 
-Die Tabelle muss eine klare Struktur haben, die Bedeutung der Zeilen und
-Spalten muss fassbar sein und sie muss möglichst gut den Überschriften oder
-unterstützenden Kontextinformationen zu entnehmen sein.
-Die Überschriften müssen auffindbar sein und es muss klar sein, auf welche
-Daten sie sich beziehen, sie müssen also korrekt ausgezeichnet sein.
+* Die Tabelle muss eine klare Struktur haben, die Bedeutung der Zeilen und Spalten muss fassbar sein und sie muss möglichst gut den Überschriften oder unterstützenden Kontextinformationen zu entnehmen sein. Die Überschriften müssen auffindbar sein und es muss klar sein, auf welche Daten sie sich beziehen, sie müssen also korrekt ausgezeichnet sein.
 
-Die klare Struktur ist die Grundlage der Barrierefreiheit von Datentabellen.
-Es ist nicht möglich, eine mangelhaft strukturierte Datentabelle durch
-spezielle Auszeichnung barrierefrei zugänglich zu machen.
-Auf Grundlage einer klaren, nachvollziehbaren Struktur ist die korrekte
-Auszeichnung aber nützlich und
-wichtig.
+* Die klare Struktur ist die Grundlage der Barrierefreiheit von Datentabellen. Es ist nicht möglich, eine mangelhaft strukturierte Datentabelle durch spezielle Auszeichnung barrierefrei zugänglich zu machen. Auf Grundlage einer klaren, nachvollziehbaren Struktur ist die korrekte Auszeichnung aber nützlich und wichtig.
 
 Mögliche Anwendungen der Auszeichnung von Tabellenüberschriften:
 
-* Der Screenreader informiert über die Position und Anzahl der
-  Überschriftenreihen.
-* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn
-  der Benutzer die Tabellenzeile oder die Tabellenspalte wechselt.
-* Überschriften werden in einer für den Benutzer besser geeigneten Form
-  hervorgehoben.
+* Der Screenreader informiert über die Position und Anzahl der Überschriftenreihen.
+* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn der Benutzer die Tabellenzeile oder die Tabellenspalte wechselt.
+* Überschriften werden in einer für den Benutzer besser geeigneten Form hervorgehoben.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn Tabellen auf der Seite vorhanden
-sind.
+Der Prüfschritt ist immer anwendbar, wenn native oder über ARIA-Rollen ausgezeichnete Datentabellen auf der Seite vorhanden sind. Er ist ebenso anwendbar, wenn Inhalte visuell als Datentabelle strukturiert sind.
 
 === 2. Prüfung
 
 ==== 2.1 Tabellen für tabellarische Daten verwendet?
 
-* Prüfen, ob für tabellarische Daten `table` verwendet wird.
+* Prüfen, ob für tabellarische Daten `table` oder eine korrekte und vollständige Umsetzung mittels geeigneter ARIA-Rollen wie `role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"` genutzt wird.
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen:
 
-Prüfen, ob die Tabelle strukturell sinnvoll aufgebaut ist.
-Schwierigkeiten entstehen in den meisten Fällen dadurch, dass die Tabelle
-auch Layoutzwecken dient, das Tabellengitter also für die Anordnung von
-Inhalten auf dem Bildschirm genutzt wird.
+Prüfen, ob die Tabelle bzw. das ARIA-Konstrukt strukturell sinnvoll aufgebaut ist. Schwierigkeiten entstehen oft dadurch, dass die Tabelle auch Layoutzwecken dient, das Tabellengitter also für die Anordnung von Inhalten auf dem Bildschirm genutzt wird.
 
 Problematisch können zum Beispiel sein:
 
@@ -78,50 +52,26 @@ Problematisch können zum Beispiel sein:
 
 ===== Woran erkennt man, dass eine Datentabelle sinnvoll aufgebaut ist?
 
-Bei einer sinnvoll aufgebauten Tabelle kann man sagen, welche Informationen in
-den einzelnen Spalten und Zeilen der Tabelle enthalten sind.
-Man kann diesen Inhalt allgemein fassen, nicht nur als eine Zusammenstellung
-der in den einzelnen Zellen abgelegten Werte.
+Bei einer sinnvoll aufgebauten Tabelle kann man sagen, welche Informationen in den einzelnen Spalten und Zeilen der Tabelle enthalten sind. Man kann diesen Inhalt allgemein fassen, nicht nur als eine Zusammenstellung der in den einzelnen Zellen abgelegten Werte.
 
-Die Bedeutung der einzelnen Spalten und Zeilen kann in den Überschriften
-gefasst sein.
-Das ist aber nicht zwangsläufig so, auch eine Tabelle ohne
-Überschriften kann sinnvoll strukturiert sein.
+Die Bedeutung der einzelnen Spalten und Zeilen kann in den Überschriften gefasst sein. Das ist aber nicht zwangsläufig so, auch eine Tabelle ohne Überschriften kann sinnvoll strukturiert sein.
 
-Wenn aussagekräftige Überschriften vorhanden sind, sollte man auch prüfen, ob
-das, was in den zugeordneten Zellen steht, den Überschriften
-entspricht.
-Nichtssagende Überschriften können darauf hinweisen, dass die
-betreffende Zeile oder Spalte keine allgemein fassbare Bedeutung hat, also
-eher dem Layout dient.
-Aber es kann auch sein, dass einfach keine bessere
-Überschrift gefunden worden ist.
+Wenn aussagekräftige Überschriften vorhanden sind, sollte man auch prüfen, ob das, was in den zugeordneten Zellen steht, den Überschriften entspricht.
+Nichtssagende Überschriften können darauf hinweisen, dass die betreffende Zeile oder Spalte keine allgemein fassbare Bedeutung hat, also eher dem Layout dient.
 
-Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt,
-die Anforderungen sind so weit die selben.
-Hinzu kommt allerdings, dass benachbarte Zeilen oder Spalten durch
-übergreifende Überschriften zusammengefasst sind.
-Auch den Inhalt dieser zusammengefassten Bereiche muss man
-allgemein fassen können, wie den Inhalt der einzelnen Spalten und Zeilen.
+Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, die Anforderungen sind soweit die selben. Hinzu kommt allerdings, dass benachbarte Zeilen oder Spalten durch übergreifende Überschriften zusammengefasst sind. Auch den Inhalt dieser zusammengefassten Bereiche muss man allgemein fassen können, wie den Inhalt der einzelnen Spalten und Zeilen.
 
 ===== Wie kann man (ohne Screenreader) prüfen, ob eine Datentabelle richtig aufgebaut ist?
 
-Man nimmt eine beliebige Zelle und liest sie zusammen mit den zugehörigen
-Spalten- und Zeilenüberschriften:
+Man nimmt eine beliebige Zelle und liest sie zusammen mit den zugehörigen Spalten- und Zeilenüberschriften:
 
 "[Überschrift(en) der Spalte] - [Überschrift(en) der Zeile]: [Inhalt der Zelle]"
 
 Ist die Bedeutung der Zelle so verständlich?
 
-Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger
-Inhalt vorhanden, sind Zellen hervorgehoben.
-Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise,
-unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden
-Überschriften benutzbar sind.
-Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und per Screenreader
-benutzbar.
+Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger Inhalt vorhanden, sind Zellen hervorgehoben? Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden Überschriften benutzbar sind. Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und (bei richtiger Auszeichnung) auch per Screenreader benutzbar.
 
-==== 2.3 Prüfung der Auszeichnung von Tabellen:
+==== 2.3 Prüfung der Auszeichnung von nativen Tabellen:
 
 * Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] laden.
@@ -135,9 +85,11 @@ mehr erlaubt.
 Falls in HTML5-Dokumenten eine Beschreibung der Tabelle
 bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
 
-Die Mindestanforderung: Offenkundige, unverzichtbare und visuell
-hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis
-<<3.2 Woran erkennt man Zeilenüberschriften?>>).
+Die Mindestanforderung: Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis <<3.2 Woran erkennt man Zeilenüberschriften?>>).
+
+==== 2.4 Prüfung von mit ARIA umgesetzten Tabellen
+
+* Prüfen, ob InhaLte; die sichbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
 
 === 3. Hinweise
 
@@ -303,6 +255,9 @@ sie richtig aufgebaut und linear nutzbar sind.
 === W3C - Web Accessibility Tutorials
 
 * https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
+* https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
+* https://codepen.io/Wildebrew/pen/gBKdVb[Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle] (Birkir Gunnarsson, codepen)
+
 
 == Fragen zu diesem Prüfschritt
 
