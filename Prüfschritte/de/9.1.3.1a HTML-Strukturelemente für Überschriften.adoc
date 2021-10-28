@@ -4,106 +4,66 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften müssen korrekt mit den HTML-Strukturelementen `h1` bis `h6`
-ausgezeichnet sein und die Inhalte der Seite erschließen.
+Überschriften müssen korrekt mit den HTML-Strukturelementen `h1` bis `h6` oder äquivalenten ARIA-Rollen und Attributen ausgezeichnet sein und die Inhalte der Seite erschließen.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-Inhalte durch Überschriften strukturiert.
-Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
-Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen,
-die ihn interessieren.
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil
-sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind
-darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem
-Bildschirm zugänglich und nutzbar ist.
-Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche
-Voraussetzung.
+Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
-* Nur die Überschriften anzeigen lassen – als Inhaltsverzeichnis für die
-  schnelle Orientierung (besonders wichtig für blinde Benutzer)
+* Nur die Überschriften anzeigen lassen – als Inhaltsverzeichnis für die schnelle Orientierung (besonders wichtig für blinde Benutzer)
 * Von Überschrift zu Überschrift springen (blinde Nutzer)
-* Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene
-  Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
+* Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch
-Überschriften strukturiert werden können.
-Das ist bei informationsorientierten Seiten in der Regel der Fall.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden können. Das ist bei informationsorientierten Seiten in der Regel der Fall.
 
 === 2. Prüfung
 
 . Seite im
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen.
-. Über die
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-  Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile
-  deaktivieren > Alle Stile deaktivieren_ wählen), dann das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
-  Bookmarklet "Inhalte gegliedert"] aufrufen.
-  Alternativ das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#headingsmap[
-  HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
-. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, mittels
-  der HTML-Strukturelemente `h1` bis `h6` als Überschriften ausgezeichnet
-  sind.
-  Die Hierarchie der eingesetzten HTML-Überschriftselemente soll der
-  Gliederung der Inhalte entsprechen.
-. Prüfen, ob HTML-Strukturelemente `h1` bis `h6` lediglich zur Erzeugung
-  unterschiedlicher Schriftgrößen eingesetzt werden.
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+. Über die https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (_CSS > Stile deaktivieren > Alle Stile deaktivieren_ wählen), dann das
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[Bookmarklet "Inhalte gegliedert"] aufrufen.
+  Alternativ das https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#headingsmap[HeadingsMap Browser-Plugin] nutzen, um die Überschriften-Hierarchie anzuzeigen.
+. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, mittels der HTML-Strukturelemente `h1` bis `h6` als Überschriften ausgezeichnet sind
+. Wenn kein natives Überschriften-Markup eingesetzt wird, prüfen, ob visuelle Überschriften alternativ mit `role="heading"` und passenden `aria-level`-Attributen zur Festlegung der Überschriften-Ebene ausgezeichnet sind.
+  Die Hierarchie der eingesetzten HTML-Überschriftselemente soll der Gliederung der Inhalte entsprechen.
+. Prüfen, ob HTML-Strukturelemente `h1` bis `h6` lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt werden.
 
 === 3. Hinweise
 
-* Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil
-  der Überschriften den jeweiligen Inhalten angemessen sind.
-* Überschriften sollten korrekt geschachtelt sein (`h1` gefolgt von `h2`
-  gefolgt von `h3`, und so weiter), um die Gliederung der Text-Inhalte abzubilden.
-  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies
-  durch die Gliederung der Inhalte gerechtfertigt ist.
-* Die erste Regel für den Einsatz von WAI-ARIA besagt, man soll wenn möglich
-  native HTML-Elemente einsetzen.
-  Siehe
-  https://www.w3.org/TR/using-aria/[
-  Using of ARIA, First rule of ARIA use] (W3C)Wenn dies aus irgendeinem Grund
-  nicht möglich ist, kann mit `role="heading"` und dem ``aria-level``-Attribut
-  die Semantik zur Verfügung gestellt werden.
-  Dies sollte im Zweifelsfall geprüft werden.
-* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte.
-  Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
+* Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
+* Überschriften sollten korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter, oder entsprechenden `aria-level`-Attributen auf Elementen mit `role="heading"`), um die Gliederung der Text-Inhalte abzubilden.
+  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Die erste Regel für den Einsatz von WAI-ARIA besagt, man soll wenn möglich native HTML-Elemente einsetzen. Siehe https://www.w3.org/TR/using-aria/[Using of ARIA, First rule of ARIA use] (W3C)Wenn dies nicht möglich ist, kann mit `role="heading"` und dem ``aria-level``-Attribut die Semantik zur Verfügung gestellt werden.
+* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte. Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-* Alle Inhalte der Seite sind über die Überschriften zugänglich.
+* Die visuellen Überschriften der Seite sind mittels semantischem Mark-Up (HTML-Strukturelemente oder ARIA-Rollen und -Attribute) ausgezeichnet und korrekt verschachtelt, und sind somit auch nicht-visuell zugänglich.
 
 ==== Teilweise erfüllt
 
-* Es werden HTML-Strukturelemente für Überschriften eingesetzt, die
-  Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht
-  der inhaltlichen Gliederung.
+* Es wid semantisches Mark-Up für Überschriften eingesetzt, die Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der inhaltlichen Gliederung.
 
 ==== Nicht erfüllt
 
-* Es gibt auf der Seite gegliederte Inhalte, für die Auszeichnung der
-  Überschriften werden keine HTML-Elemente für Überschriften verwendet.
-* Auf der Seite werden mehrere klar abgrenzbare Inhalte behandelt, es wurde
-  aber nur pro forma eine Hauptüberschrift ausgezeichnet.
+* Es gibt auf der Seite gegliederte Inhalte, für die Auszeichnung der Überschriften wird kein semantisches Mark-Up verwendet.
+* Auf der Seite stehen klar abgrenzbare Inhalte mit sichtbaren Überschriften, es wurde aber nur pro forma eine Hauptüberschrift ausgezeichnet.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt geht es um den Einsatz von Überschriften zur
-Gliederung der Seiten**inhalte**, damit diese leicht zu erfassen und mit
-Hilfsmitteln wie Screenreadern zu überspringen sind.
+In diesem Prüfschritt geht es um den Einsatz von Überschriften zur Gliederung der Seiten**inhalte**, damit diese leicht zu erfassen und mit Hilfsmitteln wie Screenreadern zu überspringen sind.
 
 Im Prüfschritt
 ifdef::env_embedded[9.2.4.1 "Bereiche überspringbar"]
