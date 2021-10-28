@@ -186,7 +186,7 @@ Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
 . Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
   äquivalente Textalternative für das Icon darstellt (siehe
   <<2.6 Angemessene Alternativtexte>>).
-. Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
+. Falls kein Alternativtext über zugänglich versteckten oder mitverlinkten Text vorhanden ist, prüfen, ob die Textalternative
   über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
 . Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
   ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
