@@ -119,7 +119,7 @@ Als Zeiger-Down-Events gelten ``mousedown``, `touchstart` und ``pointerdown``.
 == Quellen
 
 * Das Bookmarklet
-  https://testen.bitv-test.de/bookmarklets.html#downevent[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html[
   Down-Events auslösen] von Prüfstelle T-Systems MMS kann ggf. zusätzlich
   eingesetzt werden, um der Reihe nach auf allen Elementen down-events
   auszulösen.
