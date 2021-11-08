@@ -101,7 +101,7 @@ entfernen.
 
 == Quellen
 
-* https://testen.bitv-test.de/bookmarklets.html#kurzbefehle[
+* https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html[
   Bookmarklet "Tastatur-Kurzbefehle auslösen"] von Prüfstelle T-Systems MMS
   kann ggf. zusätzlich eingesetzt werden, um der Reihe nach alle
   erforderlichen Tasten auszulösen.
