@@ -20,11 +20,13 @@ Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. H
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung) einen technischen Support anbietet und wenn in der Dokumentation Informationen zu Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität bereitgestellt werden.
+Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung)
+
+* technische Dokumentation für das Webangebot anbietet, und
+* Barrierefreiheits-Funktionen und Hinweise auf Hilfsmittel-Kompatibitität in dieser Dokumentation einschließt.
 
 === 2. Prüfung
 
-. Prüfen, ob das Webangebot einen Kontakt zu einem technischen Support anbietet.
 . Den technischen Support kontaktieren und stichprobenartig Fragen zu den in der Dokumentation genannten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität stellen.
 . Ist der technische Support in der Lage, mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen zu geben?
 
