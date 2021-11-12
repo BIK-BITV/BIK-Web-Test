@@ -8,8 +8,7 @@ Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen.
 Im Einzelnen können dies folgende Punkte sein:
 
 * Maßeinheiten
-* Farben (z. B. Darkmode)
-* Kontraste
+* Geänderte Vorder- und Hintergrundfarben (Und damit Kontraste)
 * Schriftarten
 * Schriftgrößen
 * Darstellung des Fokuscursors
@@ -30,16 +29,21 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
-. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
-. Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
-. Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
+.. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
+.. Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
+.. Den Button "Farben..." wählen, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
+.. Die Checkbox "Systemfarben verwenden" deaktivieren.
+.. Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen.
+.. Mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
+. Prüfen, ob sich bei Grafiken noch sichtbar bzw. ausreichend kontrastreich sind. Ist dies nicht der Fall, liegt es oft daran, dass für die Grafik keine Hintergrundfarbe festgelegt wurde. 
 
 === 3. Hinweise
 ==== 3.1. Einzusetzender Browser für die Prüfung
 Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
 
 Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
+
 
 ==== 3.2 Hinweis zur Prüfung mit Firefox
 Der Firefox-Browser übernimmt für `button`-Elemente die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe. Dies darf nicht als Fehler bewertet werden. 
