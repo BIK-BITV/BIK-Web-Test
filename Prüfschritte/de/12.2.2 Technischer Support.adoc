@@ -23,7 +23,7 @@ Hinweise zu Barrierefreiheits-Funktionen sind nicht immer verständlich genug. H
 Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung)
 
 * technische Dokumentation für das Webangebot anbietet, und
-* Barrierefreiheits-Funktionen und Hinweise auf Hilfsmittel-Kompatibitität in dieser Dokumentation einschließt.
+* wenn in dieser Dokumentation Barrierefreiheits-Funktionen und Hinweise auf Hilfsmittel-Kompatibitität vorhanden sind.
 
 === 2. Prüfung
 
