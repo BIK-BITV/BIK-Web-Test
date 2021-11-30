@@ -14,7 +14,7 @@ Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, sollten diese gut
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist anwendbar, wenn für das Angebot eine Dokumentation vorhanden ist und wenn der Teil der Dokumentation, der sich mit Barrierefreiheit und Kompatibilität beschäftigt, auf HTML-Basis integriert ist. Eine Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird, und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden. Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft werden. Die Erklärung zur Barrierefreiheit ist als Dokumentation des Angebots einzustufen.
+Dieser Prüfschritt ist anwendbar, wenn für das Angebot eine Dokumentation vorhanden und auf HTML-Basis integriert ist. Eine Dokumentation, die ausschließlich außerhalb der Webseite bereitgestellt wird, und / oder in anderen Formaten vorliegt, kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden. Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft werden. Die Erklärung zur Barrierefreiheit ist als Dokumentation des Angebots einzustufen.
 
 === 2. Prüfung
 
