@@ -31,26 +31,17 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 ==== 2.1 Prüfung von Linktexten
 
 . Seite im Firefox aufrufen.
-. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder
-  im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B.
-  "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der
-  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine dee folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
-* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der
-  Seite erweitert
-* durch zusätzlichen, über CSS versteckten Linktext (hierfür in der Web
-  Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die
-  betroffenen Links erneut prüfen)
-* durch den Alternativtext einer mit im selben ``a``-Element verlinkten Grafik
-(hierfür die Option _Images > Display Alt Attributes_ wählen)
+* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert
+* durch zusätzlichen, über CSS versteckten Linktext (hierfür in der Web Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die betroffenen Links erneut prüfen)
+* durch den Alternativtext einer mit im selben ``a``-Element verlinkten Grafik (hierfür die Option _Images > Display Alt Attributes_ wählen)
 * durch den Text im umschließenden Element (`p`, `li`)
-* bei Links in untergeordneten Listen durch den Text des übergeordneten
-  ``li``-Elements
-* durch den Text der umschließenden Tabellenzelle und der dazugehörigen
-  Überschriftenzellen (``td``, ``th``)
-* durch den Text der vorangehenden Überschrift (``h1`` - ``h6``)
-* Mit Hilfe des `aria-label` oder ``aria-labelledby``-Attributs.
+* bei Links in untergeordneten Listen durch den Text des übergeordneten `li`-Elements
+* durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen (`td`, `th`)
+* durch den Text der vorangehenden Überschrift (`h1` - `h6`)
+* Mit Hilfe des `aria-label` oder `aria-labelledby`-Attributs (Achtung: `aria-label` überschreibt den Text des Links).
 
 ==== 2.2 Prüfung von Links auf andere Dateiformate
 
