@@ -15,7 +15,7 @@ Videoplayer bieten den Menschen eine Vielzahl von Interaktionsmöglichkeiten. Am
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, der Video-Inhalte mit zugehörigen Audioinhalten abspielt und wenn Untertitel und / oder 
-Audiodeskription für das Verständnis nötig sind.
+Audiodeskription angeboten werden.
 
 === 2. Prüfung
 
