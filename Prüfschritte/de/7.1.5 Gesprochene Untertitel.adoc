@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, gibt es eine Option für die Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, gibt es eine Option für die Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
@@ -14,15 +14,15 @@ Wenn die Tonqualität eines Videos schlecht ist oder der Ton in einer anderen Sp
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält (closed captions). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält (closed captions). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
-. App öffnen.
+. Webangebot öffnen.
 . Video mit Untertitelung abspielen.
 . Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob es die Option einer Sprachausgabe der Untertitel gibt.
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 3. Hinweise
 
