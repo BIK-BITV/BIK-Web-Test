@@ -19,6 +19,7 @@ sprachbasierte Menüführung bei einer Hotline, einsetzt.
 
 === 2. Prüfung
 Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
+
 * eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
 * eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
 
