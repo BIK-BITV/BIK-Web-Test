@@ -20,10 +20,10 @@ Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl. Sprachüb
 
 Die Zeitdifferenz zwischen Audio und Video bei einer Videotelefonieübertragung soll nicht mehr als 100 Millisekunden betragen, deutlich wahrnehmbare Differenzen sind also zu vermeiden.
 
-Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen nicht gleichzeitig) kann mit einem Testvideoanruf geprüft werden. Dafür muss die App ggf. auf zwei Testgeräten installiert werden.
+Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen nicht gleichzeitig) kann mit einem Testvideoanruf geprüft werden. Dafür muss das Webangebot auf zwei verschiedenen Testgeräten im Browser laufen.
 
-. App auf zwei Geräten starten
-. Videotelefonieverbindung zwischen den Geräten herstellen
+. Webangebot auf zwei Geräten im Browser aufrufen
+. Videotelefonieverbindung zwischen beiden Angeboten herstellen
 . Synchronität zwischen Sprache und Video prüfen (Lippensynchronität). Ist eine Zeitdifferenz deutlich wahrnehmbar?
 
 Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt werden.
