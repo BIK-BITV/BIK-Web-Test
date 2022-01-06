@@ -14,7 +14,7 @@ Die Verständlichkeit von Videotelefonie wird beim Auseinanderlaufen von Bild un
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl. Sprachübertragung unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie inkl. Sprachübertragung unterstützt.
 
 === 2. Prüfung
 
