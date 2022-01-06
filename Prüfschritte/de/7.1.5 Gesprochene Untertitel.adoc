@@ -20,7 +20,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw
 
 . Webangebot öffnen.
 . Video mit Untertitelung abspielen.
-. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob es die Option einer Sprachausgabe der Untertitel gibt.
+. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
@@ -38,7 +38,7 @@ Gängige Video-Player verfügen zur Zeit meist nicht über die Möglichkeit eine
 
 === Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
 
-==== 7.1.5  Spoken Captions
+==== 7.1.5  Spoken subtitles
 
 == Quellen
 
