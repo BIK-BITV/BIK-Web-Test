@@ -8,7 +8,7 @@ Wenn das Webangebot Videos mit Untertiteln überträgt, lassen sich Untertitel a
 
 == Warum wird das geprüft?
 
-Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, die visuelle Darstellung der Untertitel anpassen zu können, zum Beispiel, die Schrift größer stellen zu können oder den Kontrast des Texts anpassen zu können.
+Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, die visuelle Darstellung der Untertitel anpassen zu können, zum Beispiel, die Schrift größer stellen zu können oder den Kontrast des Texts erhöhen zu können.
 
 == Wie wird geprüft?
 
