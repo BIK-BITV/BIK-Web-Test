@@ -1,0 +1,56 @@
+= Prüfschritt 6.5.4 Synchronität bei Videotelefonie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn das Webangebot Videotelefonie unterstützt, soll die Zeitdifferenz zwischen Audio und Video nicht mehr als 100 Millisekunden betragen.
+
+== Warum wird das geprüft?
+
+Die Verständlichkeit von Videotelefonie wird beim Auseinanderlaufen von Bild und Ton allgemein schlechter. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen. 
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl. Sprachübertragung unterstützt.
+
+=== 2. Prüfung
+
+Die Zeitdifferenz zwischen Audio und Video bei einer Videotelefonieübertragung soll nicht mehr als 100 Millisekunden betragen, deutlich wahrnehmbare Differenzen sind also zu vermeiden.
+
+Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen nicht gleichzeitig) kann mit einem Testvideoanruf geprüft werden. Dafür muss die App ggf. auf zwei Testgeräten installiert werden.
+
+. App auf zwei Geräten starten
+. Videotelefonieverbindung zwischen den Geräten herstellen
+. Synchronität zwischen Sprache und Video prüfen (Lippensynchronität). Ist eine Zeitdifferenz deutlich wahrnehmbar?
+
+Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt werden.
+
+Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
+
+==== Hinweise
+
+* Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt, als umgekehrt. Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
+
+* Um Latenzen der Netzwerk-Infrastruktrur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.5.4 Synchronization between audio and video
+
+[.BLOCK_LANG_EN]
+--
+Where ICT that provides two-way voice communication includes real-time video
+functionality, the ICT shall ensure a maximum time difference of 100 ms
+between the speech and video presented to the user. 
+
+NOTE:
+Recent research shows that, if audio leads the video, the intelligibility
+suffers much more than the reverse.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.5.4 "Synchronization between audio and
+video")
