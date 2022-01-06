@@ -32,7 +32,7 @@ Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die 
 
 ==== Nicht erfüllt:
 
-* Bei zuschaltbaren Untertiteln (closed captions) git es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und -Hintergrundfarbe, Textstil oder Text-Font.
+* Bei zuschaltbaren Untertiteln (closed captions) git es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 
 == Einordnung des Prüfschritts
 
