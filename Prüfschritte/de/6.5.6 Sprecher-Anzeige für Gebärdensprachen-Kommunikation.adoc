@@ -1,0 +1,46 @@
+= Prüfschritt 6.5.6 Sprecher-Anzeige für Gebärdensprachen-Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn ein Webangebot Videotelefonie unterstützt, soll nicht nur die Aktivtät von Sprechenden, sondern auch die von Gebärdensprach-Eingebenden angezeigt werden.
+
+== Warum wird das geprüft?
+
+Für Nutzende ist über den Anzeige einer aktiven Gebärden-Eingabe wahrnehmbar, dass jemand gerade Eingaben in Gebärdensprache macht, und wer dies tut.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn ein Webangebot Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.
+
+=== 2. Prüfung
+
+. Webangebot auf zwei Geräten im Browser mit abweichenden Nutzenden-Konten starten.
+. Videotelefonieverbindung zwischen den beiden Instanzen des Webangebots herstellen.
+. Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
+. Prüfen, ob das Webangebot die Möglichkeit bietet, den Start einer Gebärden-Eingabe zu signalisieren oder die Eingabe vom Webangebot automatisch erkannt und in Folge der Aktivitäts-Zustand automatisch gesetzt wird.
+. Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue] zu diesem
+Prüfschritt eröffnen.
+
+=== 3. Hinweise
+
+* Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
+* Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
+* Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und programmatische Ermittelbarkeit der Aktivitätsanzeige ein.
+
+== Quellen
+
+=== EN 301 549 V3.2.1
+
+==== 6.5.6 Speaker identification with video (sign language) communication
+
+Where ICT provides speaker identification for voice users, it shall provide a means for speaker identification for real-time signing and sign language users once the start of signing has been indicated.
+
+NOTE 1: The speaker ID can be in the same location as for voice users for multiparty calls.
+
+NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically achievable.
