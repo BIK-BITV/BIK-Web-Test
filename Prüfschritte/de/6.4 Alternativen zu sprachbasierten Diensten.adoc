@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die Menüführung, einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
 
+== Warum wird das geprüft?
+
+Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Sprechen können sprachbasierte Dienste nicht nutzen. Deshalb muss eine zugängliche Alternative bereitstehen, in der der Zugang zu Informationen und deren Ausgabe auch ohne Sprechen und Hören möglich ist.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
