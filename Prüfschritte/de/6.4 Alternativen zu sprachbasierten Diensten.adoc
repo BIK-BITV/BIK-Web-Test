@@ -1,0 +1,54 @@
+= Prüfschritt 6.4 Alternativen zu sprachbasierten Diensten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die Menüführung, einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
+Menüführung, einsetzt.
+
+Ein Beispiel für einen solchen Dienst ist z. B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
+
+=== 2. Prüfung
+* Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
+** eine alternative Abrufmöglichkeit, z.B. über zugängliche Menüs oder Formulare
+** und eine alternative Ausgabe der Information etwa als programmatisch ermittelbarer Text 
+
+Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
+
+=== 3. Hinweise
+
+Wird z.B. ein Video-Ident-Verfahren eingesetzt, muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.
+
+Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mobilfunkvertrag. Hier müsste der Anbieter das aktuelle Guthaben in Textform auf der Seite bereitstellen.
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 6.4 Alternatives to voice-based services
+
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time voice-based communication and also provides voice
+mail, auto-attendant, or interactive voice response facilities, the ICT shall
+offer users a means to access the information and carry out the tasks provided
+by the ICT without the use of hearing or speech. 
+
+NOTE 1:
+Tasks that involve both operating the interface and perceiving the information
+would require that both the interface and information be accessible without
+use of speech or hearing. 
+
+NOTE 2:
+Solutions capable of handling audio, RTT and video media could satisfy the
+above requirement.
+--
+
+(Aus EN 301 549 V3.1.1 Abschnitt 6.4 "Alternatives to voice-based services")
