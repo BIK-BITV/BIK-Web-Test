@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die Menüführung, einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
+Wenn ein Webangebot Echtzeit-Sprachkommunikation bietet und auch Voice-Mail oder sprachbasierte Auswahlmenüs einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
 
 == Warum wird das geprüft?
 
@@ -14,15 +14,15 @@ Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Spr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
+Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
 Menüführung, einsetzt.
 
 Ein Beispiel für einen solchen Dienst ist z. B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
 
 === 2. Prüfung
 * Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
-** eine alternative Abrufmöglichkeit, z.B. über zugängliche Menüs oder Formulare
-** und eine alternative Ausgabe der Information etwa als programmatisch ermittelbarer Text 
+** eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
+** eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
 
 Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
