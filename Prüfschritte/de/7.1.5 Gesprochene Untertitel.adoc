@@ -1,0 +1,53 @@
+= Prüfschritt 7.1.5 Gesprochene Untertitel
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, gibt es eine Option für die Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+
+== Warum wird das geprüft?
+
+Wenn die Tonqualität eines Videos schlecht ist oder der Ton in einer anderen Sprache, ist es für Untertitel-Nutzende hilfreich, eine Sprachausgebe der Untertitel anzuschalten. Es ist dabei hilfreich. wenn sich die Lautstärke der Sprachausgabe unabhängig von der Lautstärke der Video-Tonspur einstellen lässt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält. Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
+
+=== 2. Prüfung
+
+. App öffnen.
+. Video mit Untertitelung abspielen.
+. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob es die Option einer Sprachausgabe der Untertitel gibt.
+
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
+
+=== 3. Hinweise
+
+Gängige Video-Player verfügen zur Zeit meist nicht über die Möglichkeit einer einschaltbaren Sprachausgabe der Untertitel. 
+
+=== 4. Bewertung
+
+==== Nicht erfüllt:
+
+* Bei zuschaltbaren, programmatisch ermittelbaren Untertiteln (closed captions) gibt es keine Möglichkeit, eine Sprachausgabe der Untertitel zu aktivieren.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
+
+==== 7.1.5  Spoken Captions
+
+== Quellen
+
+=== EN 301 549 V3.2.1
+[.BLOCK_LANG_EN]
+=== 7.1.5 Spoken subtitles
+
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio, it shall have a mode of operation to provide a spoken output of the available captions, except where the content of the displayed captions is not programmatically determinable.
+
+NOTE 1: Being able to manage speech output range for spoken subtitles independently from general ICT speech is preferable for most users. That is possible when the audio file with spoken subtitle is delivered in a separate audio track and mixed in the end users device.
