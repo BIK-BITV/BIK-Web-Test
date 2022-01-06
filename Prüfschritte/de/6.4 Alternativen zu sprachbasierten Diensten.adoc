@@ -14,22 +14,20 @@ Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Spr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Sprachkommunikation und gleichzeitig Voice-Mail oder interaktive Assistenzsysteme, z. B. für die
-Menüführung, einsetzt.
-
-Ein Beispiel für einen solchen Dienst ist z. B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft.
+Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Sprachkommunikation wie Voice-Mail oder interaktive Assistenzsysteme, z.B. für die
+sprachbasierte Menüführung bei einer Hotline, einsetzt.
 
 === 2. Prüfung
-* Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
-** eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
-** eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
+Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
+* eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
+* eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
 
 Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
 
 === 3. Hinweise
 
-Wird z.B. ein Video-Ident-Verfahren eingesetzt, muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.
+Ein Beispiel für einen Dienst, der Sprach und Hörfähigkeiten voraussetzt, ist z.B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft. Hier muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.
 
 Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mobilfunkvertrag. Hier müsste der Anbieter das aktuelle Guthaben in Textform auf der Seite bereitstellen.
 
