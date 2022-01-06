@@ -8,13 +8,13 @@ Wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertit
 
 == Warum wird das geprüft?
 
-Wenn die Tonqualität eines Videos schlecht ist oder der Ton in einer anderen Sprache, ist es für Untertitel-Nutzende hilfreich, eine Sprachausgebe der Untertitel anzuschalten. Es ist dabei hilfreich. wenn sich die Lautstärke der Sprachausgabe unabhängig von der Lautstärke der Video-Tonspur einstellen lässt.
+Wenn die Tonqualität eines Videos schlecht ist oder der Ton in einer anderen Sprache, ist es für Untertitel-Nutzende hilfreich, eine Sprachausgabe der Untertitel anzuschalten. Es ist dabei hilfreich, wenn sich die Lautstärke der Sprachausgabe unabhängig von der Lautstärke der Video-Tonspur steuern lässt.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält. Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist anwendbar, wenn die App Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält (closed captions). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
