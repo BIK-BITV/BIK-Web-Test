@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, gibt es eine Option für die Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, kann eine Sprachausgabe der Untertitel aktiviert werden. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
@@ -22,11 +22,11 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw
 . Video mit Untertitelung abspielen.
 . Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
-
 === 3. Hinweise
 
-Gängige Video-Player verfügen zur Zeit meist nicht über die Möglichkeit einer einschaltbaren Sprachausgabe der Untertitel. 
+Gängige Video-Player verfügen derzeit meist nicht über die Möglichkeit einer einschaltbaren Sprachausgabe der Untertitel. 
+
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue anlegen].
 
 === 4. Bewertung
 
