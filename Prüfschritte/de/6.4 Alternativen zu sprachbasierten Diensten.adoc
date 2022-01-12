@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Webangebot Echtzeit-Sprachkommunikation bietet und auch Voice-Mail oder sprachbasierte Auswahlmenüs einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
+Wenn ein Webangebot Echtzeit-Sprachkommunikation mit Voicemail-Funktion bietet oder interaktive Sprachdialogsysteme einsetzt (z.B. sprachgesteueerte Menüführung), sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
 
 == Warum wird das geprüft?
 
@@ -14,11 +14,10 @@ Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Spr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Sprachkommunikation wie Voice-Mail oder interaktive Assistenzsysteme, z.B. für die
-sprachbasierte Menüführung bei einer Hotline, einsetzt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit-Sprachkommunikation mit Voicemail-Funktion oder interaktive Sprachdialogsysteme (z.B. sprachgesteuerte Menüführung bei einer Hotline) einsezt.
 
 === 2. Prüfung
-Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
+Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprach- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
 
 * eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
 * eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
