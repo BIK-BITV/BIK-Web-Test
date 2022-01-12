@@ -22,14 +22,13 @@ Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, pr�
 * eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
 * eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer programmatisch ermittelbarer Text 
 
-Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
-
 === 3. Hinweise
 
 Ein Beispiel für einen Dienst, der Sprach und Hörfähigkeiten voraussetzt, ist z.B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft. Hier muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.
 
 Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mobilfunkvertrag. Hier müsste der Anbieter das aktuelle Guthaben in Textform auf der Seite bereitstellen.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 == Quellen
 
