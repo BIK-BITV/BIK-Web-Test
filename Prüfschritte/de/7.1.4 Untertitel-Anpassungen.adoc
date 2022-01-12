@@ -14,7 +14,7 @@ Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, die visuel
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln enthält und die Untertitel sich zuschalten lassen (closed captions). Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (open captions), ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln enthält und sich die Untertitel zuschalten lassen (closed captions). Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (open captions), ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
@@ -32,7 +32,7 @@ Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die 
 
 ==== Nicht erfüllt:
 
-* Bei zuschaltbaren Untertiteln (closed captions) git es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
+* Bei zuschaltbaren Untertiteln (closed captions) gibt es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 
 == Einordnung des Prüfschritts
 
