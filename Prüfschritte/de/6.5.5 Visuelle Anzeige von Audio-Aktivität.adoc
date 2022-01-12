@@ -8,18 +8,18 @@ Wenn das Webangebot Videotelefonie unterstützt, soll Audio-Aktivität visuell a
 
 == Warum wird das geprüft?
 
-Für gehörlose Nutzende ist über den Anzeige der Audio-Aktivität wahrnehmbar, dass jemand spricht, und wer spricht.
+Die Anzeige der Audio-Aktivität ermöglicht gehörlosen Nutzenden die Wahrnehmung, dass jemand spricht und wer spricht.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie inkl. Sprachübertragung unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie mit Sprachübertragung unterstützt.
 
 === Prüfung
 
 . Webangebot auf zwei verschiedenen Geräten im Browser mit abweichenden Nutzenden-Konten starten.
-. Videotelefonieverbindung zwischen den beiden Instanzen des Webangebots herstellen.
+. Videotelefonie-Verbindung zwischen den beiden Instanzen des Webangebots herstellen.
 . Auf dem verbundenen Gerät Sprache eingeben und auf dem Prüfgerät überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. 
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem
@@ -29,6 +29,8 @@ Prüfschritt eröffnen.
 === Hinweise
 
 Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
+
+Der visuelle Indikator der Audio-Aktivitä kann ein einfacher visueller Punkt, eine LED oder eine andere Art von Ein- / Aus-Anzeige sein, die flackert.
 
 == Quellen
 
