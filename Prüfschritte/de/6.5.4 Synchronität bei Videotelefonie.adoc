@@ -8,19 +8,19 @@ Wenn das Webangebot Videotelefonie unterstützt, soll die Zeitdifferenz zwischen
 
 == Warum wird das geprüft?
 
-Die Verständlichkeit von Videotelefonie wird beim Auseinanderlaufen von Bild und Ton allgemein schlechter. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen. 
+Die Verständlichkeit von Videotelefonie ist allgemein schlechter, wenn Bild und Ton nihct zeitgleich übertragen werden. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie inkl. Sprachübertragung unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie mit Sprachübertragung unterstützt.
 
 === 2. Prüfung
 
-Die Zeitdifferenz zwischen Audio und Video bei einer Videotelefonieübertragung soll nicht mehr als 100 Millisekunden betragen, deutlich wahrnehmbare Differenzen sind also zu vermeiden.
+Die Zeitdifferenz zwischen Audio und Video bei der Übertragung von Videotelefonie soll nicht mehr als 100 Millisekunden betragen, deutlich wahrnehmbare Differenzen sind also zu vermeiden.
 
-Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen nicht gleichzeitig) kann mit einem Testvideoanruf geprüft werden. Dafür muss das Webangebot auf zwei verschiedenen Testgeräten im Browser laufen.
+Die zeitgleiche Übertragung von Ton und Bild kann mit einem Testvideoanruf geprüft werden. Dafür muss das Webangebot auf zwei verschiedenen Testgeräten im Browser laufen.
 
 . Webangebot auf zwei Geräten im Browser aufrufen
 . Videotelefonieverbindung zwischen beiden Angeboten herstellen
@@ -28,13 +28,13 @@ Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen ni
 
 Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt werden.
 
-Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
-
 ==== Hinweise
 
 * Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt, als umgekehrt. Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
 
 * Um Latenzen der Netzwerk-Infrastruktrur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
+
+Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 == Quellen
 
