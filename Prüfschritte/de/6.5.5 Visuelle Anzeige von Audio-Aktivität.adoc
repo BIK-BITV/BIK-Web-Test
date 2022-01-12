@@ -22,15 +22,13 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie mit Sprachüb
 . Videotelefonie-Verbindung zwischen den beiden Instanzen des Webangebots herstellen.
 . Auf dem verbundenen Gerät Sprache eingeben und auf dem Prüfgerät überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. 
 
-Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem
-Prüfschritt eröffnen.
-
-
 === Hinweise
 
 Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
 Der visuelle Indikator der Audio-Aktivitä kann ein einfacher visueller Punkt, eine LED oder eine andere Art von Ein- / Aus-Anzeige sein, die flackert.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue anlegen].
 
 == Quellen
 
