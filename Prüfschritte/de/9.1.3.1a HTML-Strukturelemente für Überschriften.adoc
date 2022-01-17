@@ -8,15 +8,15 @@ include::include/attributes.adoc[]
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, kann die Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche Voraussetzung.
+Nutzende, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
-* Nur die Überschriften anzeigen lassen – als Inhaltsverzeichnis für die schnelle Orientierung (besonders wichtig für blinde Benutzer)
-* Von Überschrift zu Überschrift springen (blinde Nutzer)
-* Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
+* Nur die Überschriften anzeigen lassen – als Inhaltsverzeichnis für die schnelle Orientierung (besonders wichtig für blinde Nutzende)
+* Von Überschrift zu Überschrift springen (blinde Nutzende)
+* Überschriften anders hervorheben, wenn die von den Webautorinnen und -autoren vorgesehene Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
 
 == Wie wird geprüft?
 
@@ -203,7 +203,7 @@ Inhaltsverzeichnis ansehen und überlegen:
 * Kann ich ohne viel Aufwand auf alle wichtigen
   Inhalte der Seite zugreifen?
 
-Das sind die entscheidenden Fragen, die Struktur muss für den Besucher
+Das sind die entscheidenden Fragen, die Struktur muss für die Nutzenden
 brauchbar sein.
 Die Einhaltung der verschiedenen technischen Regeln ergibt sich
 dann von selbst.
@@ -213,7 +213,7 @@ dann von selbst.
 Die Frage ist, ob es einen akzeptablen Grund gibt, die `h1`-Überschrift zu
 überspringen.
 Es kann zum Beispiel sein, dass `h2` verwendet worden ist, weil
-dem Entwickler die `h1`-Überschrift zu groß war und er nicht wusste, wie man
+der umsetzenden Person die `h1`-Überschrift zu groß war und er nicht wusste, wie man
 die Größe ändert.
 Das wäre kein akzeptabler Grund, denn Inhalt und Form soll man
 trennen.
@@ -230,7 +230,7 @@ dass eine `h1` an oberster Stelle steht.
 
 Generell ist die Verwendung von Schriftgrafiken für Überschriften
 problematisch.
-Denn der Besucher kann Grafiken nicht so leicht an seine
+Denn die Nutzenden können Grafiken nicht so leicht an seine
 Bedürfnisse anpassen.
 
 Sie können jedoch als Überschrift ausgezeichnet werden.
