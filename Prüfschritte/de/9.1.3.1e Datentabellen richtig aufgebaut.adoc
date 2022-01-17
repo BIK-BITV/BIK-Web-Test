@@ -4,14 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Datentabellen sind strukturell richtig aufgebaut, Zeilen- und
-Spaltenüberschriften sind mit `th` ausgezeichnet.
+Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind mit `th` oder den entsprechenden ARIA-Rollen ausgezeichnet.
 
 == Warum wird das geprüft?
 
-Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit ihnen umzugehen.
+Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften, wenn nötig, auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit ihnen umzugehen.
 
-Sehbehinderte und blinde Benutzer erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
+Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
 
 Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 
@@ -196,8 +195,10 @@ sie richtig aufgebaut und linear nutzbar sind.
 
 ==== Nicht voll erfüllt
 
-* Für tabellarische Daten wird nicht `table` verwendet, sondern positionierte
-``div``-, ``span``- oder ``p``-Elemente.
+* Für tabellarische Daten wird nicht `table` (oder `role="table"`) verwendet, sondern lediglich positionierte
+``div``-, ``span``- oder ``p``-Elemente. 
+* Spalten- und Zeilenüberschriften sind nicht korrekt mit `th` (oder entsprechenden ARIA-Rollen)
+ausgezeichnet.
 
 == Einordnung des Prüfschritts
 
@@ -252,10 +253,10 @@ sie richtig aufgebaut und linear nutzbar sind.
 
 == Quellen
 
-=== W3C - Web Accessibility Tutorials
+=== Tutorials
 
-* https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
-* https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
+* https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial] (W3C)
+* https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table] (W3C)
 * https://codepen.io/Wildebrew/pen/gBKdVb[Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle] (Birkir Gunnarsson, codepen)
 
 
