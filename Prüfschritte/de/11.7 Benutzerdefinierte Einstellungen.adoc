@@ -8,7 +8,7 @@ Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen.
 Im Einzelnen können dies folgende Punkte sein:
 
 * Maßeinheiten
-* Farben (z. B. Darkmode)
+* Farben
 * Kontraste
 * Schriftarten
 * Schriftgrößen
