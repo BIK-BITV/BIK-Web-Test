@@ -32,7 +32,7 @@ Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt 
 
 * Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt, als umgekehrt. Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
 
-* Um Latenzen der Netzwerk-Infrastruktrur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
+* Um Latenzen der Netzwerk-Infrastruktur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
 
 Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
