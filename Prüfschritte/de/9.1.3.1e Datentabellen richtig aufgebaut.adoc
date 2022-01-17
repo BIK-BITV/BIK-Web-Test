@@ -108,7 +108,7 @@ Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung
 ist als Kriterium nicht immer ausreichend.
 Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus
 Gestaltungsgründen verzichtet.
-Sehende Benutzer brauchen sie nicht unbedingt.
+Sehende Nutzende brauchen sie nicht unbedingt.
 Wenn der Inhalt einer Datenzelle nicht
 für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der
 Tabelle ein, die Position reicht ihnen als Hervorhebung.
@@ -123,7 +123,7 @@ Produkten stehen, ist das noch kein sicherer Anhaltspunkt für die Eignung als
 Denn Überschriften sollten eindeutig und geläufig sein, Herstellernamen sind
 nicht immer eindeutig, Produktnamen oft nicht geläufig.
 
-Entwickler oder Redakteure sollten also überlegen, ob die Inhalte der ersten
+Entwicklerinnen und Entwickler sowie Teams in Web-Redaktionen sollten also überlegen, ob die Inhalte der ersten
 Spalte als Überschriften tauglich sind, ob es Sinn macht, dass ein
 Screenreader bei Zeilenwechseln immer den jeweiligen Inhalt der ersten Spalte
 zusammen mit der gerade angesteuerten Datenzelle vorliest.
@@ -172,11 +172,11 @@ Ein typisches Beispiel dafür sind Preislisten: in der linken
 Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten
 Spalte steht nicht nur die Betrag, sondern auch das Währungszeichen.
 
-Für blinde und sehbehinderte Benutzer _kann_ der Umgang mit solchen Tabellen
+Für blinde und sehbehinderte Nutzende _kann_ der Umgang mit solchen Tabellen
 schwierig sein.
 Denn mangels Überschriften müssen sie auf den Wertebereich
 zugreifen, um zu verstehen, was die Tabelle anbietet.
-Für normal sehende Benutzer ist das leicht, für Benutzer, die sich immer nur
+Für normal sehende Nutzende ist das leicht, für Nutzende, die sich immer nur
 einen kleinen Ausschnitt der Tabelle vorlesen oder anzeigen lassen können,
 aber nicht.
 
@@ -285,7 +285,7 @@ Das beschriebene Verhalten der Screenreader ist bei _einfachen_ Tabellen
 meistens richtig.
 Und es gibt natürlich im Web sehr viele Tabellen, bei denen
 die Überschriften nicht ausgezeichnet sind.
-Insgesamt wird der Benutzer daher am
+Insgesamt werden Nutzende daher am
 besten bedient, wenn der Screenreader die Zellen der ersten Zeile und der
 ersten Spalte grundsätzlich wie Überschriftenzellen behandelt.
 
@@ -315,7 +315,7 @@ BITV-Konformität sein.
 Denn dann würde es immer bei dem unbefriedigenden Zustand
 bleiben, dass Screenreader versuchen müssen, aus barrierebehafteten
 Webangeboten irgend etwas brauchbares herauszuholen.
-Auf längere Sicht ist es auch wichtig, dass sich Webanbieter und Entwickler
+Auf längere Sicht ist es auch wichtig, dass sich Verantwortliche Personen von Webangeboten und Entwicklende
 von Screenreadern oder Browsern an gemeinsame Standards halten.
 
 === Der Aufbau von Datentabellen kann unter Umständen nicht einfach verändert werden, wie kann die Barrierefreiheit trotzdem sichergestellt werden?
