@@ -243,18 +243,17 @@ ist erfüllt, wenn grafische Überschriften in angemessener Weise als
 Der *Dokumenttitel* wird als Fenstertitel oder für Bookmarks verwendet.
 Wenn man mehrere Bookmarks in seiner Liste hat oder mehrere Fenster geöffnet
 sind, dann soll der Dokumenttitel dabei helfen, die richtige Seite auszuwählen.
-Was muss im Dokumenttitel stehen, damit das geht.
-Er muss zwei Bestandteile haben.
+Was muss im Dokumenttitel stehen, damit das geht?
+Der Dokumentitel hat zwei Bestandteile.
 
-Der erste Bestandteil sagt, zu welchem Webangebot die Seite gehört.
-Er ist
-normalerweise für alle Dokumente eines Webangebots gleich, man braucht ihn, um
-die Seite von thematisch ähnlichen Seiten anderer Webangebote zu unterscheiden.
-
-Der zweite Bestandteil sagt einem, worum es auf der Seite geht.
+Der erste Bestandteil sagt einem, worum es auf der Seite geht.
 Er ist normalerweise für alle Dokumente eines Webangebotes unterschiedlich.
 Denn man braucht ihn, um unterschiedliche Seiten des selben Webangebotes zu
 unterscheiden.
+
+Der zweite Bestandteil sagt, zu welchem Webangebot die Seite gehört.
+Er ist normalerweise für alle Dokumente eines Webangebots gleich, man braucht ihn, um
+die Seite von thematisch ähnlichen Seiten anderer Webangebote zu unterscheiden.
 
 Bei der *Hauptüberschrift* geht es dagegen eher um die interne Strukturierung
 der Seite.
