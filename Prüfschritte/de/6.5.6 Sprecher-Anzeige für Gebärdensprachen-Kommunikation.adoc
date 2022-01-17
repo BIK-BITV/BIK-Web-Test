@@ -30,7 +30,6 @@ Der Prüfschritt ist anwendbar, wenn ein Webangebot Videotelefonie unterstützt 
 
 * Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
 * Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
-* Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und programmatische Ermittelbarkeit der Aktivitätsanzeige ein.
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
