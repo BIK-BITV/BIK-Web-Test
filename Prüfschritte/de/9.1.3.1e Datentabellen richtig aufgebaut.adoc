@@ -21,8 +21,8 @@ Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 Mögliche Anwendungen der Auszeichnung von Tabellenüberschriften:
 
 * Der Screenreader informiert über die Position und Anzahl der Überschriftenreihen.
-* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn der Benutzer die Tabellenzeile oder die Tabellenspalte wechselt.
-* Überschriften werden in einer für den Benutzer besser geeigneten Form hervorgehoben.
+* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn Nutzende die Tabellenzeile oder die Tabellenspalte wechselt.
+* Überschriften werden in einer für Nutzende besser geeigneten Form hervorgehoben.
 
 == Wie wird geprüft?
 
