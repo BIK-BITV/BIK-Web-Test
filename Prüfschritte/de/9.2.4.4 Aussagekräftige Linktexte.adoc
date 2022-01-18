@@ -48,7 +48,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 . Seite im Browser aufrufen.
 . Prüfen, ob visuell, etwa über zusätzliche Icons oder in Custom-Tooltips, Auskunft über das Dateiformat gegeben wird. 
 . Prüfen, ob visuelle Information zum Dateiformat auch programmatisch bereitgestellt wird (etwa über versteckten Linktext, Alternativtext, das `title`-Attribut oder geeignete ARIA-Attribute).
-. Falls über Link- und title-Text keine Auskunft über das Dateiformat gegeben wird, ist das Dateiformat des Links möglicherweise für alle Nutzenden unklar. Dies ist nicht als Mangel im Sinne dieses Prüfschritts zu bewerten (sollte jedoch ggf. als allgemeines Usability-Problem angemerkt werden).
+. Falls weder über den Linktext noch über ein entsprechend eindeutiges Icon Auskunft über das Dateiformat gegeben wird, ist das Dateiformat des Links möglicherweise alle Nutzenden unklar. Dies ist nicht als Mangel im Sinne dieses Prüfschritts zu bewerten (sollte jedoch ggf. als allgemeines Usability-Problem angemerkt werden).
 
 === 3. Hinweise
 
