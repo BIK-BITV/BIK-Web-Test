@@ -35,7 +35,7 @@ der Seite eingebunden sind.
 . Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die
   Audiodatei vermittelt.
   Bei Audiodateien mit verschiedenen Stimmen gibt es in der
-  Transkription eine Kennzeichnung der Sprecher.
+  Transkription eine Kennzeichnung der sprechenden Person.
 
 ==== 2.2 Medienalternative für stumme Film- oder Bildsequenzen
 
@@ -84,16 +84,13 @@ im Text identifiziert sein.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall
-von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden
-Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt
-werden können, diese kurz identifizieren.
-Dies ist Gegenstand des Prüfschritts
+im Fall von zeitbasierten Medien geht es im Prüfschritt
 ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte".]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
-  Alternativtexte für Grafiken und Objekte>>.
-endif::env_embedded[]
+  Alternativtexte für Grafiken und Objekte>>
+um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
+
 In diesem Prüfschritt 9.1.2.1 geht es dagegen um die Bereitstellung von
 gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
@@ -103,7 +100,7 @@ ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
 endif::env_embedded[]
-geht es schließlich um die Bereitstellung von zusätzlichen
+geht es um die Bereitstellung von zusätzlichen
 Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und
 Tonspur).
 Dort geht es also um *zusätzliche* akustische Informationen über
