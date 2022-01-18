@@ -10,10 +10,10 @@ sich bei Ihnen bereits um Medienalternativen für Text.
 
 == Warum wird das geprüft?
 
-Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt
+Audiodateien sind für hörbehinderte Nutzende nicht oder nur eingeschränkt
 zugänglich, deshalb brauchen sie eine Transkription.
 Stumme Videodateien (etwa eine Film- oder Animationsequenz, die zeigt, 
-wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer
+wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzende
 nicht verfügbar.
 Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
@@ -68,7 +68,7 @@ Link.
 Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer
 Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar
 dieselben Inhalte wiedergegeben werden. 
-Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die Sprecher
+Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die sprechenden Personen
 im Text identifiziert sein.
 
 === 4. Bewertung
