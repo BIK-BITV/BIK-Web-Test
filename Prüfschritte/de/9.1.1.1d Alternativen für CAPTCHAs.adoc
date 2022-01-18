@@ -121,15 +121,3 @@ endif::env_embedded[] geprüft.
 
 * http://www.karlgroves.com/2012/04/03/captcha-less-security/[
   CAPTCHA-less Security] by Karl Groves, 2012
-
-== Fragen zu diesem Prüfschritt
-
-=== In welchen Fällen führt ein visuelles CAPTCHA ohne Alternative zu einer Abwertung des Angebotes auf "nicht zugänglich"?
-
-Dies muss im Einzelfall entschieden werden.
-Wenn wichtige Inhalte des Angebots nur durch CAPTCHA-Eingabe erreichbar sind,
-ist eine Abwertung angebracht.
-Ein Beispiel ist etwa das Online-Banking auf der Website einer Bank.
-In anderen Fällen sind die durch CAPTCHA geschützten Bereiche nicht zentral
-wichtig, etwa beim Einsatz für nicht zentrale Funktionen wie
-"Seite weiterempfehlen". Hier wäre eine Abwertung nicht angemessen.
