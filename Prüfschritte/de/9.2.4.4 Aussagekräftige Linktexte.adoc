@@ -71,32 +71,28 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements.
-Die Aussagekraft des ``alt``-Textes wird jedoch geprüft in:
+In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
 
-* Prüfschritt
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. Die Zugänglichkeit und Aussagekraft des ``alt``-Textes wird jedoch im Prüfschritt
 ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
   Alternativtexte für Bedienelemente>>
 endif::env_embedded[]
+geprüft.
 
 In diesem Prüfschritt wird nur geprüft, ob die Information über das
 Dateiformat überhaupt vorhanden ist.
 Das ist der Fall, wenn das Dateiformat in
 einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
 
-Nicht geprüft wird, ob die Information auch gut zugänglich ist.
-Dafür reicht die alleinige Anzeige als Grafik nicht aus.
-Wenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob
-diese Information auch als Text verfügbar ist.
-
-* Alternativer Text für nicht-visuelle Nutzer: Prüfschritt
-ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt 
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
-  <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
-  Alternativtexte für Bedienelemente>>
+  <<11.1.1.1a Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
 endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -184,8 +180,8 @@ choose which links to follow without requiring complicated strategies to
 understand the page.
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
 
 === Gruppen zusammengehöriger Links
 
@@ -202,9 +198,9 @@ the first link for each book is the title of the book, the second link says
 "PDF" and the third says, "mp3."
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
-Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
-Criterion 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
+Criterion 2.4.4]
 
 === Aussagekraft über den Kontext
 
@@ -228,8 +224,8 @@ associated with the link itself.
 --
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
 
 === Grenzen des ``title``-Attributs (Technik H33: Supplementing link text with the title attribute)
 
@@ -254,8 +250,8 @@ elements] (HTML).
 --
 ____
 
-(WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
-H33: Supplementing link text with the title attribute])
+https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
+WCAG 2.1 Technik, H33: Supplementing link text with the title attribute]
 
 == Fragen zu diesem Prüfschritt
 
