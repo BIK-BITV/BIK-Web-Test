@@ -252,31 +252,3 @@ ____
 
 https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
 WCAG 2.1 Technik, H33: Supplementing link text with the title attribute]
-
-== Fragen zu diesem Prüfschritt
-
-=== Mehrfachverlinkungen
-
-Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe
-Seite verlinkt.
-Das beeinträchtigt die Brauchbarkeit der von Screenreadern generierten
-Linklisten.
-Wie wird das bewertet?
-
-Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste
-unpraktisch, sie machen die Liste länger und unübersichtlicher.
-Unbrauchbar wird die Linkliste aber nicht, solange durch die Linktexte
-deutlich wird, dass es sich um mehrfache Links auf dasselbe Ziel handelt.
-
-Für sehende Nutzer kann die Mehrfachverlinkung von Überschrift, Abbildung und
-mehr-Link dagegen praktisch sein.
-Sie müssen nicht erst nach einem kleinen
-mehr-Link am Ende des Anreißertexts suchen, sondern können auf das meist
-größere und damit leichter zu treffende Bild oder auch gleich auf die
-Überschrift klicken.
-
-Hier gibt es also kein "richtig" oder "falsch", die verschiedenen
-Ansätze haben alle ihre Vor- und Nachteile.
-Wichtig ist, dass alle Linktexte so aussagekräftig sind, dass der Benutzer
-die Mehrfachverlinkung in der Linkliste erkennen kann.
-Wenn das sichergestellt ist, wird Mehrfachverlinkung nicht negativ bewertet.
