@@ -226,19 +226,19 @@ In der Regel bedeutet das:
   werden kann, und eine entsprechende Meldung generiert.
   In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine
   Überschrift im unmittelbaren Kontext identifiziert wird.
-* Bei *verlinkten Abbildungen* gibt es folgende
+
+Bei *verlinkten Abbildungen* gibt es folgende
   Möglichkeiten:
-** Beschreibung des abgebildeten Gegenstandes in den Alternativtext (wenn der
+* Der abgebildete Gegenstand wird in der Textalternative beschrieben (wenn der
    abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
-   Beispiel Logo),
-** Ziel des Links in den Alternativtext (nur wenn der abgebildete Gegenstand
-   unwichtig ist, zum Beispiel Illustration),
-** Beschreibung des abgebildeten Gegenstandes und Ziel des Links in den
-   Alternativtext (wenn beides wichtig ist).
-   Generell gilt: Alternativtexte sollen kurz sein.
-   Ausführliche Beschreibungen von Abbildungen sollen nicht im
-   Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt
-   werden.
+   Beispiel Logo).
+* Das Ziel des Links wird über die Textalternative vermittelt (nur wenn der abgebildete Gegenstand
+   unwichtig ist, zum Beispiel Illustration).
+* Der abgebildeten Gegenstandes und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
+  
+Generell gilt: Alternativtexte sollen kurz sein.
+* Ausführliche Beschreibungen von Abbildungen sollen nicht im
+* Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 === 3. Hinweise
 
