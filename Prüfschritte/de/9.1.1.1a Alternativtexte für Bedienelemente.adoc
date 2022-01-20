@@ -248,7 +248,7 @@ Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel
 verweisen, muss geprüft werden, ob Abbildung und Text in den selben Link
 eingeschlossen sind.
 
-[#H2]Wenn Abbildung und Text innerhalb des selben Links stehen, soll der
+Wenn Abbildung und Text innerhalb des selben Links stehen, soll der
 Alternativtext der Abbildung nicht den Text des Links wiederholen.
 Je nach Inhalt der Abbildung kann das ``alt``-Attribut dann leer bleiben oder
 den abgebildeten Inhalt beschreiben, während der Linktext Zweck oder Ziel des
