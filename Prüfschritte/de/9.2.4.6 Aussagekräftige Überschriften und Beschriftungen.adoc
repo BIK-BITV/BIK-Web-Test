@@ -4,25 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhaltsteil, Beschriftungen sind
-sinngebend.
+Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind sinngebend.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-Inhalte durch Überschriften strukturiert.
-Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
-Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen,
-die ihn interessieren.
+Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
+Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Wenn Formularfelder sinngebend beschriftet sind, können Sie von Nutzer als
-solche erkannt und bedient werden.
+Wenn Formularelemente sinngebend beschriftet sind, können Sie von Nutzer als solche erkannt und bedient werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch
-Überschriften strukturiert werden können und wenn die Seite Formularelemente
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden können und wenn die Seite Formularelemente
 enthält.
 
 === 2. Prüfung
@@ -30,22 +25,15 @@ enthält.
 . Seite im
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
   Firefox] laden.
-. Prüfen, ob die Überschriften im Zusammenhang mit den durch sie
-  strukturierten Inhalten aussagekräftig sind.
+. Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
-. Wenn zur Beschriftung `fieldset` mit `legend` eingesetzt wird: Sind `legend`
-  und ``label``, zusammen vorgelesen, bei allen Formularelementen im Fieldset
+. Wenn zur Beschriftung `fieldset` mit `legend` eingesetzt wird: Sind `legend` und ``label``, zusammen vorgelesen, bei allen Formularelementen im Fieldset
   sinnvoll?
 
 === 3. Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem
-betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen
-(einschließlich viel genutzter Abkürzungen).
-Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit,
-Präzision, Kürze), kann aber auch dazu
-führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich
-sind, was aber nicht zu einer negativen Bewertung führen soll.
+Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen).
+Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
 
 == Einordnung des Prüfschritts
 
