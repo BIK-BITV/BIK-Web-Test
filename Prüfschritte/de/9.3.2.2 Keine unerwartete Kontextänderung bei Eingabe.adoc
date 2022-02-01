@@ -4,14 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Eingaben von Nutzenden auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen führen. Alle Kontextänderungen müssen unterhalb des auslösenden Elements
-geschehen und sollen klar nachvollziehbar sein, der Fokus soll nicht versetzt werden.
+Eingaben von Nutzenden bei Formularelementen sollen nicht zu unerwarteten Kontext-Änderungen führen, außer Nutzende werden vor der Verwendung der Komponente auf dieses Verhalten hingewiesen. Erfolgen Änderungen unterhalb der Formulareingaben (z. B. neue Felder werden eingeblendet) und die Gesamtstruktur bleibt gleich, so bleibt auch der Kontext für die Nutzenden erhalten und es handelt sich nicht um eine unerwartete Kontextänderung. Der Fokus soll aufgrund der Eingaben nicht versetzt werden.
 
 == Warum wird das geprüft?
 
-Unerwartete und unangekündigte Kontextänderungen bei einer Auswahl in Formularen können die Orientierung von Nutzern beeinträchtigen (z.B. die Auswahl einer Checkbox oder ein Radio-Button ruft eine neue Seite auf, eine Auswahlliste ohne Submit-Button reagiert auf `onchange`. Kontextänderungen auf der Seite selbst können Nutzende ablenken und verwirren oder auch unbemerkt bleiben und dadurch für Verwirrung sorgen (plötzlich sind Inhalte verändert). Sie sollten deshalb erwartet und klar nachvollziehbar sein.
-
-Wenn Kontextänderungen auf der selben Seite nicht *unterhalb* des Elements stattfinden, das sie auslöst, werden sie von blinden Nutzenden häufig nicht wahrgenommen.
+Unerwartete und unangekündigte Kontextänderungen bei Formulareingaben oder einer Auswahl einer Option können die Orientierung von Nutzern beeinträchtigen, z.B. die Auswahl einer Checkbox oder ein Radio-Inputs ruft eine neue Seite auf, eine Auswahlliste ohne Submit-Button reagiert auf `onchange`. Kontextänderungen auf der Seite selbst können Nutzende ablenken oder auch unbemerkt bleiben und dadurch für Verwirrung sorgen (plötzlich sind Inhalte verändert). Sie sollten deshalb erwartet und klar nachvollziehbar sein.
 
 == Wie wird geprüft?
 
@@ -21,22 +18,25 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 
 === 2. Prüfung
 
+Prüfen Sie, ob die Eingabe von Daten oder die Änderung von deren Einstellungen einen unerwarteten Kontextwechsel (siehe Erläuterung unter "3. Hinweise") auslöst. 
+
 . Seite im Browser (Chrome oder Firefox) aufrufen.
-. Formularelemente (Checkboxes, Radio Buttons, Auswahllisten) ausprobieren. Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
-. Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen zusätzlicher Formularfelder).
-. Sind die Inhaltsänderungen begrenzt und gut nachvollziehbar oder werden *vor* dem auslösenden Element angekündigt bzw. erklärt?
-. Prüfen, ob Inhaltsänderungen *unterhalb* des Elements, das sie auslöst, hervorgerufen werden.
-. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen.
+. Mit der Tastatur zu allen Formularelementen navigieren, in die Nutzende Daten eingeben oder eine Einstellung des Elements ändern können.
+. Prüfen, ob die Eingabe (z. B. Eingabe von Text in ein Textfeld, Aktivierung einer Checkbox oder Radio-Inputs) oder Änderung von Einstellungen (z.B. Option eines Selects auswählen) eine Kontextänderung erzeugt.
+. Prüfen, ob Inhaltsänderungen (etwa Einblendungen zusätzlicher Formularfelder) begrenzt sind, die Änderung nach dem Formularelement erfolgt und der Kontext erhalten bleibt. In diesem Fall handelt es sich nicht um eine unerwartete Kontextänderung.
+. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen. Dies gilt als unerwartete Kontextänderung.
+. Prüfen, ob der Kontext geändert wird, wenn das letzte Feld eines Formulars ausgefüllt wird. Das Formular soll dadurch nicht abgeschickt werden.
+. Gibt es ein Kontextwechsel, prüfen, ob der Kontextwechsel mit Hilfe von sichtbaren, zugänglichen Erläuterungen angekündigt wird. 
 
 === 3. Hinweise
 
-Fehlermeldungen, die über die JavaScript-Funktion `alert()` ausgegeben werden, gelten nicht als Pop-Ups im Sinne des Prüfschritts. Sie öffnen sich als Antwort auf Eingaben von Nutzenden und sie sind modal, in Hinblick auf die Orientierung daher unproblematisch.
+* Fehlermeldungen, die über die JavaScript-Funktion `alert()` ausgegeben werden, öffnen sich als Antwort auf Eingaben von Nutzenden und sie sind modal, in Hinblick auf die Orientierung daher unproblematisch. Sie gelten nicht als unerwartete Kontextänderungen im Sinne des Prüfschritts.
 
-Änderungen, die über Skripte und _ARIA Live Regions_ vorgenommen werden, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen Fokus versetzen.
+* Änderungen, die über Skripte und _ARIA Live Regions_ vorgenommen werden, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen Fokus versetzen.
 
 Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:
 
-* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung erscheinen. Auch das Auslösen von Sprunglinks zu Ankern auf derselben Seite ist als Kontextänderung zu betrachten.
+* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung erscheinen.
 * Davon abgrenzen muss man bloße Inhaltsänderungen (in den WCAG 2.1:
   _changes of content_). Diese liegen vor, wenn etwa die Auswahl in einer Auswahlliste (``select``) die Inhalte einer darunter befindlichen Auswahlliste dynamisch aktualisiert
   (etwa: die Wahl eines Kontinents aktualisiert eine Auswahlliste mit Ländern). Auch das Ausklappen zusätzlicher Formularbereiche _unterhalb_ des auslösenden Elements kann als Inhaltsänderung gelten, wenn Fokus und Scrollstatus der Seite unverändert bleiben.
