@@ -4,26 +4,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Nutzereingaben auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen
-führen.
-Alle Kontextänderungen müssen unterhalb des auslösenden Elements
-geschehen und sollen klar nachvollziehbar sein, der Fokus soll nicht versetzt
-werden.
+Eingaben von Nutzenden auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen führen. Alle Kontextänderungen müssen unterhalb des auslösenden Elements
+geschehen und sollen klar nachvollziehbar sein, der Fokus soll nicht versetzt werden.
 
 == Warum wird das geprüft?
 
-Unerwartete und unangekündigte Kontextänderungen bei einer Auswahl in
-Formularen (etwa eine Checkbox oder ein Radio-Button, deren Auswahl eine neue
-Seite aufruft, oder eine Auswahlliste ohne Submit-Button, die auf `onchange`
-reagiert) können die Orientierung von Nutzern beeinträchtigen.
-Kontextänderungen auf der Seite selbst können Nutzer ablenken und verwirren
-oder auch unbemerkt bleiben und dadurch für Verwirrung sorgen (plötzlich
-sind Inhalte verändert).
-Sie sollten deshalb erwartet und klar nachvollziehbar sein.
+Unerwartete und unangekündigte Kontextänderungen bei einer Auswahl in Formularen können die Orientierung von Nutzern beeinträchtigen (z.B. die Auswahl einer Checkbox oder ein Radio-Button ruft eine neue Seite auf, eine Auswahlliste ohne Submit-Button reagiert auf `onchange`. Kontextänderungen auf der Seite selbst können Nutzende ablenken und verwirren oder auch unbemerkt bleiben und dadurch für Verwirrung sorgen (plötzlich sind Inhalte verändert). Sie sollten deshalb erwartet und klar nachvollziehbar sein.
 
-Wenn Kontextänderungen auf der selben Seite nicht *unterhalb* des Elements
-stattfinden, das sie auslöst, werden sie von blinden Nutzern häufig nicht
-wahrgenommen.
+Wenn Kontextänderungen auf der selben Seite nicht *unterhalb* des Elements stattfinden, das sie auslöst, werden sie von blinden Nutzenden häufig nicht wahrgenommen.
 
 == Wie wird geprüft?
 
@@ -34,48 +22,26 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 === 2. Prüfung
 
 . Seite im Browser (Chrome oder Firefox) aufrufen.
-. Formularelemente (Checkboxes, Radio Buttons, Auswahllisten) ausprobieren.
-  Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
-. Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen
-  zusätzlicher Formularfelder).
-. Sind die Inhaltsänderungen begrenzt und gut nachvollziehbar oder werden
-  *vor* dem auslösenden Element angekündigt bzw. erklärt?
-. Prüfen, ob Inhaltsänderungen *unterhalb* des Elements, das sie auslöst,
-  hervorgerufen werden.
-. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa
-  dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen.
+. Formularelemente (Checkboxes, Radio Buttons, Auswahllisten) ausprobieren. Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
+. Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen zusätzlicher Formularfelder).
+. Sind die Inhaltsänderungen begrenzt und gut nachvollziehbar oder werden *vor* dem auslösenden Element angekündigt bzw. erklärt?
+. Prüfen, ob Inhaltsänderungen *unterhalb* des Elements, das sie auslöst, hervorgerufen werden.
+. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen.
 
 === 3. Hinweise
 
-Fehlermeldungen, die über die JavaScript-Funktion `alert()` ausgegeben werden,
-gelten nicht als Pop-Ups im Sinne des Prüfschritts.
-Denn sie öffnen sich als Antwort auf Benutzereingaben und sie sind modal, in
-Hinblick auf die Orientierung daher unproblematisch.
+Fehlermeldungen, die über die JavaScript-Funktion `alert()` ausgegeben werden, gelten nicht als Pop-Ups im Sinne des Prüfschritts. Sie öffnen sich als Antwort auf Eingaben von Nutzenden und sie sind modal, in Hinblick auf die Orientierung daher unproblematisch.
 
-Änderungen, die über Skripte und _ARIA Live Regions_ vorgenommen werden, etwa
-die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds
-einer Such-Funktion, sollen nicht den aktuellen Fokus versetzen.
+Änderungen, die über Skripte und _ARIA Live Regions_ vorgenommen werden, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen Fokus versetzen.
 
 Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:
 
-* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa
-  Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das
-  dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte
-  wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung
-  erscheinen.
-  Auch das Auslösen von Sprunglinks zu Ankern auf derselben Seite ist als
-  Kontextänderung zu betrachten.
+* Klare Kontextänderungen (_changes of context_) sind laut WCAG 2.1 etwa Sprünge zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische Laden von neuen Inhalten auf der selben Seite, wenn diese Inhalte wie eine neue Seite _wirken_ oder Inhalte in stark veränderter Anordnung erscheinen. Auch das Auslösen von Sprunglinks zu Ankern auf derselben Seite ist als Kontextänderung zu betrachten.
 * Davon abgrenzen muss man bloße Inhaltsänderungen (in den WCAG 2.1:
-  _changes of content_).
-  Diese liegen vor, wenn etwa die Auswahl in einer Auswahlliste (``select``)
-  die Inhalte einer darunter befindlichen Auswahlliste dynamisch aktualisiert
-  (etwa: die Wahl eines Kontinents aktualisiert eine Auswahlliste mit Ländern).
-  Auch das Ausklappen zusätzlicher Formularbereiche _unterhalb_ des
-  auslösenden Elements kann als Inhaltsänderung gelten, wenn Fokus und
-  Scrollstatus der Seite unverändert bleiben.
+  _changes of content_). Diese liegen vor, wenn etwa die Auswahl in einer Auswahlliste (``select``) die Inhalte einer darunter befindlichen Auswahlliste dynamisch aktualisiert
+  (etwa: die Wahl eines Kontinents aktualisiert eine Auswahlliste mit Ländern). Auch das Ausklappen zusätzlicher Formularbereiche _unterhalb_ des auslösenden Elements kann als Inhaltsänderung gelten, wenn Fokus und Scrollstatus der Seite unverändert bleiben.
 
-Ob Änderungen _unerwartet_ sind oder nicht, lässt sich nur aus dem
-Gesamtkontext heraus bestimmen.
+Ob Änderungen _unerwartet_ sind oder nicht, lässt sich nur aus dem Gesamtkontext heraus bestimmen.
 
 Vergleiche: WCAG 2.1, Appendix A: Glossary:
 http://www.w3.org/TR/WCAG20/#context-changedef[changes of context]
@@ -84,16 +50,12 @@ http://www.w3.org/TR/WCAG20/#context-changedef[changes of context]
 
 ==== Nicht voll erfüllt
 
-* Die Interaktion mit Formularelementen führt zu unerwarteten und nicht
-  angekündigten Kontextänderungen.
+* Die Interaktion mit Formularelementen führt zu unerwarteten und nicht angekündigten Kontextänderungen.
 
 ==== Nicht erfüllt
 
-* Formulare werden automatisch abgeschickt, wenn der Fokus das Formular
-  verlässt.
-* Das Ändern des Status einer Checkbox oder eines Radio-Buttons löst
-  automatisch eine unerwartete Kontextänderung aus (öffnet etwa ein neues
-  Fenster).
+* Formulare werden automatisch abgeschickt, wenn der Fokus das Formular verlässt.
+* Das Ändern des Status einer Checkbox oder eines Radio-Buttons löst automatisch eine unerwartete Kontextänderung aus (öffnet etwa ein neues Fenster).
 
 == Einordnung des Prüfschritts
 
