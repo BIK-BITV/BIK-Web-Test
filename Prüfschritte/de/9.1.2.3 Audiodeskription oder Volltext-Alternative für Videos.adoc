@@ -23,27 +23,16 @@ Blinden oder seheingeschränkten Menschen kann der Zugang zu solchen Videos übe
 
 === 1. Anwendbarkeit des Prüfschritts
 
-* Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur
-  vorhanden sind und Informationen über das Bildgeschehen für das Verständnis
-  erforderlich sind.
-* Videos brauchen keine Audiodeskription oder Volltext-Alternative, wenn der Fortgang des Bildgeschehens
-  nicht in Worte gefasst werden kann.
-  Der Prüfschritt ist dann nicht anwendbar.
-* Verzichtbar ist die Audiodeskription oder Volltext-Alternative, wenn die synchrone Wahrnehmung von
-  Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder
-  wenn das Video keine Tonspur hat (siehe Prüfschritt
+* Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und Informationen über das Bildgeschehen für das Verständnis erforderlich sind.
+* Videos brauchen keine Audiodeskription oder Volltext-Alternative, wenn der Fortgang des Bildgeschehens nicht in Worte gefasst werden kann. Der Prüfschritt ist dann nicht anwendbar.
+* Verzichtbar ist die Audiodeskription oder Volltext-Alternative, wenn die synchrone Wahrnehmung von Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder   wenn das Video keine Tonspur hat (siehe Prüfschritt
 ifdef::env_embedded[9.1.2.1 "Alternativen für Audiodateien und stumme Videos").]
 ifndef::env_embedded[]
   <<9.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,9.1.2.1
   Alternativen für Audiodateien und stumme Videos>>).
 endif::env_embedded[]
-* Verzichtbar ist die Audiodeskription oder Volltext-Alternative auch für Videos, die lediglich als
-  Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
-  zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer
-  Form zu vermitteln.
-  Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende
-  Informationen bieten und die klar als Medienalternative zum Text erkennbar
-  sind.
+* Verzichtbar ist die Audiodeskription oder Volltext-Alternative auch für Videos, die lediglich als Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
+  zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermitteln. Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende  Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
 * Gebärdensprachvideos brauchen keine Audiodeskription.
 
 === 2. Prüfung
@@ -56,39 +45,28 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
   Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 +
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
-* Eine weitere Version des Videos mit Audiodeskription wird angeboten.
-  Diese Version wird geprüft.
-  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext
-  des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das
-  Zurückspringen funktioniert über den Zurück-Button des Browsers).
-* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
-  Diese Spur wird zusätzlich geschaltet.
+* Eine weitere Version des Videos mit Audiodeskription wird angeboten. Diese Version wird geprüft.
+  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
+* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich geschaltet.
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-vom Format abhängigen Video-Player abgespielt.
-. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
-  Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+. Das Video im auf der Website eingebundenen Player oder abgespielen.
+. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 ==== 2.2 Volltextalternative prüfen
 
 Es wird eine Sicht- und Hörprüfung vorgenommen:
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-  vom Format abhängigen Video-Player abgespielt.
+. Das Video im auf der Website eingebundenen Player abspielen.
 . Volltextalternative prüfen, diese sollte folgende Informationen enthalten:
 +
 * Eine fortlaufende Beschreibung des Geschehens
-* Alle visuellen Information, eingeschlossen Beschreibungen des visuellen
-  Kontexts, Aktionen und der Ausdruck der Schauspieler.
+* Alle visuellen Information, eingeschlossen Beschreibungen des visuellen Kontexts, Aktionen und der Ausdruck der Schauspieler.
 * Geräusche (Gelächter, off-Screen-Stimmen etc.)
 * Transkriptionen aller Dialoge
 +
-Hinweis: Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video
-entsprechen.
+. Prüfen, ob die Abfolge der Beschreibung und Dialoge der Abfolge im Video entsprechen.
 
-. Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
-  Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
-  vorsehen, um dieselbe Funktionalität zu gewährleisten.
+. Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
 === 3. Bewertung
 
