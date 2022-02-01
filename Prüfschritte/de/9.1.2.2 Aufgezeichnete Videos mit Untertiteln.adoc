@@ -4,17 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Tonspur eines aufgezeichneten Videos Informationen enthält, müssen
-Untertitel als Alternative bereitgestellt werden.
+Wenn die Tonspur eines aufgezeichneten Videos Informationen enthält, müssen Untertitel als Alternative bereitgestellt werden.
 
 == Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehen.
-Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch
-Untertitel bereitgestellt werden.
+Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch Untertitel bereitgestellt werden.
 
-Untertitel können auch für andere Nutzer hilfreich sein, zum Beispiel für
-Personen, die mit der Sprache des Films nicht vertraut sind.
+Untertitel können auch für andere Nutzende hilfreich sein, zum Beispiel für Personen, die mit der Sprache des Films nicht vertraut sind.
 
 == Wie wird geprüft?
 
@@ -36,29 +32,17 @@ endif::env_embedded[]
 
 ==== 2.1 Prüfung auf Untertitel
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-  vom Format abhängigen Video-Player abgespielt.
-. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
-  oder zugeschaltet werden können.
-. Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
-  Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
-  dem hörbaren Inhalt entsprechen.
-  Dies betrifft auch akustische Ereignisse, die für das Verständnis des
-  Inhalts wichtig sind.
+. Das Video im auf der Website eingebundenen Player abspielen.
+. Prüfen, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
+. Wenn Untertitel vorhanden sind, eine kurze Sequenz des Videos mit Untertiteln ansehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen.
+  Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
 
 ==== 2.2 Prüfung von Videos als Medienalternative
 
-. Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende
-  Medienalternative zu einem Text angeboten wird.
-. Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige
-  Textversion verweist und diese entweder in unmittelbarer Nachbarschaft
-  verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
-. Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton
-  transportiert.
-  . Wenn das Video wichtige über den Textinhalt hinausgehende
-  Informationen trägt, ist das Video keine Medienalternative, es braucht
-  Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch
-  Prüfschritt
+. Falls keine Untertitel vorhanden sind: Prüfen, ob das Video als ergänzende Medienalternative zu einem Text angeboten wird.
+. Prüfen, ob die Beschriftung des Videos klar auf eine dazugehörige Textversion verweist und diese entweder in unmittelbarer Nachbarschaft verfügbar ist oder durch einen aussagekräftigen Link erreichbar ist.
+. Prüfen, ob das Video alle wesentlichen Inhalte des Textes über den Ton transportiert.
+  . Wenn das Video wichtige über den Textinhalt hinausgehende Informationen trägt, ist das Video keine Medienalternative, es braucht Untertitel und muss auch auf Audiodeskription geprüft werden (siehe auch Prüfschritt
 ifdef::env_embedded[9.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos").]
 ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
@@ -69,30 +53,22 @@ endif::env_embedded[]
 
 ==== Erfüllt
 
-* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte
-  Untertitel, die alle Informationen der Tonspur enthalten.
-  Dazu gehören gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende
-  Tonereignisse (etwa informationstragende Geräusche, Lachen, Applaus).
+* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben erweiterte Untertitel, die alle Informationen der Tonspur enthalten.
+  Dazu gehören gegebenenfalls die Anzeige, wer spricht, und bedeutungstragende Tonereignisse (etwa informationstragende Geräusche, Lachen, Applaus).
 
 ==== Teilweise erfüllt
 
-* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben keine Untertitel,
-  aber folgende Bedingung ist erfüllt: Es gibt im unmittelbaren Kontext des
-  Videos eine vollständige Textalternative (Transkription) oder einen klar
-  bezeichneten Link zu einer vollständigen Textalternative.
-* Wenn das Videobild Inhalte hat, die nicht in der Transkription vorkommen
-  oder nicht adäquat darstellbar sind, kommen die Abstufungen der Bewertung
-  von eher nicht erfüllt bis nicht erfüllt in Betracht.
+* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben keine Untertitel, aber folgende Bedingung ist erfüllt: Es gibt im unmittelbaren Kontext des
+  Videos eine vollständige Textalternative (Transkription) oder einen klar bezeichneten Link zu einer vollständigen Textalternative.
+* Wenn das Videobild Inhalte hat, die nicht in der Transkription vorkommen oder nicht adäquat darstellbar sind, kommen die Abstufungen der Bewertung von eher nicht erfüllt bis nicht erfüllt in Betracht.
 
 ==== Nicht voll erfüllt
 
-* Bei Medienalternativen fehlt die direkte Nachbarschaft oder der klar
-  bezeichnete Link auf das primäre Medium, dass die Medienalternative ersetzt.
+* Bei Medienalternativen fehlt die direkte Nachbarschaft oder der klar bezeichnete Link auf das primäre Medium, dass die Medienalternative ersetzt.
 
 ==== Nicht erfüllt
 
-* Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist
-  ebenfalls nicht verhanden.
+* Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist ebenfalls nicht verhanden.
 
 == Einordnung des Prüfschritts
 
@@ -229,8 +205,5 @@ ____
 
 === Können an Stelle der Untertitel auch Filme mit gebärdensprachlicher Darstellung eingeblendet werden?
 
-Solche Filme sind hilfreich für Personen, die über Gebärdensprache kommunizieren.
-Meist sind das Personen, die gehörlos geboren oder schon früh ertaubt sind.
-Dagegen können Personen, die erst im Alter ertaubt sind, in der Regel nicht über Gebärdensprache kommunizieren.
-Sie benötigen Untertitel.
-Gebärdensprachliche Darstellungen sind also kein Ersatz für die Untertitel.
+Solche Filme sind hilfreich für Personen, die über Gebärdensprache kommunizieren. Meist sind das Personen, die gehörlos geboren oder schon früh ertaubt sind.
+Dagegen können Personen, die erst im Alter ertaubt sind, in der Regel nicht über Gebärdensprache kommunizieren. Sie benötigen Untertitel. Gebärdensprachliche Darstellungen sind also kein Ersatz für die Untertitel.
