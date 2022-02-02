@@ -34,7 +34,7 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 * Sind die Schriftkontraste stark genug? 
 * Im Zweifel den
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
-Contrast Analyzer] öffnen.
+Contrast Analyser] öffnen.
 * Im Bereich _Vordergrund_ mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die Hintergrundfarbe.
 * Falls unklar ist, ob für Schrift der Wert für große Schrift (3:1) oder für kleine Schrift (4,5:1) gilt: In der
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
