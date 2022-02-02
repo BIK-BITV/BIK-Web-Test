@@ -79,7 +79,7 @@ Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
   ermittelt werden, ist es unter Umständen einfacher, ein Screenshot zu
   machen und die leistungsfähigeren Zoom- und Pipettenwerkzeuge eines
   Bildbearbeitungsprogramms zu nutzen.
-* Der Farbkontrast von Textvorbelegungen von Formularfeldern muss die Mindest-Anforderung von 4,5:1 erfüllen. Ausgenommen sind Textvorbelegungen, wenn eine redundante sichtbare Beschriftung die Kontrastanforderung erfüllt. Als Beschriftung zählt bei Suchfeldern auch ein konventionelles Icon, für dass die Anforderung für Grafikkontraste gilt (verg. Prüfschritt 9.1.4.11). Wenn zusätzliche Informationen (etwa Datumsformat) im Platzhalter-Text stehen, gilt diese Ausnahme nicht, der Platzhalter-Text muss dann den Kontrast von 4,5:1 erfüllen.
+* Der Farbkontrast von Textvorbelegungen von Formularfeldern muss die Mindest-Anforderung von 4,5:1 erfüllen. Ausgenommen sind Textvorbelegungen, wenn eine redundante sichtbare Beschriftung die Kontrastanforderung erfüllt. Als Beschriftung zählt bei Suchfeldern auch ein konventionelles Icon, das die Anforderung für Grafikkontraste erfüllt (verg. Prüfschritt 9.1.4.11). Wenn zusätzliche Informationen (etwa Datumsformat) im Platzhalter-Text stehen, gilt diese Ausnahme nicht, der Platzhalter-Text muss dann den Kontrast von 4,5:1 erfüllen.
 
 ==== 3.2 Hinweise zur Prüfung von Seiten mit Styleswitcher
 
