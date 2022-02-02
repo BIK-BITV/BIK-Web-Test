@@ -98,7 +98,7 @@ Rolle.
 
 === Abgrenzung zu anderen Prüfschritten
 
-* _Custom controls_, die etwa Benutzerschnittstellen aus positionierten `div`s
+* Custom controls, die etwa Benutzerschnittstellen aus positionierten `div` s
   mit Hintergrundbildern erzeugen, werden bereits in einer Reihe von
   bestehenden Prüfkriterien implizit geprüft, etwa
 ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich",]
