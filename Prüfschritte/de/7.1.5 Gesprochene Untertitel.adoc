@@ -4,23 +4,29 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren fremdsprachigen Untertiteln überträgt, kann eine Sprachausgabe der Untertitel aktiviert werden. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn das Webangebot Videos mit einem Orginalton enthält, der nicht der Hauptsprache des Webangebots entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache der Seite angeboten werden über eine Sprachausgabe zugänglich sein. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
-Menschen, die die Originalsprache eines Videos nicht verstehen, profitieren beispielsweise von Untertiteln in ihrer Landessprache. Wenn Untertitel in einer anderen Sprache angeboten werden, sollen diese Untertitel auch blinden oder sehbehinderten Menschen zugänglich sein. Sie können zum Beispiel als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
+Menschen, die fremdsprachigen Originalton eines Videos nicht verstehen, profitieren von Untertiteln in ihrer Landessprache. Wenn Untertitel in der Hauptsprache des Webangebots angeboten werden, sollen diese Untertitel auch blinden oder sehbehinderten Menschen zugänglich sein. Sie können zum Beispiel als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln in einer anderen Sprache enthält (subtitles). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist anwendbar:
+
+* wenn der Original-Ton des Videos fremdsprachig ist (d.h. er entspricht nicht der Hauptsprache des Webauftritts) 
+* und Unteritel in der Hauptsprache des Webauftritts bereitgestellt werden.
+
+Steht eine Tonspur in der Sprache des Webauftritts zur Verfügung, ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Prüfen ob neben der Originalsprache Unteritel in anderen Sprachen angeboten werden.
-. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare fremdsprachige Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
+. Prüfen, ob der Originalton des Videos in der Hauptsprache des Webangebots ist.
+. Prüfen ob neben der Originalsprache Untertitel in der Hauptsprache des Webangebots angeboten werden.
+. Falls es sich dabei um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
 === 3. Hinweise
 
