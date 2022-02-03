@@ -1,4 +1,4 @@
-= Prüfschritt 7.1.5 Gesprochene fremdsprachige Untertitel
+= Prüfschritt 7.1.5 Gesprochene Untertitel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
