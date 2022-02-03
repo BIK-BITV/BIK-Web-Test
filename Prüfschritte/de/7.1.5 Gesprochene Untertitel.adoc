@@ -8,7 +8,7 @@ Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren f
 
 == Warum wird das geprüft?
 
-Menschen, die die Originalsprache eines Videos nicht verstehen, profitieren von Untertiteln in ihrer Landessprache. Wenn Untertitel in einer anderen Sprache angeboten werden, sollen diese Untertitel auch blinden oder sehbehinderten Menschen zugänglich sein. Sie können beispielsweise als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
+Menschen, die die Originalsprache eines Videos nicht verstehen, profitieren beispielsweise von Untertiteln in ihrer Landessprache. Wenn Untertitel in einer anderen Sprache angeboten werden, sollen diese Untertitel auch blinden oder sehbehinderten Menschen zugänglich sein. Sie können zum Beispiel als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
 
 == Wie wird geprüft?
 
