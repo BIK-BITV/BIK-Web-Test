@@ -1,26 +1,26 @@
-= Prüfschritt 7.1.5 Gesprochene Untertitel
+= Prüfschritt 7.1.5 Gesprochene fremdsprachige Untertitel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln überträgt, kann eine Sprachausgabe der Untertitel aktiviert werden. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren fremdsprachigen Untertiteln überträgt, kann eine Sprachausgabe der Untertitel aktiviert werden. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
-Wenn die Tonqualität eines Videos schlecht ist oder der Ton in einer anderen Sprache, ist es für Untertitel-Nutzende hilfreich, eine Sprachausgabe der Untertitel anzuschalten. Es ist dabei hilfreich, wenn sich die Lautstärke der Sprachausgabe unabhängig von der Lautstärke der Video-Tonspur steuern lässt.
+Menschen, die die Originalsprache eines Videos nicht verstehen, profitieren von Untertiteln in ihrer Landessprache. Wenn Untertitel in einer anderen Sprache angeboten werden, sollen diese Untertitel auch blinden oder sehbehinderten Menschen zugänglich sein. Sie können beispielsweise als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln enthält (closed captions). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit zuschaltbaren bzw. programmatisch ermittelbaren Untertiteln in einer anderen Sprache enthält (subtitles). Auf permanent sichtbare Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind, ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Video mit Untertitelung abspielen.
-. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
+. Prüfen ob neben der Originalsprache Unteritel in anderen Sprachen angeboten werden.
+. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare fremdsprachige Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
 === 3. Hinweise
 
@@ -32,7 +32,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 ==== Nicht erfüllt:
 
-* Bei zuschaltbaren, programmatisch ermittelbaren Untertiteln (closed captions) gibt es keine Möglichkeit, eine Sprachausgabe der Untertitel zu aktivieren.
+* Bei zuschaltbaren, programmatisch ermittelbaren fremdsprachigen Untertiteln gibt es keine Möglichkeit, eine Sprachausgabe der Untertitel zu aktivieren.
 
 == Einordnung des Prüfschritts
 
