@@ -23,8 +23,8 @@ Der Prüfschritt ist anwendbar:
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Prüfen, ob der Originalton des Videos in der Hauptsprache des Webangebots ist.
-. Prüfen ob neben der Originalsprache Untertitel in der Hauptsprache des Webangebots angeboten werden.
+. Prüfen, ob der Originalton des Videos von der Hauptsprache des Webangebots abweicht.
+. Prüfen, ob für Videos mit fremdsprachiger Tonspur Untertitel in der Hauptsprache des Webangebots angeboten werden.
 . Falls es sich dabei um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
 === 3. Hinweise
