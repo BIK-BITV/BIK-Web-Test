@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 . Über des Einstellungs-Menü und die Optibo Zoomen _200%_ auswählen.
 . Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
 
-==== 2.1 Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
+==== 2.2 Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
 
 Wenn die Seite eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
 
