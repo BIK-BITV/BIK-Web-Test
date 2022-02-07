@@ -17,9 +17,8 @@ Menschen, die fremdsprachigen Originalton eines Videos nicht verstehen, profitie
 Der Prüfschritt ist anwendbar:
 
 * wenn der Original-Ton des Videos fremdsprachig ist (d.h. er entspricht nicht der Hauptsprache des Webauftritts) 
-* und Unteritel in der Hauptsprache des Webauftritts bereitgestellt werden.
-
-Steht eine Tonspur in der Sprache des Webauftritts zur Verfügung, ist der Prüfschritt nicht anwendbar.
+* und Untertitel in der Hauptsprache des Webauftritts bereitgestellt werden
+* und wenn es keine Version des Videos mit einer Tonspur in der Hauptsprache des Webauftritts gibt.
 
 === 2. Prüfung
 
