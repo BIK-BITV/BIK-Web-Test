@@ -99,39 +99,15 @@ geprüft.
 
 ==== Abgrenzung zur Prüfung des Markups
 
-In diesem Prüfschritt wird die Auszeichnung von Elementen durch Markup nicht
-beachtet.
-Es geht also um die mehrgleisige Vermittlung von Informationen _auf
-dem Bildschirm_Bei den Prüfkriterien zur richtigen Auszeichnung geht es
-dagegen darum, dass Informationen _unabhängig_ von der Darstellung auf dem
-Bildschirm verfügbar sind oder dass der Benutzer die Darstellung auf dem
-Bildschirm _anpassen_ kann.
+In diesem Prüfschritt wird die Auszeichnung von Elementen durch Markup nicht beachtet. Es geht also um die mehrgleisige Vermittlung von Informationen **auf dem Bildschirm**. Bei den Prüfkriterien zur richtigen Auszeichnung geht es dagegen darum, dass Informationen **unabhängig** von der Darstellung auf dem Bildschirm verfügbar sind oder dass der Benutzer die Darstellung auf dem Bildschirm **anpassen** kann.
 
 ==== Abgrenzung zu fehlenden Hervorhebungen
 
-In diesem Prüfschritt 9.1.4.1 geht es um die Farbunabhängigkeit _vorhandener_
-Seitenelemente.
+In diesem Prüfschritt 9.1.4.1 geht es um die Farbunabhängigkeit **vorhandener** Seitenelemente.
 
-Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text
-oder Menü-Elemente nur durch die Farbe (und nicht zusätzlich durch
-Unterstreichung, Fettung oder andere Markierung) gekennzeichnet sind.
-Wenn Links im Text _überhaupt nicht_ gekennzeichnet sind, ist der
-Prüfschritt dagegen nicht anwendbar.
-Das ist dann vielmehr ein Verstoß gegen Prüfschritt
-ifdef::env_embedded[9.3.2.3 "Konsistente Navigation"]
-ifndef::env_embedded[]
- <<9.3.2.3 Konsistente Navigation.adoc#,9.3.2.3 Konsistente Navigation>>
-endif::env_embedded[]
-bzw.
-ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
-ifndef::env_embedded[]
-  <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
-  Position des Fokus deutlich>>.
-endif::env_embedded[]
+Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text oder Menü-Elemente nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder andere Markierung) gekennzeichnet sind. Wenn Links im Text **überhaupt nicht** gekennzeichnet sind, ist dies zwar nicht nutzerfreundlich, aber wird in diesem Prüfschritt nicht negativ bewertet.
 
-Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle
-Position _überhaupt nicht_ anzeigt, verstößt nicht gegen diesen Prüfschritt
-9.1.4.1.
+Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Position _überhaupt nicht_ anzeigt, verstößt nicht gegen diesen Prüfschritt 9.1.4.1.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
