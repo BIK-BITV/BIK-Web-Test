@@ -38,7 +38,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 ==== Nicht erfüllt:
 
-* Bei zuschaltbaren, programmatisch ermittelbaren fremdsprachigen Untertiteln gibt es keine Möglichkeit, eine Sprachausgabe der Untertitel zu aktivieren.
+* Bei Angeboten mit fremdsprachiger Tonspur und Untertiteln in der Hauptsprache gibt es keine Möglichkeit, eine Sprachausgabe dieser Untertitel zu aktivieren.
 
 == Einordnung des Prüfschritts
 
