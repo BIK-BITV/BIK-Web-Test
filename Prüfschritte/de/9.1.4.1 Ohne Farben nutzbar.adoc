@@ -216,13 +216,7 @@ Note: This should not in any way discourage the use of color on a page, or
 even color coding if it is redundant with other visual indication.
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
-
-=== Definieren von Farben
-
-Vordergrundfarbe und Hintergrundfarbe von Text müssen an der selben Stelle definiert werden.
-Sonst kann es zum Beispiel passieren, dass die Farbe der Schrift als Hintergrundfarbe ausgewählt wird und die Schrift nicht mehr zu lesen ist.
-Artikel dazu: http://www.w3.org/QA/Tips/color
+https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
 
 == Fragen zu diesem Prüfschritt
 
