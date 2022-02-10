@@ -26,7 +26,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie mit Sprachüb
 
 Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
-Der visuelle Indikator der Audio-Aktivitä kann ein einfacher visueller Punkt, eine LED oder eine andere Art von Ein- / Aus-Anzeige sein, die flackert.
+Der visuelle Indikator der Audio-Aktivität kann ein einfacher visueller Punkt, eine LED oder eine andere Art von Ein- / Aus-Anzeige sein, die flackert.
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue anlegen].
 
