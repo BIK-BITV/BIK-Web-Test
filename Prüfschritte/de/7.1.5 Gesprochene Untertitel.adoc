@@ -8,7 +8,7 @@ Wenn das Webangebot Videos mit einem Orginalton enthält, der nicht der Hauptspr
 
 == Warum wird das geprüft?
 
-Menschen, die fremdsprachigen Originalton eines Videos nicht verstehen, profitieren von Untertiteln in ihrer Landessprache. Wenn Untertitel in der Hauptsprache des Webangebots angeboten werden, sollen diese Untertitel auch blinden oder seheingeschränkten Menschen zugänglich sein. Sie können zum Beispiel als zusätzliche Tonspur oder über eine Text-to-Speech Funktionalität bereitgestellt werden.
+Für Menschen, die den fremdsprachigen Originalton eines Videos nicht verstehen, ist eine Übersetzung in Untertiteln in der eigenen Sprache wichtig. Diese Untertitel sollen auch für blinde oder seheingeschränkte Menschen als akustische Ausgabe zugänglich sein.
 
 == Wie wird geprüft?
 
