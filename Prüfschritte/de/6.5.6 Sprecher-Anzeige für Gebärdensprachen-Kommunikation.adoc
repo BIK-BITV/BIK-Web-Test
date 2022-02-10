@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Webangebot Videotelefonie unterstützt, soll nicht nur die Aktivtät von Sprechenden, sondern auch die von Gebärdensprach-Eingebenden angezeigt werden.
+Wenn ein Webangebot Videotelefonie unterstützt und die Aktivität von Sprechenden angezeigt wird, soll dies auch für Nutzende von Gebärdensprache gewährleistet sein. 
 
 == Warum wird das geprüft?
 
-Für Nutzende ist über den Anzeige einer aktiven Gebärden-Eingabe wahrnehmbar, dass jemand gerade Eingaben in Gebärdensprache macht, und wer dies tut.
+Die Anzeige einer Gebärden-Eingabe ermöglicht Nutzenden die Wahrnehmung, dass jemand gerade Eingaben in Gebärdensprache macht und wer dies tut.
 
 == Wie wird geprüft?
 
@@ -19,19 +19,19 @@ Der Prüfschritt ist anwendbar, wenn ein Webangebot Videotelefonie unterstützt 
 === 2. Prüfung
 
 . Webangebot auf zwei Geräten im Browser mit abweichenden Nutzenden-Konten starten.
-. Videotelefonieverbindung zwischen den beiden Instanzen des Webangebots herstellen.
+. Videotelefonie-Verbindung zwischen den beiden Instanzen des Webangebots herstellen.
 . Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
-. Prüfen, ob das Webangebot die Möglichkeit bietet, den Start einer Gebärden-Eingabe zu signalisieren oder die Eingabe vom Webangebot automatisch erkannt und in Folge der Aktivitäts-Zustand automatisch gesetzt wird.
+. Prüfen,
+   * ob das Webangebot die Möglichkeit bietet, den Start einer Gebärden-Eingabe manuell zu signalisieren (d.h. die Anzeige des Aktivitätszustandes zu aktivieren) oder 
+   * die Eingabe vom Webangebot automatisch erkannt und in der Folge der Aktivitäts-Zustand automatisch gesetzt wird.
 . Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
-
-Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue] zu diesem
-Prüfschritt eröffnen.
 
 === 3. Hinweise
 
 * Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
 * Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
-* Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und programmatische Ermittelbarkeit der Aktivitätsanzeige ein.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 == Quellen
 
