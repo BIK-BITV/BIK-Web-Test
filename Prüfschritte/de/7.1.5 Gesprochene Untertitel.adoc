@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit einem Orginalton enthält, der nicht der Hauptsprache des Webangebots entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache der Seite angeboten werden über eine Sprachausgabe zugänglich sein. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn das Webangebot Videos mit einem Orginalton enthält, der nicht der Hauptsprache des Webangebots entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache der Seite angeboten werden als akustische Ausgabe zugänglich sein, z.B. über eine eigene Tonspur, die den Untertiteln entspricht, oder über eine gnerierte Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
