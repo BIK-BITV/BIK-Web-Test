@@ -30,8 +30,7 @@ Der Prüfschritt ist anwendbar:
 === 3. Hinweise
 
 * Gängige Video-Player verfügen derzeit meist nicht über die Möglichkeit einer einschaltbaren Sprachausgabe der Untertitel.
-* Die Anforderung 7.1.5 Gesprochene Untertitel soll blinden und seheingeschränkten Nutzenden Untertitel in der Hauptsprache der Seite zugänglich machen, sofern der Original-Ton des Videos dieser nicht entspricht. 
-Ist der Original-Ton des Videos bereits in der Hauptsprache, so gelten Untertitel in anderen Sprachen als zusätzliche Informationen und sind daher nicht von der Anforderung betroffen.
+* Für Menschen, die den fremdsprachigen Originalton eines Videos nicht verstehen, sollen Untertitel in der Hauptsprache der Webseite für blinde oder seheingeschränkte Menschen als akustische Ausgabe zugänglich sein. Ist der Original-Ton des Videos bereits in der Hauptsprache, so gelten Untertitel in anderen Sprachen als zusätzliche Informationen und sind daher nicht von der Anforderung betroffen.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue anlegen].
 
