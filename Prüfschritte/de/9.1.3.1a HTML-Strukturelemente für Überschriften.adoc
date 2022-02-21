@@ -39,8 +39,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Ü
 === 3. Hinweise
 
 * Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
-* Überschriften sollten korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter, oder entsprechenden `aria-level`-Attributen auf Elementen mit `role="heading"`), um die Gliederung der Text-Inhalte abzubilden.
-  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Überschriften sollten korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter, oder entsprechenden `aria-level`-Attributen auf Elementen mit `role="heading"`), um die Gliederung der Text-Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen ist aber an sich kein Fehler, solange die hierarchische Abfolge der Überschriften logisch bleibt.
 * Die erste Regel für den Einsatz von WAI-ARIA empfiehlt, wenn möglich native HTML-Elemente einsetzen. Siehe https://www.w3.org/TR/using-aria/[Using of ARIA, First rule of ARIA use]. Wenn dies nicht möglich ist, kann mit `role="heading"` und dem ``aria-level``-Attribut die Semantik zur Verfügung gestellt werden.
 * Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte. Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
 
