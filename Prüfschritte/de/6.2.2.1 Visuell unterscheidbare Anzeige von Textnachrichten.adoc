@@ -41,11 +41,11 @@ Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation (
 
 == Einordnung des Prüfschritts
 
-=== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
+=== Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
 6.2.2.1 Visually distinguishable display
 
-=== 4.2 Abgrenzung zu anderen Prüfschritten
+=== Abgrenzung zu anderen Prüfschritten
 
 Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
 
