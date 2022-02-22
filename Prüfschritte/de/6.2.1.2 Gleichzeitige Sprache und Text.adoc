@@ -29,7 +29,7 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation u
 
 * Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
 
-== 4. Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
