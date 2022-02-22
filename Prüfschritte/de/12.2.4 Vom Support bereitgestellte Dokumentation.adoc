@@ -53,7 +53,7 @@ Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) de
 
 ==== Nicht erfüllt
 
-Die webbasierte Dokumentation erfüllt eine oder mehrere ANforderungen aus Kapitel 9 (Web) nicht.
+Die webbasierte Dokumentation erfüllt eine oder mehrere Anforderungen aus Kapitel 9 (Web) nicht.
 
 
 == Einordnung des Prüfschritts
