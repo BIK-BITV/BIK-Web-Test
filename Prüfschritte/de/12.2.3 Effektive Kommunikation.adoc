@@ -18,7 +18,7 @@ Der Prüfschritt ist anwendbar, wenn das Angebot (meist eine Web-Anwendung) tech
 
 === 2. Prüfung
 
-Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzer anzubieten. Also etwa Kommunikation über
+Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene Kommunikationsmöglichkeiten für die Nutzenden anzubieten. Also etwa Kommunikation über
 
 * E-Mail
 * Chat
