@@ -223,7 +223,22 @@ Als Rolle für SVGs kommt auch `role="graphics-document"` für in sich
 gegliederte, komplexere SVG-Grafiken in Frage (das Ausmaß der Unterstützung
 durch Screenreader ist zur Zeit unklar).
 
-==== 2.6 Angemessene Alternativtexte
+==== 2.5 Textalternativen für Videos
+
+. Seite in
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit den Web Developer Tools des Browsers prüfen, ob das Video im 
+  HTML-Code über ein `video`-Tag oder über ein `iframe`-Tag eingebunden
+  wurde.
+. Bei einem *Video-Tags* kann die Textaltenative mittels der ARIA Attribute
+  `aria-label, aria-labelledby, and aria-describedby` angegeben werden.
+  Wird das Video innerhalb eines `figure` -Tag eingebunden kann auch ein 
+  `figcaption`-tag genutzt werden.
+. Bei einer Einbindung über *iframe* (z.B. Youtube) erfolgt die Angabe 
+  einer Textalternative mittels `title`-attribute.
+
+==== 2.7 Angemessene Alternativtexte
 
 Entscheidend ist: Die Seite soll benutzbar sein, wenn Grafiken oder Bilder
 durch die entsprechenden Alternativtexte oder andere geeignete
@@ -267,7 +282,7 @@ Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
 sondern im Kontext der Abbildung zur Verfügung gestellt werden (siehe
 <<2.5 Textalternativen für Inline SVGs>>).
 
-==== 2.7 Angemessenheit von Textalternativen im Kontext
+==== 2.6 Angemessenheit von Textalternativen im Kontext
 
 Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild
 sein kann, muss geprüft werden, ob die über das Bild vermittelte Information
@@ -278,6 +293,7 @@ Das betrifft zum Beispiel
 * Diagramme
 * technische Zeichnungen
 * Anfahrtspläne
+* Videos
 
 Zum Kontext einer Grafik oder eines Bildes gehört:
 
@@ -289,6 +305,12 @@ Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
 Textalternativen im Kontext erforderlich.
 Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, 
 er macht klar, worauf sich die Erläuterung im Kontext bezieht.
+
+Zum Kontext eines Videos gehört:
+
+* der dazugehörige (vorangehende, folgende) Text oder die Überschrift
+* entsprechend beschriftete Schaltfläche, z.B. `aria-label="Video 
+  [Titel des Videos] abspielen"`
 
 === 3. Hinweise
 
