@@ -18,7 +18,7 @@ Die Seite kann darüber hinaus eigene Werte für diese Einstellungen anbieten, w
 
 == Warum wird das geprüft?
 
-Wenn Menschen eigene Einstellungen im System oder im Browser vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
+Wenn Menschen eigene Einstellungen im Browser vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
 
 == Wie wird geprüft?
 
