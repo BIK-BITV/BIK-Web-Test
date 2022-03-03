@@ -5,9 +5,9 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn Webinhalte auf die Bewegung eines mobilen Gerätes reagieren oder wenn
-Bewegungen des Benutzers von Gerätesensoren oder der Kamera erfasst werden, um
+Bewegungen der Nutzenden von Gerätesensoren oder der Kamera erfasst werden, um
 Funktionen auszulösen, sollten hierfür alternative Eingabemöglichkeiten
-vorhanden sein, und die Bewegungseingabe soll vom Nutzer abgeschaltet werden
+vorhanden sein, und die Bewegungseingabe soll von Nutzenden abgeschaltet werden
 können.
 
 Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion
@@ -17,7 +17,7 @@ Hilfsmitteleingabe ist.
 
 Abschaltbarkeit der Bewegungseingabe: Gegebenenfalls können Webinhalte diese
 Anforderung erfüllen, indem sie Betriebssystemeinstellungen unterstützen, die
-es dem Benutzer ermöglichen, die Bewegungserkennung auf Systemebene zu
+es den Nutzenden ermöglichen, die Bewegungserkennung auf Systemebene zu
 deaktivieren.
 
 == Warum wird das geprüft?
