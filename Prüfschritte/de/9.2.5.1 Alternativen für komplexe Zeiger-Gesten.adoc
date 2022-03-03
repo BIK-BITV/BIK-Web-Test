@@ -50,7 +50,7 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 . Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
   Menüs einblenden).
 
-=== 3. Anmerkungen
+=== 3. Hinweise
 
 * Webinhalte können ggf. Alternativen zur Aktivierung über einfache Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten anbieten, nicht aber in anderen. So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein, um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern verfügbar sind.
 * Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf komplexen Pfaden oder Mehrpunktgesten basieren. So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus pfadbasiert sein.
