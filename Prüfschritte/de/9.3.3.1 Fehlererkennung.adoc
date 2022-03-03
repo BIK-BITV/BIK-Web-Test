@@ -41,7 +41,6 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 ==== Nicht voll erfüllt
 
 * Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf (etwa durch Änderung des dem Feld zugeordneten Labels, semantische Hervorhebung, oder Links).
-* Fehlermeldungen sind unklar oder irreführend.
 * Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden Eingaben werden lediglich grafisch hervorgehoben.
 
 ==== Nicht erfüllt
