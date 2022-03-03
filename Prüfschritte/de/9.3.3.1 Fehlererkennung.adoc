@@ -21,7 +21,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 === 2. Prüfung
 
 . Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter E-Mail-Adressen.
-. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind. Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
+. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert werden und der Fehler als Text beschrieben wird. Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
 +
 * Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
