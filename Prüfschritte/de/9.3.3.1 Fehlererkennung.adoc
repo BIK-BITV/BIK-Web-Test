@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und in Textform beschrieben werden.
+Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und der Fehler in Textform beschrieben werden.
 
 == Warum wird das geprüft?
 
