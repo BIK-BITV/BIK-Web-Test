@@ -4,12 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Webanwendungen Statusmeldungen erzeugen, etwa wenn ein Produkt in einen
-digitalen Warenkorb gelegt wurde, ein Formular beim Abschicken eine
-Fehlermeldung oder eine Bestätigungsmeldung erzeugt, sollen visuell
-eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften
-ausgezeichnet werden und damit programmatisch, also auch für nicht-visuelle
-Nutzer, ermittelbar sein.
+Eine Statusmeldung ist eine Nachricht, die einer Seite dynamisch hinzugefügt wird. Sie informiert Nutzenden beispielsweise über den Erfolg oder das Ergebnis einer Aktion, über den Fortschritt eines Prozesses oder über das Vorkommen von Fehlern. 
+
+Wenn Webangebote Statusmeldungen erzeugen, sollen visuell eingeblendete Statusmeldungen mit geeigneten Rollen und Eigenschaften ausgezeichnet und programmatisch ermittelbar sein, das bedeutet die Statusmeldungen werden Nutzenden von assistiven Technologien (Screenreader) präsentiert, ohne dass sie den Fokus erhalten.
 
 Beispiele für Statusmeldungen:
 
@@ -23,23 +20,18 @@ Beispiele für Statusmeldungen:
 
 == Warum wird das geprüft?
 
-In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
-Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
-Ergebnis von Interaktionen (z. B. die Zahl der beim Filtern einer
-Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
+In vielen Nutzungskontexten erhalten sehende Nutzende von Webangeboten Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
+Ergebnis von Interaktionen (z. B. die Zahl der beim Filtern einer Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
 von Transaktionen geben.
-Diese Meldungen sind ebenso wichtig für nicht-visuelle Nutzer und sollten 
-für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, 
+Diese Meldungen sind ebenso wichtig für nicht-visuelle Nutzende und sollten für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, 
 ohne ihren aktuellen Fokus oder Standpunkt ändern zu müssen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
-die nicht den Fokus erhalten.
-Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, 
-zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neu lädt und 
+Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren, die nicht den Fokus erhalten.
+Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neu lädt und 
 dann vor dem Formular eine Fehlermeldung erscheint.
 
 === 2. Prüfung
