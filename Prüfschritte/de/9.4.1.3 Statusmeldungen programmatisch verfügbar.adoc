@@ -36,12 +36,11 @@ dann vor dem Formular eine Fehlermeldung erscheint.
 
 === 2. Prüfung
 
-. Screenreader NVDA im Firefox-Browser aktivieren.
-. Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
-  Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei 
-  aktualisierten Inhalten, diese Meldungen abwarten.
-. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben
-  werden.
+. Statusmeldungen identifizieren. Dafür Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
+. Über eine Quellcode-Analyse prüfen, ob der Container mit der Statusmeldung mit als ARIA-Live-Region ausgezeichnet ist. Sind entsprechende ARIA-Live-Attribute vorhanden?
+. Die Ausgabe der Statusmeldung zusätzlich mit dem Screenreader prüfen:
+* Eingaben vornehmen, die zur Generierung von Statusmeldungen führen. Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei aktualisierten Inhalten, diese Meldungen abwarten.
+* Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
 
 === 3. Hinweise
 
