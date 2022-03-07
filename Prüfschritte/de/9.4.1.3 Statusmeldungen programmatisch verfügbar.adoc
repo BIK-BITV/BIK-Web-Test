@@ -4,12 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Webanwendungen Statusmeldungen erzeugen, etwa wenn ein Produkt in einen
-digitalen Warenkorb gelegt wurde, ein Formular beim Abschicken eine
-Fehlermeldung oder eine Bestätigungsmeldung erzeugt, sollen visuell
-eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften
-ausgezeichnet werden und damit programmatisch, also auch für nicht-visuelle
-Nutzer, ermittelbar sein.
+Eine Statusmeldung ist eine Nachricht, die einer Seite dynamisch hinzugefügt wird. Sie informiert Nutzenden beispielsweise über den Erfolg oder das Ergebnis einer Aktion, über den Fortschritt eines Prozesses oder über das Vorkommen von Fehlern. 
+
+Wenn Webangebote Statusmeldungen erzeugen, sollen visuell eingeblendete Statusmeldungen mit geeigneten Rollen und Eigenschaften ausgezeichnet und programmatisch ermittelbar sein, das bedeutet die Statusmeldungen werden Nutzenden von assistiven Technologien (Screenreader) präsentiert, ohne dass sie den Fokus erhalten.
 
 Beispiele für Statusmeldungen:
 
@@ -23,33 +20,27 @@ Beispiele für Statusmeldungen:
 
 == Warum wird das geprüft?
 
-In vielen Nutzungskontexten erhalten sehende Benutzer von Webanwendungen
-Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
-Ergebnis von Interaktionen (z. B. die Zahl der beim Filtern einer
-Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
+In vielen Nutzungskontexten erhalten sehende Nutzende von Webangeboten Statusmeldungen (einige von ihnen vorübergehend), die Rückmeldungen über das
+Ergebnis von Interaktionen (z. B. die Zahl der beim Filtern einer Suchergebnisliste zurückgegebenen Einträge) oder den Erfolg oder Misserfolg
 von Transaktionen geben.
-Diese Meldungen sind ebenso wichtig für nicht-visuelle Nutzer und sollten 
-für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, 
+Diese Meldungen sind ebenso wichtig für nicht-visuelle Nutzende und sollten für assistive Technologien verfügbar sein, damit die Nutzer auf sie aufmerksam werden, 
 ohne ihren aktuellen Fokus oder Standpunkt ändern zu müssen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren,
-die nicht den Fokus erhalten.
-Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, 
-zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neu lädt und 
+Der Prüfschritt ist anwendbar, wenn die Webinhalte Statusmeldungen generieren, die nicht den Fokus erhalten.
+Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars die Seite neu lädt und 
 dann vor dem Formular eine Fehlermeldung erscheint.
 
 === 2. Prüfung
 
-. Screenreader NVDA im Firefox-Browser aktivieren.
-. Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
-  Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei 
-  aktualisierten Inhalten, diese Meldungen abwarten.
-. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben
-  werden.
+. Statusmeldungen identifizieren. Dafür Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
+. Über eine Quellcode-Analyse prüfen, ob der Container mit der Statusmeldung als ARIA-Live-Region ausgezeichnet ist. Sind entsprechende ARIA-Live-Attribute vorhanden?
+. Die Ausgabe der Statusmeldung zusätzlich mit dem Screenreader prüfen:
+* Eingaben vornehmen, die zur Generierung von Statusmeldungen führen. Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei aktualisierten Inhalten, diese Meldungen abwarten.
+* Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
 
 === 3. Hinweise
 
@@ -59,23 +50,14 @@ Nicht als Statusmeldung gelten:
 * Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche
   Formularelelemente
 
-Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
-Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
-Screenreader unterschiedlich ausfallen.
-Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits 
-bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung 
-vor der Generierung der Meldung definiert worden ist.
+Ob die Statusmeldung tatsächlich vom Screenreader ausgegeben wird, kann abhängig von genutztem Browser und Screenreader unterschiedlich ausfallen. Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist. Für eine möglichst gute Unterstützung in unterschiedlichen Umgebungen:
 
-Das HTML-Element der Statusmeldung muss mit den zugehörigen
-Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt
-wird, also in das HTML-Element eingefügt wird.
-Das Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei
-getrennte Aktionen.
+* Beim Laden der Seite sollte ein (leerer) Container im DOM vorhanden und als Live-Region ausgezeichnet sein. 
+* Erst wenn die Aktualisierung ausgelöst wird, sollte die Textänderung in den vorhandenen Container eingefügt oder aktualisiert werden. 
 
-ARIA-Attribute wie ``aria-atomic``, ``aria-busy``, `aria-relevant` müssen auf
-Statusmeldungen in der Regel nicht eingesetzt werden.
-Die Angabe der geeigneten Rolle definiert passende Werte für diese Attribute
-bereits implizit.
+Hinweis zur Verwendung von `role="status"`:
+
+* Die ARIA-Technik https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22.html#examples[ARIA 22: Using role=status to present status messages] der Web Content Accessibility Guidelines (WCAG 2.1) beschreibt den Einsatz von `role="status"` für die Aktualisierung eines Warenkorbs (Beispiel 2). Damit die Ausgabe mit dem Screenreader NVDA in Firefox funktioniert, muss derzeit (Stand April 2021) https://github.com/w3c/wcag/issues/1137[mit `aria-atomic="true"` ergänzt werden] (auch wenn dies die Technik aktuell nicht formuliert).
 
 === 4. Bewertung
 
@@ -154,5 +136,5 @@ bereits implizit.
   https://www.w3.org/TR/WCAG/#dfn-status-messages
 * W3C-Definition einer Live-Region:
   https://www.w3.org/TR/wai-aria/#dfn-live-region
-* ARIA 1.1Spezifikation:
+* ARIA 1.1 Spezifikation:
   https://www.w3.org/TR/wai-aria-1.1/
