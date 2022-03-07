@@ -50,23 +50,14 @@ Nicht als Statusmeldung gelten:
 * Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche
   Formularelelemente
 
-Zum Test mittels Screenreader: Ob die Statusmeldung tatsächlich vom
-Screenreader ausgegeben wird, kann abhängig von genutztem Browser und
-Screenreader unterschiedlich ausfallen.
-Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits 
-bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung 
-vor der Generierung der Meldung definiert worden ist.
+Wichtig für eine möglichst gute Unterstützung in unterschiedlichen Umgebungen (Test mit Screenreader):
 
-Das HTML-Element der Statusmeldung muss mit den zugehörigen
-Rollen/Eigenschaften vorhanden sein, bevor die Statusnachricht erzeugt
-wird, also in das HTML-Element eingefügt wird.
-Das Erzeugen des HTML-Elements und der eingefügten Statusnachricht sind zwei
-getrennte Aktionen.
+* Beim Laden der Seite sollte ein (leerer) Container im DOM vorhanden und als Live-Region ausgezeichnet sein. 
+* Erst wenn die Aktualisierung ausgelöst wird, sollte die Textänderung in den vorhandenen Container eingefügt oder aktualisiert werden. Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
 
-ARIA-Attribute wie ``aria-atomic``, ``aria-busy``, `aria-relevant` müssen auf
-Statusmeldungen in der Regel nicht eingesetzt werden.
-Die Angabe der geeigneten Rolle definiert passende Werte für diese Attribute
-bereits implizit.
+Hinweis zur Verwendung von `role="status"`:
+
+* Die ARIA-Technik https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22.html#examples[ARIA 22: Using role=status to present status messages] der Web Content Accessibility Guidelines (WCAG 2.1) beschreibt den Einsatz von `role="status"` für die Aktualisierung eines Warenkorbs (Beispiel 2). Damit die Ausgabe mit dem Screenreader NVDA in Firefox funktioniert, muss derzeit (Stand April 2021) https://github.com/w3c/wcag/issues/1137[mit `aria-atomic="true"` ergänzt werden] (auch wenn dies die Technik aktuell nicht formuliert).
 
 === 4. Bewertung
 
@@ -145,5 +136,5 @@ bereits implizit.
   https://www.w3.org/TR/WCAG/#dfn-status-messages
 * W3C-Definition einer Live-Region:
   https://www.w3.org/TR/wai-aria/#dfn-live-region
-* ARIA 1.1Spezifikation:
+* ARIA 1.1 Spezifikation:
   https://www.w3.org/TR/wai-aria-1.1/
