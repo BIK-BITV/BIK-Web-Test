@@ -50,7 +50,7 @@ Nicht als Statusmeldung gelten:
 * Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche
   Formularelelemente
 
-Wichtig für eine möglichst gute Unterstützung in unterschiedlichen Umgebungen (Screenreader-Browser-Kombinantionen):
+Ob die Statusmeldung tatsächlich vom Screenreader ausgegeben wird, kann abhängig von genutztem Browser und Screenreader unterschiedlich ausfallen. Für eine möglichst gute Unterstützung in unterschiedlichen Umgebungen ist zu beachten:
 
 * Beim Laden der Seite sollte ein (leerer) Container im DOM vorhanden und als Live-Region ausgezeichnet sein. 
 * Erst wenn die Aktualisierung ausgelöst wird, sollte die Textänderung in den vorhandenen Container eingefügt oder aktualisiert werden. Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist.
