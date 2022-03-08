@@ -44,7 +44,7 @@ oder automatisches Abschicken von Formularen) auslösen.
 
 Der Prüfschritt bezieht sich nur auf neue Browserfenster, nicht auf
 skriptgesteuerte Seiten-Elemente, die den Inhalt überlagern (Stichwort
-Lightbox).
+modaler Dialog).
 
 Das Öffnen von Custom Tooltips, also nicht modalen Fenstern, die sich beim
 Weitertabben oder Mausklick selbständig schließen, gilt dabei nicht als
