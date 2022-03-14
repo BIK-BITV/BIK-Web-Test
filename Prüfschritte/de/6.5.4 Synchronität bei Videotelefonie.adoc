@@ -8,7 +8,7 @@ Wenn das Webangebot Videotelefonie unterstützt, soll die Zeitdifferenz zwischen
 
 == Warum wird das geprüft?
 
-Die Verständlichkeit von Videotelefonie ist allgemein schlechter, wenn Bild und Ton nicht zeitgleich übertragen werden. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen, gehörlosen Menschen und Menschen mit eingeschränktem Hörvermögen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Um dem Gesprochenen besser zu folgen, ist es hilfreich zeitgleich das Gesicht / die Lippen der sprechenden Person zu sehen – vorausgesetzt Bild und Ton werden synchron übertragen. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen. 
+Die Verständlichkeit von Videotelefonie ist allgemein schlechter, wenn Bild und Ton nicht zeitgleich übertragen werden. Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. Menschen mit kognitiven Einschränkungen, gehörlosen Menschen und Menschen mit eingeschränktem Hörvermögen fällt es vermutlich schwerer, mittels nicht synchroner Videotelefonie zu kommunizieren. Um dem Gesprochenen besser zu folgen, ist es hilfreich, zeitgleich zum Ton die Lippen der sprechenden Person zu sehen. Die Voraussetzung dafür ist, dass Bild und Ton gleichzeitig übertragen werden. Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, und Hinweise darauf willkommen. 
 
 == Wie wird geprüft?
 
