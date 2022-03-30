@@ -1,4 +1,4 @@
-=== Prüfschritt 7.1.5 Gesprochene Untertitel
+= Prüfschritt 7.1.5 Gesprochene Untertitel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -16,7 +16,7 @@ Für Menschen, die den fremdsprachigen Originalton eines Videos nicht verstehen,
 
 Der Prüfschritt ist anwendbar:
 
-* wenn der Original-Ton des Videos fremdsprachig ist (d.h. er entspricht nicht der Hauptsprache des Webauftritts) 
+* wenn der Original-Ton des Videos fremdsprachig ist (d.h. er entspricht nicht der Hauptsprache des Webauftritts)
 * und Untertitel in der Hauptsprache des Webauftritts bereitgestellt werden
 * und wenn es keine Version des Videos mit einer Tonspur in der Hauptsprache des Webauftritts gibt.
 
@@ -38,7 +38,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 ==== Nicht erfüllt:
 
-* Bei Videos mit fremdsprachiger Tonspur und zuschaltbaren Untertiteln in der Hauptsprache, sind die Untertitel nicht als akustische Ausgabe zugänglich. 
+* Bei Videos mit fremdsprachiger Tonspur und zuschaltbaren Untertiteln in der Hauptsprache, sind die Untertitel nicht als akustische Ausgabe zugänglich.
 
 == Einordnung des Prüfschritts
 
