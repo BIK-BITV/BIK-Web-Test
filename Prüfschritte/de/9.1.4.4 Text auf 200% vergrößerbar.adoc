@@ -31,7 +31,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält.
 . Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
 . Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#chrome[Chrome Browser] aufrufen.
 . Die Browserfenstergröße auf 1280x768 einstellen (entsprechend Firefox-Browserfenster).
-. Über des Einstellungs-Menü und die Optibo Zoomen _200%_ auswählen.
+. Über des Einstellungs-Menü und die Option Zoomen _200%_ auswählen.
 . Prüfen, ob weiterhin alle Inhalte ohne Überlagerungen dargestellt werden und alle Funktionalitäten bedienbar bleiben.
 
 ==== 2.2 Prüfung der Schriftvergrößerung durch Bedienelemente auf der Seite
