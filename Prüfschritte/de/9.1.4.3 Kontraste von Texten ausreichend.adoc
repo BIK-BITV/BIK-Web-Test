@@ -83,13 +83,9 @@ Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
 Ansicht erfolgt nur unter folgenden Bedingungen:
 
-* Das Styleswitcher-Schaltelement (oder der direkte Link zu einer
-  Styleswitcher-Seite) ist deutlich sichtbar am Seitenbeginn platziert.
-* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und
-  erfüllt auch die anderen Anforderungen an Barrierefreiheit (es ist zum
-  Beispiel tastaturbedienbar und ohne Stylesheets nutzbar)
-* Die alternative kontrastreichere Ansicht muss dieselben Informationen und
-  dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
+* Das Styleswitcher-Schaltelement (oder der direkte Link zu einer Styleswitcher-Seite) ist deutlich sichtbar am Seitenbeginn platziert.
+* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 sofern mit Text beschriftet (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Es erfüllt auch alle anderen Anforderungen an Barrierefreiheit (z. B. Tastaturbedienbarkeit)
+* Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
 ==== 3.3 Hinweise zur Messung des Kontrastverhältnisses
 
