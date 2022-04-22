@@ -30,7 +30,7 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
-. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
+. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24). In den Einstellungen "Erweitert..." sollte für Mindestschriftgröße "Keine" ausgewählt sein.
 . Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 . Den Button "Farben..." wählen, veränderte Text und Hintergrundfarbe einstellen, die Checkbox "Systemfarben verwenden" deaktivieren und bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen, dann mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
