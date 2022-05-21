@@ -73,9 +73,9 @@ andere Event Handler reagieren) enthält.
 
 === 3. Hinweise
 
-* Im Zweifelsfall die
-  https://www.w3.org/TR/wai-aria-practices-1.1/[
-  WAI-ARIA Authoring Practices 1.1] konsultieren.
+* Im Zweifelsfall den
+  https://www.w3.org/WAI/ARIA/apg/[
+  ARIA Authoring Practices Guide] konsultieren.
 * Unsemantische Elemente wie `span` oder `div` sind nur dann mit der Tastatur
   fokussierbar, wenn das ``tabindex``-Attribut gesetzt wurde.
   Falls das nicht der Fall ist, müssen Elemente also gegebenenfalls mit dem
@@ -188,5 +188,5 @@ endif::env_embedded[]
 
 === ARIA-Widgets
 
-* https://www.w3.org/TR/wai-aria-practices-1.1/[
-  WAI-ARIA Authoring Practices 1.1]
+* https://www.w3.org/WAI/ARIA/apg/[
+  ARIA Authoring Practice Guide (APG)]
