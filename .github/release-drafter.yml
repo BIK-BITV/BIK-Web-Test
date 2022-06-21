@@ -1,0 +1,43 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+  - title: 'Eingeführt'
+    label: 'changelog:added :heavy_plus_sign:'
+  - title: 'Geändert'
+    label: 'changelog:changed :pencil2:'
+  - title: 'Verworfen'
+    label: 'changelog:deprecated :x:'
+  - title: 'Korrigiert'
+    labels: 'changelog:fixed :+1:'
+  - title: 'Entfernt'
+    label: 'changelog:removed :wastebasket:'
+  - title: 'Sicherheit'
+    label: 'changelog:security :shield:'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&'
+version-resolver:
+  major:
+    labels:
+      - 'version:major'
+  minor:
+    labels:
+      - 'version:minor'
+  patch:
+    labels:
+      - 'version:patch'
+  default: patch
+include-labels:
+  - 'changelog:added :heavy_plus_sign:'
+  - 'changelog:changed :pencil2:'
+  - 'changelog:deprecated :x:'
+  - 'changelog:fixed :+1:'
+  - 'changelog:removed :wastebasket:'
+  - 'changelog:security :shield:'
+  - 'version:major'
+  - 'version:minor'
+  - 'version:patch'
+template: |
+  ## Was hat sich getan?
+
+  $CHANGES
+no-contributors-template: 'Keine Mitwirkenden'
