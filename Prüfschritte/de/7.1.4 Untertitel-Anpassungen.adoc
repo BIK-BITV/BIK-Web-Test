@@ -26,7 +26,8 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === 3. Hinweise
 
-Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, Schriftart, Größe, Transparenz des Untertitel-Bereichs und Kontur der Schrift.
+* Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, Schriftart, Größe, Transparenz des Untertitel-Bereichs und Kontur der Schrift.
+* Der Prüfschritt ist auch erfüllt, wenn sich die Darstellung der Untertitel nicht über Einstellungen des Video-Players, sondern durch browserseitige oder systemseitige Einstellungen anpassen lässt (wenn also etwa die Vergrößerung der Schriftgröße oder angepasste Farb-Schemata in den Browser-Einstellungen sich auf die Darstellung der Untertitel auswirken).
 
 === 4. Bewertung
 
