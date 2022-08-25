@@ -2,9 +2,9 @@
 
 # BIK BITV-Test (Web)
 
-Willkommen im Projektverzeichnis des https://bitvtest.de[BIK BITV-Test] zur Entwicklung des **BIK BITV-Test (Web)** für die Prüfung der Barrierefreiheit von Webanwendungen.
+Willkommen im Projektverzeichnis des [BIK BITV-Test](https://bitvtest.de/) zur Entwicklung des **BIK BITV-Test (Web)** für die Prüfung der Barrierefreiheit von Webanwendungen.
 
-Dieses Projekt widmet sich der Pflege und Weiterentwicklung der [🞂 Prüfschritte](Prüfschritte/de/) des _BIK BITV-Test (Web)_.
+Dieses Projekt widmet sich der Pflege und Weiterentwicklung der [🞂 Prüfschritte](Prüfschritte/de/) des **BIK BITV-Test (Web)**.
 Die zugrunde liegenden Kriterien richten sich nach der aktuell veröffentlichen [EU Norm 301 549 V3.2.1 (PDF)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf).
 
 ## Mitwirkung
