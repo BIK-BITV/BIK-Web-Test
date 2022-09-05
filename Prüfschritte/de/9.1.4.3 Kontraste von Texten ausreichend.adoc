@@ -47,14 +47,11 @@ Web Developer Toolbar] die Funktion _Informationen > Elementinformationen einble
 Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
 Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 
-Textkontrast des Styleswitcher-Schaltelements prüfen.
-Das Kontrastverhältnis muss 4,5:1 oder besser sein, und auch die anderen
-Anforderungen (zum Beispiel tastaturbedienbar, ohne Stylesheets nutzbar)
-müssen erfüllt sein.
-Sonst abbrechen.
-Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
-Textkontraste der alternativen Ansicht prüfen (wie in
-<<2.1 Prüfung der Textkontraste der Standardversion>>).
+. Textkontrast des Styleswitcher-Schaltelements prüfen.
+. Das Kontrastverhältnis muss 4,5:1 oder besser sein, sofern der Schalter mit Hilfe von Text beschriftet ist (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Auch alle anderen Anforderungen müssen erfüllt sein (zum Beispiel Tastatubedienbarkeit),
+sonst abbrechen.
+. Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
+. Textkontraste der alternativen Ansicht prüfen (wie in <<2.1 Prüfung der Textkontraste der Standardversion>>).
 
 === 3. Hinweise
 
@@ -86,13 +83,9 @@ Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
 Ansicht erfolgt nur unter folgenden Bedingungen:
 
-* Das Styleswitcher-Schaltelement (oder der direkte Link zu einer
-  Styleswitcher-Seite) ist deutlich sichtbar am Seitenbeginn platziert.
-* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und
-  erfüllt auch die anderen Anforderungen an Barrierefreiheit (es ist zum
-  Beispiel tastaturbedienbar und ohne Stylesheets nutzbar)
-* Die alternative kontrastreichere Ansicht muss dieselben Informationen und
-  dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
+* Das Styleswitcher-Schaltelement (oder der direkte Link zu einer Styleswitcher-Seite) ist deutlich sichtbar am Seitenbeginn platziert.
+* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 sofern mit Text beschriftet (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Es erfüllt auch alle anderen Anforderungen an Barrierefreiheit (z. B. Tastaturbedienbarkeit)
+* Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
 ==== 3.3 Hinweise zur Messung des Kontrastverhältnisses
 
