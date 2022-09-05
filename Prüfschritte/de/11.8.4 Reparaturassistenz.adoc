@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist o
   hervorgehoben werden),
   prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.
 
-== 3. Hinweise
+=== 3. Hinweise
 Der Begriff "Dokumente" wird in dieser Anforderung weit gefasst und umfasst Web-
 und Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
@@ -43,7 +43,7 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 11.8.4 Repair assistance
+11.8.4 Repair assistance
 
 == Quellen
 
