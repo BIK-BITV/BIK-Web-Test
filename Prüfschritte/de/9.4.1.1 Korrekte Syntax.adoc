@@ -48,9 +48,9 @@ Der Prüfschritt ist immer anwendbar.
 === 3. Hinweise
 
 * Die in HTML5 vorgesehenen validen Custom-Attribute nutzen das Format
-  ``data-*``, zum Beispiel `data-platznummer="44"`.
+  `data-$$*$$`, zum Beispiel `data-platznummer="44"`.
   Manche Scripting Frameworks nutzen eigene Formate.
-  Angular.js etwa nutzt das Format `ng-*`.
+  Angular.js etwa nutzt das Format `ng-$$*$$`.
   Trotz fehlender Validität sind solche Custom-Attribute grundsätzlich kein
   Barrierefreiheits-Problem, solange sie semantisch korrekt (also z. B. mit
   korrekt öffnenden und schließenden Anführungszeichen) eingesetzt sind.
