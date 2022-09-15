@@ -14,7 +14,7 @@ und Ergänzungen beurteilen.
 
 Die Prüfschritte des *BIK BITV-Test (Web)* sind in der Auszeichnungssprache [AsciiDoc](https://asciidoc.org) verfasst.
 Um die Mitarbeit zu unterstützen, stellen wir
-ein [🞂 Tutorial für den Schnelleinstieg](/BIK-BITV/BIK-Web-Test/blob/master/support/AsciiDoc/AsciiDoc%20Tutorial.adoc)
+ein [🞂 Tutorial für den Schnelleinstieg](/support/AsciiDoc/AsciiDoc%20Tutorial.adoc)
 bereit.
 Orientieren Sie sich bei der Gestaltung des Quelltextes (Einrückungen etc.) an der Art und Weise, die Sie vorfinden.
 
