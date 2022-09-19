@@ -29,12 +29,12 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
-.. Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
-.. Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
-.. Den Button "Farben..." wählen, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
-.. Die Checkbox "Systemfarben verwenden" deaktivieren.
-.. Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen.
-.. Mit "OK" bestätigen.
+- Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24)
+- Über den Button "Erweitert..." für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und bei der Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
+- Den Button "Farben..." wählen, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
+- Die Checkbox "Systemfarben verwenden" deaktivieren.
+- Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen.
+- Mit "OK" bestätigen.
 . Die Seite neu laden (manche Darstellungen, z.B. in Toolbars von Texteditoren, ändern sich ggf. erst dann).
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob Grafiken (z.B. Icons oder Logos) noch sichtbar bzw. ausreichend kontrastreich sind. Ist dies nicht der Fall, liegt es oft daran, dass für die Grafik keine Hintergrundfarbe festgelegt wurde. 
