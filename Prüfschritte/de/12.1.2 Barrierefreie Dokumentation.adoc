@@ -21,7 +21,7 @@ Die Dokumentation ist ein wichtiger Teil eines Webangebots. So informiert zum Be
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn eine Produkt-Dokumentation angeboten wird. Dazu gehört auch die Erklärung zur Barrierefreiheit.
+Der Prüfschritt ist anwendbar, wenn eine Produkt-Dokumentation angeboten wird. Dazu gehört auch die Erklärung zur Barrierefreiheit. Als Produkt-Dokumentation gilt die technische Dokumentation von Funktionen des Angebots (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln). Inhaltliche Hilfe, etwa in FAQs (Frequently Asked Questions) gelten hierbei nicht als Produkt-Dokumentation.
 
 Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation (etwa von PDFs) kann nicht Teil des Prüfverfahrens sein, sie muss in einem separaten Auftrag erfolgen.
 
