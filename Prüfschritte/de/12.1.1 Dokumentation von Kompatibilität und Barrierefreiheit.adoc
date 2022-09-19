@@ -14,7 +14,7 @@ Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, sollten diese gut
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist anwendbar, wenn für das Angebot eine technische Dokumentation von Funktionen des Angebots (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln) vorhanden ist. Diese inhaltliche Prüfung wird sowohl bei Dokumentation, die in HTML vorgehalten wird, als auch bei Dokumentation in anderen Formaten wie PDF oder Word vorgenommen. Inhaltliche Hilfe, etwa in FAQs (Frequently Asked Questions) gelten hierbei nicht als technische Dokumentation. Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft werden. Die Erklärung zur Barrierefreiheit ist als Dokumentation des Angebots einzustufen.
+Dieser Prüfschritt ist anwendbar, wenn für das Angebot eine technische Dokumentation von Funktionen des Angebots (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln) vorhanden ist. Diese inhaltliche Prüfung wird sowohl bei Dokumentation, die in HTML vorgehalten wird, als auch bei Dokumentation in anderen Formaten wie PDF oder Word vorgenommen. Inhaltliche Hilfe, etwa in FAQs (Frequently Asked Questions) gelten hierbei nicht als technische Dokumentation. Die Erklärung zur Barrierefreiheit ist als Dokumentation des Angebots einzustufen.
 
 === 2. Prüfung
 
