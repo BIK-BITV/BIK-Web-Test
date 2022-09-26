@@ -33,16 +33,10 @@ rechtzeitig abschließen.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt
-<<2.1 Prüfung auf Auto-Aktualisierung durch Neu-Laden der Seite und Weiterleitung auf andere URL>>)
-ist immer anwendbar.
+Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1) ist immer anwendbar.
 
-Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
-(Abschnitt
-<<2.2Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen>>)
-ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus
-datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen
-unterliegen (etwa beim Online-Banking oder Online-Shops).
+Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen (Abschnitt 2.2) 
+ist anwendbar, wenn eine Zeitbegrenzung vorhanden ist.
 
 === 2. Prüfung
 
@@ -58,7 +52,7 @@ auslösen bzw. keine Aktualisierung auslösen).
 
 ===== 2.2.1 Zeitbegrenzung wird angezeigt
 
-Seiten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise
+Seiten können Zeitbegrenzungen auf verschiedene Weise
 anzeigen:
 
 * Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigt.
@@ -71,17 +65,17 @@ anzeigen:
 
 ===== 2.2.2 Nicht unmittelbar sichtbare Zeitbegrenzungen
 
-Wenn zu erwarten ist, dass die auf der Seite angebotene Transaktion eine
-Zeitbegrenzung hat, aber weder eine laufende Anzeige der Session-Dauer noch
-ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
+Wenn zu erwarten ist, dass eine Seite eine Zeitbegrenzung hat, aber weder eine 
+laufende Anzeige der Session-Dauer noch ein Kontrollelement zum Abschalten oder 
+Verlängern angeboten werden:
 
-. Seite mit Transaktionen, die üblicherweise eine begrenzte Session-Dauer
-  haben (Online-Banking, Bezahlvorgänge von Shops) in dem gerade nicht zur
+. Seiten, die üblicherweise eine begrenzte Session-Dauer
+  haben (z. B. Online-Banking, Bezahlvorgänge von Shops) in dem gerade nicht zur
   Prüfung genutzten Browser aufrufen und Daten eingeben.
 . Den Browser für 20 Minuten nicht nutzen.
 . Nach Ablauf der 20 Minuten prüfen, ob die Seite noch verfügbar ist und
   Daten erfolgreich abgeschickt werden können.
-. Wenn die nach 20 Minuten sichtbare Seite mitteilt, dass die Transaktionsdauer
+. Wenn die nach 20 Minuten sichtbare Seite mitteilt, dass die Zeit
   abgelaufen und die Session beendet worden ist, Seite erneut laden und
   abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens
   20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der
