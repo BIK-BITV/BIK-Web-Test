@@ -3,7 +3,7 @@ name: Release-Veröffentlichung
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 4 * * *'
+    - cron: '0 0 1 1,4,7,10 *'
 
 jobs:
   procedure-perform-release:
