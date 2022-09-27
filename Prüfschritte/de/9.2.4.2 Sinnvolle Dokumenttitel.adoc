@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Dokumenttitel bezeichnen den Inhalt der indiduellen Seiten und das Webangebot. Sie
+Dokumenttitel bezeichnen den Inhalt der individuellen Seiten und das Webangebot. Sie
 können für die Unterscheidung und Auswahl von Seiten genutzt werden.
 
 == Warum wird das geprüft?
