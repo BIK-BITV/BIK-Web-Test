@@ -28,7 +28,7 @@ Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell- u
 
 === 3. Hinweise
 
-Da die Prüfung eines Nicht-HTML-Formats nicht mit diesem Prüfverfahren erfolgen kann, muss der Prüfschritt mit "nicht anwedbar" bewertet werden. Es sollte jedoch in einer Anmerkungen darauf hingewiesen werden, dass die Barrierefreiheits-Informationen (z.B. semantische Überschriften, Links oder Untertitel) im Zielformat erhalten bleiben sollen.
+Da die Prüfung eines Nicht-HTML-Formats nicht mit diesem Prüfverfahren erfolgen kann, muss der Prüfschritt mit "nicht anwendbar" bewertet werden. Es sollte jedoch in einer Anmerkungen darauf hingewiesen werden, dass die Barrierefreiheits-Informationen (z.B. semantische Überschriften, Links oder Untertitel) im Zielformat erhalten bleiben sollen.
 
 === 4. Bewertung
 
