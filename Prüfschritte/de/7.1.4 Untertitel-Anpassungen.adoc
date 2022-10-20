@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit Untertiteln überträgt, lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgöße.
+Wenn das Webangebot Videos mit Untertiteln enthält, lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgöße.
 
 == Warum wird das geprüft?
 
