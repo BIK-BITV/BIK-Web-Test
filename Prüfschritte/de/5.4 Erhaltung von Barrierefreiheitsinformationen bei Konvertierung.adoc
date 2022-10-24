@@ -17,28 +17,28 @@ Hinzunehmen ist der Verlust von Barrierefreiheitsinformationen nur dann, wenn da
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist grundsätzlich anwendbar, wenn die Webseite digitale Formate wie Text, Audio und Video konvertiert. Der Prüfschritt ist jedoch im BIK Web-Test nur anwendbar, wenn sowohl Start- als auch Zielformat HTML ist. Sind entweder das Ausgangs- oder das Zielformat der Konvertierung nicht HTML, kann der Prüfschritt nicht in diesem Verfahren allein geprüft werden, denn hier müsste zusätzlich eine Prüfung des abweichenden Formats durchgeführt werden.
+Der Prüfschritt ist grundsätzlich anwendbar, wenn die Webseite digitale Formate wie Text, Audio und Video konvertiert. Sind jedoch entweder das Ausgangs- oder das Zielformat der Konvertierung nicht HTML, kann der Prüfschritt nicht in diesem Verfahren allein geprüft werden, denn hier müsste zusätzlich eine Prüfung des abweichenden Formats durchgeführt werden. Hinsichtlich der Bewertung siehe "3. Hinweise".
 
 === 2. Prüfung
 
-Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell- und Zielformaten.
+Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell- und Zielformaten. Die zusätzliche Prüfung des abweichenden Formats kann nicht im Rahmen dieses Prüfverfahrens durchgeführt werden.
 
-. Gegebenenfalls Beispieldokumente mit Barrierefreiheits-Informationen in ein HTML-Zielformat konvertieren. 
+. Gegebenenfalls Beispieldokumente mit Barrierefreiheits-Informationen in das Zielformat konvertieren. 
 . Sind vom Format grundsätzlich unterstützte Barrierefreiheits-Informationen nach der Konvertierung im Zielformat erhalten geblieben? 
 
 === 3. Hinweise
 
-Bei Konvertierung in ein Nicht-HTML-Format sollte in die Anmerkungen aufgenommen werden, dass die Barrierefreiheits-Informationen (z.B. semantische Überschriften, Links oder Untertitel) im Zielformat erhalten bleiben sollen.
+Da die Prüfung eines Nicht-HTML-Formats nicht mit diesem Prüfverfahren erfolgen kann, muss der Prüfschritt mit "nicht anwendbar" bewertet werden. Es sollte jedoch in einer Anmerkungen darauf hingewiesen werden, dass die Barrierefreiheits-Informationen (z.B. semantische Überschriften, Links oder Untertitel) im Zielformat erhalten bleiben sollen.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-Das HTML-Zielformat enthält alle Barrierefreiheits-Informationen des HTML-Ausgangsformats, die grundsätzlich unterstützt werden.
+Das Zielformat enthält alle Barrierefreiheits-Informationen des HTML-Ausgangsformats, die grundsätzlich unterstützt werden.
 
 ==== Nicht voll erfüllt
 
-Grundsätzlich vom HTML-Zielformat unterstützte Barrierefreiheits-Informationen des HTML-Ausgangsformats gehen bei der Konvertierung verloren.
+Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des HTML-Ausgangsformats gehen bei der Konvertierung verloren.
 
 == Einordnung des Prüfschritts
 
