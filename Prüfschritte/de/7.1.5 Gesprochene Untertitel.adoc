@@ -50,12 +50,20 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === EN 301 549 V3.2.1
 [.BLOCK_LANG_EN]
-=== 7.1.5 Spoken subtitles
+==== 7.1.5 Spoken subtitles
 
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall have a mode of operation to provide a spoken output of the available captions, except where the content of the displayed captions is not programmatically determinable.
 
 NOTE 1: Being able to manage speech output range for spoken subtitles independently from general ICT speech is preferable for most users. That is possible when the audio file with spoken subtitle is delivered in a separate audio track and mixed in the end users device.
+--
 
+=== ITU T.701.25 
+
+==== Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
+
+[.BLOCK_LANG_EN]
+--
+* https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
 --
