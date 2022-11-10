@@ -41,7 +41,9 @@ Der Prüfschritt ist immer anwendbar.
 . Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem
   https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[
   WCAG parsing only Bookmarklet] die Fehler filtern.
-. Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind.
+. Im Nu-Validator über die Schaltfläche "Message Filtering" die Filter-Optionen einblenden. 
+  * Bei der Option "Attribute ... not allowed on element ... at this point" das Bedienelement "Hide all" aktivieren (sofern sie vorhanden sind).  
+. Prüfen, ob nach der Anwendung des Bookmarklets und des Filters noch Fehler vorhanden sind.
   Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
   Fehler.
 
