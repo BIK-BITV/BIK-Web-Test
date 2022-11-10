@@ -23,7 +23,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Text enthält. Grafische Schrifte
 ===== Prüfung nicht festgelegter Farben
 
 * Über das Bookmarklet
-http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#vorderhintergrundfarbebm[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#vorderhintergrundfarbebm[
 "Vorder-und Hintergrundfarbe definiert"] oder ein User Stylesheet
 (``html {background-color:black;color:white}``) prüfen, ob für jedes
 Element, für das eine Vordergrundfarbe festgelegt wurde, auch eine
@@ -33,11 +33,11 @@ Hintergrundfarbe festgelegt ist und umgekehrt.
 
 * Sind die Schriftkontraste stark genug? 
 * Im Zweifel den
-http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[
 Contrast Analyser] öffnen.
 * Im Bereich _Vordergrund_ mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich _Hintergrund_ die Hintergrundfarbe.
 * Falls unklar ist, ob für Schrift der Wert für große Schrift (3:1) oder für kleine Schrift (4,5:1) gilt: In der
-http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
 Web Developer Toolbar] die Funktion _Informationen > Elementinformationen einblenden_ aktivieren. Text, der überprüft werden soll, anklicken. Im eingeblendeten Fenster "Elementinformationen" im Bereich "Text" wird die jeweilige Schriftgröße in Pixeln angegeben. Alternativ über die Firefox Web Developer Tools mit dem Cursor das fragliche Element aktivieren und unterm Reiter _Inspektor_ im Bereich CSS im Tab _Berechnet_ die tatsächliche Schriftgröße (font-size) ablesen.
 * Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
 * Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder größer liegt.
@@ -93,7 +93,7 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
   nach einer in den WCAG 2.1 definierten Formel.
 * Die Prüfung der Kontraste für normalen Text und großen Text orientiert
   sich an den gemessenen Werten der Schriftgröße in Pixel
-  (http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
+  (https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
   Web Developer Toolbar], _Funktion Elementinformationen einblenden_), denn
   eine Messung der tatsächlich dargestellten Punktgröße auf dem Bildschirm
   mit einem Typometer ist nicht praktikabel.
