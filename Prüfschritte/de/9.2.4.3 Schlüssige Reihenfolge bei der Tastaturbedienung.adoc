@@ -73,7 +73,7 @@ aktuellen Position.
 * Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind.
 +
 Wichtig in diesem Zusammenhang:
-** Die Felder von Formularen können ggftrotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werden.
+** Die Felder von Formularen können ggf. trotz korrekter Auszeichnung unter Umständen nicht mit der Tabulatortaste durchwandert werden.
   Wenn das Browserfenster nicht den Fokus hat, darf man nicht einfach hineinklicken und dann erst mit der Tastaturbedienung anfangen.
   Der Fokus muss vielmehr per Tastatur (F6) zum Browserfenster bewegt werden.
 ** Auswahllisten ohne Submit-Button, die auf `onchange` reagieren, können ggf.
