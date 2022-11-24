@@ -106,7 +106,7 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
 === 3. Hinweise
 
-==== 3.1 Zur Identifizierung notwendige Teile von Bedienelementen
+==== 3.1 Zur Identifizierung notwendiger Teile von Bedienelementen
 
 Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es
 sich um visuell sichtbare Elemente (z. B. Element-Rahmen, aktivierter Zustand
