@@ -106,7 +106,7 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
 === 3. Hinweise
 
-==== 3.1 Zur Identifizierung notwendige Teile von Bedienelementen
+==== 3.1 Zur Identifizierung notwendiger Teile von Bedienelementen
 
 Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es
 sich um visuell sichtbare Elemente (z. B. Element-Rahmen, aktivierter Zustand
@@ -145,10 +145,10 @@ Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
   Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der
   Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
   Dies ist Gegenstand der Prüfung in Prüfschritt
-  ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich"]
 ifndef::env_embedded[]
   <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
-  Position des Fokus deutlich>>.
+  Position des Fokus deutlich>>
 endif::env_embedded[]
 
 Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils
