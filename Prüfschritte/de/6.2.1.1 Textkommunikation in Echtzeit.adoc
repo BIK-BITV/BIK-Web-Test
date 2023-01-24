@@ -59,3 +59,5 @@ ____
 
 * https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
 * https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
+* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
+Data Channels (PDF)]
