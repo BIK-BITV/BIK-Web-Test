@@ -63,13 +63,9 @@ Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen,
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-7.1.1 Captioning playback
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 7.1.1 Captioning playback
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall have a mode of
@@ -88,5 +84,6 @@ NOTE 2:
 If a Braille device is connected, the ICT should provide an option to display
 captions on the Braille device.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.1.1 "Captioning playback")
+____
+== Quellen
+* https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
