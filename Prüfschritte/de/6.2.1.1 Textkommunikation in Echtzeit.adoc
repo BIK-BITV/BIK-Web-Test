@@ -29,13 +29,9 @@ Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empf
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-6.2.1.1 RTT communication
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 6.2.1.1 RTT communication
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT is in a mode that provides a means for two-way voice communication,
@@ -57,5 +53,9 @@ NOTE 3:
 For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
+____
 
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.1 "RTT communication")
+== Quellen
+
+* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
+* https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
