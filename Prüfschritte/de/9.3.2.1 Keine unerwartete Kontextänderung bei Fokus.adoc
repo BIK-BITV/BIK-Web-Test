@@ -29,7 +29,7 @@ falsche Fenster (mit der Historie der bislang besuchten Seiten) geschlossen.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn der Webauftritt interaktive Elemente enthält.
 
 === 2. Prüfung
 
