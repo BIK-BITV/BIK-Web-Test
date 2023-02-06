@@ -21,7 +21,7 @@ Und bei Zoomvergrößerung werden die Schriftkanten unscharf.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Schriftgrafiken enthält.
 
 === 2. Prüfung
 
