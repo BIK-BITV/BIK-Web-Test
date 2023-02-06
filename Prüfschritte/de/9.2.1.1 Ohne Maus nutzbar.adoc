@@ -25,7 +25,7 @@ eingeschränkte Menschen oder Blinde.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn der Webauftritt interaktive Elemente enthält.
 
 === 2. Prüfung
 
