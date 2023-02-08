@@ -69,9 +69,8 @@ animierte Werbung:
 . Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die
   Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut
   beginnt.
-. Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in
-  Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht
-  war.
+  
+Zusätzlich sollte geprüft werden, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in Gang setzt, und zwar (bei Videos oder Animationen) von dem Punkt aus, der beim letztem Anhalten erreicht wurde. Ist das nicht der Fall, sollte dies angemerkt werden. Dieser Mangel ist aber nicht als Verstoß gegen die Anforderung dieses Prüfschritts zu verstehen.
 
 === 3. Hinweise
 
