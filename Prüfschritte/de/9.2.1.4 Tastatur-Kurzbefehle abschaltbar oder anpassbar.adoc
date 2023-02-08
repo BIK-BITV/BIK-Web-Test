@@ -66,11 +66,10 @@ entfernen.
 
 ==== Prüfschritt erfüllt
 
-* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts
-  oder des Kontexts.
-* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über
-  Einstellungen der Website oder App abschaltbar oder auf Tastenkombinationen mit
+* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts oder des Kontexts.
+* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über Einstellungen der Website oder App abschaltbar oder auf Tastenkombinationen mit
   Modifikator-Tasten umstellbar.
+* Tastaturkurzbefehle über Einzeltasten sind nur wirksam, wenn bestimmte interaktive Elemente den Fokus haben (z.B. Auswahllisten).
 
 == Einordnung des Prüfschritts
 
@@ -111,3 +110,7 @@ Die Konsole der Entwickler-Tools zeigt die simulierten Eingaben.
 * https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
   Understanding Success Criterion 2.1.4: Character Key Shortcuts]
   (zur Zeit nur auf Englisch verfügbar)
+  
+== Fragen zu diesem Prüfschritt
+=== Das eingebundene Video reagiert auf Tastaturkurzbefehle über Einzeltasten, z.B: "k" zum Pausieren/Abspielen und "m" zum Stummschalten. Ist das als Verstoß gegen 2.1.4 "Tastatur-Kurzbefehle abschaltbar oder anpassbar" zu werten?
+Diese Tastaturkurzbefehle sind für Tastaturnutzer zweifellos hilfreich. Ob dadurch Nachteile für Spracheingabenutzer entstehen, versuchen wir zur Zeit zu klären. Noch offen ist, ob ein Video als https://www.w3.org/TR/WCAG21/#dfn-user-interface-components[User Interface Component] im Sinne der normativen Anforderung interpretiert werden kann. Es gibt dazu https://github.com/w3c/wcag/issues/1950[eine längere Diskussion in dem Github-Issue der Accessibility Guidelines Working Group]. Solange diese Frage nicht klar entschieden ist, sollten Tastaturkurzbefehle auf fokussierten Videos nicht als Fehler bewertet werden.
