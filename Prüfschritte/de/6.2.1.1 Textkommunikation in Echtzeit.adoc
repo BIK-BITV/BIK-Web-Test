@@ -61,3 +61,4 @@ ____
 * https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
 * https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
 Data Channels (PDF)]
+* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
