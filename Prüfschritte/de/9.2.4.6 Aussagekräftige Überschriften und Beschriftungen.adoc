@@ -31,8 +31,18 @@ enthält.
 
 === 3. Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen).
-Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+==== 3.1 Hinweise zu Fachausdrücken
+Besonders in Fachanwendungen gibt es häufiger Beschriftungen und Überschriften mit Fachausdrücken, Abkürzungen oder Codes, die nicht allgemeinverständlich sind, aber der Zielgruppe bekannt sind. Die Verwendung diese Fachausdrücke bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht allgemein aussagekräftig sind: sie müssen erlernt werden. Das ist bei Fachanwendungen vertretbar und sollte nicht zu einer negativen Bewertung führen.
+
+=== 4. Bewertung
+==== Erfüllt:
+
+* Überschriften passen zu den ihnen folgenden Inhalten, Beschriftungen von Formularelementen sind aussagekräftig.
+
+==== Nicht voll erfüllt:
+* Überschriften oder Beschriftungen sind obskur oder schwer verständlich (z.B. unübersetzt)
+* Durch Flüchtigkeits- oder Kopierfehler haben Formularelemente unrichtige, nicht zutreffende Beschriftungen
+* Bestimmte Eingabeformate sind für valide Eingaben erforderlich, werden aber nicht über zusätzliche Beschriftungen vermittelt
 
 == Einordnung des Prüfschritts
 
