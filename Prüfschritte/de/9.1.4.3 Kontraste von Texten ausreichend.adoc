@@ -124,8 +124,6 @@ Autoren haben auf die Darstellung nativer Elemente und Widgets zurzeit keine aus
 * Das Kontrastverhältnis (_contrast ratio_) zwischen Vorder- und
   Hintergrundfarbe liegt bei Texten in großer Schriftgröße (18 Punkt und
   größer, 14 Punkt und größer bei fetter Schrift) bei mindestens 3:1.
-  Das Kontrastverhältnis des schlechteren Zustands des Maus- und
-  Tastaturfokus liegt über 3:1.
 * Wenn die Anforderung nur über eine alternative Ansicht erfüllt wird,
   erfüllt der Styleswicher selbst die Kontrastforderung von 4,5:1 und andere
   Anforderungen an Barrierefreiheit.
