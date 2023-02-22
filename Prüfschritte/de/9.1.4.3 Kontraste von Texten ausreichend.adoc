@@ -8,7 +8,7 @@ Alle Texte der Seite sollen in allen Zuständen ausreichende Helligkeitskontrast
 
 == Warum wird das geprüft?
 
-Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Texte unter Umständen zu wenig Kontrast. Gute Kontraste sorgen dafür, dass Nutzende Texte leichter lesen können. Insbesondere Menschen, die aufgrund einer mäßig niedrigen Sehschärfe, einer Farbfehlsichtigkeit oder aufgrund des Alters eine verminderte Kontrastempfindlichkeit haben, profitieren von guten Kontrasten.
+Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Texte unter Umständen zu wenig Kontrast. Gute Kontraste sorgen dafür, dass Nutzende Texte leichter lesen können. Insbesondere Menschen, die aufgrund einer verringerten Sehschärfe, einer Farbfehlsichtigkeit oder aufgrund des Alters eine verminderte Kontrastempfindlichkeit haben, profitieren von guten Kontrasten.
 
 == Wie wird geprüft?
 
