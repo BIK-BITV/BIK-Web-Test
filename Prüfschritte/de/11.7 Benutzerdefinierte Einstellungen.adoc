@@ -59,9 +59,9 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 ==== Nicht voll erfüllt
  
 * Aufgrund von benutzerdefinierten Farbeinstellungen treten beispielsweise Probleme auf wie:
-** Für die Nutzung des Webauftritts wichtige informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar
+** Für die Nutzung des Webauftritts wichtige informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar.
 ** Unterschiedliche Zustände von Formularelementen (z. B. Auswahlschalter oder Kontollkästchen) sind nicht mehr unterscheidbar.
-** Fließtext wird nicht vergrößert dargestellt
+** Fließtext wird nicht vergrößert dargestellt.
 
 == Einordnung des Prüfschritts
 
