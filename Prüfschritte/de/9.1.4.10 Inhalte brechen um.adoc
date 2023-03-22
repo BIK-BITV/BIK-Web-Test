@@ -65,6 +65,7 @@ Die Prüfung bezieht sich auf Web-Inhalte mit horizontal verlaufender Schrift.
   erforderlich ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout
   voraussetzen, etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder
   Benutzerschnittstellen mit Werkzeugleisten.
+* Optionen in geöffneten `select`-Elementen, die nicht in den reduzierten Viewport passen, gelten nicht als Fehler im Sinne dieses Prüfschritts.
 * Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
   Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
   Dies ist Gegenstand von Prüfschritt
