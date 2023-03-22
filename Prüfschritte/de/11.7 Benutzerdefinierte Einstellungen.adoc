@@ -54,9 +54,9 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 
 ==== Erfüllt
 
-* Die Seite wird im Firefox-Browser nach dem Vornehmen von abweichenden Einstellungen (z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen weiterhin bedienbar, Schriften erscheinen vergrößert und in der jeweils eingestelten Schrifttype.
+* Die Seite wird im Firefox-Browser nach dem Vornehmen von abweichenden Einstellungen (z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen weiterhin bedienbar, Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt oder schlechter
  
 * Aufgrund von benutzerdefinierten Farbeinstellungen treten Probleme auf, zum Beispiel:
 ** Für die Nutzung des Webauftritts wichtige informationstragende Grafiken oder grafische Bedienelmente sind nicht mehr sichtbar.
