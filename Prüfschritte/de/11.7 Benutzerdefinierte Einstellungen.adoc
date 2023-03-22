@@ -36,7 +36,7 @@ Der Prüfschritt ist immer anwendbar.
 * Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden" den Wert "Immer" auswählen.
 * Mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
-. Prüfen, ob Grafiken (z.B. Icons oder Logos) noch sichtbar  bzw. ausreichend kontrastreich sind. Ist dies nicht der Fall, liegt es  oft daran, dass für die Grafik keine Hintergrundfarbe festgelegt wurde.
+. Prüfen, ob essentielle Bedienlemente und deren Zustände (z.B. "Hamburger"-Schaltlfäche und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) noch sichtbar sind. 
 
 === 3. Hinweise
 ==== 3.1. Einzusetzender Browser für die Prüfung
