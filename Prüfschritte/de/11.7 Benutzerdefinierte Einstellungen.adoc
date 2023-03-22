@@ -8,7 +8,6 @@ Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen.
 Im Einzelnen können dies folgende Punkte sein:
 
 * Geänderte Vorder- und Hintergrundfarben (und damit Kontraste)
-* Kontraste
 * Schriftarten
 * Schriftgrößen
 * Darstellung des Fokuscursors
