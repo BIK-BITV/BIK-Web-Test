@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Die Seite soll benutzerdefinierte Browsereinstellungen berücksichtigen.
 Im Einzelnen können dies folgende Punkte sein:
 
-* Geänderte Vorder- und Hintergrundfarben (und damit Kontraste)
+* Geänderte Vorder- und Hintergrundfarben
 * Schriftarten
 * Schriftgrößen
 * Darstellung des Fokuscursors
