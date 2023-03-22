@@ -49,37 +49,20 @@ Die Prüfung bezieht sich auf Web-Inhalte mit horizontal verlaufender Schrift.
 
 === 3. Hinweise
 
-* Inhalte und Funktionen müssen in der Umbruch-Ansicht nicht in der gleichen
-  Weise angeboten werden.
-  Sie können etwa auch in einem Ausklappbereich oder über einen direkten
-  Link erreichbar sein.
-* Bei der alternativen Prüfung mit 1280px Viewport-Breite und 400% Zoom soll
-  nicht negativ bewertet werden, wenn fest positionierte Inhalte
-  (etwa Ausklappmenüs) aufgrund der sehr geringen verfügbaren Höhe des
-  Browser-Fensters nicht voll erreichbar sind.
-  Geprüft wird allein, ob Inhalte erfolgreich in eine Ansicht umbrechen, die
-  nicht horizontal gescrollt werden braucht.
-  Zur Prüfung des Verlusts von Informationen und Funktionalität ist die
-  Prüfung bei 320px Viewport-Breite ausschlaggebend.
-* Ausnahmen für die Anforderung, dass horizontales Scrollen nicht
-  erforderlich ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout
-  voraussetzen, etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder
-  Benutzerschnittstellen mit Werkzeugleisten.
-* Optionen in geöffneten `select`-Elementen, die nicht in den reduzierten Viewport passen, gelten nicht als Fehler im Sinne dieses Prüfschritts.
-* Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
-  Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
+* Inhalte und Funktionen müssen in der Umbruch-Ansicht nicht in der gleichen Weise angeboten werden.
+  Sie können etwa auch in einem Ausklappbereich oder über einen direkten Link erreichbar sein.
+* Bei der alternativen Prüfung mit 1280px Viewport-Breite und 400% Zoom soll nicht negativ bewertet werden, wenn fest positionierte Inhalte (etwa Ausklappmenüs) aufgrund der sehr geringen verfügbaren Höhe des Browser-Fensters nicht voll erreichbar sind. Geprüft wird allein, ob Inhalte erfolgreich in eine Ansicht umbrechen, die nicht horizontal gescrollt werden braucht. Zur Prüfung des Verlusts von Informationen und Funktionalität ist die Prüfung bei 320px Viewport-Breite ausschlaggebend.
+* Ausnahmen für die Anforderung, dass horizontales Scrollen nicht erforderlich ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout voraussetzen, etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder Benutzerschnittstellen mit Werkzeugleisten.
+* Optionen in geöffneten `select`-Elementen, die nicht in den Viewport passen, gelten nicht als Fehler im Sinne dieses Prüfschritts.
+* Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400% Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
   Dies ist Gegenstand von Prüfschritt
 ifdef::env_embedded[9.1.4.4 "Text auf 200% vergrößerbar".]
 ifndef::env_embedded[]
   <<9.1.4.4 Text auf 200% vergrößerbar.adoc#,9.1.4.4 Text auf 200%
   vergrößerbar>>.
 endif::env_embedded[]
-* Für Unternehmen, die Bestandssysteme verwenden oder ihre Layoutmethoden aus
-  irgendeinem Grund nicht aktualisieren können, kann eine alternative,
-  konforme Version eine mobile Website mit einem festen, 320px breiten Layout
-  sein.
-  Der Benutzer sollte in der Lage sein, diese Version von der Standardwebsite
-  aus zu finden.
+* Für Unternehmen, die Bestandssysteme verwenden oder ihre Layoutmethoden aus irgendeinem Grund nicht aktualisieren können, kann eine alternative,
+  konforme Version eine mobile Website mit einem festen, 320px breiten Layout sein. Der Benutzer sollte in der Lage sein, diese Version von der Standardwebsite aus zu finden.
 
 === 4. Bewertung
 
