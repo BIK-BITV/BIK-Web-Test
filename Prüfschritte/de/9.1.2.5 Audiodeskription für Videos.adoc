@@ -67,7 +67,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 ==== Nicht erfüllt
 
-* Das Video enthält wichtige informationstragende Bildinhalte die weder in der Tonspur noch in einer zusätzlichen Audiodeskription vorkommen.
+* Das Video enthält wichtige informationstragende Bildinhalte, die weder in der Tonspur noch in einer zusätzlichen Audiodeskription vorkommen.
 
 == Einordnung des Prüfschritts
 
