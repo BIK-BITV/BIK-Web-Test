@@ -50,33 +50,24 @@ endif::env_embedded[]
 Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 . Art der Einbindung feststellen.
-  Die Audiodeskription kann auf verschiedenem Wege
-  angeboten werden:
+  Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 +
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
-* Eine weitere Version des Videos mit Audiodeskription wird angeboten.
-  Diese Version wird geprüft.
-  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext
-  des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das
-  Zurückspringen funktioniert über den Zurück-Button des Browsers).
-* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
-  Diese Spur wird zusätzlich geschaltet.
+* Eine weitere Version des Videos mit Audiodeskription wird angeboten. Diese Version wird geprüft. Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
+* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich geschaltet.
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-  vom Format abhängigen Video-Player abgespielt.
-. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
-  Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+. Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
+. Sind im Video wichtige informationstragende Bildinhalte vorhanden, die nicht in der Tonspur bzw, einer zusätzliche nAudiodeskription vorkommen?
 
 === 3. Bewertung
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt
 
-* Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder
-  nicht vollständig.
+* Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder nicht vollständig.
 
 ==== Nicht erfüllt
 
-* Das informationstragende, visuelle Video hat keine Audiodeskription.
+* Das Video enthält wichtige informationstragende Bildinhalte die weder in der Tonspur noch in einer zusätzlichen Audiodeskription vorkommen.
 
 == Einordnung des Prüfschritts
 
@@ -154,3 +145,8 @@ nicht bzw. nicht voll erfüllt.
 
 * http://terrillthompson.com/blog/813[
   My Audio Description Talk @ CSUN]
+
+== Fragen zu diesem Prüfschrtt
+=== Was sind "wichtige informationstragende Bildinhalte"? 
+* Sehr häufig tauchen in Videos eingeblendete Texte auf, die etwa Sprecher oder Sprecherin bzw. deren Rolle benennen. Ohne diese Information ist für nicht-visuelle Nutzer unklar, wer da eigentlich spricht oder interviewt wird. Wenn es eher unwichtig ist, wie die Person heißt, die spricht (z.B. in Passantenbefragungen) sind solche Einblendungen nicht als "wichtige informationstragende Bildinhalte" zu betrachten.
+* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskrition oder Transkription der Bidinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.
