@@ -29,7 +29,7 @@ Die Seite im Firefox oder Chrome Browser aufrufen.
 ==== 2.1 Sind Beschriftungen vorhanden ?
 
 * Sind alle Formularelemente sichtbar beschriftet?
-* Sind Pflichtfelder in ``label``- oder ``legend``-Elementen klar angezeigt? Wenn zur Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, sollte deren Bedeutung erklärt sein (bestenfalls am Beginn des Formulars, bei einem mehrstufigen Formular beim ersten Formular).
+* Sind Pflichtfelder über Text gekennzeichnet, etwa durch die Ergänzung (Pflichtfeld) nach der Beschriftung, oder durch die Auszeichnung aller Nicht-Pflichtfelder durch die Ergänzung (optional)? Wenn zur Anzeige der Pflichtfelder Symbole wie Sternchen (*) genutzt werden, sollte deren Bedeutung erklärt sein (am besten am Beginn des Formulars, bei einem mehrstufigen Formular beim ersten Formular).
 * Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses *vor* dem Eingabefeld oder auch im Placeholder-Text klar beschrieben (Beispiele wären "Format der Datumseingabe: TT.MM.JJJJ" oder "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben").
 
 ==== 2.2 Sind Beschriftungen richtig positioniert?
@@ -57,7 +57,7 @@ auch) *nach* dem Formularelement stehen.
   auch angrenzende Elemente erklären nicht die Funktion.
 
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt oder schlechter
 
 * Beschriftungen werden nur als Formularfeld-Vorbelegung (``placeholder``-Attribut) bereitgestellt.
 
