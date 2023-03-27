@@ -26,7 +26,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Ü
   Firefox] laden.
 . Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
-. Prüfen, ob programmatisch hinterlegte Beschriftungen, etwa visuelle Linktexte, die mittels `aria-label` überschrieben werden oder hinterlegte Beschriftungen von grafischen Bedienelementen, aussagekräftig sind. Dazu gehört auch die Nutzung der richtigen Sprache.
+. Prüfen, ob programmatisch hinterlegte Beschriftungen aussagekräftig sind - etwa bei visuellen Linktexten, die mittels `aria-label` überschrieben werden, und hinterlegte Beschriftungen von grafischen Bedienelementen. Dazu gehört auch die Nutzung der richtigen Sprache.
 . Wenn zur Gruppen-Beschriftung `fieldset` mit `legend` eingesetzt wird: Ist die Ausgabe von `legend` und ``label`` im Zusammenhang aussagekräftig?
 
 === 3. Hinweise
