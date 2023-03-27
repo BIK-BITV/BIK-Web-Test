@@ -39,7 +39,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Ü
 === Abgrenzung von anderen Prüfschritten
 
 In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und
-Beschriftungen.
+Beschriftungen, auch wenn diese visuell versteckt sind.
 Die programmatische Ermittelbarkeit durch Assistive Technologien ist den Prüfkriterien
 ifdef::env_embedded[9.1.3.1a "HTML-Strukturelemente für Überschriften"]
 ifndef::env_embedded[]
