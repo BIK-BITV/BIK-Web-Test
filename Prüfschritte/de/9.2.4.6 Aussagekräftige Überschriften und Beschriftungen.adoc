@@ -4,21 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind sinngebend.
+Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind aussagekräftig.
 
 == Warum wird das geprüft?
 
 Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, können die
 Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die sie interessieren.
 
-Wenn Formularelemente sinngebend beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
+Wenn Formularelemente aussagekräftig beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden können und wenn die Seite Formularelemente
-enthält.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden und wenn die Seite Formularelemente enthält.
 
 === 2. Prüfung
 
@@ -27,12 +26,13 @@ enthält.
   Firefox] laden.
 . Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
+. Prüfen, ob programmatisch hinterlegte Beschriftungen, etwa visuelle Linktexte, die mittels `aria-label` überschrieben werden oder hinterlegte Beschriftungen von grafischen Bedienelementen, aussagekräftig sind. Dazu gehört auch die Nutzung der richtigen Sprache.
 . Wenn zur Gruppen-Beschriftung `fieldset` mit `legend` eingesetzt wird: Ist die Ausgabe von `legend` und ``label`` im Zusammenhang aussagekräftig?
 
 === 3. Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen).
-Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+* Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). Die Verwendung fachspezifischer Beschriftungen bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+* Bei Angeboten, die Komponenten aus Frameworks einsetzen, finden sich häufig englischsprachige hinterlegte Beschrfitungen, die nich tübersetzt wurden, etwa ein Schließen-Icon mit `aria-label="close"`. In solchen Fällen kann der Prüfschritt 9.1.1.1a "Alternativtexte für Bedienelemente" mit "erfüllt" bewertet werden, der Mangel liegt in der mangelnden Aussagekraft, die hier bewertet wird.
 
 == Einordnung des Prüfschritts
 
