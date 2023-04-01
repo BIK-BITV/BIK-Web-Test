@@ -4,7 +4,43 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v1.1.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.0.0...HEAD)
+
+## [v2.0.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v1.1.0...v2.0.0) - 2023-04-01
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 9.2.1.1 Ohne Maus nutzbar: Ergänzung und kleine Korrekturen bei Anmerkungen @detlevhfischer (#293)
+- 9.1.4.12 Textabstände anpassbar - Ausnahmen, Bewertung @detlevhfischer (#326)
+- 11.7 Benutzerdefinierte Einstellungen: Konkretisierung der Prüfanleitung und Bewertung @sweckenmann (#328)
+- 9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos: Ergänz… @detlevhfischer (#329)
+- 9.1.2.5 Audiodeskription für Videos: Ergänzung Frage @detlevhfischer (#330)
+- 9.1.4.10 Inhalte brechen um - Ausnahme select-Optionen @detlevhfischer (#327)
+- 9.1.4.3 Kontraste von Texten ausreichend: Native Elemente @detlevhfischer (#321)
+- 6.2.1.1 Textkommunikation in Echtzeit: Ergänzung Quelle @detlevhfischer (#318)
+- 6.2.1.1 Textkommunikation in Echtzeit: Quelle RFC 8865 @detlevhfischer (#308)
+- 7.1.1 Wiedergabe von Untertiteln: Hinzufügung einer Quelle @detlevhfischer (#307)
+- 6.2.1.1 Textkommunikation in Echtzeit: Hinzufügung aktueller Quellen @detlevhfischer (#306)
+
+### Geändert
+
+- 9.2.1.1 Ohne Maus nutzbar: Ergänzung und kleine Korrekturen bei Anmerkungen @detlevhfischer (#293)
+- 11.7 Benutzerdefinierte Einstellungen: Konkretisierung der Prüfanleitung und Bewertung @sweckenmann (#328)
+- 9.1.4.1 Ohne Farben nutzbar: Verallgemeinerung @detlevhfischer (#331)
+- 9.3.3.2 Beschriftungen von Formularelementen vorhanden: Kennzeichnung von Pflichtfeldern über Ausweisen optionaler Felder @detlevhfischer (#332)
+- 9.3.3.2 Beschriftungen von Formularelementen vorhanden: Ausnahme visuell verständlicher Submit-Button für einfach Suchformulare konkretisiert @sweckenmann (#303)
+- 9.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar: Videos @detlevhfischer (#316)
+- 9.2.2.2 Bewegte Inhalte abschaltbar: Prüfung @detlevhfischer (#314)
+- 9.1.4.5 Verzicht auf Schriftgrafiken: Nicht anwendbar als Bewertungsoption ergänzt @sweckenmann (#310)
+- 9.2.1.1 Ohne Maus nutzbar: Nicht anwendbar als Bewertungsoption ergänzt @sweckenmann (#311)
+- 9.3.2.1 Keine unerwartete Kontextänderung bei Fokus: Nicht anwendbar als Bewertungsoption ergänzt @sweckenmann (#313)
+
+### Korrigiert
+
+- 9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung: Korrektur: fehlendes Leerzeichen (ggftrotz) @cstrobbe (#301)
+- 9.2.2.2 Bewegte Inhalte abschaltbar: Kleinere redaktionelle Optimierung @sweckenmann (#312)
 
 ## [v1.1.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v1.0.1...v1.1.0) - 2023-01-01
 
