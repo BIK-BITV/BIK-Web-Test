@@ -107,6 +107,9 @@ bzw. Auswahllisten heraus bzw. durch erläuternde Texte oder Hilfefunktionen deu
 
 * Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert die Bedienung mit der Tastatur erheblich.
 
+== Quellen
+* Knowbility: https://knowbility.org/blog/2020/accessible-slide-menus[Let’s Focus on Slide-Out Navigation] (March 2020)
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
