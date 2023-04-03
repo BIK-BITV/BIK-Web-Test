@@ -56,9 +56,9 @@ For the purposes of interoperability, support of Recommendation ITU-T T.140
 ____
 
 == Quellen
-
-* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[ETSI TR 103 708 V1.1.1: Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling (PDF)]
+* MEDevel.com: https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (Open-source Guide to Healthcare and Medical Software)
 * https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
-* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
+* RFC 8865 T.140 https://www.rfc-editor.org/rfc/rfc8865.pdf[Real-Time Text Conversation over WebRTC
 Data Channels (PDF)]
 * https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
