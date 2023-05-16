@@ -4,43 +4,79 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Webseite biometrische Merkmale (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
+Wenn die Webseite biometrische Merkmale 
+(z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) 
+für die Nutzeridentifizierung oder die Steuerung nutzt, 
+soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
 
-Die Alternativen zu einer biometrischen Identifizierung werden in der Regel nicht-biometrische Methoden sein, etwa die Eingabe von Nutzername und Passwort. (Für diese gelten dann natürlich alle anderen Anforderungen, etwa die der Tastaturbedienbarkeit und der Verfügbarkeit zugänglicher Namen.) Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, z.B. wenn zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, des Sprachmusters, oder des Gesichts angeboten wird.
+Die Alternativen zu einer biometrischen Identifizierung 
+werden in der Regel nicht-biometrische Methoden sein, 
+etwa die Eingabe von Nutzername und Passwort. 
+(Für diese gelten dann natürlich alle anderen Anforderungen, 
+etwa die der Tastaturbedienbarkeit und der Verfügbarkeit zugänglicher Namen.) 
+Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, 
+z.B. wenn zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, 
+des Sprachmusters, oder des Gesichts angeboten wird.
 
 == Warum wird das geprüft?
 
-Die biometrische Identifizierung (bzw. Authentifizierung) kann gerade für Menschen mit Behinderung sinnvoll sein und den Zugang zu geschützten Systemen erleichtern. Die Berührung eines Sensors mit dem Finger ist schneller und einfacher als die Eingabe einer Pin oder eines Passworts. Es muss aber für Menschen, welche z.B. aufgrund von Behinderungen die angebotene Methode der biometrischen Identifizierung nicht nutzen können, eine nutzbare Alternative geben. 
+Die biometrische Identifizierung (bzw. Authentifizierung) 
+kann gerade für Menschen mit Behinderung sinnvoll sein 
+und den Zugang zu geschützten Systemen erleichtern. 
+Die Berührung eines Sensors mit dem Finger 
+ist schneller und einfacher als die Eingabe einer Pin oder eines Passworts. 
+Es muss aber für Menschen, 
+welche z.B. aufgrund von Behinderungen die angebotene Methode 
+der biometrischen Identifizierung nicht nutzen können, 
+eine nutzbare Alternative geben. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder Steuerung nutzt.
+Der Prüfschritt ist anwendbar, 
+wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder Steuerung nutzt.
 
 === 2. Prüfung
 
 . Webseite öffnen
-. Prüfen, ob nicht-biometrische oder biometrische Alternativen zur angebotenen biometrischen Identifizierung angeboten werden.
+. Prüfen, ob nicht-biometrische oder biometrische Alternativen 
+zur angebotenen biometrischen Identifizierung angeboten werden.
 . Bedienkonzept der wesentlichen Funktionen auf den zu testenden Webseiten
   untersuchen:
 +
   * Wird Biometrie für die Steuerung genutzt?
-  * Gibt es neben der identifizierten biometrischen Steuerung alternative nicht biometrische oder biometrische Steuerungsmethoden?
+  * Gibt es neben der identifizierten biometrischen Steuerung 
+  alternative nicht biometrische oder biometrische Steuerungsmethoden?
 
 === 3. Hinweise
 
-Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich die Nutzer-Identifizierung als ein Schritt innerhalb eines Prozesses. So kann die Berührung eines Fingerabdrucksensors die Einfügung eines im System gespeicherten Passwortes für einen eingegebenen Nutzernamen freigeben. Diese Funktionalität wird aber in der Regel vom System bereitgestellt, der Autor hat darauf keinen Einfluss. Andere vom Autor gestaltbare Formen der Steuerung sind denkbar. Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. Manche Systeme halten den Schärfepunkt automatisch auf einer (biometrisch identifizierten) Person, wenn sich diese durch den Bildraum bewegt. Auch in Spielen auf Basis von Augmented Reality wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
+Zurzeit sind biometrische Aspekte der Steuerung 
+hauptsächlich die Nutzer-Identifizierung als ein Schritt innerhalb eines Prozesses. 
+So kann die Berührung eines Fingerabdrucksensors 
+die Einfügung eines im System gespeicherten Passwortes 
+für einen eingegebenen Nutzernamen freigeben. 
+Diese Funktionalität wird aber in der Regel vom System bereitgestellt, 
+der Autor hat darauf keinen Einfluss. 
+Andere vom Autor gestaltbare Formen der Steuerung sind denkbar. 
+Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. 
+Manche Systeme halten den Schärfepunkt 
+automatisch auf einer (biometrisch identifizierten) Person, 
+wenn sich diese durch den Bildraum bewegt. 
+Auch in Spielen auf Basis von Augmented Reality 
+wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine weitere nicht-biometrische oder biometrische Methode.
+Neben biometrischer Identifizierung oder Steuerung 
+gibt es mindestens eine weitere nicht-biometrische oder biometrische Methode.
 
 ==== Nicht erfüllt
 
-Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkmal möglich, es gibt keine Alternativen dazu.
+Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkmal möglich, 
+es gibt keine Alternativen dazu.
 
 == Quellen
 * Zurzeit keine Quellen. 
@@ -54,7 +90,9 @@ Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkma
 ____
 [.BLOCK_LANG_EN]
 --
-Where ICT uses biological characteristics, it shall not rely on the use of a particular biological characteristic as the only means of user identification or for control of ICT. 
+Where ICT uses biological characteristics, it shall not rely 
+on the use of a particular biological characteristic 
+as the only means of user identification or for control of ICT. 
 
 NOTE 1:
 Alternative means of user identification or for control of ICT could be non-biometric or biometric. 
