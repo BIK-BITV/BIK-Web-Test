@@ -97,5 +97,3 @@ telephony communication it will also need to support options a or b to ensure
 that RTT is supported over the telephony connection.
 --
 ____
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.3 "Interoperability")
