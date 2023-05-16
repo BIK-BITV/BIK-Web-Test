@@ -90,11 +90,4 @@ independently from general ICT speech is preferable for most users.
 That is possible when the audio file with spoken subtitle 
 is delivered in a separate audio track and mixed in the end users device.
 --
-
-=== ITU T.701.25 
-
-==== 
-
-[.BLOCK_LANG_EN]
---
 ____
