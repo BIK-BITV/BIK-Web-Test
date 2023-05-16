@@ -4,11 +4,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Web-Anwendungen mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für die Videoübertragung unterstützen. Üblicherweise entspricht dies 320x240 Pixel. Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
+Web-Anwendungen mit Videotelefonie-Funktion sollen mindestens 
+die QVGA-Auflösung für die Videoübertragung unterstützen. 
+Üblicherweise entspricht dies 320x240 Pixel. 
+Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
 
 == Warum wird das geprüft?
 
-Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig - zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen oder durch die zusätzliche Aufnahme von Mundbild, Mimik und Gestik eine simultane Verschriftlichung besser verstehen können.
+Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflösung besonders wichtig 
+- zum Beispiel für gehörlose Menschen, die über das Mundbild von Sprechern die Inhalte verstehen 
+oder durch die zusätzliche Aufnahme von Mundbild, Mimik und Gestik 
+eine simultane Verschriftlichung besser verstehen können.
 
 == Wie wird geprüft?
 
@@ -17,12 +23,12 @@ Für manche Menschen mit Behinderung ist ein Videobild mit ausreichender Auflös
 Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
 
 === 2. Prüfung
-
-. Die technische Dokumentation der Web-App konsultieren.  Wird mindestens eine QVGA (320x240 Pixel) angegeben?
-. Testübertragung: Den visuellen Eindruck prüfen. Ist die Angabe in der App-Dokumentation plausibel?
+. Die technische Dokumentation der Web-App konsultieren.  
+Wird mindestens eine QVGA (320x240 Pixel) angegeben?
+. Testübertragung: Den visuellen Eindruck prüfen. 
+Ist die Angabe in der App-Dokumentation plausibel?
 
 === 3. Hinweise
-
 Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein
 Issue auf GitHub].
 
