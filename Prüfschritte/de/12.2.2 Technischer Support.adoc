@@ -38,6 +38,9 @@ Ein allgemeiner Kontakt zum Anbieter des Webangebots wird im Sinne des Prüfschr
 
 Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt. Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[Issue hinterlassen].
 
+== Quellen
+* Zurzeit keine Quellen.
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
