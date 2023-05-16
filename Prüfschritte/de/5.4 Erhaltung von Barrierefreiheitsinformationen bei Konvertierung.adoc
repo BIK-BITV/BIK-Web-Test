@@ -45,7 +45,7 @@ Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des 
 
 [.BLOCK_LANG_EN]
 ==== 5.4 Preservation of accessibility information during conversion
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT converts information or communication it shall preserve all
