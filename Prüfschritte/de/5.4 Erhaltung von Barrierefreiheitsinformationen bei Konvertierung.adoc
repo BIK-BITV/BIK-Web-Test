@@ -42,7 +42,7 @@ Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des 
 
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-____
+
 [.BLOCK_LANG_EN]
 ==== 5.4 Preservation of accessibility information during conversion
 
