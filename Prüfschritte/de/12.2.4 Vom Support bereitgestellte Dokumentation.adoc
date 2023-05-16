@@ -55,6 +55,8 @@ Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) de
 
 Die webbasierte Dokumentation erfüllt eine oder mehrere Anforderungen aus Kapitel 9 (Web) nicht.
 
+== Quellen
+* Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
 
