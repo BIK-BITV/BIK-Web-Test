@@ -47,17 +47,15 @@ Je nach den gegebenen Voraussetzungen (siehe "3. Hinweise") muss die Dokumentati
 
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-12.1.2 Accessible documentation
-
 == Quellen
+* Zurzeit keine Quellen. 
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 12.1.2 Accessible documentation
-
+==== 12.1.2 Accessible documentation
+____
 [.BLOCK_LANG_EN]
 --
 Product documentation provided with the ICT shall be made available in at least one of the following electronic formats:
@@ -77,5 +75,4 @@ Where documentation is incorporated into the ICT, the documentation falls under 
 NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to enhancing accessibility.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.1.2 "Accessible documentation")
+____
