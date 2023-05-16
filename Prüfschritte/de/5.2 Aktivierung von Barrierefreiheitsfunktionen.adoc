@@ -66,19 +66,14 @@ Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-5.2 "Activation of accessibility features"
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 5.2 Activation of accessibility features
-
+==== 5.2 Activation of accessibility features
+____
 [.BLOCK_LANG_EN]
 Where ICT has documented accessibility features, it shall be possible to
 activate those documented accessibility 
 features that are required to meet a specific need without relying on a method
 that does not support that need.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 5.2)
+____
