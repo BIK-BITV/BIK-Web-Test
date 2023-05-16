@@ -35,6 +35,7 @@ Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die 
 Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 * https://en.wikipedia.org/wiki/Real-time_text[Wikipedia-Eintrag für Real-Time Text]
 
 == Einordnung des Prüfschritts
