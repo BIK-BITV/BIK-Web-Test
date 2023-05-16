@@ -26,24 +26,17 @@ Um diesen Prüfschritt zu erfüllen, ist es sicherlich notwendig, verschiedene K
 * Videotelefonie
 
 === 3. Hinweise
-
 Ein Ansatz für die Prüfung wäre, festzustellen, ob eine Kontaktmöglichkeit zum Support über mindestens zwei verschiedene Kommunikations-Kanäle (z.B. Telefon und E-Mail) zur Verfügung steht.
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[Hinweise zu diesem Prüfschritt hinterlassen].
 
 == Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-12.2.3 Effective communication
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 12.2.3 Effective communication
-
+==== 12.2.3 Effective communication
+____
 [.BLOCK_LANG_EN]
 ICT support services shall accommodate the communication needs of individuals
 with disabilities either directly or through a referral point. 
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.2.3 "Effective communication")
+____
