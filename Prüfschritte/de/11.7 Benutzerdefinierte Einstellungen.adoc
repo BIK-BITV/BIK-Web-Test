@@ -63,17 +63,15 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt
 ** Unterschiedliche Zustände von Formularelementen (z. B. Auswahlschalter oder Kontollkästchen) sind nicht mehr unterscheidbar.
 ** Fließtext wird nicht vergrößert dargestellt.
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.7 User preferences
-
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.7 User preferences
-
+==== 11.7 User preferences
+____
 [.BLOCK_LANG_EN]
 --
 Where Web-App is not designed to be isolated from its platform, and provides
@@ -94,5 +92,4 @@ This does not preclude the Web-App from having additional values for a
 setting as long as there is one mode where the application will follow the
 system settings even if more restricted.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.7 "User preferences")
+____
