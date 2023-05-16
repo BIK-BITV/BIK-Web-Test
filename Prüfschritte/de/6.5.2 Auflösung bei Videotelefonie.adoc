@@ -26,17 +26,15 @@ Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
 Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein
 Issue auf GitHub].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.5.2 Resolution
-
 == Quellen
+*Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.5.2 Resolution
-
+==== 6.5.2 Resolution
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT that provides two-way voice communication includes real-time video
@@ -44,5 +42,4 @@ functionality, the ICT:
 
 * shall support at least QVGA resolution
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.5.2 "Resolution")
+____
