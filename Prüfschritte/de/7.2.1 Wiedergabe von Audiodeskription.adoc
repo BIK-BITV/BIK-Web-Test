@@ -42,8 +42,10 @@ erfüllt ist, ist 7.2.1 "Wiedergabe von Audiodeskription" (dieser Prüfschritt) 
 
 * Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
 
-== Einordnung des Prüfschritts
+== Quellen
+* Zurzeit keine Quellen.
 
+== Einordnung des Prüfschritts
 === Abgrenzung zu anderen Prüfschritten
 
 Dieser Prüfschritt fordert, dass in Fällen, wo für Videos Versionen mit Audiodeskription bereit gestellt werden, Bedienelemente zum Ein- und Ausschalten der Audiodeskription angeboten werden.
@@ -56,15 +58,11 @@ wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermi
 
 Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskripiton ist nicht vorhanden), ist dieser Prüfschritt nicht anwendbar. 7.2.1 ist nur anwendbar, wenn eine Audiodeskription angeboten wird.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.2.1 Audio Description Playback
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 7.2.1 Audio description playback
-
+==== 7.2.1 Audio description playback
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall provide a mechanism to select and play available audio description to the default audio channel. 
@@ -77,5 +75,4 @@ In such cases, the video content can include the audio description as one of the
 NOTE 2:
 Audio descriptions in digital media sometimes include information to allow descriptions that are longer than the gaps between dialogue. Support in digital media players for this "extended audio description" feature is useful, especially for digital media that is viewed personally.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.2.1 "Audio description playback")
+____
