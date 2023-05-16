@@ -26,22 +26,19 @@ Für die Prüfung muss die Web-Anwendung ggf. auf zwei Geräten geöffnet werden
 . Anruf von einem zweiten Gerät tätigen
 . Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufende automatisch angesagt oder sind die Informationen über den Anrufenden im Browser für den Screenreader ohne Umwege auslesbar?
 . Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
-  
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.3 Caller ID
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.3 Caller ID
-
+==== 6.3 Caller ID
+____
 [.BLOCK_LANG_EN]
 Where ICT provides caller identification or similar telecommunications
 functions, the caller identification and similar telecommunications functions
 shall be available in text form as well as being programmatically
 determinable, unless the functionality is closed.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.3 "Caller ID")
+____
