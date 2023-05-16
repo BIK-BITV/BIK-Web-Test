@@ -25,7 +25,7 @@ Die Dokumentation der Web-Anwendung oder den Anbieter der Web-Anwendung konsulti
 
 * Bei der Beurteilung der Standards-Unterstützung muss die aktuelle Entwicklung der Standards berücksichtigt werden. Ggf. sind mittlerweile neuere Standards für die Kommunikationsmethode gängig.
 
-EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standards:
+EN 301 549 V3.2.1 nennt folgende je nach technischer Umsetzung anwendbare Standards:
 
 * Die  Web-Anwendung kommuniziert über das öffentliche Telefonnetz:
 Die Empfehlungen ITU-T V.18 [i.23] oder dessen Text-Telefonie-Standards in
@@ -46,15 +46,11 @@ und fehlerhaft übertragenen Zeichen.
   
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-* 6.2.3 Interoperability
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.3 Interoperability
-
+==== 6.2.3 Interoperability
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT with RTT functionality interoperates with other ICT with RTT
@@ -100,5 +96,6 @@ proprietary or non-proprietary, if the conferencing system also offers
 telephony communication it will also need to support options a or b to ensure
 that RTT is supported over the telephony connection.
 --
+____
 
 (Aus EN 301 549 V3.1.1 Abschnitt 6.2.3 "Interoperability")
