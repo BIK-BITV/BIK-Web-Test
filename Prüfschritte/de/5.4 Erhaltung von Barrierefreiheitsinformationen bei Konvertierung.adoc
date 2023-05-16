@@ -44,6 +44,7 @@ Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 ____
 [.BLOCK_LANG_EN]
+--
 ==== 5.4 Preservation of accessibility information during conversion
 
 [.BLOCK_LANG_EN]
@@ -51,4 +52,5 @@ Where ICT converts information or communication it shall preserve all
 documented non-proprietary information that is provided for accessibility, to
 the extent that such information can be contained in or supported by the
 destination format.
+--
 ____
