@@ -12,7 +12,13 @@ Vorschläge zur Behebung dieser Fehler verfügbar sein.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist oder eine Autorfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z. B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext").
+Der Prüfschritt ist anwendbar, 
+wenn die Seite Teil eines Autorenwerkzeugs ist 
+oder eine Autorfunktion enthält (etwa eine Kommentarfunktion). 
+Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten 
+können aufgezeigt werden (z. B. "Bitte vergeben Sie eine Überschrift" 
+oder "Wenn Sie ein informationstragendes Bild einfügen, 
+vergeben Sie bitte einen passenden Alternativtext").
 
 === 2. Prüfung
 
