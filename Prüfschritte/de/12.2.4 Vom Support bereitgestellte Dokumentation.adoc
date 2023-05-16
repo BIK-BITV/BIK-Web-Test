@@ -58,15 +58,11 @@ Die webbasierte Dokumentation erfüllt eine oder mehrere Anforderungen aus Kapit
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-12.2.4 Accessible documentation
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 12.2.4 Accessible documentation
-
+==== 12.2.4 Accessible documentation
+____
 [.BLOCK_LANG_EN]
 --
 Documentation provided by support services shall be made available in at least
@@ -92,5 +88,4 @@ NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to
 enhancing accessibility.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.2.4 "Accessible documentation")
+____
