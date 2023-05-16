@@ -46,13 +46,9 @@ Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkma
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 5.3 Biometrics
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 5.3 Biometrics
-
+==== 5.3 Biometrics
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT uses biological characteristics, it shall not rely on the use of a particular biological characteristic as the only means of user identification or for control of ICT. 
@@ -67,5 +63,4 @@ specified biological characteristics.
 Examples of dissimilar biological characteristics are fingerprints, eye
 retinal patterns, voice, and face.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 5.3 "Biometrics")
+____
