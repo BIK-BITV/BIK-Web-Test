@@ -35,21 +35,18 @@ Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, sondern z. B. ein PDF
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-1.8.5 Templates
-
 == Quellen
+* Zurzeit keine Quellen. 
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.8.5 Templates
-
+==== 11.8.5 Templates
+____
 [.BLOCK_LANG_EN]
 When an authoring tool provides templates, at least one template that supports
 the creation of content that conforms to the requirements of clauses 9 (Web)
 or 10 (Non-web documents) as applicable shall be available and identified as
 such.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.5 "Templates")
+____
