@@ -45,8 +45,11 @@ können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
+[.BLOCK_LANG_EN]
 ==== 6.5.5 Visual indicator of audio with video
 ____
+[.BLOCK_LANG_EN]
+--
 Where ICT provides two-way voice communication, 
 and includes real-time video functionality, 
 the ICT shall provide a real-time visual indicator of audio activity.
@@ -56,4 +59,5 @@ or other type of on/off indicator, that flickers to reflect audio activity.
 
 NOTE 2: Without this indication a person 
 who lacks the ability to hear does not know when someone is talking.
+--
 ____
