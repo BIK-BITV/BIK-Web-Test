@@ -31,10 +31,14 @@ Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mob
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.4 Alternatives to voice-based services
-
+==== 6.4 Alternatives to voice-based services
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides real-time voice-based communication and also provides voice
@@ -51,5 +55,4 @@ NOTE 2:
 Solutions capable of handling audio, RTT and video media could satisfy the
 above requirement.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.4 "Alternatives to voice-based services")
+____
