@@ -33,12 +33,13 @@ Da die Prüfung eines Nicht-HTML-Formats nicht mit diesem Prüfverfahren erfolge
 === 4. Bewertung
 
 ==== Erfüllt
-
 Das Zielformat enthält alle Barrierefreiheits-Informationen des HTML-Ausgangsformats, die grundsätzlich unterstützt werden.
 
 ==== Nicht voll erfüllt
-
 Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des HTML-Ausgangsformats gehen bei der Konvertierung verloren.
+
+== Quellen
+* Zurzeit keine Quellen. 
 
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
