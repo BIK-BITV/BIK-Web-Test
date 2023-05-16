@@ -53,7 +53,7 @@ In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentiert
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 12.2.2 Information on accessibility and compatibility features
+==== 12.2.2 Information on accessibility and compatibility features
 ____
 [.BLOCK_LANG_EN]
 --
