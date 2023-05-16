@@ -4,28 +4,38 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Web-Angebot Videotelefonie unterstützt, soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
+Wenn das Web-Angebot Videotelefonie unterstützt, 
+soll sie eine Bildwiederholfrequenz (framerate) 
+von mindestens 20 Bildern pro Sekunde unterstützen. 
+Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
 
 == Warum wird das geprüft?
 
-Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, 
-die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. 
-Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.
+Eine ausreichende Bildwiederholfrequenz 
+ist besonders wichtig für Menschen mit Hörbehinderungen, 
+die Bildinformationen auswerten, etwa gehörlose Menschen, 
+die das Mundbild von Sprechenden lesen. 
+Auch die unterstützende Wahrnehmung von Mimik und Gestik 
+verlangt eine ausreichende Bildwiederholfrequenz.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Web-Angebot Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, 
+wenn das Web-Angebot Videotelefonie unterstützt.
 
 === 2. Prüfung
 
-Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Angaben 
-des Software-Herstellers mit den eigenen visuellen Eindrücken abgeglichen werden. 
+Zur Beurteilung der Konformität mit diesem Prüfschritt 
+müssen derzeit die Angaben  des Software-Herstellers 
+mit den eigenen visuellen Eindrücken abgeglichen werden. 
 Für die Prüfung muss das Web-Angebot auf zwei Geräten geöffnet werden.
 
-. Die unterstützte Bildwiederholfrequenz der Dokumentation des Web-Angebots entnehmen 
-oder vom Hersteller erfragen. Werden mindestens 20 Bilder pro Sekunde unterstützt?
+. Die unterstützte Bildwiederholfrequenz 
+der Dokumentation des Web-Angebots entnehmen 
+oder vom Hersteller erfragen. 
+Werden mindestens 20 Bilder pro Sekunde unterstützt?
 . Web-Angebot auf zwei Geräten öffnen
 . Videotelefonieverbindung zwischen den Geräten herstellen
 . Prüfen, ob das Bild flüssig dargestellt wird. 
@@ -33,11 +43,13 @@ Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?
 
 === 3. Hinweise
 
-Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde empfehlenswert, 
+Für die Videotelefonie ist eine Bildwiederholfrequenz 
+von 30 Bildern pro Sekunde empfehlenswert, 
 um eine flüssige Darstellung des Bildes zu gewährleisten.
 
 Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. 
-Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub 
+Hinweise zur Weiterentwicklung des Prüfschritts 
+können Sie auf GitHub 
 https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue] hinterlassen.
 
 == Quellen
