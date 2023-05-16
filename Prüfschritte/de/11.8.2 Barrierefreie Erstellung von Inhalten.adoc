@@ -42,17 +42,15 @@ Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können im BITV-Test
 
 Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-* 11.8.2 Accessible content creation
-
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.8.2 Accessible content creation
-
+==== 11.8.2 Accessible content creation
+____
 [.BLOCK_LANG_EN]
 --
 Authoring tools shall enable and guide the production of content that conforms
@@ -65,5 +63,4 @@ For example, a video editing tool may enable the creation of video files for
 distribution via broadcast television and the web, but authoring of caption
 files for multiple formats may be provided by a different tool.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.2 "Accessible content creation")
+____
