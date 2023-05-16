@@ -25,16 +25,11 @@ Der Prüfschritt ist anwendbar, wenn die Webanwendung eine Zwei-Wege-Sprachkommu
 . Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich in Erfahrung zu bringen. Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
 
 == Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.1 Audio bandwidth for speech
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.1 Audio bandwidth for speech
-
+==== 6.1 Audio bandwidth for speech
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides two-way voice communication, in order to provide good audio
@@ -50,5 +45,4 @@ Where codec negotiation is implemented, other standardized codecs such as
 Recommendation ITU-T G.722.2 [i.22] are sometimes used so as to avoid
 transcoding.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.1 "Audio bandwidth for speech")
+____
