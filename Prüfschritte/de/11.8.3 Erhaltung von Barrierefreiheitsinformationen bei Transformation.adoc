@@ -45,16 +45,14 @@ Auch wenn die Web-Anwendung lediglich die Struktur des Eingangsdokuments veränd
 Wenn Sie Hinweise zur Verbesserung der Prüfanleitung haben, können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.8.3 Preservation of accessibility information in transformations
-
 == Quellen
+* Zurzeit keine Quellen.
 
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+____
 [.BLOCK_LANG_EN]
-=== 11.8.3 Preservation of accessibility information in transformations
+==== 11.8.3 Preservation of accessibility information in transformations
 
 [.BLOCK_LANG_EN]
 --
@@ -71,6 +69,4 @@ NOTE 2:
 Re-coding transformations are transformations in which the technology used to
 encode the content is changed.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.3 "Preservation of accessibility
-information in transformations")
+____
