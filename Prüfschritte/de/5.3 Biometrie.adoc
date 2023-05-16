@@ -42,6 +42,9 @@ Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine weite
 
 Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkmal möglich, es gibt keine Alternativen dazu.
 
+== Quellen
+* Zurzeit keine Quellen. 
+
 == Einordnung des Prüfschritts 
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
