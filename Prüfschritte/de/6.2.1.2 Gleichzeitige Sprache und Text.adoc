@@ -29,18 +29,15 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation u
 
 * Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.2.1.2 Concurrent voice and text
-
-
 == Quellen
 
-[.BLOCK_LANG_EN]
-=== 6.2.1.2 Concurrent voice and text
 
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.1.2 Concurrent voice and text
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides a means for two-way voice communication and for users to
@@ -80,5 +77,4 @@ communication without the other and are sold as a unit for the voice
 communication function, the local and server-side components are considered a
 single product.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.2 "Concurrent voice and text")
+____
