@@ -69,7 +69,7 @@ sind die Untertitel nicht als akustische Ausgabe zugänglich.
 == Quellen
 * Empfehlungen für die Audio-Darstellung von Text in Videos, 
 einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
-ITU T.701.25  https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
+https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[ITU T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
 
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
