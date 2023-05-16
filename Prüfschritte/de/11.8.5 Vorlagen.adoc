@@ -4,10 +4,15 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Seite Teil eines Autorenwerkzeugs ist und Vorlagen bzw. Eingabemasken für die Dokumente, die
-es erstellt, anbietet, soll mindestens eine der angebotenen Vorlagen die Erstellung barrierefreier Web- oder Nicht-Web-Dokumente ermöglichen (je nach Dokumententyp).
+Wenn die Seite Teil eines Autorenwerkzeugs ist und Vorlagen 
+bzw. Eingabemasken für die Dokumente, die es erstellt, anbietet, 
+soll mindestens eine der angebotenen Vorlagen 
+die Erstellung barrierefreier Web- 
+oder Nicht-Web-Dokumente ermöglichen (je nach Dokumententyp).
 
-Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte Vorlagen eindeutig als solche zu identifizieren sein.
+Falls es alternative Vorlagen gibt, 
+sollten für die Barrierefreiheit optimierte Vorlagen 
+eindeutig als solche zu identifizieren sein.
 
 == Warum wird das geprüft?
 
@@ -17,18 +22,34 @@ Falls es alternative Vorlagen gibt, sollten für die Barrierefreiheit optimierte
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Teil eines Autorenwerkzeugs ist und
-Vorlagen (z. B. Eingabemasken) für die Dokumente, die es erstellt, anbietet.
-Im BITV-Test können lediglich webbasierte Autorenwerkzeuge getestet werden, die eine Ausgabe im Web-Format erzeugen (z. B. ein Content Management System, dessen Web-Output sich mit dem BITV-Test überprüfen lässt).
-Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, sondern z. B. ein PDF erzeugen, ist dieser Prüfschritt nur in Kombination mit einer zusätzlichen Prüfung der Nicht-Web-Ausgabe in einem anderen Verfahren anwendbar.
+Der Prüfschritt ist anwendbar, 
+wenn die Seite Teil eines Autorenwerkzeugs ist 
+und Vorlagen (z. B. Eingabemasken) für die Dokumente, 
+die es erstellt, anbietet.
+Im BITV-Test können lediglich webbasierte Autorenwerkzeuge getestet werden, 
+die eine Ausgabe im Web-Format erzeugen 
+(z. B. ein Content Management System, 
+dessen Web-Output sich mit dem BITV-Test überprüfen lässt).
+Für webbasierte Autorenwerkzeuge, die keine HTML-Ausgabe, 
+sondern z. B. ein PDF erzeugen, 
+ist dieser Prüfschritt nur in Kombination 
+mit einer zusätzlichen Prüfung der Nicht-Web-Ausgabe 
+in einem anderen Verfahren anwendbar.
 
 === 2. Prüfung
 
 . Autorenwerkzeug öffnen
-. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen für die Erstellung von Inhalten anbietet.
-. Prüfen, ob bei Vorhandensein alternativer Vorlagen, welche die Erstellung barrierefreier Inhalte unterstützen, diese deutlich als solche markiert sind. (Wenn es nur eine Vorlage gibt, muss diese nicht extra als barrierefreiheits-unterstützend markiert sein).
-. Testausgaben mit der barrierefreiheits-unterstützenden Vorlage erstellen, ansonsten die Standardvorlage nutzen.
-. Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen).
+. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen 
+für die Erstellung von Inhalten anbietet.
+. Prüfen, ob bei Vorhandensein alternativer Vorlagen, 
+welche die Erstellung barrierefreier Inhalte unterstützen, 
+diese deutlich als solche markiert sind. 
+(Wenn es nur eine Vorlage gibt, 
+muss diese nicht extra als barrierefreiheits-unterstützend markiert sein).
+. Testausgaben mit der barrierefreiheits-unterstützenden Vorlage erstellen, 
+ansonsten die Standardvorlage nutzen.
+. Testausgaben auf Barrierefreiheit prüfen 
+(Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen).
 
 === 3. Hinweise
 
