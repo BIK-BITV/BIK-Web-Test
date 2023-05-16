@@ -40,10 +40,6 @@ Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht volls
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-12.2.2 Information on accessibility and compatibility features
-
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
@@ -51,11 +47,11 @@ In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentiert
 * Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem technischen Support auf verschiedene Weise kommuniziert werfen kann (z.B. per Telefon, Kontaktformular, E-Mail oder Chat).
 * Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
 
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 === 12.2.2 Information on accessibility and compatibility features
-
+____
 [.BLOCK_LANG_EN]
 --
 ICT support services shall provide information on the accessibility and
@@ -66,6 +62,4 @@ Accessibility and compatibility features include accessibility features that
 are built-in and accessibility features that provide compatibility with
 assistive technology.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.2.2 "Information on accessibility and
-compatibility features")
+____
