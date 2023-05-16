@@ -39,17 +39,16 @@ EN 301 549.
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein Issue eröffnen].
 
+== Quellen
+* Zurzeit keine Quellen. 
+
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.8.4 Repair assistance
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.8.4 Repair assistance
-
+==== 11.8.4 Repair assistance
+____
 [.BLOCK_LANG_EN]
 --
 If the accessibility checking functionality of an authoring tool can detect
@@ -61,5 +60,4 @@ NOTE:
 This does not preclude automated and semi-automated repair which is possible
 (and encouraged) for many types of content accessibility problems. 
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.4 "Repair assistance")
+____
