@@ -31,17 +31,15 @@ Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekund
 
 Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue] hinterlassen.
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.5.3 Framerate
-
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.5.3 Framerate
-
+==== 6.5.3 Framerate
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT that provides two-way voice communication includes real-time video
@@ -49,5 +47,4 @@ functionality, the ICT:
 
 * shall support a frame rate of at least 20 frames per second (FPS)
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.5.3 "Framerate")
+____
