@@ -57,15 +57,15 @@ Bedienelemente für Barrierefreiheits-Funktionen sollen grundsätzlich alle Barr
 === 4. Bewertung
 
 ==== Erfüllt
-
 Die Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
 
 ==== Nicht voll erfüllt
-
 Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen gegen Anforderungen der EN.
 
-== Einordnung des Prüfschritts
+== Quellen
+* Zurzeit keine Quellen. 
 
+== Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
