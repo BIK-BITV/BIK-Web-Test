@@ -4,27 +4,46 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Videoplayer Video-Inhalte mit zugehörigen Audioinhalten abspielt, befinden sich die Bedienelemente zur Aktivierung der Untertitelung und Audiodeskription auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle (z. B. Abspielen, Pause, Lautstärke etc.).
+Wenn ein Videoplayer Video-Inhalte mit zugehörigen Audioinhalten abspielt, 
+befinden sich die Bedienelemente zur Aktivierung der Untertitelung 
+und Audiodeskription auf der gleichen Interaktionsebene 
+wie die Bedienelemente zur Wiedergabekontrolle 
+(z. B. Abspielen, Pause, Lautstärke etc.).
 
 == Warum wird das geprüft?
 
-Videoplayer bieten den Menschen eine Vielzahl von Interaktionsmöglichkeiten. Am wichtigsten sind dabei die Bedienelemente zur Wiedergabekontrolle. Sie sind daher prominent auf der obersten Interaktionsebene des Players positioniert. Bedienelemente für das Ein- und Ausblenden der Untertitel bzw. das Starten und Beenden der Audiodeskription sind für Menschen, die diese Funktion benötigen, ebenfalls wichtige Steuerelemente. Sie sollen leicht gefunden werden und müssen daher ebenfalls auf der obersten Interaktionsebene positioniert sein.
+Videoplayer bieten den Menschen eine Vielzahl von Interaktionsmöglichkeiten. 
+Am wichtigsten sind dabei die Bedienelemente zur Wiedergabekontrolle. 
+Sie sind daher prominent 
+auf der obersten Interaktionsebene des Players positioniert. 
+Bedienelemente für das Ein- und Ausblenden der Untertitel 
+bzw. das Starten und Beenden der Audiodeskription 
+sind für Menschen, die diese Funktion benötigen, 
+ebenfalls wichtige Steuerelemente. 
+Sie sollen leicht gefunden werden 
+und müssen daher ebenfalls auf der obersten Interaktionsebene positioniert sein.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite ein Videoplayer eingebunden ist, der Video-Inhalte mit zugehörigen Audioinhalten abspielt und wenn Untertitel und / oder 
-Audiodeskription angeboten werden.
+Der Prüfschritt ist anwendbar, 
+wenn auf der Webseite ein Videoplayer eingebunden ist, 
+der Video-Inhalte mit zugehörigen Audioinhalten abspielt 
+und wenn Untertitel und / oder Audiodeskription angeboten werden.
 
 === 2. Prüfung
 
 . Das Video mit dem auf der Website eingebundenen Player abspielen.
-. Prüfen, ob Bedienelemente zur Anzeige von Untertiteln und / oder Audiodeskription auf gleicher Ebene wie die Bedienelemente zur Wiedergabekontrolle (z. B. Abspielen, Pause, Lautstärke etc.) angeboten werden.
+. Prüfen, ob Bedienelemente zur Anzeige von Untertiteln 
+und / oder Audiodeskription auf gleicher Ebene 
+wie die Bedienelemente zur Wiedergabekontrolle 
+(z. B. Abspielen, Pause, Lautstärke etc.) angeboten werden.
 
 === 3. Hinweise
 
-Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription (dieser Prüfschritt) erfüllt ist, ist
+Wenn 7.3 Bedienelemente für Untertitel und Audiodeskription 
+(dieser Prüfschritt) erfüllt ist, ist
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
 <<7.1.1 Wiedergabe von Untertiteln.adoc#,7.1.1 Wiedergabe von Untertiteln>>
@@ -43,13 +62,16 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
 
 ==== Nicht erfüllt:
 
-* Die Bedienelemente zur Aktivierung der Untertitel und Audiodeskription sind nicht auf der gleichen Interaktionsebene positioniert wie die Bedienelemente zur Wiedergabekontrolle.
+* Die Bedienelemente zur Aktivierung der Untertitel und Audiodeskription 
+sind nicht auf der gleichen Interaktionsebene positioniert 
+wie die Bedienelemente zur Wiedergabekontrolle.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei diesem Prüfschritt geht es darum, *wo* die Bedienelemente für Untertitel und Audiodeskription positioniert sind.
+Bei diesem Prüfschritt geht es darum, 
+*wo* die Bedienelemente für Untertitel und Audiodeskription positioniert sind.
 In Prüfschritt
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
@@ -59,13 +81,9 @@ geht es darum, dass überhaupt entsprechende Bedienelemente vorhanden sind.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-7.3 User controls for captions and audio description
-
-=== Quellen
-
 [.BLOCK_LANG_EN]
 ==== 7.3 User controls for captions and audio description
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT primarily displays materials containing video with associated audio
@@ -88,6 +106,4 @@ NOTE 3:
 It is best practice for ICT to include additional controls enabling the user to
 select whether captions and audio description are turned on or off by default.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.3 "User controls for captions and audio
-description")
+____
