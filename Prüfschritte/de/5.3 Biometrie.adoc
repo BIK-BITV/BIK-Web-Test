@@ -44,7 +44,7 @@ Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkma
 
 == Einordnung des Prüfschritts 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 5.3 Biometrics
