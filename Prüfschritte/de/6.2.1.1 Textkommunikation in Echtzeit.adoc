@@ -25,6 +25,14 @@ Der Prüfschritt ist anwendbar, wenn das zu testende Webangebot Zwei-Wege-Kommun
 
 Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
   
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
+* https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
+* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
+Data Channels (PDF)]
+* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
+
 == Einordnung des Prüfschritts 
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
@@ -54,11 +62,3 @@ For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
 ____
-
-== Quellen
-
-* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
-* https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
-* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
-Data Channels (PDF)]
-* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
