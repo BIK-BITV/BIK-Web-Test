@@ -46,7 +46,7 @@ Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel als fe
 Es wird eine Untertitel-Datei angeboten, der Player bietet jedoch keine Möglichkeit, diese anzuzeigen.
 
 == Quellen
-* Zurzeit keine Quellen.
+* https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
 
 == Einordnung des Prüfschritts
 === Abgrenzung zu anderen Prüfschritten
@@ -66,7 +66,7 @@ Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen,
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 7.1.1 Captioning playback
+==== 7.1.1 Captioning playback
 ____
 [.BLOCK_LANG_EN]
 --
@@ -87,5 +87,3 @@ If a Braille device is connected, the ICT should provide an option to display
 captions on the Braille device.
 --
 ____
-== Quellen
-* https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
