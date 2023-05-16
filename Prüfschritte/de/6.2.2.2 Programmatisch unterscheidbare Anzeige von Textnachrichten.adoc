@@ -50,18 +50,15 @@ Die Eingaben des Nutzers selbst snd von empfangenen Echtzeit-Texteingaben andere
 
 Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichkeit, programmatisch zwischen eigenen und fremden Eingaben zu unterscheiden.
 
-== Einordnung des Prüfschritts
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
+== Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-* 6.2.2 "Display of RTT"
-* 6.2.2.2 Programmatically determinable send and receive direction
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 6.2.2.2 Programmatically determinable send and receive direction
-
+==== 6.2.2.2 Programmatically determinable send and receive direction
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT has RTT send and receive capabilities, the send/receive direction of
@@ -72,6 +69,4 @@ NOTE:
 This enables screen readers to distinguish between incoming text and outgoing
 text when used with RTT functionality.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.2 "Programmatically determinable send
-and receive direction")
+____
