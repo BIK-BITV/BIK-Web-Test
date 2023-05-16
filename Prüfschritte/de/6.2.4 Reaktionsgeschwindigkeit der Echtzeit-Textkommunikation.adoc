@@ -34,17 +34,15 @@ Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die 
 
 Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.2.4 RTT responsiveness
-
 == Quellen
+* https://en.wikipedia.org/wiki/Real-time_text[Wikipedia-Eintrag für Real-Time Text]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.4 RTT responsiveness
-
+==== 6.2.4 RTT responsiveness
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT utilises RTT input, that RTT input shall be transmitted to the ICT
@@ -71,9 +69,4 @@ characters are generated more slowly than 1 per 500 ms.
 NOTE 3:
 A delay of 300 ms, or less, produces a better impression of flow to the user.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.4 "RTT responsiveness")
-
-=== Wikipedia-Eintrag für Real-Time Text 
-
-https://en.wikipedia.org/wiki/Real-time_text
+____
