@@ -32,11 +32,11 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunika
 == Einordnung des Prüfschritts nach der EN 301 549 V3.1.1
 
 == Einordnung des Prüfschritts
-== Einordnung des Prüfschritts nach EN 301 549
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.2.4 Visual indicator of Audio with RTT
-
+==== 6.2.2.4 Visual indicator of Audio with RTT
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides two-way voice communication, and has RTT capabilities, the
@@ -52,5 +52,4 @@ NOTE 2:
 Without this indication a person who lacks the ability to hear does not know
 when someone is talking.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.4 "Visual indicator of Audio with RTT")
+____
