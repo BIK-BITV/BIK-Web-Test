@@ -200,6 +200,15 @@ sie richtig aufgebaut und linear nutzbar sind.
 * Spalten- und Zeilenüberschriften sind nicht korrekt mit `th` (oder entsprechenden ARIA-Rollen)
 ausgezeichnet.
 
+== Quellen
+
+* W3C Web Accessibility Initiative: https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
+* ARIA Authoring Practices Guide (APG): https://www.w3.org/WAI/ARIA/apg/patterns/table/[
+Table pattern] (W3C)
+* https://codepen.io/Wildebrew/pen/gBKdVb[Synthetic tables built with ARIA] (Birkir Gunnarsson, codepen). Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle.
+* https://adrianroselli.com/2017/11/a-responsive-accessible-table.html[A Responsive Accessible Table] (Adrian Roselli, 2017)
+* https://adrianroselli.com/2019/09/table-with-expando-rows.html[Table with Expando Rows]. (Adrian Roselli, 2019). The article offers an implementation solution for a common pattern where rows are hidden until the user opts to show them.
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -250,16 +259,6 @@ ausgezeichnet.
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[
   F92: Failure of Success Criterion 1.3.1 due to the use of role presentation
   on content which conveys semantic information]
-
-== Quellen
-
-* W3C Web Accessibility Initiative: https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
-* ARIA Authoring Practices Guide (APG): https://www.w3.org/WAI/ARIA/apg/patterns/table/[
-Table pattern] (W3C)
-* https://codepen.io/Wildebrew/pen/gBKdVb[Synthetic tables built with ARIA] (Birkir Gunnarsson, codepen). Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle.
-* https://adrianroselli.com/2017/11/a-responsive-accessible-table.html[A Responsive Accessible Table] (Adrian Roselli, 2017)
-* https://adrianroselli.com/2019/09/table-with-expando-rows.html[Table with Expando Rows]. (Adrian Roselli, 2019). The article offers an implementation solution for a common pattern where rows are hidden until the user opts to show them.
-
 
 == Fragen zu diesem Prüfschritt
 
