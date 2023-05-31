@@ -88,7 +88,8 @@ Die Mindestanforderung: Offenkundige, unverzichtbare und visuell hervorgehobene 
 
 ==== 2.4 Prüfung von mit ARIA umgesetzten Tabellen
 
-* Prüfen, ob InhaLte; die sichbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
+* Prüfen, ob Inhalte, die sichtbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu das https://www.w3.org/WAI/ARIA/apg/patterns/table/[
+APG Table pattern].
 
 === 3. Hinweise
 
