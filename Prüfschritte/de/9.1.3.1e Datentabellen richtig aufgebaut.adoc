@@ -95,8 +95,8 @@ APG Table pattern].
 
 ==== 3.1 Auszeichnung von zweideutigen Zellen
 
-Die Auszeichnung von Zellen die zugleich Überschriften und Daten enthalten mit
-`td` und dem ``scope``-Attribut ist in HTML5 nicht mehr erlaubt.
+Die Auszeichnung von Zellen, die zugleich Überschriften und Daten enthalten, mit
+`td` und dem `scope`-Attribut ist in HTML5 nicht mehr erlaubt.
 
 ==== 3.2 Woran erkennt man Zeilenüberschriften?
 
