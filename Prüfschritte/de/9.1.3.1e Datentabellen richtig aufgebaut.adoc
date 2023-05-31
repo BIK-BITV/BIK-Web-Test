@@ -258,7 +258,7 @@ ausgezeichnet.
 * https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial] (W3C)
 * https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table] (W3C)
 * https://codepen.io/Wildebrew/pen/gBKdVb[Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle] (Birkir Gunnarsson, codepen)
-* https://adrianroselli.com/2019/09/table-with-expando-rows.html[Table with Expando Rows]. (Adrian Roselli, 2019). The article offers implementation solution for a common pattern is where rows are hidden until the user opts to show them.
+* https://adrianroselli.com/2019/09/table-with-expando-rows.html[Table with Expando Rows]. (Adrian Roselli, 2019). The article offers an implementation solution for a common pattern where rows are hidden until the user opts to show them.
 
 
 == Fragen zu diesem Prüfschritt
