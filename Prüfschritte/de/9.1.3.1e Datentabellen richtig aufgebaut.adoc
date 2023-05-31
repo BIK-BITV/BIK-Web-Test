@@ -68,21 +68,21 @@ Man nimmt eine beliebige Zelle und liest sie zusammen mit den zugehörigen Spalt
 
 Ist die Bedeutung der Zelle so verständlich?
 
-Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger Inhalt vorhanden, sind Zellen hervorgehoben? Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden Überschriften benutzbar sind. Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und (bei richtiger Auszeichnung) auch per Screenreader benutzbar.
+Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger Inhalt vorhanden, sind Zellen hervorgehoben?  Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise,  unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden Überschriften benutzbar sind. Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und (bei richtiger Auszeichnung) auch per Screenreader benutzbar.
 
 ==== 2.3 Prüfung der Auszeichnung von nativen Tabellen:
 
-* Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] laden.
+* Seite im Chrome- oder Firefox-Browser laden.
 * Das
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
 Tables bookmarklet] aufrufen. Tabellen-Auszeichnungen werden jetzt angezeigt.
 * Prüfen, ob alle Spalten- und Zeilenüberschriften korrekt mit `th`
 ausgezeichnet sind.
-* Das ``summary``-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
+* Das `summary`-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
 mehr erlaubt.
 Falls in HTML5-Dokumenten eine Beschreibung der Tabelle
-bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
+bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, 
+wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
 
 Die Mindestanforderung: Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis <<3.2 Woran erkennt man Zeilenüberschriften?>>).
 
