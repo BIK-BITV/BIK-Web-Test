@@ -4,11 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Webseite Funktionen für die Barrierefreiheit bereithält, die
-spezielle Bedürfnisse von Nutzern erfüllt, soll die Aktivierung dieser
+Wenn die Webseite dokumentierte Funktionen für die Barrierefreiheit bereithält, die
+spezielle Bedürfnisse von Nutzern erfüllen, soll die Aktivierung dieser
 Funktionen für diese Nutzergruppe barrierefrei möglich sein.
 Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
-sie unterstützen soll, selbstständig aktivierbar sein soll.
+sie unterstützen soll, selbstständig aktivierbar sein soll. In der Regel ist dies der Fall, wennn die Funktion - etwa ein Kontrastumschalter oder eine Icon-basierter Link zu einer Version in leichter Sprache - alle übrigen Anforderungen der EN 301 549 erfüllt.
+
+Die Anforderung 5.2 beschränkt die Prüfung auf Funktionen, die dokumentiert sind, also etwa auf Hilfeseiten oder in der Erklärung zur barrierefreiheit benannt bzw. eräutert sind.
 
 Beispiele für Barrierefreiheitsfunktionen:
 
@@ -38,15 +40,15 @@ die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite 
-spezielle Barrierefreiheits-Funktionen bereithält 
-(hierfür müssen bei Webanwendungen auch die Einstellungen der Web-App überprüft werden).
-Nicht berücksichtigt werden systemseitige Bedienungshilfen 
-(z. B. vom Browser oder Betriebssystem).
+spezielle Barrierefreiheits-Funktionen bereithält, 
+die im Angebot selbst, etwa in den Einstellungen, 
+oder in einer zur Verfügung gestellen technischen Dokumentation dokumentiert sind.
+Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser oder Betriebssystem).
 
 === 2. Prüfung
 
 . Webseite aufrufen.
-. Falls Barrierefreiheitsfunktionen angeboten werden:
+. Falls dokumentierte Barrierefreiheitsfunktionen angeboten werden:
 +
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe identifizierbar?
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe selbstständig aktivierbar?
