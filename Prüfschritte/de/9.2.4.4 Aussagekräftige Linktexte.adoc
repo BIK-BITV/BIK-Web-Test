@@ -57,7 +57,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 * Bei verlinkten Grafiken ist der Linktext der Wert des `alt`-Attributs des ``img``-Elements. Der Linktext kann auch aus dem ``alt``-Text einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
 * Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten ``li``-Element einer Liste werden akzeptiert, wenn die Bedeutung
   aus dem programmatisch ermittelbaren Kontext hervorgeht. Dazu gehört der den Link einschließende Absatz oder Listenpunkt oder auch die vorangehende Überschrift. 
-* Wenn zusätzlicher, per CSS unsichtbar gemachter Linktext mit `display:none` versteckt wird, ist er programmatisch nicht ermittelbar und verbessert nicht die Ausagekraft des Links: dieser Text wird von Screenreadern ignoriert.
+* Wenn zusätzlicher, per CSS unsichtbar gemachter Linktext mit `display:none` versteckt wird, ist er programmatisch nicht ermittelbar und verbessert nicht die Aussagekraft des Links: dieser Text wird von Screenreadern ignoriert.
 * Das ``title``-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet.
 
 === 4. Bewertung
