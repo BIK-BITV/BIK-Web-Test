@@ -170,7 +170,7 @@ deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von
 selbst versteht.
 Ein typisches Beispiel dafür sind Preislisten: in der linken
 Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten
-Spalte steht nicht nur die Betrag, sondern auch das Währungszeichen.
+Spalte steht nicht nur der Betrag, sondern auch das Währungszeichen.
 
 Für blinde und sehbehinderte Nutzende _kann_ der Umgang mit solchen Tabellen
 schwierig sein.

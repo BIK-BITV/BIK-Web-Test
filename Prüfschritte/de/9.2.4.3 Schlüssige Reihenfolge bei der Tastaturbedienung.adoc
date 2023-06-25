@@ -20,7 +20,7 @@ Manche Seiten präsentieren mittels JavaScript dynamische Inhalte. Rückmeldunge
 
 Werden weitere Elemente über DOM-Scripting in den Quellcode einer Seite dynamisch eingefügt (d.h. ohne dass die Seite neu lädt), soll diese Einfügung *unterhalb* des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
 
-Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist oft bei Modalen Dialogen der Fall), müssen Scripte für ein sinnvolles Fokusmanagment sorgen und damit eine sinnvolle Fokusreihenfolge gewährleisten.
+Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist oft bei Modalen Dialogen der Fall), müssen Scripte für ein sinnvolles Fokusmanagement sorgen und damit eine sinnvolle Fokusreihenfolge gewährleisten.
 
 == Wie wird geprüft?
 

@@ -66,15 +66,15 @@ Dadurch wird in der Regel der Aufruf des Links oder der Funktion
 === 3. Hinweise
 
 Es ist in der Regel nicht notwendig, jedes einzelne Bedienelement aufzurufen,
-wenn eine stichprobenartige Prüfung zeigt, das die Umsetzung gleichartig
+wenn eine stichprobenartige Prüfung zeigt, dass die Umsetzung gleichartig
 ist.
 Für ein Menü etwa reicht es dann, bei jeder Art von Menüeintrag (etwa
 Hauptmenü- und Untermenü-Einträge) ein Element zu testen.
 Das Gleiche gilt für Fließtextlinks.
 
 Es kann bei der Prüfung zum Aufruf von Funktionen des Browsers kommen (etwa:
-ignoriert werrden.
 ein Kontextmenü wird angezeigt). Dies ist nicht Teil der Prüfung und sollte
+ignoriert werden.
 
 Als Zeiger-Down-Events gelten ``mousedown``, `touchstart` und ``pointerdown``.
 

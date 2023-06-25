@@ -536,7 +536,7 @@ als hinreichend bewertet werden.
 
 Auf der Website ist das Firmenlogo abgebildet. 
 Reicht es aus, wenn im Alternativtext steht, dass da das Firmenlogo abgebildet
-ist Oder sollte es auch beschrieben werden?
+ist oder sollte es auch beschrieben werden?
 
 Auch für einen blinden Besucher kann das Aussehen des Logos interessant sein.
 Er unterhält sich mit Sehenden und weiß dann, wovon die Rede ist.

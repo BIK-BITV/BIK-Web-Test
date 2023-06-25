@@ -51,7 +51,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 . Das Video im auf der Website eingebundenen Player abspielen.
 . Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
-. Gibt es wichtige informationstragende Bildinhalte, die nicht in der Tonspur auftauchen und für die es keine zusätzliche Audiopdeskription gibt?
+. Gibt es wichtige informationstragende Bildinhalte, die nicht in der Tonspur auftauchen und für die es keine zusätzliche Audiodeskription gibt?
 
 ==== 2.2 Volltextalternative prüfen
 
@@ -73,7 +73,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 ==== Nicht voll erfüllt
 
-Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte
+Es wird keine Audiodeskription angeboten, informationstragende Bildinhalte
 sind nicht vollständig in der angebotenen Volltextalternative enthalten.
 
 ==== Nicht erfüllt
@@ -150,7 +150,7 @@ Hinweise zur Wahl von Mediaelementen.
 * http://terrillthompson.com/blog/813[
   My Audio Description Talk @ CSUN]
 
-== Fragen zu diesem Prüfschrtt
+== Fragen zu diesem Prüfschritt
 === Was sind "wichtige informationstragende Bildinhalte"? 
 * Sehr häufig tauchen in Videos eingeblendete Texte auf, die etwa Sprecher oder Sprecherin bzw. deren Rolle benennen. Ohne diese Information ist für nicht-visuelle Nutzer unklar, wer da eigentlich spricht oder interviewt wird. Wenn es eher unwichtig ist, wie die Person heißt, die spricht (z.B. in Passantenbefragungen) sind solche Einblendungen nicht als "wichtige informationstragende Bildinhalte" zu betrachten.
-* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskrition oder Transkription der Bidinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.
+* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskription oder Transkription der Bildinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.

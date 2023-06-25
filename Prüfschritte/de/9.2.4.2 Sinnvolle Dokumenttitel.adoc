@@ -36,7 +36,7 @@ Falls Seiten Frames haben:
 === 3. Hinweise
 
 Der Dokumenttitel muss nicht den Pfad von der Startseite zur aktuellen Seite wiedergeben.
-Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste. Es ist daher sinnvoll, nicht nur den Inhalt der Seite, sondern auch das Webangebot selbst zu nennen. Die Nennung des Angebots ist in der Regel an zweiter Stelle sinnvoll: Der erste Teil benennt die Seite selbst, der zweite des Angebot und damit den Kontext der Seite.
+Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Liste. Es ist daher sinnvoll, nicht nur den Inhalt der Seite, sondern auch das Webangebot selbst zu nennen. Die Nennung des Angebots ist in der Regel an zweiter Stelle sinnvoll: Der erste Teil benennt die Seite selbst, der zweite das Angebot und damit den Kontext der Seite.
 
 === 4. Bewertung
 

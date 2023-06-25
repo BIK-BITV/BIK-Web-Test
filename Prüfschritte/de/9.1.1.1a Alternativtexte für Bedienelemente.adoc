@@ -234,7 +234,7 @@ Bei *verlinkten Abbildungen* gibt es folgende
    Beispiel Logo).
 * Das Ziel des Links wird über die Textalternative vermittelt (nur wenn der abgebildete Gegenstand
    unwichtig ist, zum Beispiel Illustration).
-* Der abgebildeten Gegenstandes und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
+* Der abgebildete Gegenstand und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
   
 Generell gilt: Alternativtexte sollen kurz sein.
 * Ausführliche Beschreibungen von Abbildungen sollen nicht im

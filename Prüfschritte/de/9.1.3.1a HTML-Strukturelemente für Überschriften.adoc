@@ -243,7 +243,7 @@ Der *Dokumenttitel* wird als Fenstertitel oder für Bookmarks verwendet.
 Wenn man mehrere Bookmarks in seiner Liste hat oder mehrere Fenster geöffnet
 sind, dann soll der Dokumenttitel dabei helfen, die richtige Seite auszuwählen.
 Was muss im Dokumenttitel stehen, damit das geht?
-Der Dokumentitel hat zwei Bestandteile.
+Der Dokumenttitel hat zwei Bestandteile.
 
 Der erste Bestandteil sagt einem, worum es auf der Seite geht.
 Er ist normalerweise für alle Dokumente eines Webangebotes unterschiedlich.

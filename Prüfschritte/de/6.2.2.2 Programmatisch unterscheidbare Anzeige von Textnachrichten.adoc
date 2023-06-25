@@ -70,7 +70,7 @@ sind programmatisch unterscheidbar, z.B. über einen Präfix.
 
 ==== Eher erfüllt
 
-Die Eingaben des Nutzers selbst snd von empfangenen Echtzeit-Texteingaben anderer Nutzer 
+Die Eingaben des Nutzers selbst von empfangenen Echtzeit-Texteingaben anderer Nutzer 
 sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
 
 ==== Nicht erfüllt

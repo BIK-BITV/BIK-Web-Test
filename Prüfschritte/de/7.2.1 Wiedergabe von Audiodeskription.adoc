@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, gibt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
 
-Für die Auswahl der Version mit Audiodeskription muss der eingesetzte Player ein entsprechendes AD-Bedienelement haben oder die Möglichkeit bieten, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren. Alternativ kann eine Version mit Audiodeskription auch im unmittelbaren Kontexts des Players angeboten werden.
+Für die Auswahl der Version mit Audiodeskription muss der eingesetzte Player ein entsprechendes AD-Bedienelement haben oder die Möglichkeit bieten, eine Tonspur mit Audiodeskription in den Spracheinstellungen zu aktivieren. Alternativ kann eine Version mit Audiodeskription auch im unmittelbaren Kontext des Players angeboten werden.
 
 == Warum wird das geprüft?
 
@@ -56,7 +56,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 wird hingegen geprüft, ob für Inhalte eines Videos, die nur über Bilder vermittelt werden, eine Audiodeskription vorhanden ist. Es geht dort um die inhaltliche Beurteilung.
 
-Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskripiton ist nicht vorhanden), ist dieser Prüfschritt nicht anwendbar. 7.2.1 ist nur anwendbar, wenn eine Audiodeskription angeboten wird.
+Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskription ist nicht vorhanden), ist dieser Prüfschritt nicht anwendbar. 7.2.1 ist nur anwendbar, wenn eine Audiodeskription angeboten wird.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
