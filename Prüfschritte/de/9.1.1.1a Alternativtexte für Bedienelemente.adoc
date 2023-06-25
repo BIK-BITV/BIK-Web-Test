@@ -440,7 +440,7 @@ endif::env_embedded[]
 
 == Fragen zu diesem Prüfschritt
 
-=== Kann nicht das ``alt``-Attribut leer gelassen werden, wenn stattdessen ein sinnvolles ``title``-Attribut verwendet wird? Das wird in meinem Screenreader problemlos ausgegeben.
+=== Kann das ``alt``-Attribut nicht leer gelassen werden, wenn stattdessen ein sinnvolles ``title``-Attribut verwendet wird? Das wird in meinem Screenreader problemlos ausgegeben.
 
 Es stimmt, dass neuere Screenreader bei Vorhandensein eines ``title``-Attributs
 dieses anstelle eines fehlenden ``alt``-Attributs ausgeben.
