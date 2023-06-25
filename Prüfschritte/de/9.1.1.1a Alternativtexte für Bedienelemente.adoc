@@ -452,7 +452,7 @@ gemäß HTML 5.0 und WCAG 2.0:
 * Das ``title``-Attribut ist für *zusätzliche
   (nicht essenzielle) Informationen* gedacht
 
-Deshalb steht ja in der WCAG 2.0-Technik
+Deshalb steht in der WCAG 2.0-Technik
 http://www.w3.org/TR/WCAG20-TECHS/H33.html[H33]:
 
 [.BLOCK_LANG_EN]
