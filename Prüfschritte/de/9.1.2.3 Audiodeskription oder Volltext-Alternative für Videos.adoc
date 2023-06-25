@@ -49,7 +49,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
   Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link (oder das Zurückspringen funktioniert über den Zurück-Button des Browsers).
 * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich geschaltet.
 
-. Das Video im auf der Website eingebundenen Player oder abgespielen.
+. Das Video im auf der Website eingebundenen Player abspielen.
 . Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 . Gibt es wichtige informationstragende Bildinhalte, die nicht in der Tonspur auftauchen und für die es keine zusätzliche Audiopdeskription gibt?
 
