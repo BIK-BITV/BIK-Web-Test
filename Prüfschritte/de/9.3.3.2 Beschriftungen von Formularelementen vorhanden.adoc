@@ -26,7 +26,7 @@ Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entsprich
 
 Die Seite im Firefox oder Chrome Browser aufrufen.
 
-==== 2.1 Sind Beschriftungen vorhanden ?
+==== 2.1 Sind Beschriftungen vorhanden?
 
 * Sind alle Formularelemente sichtbar beschriftet?
 * Sind Pflichtfelder über Text gekennzeichnet, etwa durch die Ergänzung (Pflichtfeld) nach der Beschriftung, oder durch die Auszeichnung aller Nicht-Pflichtfelder durch die Ergänzung (optional)? Wenn zur Anzeige der Pflichtfelder Symbole wie Sternchen (*) genutzt werden, sollte deren Bedeutung erklärt sein (am besten am Beginn des Formulars, bei einem mehrstufigen Formular beim ersten Formular).

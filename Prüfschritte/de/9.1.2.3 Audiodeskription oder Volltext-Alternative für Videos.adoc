@@ -32,7 +32,7 @@ ifndef::env_embedded[]
   Alternativen für Audiodateien und stumme Videos>>).
 endif::env_embedded[]
 * Verzichtbar ist die Audiodeskription oder Volltext-Alternative auch für Videos, die lediglich als Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
-  zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermitteln. Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende  Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
+  zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermitteln. Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
 * Gebärdensprachvideos brauchen keine Audiodeskription.
 
 === 2. Prüfung

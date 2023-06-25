@@ -57,7 +57,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich geschaltet.
 
 . Das Video wird im auf der Website eingebundenen Player oder in einem externen, vom Format abhängigen Video-Player abgespielt.
-. Sind im Video wichtige informationstragende Bildinhalte vorhanden, die nicht in der Tonspur bzw, einer zusätzliche nAudiodeskription vorkommen?
+. Sind im Video wichtige informationstragende Bildinhalte vorhanden, die nicht in der Tonspur bzw. einer zusätzlichen Audiodeskription vorkommen?
 
 === 3. Bewertung
 

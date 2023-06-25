@@ -68,7 +68,7 @@ andere Event Handler reagieren) enthält.
   Änderungen der Attribute-Werte reflektiert werden.
   Grafische Zustandsänderungen durch den geskripteten Austausch von Bildern, die
   anstelle von Bedienelementen eingesetzt werden, müssen auch für Hilfsmittel
-  verfügbare sinnvolle Änderungen von ``alt``-Attributen bzwWAI-ARIA Eigenschaften
+  verfügbare sinnvolle Änderungen von ``alt``-Attributen bzw. WAI-ARIA Eigenschaften
   erzeugen.
 
 === 3. Hinweise

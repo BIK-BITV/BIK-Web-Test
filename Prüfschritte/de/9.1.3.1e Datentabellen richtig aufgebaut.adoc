@@ -88,7 +88,7 @@ Die Mindestanforderung: Offenkundige, unverzichtbare und visuell hervorgehobene 
 
 ==== 2.4 Prüfung von mit ARIA umgesetzten Tabellen
 
-* Prüfen, ob InhaLte; die sichbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
+* Prüfen, ob Inhalte, die sichbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
 
 === 3. Hinweise
 
@@ -133,18 +133,18 @@ Wenn das der Fall ist, sollten die Zellen der ersten Spalte unbedingt als
 Für die Prüfung gilt:
 
 Zellen, die keine Daten enthalten, also nur als Überschriften dienen _können_,
-müssen entsprechend ausgezeichnet werden(Beispiel dafür: in der Randspalte
+müssen entsprechend ausgezeichnet werden (Beispiel dafür: in der Randspalte
 steht "Länge", Breite", "Gewicht" und so weiter).
 _Muss_ beim Zugriff auf Daten auf den Inhalt der Zeile oder Spalte Bezug
 genommen werden, ist es ohne Berücksichtigung der Randspalte nicht möglich,
 wenigstens einen Teil der unterschiedlichen Werte einer anderen Spalte zu
 interpretieren.
 Dann enthält die Randspalte Überschriften, sie muss entsprechend
-ausgezeichnet werden(Beispiel: im Wertebereich der Tabelle finden sich
+ausgezeichnet werden (Beispiel: im Wertebereich der Tabelle finden sich
 ausschließlich Preisangaben).
 Die Randspalte _kann_ abweichend von der visuellen Darstellung als Überschrift
 ausgezeichnet werden, wenn es Sinn macht, beim Vergleich von Werten anderer
-Spalten auf sie Bezug zu nehmen(Beispiel: Tabelle mit Produkten, Anbieter und
+Spalten auf sie Bezug zu nehmen (Beispiel: Tabelle mit Produkten, Anbieter und
 Modellbezeichnung sind als Überschriften ähnlich brauchbar).
 Ansonsten ist das Kriterium für die Auszeichnung aber _nur_ die visuelle
 Hervorhebung.
@@ -155,7 +155,7 @@ Grund hervorgehoben ist und für die vergleichende Fassung mit den Daten in
 anderen Spalten eher nicht nützlich ist, soll die Auszeichnung nicht von der
 Darstellung auf dem Bildschirm abweichen.
 Gegebenenfalls muss in diesem Fall die
-Darstellung für den Bildschirm angepasst werden(Beispiel dafür: in der ersten
+Darstellung für den Bildschirm angepasst werden (Beispiel dafür: in der ersten
 Spalte einer Tabelle mit Produkten wird die Bestellnummer angezeigt).
 
 Auch bei Spaltenüberschriften kann auf die visuelle Hervorhebung verzichtet

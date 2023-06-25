@@ -49,7 +49,7 @@ Die zusätzliche Berücksichtigung eines role-Attributs
 Regionen jedoch verbessern.
 
 So können Benutzer die Bereichsüberschriften, Sprunglinks, HTML5-Elmente für
-Regionen bzwWAI-ARIA document landmarks anwenden:
+Regionen bzw. WAI-ARIA document landmarks anwenden:
 
 * Konstante Bereiche am Seitenbeginn, etwa Navigation oder Seitenkopf,
   überspringen, um direkt zum Inhalt zu gelangen

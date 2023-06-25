@@ -39,9 +39,9 @@ Der Prüfschritt ist immer anwendbar.
 auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24). 
 In den Einstellungen "Erweitert..." 
 sollte für Mindestschriftgröße "Keine" ausgewählt sein.
-* Über den Button "Erweitert…" für die Schriftarten  "Serif", "Sans Serif" und "Feste Breite" 
-deutlich abweichende  Schrifttypen (Fonts) einstellen 
-und bei der Checkbox "Seiten das  Verwenden von eigenen 
+* Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" 
+deutlich abweichende Schrifttypen (Fonts) einstellen 
+und bei der Checkbox "Seiten das Verwenden von eigenen 
 statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 * Den Button "Farben…" wählen, 
 veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.

@@ -73,8 +73,8 @@ Hauptmenü- und Untermenü-Einträge) ein Element zu testen.
 Das Gleiche gilt für Fließtextlinks.
 
 Es kann bei der Prüfung zum Aufruf von Funktionen des Browsers kommen (etwa:
-ein Kontextmenü wird angezeigt)Dies ist nicht Teil der Prüfung und sollte
 ignoriert werrden.
+ein Kontextmenü wird angezeigt). Dies ist nicht Teil der Prüfung und sollte
 
 Als Zeiger-Down-Events gelten ``mousedown``, `touchstart` und ``pointerdown``.
 

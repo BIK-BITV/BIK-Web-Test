@@ -59,7 +59,7 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 
 ==== Prüfschritt erfüllt
 
-* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
+* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
 
 == Einordnung des Prüfschritts
 

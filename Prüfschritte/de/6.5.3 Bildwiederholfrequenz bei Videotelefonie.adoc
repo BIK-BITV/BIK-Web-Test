@@ -28,7 +28,7 @@ wenn das Web-Angebot Videotelefonie unterstützt.
 === 2. Prüfung
 
 Zur Beurteilung der Konformität mit diesem Prüfschritt 
-müssen derzeit die Angaben  des Software-Herstellers 
+müssen derzeit die Angaben des Software-Herstellers 
 mit den eigenen visuellen Eindrücken abgeglichen werden. 
 Für die Prüfung muss das Web-Angebot auf zwei Geräten geöffnet werden.
 
