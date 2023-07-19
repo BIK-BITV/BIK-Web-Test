@@ -39,7 +39,7 @@ Der Prüfschritt ist immer anwendbar.
   Erklärung der Seite zu Beginn eingefügt werden, z. B. bei HTML5 die Zeile
   ``<!DOCTYPE html>``).
 . Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem
-  https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#parsingerror[
   WCAG parsing only Bookmarklet] die Fehler filtern.
 . Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind.
   Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
