@@ -69,7 +69,13 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 . Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
-=== 3. Bewertung
+=== 3. Hinweis
+
+Die Anforderung 9.1.2.3 Audiodeskription oder Volltextalternative ist in den WCAG der Konformitätsstufe A zugeordnet. Auf Konformitätstufe AA gibt es ein Erfolgskriterium, das die Volltext-Alternative nicht akzeptiert. Der BITV-Test prüft dieses Erfolgskriterium der Stufe AA im Prüfschritt 9.1.2.5 Audiodeskription für Videos.
+
+Bietet die Website eine Volltextalternative, so ist zwar 9.1.2.3 (A) erfüllt, nicht aber 9.1.2.5 (AA). Da der BITV-Test Konformität auf Stufe AA prüft, wird dann die Seite in der Auswertung des Tests als "nicht konform" bewertet. Eine Audiodeskription ist also für eine konforme Bewertung der Seite im BITV-Test gefordert, sofern der Prüfschritt anwendbar ist.
+
+=== 4. Bewertung
 
 ==== Nicht voll erfüllt
 
