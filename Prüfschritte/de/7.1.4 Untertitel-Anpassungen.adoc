@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn das Webangebot Videos mit Untertiteln enthält, 
-lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgöße.
+lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgröße.
 
 == Warum wird das geprüft?
 
