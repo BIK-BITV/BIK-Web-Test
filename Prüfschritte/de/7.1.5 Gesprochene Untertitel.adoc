@@ -12,7 +12,7 @@ als akustische Ausgabe zugänglich sein,
 z.B. über eine eigene Tonspur, die den Untertiteln entspricht, 
 oder über eine generierte Sprachausgabe der Untertitel. 
 Nicht programmatisch ermittelbar sind Untertitel, 
-die "fest eingebrannt", also Teil der Bildinformation, sind.
+die "fest eingebrannt" (open captions), also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
