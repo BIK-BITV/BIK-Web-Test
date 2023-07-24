@@ -250,7 +250,7 @@ In der Regel bedeutet das:
   im anschließenden Text"), die Erläuterung steht in Kontext des Bildes.
 * Bei *Objekten*, die nicht angezeigt werden können, sollen der
   Alternativtext (ganz gleich ob Fallback-Text des Objekts oder skriptgeneriert)
-  oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehend
+  oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende
   Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder
   Identifizierung bieten und, falls vorhanden, auf eine Medienalternative
   verweisen.
@@ -340,7 +340,7 @@ ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
   <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert verfügbar>>
 endif::env_embedded[]
-  geprüft (s. o. <<3 Hinweise>>).
+  geprüft (s. o. <<3. Hinweise>>).
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
