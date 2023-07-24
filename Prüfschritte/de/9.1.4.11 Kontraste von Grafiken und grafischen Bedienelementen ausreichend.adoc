@@ -57,7 +57,7 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
 ==== 2.1 Prüfung nicht festgelegter Farben
 
-. Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon-Fonts), für die
+. Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon Fonts), für die
   über CSS eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe
   festgelegt ist (und umgekehrt).
 . Das Bookmarklet
