@@ -10,7 +10,7 @@ nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein.  Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch adere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
+Die Bedienung soll geräteunabhängig möglich sein.  Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch andere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzenden arbeitet mit der Maus, daher wird oft nur an sie gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
 
@@ -26,7 +26,7 @@ Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Objekte (z. B. Menüs oder Dialoge, die nach Interaktion eingeblendet werden), enthält.
+Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Objekte (z. B. Menüs oder Dialoge, die nach Interaktion eingeblendet werden) enthält.
 
 === 2. Prüfung
 
@@ -81,7 +81,7 @@ Wichtig in diesem Zusammenhang:
   Listenoption ausgelöst wird.
   Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit der Tastenkombination "ALT + Pfeil nach unten" öffnen.
   Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
-* Die https://www.w3.org/TR/wai-aria-practices-1.1/[Authoring Practices 1.1] bieten eine Orientierung, welche Fokusreihenfolge / welches Fokusmanagement bei bestimmten Widget-Typen zu erwarten ist.
+* Die https://www.w3.org/WAI/ARIA/apg/[ARIA Authoring Practices Guide (APG)] bieten eine Orientierung, welche Fokusreihenfolge / welches Fokusmanagement bei bestimmten Widget-Typen zu erwarten ist.
 
 ==== Zur Einfügung dynamisch generierter Inhalte unterhalb des auslösenden Elements
 
