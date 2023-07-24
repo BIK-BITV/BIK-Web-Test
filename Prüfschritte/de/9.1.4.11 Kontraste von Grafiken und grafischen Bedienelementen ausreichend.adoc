@@ -19,7 +19,7 @@ Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung
 erfüllen.
 
 Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das
-Bedienelement bzwdessen Zustand hinreichend kennzeichnet, müssen grafische
+Bedienelement bzw. dessen Zustand hinreichend kennzeichnet, müssen grafische
 Elemente die Kontrastanforderung nicht erfüllen.
 
 == Warum wird das geprüft?
