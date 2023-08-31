@@ -54,12 +54,12 @@ Die visuelle Anordnung der Seitenelemente kann von der Reihenfolge im Quelltext 
 Sichtbare Inhalte sollen in der Regel in der gleichen Reihenfolge wie im Quelltext stehen.
 Bei der Nutzung von CSS Layout-Technik `grid` kommt es hier häufiger zu Problemen.
 
-In manchen Fällen können bewusste Abweichngen von der visuellen Reihenfolge akzeptabel sein, etwa, wenn bei Meldungen in einem News-Bereich visuell das Datum der Meldung über der Überschrift steht, in der Lesereihenfolge aber auf diese folgt.
-Ein anderes Beispiel sind Überschriften mit Dachzeilen (etwa Kategorien von Medldungen). Hier kann es sinnvoll sein, dass die Dachzeile erst nach der Überschrift ausgegeben wird. Das Kriterium ist immer: sind die Inhalte in der ausgegebenen Reihenfolge verständlich?
+In manchen Fällen können bewusste Abweichungen von der visuellen Reihenfolge akzeptabel sein, etwa, wenn bei Meldungen in einem News-Bereich visuell das Datum der Meldung über der Überschrift steht, in der Lesereihenfolge aber auf diese folgt.
+Ein anderes Beispiel sind Überschriften mit Dachzeilen (etwa Kategorien von Meldungen). Hier kann es sinnvoll sein, dass die Dachzeile erst nach der Überschrift ausgegeben wird. Das Kriterium bei der Beurteilung ist immer: sind die Inhalte in der ausgegebenen Reihenfolge verständlich?
 
 ==== Dynamische Elemente
 
-Häufig werden dynamishce Elementen nut visuell ausgeblendet, sind aber für den Screenreader im Lesemodus noch erreichbar, weil sie nicht mit geeigneten Mitteln wie `display:none` versteckt wurden. Besonders für sehbehinderte Nutzende, die den Screenreader zusätzlich einsetzen, besteht das Problem, dass visuelle Inhlate und Screenreader-Ausgabe nicht in Deckung sind. Grundsätzlich besteht das Problem, dass oft umfangreiche Inhalte (etwa Navigationsmenüs) durchlaufen werden müssen. 
+Häufig werden dynamishce Elementen nur visuell ausgeblendet, sind aber für den Screenreader im Lesemodus noch erreichbar, weil sie nicht mit geeigneten Mitteln wie `display:none` versteckt wurden. Besonders für sehbehinderte Nutzende, die den Screenreader zusätzlich einsetzen, besteht das Problem, dass visuelle Inhalte und Screenreader-Ausgabe dann auseinanderklaffen. Grundsätzlich besteht für Screenreader-Nutzende das Problem, dass oft umfangreiche Inhalte (etwa Navigationsmenüs) durchlaufen werden müssen. 
 
 === 4. Bewertung
 
