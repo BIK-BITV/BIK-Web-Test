@@ -29,12 +29,13 @@ Der Prüfschritt ist anwendbar, wenn CSS verwendet wird, insbesondere für die P
 
 === 2. Prüfung
 
-==== 2.1 Lesereihenfolge für Screenreader-Nutzer
+==== 2.1 Lesereihenfolge für Screenreader-Nutzende
 
 * Seite im Browser Chrome oder Forefox aufrufen.
-* NVDA aktvieren, die Seiteninhalte im Lesemodus de Screenreaders (mit Abwärts-Pfeiltaste) durchlaufen.
+* Über eine Quellcode-Analyse die Lesereihenfolge der Elemente im DOM prüfen.
+* Gegebenenfalls zusätzlich NVDA aktvieren, die Seiteninhalte im Lesemodus des Screenreaders (mit Abwärts-Pfeiltaste) durchlaufen.
 * Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind? Beispiel: Beschriftungen werden nicht vor dem jeweiligen Eingabefeld ausgegeben.
-* Werden visuell versteckte Inhalte ausgegeben, etwa Ausklappmenüs oder Dialoge, die standardmäßig visuell ausgeblendet sind?
+* Sind Inhalten, die standarmäßig visuell ausgeblendet sind, mit geeigneten Techniken für Screenreader-Nutzende verborgen (etwa Ausklappmenüs oder Dialoge)?
 
 ==== 2.2 Prüfung der Linearisierbarkeit von Layouttabellen
 
@@ -66,7 +67,7 @@ Häufig werden dynamishce Elementen nur visuell ausgeblendet, sind aber für den
 ==== Nicht voll erfüllt
 
 * Die Lesereihenfolge entspricht nicht der visuellen, die Inhalte werden dadurch unverständlich oder Zuordnungen (etwa von Beschriftungen und Feldern sind in der Screenreade-Ausgabe fehlerhaft.
-* Visuell versteckte Elemnte, etwa Ausklappmenüs oder Dialoge, werden vom Screenreader durchlaufen.
+* Visuell versteckte Elemnte, etwa Ausklappmenüs oder Dialoge, sind nicht für Screenreader-Nutzende verborgen.
 
 == Einordnung des Prüfschritts
 
