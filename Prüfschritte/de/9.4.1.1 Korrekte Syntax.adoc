@@ -38,12 +38,8 @@ Der Prüfschritt ist immer anwendbar.
   direct Input' eingeben (hier muss ggf. eine nicht mitkopierte DOCTYPE
   Erklärung der Seite zu Beginn eingefügt werden, z. B. bei HTML5 die Zeile
   ``<!DOCTYPE html>``).
-. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem
-  https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[
-  WCAG parsing only Bookmarklet] die Fehler filtern.
+. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem https://cstrobbe.gitlab.io/A11yWorks/wcagtests/html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.html[Syntax Only Bookmarklet] die Fehler filtern.
 . Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind.
-  Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
-  Fehler.
 
 === 3. Hinweise
 
