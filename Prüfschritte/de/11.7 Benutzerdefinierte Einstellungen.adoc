@@ -53,7 +53,7 @@ den Wert "Immer" auswählen.
 Schriftgröße und Vorder- bzw. Hintergrund-Farben 
 auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob alle wichtigen Bedienlemente und deren Zustände 
-(z.B. "Hamburger"-Schaltlfäche 
+(z.B. "Hamburger"-Schaltfläche 
 und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
 bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind. 
 
