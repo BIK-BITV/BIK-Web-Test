@@ -62,8 +62,8 @@ werden.
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
   Images bookmarklet] eingesetzt werden.
 . Feststellen, ob die Seite Image maps enthält.
-  Hierfür kann gegebenenfalls der Quelltext nach `map` durchsucht werden.
-  Ist ein Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
+  Hierfür kann gegebenenfalls der Quelltext nach ``map`` durchsucht werden.
+  Ist eine Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
 
 ==== 2.2 Anzeige von Image maps
 
@@ -93,7 +93,7 @@ verwendet wurde (nicht ``display:none``).
 
 . https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._
-  aufrufenDen Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die
+  aufrufen, den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die
   Option _Farben..._ wählen.
 . Im Dialog _Farben_ im Bereich _Text und Hintergrund_ als Hintergrundfarbe eine
   Farbe wählen, die normalerweise eher selten für die Seitengestaltung verwendet
@@ -111,13 +111,13 @@ verwendet wurde (nicht ``display:none``).
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
 . Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
   eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
-  HTML-Dokument vorhandenen Textlink ersetzt oder ein aussagekräftiger Alternativtext auf andere Art hinterlegt ist (z.B. als ``aria-label`` oder ``title`` auf dem Link).
+  HTML-Dokument vorhandenen Textlink ersetzt oder ein aussagekräftiger Alternativtext auf andere Art hinterlegt ist (z. B. als ``aria-label`` oder ``title`` auf dem Link).
 . Wenn ein leeres ``a``-Element ohne
   eingeschlossenen Text durch ein Hintergrundbild ersetzt wird, ist dies wie ein
   nicht vorhandenes oder leeres ``alt``-Attribut zu werten.
 . Falls Textlinks durch Hintergrundbilder ersetzt werden: Prüfen, welches
   Verfahren für die Bildersetzung verwendet wurde.
-  Wenn `display:none` verwendet
+  Wenn ``display:none`` verwendet
   wird, ist dies wie ein nicht vorhandenes oder leeres ``alt``-Attribut zu werten.
 . Falls ein geeignetes Bildersetzungsverfahren verwendet wurde:
   Prüfen, ob der Textlink eine äquivalente Textalternative für das
@@ -137,7 +137,7 @@ zu verstecken (z. B. ``aria-hidden="true"``).
 Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren
 Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein.
 Dies kann beispielsweise Text sein, der mit einem geeigneten Verfahren
-versteckt ist (nicht ``display:none``) oder der über ein `aria-label`
+versteckt ist (nicht ``display:none``) oder über ein `aria-label`
 bereitgestellt wird.
 
 ===== Prüfung
@@ -147,7 +147,7 @@ bereitgestellt wird.
   Firefox] aufrufen.
 . Bedienelemente feststellen.
 . Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
-  CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
+  CSS-Eigenschaft ``content`` für die Pseudoelemente ``:before`` oder ``:after``
   Inhalt (Font Icons) eingebunden wird.
 . Falls nicht redundante Icons eingebunden sind: Prüfen, ob eine
   HTML-Textalternative vorhanden ist.
@@ -155,14 +155,14 @@ bereitgestellt wird.
   Text, ist wie ein nicht vorhandenes oder leeres ``alt``-Attribut zu werten.
 . Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
   sind: Prüfen, welches Verfahren verwendet wurde, um diese zu verstecken.
-  Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder
+  Wenn ``display:none`` verwendet wird, ist dies wie ein nicht vorhandenes oder
   leeres ``alt``-Attribut zu werten.
-. Falls ein geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
+. Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
   äquivalente Textalternative für das Icon darstellt
   (siehe
   <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
 . Falls keine HTML-Textalternative vorhanden ist, prüfen, ob die Textalternative
-  über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
+  über ein ``title``-Attribut oder ``aria-label`` bereitgestellt wird.
 . Falls für die Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
   ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
   ``aria-hidden="true"``).
@@ -182,24 +182,24 @@ bereitgestellt wird.
   ``desc``-Element) vorhanden ist und die dort hinterlegte Textalternative das
   Bild in angemessener Weise ersetzt (siehe
   <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
-  Das `title-` bzw. ``desc-``Element sollte das erste Kind-Element des
+  Das ``title``- bzw. ``desc``-Element sollte das erste Kind-Element des
   ``svg``-Eltern-Elements sein.
 . Da SVG noch nicht ausreichend von allen Screenreader-Browser-Kombinationen
   unterstützt wird, prüfen, ob die Zugänglichkeit über ARIA-Auszeichnung
   gewährleistet ist:
 +
-* SVG-Grafiken sollten `role="img"` tragen, sonst wird ggf. ihr
+* SVG-Grafiken sollten ``role="img"`` tragen, sonst wird ggf. ihr
   ``title``-Element nicht ausgegeben.
 * Wird das SVG ``title``-Element als zugänglicher Name genutzt, sollte das
-  ``svg``-Element mittels `aria-labelledby` auf das ``title``-Element verweisen.
+  ``svg``-Element mittels ``aria-labelledby`` auf das ``title``-Element verweisen.
 * Wenn ein Link sowohl die SVG-Grafik als auch einen in sich aussagekräftigen
-  Linktext enthält, sollte die SVG-Grafik über `aria-hidden="true"` aus der
+  Linktext enthält, sollte die SVG-Grafik über ``aria-hidden="true"`` aus der
   Screenreader-Ausgabe entfernt werden.
-  Die Nutzung einer `role` ist dann nicht erforderlich.
-* Wenn kein `title-` oder ``desc``-Element eingesetzt wird, prüfen, ob über
-  `aria-label` auf dem umschließenden Link eine Textalternative bereitgestellt
+  Die Nutzung einer ``role`` ist dann nicht erforderlich.
+* Wenn kein ``title``- oder ``desc``-Element eingesetzt wird, prüfen, ob über
+``aria-label`` auf dem umschließenden Link eine Textalternative bereitgestellt
   wird.
-  Für die Rolle kommt bei SVGs auch `role="graphics-document"`  in Frage.
+  Für die Rolle kommt bei SVGs auch ``role="graphics-document"``  in Frage.
   Diese kommt für komplexere SVG-Grafiken wie z. B. Erklärbilder, Diagramme,
   oder Bilder mit eingebundenen Links zum Einsatz (das Ausmaß der
   Unterstützung durch Screenreader ist zur Zeit unklar).
@@ -234,7 +234,7 @@ Bei *verlinkten Abbildungen* gibt es folgende Möglichkeiten:
    Beispiel Logo).
 * Das Ziel des Links wird über die Textalternative vermittelt (nur wenn der abgebildete Gegenstand
    unwichtig ist, zum Beispiel Illustration).
-* Der abgebildeten Gegenstandes und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
+* Der sinnhafte Inhalt des abgebildeten Gegenstandes und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
   
 Generell gilt: 
 
@@ -278,7 +278,7 @@ ausgezeichnet werden.
 
 === 4. Bewertung
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt
 
 * Der Alternativtext fehlt beim Link zum Seitenanfang oder bei einem anderen
   für die Benutzung der Seite weniger wichtigen Bedienelement.
@@ -303,7 +303,7 @@ ausgezeichnet werden.
 
 * https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements[
   The 'desc' and the 'title' elements]
-* Zu Rollen wie `role="graphics-document"` für komplexere SVG-Grafiken:
+* Zu Rollen wie ``role="graphics-document"`` für komplexere SVG-Grafiken:
   https://www.w3.org/TR/graphics-aria-1.0/[
   WAI-ARIA Graphics Module] (W3C Recommendation 02 October 2018)
 
@@ -407,21 +407,21 @@ endif::env_embedded[]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H2[
   H2: Combining adjacent image and text links for the same resource]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H24[
-  H24: Providing text alternatives for the `area` elements of image maps]
+  H24: Providing text alternatives for the ``area`` elements of image maps]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H30[
   H30: Providing link text that describes the purpose of a link for anchor
   elements]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H36[
-  H36: Using `alt` attributes on images used as submit buttons]
+  H36: Using ``alt`` attributes on images used as submit buttons]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H37[
-  H37: Using `alt` attributes on `img` elements]
+  H37: Using ``alt`` attributes on ``img`` elements]
 
 ===== ARIA Techniques
 
 * https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6[
-  ARIA6 Using `aria-label` to provide labels for objects]
+  ARIA6 Using ``aria-label`` to provide labels for objects]
 * https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10[
-  ARIA10: Using `aria-labelledby` to provide a text alternative for non-text
+  ARIA10: Using ``aria-labelledby`` to provide a text alternative for non-text
   content]
 
 ===== Failures
@@ -436,8 +436,8 @@ endif::env_embedded[]
   F30: Failure of Success Criterion 1.1.1 and 1.2.1 due to using text
   alternatives that are not alternatives]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F65[
-  F65: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute
-  on `img` elements, `area` elements, and `input` elements of type 'image']
+  F65: Failure of Success Criterion 1.1.1 due to omitting the ``alt`` attribute
+  on ``img`` elements, ``area`` elements, and ``input`` elements of type 'image']
 
 == Fragen zu diesem Prüfschritt
 
@@ -453,7 +453,7 @@ gemäß HTML 5.0 und WCAG 2.0:
 * Das ``title``-Attribut ist für *zusätzliche
   (nicht essenzielle) Informationen* gedacht
 
-Deshalb steht ja in der WCAG 2.0-Technik
+Deshalb steht in der WCAG 2.0-Technik
 http://www.w3.org/TR/WCAG20-TECHS/H33.html[H33]:
 
 [.BLOCK_LANG_EN]
