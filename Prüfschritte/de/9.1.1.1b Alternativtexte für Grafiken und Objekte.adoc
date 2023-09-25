@@ -199,7 +199,7 @@ Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader 
   prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet ist:
 +
 * SVG-Grafiken sollten `role="img"` tragen, sonst wird ggf. ihr `title`-Element nicht ausgegeben.
-* Wird das SVG ``title``-Element als zugänglicher Name genutzt, 
+* Wird das SVG `title`-Element als zugänglicher Name genutzt, 
  sollte das `svg-`Element mittels `aria-labelledby` auf das `title`-Element verweisen.
 * Wenn kein `title-` oder `desc-`Element eingesetzt wird, 
   prüfen, ob über `aria-label` auf dem umschließenden Link eine Textalternative bereitgestellt wird.
