@@ -207,18 +207,17 @@ Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader 
 Als Rolle für SVGs kommt auch `role="graphics-document"` für in sich gegliederte, 
 komplexere SVG-Grafiken in Frage (das Ausmaß der Unterstützung durch Screenreader ist zur Zeit unklar).
 
-==== 2.5 Textalternativen für Videos
+==== 2.6 Textalternativen für Videos
 
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit den Web Developer Tools des Browsers prüfen, ob das Video im  HTML-Code über ein `video`-Tag oder über ein `iframe`-Tag eingebunden
-  wurde.
+. Mit den Web Developer Tools des Browsers prüfen, ob das Video im  HTML-Code 
+  über ein `video`-Tag oder über ein `iframe`-Tag eingebunden wurde.
 . Bei einem *Video-Tags* kann die Textaltenative mittels der ARIA Attribute
-  `aria-label` oder `aria-labelledby` angegeben werden, , wenn das `controls`-Attribut vorhanden ist.
-  Wird das Video innerhalb eines `figure` -Tag eingebunden, kann auch ein 
-  `figcaption`-tag genutzt werden.
-. Bei einer Einbindung über *iframe* (z.B. Youtube) erfolgt die Angabe einer Textalternative mittels `title`-Attribut.
+  `aria-label` oder `aria-labelledby` angegeben werden, wenn das `controls`-Attribut vorhanden ist.
+  Wird das Video innerhalb eines `figure`-Elements eingebunden, kann auch ein `figcaption`-Element genutzt werden.
+. Bei einer Einbindung über `iframe` (z.B. von Youtube-Videos) erfolgt die Angabe einer Textalternative mittels `title`-Attribut.
 
 ==== 2.7 Angemessene Alternativtexte
 
