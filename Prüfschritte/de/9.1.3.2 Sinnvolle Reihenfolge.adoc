@@ -31,11 +31,11 @@ Der Prüfschritt ist anwendbar, wenn CSS verwendet wird, insbesondere für die P
 
 ==== 2.1 Lesereihenfolge für Screenreader-Nutzende
 
-* Seite im Browser Chrome oder Forefox aufrufen.
+* Seite im Browser Chrome oder Firefox aufrufen.
 * Über eine Quellcode-Analyse die Lesereihenfolge der Elemente im DOM prüfen.
-* Gegebenenfalls zusätzlich NVDA aktvieren, die Seiteninhalte im Lesemodus des Screenreaders (mit Abwärts-Pfeiltaste) durchlaufen.
+* Gegebenenfalls zusätzlich NVDA aktivieren, die Seiteninhalte im Lesemodus des Screenreaders (mit Abwärts-Pfeiltaste) durchlaufen.
 * Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind? Beispiel: Beschriftungen werden nicht vor dem jeweiligen Eingabefeld ausgegeben.
-* Sind Inhalten, die standarmäßig visuell ausgeblendet sind, mit geeigneten Techniken für Screenreader-Nutzende verborgen (etwa Ausklappmenüs oder Dialoge)?
+* Sind Inhalte wie Ausklappmenüs, Ausklappbereiche, oder Dialoge, die standarmäßig visuell ausgeblendet sind, mit geeigneten Techniken für Screenreader-Nutzende verborgen?
 
 ==== 2.2 Prüfung der Linearisierbarkeit von Layouttabellen
 
@@ -60,7 +60,7 @@ Ein anderes Beispiel sind Überschriften mit Dachzeilen (etwa Kategorien von Mel
 
 ==== Dynamische Elemente
 
-Häufig werden dynamishce Elementen nur visuell ausgeblendet, sind aber für den Screenreader im Lesemodus noch erreichbar, weil sie nicht mit geeigneten Mitteln wie `display:none` versteckt wurden. Besonders für sehbehinderte Nutzende, die den Screenreader zusätzlich einsetzen, besteht das Problem, dass visuelle Inhalte und Screenreader-Ausgabe dann auseinanderklaffen. Grundsätzlich besteht für Screenreader-Nutzende das Problem, dass oft umfangreiche Inhalte (etwa Navigationsmenüs) durchlaufen werden müssen. 
+Häufig werden dynamische Elementen nur visuell ausgeblendet, sind aber für den Screenreader im Lesemodus noch erreichbar, weil sie nicht mit geeigneten Mitteln wie `display:none` versteckt wurden. Grundsätzlich besteht für Screenreader-Nutzende das Problem, dass oft umfangreiche Inhalte (etwa Navigationsmenüs) durchlaufen werden müssen. Für sehbehinderte Nutzende, die den Screenreader zusätzlich einsetzen, besteht zusätzlich das Problem, dass visuelle Inhalte und Screenreader-Ausgabe auseinanderklaffen. 
 
 === 4. Bewertung
 
