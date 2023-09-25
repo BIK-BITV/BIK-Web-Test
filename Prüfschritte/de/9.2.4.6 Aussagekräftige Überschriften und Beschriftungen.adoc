@@ -31,8 +31,29 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Ü
 
 === 3. Hinweise
 
-* Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). Die Verwendung fachspezifischer Beschriftungen bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
-* Bei Angeboten, die Komponenten aus Frameworks einsetzen, finden sich häufig englischsprachige hinterlegte Beschriftungen, die nicht übersetzt wurden, etwa ein Schließen-Icon mit `aria-label="close"`. In solchen Fällen kann der Prüfschritt 9.1.1.1a "Alternativtexte für Bedienelemente" mit "erfüllt" bewertet werden, der Mangel liegt in der mangelnden Aussagekraft, die hier bewertet wird.
+==== 3.1 Hinweise zu Fachausdrücken
+Besonders in Fachanwendungen gibt es häufiger Beschriftungen und Überschriften mit Fachausdrücken, Abkürzungen oder Codes, die nicht allgemeinverständlich sind, aber der Zielgruppe bekannt sind. Die Verwendung diese Fachausdrücke bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht allgemein aussagekräftig sind: sie müssen erlernt werden. Das ist bei Fachanwendungen vertretbar und sollte nicht zu einer negativen Bewertung führen.
+
+=== 4. Bewertung
+==== Erfüllt:
+
+* Überschriften passen zu den ihnen folgenden Inhalten, Beschriftungen von Formularelementen sind aussagekräftig.
+
+==== Nicht voll erfüllt:
+* Überschriften oder Beschriftungen sind obskur oder schwer verständlich (z.B. unübersetzt)
+* Durch Flüchtigkeits- oder Kopierfehler haben Formularelemente unrichtige, nicht zutreffende Beschriftungen
+* Bestimmte Eingabeformate sind für valide Eingaben erforderlich, werden aber nicht über zusätzliche Beschriftungen vermittelt
+=======
+* Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, 
+etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). 
+Die Verwendung fachspezifischer Beschriftungen bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), 
+kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, 
+was aber nicht zu einer negativen Bewertung führen soll.
+* Bei Angeboten, die Komponenten aus Frameworks einsetzen, 
+finden sich häufig englischsprachige hinterlegte Beschriftungen, die nicht übersetzt wurden, 
+etwa ein Schließen-Icon mit `aria-label="close"`. 
+In solchen Fällen kann der Prüfschritt 9.1.1.1a "Alternativtexte für Bedienelemente" mit "erfüllt" bewertet werden, 
+der Mangel liegt in der mangelnden Aussagekraft, die hier bewertet wird.
 
 == Einordnung des Prüfschritts
 
@@ -54,7 +75,12 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 zugeordnet.
 
-* Alternativtexte von Bildern, etwa Teaser-Grafiken (Vorschaubildern) werden in Prüfschritt <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a Alternativtexte für Bedienelemente.adoc>> bewertet. Hier wird nur die Aussagekraft hinterlegter Beschriftungen von grafischen Bedienelementen bzw. Icons bewertet, falls *überhaupt* eine Beschriftung vorhanden ist. Ist bei grafischen Bedienelementen *keine* programmatisch ermittelbare Beschriftung vorhanden, ist dies bei 9.1.1.1a zu bewerten.
+* Alternativtexte von Bildern, etwa Teaser-Grafiken (Vorschaubildern) werden in Prüfschritt
+<<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a Alternativtexte für Bedienelemente.adoc>> bewertet. 
+Hier wird nur die Aussagekraft hinterlegter Beschriftungen von grafischen Bedienelementen bzw. Icons bewertet, 
+falls *überhaupt* eine Beschriftung vorhanden ist. 
+Ist bei grafischen Bedienelementen *keine* programmatisch ermittelbare Beschriftung vorhanden, 
+ist dies bei 9.1.1.1a zu bewerten.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
