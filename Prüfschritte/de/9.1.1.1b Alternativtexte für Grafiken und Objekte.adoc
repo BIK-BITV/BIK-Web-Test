@@ -58,11 +58,11 @@ Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte
 Gegenstand hat auch meist einen Bezug zum Thema der Seite.
 Ihr Informationsgehalt und ihr Nutzen für das Verständnis der Seite ist aber
 nicht klar.
-Dekorative Grafiken können daher mit leerem ``alt``-Attribut versehen werden,
+Dekorative Grafiken können daher mit leerem `alt`-Attribut versehen werden,
 der Prüfschritt ist dann nicht anwendbar.
 Anders, wenn Alternativtexte vorhanden sind.
 Dann ist der Prüfschritt anwendbar, er ist zum Beispiel nicht erfüllt, wenn
-im ``alt``-Attribut von dekorativen Grafiken Bilddateinamen eingetragen sind.
+im `alt`-Attribut von dekorativen Grafiken Bilddateinamen eingetragen sind.
 
 Logo-artige Elemente in denen Grafik und Schrift verbunden sind, sind fast nie
 als bloße Schmuckgrafik anzusehen und brauchen deshalb Alternativtext.
@@ -81,7 +81,7 @@ vorhanden sind.
 
 In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
   Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
-aufrufen und prüfen, ob das ``alt``-Attribut vorhanden ist und der dort
+aufrufen und prüfen, ob das `alt`-Attribut vorhanden ist und der dort
 hinterlegte Alternativtext das Bild in angemessener Weise ersetzt (siehe
 <<2.6 Angemessene Alternativtexte>>). 
 Alternativ kann auch das
@@ -113,15 +113,13 @@ ifndef::env_embedded[]
   Alternativtexte für Bedienelemente>>)
 endif::env_embedded[]
 
-Hintergrundgrafiken haben kein ``alt``-Attribut, auf diese Weise kann also keine
+Hintergrundgrafiken haben kein `alt`-Attribut, auf diese Weise kann also keine
 Textalternative hinterlegt werden.
 
-Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich
-vorhandenen Text, zum Beispiel eine Überschrift ersetzt
-(CSS-Bildersetzungsverfahren), gilt dieser Text als Textalternative für
-die Hintergrundgrafik.
-Voraussetzung ist allerdings, dass ein geeignetes
-Verfahren verwendet wurde (nicht `display:none`).
+Falls eine Hintergrundgrafik aber einen im HTML-Dokument tatsächlich vorhandenen Text, 
+zum Beispiel eine Überschrift ersetzt (CSS-Bildersetzungsverfahren), 
+gilt dieser Text als Textalternative für die Hintergrundgrafik.
+Voraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nicht `display:none`).
 
 ===== Grundeinstellung in Firefox
 
@@ -145,52 +143,44 @@ Verfahren verwendet wurde (nicht `display:none`).
 . Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind:
   Prüfen, ob das Hintergrundbild einen tatsächlich im HTML-Dokument
   vorhandenen Text ersetzt.
-  Falls nicht, ist dies wie ein fehlendes ``alt``-Attribut zu werten.
+  Falls nicht, ist dies wie ein fehlendes `alt`-Attribut zu werten.
 . Falls Texte durch Hintergrundbilder ersetzt werden: Prüfen, welches Verfahren
   für die Bildersetzung verwendet wurde.
-  Wenn `display:none` verwendet wird, ist
-  dies wie ein fehlendes ``alt``-Attribut zu werten.
+  Wenn `display:none` verwendet wird, ist dies wie ein fehlendes `alt`-Attribut zu werten.
 . Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der
   Text eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe
   <<2.6 Angemessene Alternativtexte>>).
 
 ==== 2.4 Textalternativen für Icon Fonts:
 
-Beim Einsatz von Icon Fonts ist es nicht möglich, mittels ``alt``-Attribut eine
-Textalternative zu hinterlegen.
+Beim Einsatz von Icon Fonts ist es nicht möglich,
+mittels `alt`-Attribut eine Textalternative zu hinterlegen.
 
-Handelt es sich dabei um ein informationstragendes Icon ohne visuell
-sichtbaren Text (Stand-alone-Icon), sollte eine Textalternative vorhanden sein.
-Dies kann beispielsweise Text sein, der mit einem geeigneten Verfahren
-versteckt ist (nicht ``display:none``) oder der über ein `aria-label`
-bereitgestellt wird.
-Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für
-Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
+Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren Text (Stand-alone-Icon), 
+sollte eine Textalternative vorhanden sein.
+Dies kann beispielsweise Text sein, der mit einem geeigneten Verfahren versteckt ist 
+(nicht ``display:none``) oder der über ein `aria-label` bereitgestellt wird.
+Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader zu verstecken (z. B. `aria-hidden="true"`).
 
 ===== Prüfung
 
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit den Web Developer Tools des Browsers prüfen, ob mit der
-  CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
+. Mit den Web Developer Tools des Browsers prüfen, ob mit der CSS-Eigenschaft `content` für die Pseudoelemente `:before` oder `:after`
   Inhalt (Font Icons) eingebunden wird.
-. Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt
-  wird (z. B. ``aria-hidden="true"``).
-. Für informationstragende Icons prüfen, ob eine HTML-Textalternative vorhanden
-  ist, die per CSS unsichtbar gemacht wird.
-. Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar
-  sind: Prüfen, welches Verfahren verwendet wurde, um diese zu verstecken.
-  Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder
-  leeres ``alt``-Attribut zu werten.
+. Prüfen, ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B. `aria-hidden="true"`).
+. Für informationstragende Icons prüfen, ob eine HTML-Textalternative vorhanden ist, die per CSS unsichtbar gemacht wird.
+. Falls HTML-Textalternativen vorhanden sind, die nicht am Bildschirm sichtbar sind: 
+  Prüfen, welches Verfahren verwendet wurde, um diese zu verstecken.
+  Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
 . Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
   äquivalente Textalternative für das Icon darstellt (siehe
   <<2.6 Angemessene Alternativtexte>>).
 . Falls kein Alternativtext über zugänglich versteckten oder mitverlinkten Text vorhanden ist, prüfen, ob die Textalternative
-  über ein ``title``-Attribut oder `aria-label` bereitgestellt wird.
-. Falls für diese Icons Text ausgegeben wird (z. B. ``content: "k"``), prüfen,
-  ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z. B.
-  ``aria-hidden="true"``).
+  über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
+. Falls für diese Icons Text ausgegeben wird (z. B. `content: "k"`), prüfen,
+  ob das Icon mit einer geeigneten Technik für Screenreader versteckt wird (z.B. `aria-hidden="true"`).
 
 ==== 2.5 Textalternativen für Inline SVGs
 
@@ -199,49 +189,50 @@ Screenreader zu verstecken (z. B. ``aria-hidden="true"``).
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Mit den Web Developer Tools des Browsers prüfen, ob es sich um eine
-  direkt in HTML eingebundene SVG handelt (Inline SVG).
-. Prüfen, ob ein ``title``-Element (bei längeren Beschreibungen ein
-  ``desc-``Element) vorhanden ist und die dort hinterlegte Textalternative das
-  Bild in angemessener Weise ersetzt (siehe
-  <<2.6 Angemessene Alternativtexte>>).
-  Das `title-` bzw. ``desc-``Element sollte
-  das erste Kindelement des Elternelements sein.
-. Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
-  unterstützt werden, prüfen, ob die Zugänglichkeit über WAI ARIA
-  gewährleistet ist:
+. Mit den Web Developer Tools des Browsers prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt (Inline SVG).
+. Prüfen, ob ein `title`-Element (bei längeren Beschreibungen ein `desc`-Element) vorhanden ist und die dort hinterlegte Textalternative das Bild in angemessener Weise ersetzt 
+  (siehe <<2.6 Angemessene Alternativtexte>>). 
+  Das `title-` bzw. `desc-`Element sollte das erste Kindelement des Elternelements sein.
+. Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, 
+  prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet ist:
 +
-* SVG-Grafiken sollten `role="img"` tragen, sonst wird ggf. ihr
-  ``title``-Element nicht ausgegeben.
-* Wird das SVG ``title``-Element als zugänglicher Name genutzt, sollte das
-  ``svg-``Element mittels `aria-labelledby` auf das ``title``-Element verweisen.
-* Wenn kein `title-` oder ``desc-``Element eingesetzt wird, prüfen, ob über
-  `aria-label` auf dem umschließenden Link eine Textalternative
-  bereitgestellt wird.
+* SVG-Grafiken sollten `role="img"` tragen, sonst wird ggf. ihr `title`-Element nicht ausgegeben.
+* Wird das SVG `title`-Element als zugänglicher Name genutzt, 
+ sollte das `svg`-Element mittels `aria-labelledby` auf das `title`-Element verweisen.
+* Wenn kein `title`- oder `desc`-Element eingesetzt wird, prüfen, ob über `aria-label` auf dem umschließenden Link eine Textalternative bereitgestellt wird.
 
-Als Rolle für SVGs kommt auch `role="graphics-document"` für in sich
-gegliederte, komplexere SVG-Grafiken in Frage (das Ausmaß der Unterstützung
-durch Screenreader ist zur Zeit unklar).
+Als Rolle für SVGs kommt auch `role="graphics-document"` für in sich gegliederte, 
+komplexere SVG-Grafiken in Frage (das Ausmaß der Unterstützung durch Screenreader ist zur Zeit unklar).
 
-==== 2.6 Angemessene Alternativtexte
+==== 2.6 Textalternativen für Videos
 
-Entscheidend ist: Die Seite soll benutzbar sein, wenn Grafiken oder Bilder
-durch die entsprechenden Alternativtexte oder andere geeignete
-Textalternativen ersetzt sind.
+. Seite in
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
+  Firefox] aufrufen.
+. Mit den Web Developer Tools des Browsers prüfen, ob das Video im  HTML-Code 
+  über ein `video`-Element oder über ein `iframe`-Element eingebunden wurde.
+. Bei Nutzung des Video-Elements kann die Textaltenative mittels der ARIA Attribute
+  `aria-label` oder `aria-labelledby` angegeben werden, falls auch das `controls`-Attribut vorhanden ist.
+  Wird das Video innerhalb eines `figure`-Elements eingebunden, kann auch ein `figcaption`-Element genutzt werden.
+. Bei einer Einbindung über `iframe` (z.B. von Youtube-Videos) erfolgt die Angabe einer Textalternative mittels `title`-Attribut.
+
+==== 2.7 Angemessene Alternativtexte
+
+Entscheidend ist: 
+Die Seite soll benutzbar sein, wenn Grafiken oder Bilder durch die entsprechenden Alternativtexte 
+oder andere geeignete Textalternativen ersetzt sind.
 
 In der Regel bedeutet das:
 
-* Bei *Schriftgrafiken* soll der Alternativtext den Text der Schriftgrafik
-  wiederholen.
-* Bei *Symbolen* oder *Zeichen* (Logos) soll der Alternativtext sagen, dass
-  ein Symbol, Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols
+* Bei *Schriftgrafiken* soll der Alternativtext den Text der Schriftgrafik wiederholen.
+* Bei *Symbolen* oder *Zeichen* (Logos) soll der Alternativtext sagen, 
+  dass ein Symbol, Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols
   oder Zeichens wiedergeben.
 * Bei *Gruppen von zusammengehörigen Bildern* kann auch eines der Bilder die
-  Bedeutung der Gruppe wiedergeben, die anderen haben ein leeres
-  ``alt``-Attribut.
+  Bedeutung der Gruppe wiedergeben, die anderen haben ein leeres ``alt``-Attribut.
 * Bei *Fotos*, Reproduktionen von Gemälden oder anderen Nicht-Text-Elementen,
-  die eine spezifische Sinneserfahrung vermitteln, genügt in der Regel eine
-  knappe Bezeichnung des abgebildeten Gegenstandes.
+  die eine spezifische Sinneserfahrung vermitteln, genügt in der Regel
+  eine knappe Bezeichnung des abgebildeten Gegenstandes.
 * Bei *Diagrammen* oder *technischen Zeichnungen* sind unter Umständen
   ausführlichere Erläuterungen erforderlich.
   Alternativtexte sind dafür nicht geeignet, sie sollen 80 Zeichen nicht
@@ -267,7 +258,7 @@ Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
 sondern im Kontext der Abbildung zur Verfügung gestellt werden (siehe
 <<2.5 Textalternativen für Inline SVGs>>).
 
-==== 2.7 Angemessenheit von Textalternativen im Kontext
+==== 2.6 Angemessenheit von Textalternativen im Kontext
 
 Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild
 sein kann, muss geprüft werden, ob die über das Bild vermittelte Information
@@ -278,6 +269,7 @@ Das betrifft zum Beispiel
 * Diagramme
 * technische Zeichnungen
 * Anfahrtspläne
+* Videos
 
 Zum Kontext einer Grafik oder eines Bildes gehört:
 
@@ -290,6 +282,12 @@ Textalternativen im Kontext erforderlich.
 Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, 
 er macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
+Zum Kontext eines Videos gehört:
+
+* der dazugehörige (vorangehende, folgende) Text oder die Überschrift
+* entsprechend beschriftete Schaltfläche, z.B. `aria-label="Video 
+  [Titel des Videos] abspielen"`
+
 === 3. Hinweise
 
 Um die Angemessenheit des Alternativtextes einschätzen zu können, muss der
@@ -299,6 +297,36 @@ Erforderlich ist also die parallele oder wechselnde Darstellung von
 Grafik/Objekt und zugehörigem Alternativtext.
 
 Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden (siehe Prüfschritt 9.4.1.2 Name, Rolle, Wert verfügbar).
+
+== Quellen
+
+=== Anleitungen zm Erstellen von Alternativtexten 
+
+* W3C Web Accessibility Tutorials: https://www.w3.org/WAI/tutorials/images/[
+  Images Concepts]
+* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* HTML 5.1 Spezifikation:
+  https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[
+  Requirements for providing text to act as an alternative for images]
+
+=== W3C - Scalable Vector Graphics (SVG) 1.1
+
+* https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements[
+  The 'desc' and the 'title' elements]
+* Zu Rollen wie `role="graphics-document"` für komplexere SVG-Grafiken:
+  https://www.w3.org/TR/graphics-aria-1.0/[
+  WAI-ARIA Graphics Module] (W3C Recommendation 02 October 2018)
+
+=== SVGs zugänglich einbinden
+
+* https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
+  Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
+* https://www.deque.com/blog/creating-accessible-svgs/[
+  Creating accessible SVGs] (Deque blog, January 2019)
+* https://simplyaccessible.com/article/7-solutions-svgs/[
+  7 solutions for creating more accessible SVGs] (Simply Accessible, March 2017)
+* https://css-tricks.com/accessible-svgs/[
+  Accessible SVGs] (CSS-Tricks, updated August 2016)
 
 == Einordnung des Prüfschritts
 
@@ -423,88 +451,6 @@ endif::env_embedded[]
   F67: Failure of Success Criterion 1.1.1 and 1.2.1 due to providing long
   description for non-text content that does not serve the same purpose or
   does not present the same information]
-
-== Quellen
-
-=== Alternativtexte sollen denselben Zweck erfüllen wie das Bild
-
-____
-Um von Nutzen zu sein, muss der Text dieselbe Funktion bzw. denselben Zweck
-erfüllen wie das Bild.
-Nehmen Sie zum Beispiel ein Foto der Erde, aufgenommen aus dem Weltraum.
-Wenn der Zweck des Bildes vorrangig in der Ausschmückung besteht, mag der
-Text "Foto der Erde vom Weltraum aus gesehen" die benötigte Funktion erfüllen.
-Wenn der Zweck des Fotos darin besteht, bestimmte Informationen über
-Geographie zu illustrieren, sollte das Text-Äquivalent diese Information
-enthalten.
-Wenn das Foto dem Benutzer sagen soll, dass er das Bild auswählen soll, um
-Informationen über die Erde zu erhalten (etwa indem er es anklickt), wäre
-der äquivalente Text "Informationen über die Erde".
-D. h. wenn der Text für einen Benutzer mit einer Behinderung dieselbe Funktion
-oder denselben Zweck erfüllt wie das Bild für andere Benutzer, kann er als
-Text-Äquivalent angesehen werden.
-____
-
-(http://www.w3.org/Consortium/Offices/Germany/Trans/WAI/webinhalt.html)
-
-=== Ausführlichkeit von Alternativtexten
-[.BLOCK_LANG_EN]
-____
-If possible, the short text alternative should completely convey the purpose
-and information.
-If it is not possible to do this in a short phrase or sentence,
-then the short text alternative should provide a brief overview of the
-information.
-A long text alternative would be used in addition to convey the
-full information.
-____
-
-(WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[
-G94: Providing short text alternative for non-text content that serves the
-same purpose and presents the same information as the non-text content])
-
-=== Alternativtexte für Schrift in Grafiken
-
-[.BLOCK_LANG_EN]
-____
-When non-text content contains words that are important to understanding the
-content, the alt text should include those words.
-If the text in the image is more than can fit in a short text alternative, 
-then it should be described in the short text alternative and a long 
-text alternative should be provided as well with the complete text.
-____
-
-(WCAG 2.0 Technik http://www.w3.org/TR/WCAG20-TECHS/G94.html[
-G94: Providing short text alternative for non-text content that serves the
-same purpose and presents the same information as the non-text content])
-
-=== Anleitungen zum Erstellen guter Alternativtexte
-
-* W3C Web Accessibility Tutorials: https://www.w3.org/WAI/tutorials/images/[
-  Images Concepts]
-* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
-* HTML 5.1 Spezifikation:
-  https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[
-  Requirements for providing text to act as an alternative for images]
-
-=== W3C - Scalable Vector Graphics (SVG) 1.1
-
-* https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements[
-  The 'desc' and the 'title' elements]
-* Zu Rollen wie `role="graphics-document"` für komplexere SVG-Grafiken:
-  https://www.w3.org/TR/graphics-aria-1.0/[
-  WAI-ARIA Graphics Module] (W3C Recommendation 02 October 2018)
-
-=== SVGs zugänglich einbinden
-
-* https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
-  Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
-* https://www.deque.com/blog/creating-accessible-svgs/[
-  Creating accessible SVGs] (Deque blog, January 2019)
-* https://simplyaccessible.com/article/7-solutions-svgs/[
-  7 solutions for creating more accessible SVGs] (Simply Accessible, March 2017)
-* https://css-tricks.com/accessible-svgs/[
-  Accessible SVGs] (CSS-Tricks, updated August 2016)
 
 == Fragen zu diesem Prüfschritt
 
