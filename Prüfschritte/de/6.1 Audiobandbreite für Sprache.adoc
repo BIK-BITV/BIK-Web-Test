@@ -4,13 +4,18 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die Webanwendung beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, 
+soll die Webanwendung beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, 
+dessen obere Grenze mindestens bis 7.000 Hz reicht.
 
-Damit die Webanwendung diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
+Damit die Webanwendung diesen Prüfschritt besteht, 
+muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. 
+Dazu kann z. B. der weit verbreitete Codec G.722 genutzt werden.
 
 == Warum wird das geprüft? 
 
-Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. 
+Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
 
 == Wie wird geprüft?
 
@@ -20,21 +25,28 @@ Der Prüfschritt ist anwendbar, wenn die Webanwendung eine Zwei-Wege-Sprachkommu
 
 === 2. Prüfung
 
-. Die Sprachqualität der Audio-Verbindung im Praxistest beurteilen. Enspricht die Qualität der Qualität aktueller Festnetztelefonie? Es muss dabei sichergestellt werden, dass die Internetverbindung an beiden Enden nicht beeinträchtigt ist. Ggf. wird der Test dazu wiederholt. 
-. Führt der Hörtest zu keinem klaren Ergebnis, sollte die Dokumentation der Software konsultiert werden. Hier sollte der verwendete Codec zu finden sein. Ggf. muss beim Hersteller der Webanwendung nachgefragt werden.
-. Anschließend sollte der Codec recherchiert werden, um dessen Frequenzbereich in Erfahrung zu bringen. Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
-
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.1 Audio bandwidth for speech
+. Die Sprachqualität der Audio-Verbindung im Praxistest beurteilen. 
+Entspricht die Qualität der Qualität aktueller Festnetztelefonie? 
+Es muss dabei sichergestellt werden, 
+dass die Internetverbindung an beiden Enden nicht beeinträchtigt ist. 
+Ggf. wird der Test dazu wiederholt. 
+. Führt der Hörtest zu keinem klaren Ergebnis, 
+sollte die Dokumentation der Software konsultiert werden. 
+Hier sollte der verwendete Codec zu finden sein. 
+Ggf. muss beim Hersteller der Webanwendung nachgefragt werden.
+. Anschließend sollte der Codec recherchiert werden, 
+um dessen Frequenzbereich in Erfahrung zu bringen. 
+Die obere Grenze des Frequenzbereichs muss mindestens bis 7.000 Hz reichen.
 
 == Quellen
+* Zurzeit keine Quellen. 
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.1 Audio bandwidth for speech
-
+==== 6.1 Audio bandwidth for speech
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides two-way voice communication, in order to provide good audio
@@ -50,5 +62,4 @@ Where codec negotiation is implemented, other standardized codecs such as
 Recommendation ITU-T G.722.2 [i.22] are sometimes used so as to avoid
 transcoding.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.1 "Audio bandwidth for speech")
+____

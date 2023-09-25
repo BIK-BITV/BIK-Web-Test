@@ -25,8 +25,8 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Schriftgrafiken enthält.
 
 === 2. Prüfung
 
-. Die Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[Firefox] aufrufen.
-. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html##webdeveloper[Web Developer Toolbar] die Funktion _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle Grafiken auszublenden (oder alternativ _Bilder > Bilder mit ALT-Attributen ersetzen_).
+. Die Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] aufrufen.
+. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[Web Developer Toolbar] die Funktion _Bilder > Bilder deaktivieren > Alle Bilder deaktivieren_ aufrufen, um alle Grafiken auszublenden (oder alternativ _Bilder > Bilder mit ALT-Attributen ersetzen_).
 . Prüfen, ob dadurch Schrift verschwindet.
 
 === 3. Hinweise

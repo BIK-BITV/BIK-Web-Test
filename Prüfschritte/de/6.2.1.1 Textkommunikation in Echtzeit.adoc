@@ -4,33 +4,55 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss es ebenfalls Textkommunikation in Echtzeit (RTT, Real-Time Text) zur Verfügung  stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem  Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
+Ermöglicht das Webangebot Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, 
+z.B. Sprach- und Videotelefonie), 
+muss es ebenfalls Textkommunikation in Echtzeit (RTT, Real-Time Text) zur Verfügung  stellen. 
+Echtzeit bedeutet hier, 
+dass schon die Eingabe einzelner Zeichen übertragen und dem  Empfänger angezeigt wird. 
+Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
 
 == Warum wird das geprüft?
 
-Menschen, die nicht Sprache nutzen können oder wollen, sollen die Möglichkeit haben, über Echtzeit-Textkommunikation (RTT, Real-time Text) gleichrangig an Kommunikation teilzuhaben.
+Menschen, die nicht Sprache nutzen können oder wollen, 
+sollen die Möglichkeit haben, über Echtzeit-Textkommunikation (RTT, Real-time Text) 
+gleichrangig an Kommunikation teilzuhaben.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das zu testende Webangebot Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
+Der Prüfschritt ist anwendbar, 
+wenn das zu testende Webangebot Zwei-Wege-Kommunikation ermöglicht. 
+Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
 
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, prüfen ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
+. Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, 
+prüfen, ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
 
 === 3. Hinweise
 
-Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
+dynamisch schon während der Eingabe des Senders. 
+RTT ist also nicht das Gleiche wie etwa Chat, 
+wo Nachrichten explizit abgeschickt werden 
+und erst dann beim Empfänger erscheinen.
   
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
+* https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
+* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
+Data Channels (PDF)]
+* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
+
 == Einordnung des Prüfschritts 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.1.1 RTT communication
+==== 6.2.1.1 RTT communication
 ____
 [.BLOCK_LANG_EN]
 --
@@ -53,12 +75,3 @@ NOTE 3:
 For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
-____
-
-== Quellen
-
-* https://medevel.com/free-tts/[11 More Free Open-source Text-To-Speech Apps] (MEDevel.com: Open-source Guide to Healthcare and Medical Software)
-* https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API[Web Speech API] (Mozilla Foundation, mdm web docs)
-* https://www.rfc-editor.org/rfc/rfc8865.pdf[RFC 8865 T.140 Real-Time Text Conversation over WebRTC
-Data Channels (PDF)]
-* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023

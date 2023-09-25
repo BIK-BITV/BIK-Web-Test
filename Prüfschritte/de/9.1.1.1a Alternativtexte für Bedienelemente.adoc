@@ -227,8 +227,8 @@ In der Regel bedeutet das:
   In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine
   Überschrift im unmittelbaren Kontext identifiziert wird.
 
-Bei *verlinkten Abbildungen* gibt es folgende
-  Möglichkeiten:
+Bei *verlinkten Abbildungen* gibt es folgende Möglichkeiten:
+
 * Der abgebildete Gegenstand wird in der Textalternative beschrieben (wenn der
    abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
    Beispiel Logo).
@@ -236,9 +236,10 @@ Bei *verlinkten Abbildungen* gibt es folgende
    unwichtig ist, zum Beispiel Illustration).
 * Der abgebildeten Gegenstandes und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
   
-Generell gilt: Alternativtexte sollen kurz sein.
-* Ausführliche Beschreibungen von Abbildungen sollen nicht im
-* Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
+Generell gilt: 
+
+* Alternativtexte sollen kurz sein.
+* Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 === 3. Hinweise
 
@@ -287,7 +288,35 @@ ausgezeichnet werden.
 
 * Der Alternativtext für ein wichtiges Bedienelement fehlt oder er ist
   unbrauchbar.
+  
+== Quellen
+=== Anleitungen zum Erstellen guter Alternativtexte
 
+* W3C Web Accessibility Tutorials:
+  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
+* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* HTML 5.1 Spezifikation:
+  https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[
+  Requirements for providing text to act as an alternative for images]
+
+=== W3C - Scalable Vector Graphics (SVG) 1.1
+
+* https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements[
+  The 'desc' and the 'title' elements]
+* Zu Rollen wie `role="graphics-document"` für komplexere SVG-Grafiken:
+  https://www.w3.org/TR/graphics-aria-1.0/[
+  WAI-ARIA Graphics Module] (W3C Recommendation 02 October 2018)
+
+=== SVGs zugänglich einbinden
+
+* https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
+  Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
+* https://www.deque.com/blog/creating-accessible-svgs/[Creating accessible SVGs] (Deque blog, January 2019)
+* https://simplyaccessible.com/article/7-solutions-svgs/[
+  7 solutions for creating more accessible SVGs] (SimplyAccessible, March 2017)
+* https://css-tricks.com/accessible-svgs/[
+  Accessible SVGs] (CSS-Tricks, updated August 2016)
+  
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
@@ -409,35 +438,6 @@ endif::env_embedded[]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F65[
   F65: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute
   on `img` elements, `area` elements, and `input` elements of type 'image']
-
-== Quellen
-
-=== Anleitungen zum Erstellen guter Alternativtexte
-
-* W3C Web Accessibility Tutorials:
-  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
-* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
-* HTML 5.1 Spezifikation:
-  https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[
-  Requirements for providing text to act as an alternative for images]
-
-=== W3C - Scalable Vector Graphics (SVG) 1.1
-
-* https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements[
-  The 'desc' and the 'title' elements]
-* Zu Rollen wie `role="graphics-document"` für komplexere SVG-Grafiken:
-  https://www.w3.org/TR/graphics-aria-1.0/[
-  WAI-ARIA Graphics Module] (W3C Recommendation 02 October 2018)
-
-=== SVGs zugänglich einbinden
-
-* https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
-  Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
-* https://www.deque.com/blog/creating-accessible-svgs/[Creating accessible SVGs] (Deque blog, January 2019)
-* https://simplyaccessible.com/article/7-solutions-svgs/[
-  7 solutions for creating more accessible SVGs] (SimplyAccessible, March 2017)
-* https://css-tricks.com/accessible-svgs/[
-  Accessible SVGs] (CSS-Tricks, updated August 2016)
 
 == Fragen zu diesem Prüfschritt
 

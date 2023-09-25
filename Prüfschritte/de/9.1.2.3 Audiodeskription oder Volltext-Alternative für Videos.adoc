@@ -51,6 +51,7 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 . Das Video im auf der Website eingebundenen Player oder abgespielen.
 . Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
+. Gibt es wichtige informationstragende Bildinhalte, die nicht in der Tonspur auftauchen und für die es keine zusätzliche Audiopdeskription gibt?
 
 ==== 2.2 Volltextalternative prüfen
 
@@ -68,7 +69,18 @@ Es wird eine Sicht- und Hörprüfung vorgenommen:
 
 . Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
-=== 3. Bewertung
+=== 3. Hinweis
+
+Die Anforderung 9.1.2.3 Audiodeskription oder Volltextalternative ist in den WCAG der Konformitätsstufe A zugeordnet. Auf Konformitätstufe AA gibt es ein Erfolgskriterium, das  die Volltext-Alternative nicht akzeptiert. Der BITV-Test prüft dieses Erfolgskriterium der Stufe AA im Prüfschritt 
+ifdef::env_embedded[9.1.2.5 Audiodeskription für Videos]
+ifndef::env_embedded[]
+  <<9.1.2.5 Audiodeskription für Videos.adoc#,9.1.2.5
+  Audiodeskription für Videos>>.
+endif::env_embedded[]
+
+Bietet die Website eine Volltextalternative, so ist zwar 9.1.2.3 (A) erfüllt, nicht aber 9.1.2.5 (AA). Da der BITV-Test Konformität auf Stufe AA prüft, wird dann die Seite in der Auswertung des Tests als "nicht konform" bewertet. Eine Audiodeskription ist also für eine konforme Bewertung der Seite im BITV-Test gefordert, sofern der Prüfschritt anwendbar ist.
+
+=== 4. Bewertung
 
 ==== Nicht voll erfüllt
 
@@ -148,3 +160,8 @@ Hinweise zur Wahl von Mediaelementen.
 
 * http://terrillthompson.com/blog/813[
   My Audio Description Talk @ CSUN]
+
+== Fragen zu diesem Prüfschrtt
+=== Was sind "wichtige informationstragende Bildinhalte"? 
+* Sehr häufig tauchen in Videos eingeblendete Texte auf, die etwa Sprecher oder Sprecherin bzw. deren Rolle benennen. Ohne diese Information ist für nicht-visuelle Nutzer unklar, wer da eigentlich spricht oder interviewt wird. Wenn es eher unwichtig ist, wie die Person heißt, die spricht (z.B. in Passantenbefragungen) sind solche Einblendungen nicht als "wichtige informationstragende Bildinhalte" zu betrachten.
+* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskrition oder Transkription der Bidinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.
