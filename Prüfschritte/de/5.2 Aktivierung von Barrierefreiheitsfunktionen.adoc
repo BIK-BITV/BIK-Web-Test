@@ -79,6 +79,10 @@ die außerdem sehbehindert oder blind sind.
 braucht auch eine zugängliche Beschriftung, 
 denn manche sehbehinderte Menschen nutzen auch den Screenreader. 
 
+=== 3.3 Hinweis auf andere anwendbare Anforderungen
+
+Bei nicht dokumentierten Barrierefreiheitsfunktionen, für die dieser Prüfschritt erfüllt ist, kann es zu negativen Bewertungen in anderen Prüfschritten kommen.
+
 === 4. Bewertung
 
 ==== Erfüllt
