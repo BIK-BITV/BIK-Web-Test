@@ -4,21 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind sinngebend.
+Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind aussagekräftig.
 
 == Warum wird das geprüft?
 
 Visuell werden Webseiten-Inhalte durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, können die
 Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen, die sie interessieren.
 
-Wenn Formularelemente sinngebend beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
+Wenn Formularelemente aussagekräftig beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden können und wenn die Seite Formularelemente
-enthält.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite Inhalte gibt, die durch Überschriften strukturiert werden und wenn die Seite Formularelemente enthält.
 
 === 2. Prüfung
 
@@ -27,19 +26,20 @@ enthält.
   Firefox] laden.
 . Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
+. Prüfen, ob programmatisch hinterlegte Beschriftungen aussagekräftig sind - etwa bei visuellen Linktexten, die mittels `aria-label` überschrieben werden, und hinterlegte Beschriftungen von grafischen Bedienelementen. Dazu gehört auch die Nutzung der richtigen Sprache.
 . Wenn zur Gruppen-Beschriftung `fieldset` mit `legend` eingesetzt wird: Ist die Ausgabe von `legend` und ``label`` im Zusammenhang aussagekräftig?
 
 === 3. Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen).
-Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+* Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). Die Verwendung fachspezifischer Beschriftungen bringt Vorteile mit sich (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+* Bei Angeboten, die Komponenten aus Frameworks einsetzen, finden sich häufig englischsprachige hinterlegte Beschriftungen, die nicht übersetzt wurden, etwa ein Schließen-Icon mit `aria-label="close"`. In solchen Fällen kann der Prüfschritt 9.1.1.1a "Alternativtexte für Bedienelemente" mit "erfüllt" bewertet werden, der Mangel liegt in der mangelnden Aussagekraft, die hier bewertet wird.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und
-Beschriftungen.
+* In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und
+Beschriftungen, auch wenn diese visuell versteckt sind.
 Die programmatische Ermittelbarkeit durch Assistive Technologien ist den Prüfkriterien
 ifdef::env_embedded[9.1.3.1a "HTML-Strukturelemente für Überschriften"]
 ifndef::env_embedded[]
@@ -53,6 +53,8 @@ ifndef::env_embedded[]
   Formularelementen programmatisch ermittelbar>>
 endif::env_embedded[]
 zugeordnet.
+
+* Alternativtexte von Bildern, etwa Teaser-Grafiken (Vorschaubildern) werden in Prüfschritt <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a Alternativtexte für Bedienelemente.adoc>> bewertet. Hier wird nur die Aussagekraft hinterlegter Beschriftungen von grafischen Bedienelementen bzw. Icons bewertet, falls *überhaupt* eine Beschriftung vorhanden ist. Ist bei grafischen Bedienelementen *keine* programmatisch ermittelbare Beschriftung vorhanden, ist dies bei 9.1.1.1a zu bewerten.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
