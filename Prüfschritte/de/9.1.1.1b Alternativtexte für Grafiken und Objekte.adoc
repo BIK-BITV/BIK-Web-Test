@@ -190,7 +190,7 @@ Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader 
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Mit den Web Developer Tools des Browsers prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt (Inline SVG).
-. Prüfen, ob ein `title`-Element (bei längeren Beschreibungen ein `desc-`Element) vorhanden ist 
+. Prüfen, ob ein title-Element (bei längeren Beschreibungen ein desc-Element) vorhanden ist 
   und die dort hinterlegte Textalternative das Bild in angemessener Weise ersetzt 
   (siehe <<2.6 Angemessene Alternativtexte>>). 
   Das `title-` bzw. `desc-`Element sollte das erste Kindelement des Elternelements sein.
