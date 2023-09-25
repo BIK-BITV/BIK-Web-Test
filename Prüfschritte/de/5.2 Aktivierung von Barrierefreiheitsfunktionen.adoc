@@ -5,12 +5,16 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn die Webseite dokumentierte Funktionen für die Barrierefreiheit bereithält, die
-spezielle Bedürfnisse von Nutzern erfüllen, soll die Aktivierung dieser
-Funktionen für diese Nutzergruppe barrierefrei möglich sein.
-Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
-sie unterstützen soll, selbstständig aktivierbar sein soll. In der Regel ist dies der Fall, wennn die Funktion - etwa ein Kontrastumschalter oder eine Icon-basierter Link zu einer Version in leichter Sprache - alle übrigen Anforderungen der EN 301 549 erfüllt.
+spezielle Bedürfnisse von Nutzenden erfüllen, soll die Aktivierung dieser
+Funktionen für diese Nutzendengruppe barrierefrei möglich sein.
+Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzendengruppe, die
+sie unterstützen soll, selbstständig aktivierbar sein soll. 
+In der Regel ist dies der Fall, wennn die Funktion - 
+etwa ein Kontrastumschalter oder eine Icon-basierter Link zu einer Version in leichter Sprache - 
+alle übrigen Anforderungen der EN 301 549 erfüllt.
 
-Die Anforderung 5.2 beschränkt die Prüfung auf Funktionen, die dokumentiert sind, also etwa auf Hilfeseiten oder in der Erklärung zur barrierefreiheit benannt bzw. eräutert sind.
+Die Anforderung 5.2 beschränkt die Prüfung auf Funktionen, die dokumentiert sind, 
+also etwa auf Hilfeseiten oder in der Erklärung zur barrierefreiheit benannt bzw. eräutert sind.
 
 Beispiele für Barrierefreiheitsfunktionen:
 
@@ -18,19 +22,19 @@ Beispiele für Barrierefreiheitsfunktionen:
 * Kontrasterhöhung, abweichende Farbschemata
 * Anpassung der Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart usw.)
 * Versionen in Leichter Sprache oder Deutscher Gebärdensprache
-* Einstellungen zum Deaktivieren automatischen Abspielens be Animationen, Videos oder Audio
+* Einstellungen zum Deaktivieren automatischen Abspielens von Animationen, Videos oder Audio-Dateien
 
 == Warum wird das geprüft?
 
 Barrierefreiheitsfunktionen, die von der zu testenden Webseite 
 (also nicht vom Betriebssystem oder dem Browser) bereitgestellt werden, 
-sollen von ihrer potentiellen Nutzerschaft selbstständig aktivierbar sein.
+sollen von Nutzenden, die diese brauchen, selbstständig aktivierbar sein.
 
 Wenn die Webseite beispielsweise eine Funktion zur Verfügung stellt, 
-mit derer die Kontrastverhältnisse innerhalb der Seite verbessert werden, 
+mit der die Kontrastverhältnisse verbessert werden, 
 müssen sämtliche Bedienelemente, die zur Aktivierung der Funktion bedient werden müssen, 
 auch in der Standardansicht ein ausreichendes Kontrastverhältnis aufweisen. 
-Damit wird sichergestellt, dass auch Nutzer, 
+Damit wird sichergestellt, dass auch Nutzende, 
 die mit kontrastarmen Inhalten und Bedienelementen Schwierigkeiten haben 
 (also zur Zielgruppe der Barrierefreiheitsfunktion gehören), 
 die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
@@ -77,7 +81,7 @@ denn es gibt Menschen mit kognitiven Einschränkungen,
 die außerdem sehbehindert oder blind sind.
 . Ein visueller Kontrastmodus-Schalter für Menschen mit Sehbehinderung 
 braucht auch eine zugängliche Beschriftung, 
-denn manche sehbehinderte Menschen nutzen auch den Screenreader. 
+denn manche sehbehinderten Menschen nutzen zusätzlich auch eine Sprachausgabe. 
 
 === 3.3 Hinweis auf andere anwendbare Anforderungen
 
@@ -90,7 +94,7 @@ Die Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
 
 ==== Nicht voll erfüllt
 Bedienelemente der Barrierefreiheitsfunktion 
-oder die Funktion selbst verstoßen gegen Anforderungen der EN.
+oder die Funktion selbst verstoßen gegen andere Anforderungen der EN.
 
 == Quellen
 * Zurzeit keine Quellen. 
