@@ -11,12 +11,12 @@ nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts ist
 unerlässlich.
 
 Beispiele für Inhalte, bei denen die Ausrichtung unerlässlich sein können,
-sind ein Bankcheck, eine online-Klavier-Tastatur, Präsentationsfolien für
-einen Projektor oder Bildschirm, oder Inhalte eine Virtual-Reality (VR)
+sind ein Bankcheck, eine Online-Klavier-Tastatur, Präsentationsfolien für
+einen Projektor oder Bildschirm, oder Inhalte einer Virtual-Reality (VR)
 Anwendung bei der es keine binäre Ausrichtung gibt (also nicht: entweder Hoch-
 oder Querformat).
 
-Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in der gleichen Form angeboten werden. So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung von Ausklapbereichen oder mittels Links auf andere Seiten angeboten werden.
+Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in der gleichen Form angeboten werden. So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung von Ausklappbereichen oder mittels Links auf andere Seiten angeboten werden.
 
 == Warum wird das geprüft?
 
@@ -38,7 +38,7 @@ Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar sein
 . Der zu prüfende Inhalt wird im Browser Chrome (Android) oder Safari (iOS) erst in der einen Ausrichtung neu geladen.
 . Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
 . Gerät um 90 Grad drehen. Der zu prüfende Inhalt wird in der anderen Ausrichtung neu geladen.
-. Prüfen, ob Inhalte auch in der anderen AUsrichtung dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
+. Prüfen, ob Inhalte auch in der anderen Ausrichtung dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
 . Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: Prüfen, ob die unterstützte Ausrichtung für den Inhalt unbedingt erforderlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden könnten.
 
 === 3. Hinweise

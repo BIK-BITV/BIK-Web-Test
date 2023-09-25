@@ -8,39 +8,59 @@ Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
 
 == Warum wird das geprüft?
 
-Menschen, die statt Sprache die Eingabe von Echtzeit-Text nutzen, sollen gleichrangig behandelt werden. Funktionen wie das Sich-Einreihen in eine Warteschlange für Beiträge durch digitales "Handheben" soll von Arten von Nutzern gleichrangig genutzt werden können
+Menschen, die statt Sprache die Eingabe von Echtzeit-Text nutzen, 
+sollen gleichrangig behandelt werden. 
+Funktionen wie das Sich-Einreihen in eine Warteschlange für Beiträge durch digitales "Handheben" 
+soll von Arten von Nutzern gleichrangig genutzt werden können
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation und zusätzlich Textkommunikation in Echtzeit ermöglicht. Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation 
+und zusätzlich Textkommunikation in Echtzeit ermöglicht. 
+Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie. 
+Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird 
+und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
 === 2. Prüfung
 
 . Web-Anwendung öffnen
-. Prüfen, ob die gleichrangige Kommunikation via Echtzeit-Text und Sprache möglich ist und Funktionen wie das digitale Handheben ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen. Wenn es eine Warteschlange für Beiträge gibt, landen Sprachnutzer un Echtzeit-Text-Nutzer in der gleichen Schlange.
+. Prüfen, ob die gleichrangige Kommunikation via Echtzeit-Text und Sprache möglich ist 
+und Funktionen wie das digitale Handheben 
+ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen. 
+Wenn es eine Warteschlange für Beiträge gibt, 
+landen Sprachnutzer un Echtzeit-Text-Nutzer in der gleichen Schlange.
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
+dynamisch schon während der Eingabe des Senders. 
+RTT ist also nicht das Gleiche wie etwa Chat, 
+wo Nachrichten explizit abgeschickt werden 
+und erst dann beim Empfänger erscheinen.
 
-* Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
+* Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, 
+soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. 
+Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet 
+(z. B. immer nur ein aktiver Redner), 
+sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
 
-* Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, sollen Chat und Echtzeit-Textkommunikation separiert werden, z. B. in separaten Programmfenstern, damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören und nicht zu Verwirrung führen.
-
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.2.1.2 Concurrent voice and text
-
+* Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, 
+sollen Chat und Echtzeit-Textkommunikation separiert werden, 
+z. B. in separaten Programmfenstern, 
+damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören 
+und nicht zu Verwirrung führen.
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.1.2 Concurrent voice and text
-
+==== 6.2.1.2 Concurrent voice and text
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides a means for two-way voice communication and for users to
@@ -80,5 +100,4 @@ communication without the other and are sold as a unit for the voice
 communication function, the local and server-side components are considered a
 single product.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.2 "Concurrent voice and text")
+____

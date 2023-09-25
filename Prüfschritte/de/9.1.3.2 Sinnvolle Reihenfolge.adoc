@@ -4,58 +4,42 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Seiteninhalte sollen unabhängig von der Darstellung in einer sinnvollen und
-brauchbaren Reihenfolge stehen.
-Was inhaltlich zusammengehört (etwa eine
-Überschrift und die dazugehörigen Inhalte darunter) soll nicht
-auseinandergerissen werden.
-Mittels CSS versteckte Seiteninhalte sollen deshalb
-an sinnvoller Stelle im Seitenquelltext erscheinen.
+Seiteninhalte sollen unabhängig von der Darstellung in einer sinnvollen und brauchbaren Reihenfolge stehen.
+Was inhaltlich zusammengehört (etwa eine Überschrift und dazugehörige Inhalte darunter),
+soll nicht auseinandergerissen werden.
+Mittels CSS versteckte Seiteninhalte sollen deshalb an sinnvoller Stelle im Seitenquelltext erscheinen.
 
-Dynamische Inhalte, die im Ausgangszustand visuell versteckt sind, sollen auch
-für Screenreader verborgen sein, damit sie nicht die Lesereihenfolge stören.
+Dynamische Inhalte, die im Ausgangszustand visuell versteckt sind, 
+sollen auch für Screenreader verborgen sein, damit sie nicht die Lesereihenfolge stören.
 
-Ausschlaggebend bei der Prüfung ist nicht, ob die Seite in der Ansicht ohne
-CSS visuell eine verständliche Lesereihenfolge hat.
-Ausschlaggebend ist, ob *bei eingeschaltetem CSS* die Reihenfolge beim
-linearen Lesen mit dem Screenreader sinnvoll ist.
+Ausschlaggebend bei der Prüfung ist nicht, ob die Seite in der Ansicht ohne CSS visuell eine verständliche Lesereihenfolge hat.
+Denn häufig sind Seiteninhalte schlecht lesbar, wenn CSS abgeschaltet ist, es kommt zu Überlappungen oder Inhalte erscheinen auseinandergerissen. Ausschlaggebend ist dagegen, ob *bei eingeschaltetem CSS* die Reihenfolge beim linearen Lesen mit dem Screenreader sinnvoll ist.
 
 == Warum wird das geprüft?
 
-Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche
-angeordnet sind, *nacheinander* vor - und zwar in der Reihenfolge, in der sie
-im Quellcode stehen.
+Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind, *nacheinander* vor - 
+und zwar in der Reihenfolge, in der sie im Quellcode stehen.
 Die Reihenfolge der Elemente muss also gut verständlich und nutzbar sein.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn CSS verwendet wird, insbesondere für die
-Positionierung von Inhalten, und wenn Inhalte dynamisch eingeblendet oder
-eingefügt werden.
+Der Prüfschritt ist anwendbar, wenn CSS verwendet wird, insbesondere für die Positionierung von Inhalten, und wenn Inhalte dynamisch eingeblendet oder eingefügt werden.
 
 === 2. Prüfung
 
-==== 2.1 Lesereihenfolge für Screenreader-Nutzer
+==== 2.1 Lesereihenfolge für Screenreader-Nutzende
 
-* Seite im
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] aufrufen.
-* In der http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-Web Developer Toolbar] _CSS > Disable All Styles_ wählen.
-* Bleibt die logische Reihenfolge von sichtbaren Seiten-Inhalten nach dem
-Abschalten von CSS erhalten?
-* CSS wieder einschalten.
-* Die Reihenfolge der Inhalte mit dem Screenreader NVDA im
-Lesemodus (Pfeiltaste nach unten) überprüfen.
-* Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind? Werden visuell versteckte Inhalte
-vorgelesen?
+* Seite im Browser Chrome oder Firefox aufrufen.
+* Über eine Quellcode-Analyse die Lesereihenfolge der Elemente im DOM prüfen.
+* Gegebenenfalls zusätzlich NVDA aktivieren, die Seiteninhalte im Lesemodus des Screenreaders (mit Abwärts-Pfeiltaste) durchlaufen.
+* Gibt es Linearisierungsprobleme, die bei der Screenreader-Nutzung störend sind? Beispiel: Beschriftungen werden nicht vor dem jeweiligen Eingabefeld ausgegeben.
+* Sind Inhalte wie Ausklappmenüs, Ausklappbereiche, oder Dialoge, die standarmäßig visuell ausgeblendet sind, mit geeigneten Techniken für Screenreader-Nutzende verborgen?
 
 ==== 2.2 Prüfung der Linearisierbarkeit von Layouttabellen
 
-Wenn Tabellen für das Layout (die Anordnung von Elementen auf der Seite)
-eingesetzt werden, müssen sie linearisierbar sein.
+Wenn Tabellen für das Layout (die Anordnung von Elementen auf der Seite) eingesetzt werden, müssen sie linearisierbar sein.
 
 * Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[Firefox] anzeigen.
 * Mittels https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
@@ -67,32 +51,23 @@ die Struktur der Seite und damit die der Layouttabelle linearisieren.
 
 ==== Reihenfolge von Inhalten
 
-Die visuelle Anordnung der Seitenelemente kann von der Reihenfolge im
-Quelltext abweichen.
-Sichtbare Inhalte sollen in der Regel in der gleichen
-Reihenfolge wie im Quelltext stehen.
-Bei der Nutzung von CSS Layout-Technik
-`grid` kommt es hier häufiger zu Problemen.
+Die visuelle Anordnung der Seitenelemente kann von der Reihenfolge im Quelltext abweichen.
+Sichtbare Inhalte sollen in der Regel in der gleichen Reihenfolge wie im Quelltext stehen.
+Bei der Nutzung von CSS Layout-Technik `grid` kommt es hier häufiger zu Problemen.
+
+In manchen Fällen können bewusste Abweichungen von der visuellen Reihenfolge akzeptabel sein, etwa, wenn bei Meldungen in einem News-Bereich visuell das Datum der Meldung über der Überschrift steht, in der Lesereihenfolge aber auf diese folgt.
+Ein anderes Beispiel sind Überschriften mit Dachzeilen (etwa Kategorien von Meldungen). Hier kann es sinnvoll sein, dass die Dachzeile erst nach der Überschrift ausgegeben wird. Das Kriterium bei der Beurteilung ist immer: sind die Inhalte in der ausgegebenen Reihenfolge verständlich?
 
 ==== Dynamische Elemente
 
-Häufig und deshalb auch zu akzeptieren sind durch CSS versteckte Inhalte etwa
-Ausklappmenüs oder Popup-Elemente, die bei der Ansicht ohne CSS sichtbar
-werden.
-Problematisch sind sie für Screenreader-Nutzer vor allem dann, wenn sie
-zwar visuell mittels CSS versteckt werden, aber vom Screenreader im Lesemodus
-dennoch erreicht werden, z. B. weil sie nicht mit geeigneten Mitteln wie
-`display:none` versteckt wurden.
-
-*Zu WAI-ARIA:* Die Verwendung von WAI-ARIA spielt in diesem Prüfschritt keine
-Rolle.
+Häufig werden dynamische Elementen nur visuell ausgeblendet, sind aber für den Screenreader im Lesemodus noch erreichbar, weil sie nicht mit geeigneten Mitteln wie `display:none` versteckt wurden. Grundsätzlich besteht für Screenreader-Nutzende das Problem, dass oft umfangreiche Inhalte (etwa Navigationsmenüs) durchlaufen werden müssen. Für sehbehinderte Nutzende, die den Screenreader zusätzlich einsetzen, besteht zusätzlich das Problem, dass visuelle Inhalte und Screenreader-Ausgabe auseinanderklaffen. 
 
 === 4. Bewertung
 
 ==== Nicht voll erfüllt
 
-* Versteckte Texte oder dynamische Einfügungen erscheinen an verwirrender
-  Stelle beim Lesen mit dem Screenreader.
+* Die Lesereihenfolge entspricht nicht der visuellen, die Inhalte werden dadurch unverständlich oder Zuordnungen (etwa von Beschriftungen und Feldern sind in der Screenreade-Ausgabe fehlerhaft.
+* Visuell versteckte Elemnte, etwa Ausklappmenüs oder Dialoge, sind nicht für Screenreader-Nutzende verborgen.
 
 == Einordnung des Prüfschritts
 

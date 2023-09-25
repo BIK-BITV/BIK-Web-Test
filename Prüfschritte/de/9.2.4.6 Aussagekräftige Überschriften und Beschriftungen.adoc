@@ -23,7 +23,7 @@ enthält.
 === 2. Prüfung
 
 . Seite im
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] laden.
 . Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.

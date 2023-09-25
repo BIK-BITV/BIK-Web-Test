@@ -48,7 +48,7 @@ oder Seiten zum Anlegen eines Nutzerprofils).
 Bei Eingabefeldern, die sich auf Daten des Nutzers beziehen, mittels Developer
 Tools den Code inspizieren.
 Prüfen, ob ``autocomplete``-Werte definiert sind oder andere unterstützte
-Taxonomien den Eingabezeck angeben - bei Nutzung von `autocomplete` vergl.
+Taxonomien den Eingabezweck angeben - bei Nutzung von `autocomplete` vergl.
 https://www.w3.org/TR/WCAG21/#input-purposes[
 WCAG 2.1, Abschnitt 7 Input Purposes for User Interface Components].
 Prüfen, ob die korrekten Werte verwendet wurden (das ``autocomplete``-Attribut

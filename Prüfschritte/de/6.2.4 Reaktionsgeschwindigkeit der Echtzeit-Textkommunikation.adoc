@@ -4,47 +4,68 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. Es geht hier also um Systeme, die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, sondern erscheint unmittelbar.
+Wenn die Web-App Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt 
+und Texteingaben entgegennimmt, 
+soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. 
+Es geht hier also um Systeme, 
+die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. 
+Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, 
+sondern erscheint unmittelbar.
 
 == Warum wird das geprüft?
 
-Menschen, die über Texteingabe an einer Online-Kommunikation teilnehmen, sollen gegenüber Sprechenden nicht benachteiligt werden. Die Eingaben sollen unmittelbar oder nur mit geringer Verzögerung für andere Teilnehmende sichtbar werden.
+Menschen, die über Texteingabe an einer Online-Kommunikation teilnehmen, 
+sollen gegenüber Sprechenden nicht benachteiligt werden. 
+Die Eingaben sollen unmittelbar oder nur mit geringer Verzögerung für andere Teilnehmende sichtbar werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textkommunikation unterstützt. Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, die Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textkommunikation unterstützt. 
+Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, 
+die Echtzeit-Textkommunikation unterstützt 
+und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
 
 === 2. Prüfung
 
-Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis. Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der Anwendung abgeschickt werden. Zwischenzeitlich kann man testen, indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
+Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis. 
+Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
+von der Anwendung abgeschickt werden. 
+Zwischenzeitlich kann man testen, 
+indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
 
-Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei möglichst unmittelbar nach der Eingabe auf dem zweiten Gerät erscheinen.
+Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei möglichst unmittelbar 
+nach der Eingabe auf dem zweiten Gerät erscheinen.
 
-Die Übertragung sollte nicht mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
-Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
+Die Übertragung sollte nicht mehr als eine halbe Sekunde dauern. 
+Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
+Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. 
+Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
+dynamisch schon während der Eingabe des Senders. 
+RTT ist also nicht das Gleiche wie etwa Chat, 
+wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-* Es sollte eine maximale Verzögerung von 300 Millisekunden für das Abschicken der Eingabe angestrebt werden, da dies den wahrgenommenen Informationsfluss verbessert.
+* Es sollte eine maximale Verzögerung von 300 Millisekunden 
+für das Abschicken der Eingabe angestrebt werden, 
+da dies den wahrgenommenen Informationsfluss verbessert.
 
-Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
-
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.2.4 RTT responsiveness
+Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, 
+können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.4 RTT responsiveness
-
+==== 6.2.4 RTT responsiveness
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT utilises RTT input, that RTT input shall be transmitted to the ICT
@@ -71,9 +92,4 @@ characters are generated more slowly than 1 per 500 ms.
 NOTE 3:
 A delay of 300 ms, or less, produces a better impression of flow to the user.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.4 "RTT responsiveness")
-
-=== Wikipedia-Eintrag für Real-Time Text 
-
-https://en.wikipedia.org/wiki/Real-time_text
+____

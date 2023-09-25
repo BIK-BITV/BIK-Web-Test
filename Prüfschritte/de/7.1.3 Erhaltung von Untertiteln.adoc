@@ -4,8 +4,10 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt, bleiben 
-die Untertitel erhalten, sie lassen sich weiterhin anzeigen und werden synchron zum Ton dargestellt. Das heißt, 
+Wenn das Webangebot Videos mit Untertiteln überträgt, 
+konvertiert oder aufnimmt, bleiben die Untertitel erhalten, 
+sie lassen sich weiterhin anzeigen 
+und werden synchron zum Ton dargestellt. Das heißt, 
 die Prüfschritte
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
@@ -21,17 +23,23 @@ sind weiterhin erfüllt.
 
 == Warum wird das geprüft?
 
-Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt,  sollen diese Untertitel in gleicher Weise nutzbar sein wie vor dem Vorgang. Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.
+Wenn das Webangebot Videos mit Untertiteln überträgt, konvertiert oder aufnimmt,  
+sollen diese Untertitel in gleicher Weise nutzbar sein 
+wie vor dem Vorgang. 
+Dazu gehört, dass sie sich anzeigen lassen und synchron dargestellt werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Untertiteln übertragen, konvertieren oder aufnehmen kann.
+Der Prüfschritt ist anwendbar, 
+wenn das Webangebot Videos mit Untertiteln übertragen, 
+konvertieren oder aufnehmen kann.
 
 === 2. Prüfung
 
-Wenn die Webseite Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließend in einem konformen Player abspielen:
+Wenn die Webseite Videos mit Untertiteln konvertiert oder aufnimmt, 
+Video anschließend in einem konformen Player abspielen:
 
 * Sind alle Untertitel aus der Quelle weiterhin vorhanden?
 * Lassen sich alle Untertitel anzeigen?
@@ -39,20 +47,28 @@ Wenn die Webseite Videos mit Untertiteln konvertiert oder aufnimmt, Video anschl
 
 === 3. Hinweise
 
-Wenn gestalterische Aspekte der Untertitel (z. B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
+Wenn gestalterische Aspekte der Untertitel 
+(z. B. Position, Farbe, Fettung oder kursive Darstellung) 
+informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertung
 
 ==== Nicht erfüllt:
-* Nach der Übertragung, Konvertierung oder Aufnahme lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.
+* Nach der Übertragung, Konvertierung oder Aufnahme 
+lassen sich Untertitel nicht mehr anzeigen oder sind nicht mehr synchron zum Ton.
+
+== Quellen
+* Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige oder Synchronität von Untertiteln kommt.
+In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, 
+Konvertierung oder Aufnahme zu Problemen hinsichtlich der Anzeige 
+oder Synchronität von Untertiteln kommt.
 In den Prüfschritten
 ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
@@ -65,15 +81,11 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.1.3  Preservation of captioning.
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 7.1.3 Preservation of captioning
-
+==== 7.1.3 Preservation of captioning
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT transmits, converts or records video with synchronized audio, it
@@ -86,5 +98,4 @@ conventions.
 Altering these presentational aspects could change the meaning and should be
 avoided wherever possible.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.1.3 "Preservation of captioning")
+____
