@@ -1,4 +1,4 @@
-= Prüfschritt 9.1.1.1a Alternativtexte für Bedienelemente
+= Prüfschritt 2.5.8 Zielgröße (Minimum)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
