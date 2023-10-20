@@ -36,7 +36,7 @@ auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements)
   ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt, um etwa den Abstand der Elemente 
 zu ermitteln (`margin`, `padding`).
 
-* Das Bookmarklet Target Size (Link folgt) kann unterstützend hinzugezogen werden:
+* Das Bookmarklet https://html5accessibility.com/stuff/2023/08/28/quick-and-very-dirty-target-size-checker/[Target Size] kann unterstützend hinzugezogen werden:
   ** Es identifiziert interaktive Elemente, errechnet dessen Mittelpunkt und zeichnet einen halbtransparenten Kreis von 24×24 Pixeln um den Mittelpunkt des Elements.
     *** Ein grüner Kreis mit dickem Rand bedeutet: das Element hat eine Höhe oder Breite von 24 px oder mehr.
     *** En blauer Kreis bedeutet: Das Element hat eine Höhe und Breite von weniger als 24 px.
