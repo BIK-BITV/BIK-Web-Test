@@ -50,7 +50,7 @@ Ebenfalls andere, zusätzliche Vermittlungswege sind am Beispiel der Hervorhebun
 
 Ebenfalls nicht als einfache Farbunterschiede gelten:
 
-* die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder ändert sich)
+* eine Form (etwa ein äußerer Rahmen) kommt hinzu und der Kontrast der Form zur Umgebung beträgt mindestens 3:1  
 * der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der Austausch wahrnehmbar)
 
 === 3. Bewertung
