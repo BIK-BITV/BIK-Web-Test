@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 . Seite im Firefox Browser öffnen.
 . Mit der Tabulatortaste vorwärts und rückwärts durch die Seite navigieren und dabei alle Bedienelemente fokussieren.
 . Prüfen, ob es zu Situationen kommt, wo ein mit Tabben fokussiertes Bedienelement vollständig verdeckt wird (zum Beispiel durch einen fest positionierte Kopf- oder Fußbereich, durch einen nicht-modalen Dialog oder andere von Nutzenden eingeblendeten Inhalten). 
-. Prüfen, ob ein nicht sichtbarer Fokus (aufgrund von aktiv eingeblendetem Inhalt) sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, beispielsweise durch
+. Wenn aktiv eingeblender Inhalt einen Fokus verdeckt, prüfen, ob der verdeckte Fokus sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
   * Verwenden der Escape-Taste
   * Verwenden einer Taste zum Scrollen
   * Drücken einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und des eingeblendeten Inhalts.
