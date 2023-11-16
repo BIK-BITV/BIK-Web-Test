@@ -49,6 +49,13 @@ Der Tastaturfokus auf einem oder mehreren Bedienelementen wird bei der Navigatio
 
 == Einordnung des Prüfschritts
 
+=== Abrenzung zu anderen Prüfschritten
+==== Abgrenzun 9.1.4.13 Eingeblendete Inhalte bedienbar und 9.2.4.11 Fokus nicht verdeckt
+
+Der Prüfschritt "9.1.4.13 Eingeblendete Inhalte bedienbar" stellt verschiedene Anforderungen an Inhalte, die bei **Zeiger- oder Tastaturfokus** eingeblendet werden können und andere Inhalte überlagern.
+
+Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Überlagerung des **Tastaturfokus** durch **Inhalte der Seite**. Beispiele hierfür sind etwa fest positionierte Kopf- oder Fußbereiche. Werden Inhalte, die den Tastaturfokus verdecken (z. B. eine einblendbare Sidebar oder ein nicht-modaler Dialog) von Nutzern **aktiv** aufgerufen, muss es möglich sein, den **verdeckten Fokus** wieder **sichtbar** zu machen, ohne den Tastaturfokus zu verschieben, etwa durch das Schließen der Einblendung über die Escape-Taste oder mithilfe einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und eingeblendeten Inhalt.
+
 === Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
