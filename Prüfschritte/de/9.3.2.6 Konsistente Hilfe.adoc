@@ -23,6 +23,8 @@ Diese Anforderung hilft Nutzenden mit kognitiven Einschränkungen. Sie können s
 wenn sie nicht lange nach Möglichkeiten der Unterstützung suchen müssen. Die Anforderung verlangt nicht, dass eine Hilfe grundsätzlich angeboten wird, aber wenn sie vorhanden ist, dann muss sie konsistent 
 positioniert sein.
 
+== Wie wird geprüft
+
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn das Webangebot innerhalb einer Gruppe von Seiten wiederholt einen Hilfe-Mechanismus anbietet.
