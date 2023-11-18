@@ -9,13 +9,15 @@ Blenden Nutzende Inhalte durch eine Aktion ein, können diese Inhalte ebenfalls 
 (z. B. mithilfe der Esc-Taste, um den geöffneten Inhalt zu schließen, mithilfe von Tasten zum Scrollen des Inhalts oder durch das Verwenden einer Taste, um zwischen Überlagerungen zu wechseln).
 
 
-== Wie wird geprüft?
+== Warum wird das geprüft?
 
 Sehende Menschen mit Mobilitätseinschränkungen sind aufgrund ihrer Nutzungsweisen oft auf Tastaturbedienbarkeit angewiesen. Für Tastatur-Nutzende ist die visuelle Hervorhebung der aktuellen Fokusposition sehr wichtig. Sie ist ebenfalls wichtig für Menschen, 
 die die Schaltersteuerung nutzen und für Menschen mit kognitiven oder ihr Gedächtnis betreffenden Einschränkungen. 
 
 Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen Web-Inhalte das fokussierte Element vollständig verdecken. So können etwa fest positionierte Kopf- und Fußzeilen die fokussierten Bedienelemente und deren Fokusindikator überlagern. 
 Andere typische Inhalte, die zu Verdeckung des Fokus führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
+
+== Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
