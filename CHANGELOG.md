@@ -4,7 +4,30 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.2.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.0...HEAD)
+
+## [v3.0.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.2.0...v3.0.0) - 2023-11-18
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 3.3.8 Zugängliche Authentifizierung (Minimum) - WCAG 2.2 Neue Prüfschritt-Beschreibung @sweckenmann (#384)
+- 3.3.7 Redundanter Eintrag: WCAG 2.2 - Neue Prüfschrittbeschreibung @sweckenmann (#383)
+- 3.2.6 Konsistente Hilfe: WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#382)
+- 2.5.8 Zielgröße (Minimum): WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#381)
+- 2.5.7 Ziehbewegungen: WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#380)
+- 2.4.11 Fokus nicht verdeckt (Minimum): WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#379)
+
+### Geändert
+
+- 9.1.4.1 Ohne Farben nutzbar - Hinweise zu zusätzlicher Informationsvermittlung @detlevhfischer (#386)
+
+### Korrigiert
+
+- 9.3.2.6 Konsistente Hilfe: Ergänzung der fehlenden Überschrift "Wie wird geprüft" @sweckenmann (#391)
+- 6.2.3 Interopabilität von Echtzeit-Textkommunikation: Tippfehler im Dateinamen korrigiert @sweckenmann (#390)
+- 9.1.3.2 Sinnvolle Reihenfolge: Korrektur von Rechtschreibfehler @remonator (#389)
 
 ## [v2.2.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.1.0...v2.2.0) - 2023-10-03
 
