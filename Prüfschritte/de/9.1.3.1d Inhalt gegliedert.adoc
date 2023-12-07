@@ -76,7 +76,7 @@ Erzeugung von Trennlinien eingesetzt werden und nicht programmatisch versteckt s
 ==== Nicht voll erfüllt
 * Textabsätze sind nicht mit geeigneten Absatz-Elementen ausgezeichnet.
 * Zur Schaffung von Textabsätzen werden anstelle von Absatz-Elementen doppelte Zeilenumbrüche (`br`) verwendet.
-* Leerzeichen (``&nbsp;``) werden zur Schaffung von Spalten eingesetzt.
+* Leerzeichen (+`&nbsp;`+) werden zur Schaffung von Spalten eingesetzt.
 
 == Einordnung des Prüfschritts
 
