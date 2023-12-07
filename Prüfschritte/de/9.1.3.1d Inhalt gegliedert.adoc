@@ -20,7 +20,9 @@ die Inhalte Absatz für Absatz durchlaufen.
 Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente 
 auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, 
 oder sie können eine eigene, besser passende Präsentation anwenden.
-Werden Absatzumbrüche über `br`- Elemente oder leere Absatzelemte geschaffen, entstehen im Lesemodus der Screenreader ggf. leere Fokuspositionen, die irritieren und das Erfassen der Inhalte verlangsamen.
+Werden Absatzumbrüche über doppelte `br`- Elemente geschaffen, 
+entstehen im Lesemodus der Screenreader ggf. leere Fokuspositionen, 
+die irritieren und das Erfassen der Inhalte verlangsamen.
 
 Die Auszeichnungen `strong` und `em` sind allgemein und nicht
 darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle
