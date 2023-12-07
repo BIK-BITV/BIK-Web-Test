@@ -4,11 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Absätze sind mit geeigneten Strukturelementen ausgezeichnet.
+Absätze sind mit geeigneten Strukturelementen ausgezeichnet, Zeilenumbrüche über doppelte `br` Elemente werden vermieden.
 
 Hervorhebungen in Texten sind mit `strong` oder `em` ausgezeichnet.
-
-Text-Inhalt wird nicht per CSS eingebunden.
 
 == Warum wird das geprüft?
 
@@ -16,36 +14,37 @@ Die Unterteilung in kleinere Einheiten erleichtert die Handhabung und das
 Verständnis.
 
 Die Verwendung der vorgesehenen HTML-Strukturelemente stellt sicher, dass
-diese Unterteilung unabhängig von der Präsentation, auf einer abstrakten Ebene
-festgelegt und zugänglich ist.
+die Gliederung der Inhalte auch programmatisch ermittelbar
+festgelegt und zugänglich ist. So können z.B. Screenreader-Nutzende im Lesemodus
+die Inhalte Absatz für Absatz durchlaufen.
 Benutzer, die mit der vorgegebenen visuellen Präsentation der Elemente 
 auf der Seite nichts anfangen können, finden sich dann trotzdem zurecht, 
 oder sie können eine eigene, besser passende Präsentation anwenden.
+Werden Absatzumbrüche über `br`- Elemente oder leere Absatzelemte geschaffen, entstehen im Lesemodus der Screenreader ggf. leere Fokuspositionen, die irritieren und das Erfassen der Inhalte verlangsamen.
 
 Die Auszeichnungen `strong` und `em` sind allgemein und nicht
 darstellungsbezogen (wie `b`, `i` oder eine nur mit CSS realisierte visuelle
 Hervorhebung).
 
-Werden Inhalte per CSS eingebunden, sind sie für Nutzer Assistiver
-Technologien nicht verfügbar.
-
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es auf der Seite Absätze gibt.
+Der Prüfschritt ist anwendbar, wenn es auf der Seite gegliederte Textinhalte mit Absätzen gibt.
 
 === 2. Prüfung
 
 ==== 2.1 Prüfung mit Bookmarklet
 
-Seite in
+. Seite in
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] aufrufen.
-Das Bookmarklet
+. Das Bookmarklet
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
 Inhalte gegliedert] aufrufen.
-Prüfen, ob Absätze mit `p` ausgezeichnet sind.
+. Prüfen, ob Absätze mit `p` ausgezeichnet sind. Da die Auszeichnung von Absätzen mit `div` statt mit `p`-Elementen für Screenreader-Nutzende im Lesemodus keinen wesentlichen Nachteil mit sich bringt, ist sie jedoch auch zu akzeptieren. 
+. Werden br-Elemente oder leere Absatzelemente für Zeilenumbrüche genutzt? 
+
 Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
 
 ==== 2.2 Missbräuchliche Nutzung von typographischen Zeichen
@@ -55,20 +54,15 @@ Prüfen, ob Leerzeichen (``&nbsp;``) zur Formatierung von Text benutzt werden
 Prüfen, ob typographische Zeichen, etwa Reihen von Bindestrichen, zur
 Erzeugung von Trennlinien eingesetzt werden.
 
-==== 2.3 Einbindung von Text-Inhalt mit Hilfe von CSS
-
-Prüfen, ob über die Pseudo-Elemente `:after` bzw. `:before` und der
-``"content"``-Eigenschaft Inhalt eingebunden wurde.
-
 === 3. Hinweise
 
 * Es soll nicht bewertet werden, ob die vorhandene, sichtbare Gliederung der
-  Seite sinnvoll ist, sondern nur, ob sie mit geeigneten
-  HTML-Strukturelementen umgesetzt wurde.
+  Seite sinnvoll ist, sondern nur, ob sie mit geeigneten HTML-Elementen umgesetzt wurde.
+* Das für Absätze vorgesehene Element ist grundsätzlich `p`. Die Verwendung von `div` ist nicht empfehlenswert, hat in der Regel keine Nachteile für die programmatische Ausgabe, etwa durch Screenreader. Die Nutzung von `div` anstelle von `p` für Texabsätze sollte deshalb nicht zu einer Bewertung als "nicht erfüllt" führen.
 * Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften,
   Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt.
-* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte.
-  Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
+* Die Inhalte von iframes werden ebenso überprüft wie andere Seiteninhalte.
+  Dazu muss unter Umständen der iframe in einem neuen Fenster geladen werden.
 * Wenn es sich bei dem über CSS eingebundenen Inhalt um Überschriften,
   Listen oder Tabellen handelt, wird dies in den entsprechenden Prüfschritten
   bewertet.
@@ -76,15 +70,14 @@ Prüfen, ob über die Pseudo-Elemente `:after` bzw. `:before` und der
 === 4. Bewertung
 
 ==== Erfüllt
-
-* Alle Absätze sind mit `p` ausgezeichnet, für Hervorhebungen im Text wird
-  `strong` und `em` verwendet.
+* Textabsätze sind mit geeigneten Absatz-Elementen ausgezeichnet.
+* Auf Umbrüche von Textabsätzen über dppelte `br` Elemente wird verzichtet.
+* Für semantische Hervorhebungen im Text wird `strong` oder `em` verwendet.
 
 ==== Nicht voll erfüllt
-
-* Für Absätze werden anstelle von `p` doppelte Zeilenumbrüche (`br`) verwendet.
+* Textabsätze sind nicht mit geeigneten Absatz-Elementen ausgezeichnet.
+* Zur Schaffung von Textabsätzen werden anstelle von Absatz-Elementen doppelte Zeilenumbrüche (`br`) verwendet.
 * Leerzeichen (``&nbsp;``) werden zur Schaffung von Spalten eingesetzt.
-* Text-Inhalt wird mit Hilfe von CSS eingebunden.
 
 == Einordnung des Prüfschritts
 
