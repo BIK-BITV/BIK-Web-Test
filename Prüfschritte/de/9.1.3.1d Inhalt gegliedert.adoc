@@ -54,7 +54,7 @@ Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
 * Prüfen, ob Leerzeichen (`+&nbsp;+`) zur Formatierung von Text benutzt werden
 (etwa zur Schaffung von Spalten).
 * Prüfen, ob typographische Zeichen, etwa Reihen von Bindestrichen, zur
-Erzeugung von Trennlinien eingesetzt werden.
+Erzeugung von Trennlinien eingesetzt werden und nicht programmatisch versteckt sind (etwa über `aria-hidden="true"`).
 
 === 3. Hinweise
 
