@@ -51,7 +51,7 @@ Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
 
 ==== 2.2 Missbräuchliche Nutzung von typographischen Zeichen
 
-Prüfen, ob Leerzeichen (``&nbsp;``) zur Formatierung von Text benutzt werden
+Prüfen, ob Leerzeichen (`+&nbsp;+`) zur Formatierung von Text benutzt werden
 (etwa zur Schaffung von Spalten).
 Prüfen, ob typographische Zeichen, etwa Reihen von Bindestrichen, zur
 Erzeugung von Trennlinien eingesetzt werden.
