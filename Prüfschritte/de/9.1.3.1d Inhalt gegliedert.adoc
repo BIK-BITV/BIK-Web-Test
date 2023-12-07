@@ -45,7 +45,7 @@ Firefox] aufrufen.
 http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
 Inhalte gegliedert] aufrufen.
 . Prüfen, ob Absätze mit `p` ausgezeichnet sind. Da die Auszeichnung von Absätzen mit `div` statt mit `p`-Elementen für Screenreader-Nutzende im Lesemodus keinen wesentlichen Nachteil mit sich bringt, ist sie jedoch auch zu akzeptieren. 
-. Werden br-Elemente oder leere Absatzelemente für Zeilenumbrüche genutzt? 
+. Werden doppelte `br`-Elemente für Zeilenumbrüche genutzt? 
 
 Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
 
