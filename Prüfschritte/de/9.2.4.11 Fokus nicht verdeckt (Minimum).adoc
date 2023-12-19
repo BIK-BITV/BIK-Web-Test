@@ -11,11 +11,10 @@ Blenden Nutzende Inhalte durch eine Aktion ein, können diese Inhalte ebenfalls 
 
 == Warum wird das geprüft?
 
-Sehende Menschen mit Mobilitätseinschränkungen sind aufgrund ihrer Nutzungsweisen oft auf Tastaturbedienbarkeit angewiesen. Für Tastatur-Nutzende ist die visuelle Hervorhebung der aktuellen Fokusposition sehr wichtig. Sie ist ebenfalls wichtig für Menschen, 
-die die Schaltersteuerung nutzen und für Menschen mit kognitiven oder ihr Gedächtnis betreffenden Einschränkungen. 
+Für sehende Menschen, die auf Tastaturbedienung angewiesen sind, ist entscheidend, den aktuellen Fokuspunkts zu kennen. Das gilt auch für Menschen, die ein Gerät nutzen, das über die Tastaturschnittstelle bedient wird, wie zum Beispiel Schaltersteuerung oder Spracheingabe. Die fokussierte Komponente ist der Ort, an dem die Interaktion auf der Seite stattfindet. Wenn der Benutzer das Element nicht sehen kann, weiß er möglicherweise nicht, wie er weiter vorgehen soll, oder er könnte sogar denken, das System reagiere nicht mehr.
 
 Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen Web-Inhalte das fokussierte Element vollständig verdecken. So können etwa fest positionierte Kopf- und Fußzeilen die fokussierten Bedienelemente und deren Fokusindikator überlagern. 
-Andere typische Inhalte, die zu Verdeckung des Fokus führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
+Andere typische Inhalte, die zu Verdeckung der Komponente führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
 
 == Wie wird geprüft?
 
