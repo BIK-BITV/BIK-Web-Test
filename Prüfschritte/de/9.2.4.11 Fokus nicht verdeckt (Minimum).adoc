@@ -76,3 +76,20 @@ Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Üb
 ===== Failures
 
 * https://www.w3.org/WAI/WCAG22/Techniques/failures/F110[F110: Failure of Success Criterion 2.4.12 Focus Not Obscured (Minimum) due to a sticky footer or header completely hiding focused elements]
+
+== Fragen zu diesem Prüfschritt
+
+=== Warum zielt der Prüfschritt die (mindestens teilweise) Sichtbarkeit der Komponente ab und nicht des Fokusindikators?
+
+Wenn Nutzende den Fokusindikator nicht mindestens teilweise sehen können, wissen sie nicht, welche Komponente den Tastaturfokus hat. Auf den ersten Blick scheint also die Sichtbarkeit des Indikator das zu sein, was geprüft werden sollte.
+
+Der normative Text des Erfolgskriteriums zielt jedoch auf "die Komponente der Benutzeroberfläche" ab. Diese soll nicht vollständig verdeckt sein. Das bedeutet, es könnte sein, dass eine Komponente teilweise sichtbar, ist, der Fokusindikator jedoch nicht. Die Anforderung wäre trotzdem erfüllt. Beispiel: Eine Schaltfläche ist zum Teil sichtbar, nicht jedoch der Fokusindikator (zusätzliche Unterstreichung des Textes).
+
+In der Diskussion der Arbeitsgruppe der Accessibilty Guidelines Working Group (AGWG) findet man (sinngemäß) folgende Begründung:
+
+. Bei vielen Umsetzungen ist der Fokusindikator am Rand blasser. Würde sich der Wortlaut nur auf den Fokusindikator beziehen, würde auf Konformitätsstufe AA ein einziger Pixel mit sehr geringem Kontrast dazu führen, dass der Prüfschritt bestanden ist, obwohl man ihn eigentlich nicht wahrnehmen kann.
+. Es gibt bereits ein Erfolgskriterium „Focus Visible“, das verlangt, dass der Fokusindikator sichtbar ist. Wenn "Fokus nicht verdeckt" auf den Indikator abzielte, scheinen die beiden Anforderungen redundant zu sein.
+. Die meisten Fokusindikatoren umgeben eine Komponente. Wenn also mindestens ein Pixel der Komponente nicht verdeckt ist, sollten viele Pixel des Fokusindikators sichtbar sein. Die Wahrscheinlichkeit ist bei der jetzigen Formulierung der Anforderung hoch, dass bei typischen Bedienelementen die Fokusindikatoren zumindest teilweise sichtbar sind.
+. Auf Konformitätsstufe AAA führt die Anforderung, dass die gesamte Komponente sichtbar sein muss, höchstwahrscheinlich dazu, dass auch ein großer Teil des Fokusindikators sichtbar ist. Wenn der Fokusindikator jedoch als Teil der Komponente betrachtet wird, dann wäre eine AAA-Anforderung nicht bestanden, wenn ein einziger, sehr kontrastarmer, blasser Pixel eines dicken und auffälligen Fokusindikators verdeckt ist.
+
+Quelle: Accessibilty Guidelines Working Group, [Clarification for Understanding 2.4.11 Focus Not Obscured (Minimum) to ensure consistent testing](https://github.com/w3c/wcag/issues/3529)
