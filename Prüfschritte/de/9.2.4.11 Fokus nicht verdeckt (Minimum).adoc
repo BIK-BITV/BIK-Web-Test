@@ -82,7 +82,7 @@ Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Üb
 
 === Warum zielt der Prüfschritt die (mindestens teilweise) Sichtbarkeit der Komponente ab und nicht des Fokusindikators?
 
-Wenn Nutzende den Fokusindikator nicht mindestens teilweise sehen können, wissen sie nicht, welche Komponente den Tastaturfokus hat. Auf den ersten Blick scheint also die Sichtbarkeit des Indikator das zu sein, was geprüft werden sollte.
+Wenn Nutzende den Fokusindikator nicht mindestens teilweise sehen können, wissen sie nicht, welche Komponente den Tastaturfokus hat. Auf den ersten Blick scheint also die Sichtbarkeit des Indikators das zu sein, was geprüft werden sollte.
 
 Der normative Text des Erfolgskriteriums zielt jedoch auf "die Komponente der Benutzeroberfläche" ab. Diese soll nicht vollständig verdeckt sein. Das bedeutet, es könnte sein, dass eine Komponente teilweise sichtbar, ist, der Fokusindikator jedoch nicht. Die Anforderung wäre trotzdem erfüllt. Beispiel: Eine Schaltfläche ist teilweise sichtbar, nicht jedoch der Fokusindikator, der als zusätzliche Unterstreichung des Textes umgesetzt ist.
 
