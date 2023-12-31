@@ -1,0 +1,72 @@
+= Prüfschritt 3.3.7 Redundanter Eintrag
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn Nutzende innerhalb des gleichen Vorgangs zuvor eingegebene oder zur Verfügung gestellte Informationen erneut eingeben müssen, wird geprüft, ob:
+
+* die Informationen automatisch ausgefüllt werden oder 
+* die erneute Eingabe für Nutzende über eine Auswahlfunktion möglich ist.
+
+Ausnahmen:
+
+* Die erneute Eingabe der Information ist unerlässlich
+* die erneute Eingabe ist aus Sicherheitsgründen erforderlich 
+* die zuvor eingegebenen Informationen sind nicht mehr gültig.
+
+== Warum wird das geprüft
+
+Wenn Informationen wir Name, Geburtsdatum oder Ähnliches nicht mehrmals eingegeben werden müssen, können Nutzende den Prozess mit geringerem kognitivem Aufwand durchführen. 
+Nutzende mit kognitiven Behinderungen, die Schwierigkeiten mit dem Kurzzeitgedächtnis haben, profitieren beispielsweise davon, da sie sich dann nicht immer wieder an bestimmte Informationen 
+erinnern oder nach diesen irgendwo suchen müssen. Es entsteht weniger Stress, das Risiko für Fehler ist reduziert. Das Vermeiden wiederholter Eingaben hilft auch Nutzenden mit Mobilitätseinschränkungen, 
+die z. B. eine Schaltersteuerung oder Spracheingabe verwenden und für die Eingaben oft aufwändiger und fehleranfälliger sind.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+In formularbasierten Prozessen sind bereits eingegebene oder zur Verfügung gestellte Daten an anderer Stelle erneut einzugeben.
+
+=== 2. Prüfung
+
+. Prüfen, ob innerhalb eines formularbasierten Prozesses bereits eingegebene oder zur Verfügung gestellte Daten erneut eingegeben werden müssen.
+. Prüfen, ob der Bedarf einer erneuten Eingabe vermieden wird, indem die Felder automatisch ausgefüllt werden oder Nutzende beim Ausfüllen durch eine Form von Auswahlfunktion 
+(siehe 3. Hinweise) unterstützt werden.
+. Prüfen, dass es sich bei einer notwendigen erneuten Eingabe nicht um eine Ausnahme im Sinne des Prüfschritts handelt 
+(die erneute Eingabe ist unerlässlich, sicherheitsrelevant, zuvor gemachte Eingabe ist nicht mehr gültig)
+
+=== 3. Hinweise
+
+* Die Anforderung schreibt nicht vor, dass Informationen zwischen den Sitzungen gespeichert werden müssen. Ein Prozess wird auf der Grundlage einer durchgehenden Aktivität (Session) definiert. 
+Die Anforderung gilt nicht, wenn Nutzende nach dem Schließen einer Sitzung oder dem Wegnavigieren zu anderen Bereichen zu dem Prozess zurückkehrt. 
+* Ein Prozess kann über verschiedene Domänen hinweg ablaufen. Wenn also ein Check-out-Prozess einen Drittanbieter für Zahlungen einschließt, würde dies in den Anwendungsbereich fallen.
+
+* Beispiele für Auswahlfunktionen:
+
+  ** Nutzende wählen aus einer Auswahlliste aus, um ein Feld zu befüllen
+  ** Nutzende wählen Text auf der gleichen Seite aus und kopieren ihn in ein Eingabefeld
+  ** Nutzende aktivieren ein Kontrollkästchen, um Eingaben mit zuvor eingegebenen Werten zu füllen (z. B. meine Rechnungsadresse ist dieselbe wie meine Lieferadresse).
+
+=== 4. Bewertung
+
+==== Nicht erfüllt
+
+Innerhalb eines Vorgangs müssen Nutzende zuvor eingegebene oder zur Verfügung gestellte Daten erneut eingeben.
+  
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.2
+
+==== Guidelines
+
+* https://www.w3.org/TR/WCAG22/#input-assistance[Guideline 3.3 Input Assistance]
+
+==== Success Criterion
+
+* https://www.w3.org/TR/WCAG22/#redundant-entry[3.3.7 Redundant Entry (A)]
+
+==== Techniques
+===== Sufficient Techniques
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G221[G221: Provide data from a previous step in a process]
+* Not requesting the same information twice (Potential future technique)

@@ -75,4 +75,3 @@ NOTE 3:
 For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
-____

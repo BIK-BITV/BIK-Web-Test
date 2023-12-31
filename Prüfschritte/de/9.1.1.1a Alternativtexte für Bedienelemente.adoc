@@ -227,8 +227,8 @@ In der Regel bedeutet das:
   In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine
   Überschrift im unmittelbaren Kontext identifiziert wird.
 
-Bei *verlinkten Abbildungen* gibt es folgende
-  Möglichkeiten:
+Bei *verlinkten Abbildungen* gibt es folgende Möglichkeiten:
+
 * Der abgebildete Gegenstand wird in der Textalternative beschrieben (wenn der
    abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
    Beispiel Logo).
@@ -236,9 +236,10 @@ Bei *verlinkten Abbildungen* gibt es folgende
    unwichtig ist, zum Beispiel Illustration).
 * Der abgebildete Gegenstand und Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
   
-Generell gilt: Alternativtexte sollen kurz sein.
-* Ausführliche Beschreibungen von Abbildungen sollen nicht im
-* Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
+Generell gilt: 
+
+* Alternativtexte sollen kurz sein.
+* Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 === 3. Hinweise
 

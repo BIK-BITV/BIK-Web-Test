@@ -6,13 +6,13 @@ include::include/attributes.adoc[]
 
 Wenn das Webangebot Videos mit einem Originalton enthält, 
 der nicht der Hauptsprache des Webangebots entspricht, 
-sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, 
+sollen zuschaltbare bzw. programmatisch ermittelbare Untertitel, 
 die in der Hauptsprache der Seite angeboten werden, 
 als akustische Ausgabe zugänglich sein, 
 z.B. über eine eigene Tonspur, die den Untertiteln entspricht, 
 oder über eine generierte Sprachausgabe der Untertitel. 
 Nicht programmatisch ermittelbar sind Untertitel, 
-die "fest eingebrannt", also Teil der Bildinformation, sind.
+die "fest eingebrannt" (open captions), also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
@@ -30,8 +30,7 @@ Der Prüfschritt ist anwendbar:
 * wenn der Original-Ton des Videos fremdsprachig ist 
 (d.h. er entspricht nicht der Hauptsprache des Webauftritts)
 * und Untertitel in der Hauptsprache des Webauftritts bereitgestellt werden
-* und wenn es keine Version des Videos 
-mit einer Tonspur in der Hauptsprache des Webauftritts gibt.
+* und wenn es keine Version des Videos mit einer Tonspur in der Hauptsprache des Webauftritts gibt.
 
 === 2. Prüfung
 

@@ -68,34 +68,35 @@ Man nimmt eine beliebige Zelle und liest sie zusammen mit den zugehörigen Spalt
 
 Ist die Bedeutung der Zelle so verständlich?
 
-Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger Inhalt vorhanden, sind Zellen hervorgehoben? Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden Überschriften benutzbar sind. Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und (bei richtiger Auszeichnung) auch per Screenreader benutzbar.
+Gezielt untersucht werden sollen Auffälligkeiten: Ist irgendwo andersartiger Inhalt vorhanden, sind Zellen hervorgehoben?  Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise,  unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden Überschriften benutzbar sind. Ist das der Fall, Dann ist die Tabelle richtig aufgebaut und (bei richtiger Auszeichnung) auch per Screenreader benutzbar.
 
 ==== 2.3 Prüfung der Auszeichnung von nativen Tabellen:
 
-* Seite im https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-Firefox] laden.
+* Seite im Chrome- oder Firefox-Browser laden.
 * Das
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
 Tables bookmarklet] aufrufen. Tabellen-Auszeichnungen werden jetzt angezeigt.
 * Prüfen, ob alle Spalten- und Zeilenüberschriften korrekt mit `th`
 ausgezeichnet sind.
-* Das ``summary``-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
+* Das `summary`-Attribut ist in HTML5 für die Beschreibung von Tabellen nicht
 mehr erlaubt.
 Falls in HTML5-Dokumenten eine Beschreibung der Tabelle
-bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
+bereitgestellt wird, sollte diese auf anderem Wege umgesetzt werden, 
+wie z. B. innerhalb von ``caption``, mit Hilfe von `aria-describedby` oder `figure` und ``figcaption``.
 
 Die Mindestanforderung: Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis <<3.2 Woran erkennt man Zeilenüberschriften?>>).
 
 ==== 2.4 Prüfung von mit ARIA umgesetzten Tabellen
 
-* Prüfen, ob Inhalte, die sichbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table]
+* Prüfen, ob Inhalte, die sichtbar als Datentabelle umgesetzt sind, aber kein natives Tabellen-Markup nutzen, korrekt mit den entsprechenden ARIA-Rollen (`role="table"`, `role="row"`, `role ="columnheader"` und `role="rowheader"`) ausgezeichnet sind. Vergleiche dazu das https://www.w3.org/WAI/ARIA/apg/patterns/table/[
+APG Table pattern].
 
 === 3. Hinweise
 
 ==== 3.1 Auszeichnung von zweideutigen Zellen
 
-Die Auszeichnung von Zellen die zugleich Überschriften und Daten enthalten mit
-`td` und dem ``scope``-Attribut ist in HTML5 nicht mehr erlaubt.
+Die Auszeichnung von Zellen, die zugleich Überschriften und Daten enthalten, mit
+`td` und dem `scope`-Attribut ist in HTML5 nicht mehr erlaubt.
 
 ==== 3.2 Woran erkennt man Zeilenüberschriften?
 
@@ -200,6 +201,15 @@ sie richtig aufgebaut und linear nutzbar sind.
 * Spalten- und Zeilenüberschriften sind nicht korrekt mit `th` (oder entsprechenden ARIA-Rollen)
 ausgezeichnet.
 
+== Quellen
+
+* W3C Web Accessibility Initiative: https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
+* ARIA Authoring Practices Guide (APG): https://www.w3.org/WAI/ARIA/apg/patterns/table/[
+Table pattern] (W3C)
+* https://codepen.io/Wildebrew/pen/gBKdVb[Synthetic tables built with ARIA] (Birkir Gunnarsson, codepen). Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle.
+* https://adrianroselli.com/2017/11/a-responsive-accessible-table.html[A Responsive Accessible Table] (Adrian Roselli, 2017)
+* https://adrianroselli.com/2019/09/table-with-expando-rows.html[Table with Expando Rows]. (Adrian Roselli, 2019). The article offers an implementation solution for a common pattern where rows are hidden until the user opts to show them.
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -250,15 +260,6 @@ ausgezeichnet.
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[
   F92: Failure of Success Criterion 1.3.1 due to the use of role presentation
   on content which conveys semantic information]
-
-== Quellen
-
-=== Tutorials
-
-* https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial] (W3C)
-* https://www.w3.org/TR/wai-aria-practices-1.1/#table[ARIA Authoring practices, table] (W3C)
-* https://codepen.io/Wildebrew/pen/gBKdVb[Beispiel einer mittels ARIA semantisch korrekt umgesetzten Tabelle] (Birkir Gunnarsson, codepen)
-
 
 == Fragen zu diesem Prüfschritt
 

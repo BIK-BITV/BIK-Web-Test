@@ -49,18 +49,7 @@ ifndef::env_embedded[]
   Audiodeskription oder Volltext-Alternative für Videos>>).
 endif::env_embedded[]
 
-=== 3. Hinweis
-
-Die Anforderung 9.1.2.3 Audiodeskription oder Volltextalternative ist in den WCAG der Konformitätsstufe A zugeordnet. Auf Konformitätsstufe AA gibt es ein Erfolgskriterium, das die Volltext-Alternative nicht akzeptiert. Der BITV-Test prüft dieses Erfolgskriterium der Stufe AA im Prüfschritt 
-ifdef::env_embedded[9.1.2.5 Audiodeskription für Videos]
-ifndef::env_embedded[]
-  <<9.1.2.5 Audiodeskription für Videos.adoc#,9.1.2.5
-  Audiodeskription für Videos>>.
-endif::env_embedded[]
-
-Bietet die Website eine Volltextalternative, so ist zwar 9.1.2.3 (A) erfüllt, nicht aber 9.1.2.5 (AA). Da der BITV-Test Konformität auf Stufe AA prüft, wird dann die Seite in der Auswertung des Tests als "nicht konform" bewertet. Eine Audiodeskription ist also für eine konforme Bewertung der Seite im BITV-Test gefordert, sofern der Prüfschritt anwendbar ist.
-
-=== 4. Bewertung
+=== 3. Bewertung
 
 ==== Erfüllt
 

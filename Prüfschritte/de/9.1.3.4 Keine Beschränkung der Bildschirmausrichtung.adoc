@@ -11,8 +11,8 @@ nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts ist
 unerlässlich.
 
 Beispiele für Inhalte, bei denen die Ausrichtung unerlässlich sein können,
-sind ein Bankcheck, eine online-Klavier-Tastatur, Präsentationsfolien für
-einen Projektor oder Bildschirm, oder Inhalte eine Virtual-Reality (VR)
+sind ein Bankcheck, eine Online-Klavier-Tastatur, Präsentationsfolien für
+einen Projektor oder Bildschirm, oder Inhalte einer Virtual-Reality (VR)
 Anwendung bei der es keine binäre Ausrichtung gibt (also nicht: entweder Hoch-
 oder Querformat).
 

@@ -1,0 +1,75 @@
+= Prüfschritt 2.5.7 Ziehbewegungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+
+== Was wird geprüft?
+
+Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion nötig, muss die Bedienung auch mit einer einfachen Zeigeraktion (ohne Ziehbewegung) möglich sein. Ausnahme: Das Ziehen ist unerlässlich oder die Funktion wird vom Browser bestimmt.
+
+== Warum wird das geprüft?
+
+Selbst die einfachste Ziehbewegung erfordert eine recht präzise Steuerung des Zeigers (z. B. Maus oder Finger). Dies kann für Nutzende, die Probleme mit der Feinmotorik haben oder Hilfsmittel verwenden, die die Zeigerbewegung durch Sprachbefehle oder andere Eingaben 
+simulieren, schwierig bis unmöglich sein. Es muss daher eine alternative Methode nur über Zeigeraktionen (ohne Ziehbewegung) zur Verfügung gestellt werden. Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einfache Zeigeraktion erlaubt 
+ein Aktions-Menü die Auswahl des Zielorts.
+
+== Wie wird geprüft
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Ziehen und Ablegen) ausgeführt werden müssen.
+
+=== 2. Prüfung
+
+. Prüfen, ob Funktionen vorhanden sind, die über Ziehbewegungen ausgeführt werden (z. B. das Ziehen von Elementen in andere Container oder das Verschieben von Schiebereglern).
+. Wenn eine solche Funktion über Ziehbewegungen vorhanden ist: Kann die gleiche Funktion auch ohne Ziehbewegung ausgeführt werden? Dies kann auf verschiedene Weise umgesetzt werden, zum Beispiel:
+
+  * Nach Aktivierung eines Elements über einfache Zeigeraktion erlaubt ein Aktions-Menü die Auswahl des Zielorts.
+  * Nach Aktivierung eines Elements über einfache Zeigeraktion erscheinen im Kontext des Elements Pfeile, die ein schrittweises Verschieben des Elements erlauben.
+  * Bei Schiebereglern gibt es die Möglichkeit numerischer Eingaben des Wertes über die (virtuelle) Tastatur.
+
+=== 3. Hinweise
+
+*	Bei einer Ziehbewegungen ist nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig.
+*	Der Prüfschritt 2.5.7 "Ziehbewegungen" verlangt eine Alternative für die Aktivierung der jeweiligen Funktion über einfache Zeiger-Eingaben, unabhängig von der Tastaturbedienbarkeit, die parallel in Prüfschritt 9.2.1.1 geprüft wird. Wenn die jeweilige Funktion mittels Tastatureingabe verfügbar ist, ist dies also nicht automatisch eine Alternative, es sei denn, diese Alternative (etwa ein Ausklapp-Menü zum Verschieben eines ausgewählten Elements) ist vollständig ebenso über einfache Zeigereingaben bedienbar.
+*	Das vom Browser unterstützte Scrollen einer Seite fällt nicht in den Anwendungsbereich, ebenso wenig wie mit CSS-overflow scrollbar gemachte Bereiche der Seite.
+
+=== 4. Bewertung
+
+==== Nicht erfüllt
+
+Für das Ausführen einer Funktion mit Ziehbewegung gibt es keine alternative Methode, die Funktion nur über einfache Zeigeraktionen auszuführen.
+
+== Quellen
+
+* https://www.darins.page/articles/designing-a-reorderable-list-component[Designing a reorderable list component, Darin Senneff, 2021]
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+* Prüfschritt 2.1.1 Ohne Maus nutzbar prüft, ob alle Funktionen auch mit der Tastatur bedienbar sind. 
+* Prüfschritt 2.5.7 Ziehbewegungen prüft hingegen, ob die Bedienung mit einer Zeigereingabe möglich ist (zum Beispiel Klicken oder Tippen), denn eine funktionierende Tastaturbedienung bedeutet nicht zwangsläufig, 
+dass die Ziehfunktion auch über einfache Zeigeraktionen ausführbar ist.
+* Prüfschritt 2.5.7 bezieht sich auf *Ziehbewegungen* (nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig). Prüfschritt 2.5.1 Alternativen für komplexe Zeigergesten behandelt *Zeigergesten,* 
+d.h. pfadbasierte Gesten (eine bestimmte Richtung, d. h. ein bestimmter Pfad ist für die Ausführung nötig) und *Mehrpunktgesten* (z. B. Zwei-Finger-Spreizgeste).
+
+=== Einordnung des Prüfschritts nach WCAG 2.2
+
+==== Guidelines
+
+* https://www.w3.org/TR/WCAG22/#input-modalities[2.5 Input Modalities]
+
+==== Success Criterion
+
+* https://www.w3.org/TR/WCAG22/#dragging-movements[2.5.3 Dragging Movements) (Level AA)]
+
+==== Techniques
+
+===== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G219[G219: Ensuring that a single pointer alternative is available for dragging movements that operate on content]
+
+===== Failures
+
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F108[F108: Failure of Success Criterion 2.5.X Dragging due to not providing a single pointer method for the user to operate a function that does not require a dragging movement]

@@ -38,12 +38,8 @@ Der Prüfschritt ist immer anwendbar.
   direct Input' eingeben (hier muss ggf. eine nicht mitkopierte DOCTYPE
   Erklärung der Seite zu Beginn eingefügt werden, z. B. bei HTML5 die Zeile
   ``<!DOCTYPE html>``).
-. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem
-  https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[
-  WCAG parsing only Bookmarklet] die Fehler filtern.
+. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem https://bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#parsingerror[Syntax Only Bookmarklet] die Fehler filtern.
 . Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind.
-  Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
-  Fehler.
 
 === 3. Hinweise
 
@@ -72,11 +68,9 @@ Der Prüfschritt ist immer anwendbar.
   Falls noch Fehler (Errors) auftauchen, sind diese auf den semantisch
   korrekten Einsatz von Custom-Attributen zurückzuführen.
 
-==== Nicht erfüllt
+==== Eher erfüllt
 
-* Das Prüfergebnis des W3C-HTML-Validators ist auch nach Anwendung des WCAG
-  parsing only Bookmarklet negativ, es gibt Errors (und nicht nur wegen
-  Custom-Attributen).
+* Das Prüfergebnis des W3C-HTML-Validators zeigt auch nach Anwendung des Syntax only Bookmarklets Fehler.
 
 == Einordnung des Prüfschritts
 

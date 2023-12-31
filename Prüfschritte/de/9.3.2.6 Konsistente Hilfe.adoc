@@ -1,0 +1,83 @@
+= Prüfschritt 3.2.6 Konsistente Hilfe
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn eine Webangebot einen Hilfe-Mechanismus anbietet und dieser Mechanismus innerhalb einer Gruppe von Seiten mit gemeinsamem Zweck vorhanden ist, dann soll diese Hilfe in der gleichen relativen 
+Reihenfolge zu anderen Seiteninhalten positioniert sein (außer die Änderung der Reihenfolge wird durch die Nutzenden ausgelöst).
+
+Unter Hilfe-Mechanismen sind zu verstehen:
+
+* Menschliche Kontakt-Angaben (z. B. Telefon, E-mail, Geschäftszeiten)
+* Menschliche Mechanismen zur Kontaktaufnahme (z. B. Messanger-Dienste, Chat-Clients, Kontaktformular, Social-Media-Kanäle)
+* Möglichkeiten der Selbsthilfe (z. B. "Häufig gestellte Fragen" oder eine "Hilfe"-Seite)
+* Automatische Kontakt-Mechanismen, wie beispielsweise ein Chatbot.
+
+== Warum wird das geprüft
+
+Ist ein Hilfemechanismus zur Erfüllung einer Aufgabe vorhanden, sollen Nutzende diesen auch finden können. Dies ist einfacher, wenn die Hilfe seitenübergreifend an einer einheitlichen Stelle positioniert ist. 
+Befindet sich beispielsweise ein Link in der Kopfzeile, ist dieser leichter zu finden, wenn er auch auf den anderen Seiten in der Kopfzeile positioniert ist.
+
+Diese Anforderung hilft Nutzenden mit kognitiven Einschränkungen. Sie können sich besser auf die zu bewältigende Aufgabe konzentrieren und werden die Aufgabe erfolgreicher bewerkstelligen können, 
+wenn sie nicht lange nach Möglichkeiten der Unterstützung suchen müssen. Die Anforderung verlangt nicht, dass eine Hilfe grundsätzlich angeboten wird, aber wenn sie vorhanden ist, dann muss sie konsistent 
+positioniert sein.
+
+== Wie wird geprüft
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot innerhalb einer Gruppe von Seiten wiederholt einen Hilfe-Mechanismus anbietet.
+
+=== 2. Prüfung
+
+. Prüfern, ob das Webangebot innerhalb einer Gruppe von Seiten wiederholt einen Hilfemechanismus anbietet.
+. Prüfen, ob der Hilfemechanismus an der gleichen Position bezogen auf andere sich ebenfalls wiederholende Seiteninhalte (z.B. Einträge in einer Navigation) platziert ist.
+
+=== 3. Hinweise
+
+* Bei der Prüfung dieser Anforderung ist der Hilfe-Mechanismus relativ zum übrigen Inhalt zu betrachten, das bedeutet, relativ zu anderem Inhalt, der ebenfalls auf jeder Seite wiederholt wird.  
+Zum Beispiel: Inhalte, die auf allen Seiten vorhanden sind und vor dem Hilfe-Mechanismus stehen, sollen auch auf der zu testenden Seite vor dem Hilfe-Mechanismus stehen.
+* Eine "Gruppe von Seiten" im Sinne dieses Prüfschritts kann auch ein Teil eines Webauftritts sein. Eine "Gruppe von Seiten" ist häufig durch einen gemeinsamen Zweck gekennzeichnet, 
+beispielsweise ein Bewerbungsportal einer Organisation oder ein bestimmter Prozess, der durchlaufen werden muss, um eine Aufgabe zu erfüllen.
+* Es geht um die relative Reihenfolge bezogen auf ein bestimmtes Layout (z. B. bei bestimmten Zoomstufen oder Browserfenster-Breite).  Es ist nicht als Fehler zu bewerten, wenn der Hilfe-Mechanismus in verschiedenen responsiven Layouts an unterschiedlichen Stellen zu finden ist.
+Gemeint sind hier nicht kontextbezogene Hilfen wie etwa Rechtschreibprüfung und Anleitungstext in einem Formular. 
+
+=== 4. Bewertung
+
+==== Nicht erfüllt
+
+Der Hilfemechanismus ist innerhalb einer Gruppe von Seiten an unterschiedlichen Stellen positioniert.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten#
+
+==== Abgrenzung zu 9.3.2.3 "Konsistente Navigation"
+
+Im verwandten Prüfschritt 9.3.2.3 Konsistente Navigation wird geprüft, ob die Reihenfolge von Elementen der Navigation konsistent ist, und erfasst damit bereits Fälle, in denen ein Hilfe-Mechanismus etwa als Link innerhalb 
+einer Navigation angeboten wird. Zusätzlich erfasst sind in diesem Prüfschritt Fälle, in denen der Hilfe-Mechanismus außerhalb einer Navigation untergebracht ist, etwa als im Fußbereich genannte 
+Kontakt-Information oder als Element zum Aufruf eines Chat-Fensters. Ist die Position eines Hilfe-Links nicht konsistent, wären sowohl 
+Prüfschritt 9.3.2.3 "Konsistente Navigation" als auch dieser Prüfschritt nicht erfüllt.
+
+==== Abgrenzung zu 9.1.3.2 "Sinnvolle Reihenfolge" und 9.2.4.3 Schlüssige Reihenfolge bei Tastaturbedienung
+
+Für die Prüfung dieser Anforderung wird die linearisierte Reihenfolge (d. h. die Reihenfolge im DOM) betrachtet. Idealerweise sollte sie mit der visuellen Reihenfolge übereinstimmen und in den 
+meisten Fällen wird dies auch der Fall sein. 
+Wenn die Reihenfolge im Quelltext konsistent ist, diese aber nicht mit der visuellen Reihenfolge übereinstimmt, dann sollte dies separat bei 9.1.3.2 Sinnvolle Reihenfolge und 9.2.4.3 Schlüssige Reihenfolge 
+bei Tastaturbedienung bewertet werden.
+
+=== Einordnung des Prüfschritts nach WCAG 2.2
+
+==== Guideline
+* https://www.w3.org/TR/WCAG22/#predictable[Guideline 3.2 Predictable]
+
+==== Success Criterion
+
+* https://www.w3.org/TR/WCAG22/#consistent-help[3.2.6 Consistent Help (A)]
+
+==== Techniques
+
+===== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G220[G220: Provide a contact-us link in a consistent location]

@@ -26,7 +26,7 @@ Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Objekte (z. B. Menüs oder Dialoge, die nach Interaktion eingeblendet werden), enthält.
+Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Objekte (z. B. Menüs oder Dialoge, die nach Interaktion eingeblendet werden) enthält.
 
 === 2. Prüfung
 
@@ -39,12 +39,11 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links, Formularelemente oder Obje
 Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite Inhalte hinzufügen, die nicht schon in der Ansicht ohne CSS auf der frisch geladenen Seite sichtbar sind):
 
 . Seite im
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Voreinstellung im Firefox: Im Browser-Menü _Einstellungen_ wählen. Dort im Bereich "Surfen" die Option "Markieren von Text mit der Tastatur zulassen" auswählen. Hierdurch wird die Cursor-Position als blinkende Einfügemarke angezeigt. Dies entspricht in der Regel dem Screenreader-Fokus.
 . Dynamisch eingefügte Inhalte aufrufen, etwa durch Formulareingabe oder Auslösen einer Schaltfläche.
-. https://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#fb[
-  Browsereigenes Entwicklerwerkzeug] (_Inspektor_ für Firefox) aufrufen, das Element-Symbol (das Icon zeigt den Cursor auf einer Taste) links in der Menüleiste auswählen und den eingefügten Inhalt anklicken.
+. Browsereigenes Entwicklerwerkzeug (_Inspektor_ für Firefox) aufrufen, das Element-Symbol (das Icon zeigt den Cursor auf einer Taste) links in der Menüleiste auswählen und den eingefügten Inhalt anklicken.
   Im eingeblendeten Fenster lässt sich nun der generierte Quellcode im Zusammenhang einsehen.
 . Position des eingefügten Elements prüfen.
 +
@@ -81,7 +80,7 @@ Wichtig in diesem Zusammenhang:
   Listenoption ausgelöst wird.
   Um solche Auswahllisten durchzublättern, muss man sie ggf. zunächst mit der Tastenkombination "ALT + Pfeil nach unten" öffnen.
   Dann kann man mit den Pfeiltasten nach oben und unten durch die Optionen blättern und mit der Eingabetaste eine Option auswählen.
-* Die https://www.w3.org/TR/wai-aria-practices-1.1/[Authoring Practices 1.1] bieten eine Orientierung, welche Fokusreihenfolge / welches Fokusmanagement bei bestimmten Widget-Typen zu erwarten ist.
+* Die https://www.w3.org/WAI/ARIA/apg/[ARIA Authoring Practices Guide (APG)] bieten eine Orientierung, welche Fokusreihenfolge / welches Fokusmanagement bei bestimmten Widget-Typen zu erwarten ist.
 
 ==== Zur Einfügung dynamisch generierter Inhalte unterhalb des auslösenden Elements
 
@@ -106,6 +105,9 @@ bzw. Auswahllisten heraus bzw. durch erläuternde Texte oder Hilfefunktionen deu
 ==== Nicht erfüllt
 
 * Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert die Bedienung mit der Tastatur erheblich.
+
+== Quellen
+* Knowbility: https://knowbility.org/blog/2020/accessible-slide-menus[Let’s Focus on Slide-Out Navigation] (March 2020)
 
 == Einordnung des Prüfschritts
 

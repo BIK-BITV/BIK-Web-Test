@@ -43,17 +43,16 @@ Beispiele für zusätzliche Vermittlung:
 * Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung am Formularbeginn) oder textlich ("Pflichtfeld")
   gekennzeichnet.
 
-Ebenfalls andere, zusätzliche Vermittlungswege sind am Beispiel der Hervorhebung der aktuell ausgewählten Menüoption:
+=== 3. Hinweise
+Es gibt verschiedene Arten, Information nicht nur über Farbe zu vermitteln:
 
-* der Breadcrumb zeigt, welche Seite ausgewählt ist
-* die Überschrift ist stets gleichlautend mit der ausgewählten Menüoption
+* Ein Menüeintrag ist farblich hervorgehoben, aber ein Breadcrumb nennt zusätzlich, welche Seite ausgewählt ist
+* Ein Menüeintrag ist farblich hervorgehoben, aber es gibt zusätzlich eine gleichlautende Überschrift, die dem Menüeintrag jeweils entspricht
+* Ein Icon wechselt die Farbe, aber es ändert sich außerdem die nachfolgende Beschriftung
+* ein Bedienelement ändert bei Fokussierung die Farbe, aber es kommt zusätzlich ein äußerer Rahmen hinzu, der ausreichend zum Hintergrund kontrastiert
+* Farbumkehr ausreichend kontrastreicher Elemente: Vorder- und Hintergrundfarbe eines Elements werden bei Fokussierung oder Aktivierung ausgetauscht
 
-Ebenfalls nicht als einfache Farbunterschiede gelten:
-
-* die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder ändert sich)
-* der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der Austausch wahrnehmbar)
-
-=== 3. Bewertung
+=== 4. Bewertung
 
 ==== Nicht voll erfüllt
 
