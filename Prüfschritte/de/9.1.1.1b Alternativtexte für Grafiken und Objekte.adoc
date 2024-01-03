@@ -482,10 +482,10 @@ als hinreichend bewertet werden.
 
 Auf der Website ist das Firmenlogo abgebildet. 
 Reicht es aus, wenn im Alternativtext steht, dass da das Firmenlogo abgebildet
-ist Oder sollte es auch beschrieben werden?
+ist oder sollte es auch beschrieben werden?
 
 Auch für einen blinden Besucher kann das Aussehen des Logos interessant sein.
-Er unterhält sich ja mit Sehenden und weiß dann, wovon die Rede ist.
+Er unterhält sich mit Sehenden und weiß dann, wovon die Rede ist.
 Allerdings sollte der Alternativtext kurz sein, der Besucher möchte nicht
 immer wieder diese Beschreibung hören, wenn er die Seite besucht.
 Sie kann also in einer separaten, ausführlichen Beschreibung

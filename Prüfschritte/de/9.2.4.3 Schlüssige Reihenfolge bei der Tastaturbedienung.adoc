@@ -10,7 +10,7 @@ nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein.  Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch andere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch andere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Webnutzenden arbeitet mit der Maus, daher wird oft nur an sie gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
 
@@ -20,7 +20,7 @@ Manche Seiten präsentieren mittels JavaScript dynamische Inhalte. Rückmeldunge
 
 Werden weitere Elemente über DOM-Scripting in den Quellcode einer Seite dynamisch eingefügt (d.h. ohne dass die Seite neu lädt), soll diese Einfügung *unterhalb* des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
 
-Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist oft bei Modalen Dialogen der Fall), müssen Scripte für ein sinnvolles Fokusmanagment sorgen und damit eine sinnvolle Fokusreihenfolge gewährleisten.
+Werden Elemente an anderer Stelle im DOM eingefügt, etwa am Seitenende (das ist oft bei Modalen Dialogen der Fall), müssen Scripte für ein sinnvolles Fokusmanagement sorgen und damit eine sinnvolle Fokusreihenfolge gewährleisten.
 
 == Wie wird geprüft?
 
@@ -48,7 +48,7 @@ Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite Inhalt
 . Position des eingefügten Elements prüfen.
 +
 * Fall 1: Erscheint der eingefügte Inhalt im Quellcode *unterhalb* des
-  auslösenden Elements(Siehe dazu die Erläuterung in Abschnitt <<3. Hinweise>>).
+  auslösenden Elements (Siehe dazu die Erläuterung in Abschnitt <<3. Hinweise>>).
 * Fall 2: Wenn generierte Pseudo-Fenster (Modalen Dialogen) im Quellcode nicht direkt nach dem auslösenden Element, sondern *an anderer Stelle*, etwa ganz am Seitenende, eingefügt werden:
 
 [start=1]

@@ -32,7 +32,7 @@ Im BIK BITV-Test können lediglich Dokumente auf Basis von Web-Technologien gete
 Falls von Support Services eine webbasierte Dokumentation bereitgestellt wird, 
 sollte dies vorab mit dem Anbieter geklärt werden, 
 damit diese Dokumentation bereits bei der Seitenauswahl berücksichtigt werden kann. 
-Für andere Formate (etwa PDF) muss gegenenenfalls ein getrennter Prüfauftrag erteilt werden, 
+Für andere Formate (etwa PDF) muss gegebenenfalls ein getrennter Prüfauftrag erteilt werden, 
 da sich diese Formate im BITV-Test nicht prüfen lassen.
 
 === 2. Prüfung
@@ -48,7 +48,7 @@ mit einer Erklärung der angebotenen Such- und Filter-Funktionen.
 * Ein Dokumenten-Management-System schickt auf Anfrage 
 eine HTML-Referenzseite zu unterstützten Tastaturbefehlen.
 * Der Anbieter eines web-basierten Drucker-Management-Systems 
-schickt auf Anfrage ein PDF-Handbuch mit einer vollständige Liste 
+schickt auf Anfrage ein PDF-Handbuch mit einer vollständigen Liste 
 der verfügbaren Touch-Displays eines Druckers 
 mit Dokumentation aller angebotenen Funktionen 
 (dieses Handbuch wäre nicht im Test zu prüfen, 

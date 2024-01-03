@@ -65,7 +65,7 @@ Font Icons oder SVGs für Layoutzwecke verwendet werden.
   auch diese leer sein.
   Zu bemängeln sind komplett fehlende ``alt``-Attribute (werden durch die
   Toolbar-Funktion mit "No Alt!" gekennzeichnet) und auch Bezeichnungen wie
-  "Abstandshalter", "spacer", "leer" etcfür Layoutgrafiken.
+  "Abstandshalter", "spacer", "leer" etc. für Layoutgrafiken.
 
 ==== 2.2 Dekorative Icon Fonts:
 

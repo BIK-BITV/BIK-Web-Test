@@ -8,7 +8,7 @@ Alle selbst gestalteten Komponenten einer Website (also Elemente oder Widgets,
 die nicht auf interaktiven HTML-Elementen beruhen) sind so umgesetzt, dass die
 semantischen Informationen (Name, Rolle, Eigenschaften) vorhanden sind.
 Werden nicht semantische Elemente (etwa `div` oder ``span``) eingesetzt und
-mithilfe von JavaScript zu Bedienelmenten umfunktioniert, wird die Semantik
+mithilfe von JavaScript zu Bedienelementen umfunktioniert, wird die Semantik
 mithilfe von WAI-ARIA bereitgestellt.
 
 Die wechselnden Zustände der Bedienelemente werden nicht nur visuell über CSS
@@ -68,7 +68,7 @@ andere Event Handler reagieren) enthält.
   Änderungen der Attribute-Werte reflektiert werden.
   Grafische Zustandsänderungen durch den geskripteten Austausch von Bildern, die
   anstelle von Bedienelementen eingesetzt werden, müssen auch für Hilfsmittel
-  verfügbare sinnvolle Änderungen von ``alt``-Attributen bzwWAI-ARIA Eigenschaften
+  verfügbare sinnvolle Änderungen von ``alt``-Attributen bzw. WAI-ARIA Eigenschaften
   erzeugen.
 
 === 3. Hinweise

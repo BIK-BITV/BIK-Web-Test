@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden  dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
+Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
 
 == Warum wird das geprüft?
 
@@ -21,7 +21,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-*	Der Prüfschritt ist anwendbar, wenn die  Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel vorhanden sind. Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
+*	Der Prüfschritt ist anwendbar, wenn die Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel vorhanden sind. Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
 *	Aufgezeichnete Videos ohne Tonspur (stumme Videos) brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
 
 === 2. Prüfung

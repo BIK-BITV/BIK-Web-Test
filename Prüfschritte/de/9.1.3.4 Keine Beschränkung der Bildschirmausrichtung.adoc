@@ -29,7 +29,7 @@ Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung montier
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Prüfung des Wechsels der Bildschirmausrichtung sollte  immer anwendbar sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung funktionieren.
+Die Prüfung des Wechsels der Bildschirmausrichtung sollte immer anwendbar sein, außer es gibt spezielle Inhalte, die nur in einer Ausrichtung funktionieren.
 
 === 2. Prüfung
 

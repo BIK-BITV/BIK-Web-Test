@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Wenn das Webangebot Videos mit Audiodeskription überträgt, 
 konvertiert oder aufnimmt, 
 bleibt die Audiodeskription nach dem Vorgang erhalten.
-Sie ist weiterhin  zuschaltbar 
+Sie ist weiterhin zuschaltbar 
 und wird synchron zu Bild und Ton dargestellt.
 Die Prüfschritte 
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]

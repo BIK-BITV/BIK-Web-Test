@@ -77,7 +77,7 @@ wenn Folgendes gegeben ist:
 - Seitenübergreifende Bereiche (Kopf- und Fußbereich) 
 sind mit den anderen Seiten der Seitenauswahl identisch und bereits geprüft worden.
 - Der Inhaltsbereich ist sehr einfach 
-(es handelt sich beispielsweise nur um strukturierter Text und Links).
+(es handelt sich beispielsweise nur um strukturierten Text und Links).
 * Ist die Dokumentation komplexer oder als weiterer Seitentyp einzustufen, 
 wird sie als eine weitere Seite in die Seitenauswahl aufgenommen. 
 Wenn eine weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, 

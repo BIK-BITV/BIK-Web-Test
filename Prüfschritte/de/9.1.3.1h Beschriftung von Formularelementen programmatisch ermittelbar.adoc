@@ -89,7 +89,7 @@ Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden
 Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
 `aria-label` oder `aria-labelledby` zur Verfügung gestellt werden.
 
-==== 3.3 Suchfeld mit nachfolgenem Button bzw. Input
+==== 3.3 Suchfeld mit nachfolgendem Button bzw. Input
 
 Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button
 besteht, ist oftmals keine sichtbare Beschriftung notwendig.

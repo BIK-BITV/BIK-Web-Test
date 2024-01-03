@@ -31,7 +31,7 @@ Bedienelemente des Webinhaltes gibt.
 
 Bei anderen motorischen Einschränkungen kann es durch unwillkürliche
 Bewegungen zu ungewollten Eingaben kommen.
-Deshalb ist es wichtig, dass sich von Webinhalten bereitgestelte motorische
+Deshalb ist es wichtig, dass sich von Webinhalten bereitgestellte motorische
 Eingaben deaktivieren lassen.
 
 == Wie wird geprüft?

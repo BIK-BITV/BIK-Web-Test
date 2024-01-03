@@ -68,7 +68,7 @@ endif::env_embedded[]
 
 ==== Nicht erfüllt
 
-* Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist ebenfalls nicht verhanden.
+* Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist ebenfalls nicht vorhanden.
 
 == Einordnung des Prüfschritts
 
