@@ -46,7 +46,7 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 === 2. Prüfung
 
 . Seite auf einem Smartphone aufrufen.
-. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren (z. B. auf Karussels, Slidern). Lassen sich Slider oder andere Inhaltselemente durch Wischgesten bewegen? Werden durch Wischgesten vom Rand her Menüs oder andere Webinhalte eingeblendet? Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren (z. B. auf Karussells, Slidern). Lassen sich Slider oder andere Inhaltselemente durch Wischgesten bewegen? Werden durch Wischgesten vom Rand her Menüs oder andere Webinhalte eingeblendet? Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
 . Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
   Menüs einblenden).
 
@@ -59,7 +59,7 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 
 ==== Prüfschritt erfüllt
 
-* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
+* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
 
 == Einordnung des Prüfschritts
 

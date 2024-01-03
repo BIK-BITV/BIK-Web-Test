@@ -31,7 +31,7 @@ Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorge
 oder anderweitig hervorgehoben werden.
 . Ist dies der Fall, prüfen, ob auch Teilnehmende,
 die Echtzeit-Texteingabe verwenden, 
-beim Eingaben markiert oder anderweitig hervorgehoben werden.
+beim Eingeben markiert oder anderweitig hervorgehoben werden.
 
 === 3. Hinweise
 

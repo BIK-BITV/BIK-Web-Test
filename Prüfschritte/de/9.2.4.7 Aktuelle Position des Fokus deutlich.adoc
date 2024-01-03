@@ -15,7 +15,7 @@ Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 == Warum wird das geprüft?
 
 Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus
-gerade befindet, welcher Link also ausgelöst wird, wenn er sie die Enter-Taste
+gerade befindet, welcher Link also ausgelöst wird, wenn sie die Enter-Taste
 drücken.
 
 Viele Webseiten erleichtern Mausnutzenden die Bedienung, indem sie darauf

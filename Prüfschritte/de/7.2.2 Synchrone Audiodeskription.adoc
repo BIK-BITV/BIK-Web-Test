@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Sind Videos mit synchroner Bild- und Tonspur 
 und zusätzlicher Audiodeskription vorhanden, 
 soll der Videoplayer in der Lage sein, 
-die zusätzliche Audiodeskription synchron zu  Bild und Ton wiederzugeben. 
+die zusätzliche Audiodeskription synchron zu Bild und Ton wiederzugeben. 
 
 == Warum wird das geprüft?
 Bildbeschreibungen sollten möglichst handlungssynchron umgesetzt werden 
@@ -26,7 +26,7 @@ wenn auf der Webseite Videos mit synchroner Bild- und Tonspur
 sowie einer zusätzlich eingebundenen Tonspur für Audiodeskription vorhanden sind. 
 Eine Alternative wäre die Verwendung des `track`-Elements 
 mit `kind="description"`, 
-eine im video-Element eingebunde Textdatei, 
+eine im video-Element eingebundene Textdatei, 
 aus der ggf. eine Audio-Ausgabe synthetisiert wird. 
 Wenn also ein Player bei der Auswahl einer angebotenen 'Version mit Audiodeskription' 
 eine andere Videodatei mit erweitertem Ton lädt, 
@@ -68,7 +68,7 @@ dort prüfen, ob ebenfalls Mängel bei der Synchronität bestehen.
 Ist die zugeschaltete Audiodeskription bei anderen Videos synchron, 
 deutet dies darauf hin, d
 ass das Problem nicht beim Player, 
-sondern bei spezifischen Video oder Audiodeskriptions-Dateien liegt. 
+sondern beim spezifischen Video oder Audiodeskriptions-Dateien liegt. 
 Der Prüfschritt wäre dann erfüllt.
 
 Hinweise zu diesem Prüfschritt 

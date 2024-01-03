@@ -62,7 +62,7 @@ zugänglichen Namen des Bedienelements vorkommt.
 Verwenden Sie einen Screenreader, die Entwickler-Werkzeuge des Browsers oder
 ein anderes Tool (etwa ein Bookmarklet), um den zugänglichen Namen jedes
 Bedienelements für den Vergleich mit dem Text der sichtbaren Beschriftung zu
-ermitteln(Beachten Sie, dass die Screenreader-Ausgabe Informationen enthalten
+ermitteln (Beachten Sie, dass die Screenreader-Ausgabe Informationen enthalten
 kann, die nicht Teil des zugänglichen Namens sind, zum Beispiel die Rolle des
 Bedienelements oder eine zusätzliche Beschreibung).
 

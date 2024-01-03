@@ -11,7 +11,7 @@ Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
 Menschen, die statt Sprache die Eingabe von Echtzeit-Text nutzen, 
 sollen gleichrangig behandelt werden. 
 Funktionen wie das Sich-Einreihen in eine Warteschlange für Beiträge durch digitales "Handheben" 
-soll von Arten von Nutzern gleichrangig genutzt werden können
+soll von Arten von Nutzern gleichrangig genutzt werden können.
 
 == Wie wird geprüft?
 
@@ -30,7 +30,7 @@ und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 und Funktionen wie das digitale Handheben 
 ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen. 
 Wenn es eine Warteschlange für Beiträge gibt, 
-landen Sprachnutzer un Echtzeit-Text-Nutzer in der gleichen Schlange.
+landen Sprachnutzer und Echtzeit-Text-Nutzer in der gleichen Schlange.
 
 === 3. Hinweise
 

@@ -30,7 +30,7 @@ und Hilfe bereitstellen kann.
 Der Prüfschritt ist anwendbar, wenn das Webangebot (meist eine Web-Anwendung)
 
 * technische Dokumentation für das Webangebot anbietet, und
-* Barrierefreiheits-Funktionen und Hinweise auf Hilfsmittel-Kompatibitität 
+* Barrierefreiheits-Funktionen und Hinweise auf Hilfsmittel-Kompatibilität 
 in dieser Dokumentation eingeschlossen sind.
 
 === 2. Prüfung
@@ -47,7 +47,7 @@ Der Prüfschritt bewertet nicht die Qualität der übermittelten Information
 und auch nicht die Zugänglichkeit von übersandten Dokumenten. 
 Er prüft lediglich, ob der technische Support des Anbieters 
 darauf eingerichtet ist, mit weitergehenden Fragen zu Barrierefreiheits-Funktionen 
-oder Hilfsmittel-Kompatibilität unzugehen.
+oder Hilfsmittel-Kompatibilität umzugehen.
 
 Ein allgemeiner Kontakt zum Anbieter des Webangebots 
 wird im Sinne des Prüfschritts noch nicht als Support verstanden. 

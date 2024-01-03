@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit einem Orginalton enthält, 
+Wenn das Webangebot Videos mit einem Originalton enthält, 
 der nicht der Hauptsprache des Webangebots entspricht, 
 sollen zuschaltbare bzw. programmatisch ermittelbare Untertitel, 
 die in der Hauptsprache der Seite angeboten werden, 

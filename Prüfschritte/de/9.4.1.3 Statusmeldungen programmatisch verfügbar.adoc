@@ -48,7 +48,7 @@ Nicht als Statusmeldung gelten:
 
 * Fehlermeldung über Dialog (Kontextänderung durch Fokusumsetzung)
 * Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche
-  Formularelelemente
+  Formularelemente
 
 Ob die Statusmeldung tatsächlich vom Screenreader ausgegeben wird, kann abhängig von genutztem Browser und Screenreader unterschiedlich ausfallen. Der Erfolg kann davon abhängen, ob die Statusmeldung in ein bereits bestehendes Element eingefügt wird oder ob eine kurze Zeitverzögerung vor der Generierung der Meldung definiert worden ist. Für eine möglichst gute Unterstützung in unterschiedlichen Umgebungen:
 

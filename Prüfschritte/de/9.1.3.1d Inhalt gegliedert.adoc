@@ -67,8 +67,8 @@ Prüfen, ob über die Pseudo-Elemente `:after` bzw. `:before` und der
   HTML-Strukturelementen umgesetzt wurde.
 * Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften,
   Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt.
-* Die Inhalte von Iframes werden ebenso überprüft wie andere Seiteninhalte.
-  Dazu muss unter Umständen der Iframe in einem neuen Fenster geladen werden.
+* Die Inhalte von iframes werden ebenso überprüft wie andere Seiteninhalte.
+  Dazu muss unter Umständen der iframe in einem neuen Fenster geladen werden.
 * Wenn es sich bei dem über CSS eingebundenen Inhalt um Überschriften,
   Listen oder Tabellen handelt, wird dies in den entsprechenden Prüfschritten
   bewertet.

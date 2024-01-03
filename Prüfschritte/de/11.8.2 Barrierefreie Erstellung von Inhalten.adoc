@@ -21,10 +21,10 @@ damit Hilfsmittel-Nutzer diese semantische Information auswerten können
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist bei der Prüfung von Autorenwerzeugen 
+Der Prüfschritt ist bei der Prüfung von Autorenwerkzeugen 
 wie Content Management Systemen anwendbar. 
 Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, 
-die die Strukturierung von Kommentare erlauben, 
+die die Strukturierung von Kommentaren erlauben, 
 zum Beispiel die Vergabe einer Kommentar-Überschrift 
 oder Funktionen zur Binnenauszeichnung des Kommentars, 
 etwa Listen oder Texthervorhebungen.
@@ -34,7 +34,7 @@ Die Prüfung bezieht sich in erster Linie auf die Ausgabe des jeweiligen Autoren
 Der Dokumenttyp, den das Autorenwerkzeug erstellt, 
 muss für die Barrierefreiheit optimierbar sein, 
 ansonsten ist dieser Prüfschritt nicht anwendbar. 
-Dies ist für Web Content Managment Systeme und Kommentarfunktionen grundsätzlich gegeben. 
+Dies ist für Web Content Management Systeme und Kommentarfunktionen grundsätzlich gegeben. 
 
 Die Ausgabe des Autorenwerkzeugs 
 muss innerhalb einer Webumgebung dargestellt werden. 
