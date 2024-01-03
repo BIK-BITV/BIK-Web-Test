@@ -42,7 +42,7 @@ Der Prüfschritt ist anwendbar, wenn es auf der Seite gegliederte Textinhalte mi
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] aufrufen.
 . Das Bookmarklet
-http://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#gegliedert[
+https://ergebnis.bitvtest.de/test-methodik/web/werkzeugliste#c359[
 Inhalte gegliedert] aufrufen.
 . Prüfen, ob Absätze mit `p` oder anderer passender Semantik ausgezeichnet sind. Da die Auszeichnung von Absätzen mit `div` statt mit `p`-Elementen für Screenreader-Nutzende im Lesemodus keinen wesentlichen Nachteil mit sich bringt, kann sie in bestimmten Fällen (z. B. wenig Fießtext oder optisch kein richtiger Textabsatz) akzeptiert werden. 
 . Werden doppelte `br`-Elemente für Zeilenumbrüche genutzt? 
