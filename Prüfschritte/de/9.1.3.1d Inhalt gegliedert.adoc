@@ -60,11 +60,10 @@ Erzeugung von Trennlinien eingesetzt werden und nicht programmatisch versteckt s
 
 * Es soll nicht bewertet werden, ob die vorhandene, sichtbare Gliederung der
   Seite sinnvoll ist, sondern nur, ob sie mit geeigneten HTML-Elementen umgesetzt wurde.
-* Das für Absätze vorgesehene Element ist grundsätzlich `p`. Die Verwendung von `div` ist nicht empfehlenswert, hat aber in der Regel keine Nachteile für die programmatische Ausgabe, etwa durch Screenreader. Die Nutzung von `div` anstelle von `p` für Textabsätze sollte deshalb nicht zu einer Bewertung als "teilweise erfüllt" oder schlechter führen.
-* Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften,
-  Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt und wird dort bewertet.
-* Die Inhalte von iframes werden ebenso überprüft wie andere Seiteninhalte.
-  Dazu muss unter Umständen der iframe in einem neuen Fenster geladen werden.
+* Das für Absätze vorgesehene Element ist grundsätzlich `p`. Dennoch ist eine Nutzung von div anstelle von p zumindest in der programmatischen Ausgabe, etwa durch Screenreader, in der Regel nicht mit Nachteilen verbunden. Die Nutzung von `div` anstelle von `p` für Textabsätze sollte deshalb in der Regel nicht zu einer Bewertung des Prüfschritts mit "teilweise erfüllt" oder schlechter führen.
+* Die Verwendung von HTML-Strukturelementen für Tabellen, Überschriften, Listen und Zitate ist bereits durch andere Prüfkriterien abgedeckt und wird dort bewertet.
+* Die Inhalte von iframes werden ebenso überprüft wie andere Seiteninhalte. Dazu muss unter Umständen der iframe in einem neuen Fenster geladen werden.
+* Textinhalte mittels CSS-Attribut `content` werden heute in der Regel von Screenreadern ausgegeben und stellen deshalb meist keine praktische Barriere dar. Der Einsatz von CSS `content` sollte deshalb nicht zu einer Bewertung als "teilweise erfüllt" oder schlechter führen. Im Sinne einer konsequenten Trennung von Semantik und optischer Darstellung (HTML / CSS) ist die Einbringung von Textinhalten über CSS dennoch nicht empfehlenswert, denn in manchen Nutzungsszenarien (eigene Stylesheets, Darstellung ohne CSS) können Inhalte fehlen. 
 
 === 4. Bewertung
 
