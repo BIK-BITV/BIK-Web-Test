@@ -14,7 +14,7 @@ etwa ein Kontrastumschalter oder eine Icon-basierter Link zu einer Version in le
 alle übrigen Anforderungen der EN 301 549 erfüllt.
 
 Die Anforderung 5.2 beschränkt die Prüfung auf Funktionen, die dokumentiert sind, 
-also etwa auf Hilfeseiten oder in der Erklärung zur barrierefreiheit benannt bzw. eräutert sind.
+also etwa auf Hilfeseiten oder in der Erklärung zur Barrierefreiheit benannt bzw. erläutert sind.
 
 Beispiele für Barrierefreiheitsfunktionen:
 
