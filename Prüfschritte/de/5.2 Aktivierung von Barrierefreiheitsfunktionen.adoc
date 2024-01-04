@@ -9,7 +9,7 @@ spezielle Bedürfnisse von Nutzenden erfüllen, soll die Aktivierung dieser
 Funktionen für diese Nutzendengruppe barrierefrei möglich sein.
 Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzendengruppe, die
 sie unterstützen soll, selbstständig aktivierbar sein soll. 
-In der Regel ist dies der Fall, wennn die Funktion - 
+In der Regel ist dies der Fall, wenn die Funktion - 
 etwa ein Kontrastumschalter oder eine Icon-basierter Link zu einer Version in leichter Sprache - 
 alle übrigen Anforderungen der EN 301 549 erfüllt.
 
