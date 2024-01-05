@@ -11,11 +11,10 @@ Blenden Nutzende Inhalte durch eine Aktion ein, können diese Inhalte ebenfalls 
 
 == Warum wird das geprüft?
 
-Sehende Menschen mit Mobilitätseinschränkungen sind aufgrund ihrer Nutzungsweisen oft auf Tastaturbedienbarkeit angewiesen. Für Tastatur-Nutzende ist die visuelle Hervorhebung der aktuellen Fokusposition sehr wichtig. Sie ist ebenfalls wichtig für Menschen, 
-die die Schaltersteuerung nutzen und für Menschen mit kognitiven oder ihr Gedächtnis betreffenden Einschränkungen. 
+Für sehende Menschen, die auf Tastaturbedienung angewiesen sind, ist es wichtig, wahrnehmen zu können, welches Bedienelement aktuell fokussiert ist. Das gilt auch für Menschen, die ein Gerät nutzen, das über die Tastaturschnittstelle bedient wird, wie zum Beispiel Schaltersteuerung oder Spracheingabe. Die fokussierte Bedienelement ist der Ort, an dem die Interaktion auf der Seite stattfindet. Wenn der Benutzer das Element nicht sehen kann, weiß er möglicherweise nicht, wie er weiter vorgehen soll, oder er könnte sogar denken, das System reagiere nicht mehr.
 
 Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen Web-Inhalte das fokussierte Element vollständig verdecken. So können etwa fest positionierte Kopf- und Fußzeilen die fokussierten Bedienelemente und deren Fokusindikator überlagern. 
-Andere typische Inhalte, die zu Verdeckung des Fokus führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
+Andere typische Inhalte, die zu Verdeckung des Bedienelemets führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
 
 == Wie wird geprüft?
 
@@ -27,12 +26,13 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 . Seite im Firefox Browser öffnen.
 . Mit der Tabulatortaste vorwärts und rückwärts durch die Seite navigieren und dabei alle Bedienelemente fokussieren.
 . Prüfen, ob es zu Situationen kommt, wo ein mit Tabben fokussiertes Bedienelement vollständig verdeckt wird (zum Beispiel durch einen fest positionierte Kopf- oder Fußbereich, durch einen nicht-modalen Dialog oder andere von Nutzenden eingeblendeten Inhalten). 
-. Wenn aktiv eingeblender Inhalt einen Fokus verdeckt, prüfen, ob der verdeckte Fokus sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
+. Wenn aktiv eingeblender Inhalt ein Bedienelement verdeckt, prüfen, ob das Bedienelement sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
   * Verwenden der Escape-Taste
   * Verwenden einer Taste zum Scrollen
   * Drücken einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und des eingeblendeten Inhalts.
 
 === 3. Hinweise
+*   Auch unterschiedliche Viewport-Größen sind bei der Prüfung zu berücksichten. Beispielsweise kann es sein, dass eine fest positionierte Kopfzeile nur in der responsiven Ansicht vorhanden ist. 
 *	Wenn ein Bedienelement bei Fokussierung teilweise (d. h. nicht vollständig) verdeckt wird, also noch Teile der Komponente sichtbar sind, ist das kein Fehler im Sinne dieser Anforderung.
 *	Wenn das Interface so konfigurierbar ist, dass Nutzende Symbolleisten und nicht-modale Dialoge verschieben können, werden nur die Anfangspositionen der von Nutzenden verschiebbaren Inhalte für die Prüfung und Erfüllung dieser Anforderung berücksichtigt.
 *	Cookie-Dialoge werden häufig als *nicht-modale Dialoge* umgesetzt und führen zu Problemen im Sinne des Prüfschritts. Ein Lösungsansatz wäre, den Cookie-Hinweis statt als nicht-modalen Dialog als Teil der Seite umzusetzen. D.h. die Cookie-Meldung verschiebt den Content (statt ihn zu überlagern), solange die Meldung eingeblendet ist.
@@ -42,7 +42,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 
 ==== Nicht erfüllt
 
-Der Tastaturfokus auf einem oder mehreren Bedienelementen wird bei der Navigation durch die Seite durch einen Inhalt vollständig verdeckt.
+Ein oder mehreren Bedienelementen werden bei der Navigation durch die Seite durch einen Inhalt vollständig verdeckt.
 
 == Quellen
 
@@ -56,7 +56,7 @@ Der Tastaturfokus auf einem oder mehreren Bedienelementen wird bei der Navigatio
 
 Der Prüfschritt "9.1.4.13 Eingeblendete Inhalte bedienbar" stellt verschiedene Anforderungen an Inhalte, die bei **Zeiger- oder Tastaturfokus** eingeblendet werden können und andere Inhalte überlagern.
 
-Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Überlagerung des **Tastaturfokus** durch **Inhalte der Seite**. Beispiele hierfür sind etwa fest positionierte Kopf- oder Fußbereiche. Werden Inhalte, die den Tastaturfokus verdecken (z. B. eine einblendbare Sidebar oder ein nicht-modaler Dialog) von Nutzern **aktiv** aufgerufen, muss es möglich sein, den **verdeckten Fokus** wieder **sichtbar** zu machen, ohne den Tastaturfokus zu verschieben, etwa durch das Schließen der Einblendung über die Escape-Taste oder mithilfe einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und eingeblendeten Inhalt.
+Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Überlagerung von **Bedienelementen** durch **Inhalte der Seite**. Beispiele hierfür sind etwa fest positionierte Kopf- oder Fußbereiche. Werden Inhalte, die ein Bedienelement verdecken (z. B. eine einblendbare Sidebar oder ein nicht-modaler Dialog) von Nutzern **aktiv** aufgerufen, muss es möglich sein, die **verdeckte fokussierte Komponente** wieder **sichtbar** zu machen, ohne den Tastaturfokus zu verschieben, etwa durch das Schließen der Einblendung über die Escape-Taste oder mithilfe einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und eingeblendeten Inhalt.
 
 === Einordnung des Prüfschritts nach WCAG 2.2
 
@@ -77,3 +77,19 @@ Bei "9.2.4.11 Fokus nicht verdeckt" geht es um die mögliche, problematische Üb
 ===== Failures
 
 * https://www.w3.org/WAI/WCAG22/Techniques/failures/F110[F110: Failure of Success Criterion 2.4.12 Focus Not Obscured (Minimum) due to a sticky footer or header completely hiding focused elements]
+
+== Fragen zu diesem Prüfschritt
+
+=== Warum zielt der Prüfschritt die (mindestens teilweise) Sichtbarkeit des Bedienelements ab und nicht des Fokusindikators?
+
+Wenn Nutzende den Fokusindikator nicht mindestens teilweise sehen können, wissen sie nicht, welche Komponente den Tastaturfokus hat. Auf den ersten Blick scheint also die Sichtbarkeit des Indikators das zu sein, was geprüft werden sollte.
+
+Der normative Text des Erfolgskriteriums zielt jedoch auf "die Komponente der Benutzeroberfläche" ab. Das Bedienelement soll nicht vollständig verdeckt sein. Das bedeutet, es könnte sein, dass ein Bedienelement teilweise sichtbar, ist, der Fokusindikator jedoch nicht. Die Anforderung wäre trotzdem erfüllt. Beispiel: Eine Schaltfläche ist teilweise sichtbar, nicht jedoch der Fokusindikator, der als zusätzliche Unterstreichung des Textes umgesetzt ist.
+
+In der Diskussion der Arbeitsgruppe der Accessibilty Guidelines Working Group (AGWG) findet man (sinngemäß übersetzt) folgende Begründung:
+
+. Bei vielen Umsetzungen ist der Fokusindikator am Rand blasser. Würde sich der Wortlaut nur auf den Fokusindikator beziehen, würde auf Konformitätsstufe AA ein einziger sichtbarer Pixel mit sehr geringem Kontrast dazu führen, dass der Prüfschritt bestanden ist, obwohl man ihn eigentlich nicht wahrnehmen kann.
+. Es gibt bereits ein Erfolgskriterium „Focus Visible“, das verlangt, dass der Fokusindikator sichtbar ist. Wenn "Fokus nicht verdeckt" auf den Indikator abzielte, scheinen die beiden Anforderungen redundant zu sein.
+. Die meisten Fokusindikatoren umgeben ein Bedienelement. Wenn also mindestens ein Pixel des Bedienelements nicht verdeckt ist, sollten viele Pixel des Fokusindikators sichtbar sein. Die Wahrscheinlichkeit ist bei der jetzigen Formulierung der Anforderung hoch, dass bei typischen Bedienelementen die Fokusindikatoren zumindest teilweise sichtbar sind.
+
+Quelle: GitHub, Accessibility Guidelines Working Group https://github.com/w3c/wcag/issues/3529#issuecomment-1792556208[Clarification for Understanding 2.4.11 Focus Not Obscured (Minimum) to ensure consistent testing]
