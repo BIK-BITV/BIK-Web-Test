@@ -17,7 +17,7 @@ ein Aktions-Menü die Auswahl des Zielorts.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Ziehen und Ablegen) ausgeführt werden müssen.
+Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Ziehen und Ablegen, Verschieben) auf der Seite vorhanden sind.
 
 === 2. Prüfung
 
