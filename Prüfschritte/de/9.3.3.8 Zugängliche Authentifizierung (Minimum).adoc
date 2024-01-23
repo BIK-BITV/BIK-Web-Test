@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Eine Authentifizierung, etwa bei der Anmeldung bei einem Konto über Name und Passwort, soll ohne Durchführung eines kognitivem Funktionstests (z. B. das Merken eines Passworts oder das Lösen eines Rätsels) möglich sein. Es sei denn,
 
-* es wird eine weitere Authentifizierungsmethode angeboten, die nicht auf einem kognitiven Funktionstest beruht (**Alternative**).
+* es wird eine weitere Authentifizierungsmethode angeboten, die nicht auf einem kognitiven Funktionstest beruht z.B. ein über E-Mail zugesandter Link (**Alternative**).
 * es gibt einen Mechanismus, der die Nutzenden beim Ausführen des kognitiven Funktionstests unterstützt, etwa Kopieren und Einfügen von Passwörtern oder vom System versandten Einmal-Verifizierungscodes, eine Autocomplete-Funktion, oder die Verwendung eines Passwort-Manager Hilfsprogramms (**Mechanismus**)
 * im kognitiven Funktionstest geht es darum, Objekte zu erkennen (**Objekterkennung**)
 * der kognitive Funktionstest beinhaltet das Wiedererkennen nicht-textlicher Inhalte (Bilder, Video, Audio) welche die Nutzenden selbst für diesen Zweck hinterlegt haben (**persönlicher Inhalt**)
