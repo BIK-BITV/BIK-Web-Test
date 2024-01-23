@@ -30,7 +30,6 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
 * Prüfen, ob eine Transkription (etwa das Abschreiben eines Codes) zwingend notwendig ist. Wenn ein zugesandtes Passwort oder ein Verifizierungscode (Einmal-Passcode) kopiert und in das entsprechende Feld eingefügt werden kann, gilt der Prüfschritt als erfüllt.
-Sofern es keine Alternative gibt (beispielsweise die Bestätigung eines Vorgangs mithilfe eines Links oder einer Schaltfläche), wäre dies als Fehler im Sinne des Prüfschritts zu werten.
 
 ==== 2.3 Prüfung von Sicherheitsabfragen (CAPTCHAs)
 
