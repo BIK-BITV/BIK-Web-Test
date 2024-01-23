@@ -29,12 +29,12 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
-* Prüfen, ob eine Transkription (etwa das Abschreiben eines Codes) zwingend notwendig ist. Wenn ein zugesandtes Passwort oder Einmal-Passcode kopiert und in das entsprechende Feld eingefügt werden kann, gilt der Prüfschritt als erfüllt.
+* Prüfen, ob eine Transkription (etwa das Abschreiben eines Codes) zwingend notwendig ist. Wenn ein zugesandtes Passwort oder ein Verifizierungscode (Einmal-Passcode) kopiert und in das entsprechende Feld eingefügt werden kann, gilt der Prüfschritt als erfüllt.
 Sofern es keine Alternative gibt (beispielsweise die Bestätigung eines Vorgangs mithilfe eines Links oder einer Schaltfläche), wäre dies als Fehler im Sinne des Prüfschritts zu werten.
 
 ==== 2.3 Prüfung von Sicherheitsabfragen (CAPTCHAs)
 
-* Prüfen, ob es sich bei der Aufgabe des CAPTCHA-Tests um einen kognitiven Funktionstest handelt. Lediglich Objekterkennung gilt als Ausnahme im Sinne des Prüfschritts 
+* Prüfen, ob es sich bei einem CAPTCHA-Test im Rahmen einer Authentifizierung um einen kognitiven Funktionstest handelt. Lediglich Objekterkennung gilt als Ausnahme im Sinne des Prüfschritts 
 (z.B. alle Bilder mit einer Ampel auswählen). Objekterkennung ist nicht nur auf die Erkennung von Bildern beschränkt, sondern umfasst auch Video- oder Audioinhalte.
 
 === 3. Hinweise
@@ -44,7 +44,7 @@ Sofern es keine Alternative gibt (beispielsweise die Bestätigung eines Vorgangs
 Ein kognitiver Funktionstest ist eine Aufgabe, bei der sich Nutzende an Informationen erinnern, diese bearbeiten oder abschreiben müssen. Beispiele für kognitive Funktionstests sind: 
 
 * Auswendig lernen (das Merken eines Benutzernamens, eines Passworts, einer Reihe von Zeichen, Bildern oder Mustern). 
-* Transkription (z. B. das Abschreiben und Eintippen von Zeichen)
+* Transkription (z. B. das Abschreiben und Eintippen von Zeichen, etwa zugesandten Einmal-Passcodes)
 * Verwendung der korrekten Schreibweise
 * Rechenaufgaben
 * Lösen von Rätseln (z. B. welcher der folgenden Begriffe ist kein Tier?) 
