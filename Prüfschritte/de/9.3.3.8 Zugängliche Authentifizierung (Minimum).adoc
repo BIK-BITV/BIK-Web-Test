@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 
 ==== 2.1 Prüfung von Anmelde-Vorgängen
 
-* Prüfen, ob das Kopieren und Einfügen eines Passworts möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browesers) durchgeführt werden kannn.
+* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browesers) durchgeführt werden kannn.
 
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
