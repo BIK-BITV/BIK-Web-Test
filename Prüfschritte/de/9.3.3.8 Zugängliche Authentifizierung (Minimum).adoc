@@ -49,7 +49,7 @@ Ein kognitiver Funktionstest ist eine Aufgabe, bei der sich Nutzende an Informat
 * Auswendig lernen (das Merken eines Benutzernamens, eines Passworts, einer Reihe von Zeichen, Bildern oder Mustern). 
 * Transkription (z. B. das Abschreiben und Eintippen von Zeichen, etwa zugesandten Einmal-Passcodes)
 * Verwendung der korrekten Schreibweise
-* Rechenaufgaben
+* Lösen von Rechenaufgaben
 * Lösen von Rätseln (z. B. welcher der folgenden Begriffe ist kein Tier?) 
 
 ==== 3.3 Zwei-Faktor-Authentifizierung (Verfizierungscodes)
