@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft
 
-Eine Authentifizierung soll ohne Durchführung eines kognitivem Funktionstests (z. B. das Merken eines Passworts oder das Lösen eines Rätsels) möglich sein. Es sei den,
+Eine Authentifizierung soll ohne Durchführung eines kognitivem Funktionstests (z. B. das Merken eines Passworts oder das Lösen eines Rätsels) möglich sein. Es sei denn,
 
 * es wird eine weitere Authentifizierungsmethode angeboten, die nicht auf einem kognitiven Funktionstest beruht (**Alternative**).
 * es gibt einen Mechanismus, der die Nutzenden beim Ausführen des kognitiven Funktionstests unterstützt, etwa Kopieren und Einfügen von Passwörtern, eine Autocomplete-Funktion oder die Verwendung 
