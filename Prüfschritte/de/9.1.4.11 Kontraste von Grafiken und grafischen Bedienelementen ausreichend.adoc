@@ -104,6 +104,17 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
   von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
   ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
+==== 2.5 Styleswitcher-Prüfung, Prüfung der Grafikkontraste der alternativen Ansicht
+
+Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
+Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
+
+. Grafikkontrast des Styleswitcher-Schaltelements prüfen.
+. Das Kontrastverhältnis muss 4,5:1 oder besser sein, sofern der Schalter mit Hilfe von Text beschriftet ist (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Auch alle anderen Anforderungen müssen erfüllt sein (zum Beispiel Tastaturbedienbarkeit),
+sonst Prüfung der alternativen Ansicht abbrechen.
+. Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
+. Grafikkontraste der alternativen Ansicht prüfen (wie oben in 2.2. und 2.4 beschrieben).
+
 === 3. Hinweise
 
 ==== 3.1 Zur Identifizierung notwendiger Teile von Bedienelementen
