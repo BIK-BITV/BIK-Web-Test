@@ -10,6 +10,7 @@ Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzun
 * *Gleichwertige Alternative:* Man kann mit einem anderen Bedienelement, welches die Anforderung erfüllt und sich auf derselben Seite befindet, die Funktion ausführen.
 * *Inline:* Das Ziel befindet sich in einem Satz oder die Größe des Ziels wird durch die Zeilenhöhe von umgebendem, nicht interaktiven Text eingeschränkt (z. B. ein Text-Link innerhalb eines Absatzes).
 * *Benutzeragenten:* Die Größe des Ziels wird vom Benutzeragenten bestimmt und ist von der Autorin oder dem Autor nicht verändert.
+* *Gleichwertige Alternative
 * *Essenziell:* Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben.
 
 == Warum wird das geprüft
@@ -31,8 +32,8 @@ Der Prüfschritt ist anwendbar, wenn interaktive Elemente vorhanden sind.
 * Um die CSS-Pixelgröße eines interaktiven Elements zu bestimmen, im Zweifelsfall die Inspektor-Funktion des Browsers verwenden:
   ** Mit der rechten Maustaste auf das zu testende interaktive Element klicken, und im Kontextmenü die Option „Untersuchen“ wählen. Bei den meisten Browsern wird bei dieser Methode der Elementauswahl 
 auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements) angezeigt.
-  ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt, um etwa den Abstand der Elemente 
-zu ermitteln (`margin`, `padding`).
+  ** Im Panel "Layout" des Inspektors werden  die Werte für Höhe und Breite des ausgewählten Elements sowie zusätzliche Werte für die CSS-Eigenschaften `padding`, `border` und `margin` angezeigt. Sowohl `padding` als auch `border` gehören zur Zielgröße dazu, selbst wenn sie grafisch nicht sichtbar sind, denn reagieren sie auf Pointer-Aktivierung.
+  ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt.
 
 * Das Bookmarklet https://html5accessibility.com/stuff/2023/08/28/quick-and-very-dirty-target-size-checker/[Target Size] kann unterstützend hinzugezogen werden:
   ** Es identifiziert interaktive Elemente, errechnet dessen Mittelpunkt und zeichnet einen halbtransparenten Kreis von 24×24 Pixeln um den Mittelpunkt des Elements.
