@@ -113,7 +113,7 @@ Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 . Das Kontrastverhältnis muss 4,5:1 oder besser sein, sofern der Schalter mit Hilfe von Text beschriftet ist (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Auch alle anderen Anforderungen müssen erfüllt sein (zum Beispiel Tastaturbedienbarkeit),
 sonst Prüfung der alternativen Ansicht abbrechen.
 . Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
-. Grafikkontraste der alternativen Ansicht prüfen (wie oben in 2.2. und 2.4 beschrieben).
+. Grafikkontraste der alternativen Ansicht prüfen (wie oben in 2.2. und 2.4 beschrieben). Bestehen nach Aktivierung der Kontrastansicht weiter irgendwelche Kontrastmängel bei Grafiken oder bei Text, wird diese Ansicht bei der Bewertung der Kontraste nicht berücksichtigt.
 
 === 3. Hinweise
 
