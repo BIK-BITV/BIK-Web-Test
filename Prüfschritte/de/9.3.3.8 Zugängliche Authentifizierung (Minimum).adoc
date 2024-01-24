@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 
 ==== 2.1 Prüfung von Anmelde-Vorgängen
 
-* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browesers) durchgeführt werden kannn. Auch die Optionen, sich über einen Drittanbieter über die https://de.wikipedia.org/wiki/OAuth[OAuth (Open Authorization) Methode] oder -  bei Login auf dem eigenen Gerät - über biometrische Authentifizierung (über Iris-Scan, Gesichtserkennung opder Fingerabdruck) anzumelden, erfüllen diesen Prüfschritt.
+* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browsers) durchgeführt werden kannn. Auch die Optionen, sich über einen Drittanbieter über die https://de.wikipedia.org/wiki/OAuth[OAuth (Open Authorization) Methode] oder -  bei Login auf dem eigenen Gerät - über biometrische Authentifizierung (über Iris-Scan, Gesichtserkennung opder Fingerabdruck) anzumelden, erfüllen diesen Prüfschritt.
 
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
@@ -51,7 +51,7 @@ Ein kognitiver Funktionstest ist eine Aufgabe, bei der sich Nutzende an Informat
 * Lösen von Rechenaufgaben
 * Lösen von Rätseln (z. B. welcher der folgenden Begriffe ist kein Tier?) 
 
-Zwei-Faktor-Systeme, die nicht auf Codes beruhen, einschließlich Hardware-Authentifizierungsgeräte, nutzen keine kognitiven Funktionstests.
+Zwei-Faktor-Systeme, die nicht auf Codes beruhen, einschließlich Hardware-Authentifizierung, etwa über https://de.wikipedia.org/wiki/Security-Token[USB-Security-Tokens], nutzen keine kognitiven Funktionstests.
 
 ==== 3.3 Zwei-Faktor-Authentifizierung
 Es gibt Situationen, in denen ein Verifizierungscode auf einem zweiten Gerät empfangen oder erzeugt werden muss. Zum Beispiel erfordert die Authentifizierung in einem Webbrowser 
