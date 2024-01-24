@@ -25,7 +25,10 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 
 ==== 2.1 Prüfung von Anmelde-Vorgängen
 
-* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browsers) durchgeführt werden kannn. Auch die Optionen, sich über einen Drittanbieter über die https://de.wikipedia.org/wiki/OAuth[OAuth (Open Authorization) Methode] oder -  bei Login auf dem eigenen Gerät - über biometrische Authentifizierung (über Iris-Scan, Gesichtserkennung opder Fingerabdruck) anzumelden, erfüllen diesen Prüfschritt.
+* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browsers) durchgeführt werden kannn. Es  gibt eine Reihe von die Optionen die diesen Prüfschritt erfüllen:
+* Anmeldung über einen Drittanbieter mittels https://de.wikipedia.org/wiki/OAuth[OAuth (Open Authorization) Methode] 
+* Bei Login auf dem eigenen Gerät. die biometrische Authentifizierung (über Iris-Scan, Gesichtserkennung opder Fingerabdruck) 
+* Der Scan eines QR-Codes der auf eine, anderem Gerät angezeigt wird
 
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
