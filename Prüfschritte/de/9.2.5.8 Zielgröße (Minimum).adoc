@@ -42,10 +42,10 @@ auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements)
 der sich überlappenden Elemente angezeigt.
 
 * Eine Alternative zur Überprüfung der Zielgröße ist die Chrome Extension https://chromewebstore.google.com/detail/halfaccessible-accessibil/kofnlhenkilpdacklecdifdfigomanje?pli=1[Accessiblity Toolkit von HalfAccessible].
-** Nach Installation und Aufruf der Erweiterung erscheitn ein Popup. Hier "Open Toolkit" aktivieren.
-** Im nun Angezeiten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
-** Ziele mittels Tabben durchlaufen oder mit der MAus überfahren. Es wird angetzeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nu über den Abstand erfüllt ("REVIEW").
-** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreiched Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen.
+** Nach Installation und Aufruf der Erweiterung erscheint ein Popup. Hier "Open Toolkit" aktivieren.
+** Im nun angezeigten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
+** Ziele mittels Tabben durchlaufen oder mit der Maus überfahren. Es wird angezeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nur über den Abstand erfüllt ("REVIEW").
+** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreiched Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen (z.B. weil es Fließtextlinks sind).
 
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
 ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
