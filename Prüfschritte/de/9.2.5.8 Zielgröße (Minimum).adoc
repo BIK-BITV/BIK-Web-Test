@@ -42,8 +42,6 @@ auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements)
 der sich überlappenden Elemente angezeigt.
 
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
-
-
 ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
 ** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
 ** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
