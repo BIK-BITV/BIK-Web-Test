@@ -45,7 +45,7 @@ der sich überlappenden Elemente angezeigt.
 ** Nach Installation und Aufruf der Erweiterung erscheint ein Popup. Hier "Open Toolkit" aktivieren.
 ** Im nun angezeigten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
 ** Ziele mittels Tabben durchlaufen oder mit der Maus überfahren. Es wird angezeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nur über den Abstand erfüllt ("REVIEW").
-** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreiched Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen (z.B. weil es Fließtextlinks sind).
+** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreichend Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen (z.B. weil es Fließtextlinks sind).
 
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
 ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
