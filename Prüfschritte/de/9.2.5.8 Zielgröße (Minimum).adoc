@@ -45,7 +45,7 @@ der sich überlappenden Elemente angezeigt.
 ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
 ** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
 ** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
-** Es gibt andere Bedienelement auf der gleichen Seite, die die Anforderung erfüllen und die gleiche Funktion ausführen
+** Es gibt ein anderes Bedienelement für die gleiche Funktion, welches die Anforderung erfüllt und sich auf derselben Seite befindet
 
 === 3. Hinweise
 
