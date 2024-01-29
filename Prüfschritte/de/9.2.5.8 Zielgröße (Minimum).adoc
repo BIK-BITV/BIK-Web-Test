@@ -41,6 +41,12 @@ auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements)
   ** Wird festgestellt, dass ein interaktives Element ein anderes interaktives Element überlappt, wird nach Anwendung des Bookmarklets eine JavaScript-Warnung mit der Anzahl 
 der sich überlappenden Elemente angezeigt.
 
+* Eine Alternative zur Überprüfung der Zielgröße ist die Chrome Extension https://chromewebstore.google.com/detail/halfaccessible-accessibil/kofnlhenkilpdacklecdifdfigomanje?pli=1[Accessiblity Toolkit von HalfAccessible].
+** Nach Installation und Aufruf der Erweiterung erscheitn ein Popup. Hier "Open Toolkit" aktivieren.
+** Im nun Angezeiten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
+** Ziele mittels Tabben durchlaufen oder mit der MAus überfahren. Es wird angetzeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nu über den Abstand erfüllt ("REVIEW").
+** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreiched Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen.
+
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
 ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
 ** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
