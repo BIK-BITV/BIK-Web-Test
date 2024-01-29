@@ -10,7 +10,6 @@ Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzun
 * *Gleichwertige Alternative:* Man kann mit einem anderen Bedienelement, welches die Anforderung erfüllt und sich auf derselben Seite befindet, die Funktion ausführen.
 * *Inline:* Das Ziel befindet sich in einem Satz oder die Größe des Ziels wird durch die Zeilenhöhe von umgebendem, nicht interaktiven Text eingeschränkt (z. B. ein Text-Link innerhalb eines Absatzes).
 * *Benutzeragenten:* Die Größe des Ziels wird vom Benutzeragenten bestimmt und ist von der Autorin oder dem Autor nicht verändert.
-* *Gleichwertige Alternative
 * *Essenziell:* Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben.
 
 == Warum wird das geprüft
@@ -43,9 +42,12 @@ auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements)
 der sich überlappenden Elemente angezeigt.
 
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
-  ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
-  ** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)  
-  ** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
+
+
+** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
+** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
+** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
+** Es gibt andere Bedienelement auf der gleichen Seite, die die Anforderung erfüllen und die gleiche Funktion ausführen
 
 === 3. Hinweise
 
