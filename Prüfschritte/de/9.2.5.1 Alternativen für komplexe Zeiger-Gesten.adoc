@@ -18,7 +18,7 @@ etwa Gesten zur Navigation zwischen Seiten im Browser oder zur Nutzung systemsei
 
 Die Anforderung gilt auch nicht für Inhalte, bei denen das Verhalten vom Betriebssystem oder Browser bestimmt wird und nicht von Web-Autoren. 
 Ein Beispiel hierfür sind scrollbare Bereiche, die über CSS `overflow:scroll` definiert sind 
-und für die kein Verhalten bezüglich Zeiger-Gresten über JabvaScript festgelegt wurde und bei denen die Scrollbalken nicht explizit vom Autor versteckt werdem.
+und für die kein Verhalten bezüglich Zeiger-Gresten über JabvaScript festgelegt wurde, und bei denen die Scrollbalken nicht explizit vom Autor versteckt werden.
 
 Beispiele für pfadbasierte Gesten:
 
