@@ -9,10 +9,9 @@ abschaltbar, oder sie kann verlängert werden.
 Dies betrifft etwa:
 
 * zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
-* Online-Transaktionen mit begrenzter Session-Dauer und automatischem
-  Ausloggen bei längerer Inaktivität
-* das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung
-  zu einer anderen Seite
+* Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
+* das automatische Neu-Laden von Seiten oder die zeitverzögerte Weiterleitung zu einer anderen Seite
+* Wichtige Statusmeldungen, die nach kurzer Zeit automatisch schließen
 
 == Warum wird das geprüft?
 
@@ -33,10 +32,16 @@ rechtzeitig abschließen.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1) ist immer anwendbar.
-
-Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen (Abschnitt 2.2) 
-ist anwendbar, wenn eine Zeitbegrenzung vorhanden ist.
+* Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt
+<<2.1 Prüfung auf Auto-Aktualisierung durch Neu-Laden der Seite und Weiterleitung auf andere URL>>)
+ist immer anwendbar.
+* Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
+(Abschnitt
+<<2.2Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen>>)
+ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus
+datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen
+unterliegen (etwa beim Online-Banking oder Online-Shops).
+* Die Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen ist immer anwendbar, wenn (oft als Ergebnis einer Interaktion) Meldungen erscheinen und nach einer Zeitspanne (meist nach wenigen Sekunden) automatisch wieder verschwinden.
 
 === 2. Prüfung
 
@@ -80,9 +85,19 @@ Verlängern angeboten werden:
   abwarten, ob auf der Seite ein Dialog erscheint, der rechtzeitig (mindestens
   20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der
   Zeitbegrenzung anbietet.
+  
+
+==== 2.3 Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen
+
+. Bieten Statusmeldungen für Nutzende wesentliche Informationen, die nicht auf andere Wesie verfügbar sind, und schließen automatisch nach kurzer Zeit?
+Für den Nutzer nicht wesentliche Statusmeldungen sind solche, die ein erwartetes Ergebnis einer Interaktion zusätzlich vermitteln, etwa, nach Aktivieren eines Schalters "Sichern" die Meldung "Ihr Dokument wurde gespeichert", oder, nach dem Abschicken eines Formulars, die Meldung "Ihre Angaben wurden übermittelt" oder ähnlich. Das automatische Schließen solcher nicht wesentlichen Meldungen sollte nicht negativ bewertet werden (siehe 3. Hinweise, 3.1 Zeitbegrenzte Stuatusmeldungen).
 
 === 3. Hinweise
 
+==== 3.1 Zeitbegrenzte Stuatusmeldungen
+Zeitbegrenzte Statusmeldungen müssen nicht zeitlich einstellbar sein, wenn es eine alternative Informationsmöglichkeit ohne Zeitbegrenzung gibt. Beispiel: Eine webbasierter E-Mail-Client benachrichtigt über den Eingang einer neuen E-Mail mit einer temporären Meldung (Toast-Meldung). Die Benutzer können den Eingang von E-Mails auch auf andere Weise feststellen, z. B. durch Abrufen des Posteingangs. Wenn Nutzende keine andere Möglichkeit haben, die gleichen Informationen zu finden (oder die gleiche Funktion auszuführen), dann müssen Meldungen dieses Erfolgskriterium erfüllen, damit die Benutzer genügend Zeit haben, um auf die Informationen zuzugreifen.
+
+==== 3.2 Externe Zeitbegrenzungen
 Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene
 Zeitbegrenzungen (sowohl serverseitig als auch clientseitig).
 Externe Zeitbegrenzungen, etwa des User Agents, sind nicht im Einflussbereich
