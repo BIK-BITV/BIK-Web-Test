@@ -15,14 +15,6 @@ Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus
 gerade befindet, welcher Link also ausgelöst wird, wenn sie die Enter-Taste
 drücken.
 
-Viele Webseiten erleichtern Mausnutzenden die Bedienung, indem sie darauf
-reagieren, dass der Mauszeiger sich über einem Link befindet.
-Dann ändert sich zum Beispiel die Text- oder Hintergrundfarbe oder der
-Linktext wird unterstrichen.
-Diese Unterstützung soll auch für Tastaturnutzende funktionieren.
-Webseiten sollen sie gegenüber den zahlreicheren Mausnutzenden nicht
-benachteiligen.
-
 Die vom Browser vorgesehene Kennzeichnung des Tastaturfokus hebt sich von
 dunklen Seitenhintergründen meist nicht so gut ab.
 Das muss dann durch eine entsprechende Gestaltung ausgeglichen werden.
