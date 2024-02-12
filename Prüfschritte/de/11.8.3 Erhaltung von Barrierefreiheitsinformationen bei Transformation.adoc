@@ -46,7 +46,7 @@ Dies könnte z. B. die Umwandlung eines HTML Dokuments zum PDF sein.
 Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, 
 wäre das eine HTML-Datei.
 . Beispieldokument in der Web-Anwendung öffnen 
-und in das Zielformat bzw. in eine andere Struktur umgewandeln.
+und in das Zielformat bzw. in eine andere Struktur umwandeln.
 . Zieldatei überprüfen. 
 Je nach Dokumententyp erfordert dies Überprüfungen, 
 die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. 

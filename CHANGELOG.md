@@ -4,7 +4,85 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.0.1...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.1...HEAD)
+
+## [v3.0.1](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.0...v3.0.1) - 2024-01-01
+
+### Was hat sich getan?
+
+### Korrigiert
+
+- 9.2.4.6 Aussagekräftige Überschriften und Beschriftungen: Korrektur von Syntaxfehler @sb0stn (#396)
+- 9.2.4.11 Fokus nicht verdeckt (Minimum): Korrektur der Überschriften(formatierung) @sweckenmann (#392)
+
+## [v3.0.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.2.0...v3.0.0) - 2023-11-18
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 3.3.8 Zugängliche Authentifizierung (Minimum) - WCAG 2.2 Neue Prüfschritt-Beschreibung @sweckenmann (#384)
+- 3.3.7 Redundanter Eintrag: WCAG 2.2 - Neue Prüfschrittbeschreibung @sweckenmann (#383)
+- 3.2.6 Konsistente Hilfe: WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#382)
+- 2.5.8 Zielgröße (Minimum): WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#381)
+- 2.5.7 Ziehbewegungen: WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#380)
+- 2.4.11 Fokus nicht verdeckt (Minimum): WCAG 2.2 - Neue Prüfschritt-Beschreibung @sweckenmann (#379)
+
+### Geändert
+
+- 9.1.4.1 Ohne Farben nutzbar - Hinweise zu zusätzlicher Informationsvermittlung @detlevhfischer (#386)
+
+### Korrigiert
+
+- 9.3.2.6 Konsistente Hilfe: Ergänzung der fehlenden Überschrift "Wie wird geprüft" @sweckenmann (#391)
+- 6.2.3 Interopabilität von Echtzeit-Textkommunikation: Tippfehler im Dateinamen korrigiert @sweckenmann (#390)
+- 9.1.3.2 Sinnvolle Reihenfolge: Korrektur von Rechtschreibfehler @remonator (#389)
+
+## [v2.2.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.1.0...v2.2.0) - 2023-10-03
+
+### Was hat sich getan?
+
+### Geändert
+
+- 9.4.1.1 Korrekte Syntax - Syntax-only Prüfung @detlevhfischer (#371)
+
+## [v2.1.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.0.1...v2.1.0) - 2023-10-01
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 9.2.2.2 Bewegte Inhalte: Ergänzung Bewertung @detlevhfischer (#315)
+- 9.2.4.6 Aussagekräftige Überschriften und Beschriftungen: Ergänzung @detlevhfischer (#322)
+- 9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung: Quelle @detlevhfischer (#334)
+- 6.2.1.1 Textkommunikation in Echtzeit: neue Quelle ETSI TR @detlevhfischer (#335)
+- 9.1.3.1e Datentabellen richtig aufgebaut: Quelle hinzugefügt @detlevhfischer (#338)
+- 9.2.4.7 Aktuelle Position des Fokus deutlich - Bezug zu 9.1.4.11 @detlevhfischer (#346)
+
+### Geändert
+
+- 9.1.1.1b Alternativtexte für Grafiken und Objekte: Mögliche Techniken für Alternativtexte für Videos @stefanFarnetani (#250)
+- 9.2.4.6 Aussagekräftige Überschriften und Beschriftungen: unsichtbare… @detlevhfischer (#333)
+- 5.2 Aktivierung von Barrierefreiheitsfunktionen - Anwendbarkeit @detlevhfischer (#342)
+- 9.1.4.3 Kontraste von Texten ausreichend: Verlinkung korrigiert @om-hb (#349)
+- 9.1.4.5 Verzicht auf Schriftgrafiken: Verlinkungen korrigiert @om-hb (#350)
+- 9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung: Verlinkungen korrigiert @om-hb (#351)
+- 9.2.4.6 Aussagekräftige Überschriften und Beschriftungen: Verlinkung korrigiert @om-hb (#352)
+- 9.3.2.1 Keine unerwartete Kontextänderung bei Fokus: Verlinkung korrigiert @om-hb (#353)
+- 11.7 Benutzerdefinierte Einstellungen: Korrektur von Rechtschreibfehlern @KonRatt (#372)
+
+### Korrigiert
+
+- 7.1.5 Gesprochene Untertitel - Textkorrekturen @thoreine (#363)
+- 9.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung - Textkorrek… @thoreine (#362)
+- 9.1.3.4 Keine Beschränkung der Bildschirmausrichtung - Textkorrektur @thoreine (#361)
+- 9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausrei… @thoreine (#360)
+- 9.1.1.1b Alternativtexte für Grafiken und Objekte - Textkorrektur; Li… @thoreine (#359)
+- 7.1.4 Untertitel-Anpassungen: Korrektur Rechtschreibfehler @thoreine (#355)
+- 9.1.3.4 Keine Beschränkung der Bildschirmausrichtung - Textkorrekturen @thoreine (#356)
+- 9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausrei… @thoreine (#357)
+- 9.1.1.1a Alternativtexte für Bedienelemente - Korrektur Listendarstel… @thoreine (#358)
+- 9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos - "Hinweis" von 9.1.2.2 nach 9.1.2.3 übertragen @sweckenmann (#354)
 
 ## [v2.0.1](https://github.com/BIK-BITV/BIK-Web-Test/compare/v2.0.0...v2.0.1) - 2023-07-01
 

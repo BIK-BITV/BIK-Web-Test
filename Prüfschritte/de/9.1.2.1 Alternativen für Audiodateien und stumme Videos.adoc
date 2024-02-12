@@ -12,7 +12,7 @@ sich bei Ihnen bereits um Medienalternativen für Text.
 
 Audiodateien (z. B. Audio-Podcasts) sind für hörbehinderte Nutzende nicht oder nur eingeschränkt
 zugänglich, deshalb brauchen sie eine Transkription.
-Stumme Videodateien (etwa eine Film- oder Animationsequenz, die ohne Audio-Kommentar zeigt, 
+Stumme Videodateien (etwa eine Film- oder Animationssequenz, die ohne Audio-Kommentar zeigt, 
 wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzende
 nicht verfügbar.
 Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).

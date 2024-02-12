@@ -19,7 +19,7 @@ einmal zu überprüfen.
 Dies ist für alle Benutzer wichtig.
 Für Benutzer mit Behinderungen ist jedoch in
 vielen Fällen das Risiko von Fehleingaben größer.
-Benutzer mit Legastenie vertauschen häufiger Zahlen, Benutzer mit motorischen
+Benutzer mit Legasthenie vertauschen häufiger Zahlen, Benutzer mit motorischen
 Einschränkungen drücken häufiger versehentlich falsche Tastaturtasten.
 Deshalb ist das Rückgängig-Machen oder Anzeigen, Überprüfen und
 gegebenenfalls Korrigieren eingegebener Daten für diese Benutzer besonders

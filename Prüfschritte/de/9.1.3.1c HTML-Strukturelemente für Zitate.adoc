@@ -26,11 +26,11 @@ Der Prüfschritt ist anwendbar, wenn die Seite eigenständige Abschnitte enthäl
 === 2. Prüfung
 
 Die Seite im Firefox aufrufen.
-Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind. Im Firefox in über F12 die _Web Developer Tools_ öffen und im Bereich _Inspector_ im Suchfeld nach `blockquote` suchen. Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
+Prüfen, ob Zitate, die als eigenständige Abschnitte gefasst sind, mit dem dafür vorgesehenen HTML-Strukturelement `blockquote` ausgezeichnet sind. Im Firefox in über F12 die _Web Developer Tools_ öffnen und im Bereich _Inspector_ im Suchfeld nach `blockquote` suchen. Falls die Auszeichnung vorkommt, überprüfen, ob sie tatsächlich für Zitate und nicht nur für die Formatierung / Einrückung anderer Inhalte eingesetzt wird.
 
 === 3. Hinweise
 
-Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenständige Abschnitte gefasst sind) mit dem vorgesehenen HTML-Strukturelement `q` ausgezeichnet sind. In Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit normalen Anführungszeichen gering. Zudem ist die Unterstützung von `q` in verscheidenen Browsern nicht einheitlich.
+Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenständige Abschnitte gefasst sind) mit dem vorgesehenen HTML-Strukturelement `q` ausgezeichnet sind. In Bezug auf die Zugänglichkeit ist der Nutzen der Kennzeichnung mit `q` im Vergleich zur Kennzeichnung mit normalen Anführungszeichen gering. Zudem ist die Unterstützung von `q` in verschiedenen Browsern nicht einheitlich.
 
 === 4. Bewertung
 

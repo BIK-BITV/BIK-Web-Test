@@ -92,9 +92,8 @@ verwendet wurde (nicht ``display:none``).
 ===== Grundeinstellung in Firefox
 
 . https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._
-  aufrufen, den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die
-  Option _Farben..._ wählen.
+  Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._ aufrufen. 
+  Den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die Option _Farben..._ wählen.
 . Im Dialog _Farben_ im Bereich _Text und Hintergrund_ als Hintergrundfarbe eine
   Farbe wählen, die normalerweise eher selten für die Seitengestaltung verwendet
   wird (gut geeignet sind z. B. helle Rosa- oder Grüntöne).
@@ -441,7 +440,7 @@ endif::env_embedded[]
 
 == Fragen zu diesem Prüfschritt
 
-=== Kann nicht das ``alt``-Attribut leer gelassen werden, wenn stattdessen ein sinnvolles ``title``-Attribut verwendet wird? Das wird in meinem Screenreader problemlos ausgegeben.
+=== Kann das ``alt``-Attribut nicht leer gelassen werden, wenn stattdessen ein sinnvolles ``title``-Attribut verwendet wird? Das wird in meinem Screenreader problemlos ausgegeben.
 
 Es stimmt, dass neuere Screenreader bei Vorhandensein eines ``title``-Attributs
 dieses anstelle eines fehlenden ``alt``-Attributs ausgeben.
@@ -458,7 +457,7 @@ http://www.w3.org/TR/WCAG20-TECHS/H33.html[H33]:
 
 [.BLOCK_LANG_EN]
 ____
-Because of the extensive user agent limitations in supporting access to the title attribute, authors should use caution in applying this techniqueFor this reason, it is preferred that the author use technique http://www.w3.org/TR/WCAG20-TECHS/C7.html[C7]: Using CSS to hide a portion of the link text (CSS) or http://www.w3.org/TR/WCAG20-TECHS/H30.html[H30]: Providing link text that describes the purpose of a link for anchor elements (HTML).
+Because of the extensive user agent limitations in supporting access to the title attribute, authors should use caution in applying this technique. For this reason, it is preferred that the author use technique http://www.w3.org/TR/WCAG20-TECHS/C7.html[C7]: Using CSS to hide a portion of the link text (CSS) or http://www.w3.org/TR/WCAG20-TECHS/H30.html[H30]: Providing link text that describes the purpose of a link for anchor elements (HTML).
 ____
 
 Ein weiterer Punkt, der die Wichtigkeit des ``alt``-Attributs unterstreicht, ist
@@ -548,7 +547,7 @@ Symbole haben meist konventionelle Bedeutung. So steht eine Lupe für die Funkti
 Der Alternativtext in diesem Fall hat zwei Aufgaben: Er soll für das Logo stehen und er soll das Linkziel vertreten. Auf dieser Grundlage kann man verschieden argumentieren:
 
 . Das Bild zeigt das Logo der Firma. Das ist auch seine vorrangige Aufgabe.
-Auch für einen blinden Benutzer ist es gut, zu wissen,  dass die Firma ihr Logo auf der Seite zeigt. Zusätzliche Informationen zum Ziel des Links sind überflüssig. Wo soll das Logo von Müllermilch schon hinführen.
+Auch für einen blinden Benutzer ist es gut, zu wissen, dass die Firma ihr Logo auf der Seite zeigt. Zusätzliche Informationen zum Ziel des Links sind überflüssig. Wo soll das Logo von Müllermilch schon hinführen.
 Also sollte "Logo: Müllermilch" im Alternativtext stehen.
 
 . Das Bild hat zwei Funktionen.

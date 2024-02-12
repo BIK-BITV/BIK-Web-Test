@@ -39,9 +39,9 @@ Der Prüfschritt ist immer anwendbar.
 auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24). 
 In den Einstellungen "Erweitert..." 
 sollte für Mindestschriftgröße "Keine" ausgewählt sein.
-* Über den Button "Erweitert…" für die Schriftarten  "Serif", "Sans Serif" und "Feste Breite" 
-deutlich abweichende  Schrifttypen (Fonts) einstellen 
-und bei der Checkbox "Seiten das  Verwenden von eigenen 
+* Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" 
+deutlich abweichende Schrifttypen (Fonts) einstellen 
+und bei der Checkbox "Seiten das Verwenden von eigenen 
 statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
 * Den Button "Farben…" wählen, 
 veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
@@ -52,8 +52,8 @@ den Wert "Immer" auswählen.
 . Prüfen, ob sich Einstellungen der Schrifttype, 
 Schriftgröße und Vorder- bzw. Hintergrund-Farben 
 auf die Darstellung der Seite auswirken und übernommen werden.
-. Prüfen, ob alle wichtigen Bedienlemente und deren Zustände 
-(z.B. "Hamburger"-Schaltlfäche 
+. Prüfen, ob alle wichtigen Bedienelemente und deren Zustände 
+(z.B. "Hamburger"-Schaltfläche 
 und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
 bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind. 
 
@@ -93,9 +93,9 @@ Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
 * Aufgrund von benutzerdefinierten Farbeinstellungen treten Probleme auf, 
 zum Beispiel:
 ** Für die Nutzung des Webauftritts wichtige informationstragende Grafiken 
-oder grafische Bedienelmente sind nicht mehr sichtbar.
+oder grafische Bedienelemente sind nicht mehr sichtbar.
 ** Unterschiedliche Zustände von Formularelementen 
-(z. B. Auswahlschalter oder Kontollkästchen) 
+(z. B. Auswahlschalter oder Kontrollkästchen) 
 sind nicht mehr unterscheidbar.
 ** Fließtext wird nicht vergrößert dargestellt.
 

@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn der Webauftritt interaktive Elemente enthä
 === 2. Prüfung
 
 . Seite im
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#c1078[
+https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
 Firefox] aufrufen. Das Laden der Seite sollte kein neues Fenster öffnen.
 . Mit der Tabulatortaste die Links und Formularelemente durchgehen.
 . Der Fokuserhalt soll keine automatischen Kontextänderungen (etwa Pop-up-Fenster

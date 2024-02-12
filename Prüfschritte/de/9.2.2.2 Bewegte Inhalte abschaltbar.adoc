@@ -90,6 +90,7 @@ Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 * Bewegung endet nicht von allein, bewegte und automatisch aktualisierte
   Inhalte können nicht angehalten, ausgeblendet oder in ihrer
   Aktualisierungsfrequenz angepasst werden.
+* Das Element zum Anhalten der Bewegung befindet sich nicht im unmittelbaren Kontext des sich bewegenden Elements oder am Beginn der Ansicht, oder erfüllt nicht alle Anforderungen der Barrierefreiheit.
 
 == Einordnung des Prüfschritts
 
