@@ -44,7 +44,7 @@ Firefox] aufrufen.
 . Das Bookmarklet
 https://ergebnis.bitvtest.de/test-methodik/web/werkzeugliste#c359[
 Inhalte gegliedert] aufrufen.
-. Prüfen, ob Absätze mit `p` oder anderer passender Semantik ausgezeichnet sind. Da die Auszeichnung von Absätzen mit `div` statt mit `p`-Elementen für Screenreader-Nutzende im Lesemodus keinen wesentlichen Nachteil mit sich bringt, kann sie in bestimmten Fällen (z. B. wenig Fießtext oder optisch kein richtiger Textabsatz) akzeptiert werden. 
+. Prüfen, ob Absätze mit `p` oder anderer passender Semantik ausgezeichnet sind. Da die Auszeichnung von Absätzen mit `div` statt mit `p`-Elementen für Screenreader-Nutzende im Lesemodus keinen wesentlichen Nachteil mit sich bringt, kann sie in bestimmten Fällen (z. B. wenig Fließtext oder optisch kein richtiger Textabsatz) akzeptiert werden. 
 . Werden doppelte `br`-Elemente für Zeilenumbrüche genutzt? 
 
 Prüfen, ob Hervorhebungen in Texten mit `strong` oder `em` ausgezeichnet sind.
