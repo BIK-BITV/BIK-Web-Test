@@ -12,12 +12,8 @@ Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 == Warum wird das geprüft?
 
 Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus
-gerade befindet, welcher Link also ausgelöst wird, wenn sie die Enter-Taste
-drücken.
-
-Die vom Browser vorgesehene Kennzeichnung des Tastaturfokus hebt sich von
-dunklen Seitenhintergründen meist nicht so gut ab.
-Das muss dann durch eine entsprechende Gestaltung ausgeglichen werden.
+gerade befindet, also welcher Link oder Schalter ausgelöst wird, wenn sie die Enter-Taste
+drücken, oder welches Eingabefeld oder andere Formularelement gerade den Fokus hat.
 
 == Wie wird geprüft?
 
@@ -58,6 +54,7 @@ ifndef::env_embedded[]
   <<9.2.1.1 Ohne Maus nutzbar.adoc#,9.2.1.1 Ohne Maus nutzbar>>
 endif::env_embedded[]
   nicht erfüllt!
+* Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundgfarbe und anderen Aspekten des Designs ist die Standarhervorhebung in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
 
 === 4. Bewertung
 
