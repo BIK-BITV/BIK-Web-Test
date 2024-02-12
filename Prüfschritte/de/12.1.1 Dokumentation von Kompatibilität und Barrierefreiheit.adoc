@@ -107,7 +107,7 @@ auf GitHub können Sie https://github.com/BIK-BITV/BIK-Web-Test/issues[dazu ein 
 * Es gibt keine Barrierefreiheitsfunktionen, die als Teil der Dokumentation erläutert werden müssten
 
 ==== Nicht erfüllt
-* Eine technische Dokumentation des Angebots ist vonhanden und es gibt Barrierefreiheits-Funktionen oder -Eigenschaften des Angebots. Diese werden in der Dokumentation nicht erfasst und erklärt (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln).
+* Eine technische Dokumentation des Angebots ist vorhanden und es gibt Barrierefreiheits-Funktionen oder -Eigenschaften des Angebots. Diese werden in der Dokumentation nicht erfasst und erklärt (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln).
 
 == Quellen
 * Zurzeit keine Quellen. 
