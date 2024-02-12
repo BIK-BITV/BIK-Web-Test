@@ -1,0 +1,197 @@
+= AsciiDoc Tutorial
+DIAS GmbH <info@dias.de>
+:lang: de
+
+In den Prüfschritten verwenden wir die Auszeichnungssprache AsciiDoc.
+In diesem Dokument stellen wir einen Schnelleinstieg zur Verfügung.
+Für detailliertere Informationen verweisen wir auf den 
+https://asciidoctor.org/docs/asciidoc-writers-guide[Writers Guide] von
+Asciidoctor.
+
+== Absätze
+
+Absätze werden einfach durch Leerzeilen vor und nach dem Text gekennzeichnet.
+
+.Beispiel
+----
+
+Erster Absatz.
+
+Zweiter Absatz.
+
+Hier kommt der dritte Absatz.
+Dieser hat mehrere Zeilen.
+Dies soll die Absatzlogik verdeutlichen.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam
+
+----
+
+[%collapsible]
+.Ergebnis
+====
+
+Erster Absatz.
+
+Zweiter Absatz.
+
+Hier kommt der dritte Absatz.
+Dieser hat mehrere Zeilen.
+Dies soll die Absatzlogik verdeutlichen.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam
+
+====
+
+== Überschriften
+
+Überschriften werden mit dem "`=`" und einem darauf folgendem Leerzeichen
+eingeleitet.
+Die Anzahl der Gleichheitszeichen bestimmt die Überschriftsebene.
+
+.Beispiel:
+----
+= Dokumententitel bzw. Überschriftsebene 1
+
+== Überschriftsebene 2
+
+=== Überschriftsebene 3
+
+==== Überschriftsebene 4
+
+===== Überschriftsebene 5
+
+====== Überschriftsebene 6
+
+----
+
+* <<Headings.adoc#,Zum Ergebnis>>
+
+== Links
+
+=== Einfache Links
+
+Links die mit "`\http://`" oder "`\https://`" beginnen, werden automatisch zu
+Links umgewandelt.
+Möchte man einen Text verlinken, setzt man den Text in eckige Klammern ("`[ ]`").
+Direkt davor wird die Linkadresse angegeben.
+
+.Beispiel
+----
+https://www.bitvtest.de/start.html[Startseite des BITV-Tests]
+----
+
+[%collapsible]
+.Ergebnis
+====
+https://www.bitvtest.de/start.html[Startseite des BITV-Tests]
+====
+
+=== Relative Links
+
+Möchte man relative Links einsetzen, z. B. "`Ordner/Datei.html`",
+"`Datei.html`",
+muss das Präfix "`link:`" eingesetzt werden.
+
+.Beispiele
+----
+link:Ordner/Datei.html[Mein Link]
+
+link:Datei.html[Mein zweiter Link]
+----
+
+[%collapsible]
+.Ergebnis
+====
+link:Ordner/Datei.html[Mein Link]
+
+link:Datei.html[Mein zweiter Link]
+====
+
+=== Verweise auf andere AsciiDoc-Dateien
+
+Um sichere Verweise auf andere AsciiDoc-Dateien zu setzen, die auch fehlerfrei
+in HTML umgewandelt werden, sollten Inter-document cross references eingesetzt
+werden.
+
+.Aufbau
+----
+<<Dokumentpfad#ID,Linktext>>
+----
+
+.Beispiel
+----
+<<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
+----
+
+[%collapsible]
+.Ergebnis
+====
+<<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
+====
+
+== Listen
+
+=== Ungeordnete Listen
+
+Listen müssen in einem eigenen Absatz definiert werden.
+Jedes Listenelement beginnt mit einem "`*`" gefolgt von einem Leerzeichen.
+
+.Beispiel
+----
+Ein Absatz ...
+
+* Orangen
+* Äpfel
+* Birnen
+
+Noch ein Absatz ...
+----
+
+[%collapsible]
+.Ergebnis
+====
+Ein Absatz ...
+
+* Orangen
+* Äpfel
+* Birnen
+
+Noch ein Absatz ...
+====
+
+=== Geordnete Listen
+
+Geordnete Listen werden ähnlich definiert, hier wird jedoch ein Punkt ("`.`")
+gefolgt von einem Leerzeichen vor jedes Listenelement gesetzt.
+Gezählt wird dann automatisch durch den Konverter.
+
+.Beispiel
+----
+Ein Absatz ...
+
+. Orangen
+. Äpfel
+. Birnen
+
+Noch ein Absatz ...
+----
+
+[%collapsible]
+.Ergebnis
+====
+Ein Absatz ...
+
+. Orangen
+. Äpfel
+. Birnen
+
+Noch ein Absatz ...
+====
+
+== Weitere Dokumentation
+
+* https://asciidoctor.org/docs/what-is-asciidoc[What is AsciiDoc?]
+* https://asciidoctor.org/docs/asciidoc-writers-guide[AsciiDoc Writer’s Guide]
+* https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[AsciiDoc Quick Reference]
+* https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual]

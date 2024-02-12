@@ -25,7 +25,7 @@ eingeschränkte Menschen oder Blinde.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn der Webauftritt interaktive Elemente enthält.
 
 === 2. Prüfung
 
@@ -44,13 +44,12 @@ Der Prüfschritt ist immer anwendbar.
 === 3. Hinweise
 
 ==== 3.1 Allgemeine Hinweise
-
-Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
-
-Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursacht. Die Prüfung erfolgt also bei *eingeschaltetem* JavaScript.
-
-Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die
+* Prüfende müssen mit der Funktionsweise der eingesetzten Browser vertraut sein, sie müssen wissen, welche Tasten und Tastenkombinationen für die
 Tastaturbedienung vorgesehen sind.
+* Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursacht. Die Prüfung erfolgt also bei eingeschaltetem JavaScript.
+* Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
+* Auch die Tastaturbedienbarkeit von Elementen ohne Fokushervorhebung wird geprüft. Zur Anzeige des Fokus kann ein geignetes Bookmarklet wie Force Show Keyboard Focus genutzt werden.
+
 
 Wichtig in diesem Zusammenhang:
 

@@ -4,8 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, bleibt die Audiodeskription nach dem Vorgang erhalten.
-Sie ist weiterhin  zuschaltbar und wird synchron zu Bild und Ton dargestellt.
+Wenn das Webangebot Videos mit Audiodeskription überträgt, 
+konvertiert oder aufnimmt, 
+bleibt die Audiodeskription nach dem Vorgang erhalten.
+Sie ist weiterhin zuschaltbar 
+und wird synchron zu Bild und Ton dargestellt.
 Die Prüfschritte 
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
@@ -20,18 +23,25 @@ sind weiterhin erfüllt.
 
 == Warum wird das geprüft?
 
-Wenn das Webangebot Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt,  soll die Audiodeskription in gleicher Weise nutzbar sein wie vor dem Vorgang.
-Dazu gehört, dass sie ausgegeben werden kann und synchron abgespielt wird.
+Wenn das Webangebot Videos mit Audiodeskription überträgt, 
+konvertiert oder aufnimmt, 
+soll die Audiodeskription in gleicher Weise nutzbar sein 
+wie vor dem Vorgang. 
+Dazu gehört, 
+dass sie ausgegeben werden kann und synchron abgespielt wird.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Videos mit Audiodeskription übertragen, konvertieren oder aufnehmen kann.
+Der Prüfschritt ist anwendbar, 
+wenn das Webangebot Videos mit Audiodeskription übertragen, 
+konvertieren oder aufnehmen kann.
 
 === 2. Prüfung
 
-Wenn das Webangebot Videos mit Audiodeskription konvertiert oder aufnimmt, das Video anschließend in einem konformen Player abspielen:
+Wenn das Webangebot Videos mit Audiodeskription konvertiert oder aufnimmt, 
+das Video anschließend in einem konformen Player abspielen:
 
 * Ist Audiodeskription aus der Quelle weiterhin vorhanden?
 * Lässt sich Audiodeskription abspielen?
@@ -39,7 +49,8 @@ Wenn das Webangebot Videos mit Audiodeskription konvertiert oder aufnimmt, das V
 
 === 3. Hinweise
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
+Hinweise zu diesem Prüfschritt 
+können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertung
 
@@ -49,7 +60,10 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Ausgabe oder Synchronität von Audiodeskription kommt.
+In diesem Prüfschritt wird geprüft, 
+ob es durch die Übertragung, Konvertierung oder Aufnahme 
+zu Problemen hinsichtlich der Ausgabe 
+oder Synchronität von Audiodeskription kommt.
 In den Prüfschritten
 ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
 ifndef::env_embedded[]
@@ -62,18 +76,13 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.2.3 Preservation of audio description
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 7.2.3 Preservation of audio description
-
+==== 7.2.3 Preservation of audio description
+____
 [.BLOCK_LANG_EN]
 Where ICT transmits, converts, or records video with synchronized audio, it
 shall preserve audio description data such that it can be played in a manner
 consistent with clauses 7.2.1 and 7.2.2.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.2.3 "Preservation of audio description")
+____

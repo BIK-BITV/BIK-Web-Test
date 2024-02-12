@@ -5,55 +5,78 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
+Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, 
+soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
 
 == Warum wird das geprüft?
 
-Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.
+Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, 
+bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. 
+So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation 
+(RTT, Real-Time Text) senden und empfangen kann.
 
 === 2. Prüfung
 
 . Webangebot öffnen
 . Prüfen, ob die Webangebot das Senden und Empfangen von Echtzeit-Textkommunikation anbietet
-. Prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
+. Prüfen, ob die gesendeten und empfangenen Textnachrichten 
+deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
 +
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
-* Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
+* Positionierung der eigenen Nachrichten rechtsbündig 
+und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen. 
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) 
+erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. 
+RTT ist also nicht das Gleiche wie etwa Chat, 
+wo Nachrichten explizit abgeschickt werden 
+und erst dann beim Empfänger erscheinen. 
 
-* Die Anforderung gilt streng genommen nur für Echtzeit-Textkommunikation, ist aber auch für die Unterscheidung von anderen Formen von Textkommunikation (etwa Text-Chats) wichtig.
+* Die Anforderung gilt streng genommen nur für Echtzeit-Textkommunikation, 
+ist aber auch für die Unterscheidung von anderen Formen von Textkommunikation (etwa Text-Chats) wichtig.
 
-* Wenn das Webangebot weitere Optionen für die Anzeige der Nachrichten anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht negativ bewertet werden. Andere Darstellungsweisen sind positiv, sie können bestimmte Nutzer-Bedürfnisse erfüllen. So kann die Fließtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
+* Wenn das Webangebot weitere Optionen für die Anzeige der Nachrichten anbietet, 
+die gegebenenfalls nicht diesen Anforderungen entsprechen, 
+soll dies nicht negativ bewertet werden. 
+Andere Darstellungsweisen sind positiv, sie können bestimmte Nutzer-Bedürfnisse erfüllen. 
+So kann die Fließtext-Darstellung von sowohl empfangenen 
+als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
 
-* Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
+* Die Unterscheidung der Nachrichten von verschiedenen Personen 
+sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - 
+vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
 
-* Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
+* Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) 
+und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
+
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
 
-=== 4.1 Einordnung des Prüschritts nach der EN 301 549 V3.1.1
+=== Abgrenzung zu anderen Prüfschritten
 
-6.2.2.1 Visually distinguishable display
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können 
+und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, 
+sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. 
+Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen 
+oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) 
+werden außerdem in den dafür zuständigen Prüfschritten bewertet.
 
-=== 4.2 Abgrenzung zu anderen Prüfschritten
-
-Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
-
-== Quellen
+=== Einordnung des Prüfschritts nach der EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.2.1 Visually distinguishable display
-
+==== 6.2.2.1 Visually distinguishable display
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT has RTT send and receive capabilities, displayed sent text shall be
@@ -66,5 +89,4 @@ display RTT in a form that works best for them.
 This would allow Braille users to use a single field and take turns and have
 text appear in the sequential way that they may need or prefer.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.1 "Visually distinguishable display")
+____

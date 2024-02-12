@@ -50,9 +50,9 @@ sie häufig nicht.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn bewegte Inhalte gleichzeitig mit
-anderen nicht bewegten Inhalten dargestellt werden (etwa die Navigation oder
-statische Inhalte). Nicht anwendbar ist der Prüfschritt auf essenziell wichtige Aktualisierungen von Inhalten, zum Beispiel, wenn die verbleibende Zeit einer Session heruntergezählt wird oder die Höhe eines Auktionsgebots dynamisch aktualisiert wird.
+Der Prüfschritt ist immer anwendbar, wenn bewegte Inhalte gleichzeitig mit anderen nicht bewegten Inhalten (etwa die Navigation oder statische Inhalte) dargestellt werden. 
+
+Nicht anwendbar ist der Prüfschritt auf essenziell wichtige Aktualisierungen von Inhalten, zum Beispiel, wenn die verbleibende Zeit einer Session heruntergezählt wird oder die Höhe eines Auktionsgebots dynamisch aktualisiert wird.
 
 === 2. Prüfung
 
@@ -69,9 +69,8 @@ animierte Werbung:
 . Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die
   Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut
   beginnt.
-. Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in
-  Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht
-  war.
+  
+Zusätzlich sollte geprüft werden, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in Gang setzt, und zwar (bei Videos oder Animationen) von dem Punkt aus, der beim letztem Anhalten erreicht wurde. Ist das nicht der Fall, sollte dies angemerkt werden. Dieser Mangel ist aber nicht als Verstoß gegen die Anforderung dieses Prüfschritts zu verstehen.
 
 === 3. Hinweise
 
@@ -91,6 +90,7 @@ Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 * Bewegung endet nicht von allein, bewegte und automatisch aktualisierte
   Inhalte können nicht angehalten, ausgeblendet oder in ihrer
   Aktualisierungsfrequenz angepasst werden.
+* Das Element zum Anhalten der Bewegung befindet sich nicht im unmittelbaren Kontext des sich bewegenden Elements oder am Beginn der Ansicht, oder erfüllt nicht alle Anforderungen der Barrierefreiheit.
 
 == Einordnung des Prüfschritts
 

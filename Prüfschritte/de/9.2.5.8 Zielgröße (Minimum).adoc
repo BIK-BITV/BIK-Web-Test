@@ -1,0 +1,93 @@
+= Prüfschritt 2.5.8 Zielgröße (Minimum)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzung mit Zeigegeräten (z. B. Maus oder Touch) eine Fläche von 24 x 24 CSS-Pixel umfassen (Zielgröße). Es gelten folgende Ausnahmen:
+
+* *Abstand:* Ziele, die kleiner als 24 x 24 CSS-Pixel sind, haben genug Abstand von anderen Zielen. Dies gilt als gegeben, wenn ein imaginärer Kreis mit einem Durchmesser von 24 CSS-Pixeln auf dem Begrenzungskasten ("Bounding Box") des jeweiligen Ziels zentriert wird und der Kreis nicht ein anderen Ziel oder dem Kreis eines anderen unterdimensionierten Ziels überschneidet. Beispiel: Eine Reihe von Schaltflächen, mit jeweils einer Größe von 20 x 20 CSS-Pixeln haben einen Abstand von 4 CSS-Pixeln.
+* *Gleichwertige Alternative:* Man kann mit einem anderen Bedienelement, welches die Anforderung erfüllt und sich auf derselben Seite befindet, die Funktion ausführen.
+* *Inline:* Das Ziel befindet sich in einem Satz oder die Größe des Ziels wird durch die Zeilenhöhe von umgebendem, nicht interaktiven Text eingeschränkt (z. B. ein Text-Link innerhalb eines Absatzes).
+* *Benutzeragenten:* Die Größe des Ziels wird vom Benutzeragenten bestimmt und ist von der Autorin oder dem Autor nicht verändert.
+* *Essenziell:* Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben.
+
+== Warum wird das geprüft
+
+Interaktive Elemente sollen leicht über die Zeiger-Eingabe (etwa Maus oder Touch) aktiviert werden können, ohne dass Nutzende versehentlich ein benachbartes Element aktivieren. Für Nutzende, 
+die Schwierigkeiten mit der Feinmotorik haben oder zittern, ist es für schwierig, kleine Ziele genau zu treffen. Eine ausreichende Größe oder ein ausreichender Abstand zwischen den Zielen verringert 
+die Wahrscheinlichkeit, dass versehentlich das falsche Bedienelement betätigt wird.
+
+== Wie wird geprüft
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn interaktive Elemente vorhanden sind.
+
+=== 2. Prüfung
+
+* Interaktive Elemente, die mit Zeigeräten (z. B. Maus oder Touch) aktiviert werden und nicht unter die Ausnahmen fallen, ermitteln.
+* Für jedes Ziel prüfen, ob die Größe ausreicht oder ansonsten ein ausreichender Abstand zu benachbarten Zielen vorhanden ist.
+* Um die CSS-Pixelgröße eines interaktiven Elements zu bestimmen, im Zweifelsfall die Inspektor-Funktion des Browsers verwenden:
+  ** Mit der rechten Maustaste auf das zu testende interaktive Element klicken, und im Kontextmenü die Option „Untersuchen“ wählen. Bei den meisten Browsern wird bei dieser Methode der Elementauswahl 
+auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements) angezeigt.
+  ** Im Panel "Layout" des Inspektors werden  die Werte für Höhe und Breite des ausgewählten Elements sowie zusätzliche Werte für die CSS-Eigenschaften `padding`, `border` und `margin` angezeigt. Sowohl `padding` als auch `border` gehören zur Zielgröße dazu, selbst wenn sie grafisch nicht sichtbar sind, denn reagieren sie auf Pointer-Aktivierung.
+  ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt.
+
+* Das Bookmarklet https://html5accessibility.com/stuff/2023/08/28/quick-and-very-dirty-target-size-checker/[Target Size] kann unterstützend hinzugezogen werden:
+  ** Es identifiziert interaktive Elemente, errechnet dessen Mittelpunkt und zeichnet einen halbtransparenten Kreis von 24×24 Pixeln um den Mittelpunkt des Elements.
+    *** Ein grüner Kreis mit dickem Rand bedeutet: das Element hat eine Höhe oder Breite von 24 px oder mehr.
+    *** En blauer Kreis bedeutet: Das Element hat eine Höhe und Breite von weniger als 24 px.
+  ** Wird festgestellt, dass ein interaktives Element ein anderes interaktives Element überlappt, wird nach Anwendung des Bookmarklets eine JavaScript-Warnung mit der Anzahl 
+der sich überlappenden Elemente angezeigt.
+
+* Eine Alternative zur Überprüfung der Zielgröße ist die Chrome Extension https://chromewebstore.google.com/detail/halfaccessible-accessibil/kofnlhenkilpdacklecdifdfigomanje?pli=1[Accessiblity Toolkit von HalfAccessible].
+** Nach Installation und Aufruf der Erweiterung erscheint ein Popup. Hier "Open Toolkit" aktivieren.
+** Im nun angezeigten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
+** Ziele mittels Tabben durchlaufen oder mit der Maus überfahren. Es wird angezeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nur über den Abstand erfüllt ("REVIEW").
+** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreichend Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen (z.B. weil es Fließtextlinks sind).
+
+*	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
+** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
+** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
+** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
+** Es gibt ein anderes Bedienelement für die gleiche Funktion, welches die Anforderung erfüllt und sich auf derselben Seite befindet
+
+=== 3. Hinweise
+
+* Eine Mindestgröße von 24 mal 24 CSS-Pixel bedeutet: Das Ziel ist so groß, dass ein 24 x 24 Pixel großes Quadrat in das Ziel gezeichnet werden kann (und nicht über den Bereich der Zielfläche hinausragt). 
+Dies ist insbesondere bei abgerundeten Flächen zu berücksichtigen.
+* Die Abstandsausnahme kann auch Geltung finden, wenn ein Element etwa nur in der Höhe unterdimensioniert ist. Beispiel: Schaltflächen haben eine Breite von 44 CSS-Pixeln, sind aber nur 16 CSS-Pixel hoch. 
+Es gibt keine interaktiven Elemente unmittelbar über oder unter den Schaltflächen.
+* Die Zielfläche für Zeigegeräte ist nicht notwendigerweise die gleiche wie die sichtbare Klickfläche. Ein grafischer Schalter mit einem sichtbaren Symbol ist beispielsweise 16 x 16 Pixel groß 
+und hat auf jeder Seite ein `padding` von 4 Pixeln. Dies summiert sich zu einer Zielfläche von 24 x 24 Pixeln.
+* Linklisten, die wie in Navigationsstrukturen angeordnet sind, zählen nicht als Inline-Links. Autoren können die relative Position dieser Links vorhersehen und einen ausreichenden Zielabstand umsetzen.
+* Die Anforderung ist unabhängig vom Zoom-Faktor der Seite; wenn Benutzer in die Seite hineinzoomen, ändert sich die CSS-Pixelgröße der Elemente nicht.
+* Erfolgskriterium 2.5.8 ist nicht auf Elemente, die vom Browser dargestellt werden, anzuwenden. Das bedeutet, native Bedienelemente, wie Radio Inputs und Checkboxen sind ausgenommen, benutzerdefinierte 
+Radio Inputs und Checkboxen sind von dieser Anforderung jedoch betroffen.
+
+=== 4. Bewertung
+
+==== Teilweise erfüllt oder schlechter
+
+Die Zielgröße eines interaktiven Elements umfasst nicht 24 x 24 CSS-Pixel und kann nicht im Sinne der Ausnahmen (zum Beispiel ausreichender Abstand) bewertet werden.
+
+== Quellen
+
+* https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html[Understanding Target Size (Minimum), WCAG 2.2] 
+
+== Einordnung des Prüfschritts nach WCAG 2.2
+
+=== Guidelines
+
+* https://www.w3.org/TR/WCAG22/#input-modalities[2.5 Input Modalities]
+
+=== Success criterion
+
+* https://www.w3.org/TR/WCAG22/#target-size-minimum[2.5.5 Target Size (Minimum) (AA)]
+
+=== Techniques
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C42[C42: Using min-height and min-width to ensure sufficient target] 

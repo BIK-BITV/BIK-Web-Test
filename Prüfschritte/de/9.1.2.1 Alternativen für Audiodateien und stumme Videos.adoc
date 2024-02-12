@@ -10,10 +10,10 @@ sich bei Ihnen bereits um Medienalternativen für Text.
 
 == Warum wird das geprüft?
 
-Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt
+Audiodateien (z. B. Audio-Podcasts) sind für hörbehinderte Nutzende nicht oder nur eingeschränkt
 zugänglich, deshalb brauchen sie eine Transkription.
-Stumme Videodateien (etwa eine Film- oder Animationsequenz, die zeigt, 
-wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer
+Stumme Videodateien (etwa eine Film- oder Animationssequenz, die ohne Audio-Kommentar zeigt, 
+wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzende
 nicht verfügbar.
 Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
@@ -35,7 +35,7 @@ der Seite eingebunden sind.
 . Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die
   Audiodatei vermittelt.
   Bei Audiodateien mit verschiedenen Stimmen gibt es in der
-  Transkription eine Kennzeichnung der Sprecher.
+  Transkription eine Kennzeichnung der sprechenden Person.
 
 ==== 2.2 Medienalternative für stumme Film- oder Bildsequenzen
 
@@ -68,7 +68,7 @@ Link.
 Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer
 Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar
 dieselben Inhalte wiedergegeben werden. 
-Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die Sprecher
+Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die sprechenden Personen
 im Text identifiziert sein.
 
 === 4. Bewertung
@@ -84,16 +84,13 @@ im Text identifiziert sein.
 
 === Abgrenzung zu anderen Prüfschritten
 
-Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall
-von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden
-Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt
-werden können, diese kurz identifizieren.
-Dies ist Gegenstand des Prüfschritts
+im Fall von zeitbasierten Medien geht es im Prüfschritt
 ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte".]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
-  Alternativtexte für Grafiken und Objekte>>.
-endif::env_embedded[]
+  Alternativtexte für Grafiken und Objekte>>
+um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
+
 In diesem Prüfschritt 9.1.2.1 geht es dagegen um die Bereitstellung von
 gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
@@ -103,7 +100,7 @@ ifndef::env_embedded[]
   <<9.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,9.1.2.3
   Audiodeskription oder Volltext-Alternative für Videos>>
 endif::env_embedded[]
-geht es schließlich um die Bereitstellung von zusätzlichen
+geht es um die Bereitstellung von zusätzlichen
 Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und
 Tonspur).
 Dort geht es also um *zusätzliche* akustische Informationen über

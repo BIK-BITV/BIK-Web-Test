@@ -19,7 +19,7 @@ Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung
 erfüllen.
 
 Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das
-Bedienelement bzwdessen Zustand hinreichend kennzeichnet, müssen grafische
+Bedienelement bzw. dessen Zustand hinreichend kennzeichnet, müssen grafische
 Elemente die Kontrastanforderung nicht erfüllen.
 
 == Warum wird das geprüft?
@@ -57,11 +57,11 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
 ==== 2.1 Prüfung nicht festgelegter Farben
 
-. Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon-Fonts), für die
+. Prüfung, ob für Grafiken oder Bedienelemente (etwa Icon Fonts), für die
   über CSS eine Vordergrundfarbe festgelegt wurde, auch eine Hintergrundfarbe
   festgelegt ist (und umgekehrt).
 . Das Bookmarklet
-  https://testen.bitv-test.de/bookmarklets.html[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html[
   Vorder-und Hintergrundfarbe definiert] oder ein User Stylesheet
   (``html {background-color:black;color:white}``) aktivieren.
 . Prüfen, ob Grafiken oder Bedienelemente nun verschwinden oder schlecht zu
@@ -104,9 +104,19 @@ Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
   von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
   ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
+==== 2.5 Styleswitcher-Prüfung, Prüfung der Grafikkontraste der alternativen Ansicht
+
+Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllen und die
+Seite eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
+
+. Grafikkontrast des Styleswitcher-Schaltelements prüfen.
+. Das Kontrastverhältnis muss 4,5:1 oder besser sein, sofern der Schalter mit Hilfe von Text beschriftet ist (bei grafischen Schaltern gilt ein Mindestkontrast von 3,0:1, vergl. Prüfschritt 9.1.4.11). Auch alle anderen Anforderungen müssen erfüllt sein (zum Beispiel Tastaturbedienbarkeit), ansonsten Prüfung der alternativen Ansicht abbrechen.
+. Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
+. Grafikkontraste der alternativen Ansicht prüfen (wie oben in 2.2. und 2.4 beschrieben). Bestehen nach Aktivierung der alternativen Ansicht weiter irgendwelche Kontrastmängel bei Grafiken oder bei Text, wird diese Ansicht bei der Bewertung der Kontraste nicht berücksichtigt.
+
 === 3. Hinweise
 
-==== 3.1 Zur Identifizierung notwendige Teile von Bedienelementen
+==== 3.1 Zur Identifizierung notwendiger Teile von Bedienelementen
 
 Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es
 sich um visuell sichtbare Elemente (z. B. Element-Rahmen, aktivierter Zustand
@@ -145,10 +155,10 @@ Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
   Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der
   Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
   Dies ist Gegenstand der Prüfung in Prüfschritt
-  ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich"]
 ifndef::env_embedded[]
   <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
-  Position des Fokus deutlich>>.
+  Position des Fokus deutlich>>
 endif::env_embedded[]
 
 Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils

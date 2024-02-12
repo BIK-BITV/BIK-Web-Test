@@ -1,0 +1,55 @@
+name: Release-Veröffentlichung
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *'
+
+jobs:
+  procedure-perform-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Configure git user
+        run: |
+          git config user.email "actions-bot@github.com"
+          git config user.name "GitHub Actions (run by ${{ github.actor }})"
+
+      - uses: release-drafter/release-drafter@v5
+        id: draft_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#      - uses: actions/upload-release-asset@v1.0.1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ steps.draft_release.outputs.upload_url }}
+#          asset_path: ./my-artifact.zip
+#          asset_name: my-artifact.zip
+#          asset_content_type: application/zip
+
+      - name: Update CHANGELOG
+        uses: stefanzweifel/changelog-updater-action@v1
+        id: update_changelog
+        with:
+          release-notes: ${{ steps.draft_release.outputs.body }}
+          latest-version: ${{ steps.draft_release.outputs.tag_name }}
+
+      - name: Commit updated CHANGELOG
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: Aktualisiere CHANGELOG
+          file_pattern: CHANGELOG.md
+          tagging_message: ${{ steps.draft_release.outputs.tag_name }}
+
+      - uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.draft_release.outputs.id }}

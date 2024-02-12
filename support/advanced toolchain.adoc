@@ -1,0 +1,141 @@
+= AsciiDoc für Prüfschritte
+Emanuel Helms <helms@dias.de>
+2020-02-21
+:lang: de
+:toc:
+
+== Tool chain
+
+Für die Umwandlung der ADOC-Dateien sind ein paar Programme notwendig. Z. B. hilft ein Python-Skript bei der Umwandlung von Word-Dateien zu adoc-Dateien.
+
+* `chocolatey` um die benötigten Programme zu installieren
+* `notepad++` als Editor für AsciiDoc (bietet Syntax-Highlighting)
+* `ruby`, vom Umwandlungsprogramm Asciidoctor benötigt
+* Das GEM-Paket `asciidoctor`, dies ist das Umwandlungsprogramm, um AsciiDoc-Dateien in HTML umzuwandeln
+* `python` für die Umwandlung von Word-Dateien nach AsciiDoc
+* `pandoc` für die Umwandlung von Word-Dateien nach AsciiDoc
+* git für die Versionsverwaltung
+
+== Installieren der Toolchain
+
+=== chocolatey
+
+`chocolatey` ist ein Paket-Manager für Windows, mit dem man auf einfache Weise Programme installieren und auf dem aktuellen Stand halten kann.
+
+.Installation
+. Eingabeaufforderung mit Administratorrechten öffnen
+. Folgenden Befehl in das Fenster kopieren:
++
+----
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+----
++
+. Das Eingabeaufforderungsfenster schließen, der Befehl `choco` sollte nach erneutem Öffnen der Eingabeaufforderung zur Verfügung stehen
+
+NOTE: Um Programme mit `choco` zu verwalten, muss immer ein Eingabeaufforderungsfenster mit Adminrechten genutzt werden.
+
+=== Notepad++
+
+Notepad++ ist ein Editor mit AsciiDoc Unterstützung, die Syntax wird im Editor hervorgehoben.
+
+.Installation
+. Eingabeaufforderung mit Adminrechten öffnen
+. den Befehl
++
+----
+choco install notepadplusplus
+----
++
+eingeben und mit Enter bestätigen
+. bei Rückfragen können diese mit "y" und Enter bestätigt werden
+. Notepad++ sollte nun im Startmenü zu finden sein
+
+=== Ruby
+
+Das Umwandlungsprogramm `asciidoctor` ist in der Skriptsprache Ruby geschrieben, daher muss der Ruby-Interpreter installiert werden.
+
+.Installation
+. die Eingabeaufforderung mit Administratorrechten öffnen
+. den Befehl
++
+----
+choco install ruby
+----
++
+ausführen
+. bei Rückfragen können diese mit "y" und Enter bestätigt werden
+. das Eingabeaufforderungsfenster schließen und erneut aufrufen
+. der Befehl `ruby` sollte nun zur Verfügung stehen
+
+=== AsciiDoctor
+
+Mit dem Ruby-Programm "Asciidoctor" werden die AsciiDoc-Dateien nach HTML konvertiert.
+
+NOTE: Ruby muss zuvor installiert worden sein.
+
+.Installation
+. Eingabeaufforderung öffnen
+. den Befehl
++
+----
+gem install asciidoctor
+----
++
+ausführen
+. das Eingabeaufforderungsfenster schließen und wieder aufrufen
+. der Befehl `asciidoctor` sollte nun zur Verfügung stehen
+
+=== Python
+
+Die Skriptsprache Python wird benötigt um in Verbindung mit Pandoc Word-Dateien in AsciiDoc umzuwandeln.
+
+.Installation
+. Eingabeaufforderung mit Administratorrechten aufrufen
+. den Befehl
++
+----
+choco install python
+----
++
+ausführen
+. bei Rückfragen können diese mit "y" und Enter bestätigt werden
+. das Eingabeaufforderungsfenster schließen und erneut aufrufen
+. der Befehl `python` sollte nun zur Verfügung stehen
+
+=== Pandoc
+
+Mit Pandoc können verschiedene Dokumentenformate umgewandelt werden. In Zusammenhang mit einem Python-Skript, wird die Umwandlung von Word-Dateien nach AsciiDoc vereinfacht.
+
+.Installation
+. Eingabeaufforderung mit Administratorrechten öffnen
+. den Befehl
++
+----
+choco install pandoc --ia=ALLUSERS=1
+----
++
+ausführen
+. bei Rückfragen können diese mit "y" und Enter bestätigt werden
+. das Eingabeaufforderungsfenster schließen und erneut aufrufen
+. Der Befehl `pandoc` sollte nun zur Verfügung stehen
+
+=== Git (optional)
+
+Wenn die Prüfschrittdateien auch lokal, unabhängig von GitHub, bearbeitet werden sollen, muss das Quelltextversionierungsprogramm Git installiert werden.
+
+.Installation
+. Eingabeaufforderung mit Administratorrechten öffnen
+. den Befehl
++
+----
+choco install git
+----
++
+ausführen
+. bei Rückfragen können diese mit "y" und Enter bestätigt werden
+. das Eingabeaufforderungsfenster schließen und erneut aufrufen
+. Der Befehl `git` sollte nun zur Verfügung stehen
+
+== Hilfreiche Links
+
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[ASCIIDOCTORs Writers Guide]

@@ -44,7 +44,7 @@ Wenn sich die Lautstärke regeln lässt:
   Ist der Ton verschwunden?
 * Prüfen, ob der Lautstärkeregelung durch den Mechanismus unabhängig von der
   Systemtonlautstärke ist (Die Lautstärkeeinstellung in "Sound" soll
-  unverändert bleiben)Alternativ kann die Systemlautstärke auch über den das
+  unverändert bleiben). Alternativ kann die Systemlautstärke auch über den das
   Lautsprechersymbol im einblendbaren Infobereich der Taskleiste geprüft werden.
 
 === 3. Hinweise

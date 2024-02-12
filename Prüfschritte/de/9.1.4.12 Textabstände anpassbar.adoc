@@ -36,12 +36,19 @@ der nicht über eine Grafik bereitgestellt wird).
 === 2. Prüfung
 
 . Textabstände mit dem
-  https://testen.bitv-test.de/bookmarklets.html[
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html[
   Bookmarklet Textabstände] oder mit einer Browser-Erweiterung setzen.
   Die Werte für Zeilenhöhe, Abstand nach Absätzen, Buchstabenabstand und
   Wortabstand werden auf die maximal geforderten Werte gesetzt.
 . Prüfen, ob es durch die neuen Werte zum Abschneiden oder Überlappen von Text
   oder den Verlust von Funktionalität kommt.
+  
+=== 3. Hinweise
+* Die Anforderung ist nicht anwendbar ist auf Elemente wie `input type="file"`, auf die CSS-Anpassungen keine Auswirkung haben.
+
+=== 4. Bewertung
+==== Erfüllt:
+* Nach Anwendung des Bookmarklets sind alle Texte, auch in Ausklappbereichen und Menüs, vollständig lesbar, Sie sind nicht abgeschnitten und überlagern keine anderen Inhalte.
 
 == Einordnung des Prüfschritts
 

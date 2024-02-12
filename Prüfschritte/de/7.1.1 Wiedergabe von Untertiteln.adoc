@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden  dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
+Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
 
 == Warum wird das geprüft?
 
@@ -21,7 +21,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-*	Der Prüfschritt ist anwendbar, wenn die  Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel zuschaltbar sind. Die Untertitel sind dann in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
+*	Der Prüfschritt ist anwendbar, wenn die Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel vorhanden sind. Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
 *	Aufgezeichnete Videos ohne Tonspur (stumme Videos) brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
 
 === 2. Prüfung
@@ -45,8 +45,10 @@ Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel als fe
 
 Es wird eine Untertitel-Datei angeboten, der Player bietet jedoch keine Möglichkeit, diese anzuzeigen.
 
-== Einordnung des Prüfschritts
+== Quellen
+* https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
 
+== Einordnung des Prüfschritts
 === Abgrenzung zu anderen Prüfschritten
 
 Bei diesem Prüfschritt geht es um den eigentlichen Prozess der Anzeige von Untertiteln während der Wiedergabe sowie um die Bedienelemente zum Ein- und Ausschalten von Untertiteln im Videoplayer.
@@ -61,15 +63,11 @@ Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen mu
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.1.1 Captioning playback
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 7.1.1 Captioning playback
-
+==== 7.1.1 Captioning playback
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall have a mode of
@@ -88,5 +86,4 @@ NOTE 2:
 If a Braille device is connected, the ICT should provide an option to display
 captions on the Braille device.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.1.1 "Captioning playback")
+____

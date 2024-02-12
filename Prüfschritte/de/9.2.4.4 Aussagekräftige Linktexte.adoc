@@ -12,32 +12,13 @@ Dateiformat des Zieldokuments informieren.
 
 == Warum wird das geprüft?
 
-Blinde Nutzer, die von Link zu Link tabben, bekommen die Linktexte vorgelesen
-und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem
-Link folgen möchten.
+Blinde Nutzer, die von Link zu Link tabben, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
 
-Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare
-Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit der Auflistung sämtlicher Links der Seite
-und damit einen schnellen Überblick, selbst wenn die Seite ansonsten schlecht
-zugänglich ist.
-Diese Technik funktioniert allerdings nicht, wenn alle Linktexte
-gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit der Auflistung sämtlicher Links der Seite und damit einen schnellen Überblick, selbst wenn die Seite ansonsten schlecht zugänglich ist. Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind und nicht ausreichend Auskunft über das Linkziel geben. 
 
-Für Angebote in anderen Formaten als HTML (zum Beispiel PDF- oder
-Word-Dokumente) benötigt der Benutzer zusätzliche Programme oder Plugins, die
-aber nicht jeder auf seinem Rechner installiert hat.
-Manche Programme arbeiten schlecht mit Screenreadern oder anderen
-Hilfsanwendungen zusammen, manche Dateiformate sind nicht oder nur schlecht
-zugänglich.
-Für viele Benutzer ist es wichtig zu wissen, in welchem Format Informationen
-angeboten werden, bevor sie einen Link aktivieren.
-
-Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
-wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt.
-Er ist nicht überrascht oder irritiert, wenn plötzlich Browserfunktionen
-nicht mehr vorhanden sind oder der E-Mail-Client geöffnet wird.
+Bei Links zu Angeboten in anderen Formaten als HTML (zum Beispiel PDF- oder Word-Dokumente) ist es für Nutzende sinnvoll zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren. Wenn Informationen zum Dateiformat visuell bereitgehalten werden (etwa über ein mittels CSS eingeblendetes PDF- oder Word-Icon) dann soll diese Information auch für blinde Nutzer verfügbar sein.
 
 == Wie wird geprüft?
 
@@ -50,104 +31,68 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 ==== 2.1 Prüfung von Linktexten
 
 . Seite im Firefox aufrufen.
-. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder
-  im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B.
-  "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der
-  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
-* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der
-  Seite erweitert
-* durch zusätzlichen, über CSS versteckten Linktext (hierfür in der Web
-  Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die
-  betroffenen Links erneut prüfen)
-* durch den Alternativtext einer mit im selben ``a``-Element verlinkten Grafik
-(hierfür die Option _Images > Display Alt Attributes_ wählen)
-* durch den Text im umschließenden Element (`p`, `li`)
-* bei Links in untergeordneten Listen durch den Text des übergeordneten
-  ``li``-Elements
-* durch den Text der umschließenden Tabellenzelle und der dazugehörigen
-  Überschriftenzellen (``td``, ``th``)
-* durch den Text der vorangehenden Überschrift (``h1`` - ``h6``)
-* Mit Hilfe des `aria-label` oder ``aria-labelledby``-Attributs.
+* durch zusätzlichen, über CSS versteckten Linktext (hierfür ggf. in der Web Developer Toolbar die Option _CSS > Disable All Styles_ wählen und die betroffenen Links erneut prüfen)
+* durch den Alternativtext einer mit im selben `a`-Element verlinkten Grafik (hierfür die Option _Images > Display Alt Attributes_ wählen)
+* durch den Text im umschließenden Element (`p`, `li`). Das `div`-Element wird hier wie `p` behandelt
+* bei Links in untergeordneten Listen durch den Text des übergeordneten `li`-Elements
+* durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen (`td`, `th`)
+* durch den Text der vorangehenden Überschrift (`h1` - `h6`)
+* Mit Hilfe des `aria-label` oder `aria-labelledby`-Attributs (Achtung: `aria-label` überschreibt den Text des Links)
+* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert.
 
 ==== 2.2 Prüfung von Links auf andere Dateiformate
 
-. Seite im Firefox aufrufen.
-. In der
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html[
-  Web Developer Toolbar] die Option _Information > View Link Information_
-  wählen.
-. Links auf nicht-HTML-Angebote in der Linkliste anhand der URL identifizieren
-  (zum Beispiel mailto-Links oder die Dateiendungen .pdf oder .doc)
-. Prüfen, ob im Linktext oder im title-Text Auskunft über das Dateiformat
-  gegeben wird oder das Linkziel über die Format des Linktexts deutlich wird -
-  so etwa bei einer verlinkten E-Mail-Adresse.
-. Falls über Link- und title-Text keine Auskunft über das Dateiformat
-  gegeben wird, den Link auf der Webseite suchen und prüfen, ob mit visuellen
-  Mitteln über das Dateiformat informiert wird (zum Beispiel PDF-Symbol,
-  Überschrift "PDFs zum Herunterladen"...).
+. Seite im Browser aufrufen.
+. Prüfen, ob visuell, etwa über zusätzliche Icons oder in Custom-Tooltips, Auskunft über das Dateiformat gegeben wird. 
+. Prüfen, ob visuelle Information zum Dateiformat auch programmatisch bereitgestellt wird (etwa über versteckten Linktext, Alternativtext, das `title`-Attribut oder geeignete ARIA-Attribute).
+. Falls weder über den Linktext noch über ein entsprechend eindeutiges Icon Auskunft über das Dateiformat gegeben wird, ist das Dateiformat des Links möglicherweise für alle Nutzenden unklar. Dies ist nicht als Mangel im Sinne dieses Prüfschritts zu bewerten (sollte jedoch ggf. als allgemeines Usability-Problem angemerkt werden).
 
 === 3. Hinweise
 
-* Bei verlinkten Grafiken ist der Linktext der Wert des `alt`-Attributs des
-  ``img``-Elements
-* Der Linktext kann auch aus dem ``alt``-Text einer oder mehrerer Grafiken und
-  einfachem Text zusammengesetzt sein.
-* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten
-  ``li``-Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar
-  aus dem Kontext der Auflistung hervorgeht.
-* Zusätzlicher, per CSS unsichtbar gemachter Linktext darf nicht via
-  `display:none` versteckt werden: er wird sonst von Screenreadern ignoriert.
-* Das ``title``-Attribut eines Links wird in manchen Fällen nicht von
-  Screenreadern ausgewertet.
-  Es ist gemäß Spezifikation für zusätzliche Informationen gedacht.
+* Links, deren Ziel generell für alle Nutzer unklar ist, fallen nicht unter diesen Prüfschritt.
+* Verlinkte URLs und verlinkte E-Mail-Adressen vermitteln über ihr Format den Linkzweck (etwa, dass sie einen Email-Client öffnen oder auf ein externes Webangebot verlinken). URLs sind für alle Nutzer möglicherweise nicht aussagekräftig und werden deshalb hier nicht negativ bewertet.
+* Bei verlinkten Grafiken ist der Linktext der Wert des `alt`-Attributs des ``img``-Elements. Der Linktext kann auch aus dem ``alt``-Text einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten ``li``-Element einer Liste werden akzeptiert, wenn die Bedeutung
+  aus dem programmatisch ermittelbaren Kontext hervorgeht. Dazu gehört der den Link einschließende Absatz oder Listenpunkt oder auch die vorangehende Überschrift. 
+* Wenn zusätzlicher, per CSS unsichtbar gemachter Linktext mit `display:none` versteckt wird, ist er programmatisch nicht ermittelbar und verbessert nicht die Aussagekraft des Links: dieser Text wird von Screenreadern ignoriert.
+* Das ``title``-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder
-  Linkzweck.
-* Alle Links auf nicht-HTML-Angebote geben Auskunft über das Dateiformat oder
-  lassen klar auf das Verhalten bei Aktivierung schließen (etwa bei
-  verlinkten E-Mail Adressen, die einen E-Mail client öffnen).
-
-==== Nicht voll erfüllt
-
-* Ziel oder Zweck des Links gehen _nur_ aus dem ``title``-Attribut des Links
-  hervor.
+* Alle Links benennen im Linktext oder im programmatisch ermittelbaren Kontext Linkziel oder Linkzweck.
+* Alle Links auf nicht-HTML-Angebote, die visuell über das Dateiformat informieren, stellen diese Information auch programmatisch ermittelbar zur Verfügung.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements.
-Die Aussagekraft des ``alt``-Textes wird jedoch geprüft in:
+In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
 
-* Prüfschritt
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. Die Zugänglichkeit und Aussagekraft des ``alt``-Textes wird jedoch im Prüfschritt
 ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
   Alternativtexte für Bedienelemente>>
 endif::env_embedded[]
+geprüft.
 
 In diesem Prüfschritt wird nur geprüft, ob die Information über das
 Dateiformat überhaupt vorhanden ist.
 Das ist der Fall, wenn das Dateiformat in
 einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
 
-Nicht geprüft wird, ob die Information auch gut zugänglich ist.
-Dafür reicht die alleinige Anzeige als Grafik nicht aus.
-Wenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob
-diese Information auch als Text verfügbar ist.
-
-* Alternativer Text für nicht-visuelle Nutzer: Prüfschritt
-ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt 
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
-  <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
-  Alternativtexte für Bedienelemente>>
+  <<11.1.1.1a Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
 endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -235,8 +180,8 @@ choose which links to follow without requiring complicated strategies to
 understand the page.
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
 
 === Gruppen zusammengehöriger Links
 
@@ -253,9 +198,9 @@ the first link for each book is the title of the book, the second link says
 "PDF" and the third says, "mp3."
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
-Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
-Criterion 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
+Criterion 2.4.4]
 
 === Aussagekraft über den Kontext
 
@@ -279,8 +224,8 @@ associated with the link itself.
 --
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
 
 === Grenzen des ``title``-Attributs (Technik H33: Supplementing link text with the title attribute)
 
@@ -305,33 +250,5 @@ elements] (HTML).
 --
 ____
 
-(WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
-H33: Supplementing link text with the title attribute])
-
-== Fragen zu diesem Prüfschritt
-
-=== Mehrfachverlinkungen
-
-Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe
-Seite verlinkt.
-Das beeinträchtigt die Brauchbarkeit der von Screenreadern generierten
-Linklisten.
-Wie wird das bewertet?
-
-Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste
-unpraktisch, sie machen die Liste länger und unübersichtlicher.
-Unbrauchbar wird die Linkliste aber nicht, solange durch die Linktexte
-deutlich wird, dass es sich um mehrfache Links auf dasselbe Ziel handelt.
-
-Für sehende Nutzer kann die Mehrfachverlinkung von Überschrift, Abbildung und
-mehr-Link dagegen praktisch sein.
-Sie müssen nicht erst nach einem kleinen
-mehr-Link am Ende des Anreißertexts suchen, sondern können auf das meist
-größere und damit leichter zu treffende Bild oder auch gleich auf die
-Überschrift klicken.
-
-Hier gibt es also kein "richtig" oder "falsch", die verschiedenen
-Ansätze haben alle ihre Vor- und Nachteile.
-Wichtig ist, dass alle Linktexte so aussagekräftig sind, dass der Benutzer
-die Mehrfachverlinkung in der Linkliste erkennen kann.
-Wenn das sichergestellt ist, wird Mehrfachverlinkung nicht negativ bewertet.
+https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[
+WCAG 2.1 Technik, H33: Supplementing link text with the title attribute]

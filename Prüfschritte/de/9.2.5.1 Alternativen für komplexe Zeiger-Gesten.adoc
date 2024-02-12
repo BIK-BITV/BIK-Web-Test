@@ -12,12 +12,18 @@ Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe essenz
 
 Ziehbewegungen (Dragging Motions) wie in Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste im Sinne dieser Anforderung.
 
-Diese Anforderung gilt nur für Zeiger-Gesten, die von Webinhalten interpretiert und verarbeitet werden - sie betreffen also nicht Gesten für die Bedienung von Nutzeragenten oder Hilfsmitteln, etwa Gesten zur Navigation zwischen Seiten im Browser oder zur Nutzung systemseitiger Screenreader.
+Diese Anforderung gilt nur für Zeiger-Gesten, die von Webinhalten interpretiert und verarbeitet werden. 
+Sie betreffen also nicht Gesten für die Bedienung von Nutzeragenten oder Hilfsmitteln, 
+etwa Gesten zur Navigation zwischen Seiten im Browser oder zur Nutzung systemseitiger Screenreader.
+
+Die Anforderung gilt auch nicht für Inhalte, bei denen das Verhalten vom Betriebssystem oder Browser bestimmt wird und nicht von Web-Autoren. 
+Ein Beispiel hierfür sind scrollbare Bereiche, die über CSS `overflow:scroll` definiert sind 
+und für die kein Verhalten bezüglich Zeiger-Gresten über JabvaScript festgelegt wurde, und bei denen die Scrollbalken nicht explizit vom Autor versteckt werden.
 
 Beispiele für pfadbasierte Gesten:
 
-* Wischgeste, etwa zum Bewegen etwa von Slider-Bereichen oder Löschen von Inhalten
-* Ziehen eines Sliders, wenn eine initiale Richtung nötig ist, um das Element zu bewegen
+* Wischgeste, etwa zum Bewegen etwa von autor-definierten Slider-Bereichen oder zum Löschen von Inhalten
+* Ziehen eines autor-definierten Sliders, wenn eine initiale Richtung nötig ist, um das Element zu bewegen
 * Zeichnen eines Pfads, z. B. ein 'Z' zum Widerrufen
 
 Beispiele für Mehrpunkt-Gesten:
@@ -33,7 +39,7 @@ Abhängig von der Prüfumgebung kann diese Unterscheidung unterschiedlich ausfal
 == Warum wird das geprüft?
 
 Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen. Deshalb sollen solche Gesten, wenn Sie von Web-Inhalten implementiert werden, nicht der einzige Weg sein, eine Funktion auszuführen.
-Beispiele für komplexe Gesten sind Wischgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von Karussell-Inhalten, Zieh-Gesten oder Verstellen von Schiebereglern, oder Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
+Beispiele für komplexe Gesten sind Wischgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von autor-definierten Karussells bzw. Slidern, oder Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
 
 
 == Wie wird geprüft?
@@ -41,16 +47,17 @@ Beispiele für komplexe Gesten sind Wischgesten vom Rand her, um Menüs einzuble
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Web-Inhalte Eventhandler implementieren,
-die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
+die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen. 
+Ausgenommen sind also Inhalte, bei denen das Verhalten vom Betriebssystem oder Browser bestimmt wird und nicht von Web-Autoren. 
 
 === 2. Prüfung
 
 . Seite auf einem Smartphone aufrufen.
-. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren (z. B. auf Karussels, Slidern). Lassen sich Slider oder andere Inhaltselemente durch Wischgesten bewegen? Werden durch Wischgesten vom Rand her Menüs oder andere Webinhalte eingeblendet? Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Sichtprüfung und Ausprobieren, ob Webinhalte komplexe Gesten implementieren (z. B. auf Karussells, Slidern). Lassen sich Slider oder andere Inhaltselemente durch autor-definierte Wischgesten bewegen? Werden durch Wischgesten vom Rand her Menüs oder andere Webinhalte eingeblendet? Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
 . Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z. B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder
   Menüs einblenden).
 
-=== 3. Anmerkungen
+=== 3. Hinweise
 
 * Webinhalte können ggf. Alternativen zur Aktivierung über einfache Zeiger-Gesten nur in bestimmten Systemumgebungen und Benutzeragenten anbieten, nicht aber in anderen. So kann beispielsweise ein Test auf einem mobilen Gerät erforderlich sein, um festzustellen, ob die in einem Desktop-Browser angebotenen Alternativen zur Aktivierung über einfache Zeiger-Gesten auch in mobilen Browsern verfügbar sind.
 * Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf komplexen Pfaden oder Mehrpunktgesten basieren. So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus pfadbasiert sein.
@@ -59,7 +66,7 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 
 ==== Prüfschritt erfüllt
 
-* Für alle in Web-Inhalten implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den  Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
+* Für alle autor-definierten komplexen Zeiger-Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß _Accessibility Baseline_ einbezogen sind.
 
 == Einordnung des Prüfschritts
 
@@ -95,3 +102,4 @@ die auf komplexe Gesten (etwa Wischgesten, Mehrpunkt-Gesten) ansprechen.
 * https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
   Understanding Success Criterion 2.5.1: Pointer Gestures]
   (zur Zeit nur auf Englisch verfügbar)
+* https://github.com/w3c/wcag/issues/2684[Github-Issue zur Behandlung von scrollbaren Bereichen bezüglich Anforderungen nach 2.5.1 Ponter Gestures unfd 2.5.7 Dragging Movements]. Das Ergebnis der langen Diskussion war, dass für Slider bzw. scrollbare Bereiche nur Alternativen gefordert werden, wenn das Verhalten über Scripts von Web-Autoren explizit definiert wurde und nicht vom Betriebssystem bzw. Browser gehandhabt wird. https://github.com/w3c/wcag/issues/2684

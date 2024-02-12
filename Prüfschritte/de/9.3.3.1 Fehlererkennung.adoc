@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und in Textform beschrieben werden.
+Wenn ein Formular Fehlermeldungen erzeugt, sollen die fehlerhaft ausgefüllten Felder identifiziert und der Fehler in Textform beschrieben werden.
 
 == Warum wird das geprüft?
 
@@ -21,7 +21,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 === 2. Prüfung
 
 . Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht korrekter E-Mail-Adressen.
-. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind. Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
+. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert werden und der Fehler mit Hilfe von Text beschrieben wird. Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge des Formulars, auf verschiedene Arten geschehen:
 +
 * Bei Neuanzeige des Formulars werden am Seitenbeginn fehlerhaft ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
@@ -35,13 +35,13 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 
 * Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
 * Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
+* Die Verknüpfung von Fehlermeldungen mit `aria-errormessage` (siehe https://www.w3.org/TR/wai-aria-1.1/#aria-errormessage[WAI-ARIA 1.1 Spec]) ist bislang noch nicht ausreichend von Browsern unterstützt, um Fehlermeldungen ausreichend zugänglich für Screenreader-Nutzende zu verknüpfen.
 
 === 4. Bewertung
 
 ==== Nicht voll erfüllt
 
 * Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf (etwa durch Änderung des dem Feld zugeordneten Labels, semantische Hervorhebung, oder Links).
-* Fehlermeldungen sind unklar oder irreführend.
 * Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden Eingaben werden lediglich grafisch hervorgehoben.
 
 ==== Nicht erfüllt

@@ -13,7 +13,7 @@ Filme sind in der Regel ohne den Ton nicht zu verstehen.
 Dies gilt auch für Live-Übertragungen.
 Daher muss für Menschen mit Hörbehinderung der Inhalt der Tonspur durch
 Untertitel bereitgestellt werden.
-Untertitel können auch für andere Nutzer hilfreich sein, zum Beispiel für
+Untertitel können auch für andere Nutzende hilfreich sein, zum Beispiel für
 Personen, die mit der Sprache des Films nicht vertraut sind.
 
 == Wie wird geprüft?
@@ -34,15 +34,10 @@ endif::env_embedded[]
 
 === 2. Prüfung auf Untertitel
 
-. Das Video wird im auf der Website eingebundenen Player oder in einem externen,
-  vom Format abhängigen Video-Player abgespielt.
-. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden
-  oder zugeschaltet werden können.
-. Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit
-  Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel
-  dem hörbaren Inhalt entsprechen.
-  Dies betrifft auch akustische Ereignisse, die für das Verständnis des
-  Inhalts wichtig sind.
+. Das Video im auf der Website eingebundenen Player abspielen.
+. Prüfen, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
+. Wenn Untertitel vorhanden sind, eine kurze Sequenz des Videos mit Untertiteln ansehen, um stichprobenartig festzustellen, ob die Untertitel
+  dem hörbaren Inhalt entsprechen. Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
 
 === 3. Bewertung
 

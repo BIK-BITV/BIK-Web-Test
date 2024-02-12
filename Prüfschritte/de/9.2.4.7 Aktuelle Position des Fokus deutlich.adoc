@@ -14,23 +14,21 @@ Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus
-gerade befindet, welcher Link also ausgelöst wird, wenn er die Enter-Taste
-drückt.
+Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus
+gerade befindet, welcher Link also ausgelöst wird, wenn sie die Enter-Taste
+drücken.
 
-Viele Webseiten erleichtern Mausbenutzern die Bedienung, indem sie darauf
+Viele Webseiten erleichtern Mausnutzenden die Bedienung, indem sie darauf
 reagieren, dass der Mauszeiger sich über einem Link befindet.
 Dann ändert sich zum Beispiel die Text- oder Hintergrundfarbe oder der
 Linktext wird unterstrichen.
-Diese Unterstützung soll auch für Tastaturbenutzer funktionieren,
-Webseiten sollen sie gegenüber den zahlreicheren Mausnutzern nicht
+Diese Unterstützung soll auch für Tastaturnutzende funktionieren.
+Webseiten sollen sie gegenüber den zahlreicheren Mausnutzenden nicht
 benachteiligen.
 
 Die vom Browser vorgesehene Kennzeichnung des Tastaturfokus hebt sich von
-dunklen Seitenhintergründen meist nicht so gut ab, wie in der "normalen"
-Ansicht des Browsers oder des Benutzers.
-Das muss dann ausgeglichen werden, zum Beispiel durch farbige Hinterlegung des
-angesteuerten Links.
+dunklen Seitenhintergründen meist nicht so gut ab.
+Das muss dann durch eine entsprechende Gestaltung ausgeglichen werden.
 
 == Wie wird geprüft?
 
@@ -54,21 +52,16 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 . Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint,
   prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS
   gefärbten) Hintergründen gut zu erkennen ist.
-. In Zweifelsfällen gemäß Prüfschritt
-ifdef::env_embedded[9.1.4.3 "Kontraste von Texten ausreichend"]
-ifndef::env_embedded[]
-  <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
-  Texten ausreichend>>
-endif::env_embedded[]
-  ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund
+. In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> bzw. <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
+  Texten ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund
   mindestens 3:1 beträgt
 . Seite im Chrome Browser laden und die Schritte 2-7 wiederholen.
 
 === 3. Hinweise
 
 * Die Prüfung muss mit aktiviertem JavaScript erfolgen.
-* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor
-  vorhanden ist, die Webseite also den browsereigenen Tastaturcursor (zum
+* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus
+  vorhanden ist, die Webseite also den browsereigenen Tastaturfokus (zum
   Beispiel mit JavaScript `blur()` oder CSS ``outline:none``) unterdrückt.
   Dann ist eventuell auch Prüfschritt
 ifdef::env_embedded[9.2.1.1 "Ohne Maus nutzbar"]

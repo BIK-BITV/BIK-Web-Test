@@ -38,27 +38,19 @@ Der Prüfschritt ist immer anwendbar.
   direct Input' eingeben (hier muss ggf. eine nicht mitkopierte DOCTYPE
   Erklärung der Seite zu Beginn eingefügt werden, z. B. bei HTML5 die Zeile
   ``<!DOCTYPE html>``).
-. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem
-  http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/werkzeugliste.html#parsing[
-  WCAG parsing only Bookmarklet] die Fehler filtern.
+. Falls Fehler angezeigt werden (Error), also die Seite nicht validiert, mit dem https://bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#parsingerror[Syntax Only Bookmarklet] die Fehler filtern.
 . Prüfen, ob nach der Anwendung des Bookmarklets noch Fehler vorhanden sind.
-  Syntaktisch korrekt eingesetzte Custom-Attribute gelten dabei nicht als
-  Fehler.
 
 === 3. Hinweise
 
 * Die in HTML5 vorgesehenen validen Custom-Attribute nutzen das Format
-  ``data-*``, zum Beispiel `data-platznummer="44"`.
+  `data-$$*$$`, zum Beispiel `data-platznummer="44"`.
   Manche Scripting Frameworks nutzen eigene Formate.
-  Angular.js etwa nutzt das Format `ng-*`.
+  Angular.js etwa nutzt das Format `ng-$$*$$`.
   Trotz fehlender Validität sind solche Custom-Attribute grundsätzlich kein
   Barrierefreiheits-Problem, solange sie semantisch korrekt (also z. B. mit
   korrekt öffnenden und schließenden Anführungszeichen) eingesetzt sind.
   Browser ignorieren Attribute, die nicht zugeordnet werden können.
-* Wenn die Prüfung aufgrund einer fehlenden ``doctype``-Definition nicht
-  ausgeführt werden kann, dann validiert die Seite nicht, der Prüfschritt
-  ist dann nicht bestanden.
-  Der `doctype` soll nicht manuell eingetragen werden!
 * In diesem Prüfschritt wird das vom Browser nach Auswertung von Scripten
   generierte DOM geprüft, nicht der Seitenquelltext vor Interpretation im
   Browser.
@@ -72,11 +64,9 @@ Der Prüfschritt ist immer anwendbar.
   Falls noch Fehler (Errors) auftauchen, sind diese auf den semantisch
   korrekten Einsatz von Custom-Attributen zurückzuführen.
 
-==== Nicht erfüllt
+==== Eher erfüllt
 
-* Das Prüfergebnis des W3C-HTML-Validators ist auch nach Anwendung des WCAG
-  parsing only Bookmarklet negativ, es gibt Errors (und nicht nur wegen
-  Custom-Attributen).
+* Das Prüfergebnis des W3C-HTML-Validators zeigt auch nach Anwendung des Syntax only Bookmarklets Fehler.
 
 == Einordnung des Prüfschritts
 
@@ -124,89 +114,7 @@ Der Prüfschritt ist immer anwendbar.
 
 == Quellen
 
-=== Bedeutung von validem HTML
+=== WCAG Note zum Umgang mit dem Erfolgskriterium 4.1.1 Parsing (entfernt in WCAG 2.2, immer erfüllt in WCAG 2.0 und 2.1)
 
-[.BLOCK_LANG_EN]
-____
-Ensuring that Web pages have complete start and end tags and are nested
-according to specification helps ensure that assistive technologies can parse
-the content accurately and without crashing.
-____
+https://www.w3.org/WAI/WCAG21/Understanding/parsing.html[Understanding SC 4.1.1:Parsing (Level A)]
 
-(https://www.w3.org/WAI/WCAG21/Understanding/parsing.html[
-Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1])
-
-[.BLOCK_LANG_EN]
-____
-Validation will usually eliminate ambiguities (and more) because an essential
-step in validation is to check for proper use of that technology's markup (in
-a markup language) or code (in other technologies).
-Validation does not necessarily check for full conformance with a
-specification but it is the best means for automatically checking content
-against its specification.
-____
-
-(https://www.w3.org/WAI/WCAG21/Techniques/general/G134[
-WCAG 2.1 Technik G134: Validating web pages])
-
-[.BLOCK_LANG_EN]
-____
-*Why should I care if my document is in correct HTML?
-It displays all right on my browser.*
-
-All browsers know how to deal with correct HTML.
-However, if it is incorrect, the browser has to repair the document, and since
-not all browsers repair documents in the same way, this introduces
-differences, so that your document may look and work differently on different
-browsers.
-Since there are hundreds of different browsers, and more coming all the time
-(not only on PCs, but also on PDAs, mobile phones, televisions, printers, even
-refrigerators), it is impossible to test your document on every browser.
-If you use incorrect HTML and your document doesn't work on a particular
-browser, it is your fault; if you use correct HTML and it doesn't work, it is
-a bug in the browser.
-____
-
-(http://www.w3.org/Mark.
-Up/2004/xhtml-faq)
-
-=== Prüfung von generiertem Quelltext
-
-Auf Stackoverflow.com gibt es eine ausführliche Diskussion der
-Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu
-extrahieren und zu validieren (auf Englisch)
-
-(http://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[
-Best way to view generated source of web page] (stackoverflow.com))
-
-== Fragen zu diesem Prüfschritt
-
-=== Was ist, wenn die Seite aufgrund von Fremdinhalten, zum Beispiel wegen von einem fremden Server gelieferter Werbung nicht validiert?
-
-Die Zugänglichkeit von deutlich abgegrenzter Werbung wird im BITV-Test nicht
-geprüft.
-Geprüft wird aber, ob die Werbung die Nutzung der anderen Seiteninhalte
-einschränkt.
-Das ist der Fall, wenn sie blinkt oder sich bewegt (Prüfschritt
-ifdef::env_embedded[9.2.2.2 "Bewegte Inhalte abschaltbar")]
-ifndef::env_embedded[]
-  <<9.2.2.2 Bewegte Inhalte abschaltbar.adoc#,9.2.2.2 Bewegte Inhalte
-  abschaltbar>>)
-endif::env_embedded[]
-oder nicht valide ist.
-
-=== Was ist, wenn der HTML-Validator fehlerhaft arbeitet?
-
-"Anerkannte" Fehler bestehen nicht dauerhaft, sie werden vom W3C bearbeitet und
-behoben.
-Gegebenenfalls ist die Prüfung zu wiederholen, nachdem der Fehler gemeldet
-und behoben worden ist.
-Für die Bewertung des Prüfschritts ist allein das Ergebnis relevant.
-Auf welcher Basis es zustande kommt, spielt keine Rolle!
-
-=== Was ist, wenn das verwendete CMS nicht validen Code produziert?
-
-In diesem Fall liegt die Schuld für die Nichterfüllung des Prüfschritts
-möglicherweise beim Anbieter des CMS.
-Nichtsdestoweniger validiert die Seite nicht.
-Das negative Ergebnis zählt, wie es zustande kommt, spielt keine Rolle.

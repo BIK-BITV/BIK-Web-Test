@@ -1,0 +1,97 @@
+= AsciiDoc-Dateien zu HTML umwandeln
+Emanuel Helms <helms@dias.de>
+2020-02-26
+:lang: de
+
+== Benötigte Werkzeuge
+
+Um die AsciiDoc-Dateien (*.adoc) umzuwandeln, wird das Ruby-Programm 
+Asciidoctor benötigt.
+Da Asciidoctor in Ruby geschrieben ist, muss zusätzlich der  Ruby-Interpreter 
+installiert werden.
+
+.Windows
+* https://rubyinstaller.org/downloads/[Ruby Windows Installer]
+* GEM Paket von https://asciidoctor.org/[Asciidoctor]
+
+== Installation
+
+=== Ruby
+
+. Ruby https://rubyinstaller.org/downloads/[Windows Installer] herunterladen
+. Installer ausführen und den Anweisungen folgen
++
+NOTE: Es sollte sichergestellt werden, dass die Checkbox für die ``"PATH"``-Umgebungsvariable gesetzt ist.
++
+. Installation testen
++
+Nach erfolgter Installation kann überprüft werden, ob Ruby korrekt installiert 
+wurde, dazu lassen wir die Versionsnummer von Ruby ausgeben.
+Hierzu öffnet man ein Eingabeaufforderungsfenster bzw. die Windows Powershell und gibt folgenden Befehl ein:
++
+----
+ruby --version
+----
++
+Wenn eine Versionsnummer ausgegeben wird, war die Installation von Ruby erfolgreich.
+
+=== Asciidoctor GEM-Paket
+
+Bei der Installation von Ruby wird auch gleich dessen Paketmanager GEM installiert. Mit diesem Programm können Ruby-Librarys und -Programme installiert werden.
+
+. Eingabeaufforderung bzw. Powershell öffnen
+. Befehl ausführen
++
+----
+gem install asciidoctor
+----
++
+. Installation überprüfen
++
+Nach erfolgter Installation kann überprüft werden, ob Asciidoctor korrekt 
+installiert wurde, dazu lassen wir die Versionsnummer von Asciidoctor ausgeben.
+Hierzu öffnet man ein Eingabeaufforderungsfenster bzw. die Windows Powershell 
+und gibt folgenden Befehl ein:
++
+----
+asciidoctor --version
+----
++
+Wenn eine Versionsnummer ausgegeben wird, war die Installation von Asciidoctor erfolgreich.
+
+== Verwendung
+
+=== Alle Prüfschritte zu HTML umwandeln
+
+Wenn Ruby und der Asciidoctor korrekt installiert wurden, kann mit einem 
+Doppelklick auf das Skript `convert2html.rb` im Hauptverzeichnis geklickt 
+werden. Standardmäßig übersetzt das Skript die HTML-Dateien ohne Header und 
+Footer, da die generierten HTML-Dateien für den Einsatz im BIK BITV-Test 
+Werkzeug gedacht sind.
+
+=== Einzelne AsciiDoc-Dateien umwandeln
+
+In der Eingabeaufforderung kann mit dem Befehl
+
+----
+asciidoctor Beispiel.adoc
+----
+
+eine AsciiDoc-Datei in HTML umgewandelt werden.
+
+==== Beispiel
+
+Wenn im Ordner Dokumente im Verzeichnis des Windows-Nutzers die Datei `"Beispiel.adoc"` liegt, kann diese mit den folgenden Schritten umgewandelt werden:
+
+. Datei-Explorer öffnen
+. den Ordner "Dokumente" aufrufen
+. in der Menüleiste auf `"Datei"` klicken und `"Windows Powershell öffnen"` 
+auswählen
+. in der Powershell sind Sie nun direkt im richtigen Ordner und können direkt den Befehl
++
+----
+asciidoctor Beispiel.adoc
+----
++
+eingeben
+. Im Ordner "Dokumente" finden Sie nun die Datei `"Beispiel.html"`

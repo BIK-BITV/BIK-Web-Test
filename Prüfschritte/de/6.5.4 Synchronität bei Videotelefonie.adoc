@@ -1,0 +1,85 @@
+= Prüfschritt 6.5.4 Synchronität bei Videotelefonie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn das Webangebot Videotelefonie unterstützt, soll die Zeitdifferenz zwischen Audio und Video nicht mehr als 100 Millisekunden betragen.
+
+== Warum wird das geprüft?
+
+Die Verständlichkeit von Videotelefonie ist allgemein schlechter, 
+wenn Bild und Ton nicht zeitgleich übertragen werden. 
+Gestik und Mimik der Sprechenden passen dann nicht mehr zur gehörten Sprache. 
+Menschen mit kognitiven Einschränkungen, 
+gehörlosen Menschen 
+und Menschen mit eingeschränktem Hörvermögen 
+fällt es vermutlich schwerer, 
+mittels nicht synchroner Videotelefonie zu kommunizieren. 
+Um dem Gesprochenen besser zu folgen, 
+ist es hilfreich, zeitgleich zum Ton die Lippen der sprechenden Person zu sehen. 
+Die Voraussetzung dafür ist, 
+dass Bild und Ton gleichzeitig übertragen werden. 
+Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, 
+und Hinweise darauf willkommen. 
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, 
+wenn das Webangebot Videotelefonie mit Sprachübertragung unterstützt.
+
+=== 2. Prüfung
+
+Die Zeitdifferenz zwischen Audio und Video 
+bei der Übertragung von Videotelefonie 
+soll nicht mehr als 100 Millisekunden betragen, 
+deutlich wahrnehmbare Differenzen sind also zu vermeiden.
+
+Die zeitgleiche Übertragung von Ton und Bild (bzw. eine Asynchronität, 
+das bedeutet Bild und Ton werden nicht gleichzeitig übertragen) 
+kann mit einem Testvideoanruf geprüft werden. 
+Dafür muss das Webangebot auf zwei verschiedenen Testgeräten im Browser laufen.
+
+. Webangebot auf zwei Geräten im Browser aufrufen
+. Videotelefonieverbindung zwischen beiden Angeboten herstellen
+. Synchronität zwischen Sprache und Video prüfen (Lippensynchronität). 
+Ist eine Zeitdifferenz deutlich wahrnehmbar?
+
+Um ein belastbares Ergebnis zu erzielen, 
+sollte die Testübertragung wiederholt werden.
+
+==== Hinweise
+
+* Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, 
+wenn das Video dem Audio hinterherhängt, als umgekehrt. 
+Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
+
+* Um Latenzen der Netzwerk-Infrastruktur zu minimieren,
+sollten beide Geräte über eine stabile Internetverbindung 
+mit ausreichend Bandbreite verbunden sein.
+
+Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, 
+können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
+
+== Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+
+[.BLOCK_LANG_EN]
+==== 6.5.4 Synchronization between audio and video
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT that provides two-way voice communication includes real-time video
+functionality, the ICT shall ensure a maximum time difference of 100 ms
+between the speech and video presented to the user. 
+
+NOTE:
+Recent research shows that, if audio leads the video, the intelligibility
+suffers much more than the reverse.
+--
+____

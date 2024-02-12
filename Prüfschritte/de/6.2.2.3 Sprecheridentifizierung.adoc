@@ -4,40 +4,49 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprechende über Sprache identifiziert, sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
+Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt 
+und aktive Sprechende über Sprache identifiziert, 
+sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, 
+gleichermaßen identifizierbar sein.
 
 == Warum wird das geprüft?
 
-Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
+Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, 
+sehen oder ermitteln zu können, wer gerade spricht, 
+um sich in Antworten auf sie oder ihn beziehen zu können. 
+Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorgehoben.
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation 
+(RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. 
+Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorgehoben.
 
 === 2. Prüfung
 
 . Web-Anwendung öffnen.
-. Prüfen, ob aktive Sprechende über Sprache identifiziert und in der Anwendung markiert oder anderweitig hervorgehoben werden.
-. Ist dies der Fall, prüfen, ob auch Teilnehmende, die Echtzeit-Texteingabe verwenden, beim Eingaben markiert oder anderweitig hervorgehoben werden.
+. Prüfen, ob aktive Sprechende über Sprache identifiziert und in der Anwendung markiert 
+oder anderweitig hervorgehoben werden.
+. Ist dies der Fall, prüfen, ob auch Teilnehmende,
+die Echtzeit-Texteingabe verwenden, 
+beim Eingeben markiert oder anderweitig hervorgehoben werden.
 
 === 3. Hinweise
 
-Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
-
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-6.2.2 Display of RTT
-
+Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden etabliert werden, 
+um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
 
 == Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.2.3 Speaker identification
-
+==== 6.2.2.3 Speaker identification
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT has RTT capabilities, and provides speaker identification for voice,
@@ -47,5 +56,4 @@ NOTE:
 This is necessary to enable both voice and RTT participants to know who is
 currently communicating, whether it be in RTT or voice.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.3 "Speaker identification")
+____

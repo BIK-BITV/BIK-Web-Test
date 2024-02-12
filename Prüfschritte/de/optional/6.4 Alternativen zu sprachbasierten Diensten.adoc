@@ -33,7 +33,7 @@ Siehe <<Grundlage des Prüfschritts>>.
 
 === Prüfung
 
-Ein genaues Verfahren für die Prüfung steht nocht nicht bereit.
+Ein genaues Verfahren für die Prüfung steht noch nicht bereit.
 Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
 
