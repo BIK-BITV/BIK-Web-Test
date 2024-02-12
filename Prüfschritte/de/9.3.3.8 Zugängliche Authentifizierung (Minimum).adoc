@@ -4,19 +4,16 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft
 
-Eine Authentifizierung soll ohne Durchführung eines kognitivem Funktionstests (z. B. das Merken eines Passworts oder das Lösen eines Rätsels) möglich sein. Es sei denn,
+Eine Authentifizierung, etwa bei der Anmeldung bei einem Konto über Name und Passwort, soll ohne Durchführung eines kognitivem Funktionstests (z. B. das Merken eines Passworts oder das Lösen eines Rätsels) möglich sein. Es sei denn,
 
-* es wird eine weitere Authentifizierungsmethode angeboten, die nicht auf einem kognitiven Funktionstest beruht (**Alternative**).
-* es gibt einen Mechanismus, der die Nutzenden beim Ausführen des kognitiven Funktionstests unterstützt, etwa Kopieren und Einfügen von Passwörtern, eine Autocomplete-Funktion oder die Verwendung 
-eines Passwort-Hilfsprogramms (Passwort-Manager) (**Mechanismus**).
-* im kognitiven Funktionstest geht es darum, Objekte zu erkennen (**Objekterkennung**).
-* der kognitive Funktionstest beinhaltet das Wiedererkennen nicht-textlicher Inhalte (Bilder, Video, Audio) welche die Nutzenden selbst für diesen Zweck hinterlegt haben (**persönlicher Inhalt**).
+* es wird eine weitere Authentifizierungsmethode angeboten, die nicht auf einem kognitiven Funktionstest beruht z.B. ein über E-Mail zugesandter Link (**Alternative**).
+* es gibt einen Mechanismus, der die Nutzenden beim Ausführen des kognitiven Funktionstests unterstützt, etwa Kopieren und Einfügen von Passwörtern oder vom System versandten Einmal-Verifizierungscodes, eine Autocomplete-Funktion, oder die Verwendung eines Passwort-Manager Hilfsprogramms (**Mechanismus**)
+* im kognitiven Funktionstest geht es darum, Objekte zu erkennen (**Objekterkennung**)
+* der kognitive Funktionstest beinhaltet das Wiedererkennen nicht-textlicher Inhalte (Bilder, Video, Audio) welche die Nutzenden selbst für diesen Zweck hinterlegt haben (**persönlicher Inhalt**)
 
 == Warum wird das geprüft
 
-Nutzende sollen sich mit einer zugänglichen, einfachen und sicheren Methode auf einem zugangsgeschützten Webangebot anmelden können. Kognitive Funktionstests (wie z. B. das Erinnern eines Passworts), 
-können für manche Nutzenden schwierig oder unmöglich sein, zum Beispiel wenn sie Probleme mit dem Gedächtnis, dem Lesen, dem Rechnen oder der Wahrnehmungsverarbeitung haben. Bei Verwendung solcher Tests 
-muss entweder eine alternative Authentifizierungs-Methode zur Verfügung stehen oder es gibt einen Mechanismus, der die Nutzenden unterstützt.
+Nutzende sollen sich mit einer zugänglichen, einfachen und sicheren Methode auf einem zugangsgeschützten Webangebot anmelden können. Kognitive Funktionstests (wie z. B. das Erinnern eines Passworts) können für manche Nutzende schwierig oder unmöglich sein, zum Beispiel wenn sie Probleme mit dem Gedächtnis, dem Lesen, dem Rechnen oder der Wahrnehmungsverarbeitung haben. Bei Verwendung solcher Tests muss entweder eine alternative Authentifizierungs-Methode zur Verfügung stehen oder es gibt einen Mechanismus, der die Nutzenden unterstützt.
 
 == Wie wird geprüft
 
@@ -28,39 +25,47 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot zugangsgeschützt ist und ei
 
 ==== 2.1 Prüfung von Anmelde-Vorgängen
 
-* Prüfen, ob das Kopieren und Einfügen eines Passworts möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browesers) durchgeführt werden kannn.
+* Prüfen, ob das Kopieren und Einfügen eines Passworts in das entsprechende Textfeld möglich ist oder die Anmeldung mithilfe der autocomplete-Funktion (des Browsers) durchgeführt werden kannn. Es  gibt andere Optionen die diesen Prüfschritt erfüllen:
+** Anmeldung über einen Drittanbieter mittels https://de.wikipedia.org/wiki/OAuth[OAuth (Open Authorization) Methode] 
+** Bei Login auf dem eigenen Gerät: die biometrische Authentifizierung (über Iris-Scan, Gesichtserkennung opder Fingerabdruck) 
+** Der Scan eines QR-Codes der auf einem anderem Gerät angezeigt wird
 
 ==== 2.2 Prüfen einer 2-Faktor-Authentifizierung
 
-* Prüfen, ob eine Transkription (etwa das Abschreiben eines Codes) nötig ist.
-Sofern es keine Alternative gibt (beispielsweise die Bestätigung eines Vorgangs mithilfe eines Links oder einer Schaltfläche), wäre dies als Fehler im Sinne des Prüfschritts zu werten.
+* Prüfen, ob eine Transkription (etwa das Abschreiben eines Codes) zwingend notwendig ist. Wenn ein zugesandtes Passwort oder ein Verifizierungscode (Einmal-Passcode) kopiert und in das entsprechende Feld eingefügt werden kann, gilt der Prüfschritt als erfüllt.
 
 ==== 2.3 Prüfung von Sicherheitsabfragen (CAPTCHAs)
 
-* Prüfen, ob es sich bei der Aufgabe des CAPTCHA-Tests um einen kognitiven Funktionstest handelt. Lediglich Objekterkennung gilt als Ausnahme im Sinne des Prüfschritts 
+* Prüfen, ob es sich bei einem CAPTCHA-Test im Rahmen einer Authentifizierung um einen kognitiven Funktionstest handelt. Lediglich Objekterkennung gilt als Ausnahme im Sinne des Prüfschritts 
 (z.B. alle Bilder mit einer Ampel auswählen). Objekterkennung ist nicht nur auf die Erkennung von Bildern beschränkt, sondern umfasst auch Video- oder Audioinhalte.
 
 === 3. Hinweise
 
-==== 3.1 Definition "kognitiver Funktionstest"
+==== 3.1 Beschränkung der Authentifizierung auf Anmeldung bei bestehenden Konten
+Das Understanding-Dokument bezieht Authentifizierung auf Login-Situationen, d.h., ein Nutzerkonto besteht bereits. Registrierungs-Prozesse sind nicht erfasst, denn hier liegen ja noch keine persönlichen Daten vor, die bei der Authentifizierung abgeglichen werden könnten. 
+
+==== 3.2 Definition "kognitiver Funktionstest"
 
 Ein kognitiver Funktionstest ist eine Aufgabe, bei der sich Nutzende an Informationen erinnern, diese bearbeiten oder abschreiben müssen. Beispiele für kognitive Funktionstests sind: 
 
 * Auswendig lernen (das Merken eines Benutzernamens, eines Passworts, einer Reihe von Zeichen, Bildern oder Mustern). 
-* Transkription (z. B. das Abschreiben und Eintippen von Zeichen)
+* Transkription (z. B. das Abschreiben und Eintippen von Zeichen, etwa zugesandten Einmal-Passcodes)
 * Verwendung der korrekten Schreibweise
-* Rechenaufgaben
+* Lösen von Rechenaufgaben
 * Lösen von Rätseln (z. B. welcher der folgenden Begriffe ist kein Tier?) 
 
-==== 3.2 Zwei-Faktor-Authentifizierung (Verfizierungscodes)
+Zwei-Faktor-Systeme, die nicht auf Codes beruhen, einschließlich Hardware-Authentifizierung, etwa über https://de.wikipedia.org/wiki/Security-Token[USB-Security-Tokens], nutzen keine kognitiven Funktionstests.
+
+==== 3.3 Zwei-Faktor-Authentifizierung
 Es gibt Situationen, in denen ein Verifizierungscode auf einem zweiten Gerät empfangen oder erzeugt werden muss. Zum Beispiel erfordert die Authentifizierung in einem Webbrowser 
 auf einem Laptop einen Verifizierungscode, der als SMS an ein Mobiltelefon gesendet wird. In den meisten Fällen ist es jedoch möglich, den Code direkt an das primäre Gerät zu senden, 
-wo er dann kopiert und eingefügt werden kann. Nutzende können beispielsweise den Codes auf dem sekundären Gerät kopieren und per E-Mail an das primäre Gerät senden. Eine andere Möglichkeit wäre, 
-wenn der Code an eine gemeinsamen geräteübergreifenden Zwischenablage gesendet werden kann und damit das Kopieren von Inhalten auf dem sekundären Gerät und das Einfügen auf dem primären Gerät 
-möglich wird.
+wo er dann kopiert und eingefügt werden kann. Nutzende können beispielsweise den Codes auf dem sekundären Gerät kopieren und per E-Mail an das primäre Gerät senden. Eine andere Möglichkeit wäre, wenn der Code an eine gemeinsamen geräteübergreifenden Zwischenablage gesendet werden kann und damit das Kopieren von Inhalten auf dem sekundären Gerät und das Einfügen auf dem primären Gerät möglich wird.
 
 Die Bewertung, ob der Code nahtlos vom sekundären Gerät auf das primäre Gerät übertragen werden kann oder nicht, liegt außerhalb des Anwendungsbereichs dieser Anforderung. 
 Die Bewertung dieses Kriteriums erfordert daher nur die Überprüfung, ob der Webinhalt das Einfügen des Inhalts der Zwischenablage in das entsprechende Authentifizierungsfeld erlaubt.
+
+=== 3.4 CAPTCHAs 
+CAPTCHAs werden vom Prüfschritt nur erfasst, wenn sie Teil eines Authentifizierungsvorgangs sind, also nicht generell (z.B. wenn vor Abschicken eines Kommentars ein CAPTCHA ausgefüllt werden muss). Diese wäre jedoch Gegenstand von Prüfschrit 9.1.1.1d Alternativen für CAPTCHAs.
 
 === 4. Bewertung
 
@@ -75,10 +80,7 @@ Es steht weder eine Alternative noch ein unterstützender Mechanismus (z. B. Kop
 
 === Einordnung des Prüfschritts nach WCAG 2.2
 
-Websites können die Eingabe von Benutzernamen (oder E-Mail) und Passwort als Authentifizierungsmethode verwenden, wenn der User Agent (Browser und Passwort-Manager von Drittanbietern) in der Lage 
-ist, die Felder automatisch auszufüllen. Wenn das Anmeldeformular das Erfolgskriterium 1.3.5 "Eingabefelder zu Nutzerdaten vermitteln den Zweck" erfüllt und die Steuerelemente des Formulars 
-einen geeigneten zugänglichen Namen gemäß 4.1.2 Name, Rolle, Wert haben, kann der User Agent die Felder zuverlässig erkennen und automatisch ausfüllen. Wenn der User Agent jedoch durch ein Skript 
-am Ausfüllen der Felder gehindert wird, würde die Seite dieses Kriterium nicht bestehen, da der Mechanismus nicht funktioniert.
+Websites können die Eingabe von Benutzernamen (oder E-Mail) und Passwort als Authentifizierungsmethode verwenden, wenn der User Agent (Browser und Passwort-Manager von Drittanbietern) in der Lage  ist, die Felder automatisch auszufüllen. Wenn das Anmeldeformular das Erfolgskriterium 1.3.5 "Eingabefelder zu Nutzerdaten vermitteln den Zweck" erfüllt und die Steuerelemente des Formulars einen geeigneten zugänglichen Namen gemäß 4.1.2 Name, Rolle, Wert haben, kann der User Agent die Felder zuverlässig erkennen und automatisch ausfüllen. Wenn der User Agent jedoch durch ein Skript am Ausfüllen der Felder gehindert wird, würde die Seite dieses Kriterium nicht bestehen, da der Mechanismus nicht funktioniert.
 
 ==== Guidelines
 
