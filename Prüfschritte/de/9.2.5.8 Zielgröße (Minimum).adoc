@@ -31,8 +31,8 @@ Der Prüfschritt ist anwendbar, wenn interaktive Elemente vorhanden sind.
 * Um die CSS-Pixelgröße eines interaktiven Elements zu bestimmen, im Zweifelsfall die Inspektor-Funktion des Browsers verwenden:
   ** Mit der rechten Maustaste auf das zu testende interaktive Element klicken, und im Kontextmenü die Option „Untersuchen“ wählen. Bei den meisten Browsern wird bei dieser Methode der Elementauswahl 
 auch die CSS-Pixelhöhe und -breite (in einem Tooltip des spezifischen Elements) angezeigt.
-  ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt, um etwa den Abstand der Elemente 
-zu ermitteln (`margin`, `padding`).
+  ** Im Panel "Layout" des Inspektors werden  die Werte für Höhe und Breite des ausgewählten Elements sowie zusätzliche Werte für die CSS-Eigenschaften `padding`, `border` und `margin` angezeigt. Sowohl `padding` als auch `border` gehören zur Zielgröße dazu, selbst wenn sie grafisch nicht sichtbar sind, denn reagieren sie auf Pointer-Aktivierung.
+  ** Im Panel "Berechnet" des Inspektors werden ebenfalls die Werte für Höhe und Breite des ausgewählten Elements sowie andere berechneten CSS-Eigenschaften angezeigt.
 
 * Das Bookmarklet https://html5accessibility.com/stuff/2023/08/28/quick-and-very-dirty-target-size-checker/[Target Size] kann unterstützend hinzugezogen werden:
   ** Es identifiziert interaktive Elemente, errechnet dessen Mittelpunkt und zeichnet einen halbtransparenten Kreis von 24×24 Pixeln um den Mittelpunkt des Elements.
@@ -41,10 +41,17 @@ zu ermitteln (`margin`, `padding`).
   ** Wird festgestellt, dass ein interaktives Element ein anderes interaktives Element überlappt, wird nach Anwendung des Bookmarklets eine JavaScript-Warnung mit der Anzahl 
 der sich überlappenden Elemente angezeigt.
 
+* Eine Alternative zur Überprüfung der Zielgröße ist die Chrome Extension https://chromewebstore.google.com/detail/halfaccessible-accessibil/kofnlhenkilpdacklecdifdfigomanje?pli=1[Accessiblity Toolkit von HalfAccessible].
+** Nach Installation und Aufruf der Erweiterung erscheint ein Popup. Hier "Open Toolkit" aktivieren.
+** Im nun angezeigten Einblendbereich unter dem Tab "Tools" die Checkbox "Target Size" aktivieren.
+** Ziele mittels Tabben durchlaufen oder mit der Maus überfahren. Es wird angezeigt, ob das Ziel die Anforderung erfüllt ("PASS") oder ggf. nur über den Abstand erfüllt ("REVIEW").
+** Prüfen, ob die Ziele, bei denen "REVIEW" erscheint, ausreichend Abstand zu anderen Zielen haben oder unter die Ausnahmen fallen (z.B. weil es Fließtextlinks sind).
+
 *	Prüfen, ob es sich bei den unterdimensionierten Elementen um Ausnahmen im Sinne des Prüfschritts handelt, denn diese werden nicht bewertet:
-  ** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
-  ** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)  
-  ** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
+** Native Bedienelemente, deren Größe vom Benutzeragenten bestimmt sind, etwa native Checkboxen
+** Ziele, deren Größe von umgebendem Text bestimmt sind (z. B. Textlinks in einem Absatz)
+** Eine bestimmte Darstellung des Ziels ist unerlässlich oder gesetzlich vorgeschrieben
+** Es gibt ein anderes Bedienelement für die gleiche Funktion, welches die Anforderung erfüllt und sich auf derselben Seite befindet
 
 === 3. Hinweise
 
