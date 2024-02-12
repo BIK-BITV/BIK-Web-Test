@@ -54,7 +54,7 @@ ifndef::env_embedded[]
   <<9.2.1.1 Ohne Maus nutzbar.adoc#,9.2.1.1 Ohne Maus nutzbar>>
 endif::env_embedded[]
   nicht erfüllt!
-* Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standar-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
+* Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standard-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
 
 === 4. Bewertung
 
