@@ -31,7 +31,7 @@ oder andere größere Abschnitte in einer anderen Sprache enthält.
 
 === 3. Hinweise
 
-* Einzelne fremdsprachige Wörter können als Teil der Sprache des umgebenden Textes betrachtet werden und müssen nicht ausgezeichnet werden, es sei denn, es ist klar, dass eine Änderung der Sprache beabsichtigt war oder die Aussprache ohne einen Sprachwechsel unverständlich wäre. In deutschen Texten ist z.B. bei Wörtern wie "Enter" oder "Helpdesk" eine Austzeichnung nicht sinnvoll: solche Begriffe werden zum einen tendenziell Teil der deutschen Sprache und werden zum anderen deutsch und englisch sehr ähnlich ausgeprochen, so dass ohne Sprachauszeichnung kein praktisches Problem entsteht.
+* Einzelne fremdsprachige Wörter können als Teil der Sprache des umgebenden Textes betrachtet werden und müssen nicht ausgezeichnet werden, es sei denn, es ist klar, dass eine Änderung der Sprache beabsichtigt war oder die Aussprache ohne einen Sprachwechsel unverständlich wäre. In deutschen Texten ist z.B. bei Wörtern wie "Enter" oder "Helpdesk" eine Auszeichnung nicht sinnvoll: solche Begriffe sind zum einen tendenziell bereits Teil der deutschen Sprache und werden zum anderen deutsch und englisch sehr ähnlich ausgeprochen, so dass ohne Sprachauszeichnung kein praktisches Problem entsteht.
 * Ebenfalls nicht ausgezeichnet werden sollten "gemischte" Wörter.
   Beispiele für solche Wörter: Webauftritt, Checkpunkt.
 * Einzelne fremdsprachige Wörter müssen ausgezeichnet werden, wenn sie
