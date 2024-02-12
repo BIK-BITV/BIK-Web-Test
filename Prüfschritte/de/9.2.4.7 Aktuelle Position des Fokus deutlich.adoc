@@ -4,11 +4,8 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der Tastaturfokus soll mindestens genau so deutlich hervorgehoben werden wie
-der Mausfokus.
-
-Bei Links, die _nicht_ auf den Mauszeiger reagieren, soll der Tastaturfokus
-sich zumindest deutlich von der ausgewählten Hintergrundfarbe abheben.
+Der Tastaturfokus soll deutlich hervorgehoben werden. Wenn Autoren keine eigene Fokushervorhebung umsetzen, darf die Standardhervorhebung durch den Browser nicht über CSS unterdrückt werden.
+Der Kontrast der Fokushervorhebung (z.B. Fokusrahmen um Elemente, Unterstreichung, Farbumkehr) zum nicht-fokussierten Zustand muss mindestens 3:1 betragen.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
