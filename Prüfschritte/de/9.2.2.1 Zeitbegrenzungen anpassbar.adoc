@@ -43,7 +43,7 @@ ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus
 datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen
 unterliegen (etwa beim Online-Banking oder Online-Shops).
 
-* Die Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen ist immer anwendbar, wenn (oft als Ergebnis einer Interaktion) Meldungen erscheinen und nach einer  Zeitspanne (meist nach wenigen Sekunden) automatisch wieder verschwinden.
+* Die Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen ist immer anwendbar, wenn (oft als Ergebnis einer Interaktion) Meldungen erscheinen und nach einer Zeitspanne (meist nach wenigen Sekunden) automatisch wieder verschwinden.
 
 === 2. Prüfung
 
