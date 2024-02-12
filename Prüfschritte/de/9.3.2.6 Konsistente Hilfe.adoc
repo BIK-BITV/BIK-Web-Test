@@ -38,10 +38,11 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot innerhalb einer Gruppe von S
 
 * Bei der Prüfung dieser Anforderung ist der Hilfe-Mechanismus relativ zum übrigen Inhalt zu betrachten, das bedeutet, relativ zu anderem Inhalt, der ebenfalls auf jeder Seite wiederholt wird.  
 Zum Beispiel: Inhalte, die auf allen Seiten vorhanden sind und vor dem Hilfe-Mechanismus stehen, sollen auch auf der zu testenden Seite vor dem Hilfe-Mechanismus stehen.
-* Eine "Gruppe von Seiten" im Sinne dieses Prüfschritts kann auch ein Teil eines Webauftritts sein. Eine "Gruppe von Seiten" ist häufig durch einen gemeinsamen Zweck gekennzeichnet, 
-beispielsweise ein Bewerbungsportal einer Organisation oder ein bestimmter Prozess, der durchlaufen werden muss, um eine Aufgabe zu erfüllen.
-* Es geht um die relative Reihenfolge bezogen auf ein bestimmtes Layout (z. B. bei bestimmten Zoomstufen oder Browserfenster-Breite).  Es ist nicht als Fehler zu bewerten, wenn der Hilfe-Mechanismus in verschiedenen responsiven Layouts an unterschiedlichen Stellen zu finden ist.
+* Eine "Gruppe von Seiten" im Sinne dieses Prüfschritts kann auch ein Teil eines Webauftritts sein. Eine "Gruppe von Seiten" ist häufig durch einen gemeinsamen Zweck gekennzeichnet, beispielsweise ein Bewerbungsportal einer Organisation oder ein bestimmter Prozess, der durchlaufen werden muss, um eine Aufgabe zu erfüllen.
+* Der Prüfschritt ist auch erfüllt, wenn sich der Hilfemechanismus auf manchen Seiten in einem Aufklappelement (disclosure) befindet.
+* Es geht um die relative Reihenfolge bezogen auf ein bestimmtes Layout (z. B. bei bestimmten Zoomstufen oder Browserfenster-Breite). Es ist nicht als Fehler zu bewerten, wenn der Hilfe-Mechanismus in verschiedenen responsiven Layouts an unterschiedlichen Stellen zu finden ist.
 Gemeint sind hier nicht kontextbezogene Hilfen wie etwa Rechtschreibprüfung und Anleitungstext in einem Formular. 
+
 
 === 4. Bewertung
 
