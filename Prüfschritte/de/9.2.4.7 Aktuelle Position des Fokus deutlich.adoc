@@ -4,31 +4,16 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der Tastaturfokus soll mindestens genau so deutlich hervorgehoben werden wie
-der Mausfokus.
-
-Bei Links, die _nicht_ auf den Mauszeiger reagieren, soll der Tastaturfokus
-sich zumindest deutlich von der ausgewählten Hintergrundfarbe abheben.
+Der Tastaturfokus soll deutlich hervorgehoben werden. Wenn Autoren keine eigene Fokushervorhebung umsetzen, darf die Standardhervorhebung durch den Browser nicht über CSS unterdrückt werden.
+Der Kontrast der Fokushervorhebung (z.B. Fokusrahmen um Elemente, Unterstreichung, Farbumkehr) zum nicht-fokussierten Zustand muss mindestens 3:1 betragen.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
 Für Tastaturnutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus
-gerade befindet, welcher Link also ausgelöst wird, wenn sie die Enter-Taste
-drücken.
-
-Viele Webseiten erleichtern Mausnutzenden die Bedienung, indem sie darauf
-reagieren, dass der Mauszeiger sich über einem Link befindet.
-Dann ändert sich zum Beispiel die Text- oder Hintergrundfarbe oder der
-Linktext wird unterstrichen.
-Diese Unterstützung soll auch für Tastaturnutzende funktionieren.
-Webseiten sollen sie gegenüber den zahlreicheren Mausnutzenden nicht
-benachteiligen.
-
-Die vom Browser vorgesehene Kennzeichnung des Tastaturfokus hebt sich von
-dunklen Seitenhintergründen meist nicht so gut ab.
-Das muss dann durch eine entsprechende Gestaltung ausgeglichen werden.
+gerade befindet, also welcher Link oder Schalter ausgelöst wird, wenn sie die Enter-Taste
+drücken, oder welches Eingabefeld oder andere Formularelement gerade den Fokus hat.
 
 == Wie wird geprüft?
 
@@ -69,6 +54,7 @@ ifndef::env_embedded[]
   <<9.2.1.1 Ohne Maus nutzbar.adoc#,9.2.1.1 Ohne Maus nutzbar>>
 endif::env_embedded[]
   nicht erfüllt!
+* Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standard-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
 
 === 4. Bewertung
 
