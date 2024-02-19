@@ -4,7 +4,37 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.1...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.0.0...HEAD)
+
+## [v4.0.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.1...v4.0.0) - 2024-02-19
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 9.1.4.11 Kontraste von Grafiken u. grafischen Bedienelementen…Styleswitcher-Prüfung @detlevhfischer (#409)
+- 9.3.2.6 Konsistente Hilfe - Aufklappelement @detlevhfischer (#410)
+- 9.2.5.8 Zielgröße (Minimum) - Ergänzungen @detlevhfischer (#411)
+- 12.1.1 Dokumentation von Kompatibilität u. Barrierefreiheit - Ergänzung Bewertung @detlevhfischer (#412)
+- 9.2.5.1 Alternativen für komplexe Zeiger-Gesten - Ergänzung der Ausnahme für Bereiche mit CSS overflow:scroll @detlevhfischer (#414)
+
+### Geändert
+
+- 9.2.4.7 Aktuelle Position des Fokus deutlich - Entfernung des Bezugs auf Hervorhebung bei Mausnutzung @detlevhfischer (#419)
+- README - Ergänzung von Nutzungsbedingungen und Markenschutz @sweckenmann (#420)
+- 9.1.4.5 Verzicht auf Schriftgrafiken - Änderung des Prüfschritt-Namens @sweckenmann (#418)
+- 9.2.2.1 Ergänzung Zeitbegrenzungen bezügl. Statusmeldungen @detlevhfischer (#224)
+- 9.1.3.1d Inhalt gegliedert - Anpassung bei Absatzauszeichnung und CSS generated content @detlevhfischer (#394)
+- 9.4.1.1 Korrekte Syntax.adoc - Korrektur Hinweise, Quellen @detlevhfischer (#405)
+- 9.2.5.7 Ziehbewegungen: Anwendbarkeit @detlevhfischer (#407)
+- 9.3.3.8 Zugängliche Authentifizierung (Minimum) - Ergänzungen @detlevhfischer (#408)
+- 9.3.1.2 Anderssprachige Wörter und Abschnitte ausgezeichnet - Anpassung Ausnahmen @detlevhfischer (#413)
+- 9.2.4.1 Fokus nicht verdeckt: Präzisierung hinsichtlich normativem Text der Anforderung, Ergänzung "Frage zu diesem Prüfschritt" @sweckenmann (#398)
+
+### Korrigiert
+
+- Verschiedene Prüfschritte: Rechtschreibung @mfranzke (#399)
+- Verschiedene Prüfschritte: Textkorrekturen @mfranzke (#344)
 
 ## [v3.0.1](https://github.com/BIK-BITV/BIK-Web-Test/compare/v3.0.0...v3.0.1) - 2024-01-01
 
