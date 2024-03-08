@@ -30,13 +30,16 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
   Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 . Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
   prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
-  Zustand mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Prüfschritt <<9.1.4.1 Ohne Farben nutzbar.adoc#, 9.1.4.1 Ohne Farben nutzbar>> nicht erfüllt.
+  Zustand mindestens 3:1 beträgt.
+. Bei Links, die sich nicht grafisch verändern, prüfen, ob sie auf den
+  Mauszeiger reagieren.
+. Wenn dies der Fall ist: Abbruch oder weiter mit 6.
 . Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint,
   prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS
   gefärbten) Hintergründen gut zu erkennen ist.
 . In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> bzw. <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
   Texten ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund
-  mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der jeweilige Kontrast-Prüfschritt nicht erfüllt.
+  mindestens 3:1 beträgt.
 . Seite im Chrome Browser laden und die Schritte 2-7 wiederholen.
 
 === 3. Hinweise
