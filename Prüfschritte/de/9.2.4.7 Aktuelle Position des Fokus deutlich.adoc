@@ -45,33 +45,28 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
   vorhanden ist, die Webseite also den browsereigenen Tastaturfokus (zum
   Beispiel mit JavaScript `blur()` oder CSS ``outline:none``) unterdrückt.
 * Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standard-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
+* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der
+  Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand
+  zum unfokussierten Zustand mindestens 3:1. Ist dies nicht der Fall ist ggf. der Prüfschritt 9.1.4.1 "Ohne Farben nutzbar" nicht erfüllt.
+* Wenn nur der Standard-Browser-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, er erfüllt die Prüfschritte <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von Texten ausreichend.adoc>> und <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>>.]
+Dann ist ggf. dieser Prüfschritt erfüllt (der Fokus ist sichtbar) aber der Kontrast ist nicht ausreichend. Die Bewertung wird dann in den Kontrast-Prüfschritten vorgenommen
 
 === 4. Bewertung
 
 ==== Erfüllt
 
 Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
-
-* Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche
+Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche
   Markierungen werden bei Tastaturfokussierung eingesetzt.
-* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der
-  Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand
-  zum unfokussierten Zustand mindestens 3:1.
-* Wenn nur der Standard-Browser-Tastaturfokus angezeigt wird, ist dieser vor
-  gestalteten Hintergründen ausreichend sichtbar, er erfüllt den Prüfschritt
-ifdef::env_embedded[9.1.4.11 "Kontraste von Grafiken und grafischen Bedienelementen ausreichend".]
-ifndef::env_embedded[]
-  <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,
-  9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>>.
-endif::env_embedded[]
 
 ==== Nicht voll erfüllt
 
 * Sprunglinks bleiben bei Fokuserhalt versteckt.
+* interaktive Elemente erhalten keinen sichtbaren Tastatur-Fokus
 
 ==== Nicht erfüllt
 
-Der Standard-Browser-Tastaturfokus wird unterdrückt, bei Tastaturnutzung wird
+* Der Standard-Browser-Tastaturfokus wird komplett unterdrückt, bei Tastaturnutzung wird
 kein Fokus angezeigt.
 
 == Einordnung des Prüfschritts
