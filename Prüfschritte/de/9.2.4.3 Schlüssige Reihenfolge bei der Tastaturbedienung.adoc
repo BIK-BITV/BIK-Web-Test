@@ -98,7 +98,7 @@ bzw. Auswahllisten heraus bzw. durch erläuternde Texte oder Hilfefunktionen deu
 ==== Nicht voll erfüllt
 
 * Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der
-  Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen im Browserfenster nicht sichtbar.
+  Tastaturfokus durchläuft mehr als drei aufeinanderfolgende, nicht-sichtbare Stationen.
 * Pseudofenster, die außerhalb der normalen Quellcodereihenfolge, also etwa am Seitenende, eingefügt werden, erhalten nicht unmittelbar oder beim nächsten Tabben den Fokus.
 * Beim Schließen von Pseudofenstern wird der Fokus nicht auf das auslösende Element zurückgesetzt.
 
@@ -124,7 +124,7 @@ ifdef::env_embedded[9.2.4.7 "Aktuelle Position des Fokus deutlich".]
 ifndef::env_embedded[]
   <<9.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,9.2.4.7 Aktuelle
   Position des Fokus deutlich>>.
-endif::env_embedded[]
+endif::env_embedded[]. Es geht somit in Prüfschritt 9.2.4.7 vor allem darum, dass der Fokus nicht unterdrückt bzw. deaktiviert wird, während es in diesem Prüfschritt 9.2.4.3 darum geht, ob die Elemente, die den Fokus erhalten, überhaupt sichtbar sind, oder durch visuelles Verstecken der Fokus nicht mehr aufffindbar ist, weil das Element selbst visuell versteckt wurde.
 * Geprüft wird hier die richtige *Position* eingeblendeter oder eingefügter
   Inhalte.
 Ob diese Inhalte selbst sinnvoll sind, wird in anderen Prüfkriterien wie
