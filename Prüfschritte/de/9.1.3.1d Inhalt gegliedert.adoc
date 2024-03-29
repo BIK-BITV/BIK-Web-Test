@@ -68,7 +68,7 @@ Erzeugung von Trennlinien eingesetzt werden und nicht programmatisch versteckt s
 
 ==== Erfüllt
 * Textabsätze sind mit geeigneten Absatz-Elementen ausgezeichnet.
-* Auf Umbrüche von Textabsätzen über dppelte `br` Elemente wird verzichtet.
+* Auf Umbrüche von Textabsätzen über doppelte `br` Elemente wird verzichtet.
 * Für semantische Hervorhebungen im Text wird `strong` oder `em` verwendet.
 
 ==== Nicht voll erfüllt
