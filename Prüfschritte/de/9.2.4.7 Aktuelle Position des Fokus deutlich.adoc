@@ -56,7 +56,7 @@ Dann ist ggf. dieser Prüfschritt erfüllt (der Fokus ist sichtbar) aber der Kon
 ==== Erfüllt
 
 Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
-Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt oder die Standard-Fokushervorhebung durch den Browser wird nicht unterdrvckt.
+Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt oder die Standard-Fokushervorhebung durch den Browser wird nicht unterdrückt.
 
 ==== Nicht voll erfüllt
 
