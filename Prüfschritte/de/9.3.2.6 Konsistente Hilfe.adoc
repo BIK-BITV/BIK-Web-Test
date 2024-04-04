@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn eine Webangebot einen Hilfe-Mechanismus anbietet und dieser Mechanismus innerhalb einer Gruppe von Seiten mit gemeinsamem Zweck vorhanden ist, dann soll diese Hilfe in der gleichen relativen 
+Wenn ein Webangebot einen Hilfe-Mechanismus anbietet und dieser Mechanismus innerhalb einer Gruppe von Seiten mit gemeinsamem Zweck vorhanden ist, dann soll diese Hilfe in der gleichen relativen 
 Reihenfolge zu anderen Seiteninhalten positioniert sein (außer die Änderung der Reihenfolge wird durch die Nutzenden ausgelöst).
 
 Unter Hilfe-Mechanismen sind zu verstehen:
