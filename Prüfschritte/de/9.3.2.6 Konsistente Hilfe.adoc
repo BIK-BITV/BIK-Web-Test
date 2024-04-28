@@ -10,7 +10,7 @@ Reihenfolge zu anderen Seiteninhalten positioniert sein (außer die Änderung de
 Unter Hilfe-Mechanismen sind zu verstehen:
 
 * Menschliche Kontakt-Angaben (z. B. Telefon, E-mail, Geschäftszeiten)
-* Menschliche Mechanismen zur Kontaktaufnahme (z. B. Messanger-Dienste, Chat-Clients, Kontaktformular, Social-Media-Kanäle)
+* Menschliche Mechanismen zur Kontaktaufnahme (z. B. Messenger-Dienste, Chat-Clients, Kontaktformular, Social-Media-Kanäle)
 * Möglichkeiten der Selbsthilfe (z. B. "Häufig gestellte Fragen" oder eine "Hilfe"-Seite)
 * Automatische Kontakt-Mechanismen, wie beispielsweise ein Chatbot.
 
