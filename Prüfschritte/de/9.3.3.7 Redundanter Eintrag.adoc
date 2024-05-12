@@ -17,7 +17,7 @@ Ausnahmen:
 
 == Warum wird das geprüft
 
-Wenn Informationen wir Name, Geburtsdatum oder Ähnliches nicht mehrmals eingegeben werden müssen, können Nutzende den Prozess mit geringerem kognitivem Aufwand durchführen. 
+Wenn Informationen wie Name, Geburtsdatum oder Ähnliches nicht mehrmals eingegeben werden müssen, können Nutzende den Prozess mit geringerem kognitivem Aufwand durchführen. 
 Nutzende mit kognitiven Behinderungen, die Schwierigkeiten mit dem Kurzzeitgedächtnis haben, profitieren beispielsweise davon, da sie sich dann nicht immer wieder an bestimmte Informationen 
 erinnern oder nach diesen irgendwo suchen müssen. Es entsteht weniger Stress, das Risiko für Fehler ist reduziert. Das Vermeiden wiederholter Eingaben hilft auch Nutzenden mit Mobilitätseinschränkungen, 
 die z. B. eine Schaltersteuerung oder Spracheingabe verwenden und für die Eingaben oft aufwändiger und fehleranfälliger sind.
