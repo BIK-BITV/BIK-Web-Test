@@ -59,7 +59,7 @@ Zwei-Faktor-Systeme, die nicht auf Codes beruhen, einschließlich Hardware-Authe
 ==== 3.3 Zwei-Faktor-Authentifizierung
 Es gibt Situationen, in denen ein Verifizierungscode auf einem zweiten Gerät empfangen oder erzeugt werden muss. Zum Beispiel erfordert die Authentifizierung in einem Webbrowser 
 auf einem Laptop einen Verifizierungscode, der als SMS an ein Mobiltelefon gesendet wird. In den meisten Fällen ist es jedoch möglich, den Code direkt an das primäre Gerät zu senden, 
-wo er dann kopiert und eingefügt werden kann. Nutzende können beispielsweise den Code auf dem sekundären Gerät kopieren und per E-Mail an das primäre Gerät senden. Eine andere Möglichkeit wäre, wenn der Code an eine gemeinsamen geräteübergreifenden Zwischenablage gesendet werden kann und damit das Kopieren von Inhalten auf dem sekundären Gerät und das Einfügen auf dem primären Gerät möglich wird.
+wo er dann kopiert und eingefügt werden kann. Nutzende können beispielsweise den Code auf dem sekundären Gerät kopieren und per E-Mail an das primäre Gerät senden. Eine andere Möglichkeit wäre, wenn der Code an eine gemeinsame geräteübergreifende Zwischenablage gesendet werden kann und damit das Kopieren von Inhalten auf dem sekundären Gerät und das Einfügen auf dem primären Gerät möglich wird.
 
 Die Bewertung, ob der Code nahtlos vom sekundären Gerät auf das primäre Gerät übertragen werden kann oder nicht, liegt außerhalb des Anwendungsbereichs dieser Anforderung. 
 Die Bewertung dieses Kriteriums erfordert daher nur die Überprüfung, ob der Webinhalt das Einfügen des Inhalts der Zwischenablage in das entsprechende Authentifizierungsfeld erlaubt.
