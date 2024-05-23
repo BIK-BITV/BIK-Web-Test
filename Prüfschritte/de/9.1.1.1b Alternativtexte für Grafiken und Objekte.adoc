@@ -274,8 +274,7 @@ Das betrifft zum Beispiel
 Zum Kontext einer Grafik oder eines Bildes gehört:
 
 * der dazugehörige (vorangehende, folgende) Text sowie 
-* eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
-  benannte Textalternative (normaler Link und/oder ``longdesc``).
+* eine im unmittelbaren Kontext des Bildes direkt oder verlinkt angebotene Textalternative, die den Inhalt textbasiert liefert: etwa als Fließtext, Liste oder Datentabelle.
 
 Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
 Textalternativen im Kontext erforderlich.
@@ -417,8 +416,6 @@ endif::env_embedded[]
 
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H37[
   H37: Using `alt` attributes on `img` elements]
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H45[
-  H45: Using `longdesc`]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H46[
   H46: Using `noembed` with `embed`]
 * https://www.w3.org/WAI/WCAG21/Techniques/html/H53[
@@ -541,12 +538,14 @@ negativ bewertet, er ist für die Bewertung nicht relevant.
 
 === Kann die Bedeutung eines Bildes auch im Kontext beschrieben werden?
 
-Das ist in vielen Fällen sinnvoll und eine gute Alternative zur Nutzung des
-`longdesc`-Attributs.
+Das ist in vielen Fällen sinnvoll, 
+gerade weil nicht nur für sehbehinderte Menschen eine alternativen Beschreibung oft nützlich ist. 
+Eine Möglichkeit ist die Positionierung der Alternative 
+in einem gut beschrifteten Ausklappbereich unterhalb des Bildes.
 Wichtig ist, dass die Beschreibung dem Bild eindeutig zugeordnet werden kann.
 Dafür kann (und soll) dann der Alternativtext des Bildes genutzt werden.
 Er enthält eine kurze Bezeichnung des abgebildeten, im Kontext
-beschriebenen Gegenstandes.
+beschriebenen Gegenstandes und einen Hinweis auf die folgendne ausführlichere Alternative.
 
 === Was sollte im Alternativtext für Landkarten stehen?
 
