@@ -87,9 +87,9 @@ Das ist der Fall, wenn das Dateiformat in
 einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
 
 Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt 
-ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
 endif::env_embedded[]
 geprüft.
