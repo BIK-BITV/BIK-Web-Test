@@ -37,7 +37,10 @@ dann vor dem Formular eine Fehlermeldung erscheint.
 === 2. Prüfung
 
 . Statusmeldungen identifizieren. Dafür Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
-. Über eine Quellcode-Analyse prüfen, ob der Container mit der Statusmeldung als ARIA-Live-Region ausgezeichnet ist. Sind entsprechende ARIA-Live-Attribute vorhanden?
+. Wenn Meldungen nach Abschicken eines Formulars generiert werden, prüfen, ob durch das Abschicken die Seite neu lädt oder Statusmeldungen auf der bestehenden Seite eingefügt werden. Wird die Seite neu geladen, ist der Prüfschritt nicht anwendbar.
+.. Dazu im Firefox-Browser in den Developer Tools den Reiter "Netzwerkanalyse" aufrufen und das Protokoll nach Aktivierung des Elements, dass die Meldung auslöst, prüfen. Wurde die Seite neu geladen (dann gibt es einen Eintrag vom Typ "html"?) Gff. das Protokoll nach Typ "html" filtern.
+.. Alternativ im Chrome-Browser in den Developer Tools den Reiter "Netzwerk" auswählen und ebenso Protokoll nach Aktivierung prüfen. GGf. das Protokoll nach Typ "Doc" filtern.
+. Wenn die Seite nicht neu geladen wurde: Über eine Quellcode-Analyse prüfen, ob der Container mit der Statusmeldung als ARIA-Live-Region ausgezeichnet ist. Sind entsprechende ARIA-Live-Attribute vorhanden?
 . Die Ausgabe der Statusmeldung zusätzlich mit dem Screenreader prüfen:
 * Eingaben vornehmen, die zur Generierung von Statusmeldungen führen. Sofern das Angebot von sich aus Statusmeldungen generiert, etwa bei aktualisierten Inhalten, diese Meldungen abwarten.
 * Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden, ohne dass der Fokus auf die Meldung versetzt wird.
