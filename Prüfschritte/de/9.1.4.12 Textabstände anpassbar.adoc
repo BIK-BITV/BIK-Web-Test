@@ -21,8 +21,8 @@ führt.
 
 Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern,
 wenn sie über Werkzeuge wie Bookmarklets oder über eigene Stylesheets die
-Abstände zwische Zeilen, Absätzen, Zeichen und Worten anpassen können.
-Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und
+Abstände zwischen Zeilen, Absätzen, Zeichen und Worten anpassen können.
+Solche Anpassungen führen dazu, dass Texte ggf. mehr Platz brauchen und
 Inhalts-Container dementsprechend dynamisch angelegt sein müssen, um den
 längeren Text ohne Verlust zu zeigen.
 

@@ -37,7 +37,7 @@ rechtzeitig abschließen.
 ist immer anwendbar.
 * Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
 (Abschnitt
-<<2.2Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen>>)
+<<2.2 Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen>>)
 ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus
 datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen
 unterliegen (etwa beim Online-Banking oder Online-Shops).

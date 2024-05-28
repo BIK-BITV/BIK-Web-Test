@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzung mit Zeigegeräten (z. B. Maus oder Touch) eine Fläche von 24 x 24 CSS-Pixel umfassen (Zielgröße). Es gelten folgende Ausnahmen:
 
-* *Abstand:* Ziele, die kleiner als 24 x 24 CSS-Pixel sind, haben genug Abstand von anderen Zielen. Dies gilt als gegeben, wenn ein imaginärer Kreis mit einem Durchmesser von 24 CSS-Pixeln auf dem Begrenzungskasten ("Bounding Box") des jeweiligen Ziels zentriert wird und der Kreis nicht ein anderen Ziel oder dem Kreis eines anderen unterdimensionierten Ziels überschneidet. Beispiel: Eine Reihe von Schaltflächen, mit jeweils einer Größe von 20 x 20 CSS-Pixeln haben einen Abstand von 4 CSS-Pixeln.
+* *Abstand:* Ziele, die kleiner als 24 x 24 CSS-Pixel sind, haben genug Abstand von anderen Zielen. Dies gilt als gegeben, wenn ein imaginärer Kreis mit einem Durchmesser von 24 CSS-Pixeln auf dem Begrenzungskasten ("Bounding Box") des jeweiligen Ziels zentriert wird und der Kreis nicht ein anderes Ziel oder den Kreis eines anderen unterdimensionierten Ziels überschneidet. Beispiel: Eine Reihe von Schaltflächen, mit jeweils einer Größe von 20 x 20 CSS-Pixeln haben einen Abstand von 4 CSS-Pixeln.
 * *Gleichwertige Alternative:* Man kann mit einem anderen Bedienelement, welches die Anforderung erfüllt und sich auf derselben Seite befindet, die Funktion ausführen.
 * *Inline:* Das Ziel befindet sich in einem Satz oder die Größe des Ziels wird durch die Zeilenhöhe von umgebendem, nicht interaktiven Text eingeschränkt (z. B. ein Text-Link innerhalb eines Absatzes).
 * *Benutzeragenten:* Die Größe des Ziels wird vom Benutzeragenten bestimmt und ist von der Autorin oder dem Autor nicht verändert.
