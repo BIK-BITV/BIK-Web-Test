@@ -211,7 +211,7 @@ komplexere SVG-Grafiken in Frage (das Ausmaß der Unterstützung durch Screenrea
   Firefox] aufrufen.
 . Mit den Web Developer Tools des Browsers prüfen, ob das Video im  HTML-Code 
   über ein `video`-Element oder über ein `iframe`-Element eingebunden wurde.
-. Bei Nutzung des Video-Elements kann die Textaltenative mittels der ARIA Attribute
+. Bei Nutzung des Video-Elements kann die Textalternative mittels der ARIA Attribute
   `aria-label` oder `aria-labelledby` angegeben werden, falls auch das `controls`-Attribut vorhanden ist.
   Wird das Video innerhalb eines `figure`-Elements eingebunden, kann auch ein `figcaption`-Element genutzt werden.
 . Bei einer Einbindung über `iframe` (z.B. von Youtube-Videos) erfolgt die Angabe einer Textalternative mittels `title`-Attribut.
