@@ -40,7 +40,7 @@ Beispiele für zusätzliche Vermittlung:
 * Links im Fließtext sind nicht nur farblich abgesetzt, sondern durch ein weiteres visuelles Merkmal unterschieden: z.B. zusätzlich unterstrichen, gefettet oder kursiv, invertiert oder mit einer Markierung versehen.
   **Ausnahme:** Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe ist 3:1 oder besser. In diesem Fall kann im Ausgangszustand auf die zusätzliche Hervorhebung verzichtet werden. Die Links müssen dann aber bei Fokuserhalt zusätzlich hervorgehoben werden.
 * Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster.
-* Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung am Formularbeginn) oder textlich ("Pflichtfeld")
+* Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung (am Formularbeginn) oder textlich ("Pflichtfeld")
   gekennzeichnet.
 
 === 3. Hinweise
