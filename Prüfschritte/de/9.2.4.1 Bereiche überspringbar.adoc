@@ -90,7 +90,7 @@ erfüllt sind:
 * Sprunglinks sind entweder permanent sichtbar oder werden bei Fokuserhalt
   eingeblendet
 * Sprunglinks am Seitenbeginn sind die ersten fokussierbaren Elemente der
-  Tabreihenfolge
+  Tabreihenfolge (oder ggf. die ersten nach einem Cookie-Bannner oder Dialog)
 * Sprunglinks zum Überspringen von Inhaltsblöcken sind das letzte
   fokussierbare Element vor dem zu überspringenden Inhaltsblock oder dessen
   erster Link
