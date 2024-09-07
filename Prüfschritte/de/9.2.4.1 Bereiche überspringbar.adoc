@@ -140,7 +140,7 @@ oder Änderungsdatum stehen.
 Das Fehlen von Sprunglinks und die Nichtverwendung von WAI-ARIA Document
 Landmarks werden nicht negativ bewertet.
 
-==== Hinweis zu mehrfach verwendeten Landmarks bzwHTML5-Elemente für Bereiche
+==== Hinweis zu mehrfach verwendeten Landmarks bzw. HTML5-Elemente für Bereiche
 
 Wird eine WAI-ARIA document landmark bzw. ein HTML5-Element für Bereiche
 mehrfach verwendet (z. B. `role="navigation"` oder ``nav``), sollte sie mit
