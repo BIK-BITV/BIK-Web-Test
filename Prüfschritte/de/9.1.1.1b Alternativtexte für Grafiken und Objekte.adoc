@@ -235,7 +235,7 @@ In der Regel bedeutet das:
   eine knappe Bezeichnung des abgebildeten Gegenstandes.
 * Bei *Diagrammen* oder *technischen Zeichnungen* sind unter Umständen
   ausführlichere Erläuterungen erforderlich.
-  Alternativtexte sind dafür nicht geeignet, sie sollen 80 Zeichen nicht
+  Alternativtexte sind dafür nicht geeignet; sie sollen möglichst 80 Zeichen nicht
   überschreiten.
   Im Alternativtext steht dann nur, was dargestellt ist und wo (etwa: "Details
   im anschließenden Text"), die Erläuterung steht in Kontext des Bildes.
