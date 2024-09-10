@@ -545,7 +545,7 @@ in einem gut beschrifteten Ausklappbereich unterhalb des Bildes.
 Wichtig ist, dass die Beschreibung dem Bild eindeutig zugeordnet werden kann.
 Dafür kann (und soll) dann der Alternativtext des Bildes genutzt werden.
 Er enthält eine kurze Bezeichnung des abgebildeten, im Kontext
-beschriebenen Gegenstandes und einen Hinweis auf die folgendne ausführlichere Alternative.
+beschriebenen Gegenstandes und einen Hinweis auf die folgende ausführlichere Alternative.
 
 === Was sollte im Alternativtext für Landkarten stehen?
 
