@@ -138,7 +138,8 @@ oder Änderungsdatum stehen.
 ==== Hinweis zu Sprunglinks und Document Landmarks
 
 Das Fehlen von Sprunglinks und die Nichtverwendung von WAI-ARIA Document
-Landmarks werden nicht negativ bewertet.
+Landmarks werden nicht grundsätzlich negativ bewertet. Es hängt vom Inhalt und von der Komplextät der Seiten ab, 
+of ein Mechanismus zum Überspringen von Bereichen erforderlich ist.
 
 ==== Hinweis zu mehrfach verwendeten Landmarks bzwHTML5-Elemente für Bereiche
 
