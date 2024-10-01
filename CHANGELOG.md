@@ -4,7 +4,17 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.1...HEAD)
+
+## [v4.1.1](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.0...v4.1.1) - 2024-10-01
+
+### Was hat sich getan?
+
+### Korrigiert
+
+- 9.2.4.1 Bereiche überspringbar: typo @mfranzke (#456)
+- 9.1.4.1 Ohne Farben nutzbar: fehlende Klammer @mfranzke (#449)
+- 9.1.3.2 Sinnvolle Reihenfolge.adoc: Tippfehler-Korrektur @mfranzke (#446)
 
 ## [v4.1.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.0.1...v4.1.0) - 2024-07-01
 
