@@ -19,7 +19,7 @@ Interface-Komponenten entwickelt werden, welche die Verwendung von
 
 Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei
 Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche
-Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten
+Informationen anzuzeigen, und zwar unabhängig von der jeweils gewählten
 Beschriftung des Feldes und unabhängig von der natürlichen Sprache des
 Angebots.
 
