@@ -66,7 +66,7 @@ Wenn Inhalte dynamisch generiert werden (also Interaktionen auf der Seite Inhalt
 * Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 * Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht. Das betrifft insbesondere aufeinander folgende nicht sichtbare Sprunglinks.
 * Wenn die Tabulatorreihenfolge nicht gut erkennbar ist, weil z. B. die Fokushervorhebung unterdrückt wird, ist das Bookmarklet
-  https://codepen.io/jeffsmith/details/beb[Show Tab Focus] von Jeff Smith ein hilfreiches Werkzeug zum hervorheben der
+  https://codepen.io/jeffsmith/details/bebKpq[Show Tab Focus] von Jeff Smith ein hilfreiches Werkzeug zum hervorheben der
 aktuellen Position.
 * Die Prüfung erfolgt bei *eingeschaltetem* JavaScript.
 * Der Prüfer muss mit der Funktionsweise der eingesetzten Browser vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind.
