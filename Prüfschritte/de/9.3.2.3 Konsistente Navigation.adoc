@@ -40,8 +40,12 @@ unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der
 Zurück-Button des Browsers) nicht gleichermaßen greifen.
 
 ===== 3.1 Navigation von Prozessen
-Prozesse erscheinen oft als abweichende und anders gestaltete Gruppe von Seiten. Beispiele sind Check-out- oder Registrierungsprozesse
-oder Prüfungen bzw. Quizzes. Hier fehlen häufig die Navigationsmöglichkeiten aus anderen Bereichen, ggf. gibt es stattdessen eine schrittweise Navigation, wenn ein Zurück- oder Vor-Springen sinnvoll bzw. möglich ist. Eine abweichende Navigation in solchen Bereichen ist kein Fehler in diesem Prüfschritt.  
+Prozesse erscheinen oft als abweichende und anders gestaltete Gruppe von Seiten. 
+Beispiele sind Check-out- oder Registrierungsprozesse oder Prüfungen bzw. Quizzes. 
+Hier fehlen häufig die Navigationsmöglichkeiten aus anderen Bereichen, 
+ggf. gibt es stattdessen eine schrittweise Navigation, 
+wenn ein Zurück- oder Vor-Springen sinnvoll bzw. möglich ist. 
+Eine abweichende Navigation in solchen Bereichen ist kein Fehler in diesem Prüfschritt.  
 
 === 4. Bewertung
 
