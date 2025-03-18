@@ -83,17 +83,17 @@ the component is focused, except where the appearance of the component is
 determined by the user agent and not modified by the author.
 ____
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#navigable[
+* https://www.w3.org/TR/WCAG22/#navigable[
   Guideline 2.4 Navigable: Provide ways to help users navigate, find content,
   and determine where they are]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#focus-visible[
+* https://www.w3.org/TR/WCAG22/#focus-visible[
   2.4.7 Focus Visible] (Level AA)
 * https://www.w3.org/TR/WCAG21/#non-text-contrast[
   1.4.11 Non-Text Contrast] (Level AA)
