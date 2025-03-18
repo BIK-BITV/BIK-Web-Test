@@ -20,27 +20,24 @@ Der Prüfschritt ist immer anwendbar.
 
 ==== 2.1 Vermittlung von Informationen über die Farbgebung
 
-Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen vermitteln.
-Beispiele dafür:
+. Prüfen, ob die Webseite Elemente enthält, die durch Farbgebung Informationen vermitteln. Beispiele dafür:
 
-* Überschriften werden farblich hervorgehoben
-* Ausgewählte Menueinträge werden in einer anderen Farbe dargestellt
-* Links im Fließtext werden in einer anderen Farbe dargestellt
-* Eine Grafik verwendet unterschiedliche Farben für die vergleichende Darstellung des Kursverlaufs verschiedener Aktien
-* Pflichtfelder in Formularen werden farblich gekennzeichnet (die gelb unterlegten Felder müssen immer ausgefüllt werden)
+  * Überschriften werden farblich hervorgehoben
+  * Ausgewählte Menueinträge werden in einer anderen Farbe dargestellt
+  * Links im Fließtext werden in einer anderen Farbe dargestellt
+  * Die Fokushervorhebung ist nur mithilfe eines Farbwechsels der Schrift oder des Hintergrundes umgesetzt
+  * Eine Grafik verwendet unterschiedliche Farben für die vergleichende Darstellung des Kursverlaufs verschiedener Aktien
+  * Pflichtfelder in Formularen werden farblich gekennzeichnet (die gelb unterlegten Felder müssen immer ausgefüllt werden)
 
-Solche Hervorhebungen sind positiv.
-Die Vermittlung wichtiger Informationen soll sich aber **nicht ausschließlich** auf **einfache** Farbänderungen stützen.
-Zu prüfen ist also, ob die Informationen zusätzlich noch auf einem anderen Weg vermittelt werden.
+. Prüfen, dass sich die Vermittlung wichtiger Informationen **nicht ausschließlich** auf einfache Farbänderung stützt. Die Informationen muss zusätzlich noch auf einem anderen Weg vermittelt werden. Zum Beispiel:
 
-Beispiele für zusätzliche Vermittlung:
-
-* Überschriften sind zusätzlich eingerückt oder durch eine andere Schriftgröße hervorgehoben (das ist fast immer der Fall).
-* Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1 zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung, Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der Form des Menü-Eintrags oder dergleichen hervorgehoben.
-* Links im Fließtext sind nicht nur farblich abgesetzt, sondern durch ein weiteres visuelles Merkmal unterschieden: z.B. zusätzlich unterstrichen, gefettet oder kursiv, invertiert oder mit einer Markierung versehen.
+  * Überschriften sind zusätzlich eingerückt oder durch eine andere Schriftgröße hervorgehoben (das ist fast immer der Fall).
+  * Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1 zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung, Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der Form des Menü-Eintrags oder dergleichen hervorgehoben.
+  * Links im Fließtext sind nicht nur farblich abgesetzt, sondern durch ein weiteres visuelles Merkmal unterschieden: z.B. zusätzlich unterstrichen, gefettet oder kursiv, invertiert oder mit einer Markierung versehen.
   **Ausnahme:** Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe ist 3:1 oder besser. In diesem Fall kann im Ausgangszustand auf die zusätzliche Hervorhebung verzichtet werden. Die Links müssen dann aber bei Fokuserhalt zusätzlich hervorgehoben werden.
-* Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster.
-* Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung (am Formularbeginn) oder textlich ("Pflichtfeld")
+  * Ist die Fokushervorhebung nur mithilfe eines Farbewechsels umgesetzt, kontrastiert die geänderte Farbe zur vorheigen Farbe mit mindestens 3:1. Gleichzeitig müssen in beiden Zuständen die geforderten Textkontraste eingehalten werden. Mängel diesbezüglich werden jedoch bei 9.1.4.3 Kontraste von Texten ausreichend bewertet.
+  * Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster.
+  * Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung (am Formularbeginn) oder textlich ("Pflichtfeld")
   gekennzeichnet.
 
 === 3. Hinweise
@@ -49,7 +46,8 @@ Es gibt verschiedene Arten, Information nicht nur über Farbe zu vermitteln:
 * Ein Menüeintrag ist farblich hervorgehoben, aber ein Breadcrumb nennt zusätzlich, welche Seite ausgewählt ist
 * Ein Menüeintrag ist farblich hervorgehoben, aber es gibt zusätzlich eine gleichlautende Überschrift, die dem Menüeintrag jeweils entspricht
 * Ein Icon wechselt die Farbe, aber es ändert sich außerdem die nachfolgende Beschriftung
-* ein Bedienelement ändert bei Fokussierung die Farbe, aber es kommt zusätzlich ein äußerer Rahmen hinzu, der ausreichend zum Hintergrund kontrastiert
+* Ein Bedienelement ändert bei Fokussierung die Farbe, aber es kommt zusätzlich ein äußerer Rahmen hinzu, der ausreichend zum Hintergrund kontrastiert
+* Ein Bedienelement ändert bei Fokussierung die Farbe, aber der Kontrast zur vorherigen Farbe beträgt mindestens 3:1.
 * Farbumkehr ausreichend kontrastreicher Elemente: Vorder- und Hintergrundfarbe eines Elements werden bei Fokussierung oder Aktivierung ausgetauscht
 
 === 4. Bewertung
@@ -57,6 +55,7 @@ Es gibt verschiedene Arten, Information nicht nur über Farbe zu vermitteln:
 ==== Nicht voll erfüllt
 
 * Fließtextlinks sind von ihrer Textumgebung nur durch abweichende Farbe mit einem Kontrastunterschied von unter 3:1 unterscheidbar.
+* Ein Bedienelement ändert bei Fokussierung die Farbe, der Kontrast zur vorherigen Farbe ist geringer als 3:1 und es gibt keine zusätzliche Hervorhebung (beispielsweise ein Rahmen der zum Hintergrund ausreichend kontrastiert)
 
 ==== Nicht erfüllt
 
