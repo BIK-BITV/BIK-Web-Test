@@ -34,8 +34,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
 . Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint,
   prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS
   gefärbten) Hintergründen gut zu erkennen ist.
-. In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> bzw. <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
-  Texten ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der jeweilige Kontrast-Prüfschritt ggf. nicht erfüllt.
+. In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Kontrast-Prüfschritt 9.1.4.11 nicht erfüllt.
 . Seite im Chrome Browser laden und die Schritte 2-5 wiederholen.
 
 === 3. Hinweise
