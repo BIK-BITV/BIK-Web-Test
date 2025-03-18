@@ -44,7 +44,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
   vorhanden ist, die Webseite also den browsereigenen Tastaturfokus (zum
   Beispiel mit JavaScript `blur()` oder CSS ``outline:none``) unterdrückt.
 * Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standard-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
-* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der
+* Wenn die Fokushervorhebung von Links oder Buttons nur über die Änderung der
   Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand
   zum unfokussierten Zustand mindestens 3:1. Ist dies nicht der Fall ist ggf. der Prüfschritt <<9.1.4.1 Ohne Farben nutzbar.adoc#, 9.1.4.1 Ohne Farben nutzbar>> nicht erfüllt.
 * Wenn nur der Standard-Browser-Tastaturfokus angezeigt wird und dieser vor gestalteten Hintergründen sichtbar ist, dann ist dieser Prüfschritt erfüllt (der Fokus ist sichtbar). Gegebenenfalls ist aber <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> nicht erfüllt, wenn der Kontrast des Tastaturfokus vor gestaltetem Hintergrund unzureichend ist. Die Bewertung wird dann im Kontrast-Prüfschritt 9.1.4.11 vorgenommen.
