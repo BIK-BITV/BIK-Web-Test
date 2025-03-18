@@ -8,7 +8,7 @@ Navigationsmechanismen sollen innerhalb des Webauftritts einheitlich sein.
 
 == Warum wird das geprüft?
 
-Eine einheitliche Navigation innerhalb des Webauftritts erleichtert das
+Eine einheitliche Navigation innerhalb einer zusammenhängenden Gruppen von Seiten eines Webauftritts erleichtert das
 Verständnis, Gesuchtes wird leichter gefunden.
 
 == Wie wird geprüft?
@@ -25,7 +25,7 @@ Der Prüfschritt ist immer anwendbar
   dabei wenn möglich unterschiedliche Navigationsmechanismen verwenden (Menüs,
   Direktlinks, Breadcrumb, Teaser oder Suche).
 * Prüfen, ob Navigationsmechanismen und Menüeinträge in verschiedenen
-  Bereichen des Webauftritts gleich angeordnet und gestaltet sind.
+  Bereichen des Webauftritts (Gruppen von Seiten) gleich angeordnet und gestaltet sind.
 
 === 3. Hinweise
 
@@ -38,6 +38,14 @@ Falls Inhalte über geskriptete Layer eingeblendet werden, sollte geprüft
 werden, ob sich diese Inhalte deutlich von sonstigen Seiten und Seitenwechseln
 unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der
 Zurück-Button des Browsers) nicht gleichermaßen greifen.
+
+===== 3.1 Navigation von Prozessen
+Prozesse erscheinen oft als abweichende und anders gestaltete Gruppe von Seiten. 
+Beispiele sind Check-out- oder Registrierungsprozesse oder Prüfungen bzw. Quizzes. 
+Hier fehlen häufig die Navigationsmöglichkeiten aus anderen Bereichen, 
+ggf. gibt es stattdessen eine schrittweise Navigation, 
+wenn ein Zurück- oder Vor-Springen sinnvoll bzw. möglich ist. 
+Eine abweichende Navigation in solchen Bereichen ist kein Fehler in diesem Prüfschritt.  
 
 === 4. Bewertung
 
