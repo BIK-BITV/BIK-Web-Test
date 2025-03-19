@@ -222,7 +222,7 @@ ifndef::env_embedded[]
   <<9.1.3.1d Inhalt gegliedert.adoc#,9.1.3.1d Inhalt gegliedert>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 
