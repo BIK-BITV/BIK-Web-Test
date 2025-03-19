@@ -70,7 +70,7 @@ Ausgenommen sind also Inhalte, bei denen das Verhalten vom Betriebssystem oder B
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
