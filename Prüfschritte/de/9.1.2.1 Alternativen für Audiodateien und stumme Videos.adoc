@@ -106,7 +106,7 @@ Tonspur).
 Dort geht es also um *zusätzliche* akustische Informationen über
 Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
