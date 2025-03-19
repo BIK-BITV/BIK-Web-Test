@@ -72,7 +72,7 @@ endif::env_embedded[]
 geht es dagegen um die Strukturierung der Seiten**bereiche** durch
 Überschriften, WAI-Aria-Attribute oder Sprunglinks.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 
