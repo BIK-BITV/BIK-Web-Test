@@ -84,7 +84,7 @@ ifndef::env_embedded[]
   Beschriftungen von Formularelementen vorhanden>>
 endif::env_embedded[] geprüft.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
