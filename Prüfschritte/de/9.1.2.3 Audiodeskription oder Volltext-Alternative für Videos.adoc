@@ -101,7 +101,7 @@ sehbehinderten Menschen nicht genutzt werden.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
