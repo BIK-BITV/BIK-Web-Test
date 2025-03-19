@@ -99,7 +99,7 @@ has at least a 3:1 contrast ratio with the previous state of the control is a
 method for meeting the Focus visible criteria.
 ____
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
