@@ -65,7 +65,7 @@ ifndef::env_embedded[]
   Alternativtexte für Grafiken und Objekte>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
