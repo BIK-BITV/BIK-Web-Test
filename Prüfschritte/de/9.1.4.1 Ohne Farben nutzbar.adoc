@@ -108,7 +108,7 @@ Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text o
 
 Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Position _überhaupt nicht_ anzeigt, verstößt nicht gegen diesen Prüfschritt 9.1.4.1.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 
