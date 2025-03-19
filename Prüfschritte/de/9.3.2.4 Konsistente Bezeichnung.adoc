@@ -41,7 +41,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   dagegen geprüft, ob die Navigationsmechanismen und Menüeinträge in verschiedenen Bereichen des Webauftritts durchgängig einheitlich angeordnet sind.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
