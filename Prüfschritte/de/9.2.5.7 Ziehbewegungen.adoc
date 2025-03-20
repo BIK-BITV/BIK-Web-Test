@@ -26,7 +26,7 @@ Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Zi
 
   * Nach Aktivierung eines Elements über einfache Zeigeraktion erlaubt ein Aktions-Menü die Auswahl des Zielorts.
   * Nach Aktivierung eines Elements über einfache Zeigeraktion erscheinen im Kontext des Elements Pfeile, die ein schrittweises Verschieben des Elements erlauben.
-  * Bei Schiebereglern gibt es die Möglichkeit numerischer Eingaben des Wertes über die (virtuelle) Tastatur.
+  * Die Funktion kann auch über numerische Eingaben eines Wertes über die virtuelle Tastatur ausgeführt werden.
 
 === 3. Hinweise
 
