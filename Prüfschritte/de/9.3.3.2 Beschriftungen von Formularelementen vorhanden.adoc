@@ -43,8 +43,7 @@ auch) *nach* dem Formularelement stehen.
 
 * Das ``placeholder``-Attribut ist keine ausreichende Beschriftung im Sinne dieses Prüfschritts. Es verschwindet bei (auch versehentlichen) Nutzereingaben.
 * Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem erklärenden ``title``-Attribut versehen werden.
-  Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben
-  eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden ``title``-Attribut versehen.
+  Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Gruppenbeschriftung "Datum" welche beispielsweise mit ``fieldset`` und ``legend`` umgesetzt ist. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden ``title``-Attribut versehen.
 * Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
 * Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Voraussetzung ist jedoch, dass sich die visuelle Gestaltung des Submit-Buttons an übliche Konventionen orientiert. Es muss visuell verständlich sein, dass es sich um eine Suche handelt (z.B. durch Verwendung eines Lupe-Icons). Die programmatische Ermittelbarkeit einer nicht visuellen Beschriftung ist Gegenstand des Prüfschritts 1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar (siehe dort Abschnitt 3.3). Ein Mangel bzgl. der programmatischen Ermittelbarkeit führt in diesem Prüfschritt nicht zu einer negativen Bewertung.
 
