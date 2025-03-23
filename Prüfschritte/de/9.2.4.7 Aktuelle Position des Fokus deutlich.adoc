@@ -30,17 +30,12 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
   Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 . Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
   prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
-  Zustand mindestens 3:1 beträgt.
-. Bei Links, die sich nicht grafisch verändern, prüfen, ob sie auf den
-  Mauszeiger reagieren.
-. Wenn dies der Fall ist: Abbruch oder weiter mit 6.
+  Zustand mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Prüfschritt <<9.1.4.1 Ohne Farben nutzbar.adoc#, 9.1.4.1 Ohne Farben nutzbar>> nicht erfüllt.
 . Wenn nur der Standard-Browser-Tastaturfokus (Systemkranz) erscheint,
   prüfen, ob dieser an dieser vor gestalteten (also etwa über CSS
   gefärbten) Hintergründen gut zu erkennen ist.
-. In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> bzw. <<9.1.4.3 Kontraste von Texten ausreichend.adoc#,9.1.4.3 Kontraste von
-  Texten ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund
-  mindestens 3:1 beträgt.
-. Seite im Chrome Browser laden und die Schritte 2-7 wiederholen.
+. In Zweifelsfällen gemäß Prüfschritt <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> ermitteln, ob der Kontrastabstand zwischen Systemfokus und Hintergrund mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Kontrast-Prüfschritt 9.1.4.11 nicht erfüllt.
+. Seite im Chrome Browser laden und die Schritte 2-5 wiederholen.
 
 === 3. Hinweise
 
@@ -49,33 +44,26 @@ Der Prüfschritt ist anwendbar, wenn die Seite interaktive Elemente enthält.
   vorhanden ist, die Webseite also den browsereigenen Tastaturfokus (zum
   Beispiel mit JavaScript `blur()` oder CSS ``outline:none``) unterdrückt.
 * Grundsätzlich hat sich die Standard-Hervorhebung des Tastaturfokus im Browser bei fehlender Gestaltung durch Autoren in den letzten Jahren verbessert. Abhängig von Betriebssystem und Browser, der Hintergrundfarbe und anderen Aspekten des Designs ist die Standard-Hervorhebung der Browser in manchen Fällen jedoch nicht gut sichtbar. Eine gezielte Gestaltung in CSS, z.B. über die `:focus` Pseudo-Klasse, stellt sicher, dass der Tastaturfokus immer gut sichtbar ist.
+* Wenn die Fokushervorhebung von Links oder Buttons nur über die Änderung der
+  Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand
+  zum unfokussierten Zustand mindestens 3:1. Ist dies nicht der Fall ist ggf. der Prüfschritt <<9.1.4.1 Ohne Farben nutzbar.adoc#, 9.1.4.1 Ohne Farben nutzbar>> nicht erfüllt.
+* Wenn nur der Standard-Browser-Tastaturfokus angezeigt wird und dieser vor gestalteten Hintergründen sichtbar ist, dann ist dieser Prüfschritt erfüllt (der Fokus ist sichtbar). Gegebenenfalls ist aber <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>> nicht erfüllt, wenn der Kontrast des Tastaturfokus vor gestaltetem Hintergrund unzureichend ist. Die Bewertung wird dann im Kontrast-Prüfschritt 9.1.4.11 vorgenommen.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
 Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
-
-* Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche
-  Markierungen werden bei Tastaturfokussierung eingesetzt.
-* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der
-  Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand
-  zum unfokussierten Zustand mindestens 3:1.
-* Wenn nur der Standard-Browser-Tastaturfokus angezeigt wird, ist dieser vor
-  gestalteten Hintergründen ausreichend sichtbar, er erfüllt den Prüfschritt
-ifdef::env_embedded[9.1.4.11 "Kontraste von Grafiken und grafischen Bedienelementen ausreichend".]
-ifndef::env_embedded[]
-  <<9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend.adoc#,
-  9.1.4.11 Kontraste von Grafiken und grafischen Bedienelementen ausreichend>>.
-endif::env_embedded[]
+Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt oder die Standard-Fokushervorhebung durch den Browser wird nicht unterdrückt.
 
 ==== Nicht voll erfüllt
 
 * Sprunglinks bleiben bei Fokuserhalt versteckt.
+* interaktive Elemente erhalten keinen sichtbaren Tastatur-Fokus
 
 ==== Nicht erfüllt
 
-Der Standard-Browser-Tastaturfokus wird unterdrückt, bei Tastaturnutzung wird
+* Der Standard-Browser-Tastaturfokus wird komplett unterdrückt, bei Tastaturnutzung wird
 kein Fokus angezeigt.
 
 == Einordnung des Prüfschritts
@@ -93,23 +81,19 @@ In combination with 2.4.7 Focus Visible, the visual focus indicator for a
 component must have sufficient contrast against the adjacent background when
 the component is focused, except where the appearance of the component is
 determined by the user agent and not modified by the author.
-If the focus state relies on a change of color (e.g., changing only the
-background color of a button), then changing from one color to another that
-has at least a 3:1 contrast ratio with the previous state of the control is a
-method for meeting the Focus visible criteria.
 ____
 
 === Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#navigable[
+* https://www.w3.org/TR/WCAG22/#navigable[
   Guideline 2.4 Navigable: Provide ways to help users navigate, find content,
   and determine where they are]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#focus-visible[
+* https://www.w3.org/TR/WCAG22/#focus-visible[
   2.4.7 Focus Visible] (Level AA)
 * https://www.w3.org/TR/WCAG21/#non-text-contrast[
   1.4.11 Non-Text Contrast] (Level AA)
