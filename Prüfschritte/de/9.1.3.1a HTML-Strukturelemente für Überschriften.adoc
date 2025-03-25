@@ -181,7 +181,7 @@ entweder nichtssagend oder sie zählt einfach die beiden Themen auf.
 Ihr Nutzen ist fraglich, es kann also auch sinnvoll sein, mehrere
 Überschriften auf derselben Seite mit `h1` auszuzeichnen.
 
-=== Warum sind die Anforderungen des Prüfschritts so allgemein gehalten.
+=== Warum sind die Anforderungen des Prüfschritts so allgemein gehalten?
 Es gibt doch klare formale Vorgaben für die richtige Strukturierung durch Überschriften!
 
 Formale Regeln für die Strukturierung durch Überschriften sind sinnvoll und
