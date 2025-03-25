@@ -19,7 +19,7 @@ Für blinde und sehbehinderte Nutzer sind solche CAPTCHAs nicht zugänglich.
 Audio-Captchas sind für höreingeschränkte Nutzer nicht zugänglich.
 Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
 
-Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs
+Bei bildbasierten CAPTCHAs soll der Alternativtext den Zweck des CAPTCHAs
 beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
 
 == Wie wird geprüft?
