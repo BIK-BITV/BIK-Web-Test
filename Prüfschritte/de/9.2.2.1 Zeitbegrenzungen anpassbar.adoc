@@ -38,9 +38,7 @@ ist immer anwendbar.
 * Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
 (Abschnitt
 <<2.2 Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen>>)
-ist nur anwendbar auf Seiten mit Transaktionen, welche üblicherweise aus
-datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen
-unterliegen (etwa beim Online-Banking oder Online-Shops).
+ist immer anwendbar.
 * Die Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen ist immer anwendbar, wenn (oft als Ergebnis einer Interaktion) Meldungen erscheinen und nach einer Zeitspanne (meist nach wenigen Sekunden) automatisch wieder verschwinden.
 
 === 2. Prüfung
@@ -166,7 +164,7 @@ ifndef::env_embedded[]
   Formularelementen programmatisch ermittelbar>>).
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

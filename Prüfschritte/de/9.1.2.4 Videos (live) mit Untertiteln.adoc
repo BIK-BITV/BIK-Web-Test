@@ -93,7 +93,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

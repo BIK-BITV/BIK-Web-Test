@@ -54,7 +54,7 @@ Ein guter Dokumenttitel "vertritt" die Seite zum Beispiel in einer Bookmarks-Lis
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

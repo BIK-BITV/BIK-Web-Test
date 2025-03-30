@@ -95,7 +95,7 @@ ifndef::env_embedded[]
   Schlüssige Reihenfolge bei der Tastaturbedienung>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

@@ -49,7 +49,7 @@ ifndef::env_embedded[]
   Anderssprachige Wörter und Abschnitte ausgezeichnet>>
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

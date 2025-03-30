@@ -58,7 +58,7 @@ endif::env_embedded[]
 behandelt die Verwendung von Farbe zur Übermittlung von Information, hier
 dagegen geht es um Form, Position, oder textliche Bezüge.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 

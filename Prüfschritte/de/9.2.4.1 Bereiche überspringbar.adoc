@@ -64,7 +64,7 @@ erfüllt sind:
 * Sprunglinks sind entweder permanent sichtbar oder werden bei Fokuserhalt
   eingeblendet
 * Sprunglinks am Seitenbeginn sind die ersten fokussierbaren Elemente der
-  Tabreihenfolge
+  Tabreihenfolge (oder ggf. die ersten nach einem Cookie-Bannner oder Dialog)
 * Sprunglinks zum Überspringen von Inhaltsblöcken sind das letzte
   fokussierbare Element vor dem zu überspringenden Inhaltsblock oder dessen
   erster Link
@@ -122,7 +122,9 @@ oder Änderungsdatum stehen.
 
 ==== Hinweis zu Sprunglinks und Document Landmarks
 
-Das Fehlen von Sprunglinks wird nicht negativ bewertet, wenn es ansonsten eine sinnvolle semantische Bereichsauszeichnung über native Bereichsauszeichnung, ARIA landmarks oder Bereichsüberschriften gibt.
+Das Fehlen von Sprunglinks und die Nichtverwendung von WAI-ARIA Document
+Landmarks werden nicht grundsätzlich negativ bewertet. Es hängt vom Inhalt und von der Komplextät der Seiten ab, 
+ob ein Mechanismus zum Überspringen von Bereichen erforderlich ist.
 
 ==== Hinweis zu mehrfach verwendeten Landmarks bzw. HTML5-Elemente für Bereiche
 
@@ -187,7 +189,7 @@ ifndef::env_embedded[]
   <<9.1.3.1d Inhalt gegliedert.adoc#,9.1.3.1d Inhalt gegliedert>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 

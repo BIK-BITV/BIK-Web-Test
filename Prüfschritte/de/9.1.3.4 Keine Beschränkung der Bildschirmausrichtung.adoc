@@ -69,7 +69,7 @@ ifndef::env_embedded[]
   <<9.1.4.10 Inhalte brechen um.adoc#,9.1.4.10 Inhalte brechen um>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

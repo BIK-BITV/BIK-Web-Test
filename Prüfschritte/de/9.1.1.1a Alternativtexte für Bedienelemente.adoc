@@ -379,7 +379,7 @@ endif::env_embedded[]
   geprüft (s. olink:#3.2[3.2 Unterstützung von SVGs durch assistive
   Technologien]).
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

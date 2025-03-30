@@ -81,7 +81,7 @@ falls *überhaupt* eine Beschriftung vorhanden ist.
 Ist bei grafischen Bedienelementen *keine* programmatisch ermittelbare Beschriftung vorhanden, 
 ist dies bei 9.1.1.1a zu bewerten.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

@@ -104,7 +104,7 @@ ifndef::env_embedded[]
   <<9.2.1.1 Ohne Maus nutzbar.adoc#,9.2.1.1 Ohne Maus nutzbar>>.
 endif::env_embedded[]
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

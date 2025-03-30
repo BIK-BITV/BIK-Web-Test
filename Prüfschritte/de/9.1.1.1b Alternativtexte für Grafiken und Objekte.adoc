@@ -235,8 +235,10 @@ In der Regel bedeutet das:
   eine knappe Bezeichnung des abgebildeten Gegenstandes.
 * Bei *Diagrammen* oder *technischen Zeichnungen* sind unter Umständen
   ausführlichere Erläuterungen erforderlich.
-  Alternativtexte sind dafür nicht geeignet; sie sollen möglichst 80 Zeichen nicht
-  überschreiten.
+  Alternativtexte sind dafür nicht geeignet, auch deshalb nicht, 
+  weil sie einfach ein ungegliederter Text sind und keine Möglichkeit bieten, 
+  komplexere Inhalte zu strukturieren (z.B. mittels Listen oder Zwischenüberschriften) 
+  oder anzureichern (z.B. mittels Links).
   Im Alternativtext steht dann nur, was dargestellt ist und wo (etwa: "Details
   im anschließenden Text"), die Erläuterung steht in Kontext des Bildes.
 * Bei *Objekten*, die nicht angezeigt werden können, sollen der
@@ -369,7 +371,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft (s. o. <<3. Hinweise>>).
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guideline
 

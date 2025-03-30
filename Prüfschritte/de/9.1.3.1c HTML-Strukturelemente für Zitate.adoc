@@ -45,7 +45,7 @@ Nicht geprüft werden soll, ob Inline-Zitate (also Zitate, die nicht als eigenst
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 

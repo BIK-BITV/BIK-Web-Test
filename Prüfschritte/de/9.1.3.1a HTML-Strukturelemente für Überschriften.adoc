@@ -72,7 +72,7 @@ endif::env_embedded[]
 geht es dagegen um die Strukturierung der Seiten**bereiche** durch
 Überschriften, WAI-Aria-Attribute oder Sprunglinks.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 
@@ -181,8 +181,7 @@ entweder nichtssagend oder sie zählt einfach die beiden Themen auf.
 Ihr Nutzen ist fraglich, es kann also auch sinnvoll sein, mehrere
 Überschriften auf derselben Seite mit `h1` auszuzeichnen.
 
-=== Warum sind die Anforderungen des Prüfschritts so allgemein gehalten.
-Es gibt doch klare formale Vorgaben für die richtige Strukturierung durch Überschriften!
+=== Warum sind die Anforderungen des Prüfschritts so allgemein gehalten?
 
 Formale Regeln für die Strukturierung durch Überschriften sind sinnvoll und
 sie können nützlich sein.

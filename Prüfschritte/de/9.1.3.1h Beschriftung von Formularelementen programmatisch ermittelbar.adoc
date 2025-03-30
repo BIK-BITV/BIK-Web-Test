@@ -83,7 +83,7 @@ In diesem Fall sollen Elemente mit einem erklärenden
 ``title``-Attribut versehen werden.
 Beispiel: In einem Formular werden für die
 Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr).
-Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum.
+Die drei Auswahllisten haben eine gemeinsame Gruppenbeschriftung "Datum" welche beispielsweise mit `fieldset` und `legend` umgesetzt ist.
 Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden
 ``title``-Attribut versehen.
 Alternativ kann in diesem Fall die Beschriftung auch mit Hilfe von
@@ -158,7 +158,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft.
 
-=== Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.2
 
 ==== Guidelines
 
