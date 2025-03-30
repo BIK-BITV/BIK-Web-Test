@@ -35,8 +35,8 @@ Der Prüfschritt ist immer anwendbar.
   * Ausgewählte Menueinträge haben einen Kontrastunterschied von mehr als 3:1 zur Farbe benachbarter Einträge oder sind durch Einrückung, Fettung, Unterstreichung, zusätzliche Elemente für die Hervorhebung, Änderung der Form des Menü-Eintrags oder dergleichen hervorgehoben.
   * Links im Fließtext sind nicht nur farblich abgesetzt, sondern durch ein weiteres visuelles Merkmal unterschieden: z.B. zusätzlich unterstrichen, gefettet oder kursiv, invertiert oder mit einer Markierung versehen.
   **Ausnahme:** Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe ist 3:1 oder besser. In diesem Fall kann im Ausgangszustand auf die zusätzliche Hervorhebung verzichtet werden. Die Links müssen dann aber bei Fokuserhalt zusätzlich hervorgehoben werden.
-  * Ist die Fokushervorhebung nur mithilfe eines Farbewechsels umgesetzt, kontrastiert die geänderte Farbe zur vorheigen Farbe mit mindestens 3:1. Gleichzeitig müssen in beiden Zuständen die geforderten Textkontraste eingehalten werden. Mängel diesbezüglich werden jedoch bei 9.1.4.3 Kontraste von Texten ausreichend bewertet.
-  * Linien in Schaubildern sind zusätzlich gestrichelt oder durchgezogen, Flächen haben unterscheidbare Muster.
+  * Ist die Fokushervorhebung nur mithilfe eines Farbwechsels umgesetzt, kontrastiert die geänderte Farbe zur vorheigen Farbe mit mindestens 3:1. Gleichzeitig müssen in beiden Zuständen die geforderten Textkontraste eingehalten werden. Mängel diesbezüglich werden jedoch bei 9.1.4.3 Kontraste von Texten ausreichend bewertet.
+  * Linien in Schaubildern sind zusätzlich abweichend gestaltet, z.B. gestrichelt, gepunktet oder durchgezogen, Flächen haben unterscheidbare Muster.
   * Pflichtfelder im Formular sind zusätzlich mit einem Stern mit Bedeutungserklärung (am Formularbeginn) oder textlich ("Pflichtfeld")
   gekennzeichnet.
 
