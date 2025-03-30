@@ -5,18 +5,17 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Verschiedene Inhaltsbereiche wie Navigation, Suche oder Seiteninhalt können
-von Nutzern assistiver Technologien übersprungen werden.
-Der Seitenaufbau soll unabhängig von der Darstellung deutlich werden.
-Eine der folgenden Voraussetzungen soll erfüllt sein:
+von Nutzenden assistiver Technologien übersprungen werden.
+Der Seitenaufbau soll für diese Nutzenden unabhängig von der Darstellung deutlich werden.
+Mindestens eine der folgenden Voraussetzungen soll erfüllt sein:
 
+* Es sind Sprunglinks vorhanden, zumindest ein Sprunglink zum Inhalt.
+* HTML5 Elemente zur Bereichsauszeichnung (``header`` , ``nav``, ``main``, ``aside``,
+  ``footer``) oder die diesen Elementen entsprechenden WAI-ARIA _document landmarks_ erschließen den Seitenaufbau sinnvoll.
 * Es werden sinnvolle Bereichsüberschriften (HTML-Strukturelemente `h1` bis
-  ``h6``) eingesetzt
-* Es sind Sprunglinks vorhanden.
-* HTML5 Elemente zur Auszeichnung von Bereichen (``header, nav, main, aside,
-  footer``) erschließen den Seitenaufbau sinnvoll.
-* WAI-ARIA _document landmarks_ strukturieren die Seitenbereiche sinnvoll.
+  ``h6``) für "Navigation", Inhalt" o.ä. eingesetzt. Diese Technik wird mittlerweise selten genutzt, seit es in HTML Elemente für die Bereichsauszeichnung gibt. Inhaltlich orientierte Überschriften werden in der Regel nicht als Bereichsüberschriften gewertet.
 
-Frames und iframes brauchen ein sinnvolles ``title``-Attribut.
+iframes sollten den Bereich im ``title``-Attribut benennen.
 
 == Warum wird das geprüft?
 
@@ -27,28 +26,17 @@ kann das Angebot der Webseite leicht überblicken und gezielt auf die Inhalte
 zugreifen, die ihn interessieren.
 
 Benutzer, die diese visuelle Ordnung nicht nutzen können – zum Beispiel,
-weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können
-– sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung
-auf dem Bildschirm zugänglich und nutzbar ist.
-Die Verwendung von (oft unsichtbaren) Bereichsüberschriften, Sprunglinks oder
-HTML5 Elementen zur Auszeichnung von Regionen ist dafür eine wesentliche
+weil sie blind sind – sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung
+auf dem Bildschirm für Hilfsmittel wie Screenreader zugänglich und nutzbar ist.
+Die Verwendung von Sprunglinks, HTML5 Elementen zur Auszeichnung von Bereichen, oder Bereichsüberschriften ist dafür eine wesentliche
 Voraussetzung.
 
-Bei Frames ist ein sinnvoller Titel wichtig für die Orientierung mit
-Screenreadern.
+Bei iframes hilft ein sinnvoller Titel Screenreader-Nutzenden bei die Orientierung. 
 Gängige Screenreader werten das ``title``- und das in der
-Programmierung gebräuchliche ``name``-Attribut aus.
+Programmierung gebräuchliche ``name``-Attribut aus. 
 Dabei wird das ``title``-Attribut vorrangig ausgegeben.
-Sie sprechen beim Umschalten zwischen den Frames mit den Tastenkürzeln den
-Titel des aktiven Frames aus.
 
-Der Einsatz von HTML5-Elementen für Regionen wird inzwischen gut von
-assistiven Technologien unterstützt.
-Die zusätzliche Berücksichtigung eines role-Attributs
-(WAI ARIA document landmarks) kann die Unterstützung von
-Regionen jedoch verbessern.
-
-So können Benutzer die Bereichsüberschriften, Sprunglinks, HTML5-Elemente für
+So können Nutzende die Bereichsüberschriften, Sprunglinks, HTML5-Elemente für
 Regionen bzw. WAI-ARIA document landmarks anwenden:
 
 * Konstante Bereiche am Seitenbeginn, etwa Navigation oder Seitenkopf,
@@ -65,21 +53,7 @@ Das ist bei informationsorientierten Seiten meist der Fall.
 
 === 2. Prüfung
 
-==== 2.1 Prüfung der Bereichsüberschriften
-
-. Seite im Firefox aufrufen.
-. Über die
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-  Web Developer Toolbar] die Seite ohne Stylesheets anzeigen (über _CSS > Styles
-  deaktivieren > Alle Styles deaktivieren_ Stylesheets deaktivieren).
-. Das https://webtest.bitv-test.de/bookmarklets.html#gegliedert[
-  Bookmarklet "Inhalte gegliedert"] aufrufen.
-. Die Bereichsüberschriften im Zusammenhang mit den durch sie strukturierten
-  Inhalten ansehen und prüfen, ob sie aussagekräftig sind, die
-  Strukturelemente für Überschriften nutzen, und die Inhaltsbereiche der
-  Seite vollständig und korrekt gliedern.
-
-==== 2.2 Sprunglink-Prüfung
+==== 2.1 Sprunglink-Prüfung
 
 Wenn Sprunglinks vorhanden sind, prüfen, ob die folgenden Anforderungen
 erfüllt sind:
@@ -95,7 +69,7 @@ erfüllt sind:
   fokussierbare Element vor dem zu überspringenden Inhaltsblock oder dessen
   erster Link
 
-==== 2.3 Prüfung der HTML5 Elemente für Regionen und WAI-ARIA document landmarks
+==== 2.2 Prüfung der HTML5 Bereichsauszeichnung bzw. der entsprechenden WAI-ARIA document landmarks
 
 . Seite im Firefox aufrufen.
 . Quelltextanalyse: Prüfen, ob die verschiedenen Seitenbereiche durch die
@@ -106,19 +80,30 @@ erfüllt sind:
   Die document landmarks werden nun, wenn vorhanden, hervorgehoben.
 . Wenn document landmarks eingesetzt werden, prüfen, ob die Zuordnung der Rollen
   (z. B. ``navigation, main``) korrekt ist und dem Aufbau der Seite entspricht.
-. Sind mehrere Navigationsbereiche nur mit `nav` oder `role="navigation"`
-  ausgezeichnet, dann prüfen, ob sie mit `aria-label` oder `aria-labelledby`
-  sinnvoll bezeichnet sind.
+. Sind mehrere Navigationsbereiche mit `nav` oder `role="navigation"`
+  ausgezeichnet,  prüfen, ob sie mit `aria-label` oder `aria-labelledby`
+  sinnvoll bezeichnet und damit unterscheidbar sind.
 
-==== 2.4 Prüfung von Frame-Titeln
+==== 2.3 Prüfung der Bereichsüberschriften
+
+. Seite im Firefox aufrufen.
+. Das https://webtest.bitv-test.de/bookmarklets.html#gegliedert[
+  Bookmarklet "Inhalte gegliedert"] oder ein anderes Bookmarklet zur Anzeige von Überschriften aufrufen.
+. Die Bereichsüberschriften im Zusammenhang mit den durch sie strukturierten
+  Inhalten ansehen und prüfen, ob sie aussagekräftig sind, die
+  Strukturelemente für Überschriften nutzen, und die Inhaltsbereiche der
+  Seite korrekt gliedern.
+
+==== 2.4 Prüfung von iframe-Titeln
 
 . Seite im Firefox aufrufen.
 . In der Web Developer Toolbar die Funktion _Outline > Outline Frames_ aufrufen.
 . Dann ebenfalls in der Web Developer Toolbar die Funktion _Information >
   Display Element Information_ aufrufen.
   Der Cursor wird nun als Fadenkreuz angezeigt.
-. Mit dem Fadenkreuz die Kante der hervorgehobenen Frames anklicken und prüfen,
-  ob für alle Frames ein aussagekräftiger ``title``-Text vorhanden ist.
+. Mit dem Fadenkreuz die Kante der hervorgehobenen iframes anklicken und für alle iframes, die Inhalte haben prüfen,
+  ob für alle iframes ein aussagekräftiger ``title``-Text vorhanden ist. Dies kann z.B. sein "Werbung", "Social Media", oder die Kurzbezeichnung eines im iframe eingebundenen Videos.
+. Wenn iframes leer sind, also keine Inhalte haben, sollten Sie über das `hidden` oder ària-hidden`-Attribut versteckt sein.
 
 === 3. Hinweise
 
@@ -126,10 +111,10 @@ erfüllt sind:
 
 Eigenständige Bereiche sind zum Beispiel:
 
-* Navigation und Inhalt
-* Spalten mit unterschiedlichen Inhalten
-* Bereiche, die durch Umrahmung als zusammengehörig gekennzeichnet sind
-* Frames oder iframes
+* Navigationsbereiche (Hauptnavigation, Servicenavigation, Bereichsnavigation)
+* Hauptinhaltsbereich
+* Zusätzliche Inhalte
+* Fußbereich
 
 Der Fußbereich wird nicht als eigenständiger Bereich gewertet, wenn dort
 lediglich redundante Links, Copyright-Hinweise oder Angaben zum Erstellungs-
@@ -156,7 +141,7 @@ Wenn Breadcrumbs als Listen ausgezeichnet sind, brauchen sie einen
 hier", oder "Navigationspfad" um so für Screenreader-Nutzer von anderen Menüs
 unterscheidbar zu sein.
 
-==== Hinweis zu Frames und iframes
+==== Hinweis zu iframes
 
 Im ``title``-Attribut soll der Zweck oder Inhalt, nicht aber die Lage des
 Frames auf dem Bildschirm angegeben werden (siehe
@@ -164,41 +149,23 @@ ifdef::env_embedded[9.2.4.2 "Sinnvolle Dokumenttitel").]
 ifndef::env_embedded[]
   <<9.2.4.2 Sinnvolle Dokumenttitel.adoc#,9.2.4.2 Sinnvolle Dokumenttitel>>).
 endif::env_embedded[]
-Angemessene ``title``-Attribute sind zum Beispiel "Navigation" und "Inhalt",
+Angemessene ``title``-Attribute sind zum Beispiel "Werbung" und "Social Media",
 nicht jedoch "top" oder "rechts".
-Oft werden in Framesets auch leere Frames eingebunden, die ausschließlich zu
-Layoutzwecken verwendet werden.
-Bei solchen Frames sollte als Bezeichnung "Leer" gewählt werden.
 
 === 4. Bewertung
 
 ==== Erfüllt
 
-* Alle Bereiche der Seite können über Überschriften, Sprunglinks, HTML5
-  Elemente für Regionen und/oder WAI ARIA document landmarks erreicht und
+* Alle Bereiche der Seite können über  Sprunglinks, HTML5
+  Elemente für Regionen und/oder WAI ARIA document landmarks oder sinnvolle Bereichsüberschriften erreicht und
   übersprungen werden
-* Frames und iframes haben sinnvolle Titel
 
-==== Nicht voll erfüllt
-
-* Bereichsüberschriften sind nicht aussagekräftig oder irreführend
-* Der Einsatz von HTML5 Elementen für Regionen erschließt die Seitenbereiche
-  nicht vollständig
-* Die Zuordnung von WAI-ARIA document landmarks ist falsch oder irreführend
+==== Teilweise erfüllt oder schlechter
+* Die Nutzung der  Bereichsauszeichnung ist falsch oder irreführend
+* Sprunglinks werden nicht bei Fokuserhalt eingeblendet
 * Bereichsüberschriften oder Sprunglinks sind mittels `display:none` versteckt
-* Der Seitenpfad (Breadcrumb) ist als Liste ausgezeichnet, hat aber keinen
-  vorangestellten Hinweis (z. B. Überschrift)
-* Mehrere wichtige Navigationsbereiche sind mit WAI-ARIA document landmarks oder
-  HTML5-Elementen für Bereiche ausgezeichnet und sind nicht mit aria-label
-  oder aria-labelledby unterschieden.
-
-==== Nicht erfüllt
-
-* Es gibt auf der Seite verschiedene Bereiche mit für sich nutzbaren Inhalten,
-  diese werden jedoch weder mit Überschriften, noch mit Sprunglinks
-  oder HTML5 Elementen erschlossen
-* Auf der Seite werden mehrere klar abgrenzbare Themen behandelt, es wurde
-  aber nur pro forma eine Hauptüberschrift ausgezeichnet
+* Mehrere wichtige, mit ``nav`` oder ``role="navigation"`` ausgezeichnete Navigationsbereiche sind nicht durch ``aria-label``
+  oder ``aria-labelledby``-Attribut ausgezeichnet und damit nicht voneinander unterscheidbar
 
 == Einordnung des Prüfschritts
 
@@ -213,8 +180,8 @@ ifndef::env_embedded[]
   HTML-Strukturelemente für Überschriften>>
 endif::env_embedded[]
   geprüft.
-* In diesem Prüfschritt wird geprüft, ob Frames und iframes (wenn vorhanden)
-  vernünftige Titel haben.
+* In diesem Prüfschritt wird geprüft, ob iframes (wenn vorhanden)
+  aussagekräftige Titel haben.
   Die *Inhalte* von iframes werden ebenso geprüft wie andere Seiteninhalte,
   etwa in Prüfschritt
 ifdef::env_embedded[9.1.3.1d "Inhalt gegliedert".]
