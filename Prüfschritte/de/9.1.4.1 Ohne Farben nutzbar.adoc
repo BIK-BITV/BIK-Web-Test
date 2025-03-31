@@ -194,7 +194,7 @@ https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
 
 == Fragen zu diesem Prüfschritt
 
-=== Häufig werden besuchte Links in einer anderen Farbe dargestellt Fällt das auch unter diesen Prüfschritt?
+=== Häufig werden besuchte Links in einer anderen Farbe dargestellt. Fällt das auch unter diesen Prüfschritt?
 
 Die Unterscheidung besuchter und nicht besuchter Links ist hilfreich. Der Benutzer kann gleich sehen, welche Seiten er schon besucht hat. Ideal wäre es daher, wenn besuchte Links zum Beispiel zusätzlich durch eine andere Unterstreichung markiert würden.
 
