@@ -4,7 +4,32 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.2...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.2.0...HEAD)
+
+## [v4.2.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.2...v4.2.0) - 2025-04-01
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 9.2.4.1 Bereiche überspringbar - Hinzufügung Sprunglinks-Fokussierung… @detlevhfischer (#455)
+- 9.3.2.3 Konsistente Navigation - Prozesse @detlevhfischer (#467)
+
+### Geändert
+
+- 9.2.4.7 Aktuelle Position des Fokus deutlich - Verweis auf 9.1.4.1 u.a. @detlevhfischer (#425)
+- 9.1.4.1 Ohne Farben nutzbar - Fokusindikator nur über Farbänderung @sweckenmann (#480)
+- 9.2.2.1 Zeitbegrenzungen anpassbar - Anwendbarkeit überarbeitet (Beschränkung auf Transaktionen entfernt) @sweckenmann (#484)
+- 9.1.1.1b Alternativtexte für Grafiken und Objekte - 80 Zeichen @detlevhfischer (#477)
+
+### Korrigiert
+
+- 9.1.4.1 Ohne Farben nutzbar: Fehlendes Satzzeichen in FAQ @Maybach91 (#488)
+- 9.1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar - Beispiel Datum: Ergänzung der Gruppenbeschriftung @sweckenmann (#481)
+- 9.3.3.2 Beschriftungen von Formularelementen vorhanden - Beispiel Datum / Auswahllisten ausführlicher erläutert @sweckenmann (#482)
+- 9.2.5.7 Ziehbewegungen - Slider-Bezug beim letzen Beispiel in der Prüfschrittbeschreibung entfernt @sweckenmann (#483)
+- 9.1.3.1a HTML-Strukturelemente für Überschriften: FAQ ? statt . @Maybach91 (#486)
+- 9.1.1.1d Alternativen für CAPTCHAs: Fehlendes T in CAPTCHA @Maybach91 (#485)
 
 ## [v4.1.2](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.1.1...v4.1.2) - 2025-01-01
 
