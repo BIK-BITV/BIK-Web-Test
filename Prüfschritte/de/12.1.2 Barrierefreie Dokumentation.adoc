@@ -7,7 +7,8 @@ include::include/attributes.adoc[]
 Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen 
 für die allgemeine Nutzung von Funktionen des Angebots, 
 aber oft auch Hinweise auf zusätzliche Funktionen, 
-welche die Barrierefreiheit für bestimmte Nutzergruppen verbessern. 
+welche die Barrierefreiheit für bestimmte Nutzergruppen verbessern, 
+z.B. Einstellungen für erhöhten Kontrast oder Versionen in Leichter Sprache oder Deutscher Gebärdensprache. 
 Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
 
 Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, 
