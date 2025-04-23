@@ -82,10 +82,9 @@ etwa durch Überschriften-Auszeichnung.
 Bestehen die Textinhalte von Kacheln nur aus einfachen Links, 
 ist die Listenauszeichnung immer angemessen.
 
-
 Eine Liste mit nur einem Element kann dann sinnvoll sein, 
 wenn potenziell auch mehr als ein Listeneintrag auftauchen kann 
-(z.B. mehrere Einträge in einem Suchergebnis oder nach einer Filterung).
+(z.B. ein oder mehrere Einträge in einem Suchergebnis oder nach einer Filterung).
 
 === 4. Bewertung
 
