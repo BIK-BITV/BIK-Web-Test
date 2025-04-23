@@ -58,7 +58,7 @@ ausgewertet werden.
 . Wenn keine Funktion ausgelöst wird, Finger/Maus vom Punkt der Berührung wegbewegen
   und loslassen.
 Dadurch wird in der Regel der Aufruf des Links oder der Funktion
-  vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite
+  vermieden, selbst wenn der berührte Punkt dem Finger/der Maus folgt (die Seite
   gescrollt wird).
 . Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion
   abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
