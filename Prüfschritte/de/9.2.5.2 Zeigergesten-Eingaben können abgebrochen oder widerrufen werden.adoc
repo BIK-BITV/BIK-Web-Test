@@ -55,7 +55,7 @@ ausgewertet werden.
 . Im Desktop-Browser auf Bedienelemente (Links, Schalter) ein MouseDown ausführen.
 . Beobachten, ob nun schon eine Funktion ausgeführt wird.
   Dies geschieht wahrscheinlich aufgrund eines Down-Events.
-. Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen
+. Wenn keine Funktion ausgelöst wird, Finger/Maus vom Punkt der Berührung wegbewegen
   und loslassen.
 Dadurch wird in der Regel der Aufruf des Links oder der Funktion
   vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite
