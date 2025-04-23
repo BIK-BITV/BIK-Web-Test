@@ -52,6 +52,7 @@ ausgewertet werden.
 
 . Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger kurz
   liegen lassen.
+. Im Desktop-Browser auf Bedienelemente (Links, Schalter) ein MouseDown ausführen.
 . Beobachten, ob nun schon eine Funktion ausgeführt wird.
   Dies geschieht wahrscheinlich aufgrund eines Down-Events.
 . Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen
