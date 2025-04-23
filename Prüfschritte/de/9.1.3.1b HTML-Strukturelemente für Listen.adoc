@@ -71,14 +71,17 @@ als auch zur Abbildung der Hierarchie als verschachtelte Liste umgesetzt,
 in anderen Fällen jedoch auch schlicht als Absatz mit Links. 
 Alle diese Umsetzungen sind möglich und haben jeweils Vor- und Nachteile.
 
-Ein häufiger Fall ist die Verwendung von Teaser-Kacheln, 
-die oft Bild, Überschrift, Begleittext und Link bündeln 
+Ein häufiger Fall ist die Verwendung von komplexten Teaser-Kacheln, 
+die Bild, Überschrift, Begleittext und Link bündeln 
 und je nach Viewportbreite horizontal oder vertikal angeordnet sein können. 
 Solche Kacheln können als ungeordnete Liste umgesetzt werden, 
 dies ist aber nicht zwingend. 
-Wird auf Listenauszeichnung von Kachelgruppen verzichtet, 
+Wird auf Listenauszeichnung von Gruppen komplexer Kacheln verzichtet, 
 sollten die Inhalte auf andere Weise semantisch gegliedert sein, 
 etwa durch Überschriften-Auszeichnung.
+Bestehen die Textinhalte von Kacheln nur aus einfachen Links, 
+ist die Listenauszeichnung immer angemessen.
+
 
 Eine Liste mit nur einem Element kann dann sinnvoll sein, 
 wenn potenziell auch mehr als ein Listeneintrag auftauchen kann 
