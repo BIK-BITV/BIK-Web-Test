@@ -56,7 +56,7 @@ vorangestellt.
 
 Navigations-Menüs listen Gruppen von Linkzielen auf und sind deshalb von ihrer Aufgabe her immer
 Listen, egal wie sie gestaltet sind. Sie sollten deshalb auch als Listen ausgezeichnet werden.
-Für Funktionsmenüs eignen sich dagegen eher ARIA-Konstrukte wie `menu`.
+Für Aktionsmenüs eignen sich dagegen eher ARIA-Konstrukte wie `menu`.
 
 Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren.
 Ihr Einsatz für andere gemeinhin übliche paarige Informationen, 
