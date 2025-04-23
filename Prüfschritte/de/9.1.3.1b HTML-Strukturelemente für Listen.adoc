@@ -58,9 +58,10 @@ Navigations-Menüs listen Gruppen von Linkzielen auf und sind deshalb von ihrer 
 Listen, egal wie sie gestaltet sind. Sie sollten deshalb auch als Listen ausgezeichnet werden.
 Für Aktionsmenüs eignen sich dagegen eher ARIA-Konstrukte wie `menu`.
 
-Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren.
-Ihr Einsatz für andere gemeinhin übliche paarige Informationen, 
-etwa Bild und Bildtext, wird akzeptiert.
+"Definitionslisten (`dl`) repräsentieren eine Liste von Gruppen von Begriffen (spezifiziert mit dem `dt`-Element) 
+und Beschreibungen (bereitgestellt durch `dd`-Elemente). 
+Typische Anwendungen für das Konstrukt sind Glossare oder die Darstellung von Schlüssel/Wert-Paaren.
+Ihr Einsatz für andere gemeinhin übliche paarige Informationen wird akzeptiert.
 
 Bei der Einschätzung, ob eine Listenauszeichnung zwingend nötig ist, 
 sollte die Semantik des jeweiligen Elements berücksichtigt werden. 
