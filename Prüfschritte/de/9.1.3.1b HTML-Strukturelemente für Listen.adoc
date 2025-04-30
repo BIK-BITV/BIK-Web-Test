@@ -79,7 +79,8 @@ Solche Kacheln können als ungeordnete Liste umgesetzt werden,
 dies ist aber nicht zwingend. 
 Wird auf Listenauszeichnung von Gruppen komplexer Kacheln verzichtet, 
 sollten die Inhalte auf andere Weise semantisch gegliedert sein, 
-etwa durch Überschriften-Auszeichnung.
+etwa durch Überschriften-Auszeichnung. 
+Bei längeren und eigenständigen Kachel-Inhalten ist auch die Auszeichnung mittels `article`-Element denkbar.
 Bestehen die Textinhalte von Kacheln nur aus einfachen Links, 
 ist die Listenauszeichnung immer angemessen.
 
