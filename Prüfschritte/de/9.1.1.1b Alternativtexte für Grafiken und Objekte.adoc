@@ -83,7 +83,7 @@ In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeuglis
   Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
 aufrufen und prüfen, ob das `alt`-Attribut vorhanden ist und der dort
 hinterlegte Alternativtext das Bild in angemessener Weise ersetzt (siehe
-<<2.6 Angemessene Alternativtexte>>). 
+<<2.7 Angemessene Alternativtexte>>). 
 Alternativ kann auch das
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
 Images bookmarklet] eingesetzt werden.
@@ -98,11 +98,11 @@ Images bookmarklet] eingesetzt werden.
 Werden jetzt noch Elemente angezeigt, bei denen es sich offensichtlich nicht um
   einfachen Text handelt? 
 . Im Quelltext prüfen, ob eine Alternative vorhanden ist, die das Objekt in
-  angemessener Weise ersetzt (siehe <<2.6 Angemessene Alternativtexte>>). 
+  angemessener Weise ersetzt (siehe <<2.7 Angemessene Alternativtexte>>). 
 . Falls es sich bei der Alternative für das Objekt um ein ``img``-Element
   handelt:
   Den Alternativtext des Bildes wie unter
-  <<2.6 Angemessene Alternativtexte>> beschrieben prüfen.
+  <<2.7 Angemessene Alternativtexte>> beschrieben prüfen.
 
 ==== 2.3 Textalternativen für Hintergrundgrafiken
 
@@ -149,7 +149,7 @@ Voraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nic
   Wenn `display:none` verwendet wird, ist dies wie ein fehlendes `alt`-Attribut zu werten.
 . Falls ein geeignetes Bildersetzungsverfahren verwendet wurde: Prüfen, ob der
   Text eine äquivalente Textalternative für das Hintergrundbild darstellt (siehe
-  <<2.6 Angemessene Alternativtexte>>).
+  <<2.7 Angemessene Alternativtexte>>).
 
 ==== 2.4 Textalternativen für Icon Fonts:
 
@@ -176,7 +176,7 @@ Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader 
   Wenn `display:none` verwendet wird, ist dies wie ein nicht vorhandenes oder leeres `alt`-Attribut zu werten.
 . Falls eine geeignete CSS-Technik verwendet wurde: Prüfen, ob der Textlink eine
   äquivalente Textalternative für das Icon darstellt (siehe
-  <<2.6 Angemessene Alternativtexte>>).
+  <<2.7 Angemessene Alternativtexte>>).
 . Falls kein Alternativtext über zugänglich versteckten oder mitverlinkten Text vorhanden ist, prüfen, ob die Textalternative
   über ein `title`-Attribut oder `aria-label` bereitgestellt wird.
 . Falls für diese Icons Text ausgegeben wird (z. B. `content: "k"`), prüfen,
@@ -191,7 +191,7 @@ Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader 
   Firefox] aufrufen.
 . Mit den Web Developer Tools des Browsers prüfen, ob es sich um eine direkt in HTML eingebundene SVG handelt (Inline SVG).
 . Prüfen, ob ein `title`-Element (bei längeren Beschreibungen ein `desc`-Element) vorhanden ist und die dort hinterlegte Textalternative das Bild in angemessener Weise ersetzt 
-  (siehe <<2.6 Angemessene Alternativtexte>>). 
+  (siehe <<2.7 Angemessene Alternativtexte>>). 
   Das `title-` bzw. `desc-`Element sollte das erste Kindelement des Elternelements sein.
 . Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen unterstützt werden, 
   prüfen, ob die Zugänglichkeit über WAI ARIA gewährleistet ist:
@@ -260,7 +260,7 @@ Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
 sondern im Kontext der Abbildung zur Verfügung gestellt werden (siehe
 <<2.5 Textalternativen für Inline SVGs>>).
 
-==== 2.6 Angemessenheit von Textalternativen im Kontext
+==== 2.8 Angemessenheit von Textalternativen im Kontext
 
 Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild
 sein kann, muss geprüft werden, ob die über das Bild vermittelte Information
