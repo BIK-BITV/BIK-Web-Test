@@ -31,7 +31,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot innerhalb einer Gruppe von S
 
 === 2. Prüfung
 
-. Prüfern, ob das Webangebot innerhalb einer Gruppe von Seiten wiederholt einen Hilfemechanismus anbietet.
+. Prüfen, ob das Webangebot innerhalb einer Gruppe von Seiten wiederholt einen Hilfemechanismus anbietet.
 . Prüfen, ob der Hilfemechanismus an der gleichen Position bezogen auf andere sich ebenfalls wiederholende Seiteninhalte (z.B. Einträge in einer Navigation) platziert ist.
 
 === 3. Hinweise
