@@ -87,13 +87,13 @@ Verlängern angeboten werden:
 
 ==== 2.3 Prüfung von Zeitbegrenzungen bei wichtigen Statusmeldungen
 
-. Bieten Statusmeldungen für Nutzende wesentliche Informationen, die nicht auf andere Wesie verfügbar sind, und schließen automatisch nach kurzer Zeit?
-Für den Nutzer nicht wesentliche Statusmeldungen sind solche, die ein erwartetes Ergebnis einer Interaktion zusätzlich vermitteln, etwa, nach Aktivieren eines Schalters "Sichern" die Meldung "Ihr Dokument wurde gespeichert", oder, nach dem Abschicken eines Formulars, die Meldung "Ihre Angaben wurden übermittelt" oder ähnlich. Das automatische Schließen solcher nicht wesentlichen Meldungen sollte nicht negativ bewertet werden (siehe 3. Hinweise, 3.1 Zeitbegrenzte Stuatusmeldungen).
+. Bieten Statusmeldungen für Nutzende wesentliche Informationen, die nicht auf andere Weise verfügbar sind, und schließen automatisch nach kurzer Zeit?
+Für den Nutzer nicht wesentliche Statusmeldungen sind solche, die ein erwartetes Ergebnis einer Interaktion zusätzlich vermitteln, etwa, nach Aktivieren eines Schalters "Sichern" die Meldung "Ihr Dokument wurde gespeichert", oder, nach dem Abschicken eines Formulars, die Meldung "Ihre Angaben wurden übermittelt" oder ähnlich. Das automatische Schließen solcher nicht wesentlichen Meldungen sollte nicht negativ bewertet werden (siehe 3. Hinweise, 3.1 Zeitbegrenzte Statusmeldungen).
 
 === 3. Hinweise
 
-==== 3.1 Zeitbegrenzte Stuatusmeldungen
-Zeitbegrenzte Statusmeldungen müssen nicht zeitlich einstellbar sein, wenn es eine alternative Informationsmöglichkeit ohne Zeitbegrenzung gibt. Beispiel: Eine webbasierter E-Mail-Client benachrichtigt über den Eingang einer neuen E-Mail mit einer temporären Meldung (Toast-Meldung). Die Benutzer können den Eingang von E-Mails auch auf andere Weise feststellen, z. B. durch Abrufen des Posteingangs. Wenn Nutzende keine andere Möglichkeit haben, die gleichen Informationen zu finden (oder die gleiche Funktion auszuführen), dann müssen Meldungen dieses Erfolgskriterium erfüllen, damit die Benutzer genügend Zeit haben, um auf die Informationen zuzugreifen.
+==== 3.1 Zeitbegrenzte Statusmeldungen
+Zeitbegrenzte Statusmeldungen müssen nicht zeitlich einstellbar sein, wenn es eine alternative Informationsmöglichkeit ohne Zeitbegrenzung gibt. Beispiel: Ein webbasierter E-Mail-Client benachrichtigt über den Eingang einer neuen E-Mail mit einer temporären Meldung (Toast-Meldung). Die Benutzer können den Eingang von E-Mails auch auf andere Weise feststellen, z. B. durch Abrufen des Posteingangs. Wenn Nutzende keine andere Möglichkeit haben, die gleichen Informationen zu finden (oder die gleiche Funktion auszuführen), dann müssen Meldungen dieses Erfolgskriterium erfüllen, damit die Benutzer genügend Zeit haben, um auf die Informationen zuzugreifen.
 
 ==== 3.2 Externe Zeitbegrenzungen
 Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene
@@ -214,7 +214,7 @@ endif::env_embedded[]
 === Wie kann durch ein Kontrollelement auf der Webseite sichergestellt werden, dass der Benutzer eine Zeitbegrenzung oder Autoaktualisierung auf Wunsch abschalten kann?
 
 Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung
-nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum
+nicht erfolgen, bevor der Benutzer auf ein entsprechendes Kontrollelement zum
 Abschalten gestoßen ist.
 Daher sollte die Schaltfläche oder der Link zum
 Abschalten oder Verlängern am Seitenbeginn oder nahe am Seitenbeginn angezeigt
