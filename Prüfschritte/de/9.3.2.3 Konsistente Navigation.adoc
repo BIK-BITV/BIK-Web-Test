@@ -39,7 +39,7 @@ werden, ob sich diese Inhalte deutlich von sonstigen Seiten und Seitenwechseln
 unterscheiden, da hier die üblichen Navigationsmöglichkeiten (etwa der
 Zurück-Button des Browsers) nicht gleichermaßen greifen.
 
-===== 3.1 Navigation von Prozessen
+==== 3.1 Navigation von Prozessen
 Prozesse erscheinen oft als abweichende und anders gestaltete Gruppe von Seiten. 
 Beispiele sind Check-out- oder Registrierungsprozesse oder Prüfungen bzw. Quizzes. 
 Hier fehlen häufig die Navigationsmöglichkeiten aus anderen Bereichen, 
