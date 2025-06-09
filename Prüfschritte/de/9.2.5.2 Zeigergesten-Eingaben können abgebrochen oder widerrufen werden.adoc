@@ -44,20 +44,21 @@ sind.
 
 === 2. Prüfung
 
-Es wird auf einem Smartphone überprüft, ob es Bedienelemente gibt, deren
-Funktionen durch Down-Events ausgelöst werden.
-Die Prüfung auf dem Desktop ist
+Es wird sowohl im Desktop-Browser als auch auf einem Smartphone überprüft, ob es Bedienelemente gibt, deren
+Funktion durch Down-Events ausgelöst werden.
+Die Prüfung auf dem Desktop allein ist
 nicht ausreichend, weil hier Touch-Events wie `touchstart` ggf. nicht
 ausgewertet werden.
 
 . Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger kurz
   liegen lassen.
-. Beobachten, ob nun schon eine Funktion ausgeführt wird.
+. Im Desktop-Browser auf Bedienelemente (Links, Schalter) ein MouseDown ausführen.
+. In beiden Fällen beobachten, ob nun schon eine Funktion ausgeführt wird.
   Dies geschieht wahrscheinlich aufgrund eines Down-Events.
-. Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen
+. Wenn keine Funktion ausgelöst wird, Finger/Maus vom Punkt der Berührung wegbewegen
   und loslassen.
 Dadurch wird in der Regel der Aufruf des Links oder der Funktion
-  vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Seite
+  vermieden, selbst wenn der berührte Punkt dem Finger/der Maus folgt (die Seite
   gescrollt wird).
 . Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion
   abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
