@@ -28,9 +28,10 @@ und müssen daher ebenfalls auf der obersten Interaktionsebene positioniert sein
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, 
-wenn auf der Webseite ein Videoplayer eingebunden ist, 
+wenn auf der Webseite ein Videoplayer mit Entwickler-definierten Bedienelementen eingebunden ist, 
 der Video-Inhalte mit zugehörigen Audioinhalten abspielt 
 und wenn Untertitel und / oder Audiodeskription angeboten werden.
+Der Prüfschritt ist nicht anwendbar, wenn bei Verwendung nativer Video-Player über das `video`Element die Bedienelemente vom Browser bereitgestellt werden und somit vom Entwickler nicht zu beeinflussen sind.
 
 === 2. Prüfung
 
