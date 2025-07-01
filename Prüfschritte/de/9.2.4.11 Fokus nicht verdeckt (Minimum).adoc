@@ -14,7 +14,7 @@ Blenden Nutzende Inhalte durch eine Aktion ein, können diese Inhalte ebenfalls 
 Für sehende Menschen, die auf Tastaturbedienung angewiesen sind, ist es wichtig, wahrnehmen zu können, welches Bedienelement aktuell fokussiert ist. Das gilt auch für Menschen, die ein Gerät nutzen, das über die Tastaturschnittstelle bedient wird, wie zum Beispiel Schaltersteuerung oder Spracheingabe. Die fokussierte Bedienelement ist der Ort, an dem die Interaktion auf der Seite stattfindet. Wenn der Benutzer das Element nicht sehen kann, weiß er möglicherweise nicht, wie er weiter vorgehen soll, oder er könnte sogar denken, das System reagiere nicht mehr.
 
 Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen Web-Inhalte das fokussierte Element vollständig verdecken. So können etwa fest positionierte Kopf- und Fußzeilen die fokussierten Bedienelemente und deren Fokusindikator überlagern. 
-Andere typische Inhalte, die zu Verdeckung des Bedienelemets führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
+Andere typische Inhalte, die zu Verdeckung des Bedienelements führen können, sind nicht-modale Dialoge (zum Beispiel ein nicht-modaler Cookie-Dialog). 
 
 == Wie wird geprüft?
 
