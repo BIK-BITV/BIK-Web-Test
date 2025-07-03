@@ -100,7 +100,7 @@ benutzerdefinierte Radio Inputs und Checkboxen sind von dieser Anforderung jedoc
 
 ==== Teilweise erfüllt oder schlechter
 
-Die Zielgröße eines interaktiven Elements umfasst nicht 24 x 24 CSS-Pixel ès gilt auch keine der Ausnahmen (zum Beispiel gibt es keinen ausreichenden Abstand).
+Die Zielgröße eines interaktiven Elements umfasst nicht 24 x 24 CSS-Pixel und es gilt auch keine der Ausnahmen (zum Beispiel gibt es keinen ausreichenden Abstand zwischen benachbarten Zielen).
 
 == Quellen
 
