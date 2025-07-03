@@ -36,7 +36,7 @@ Der Prüfschritt ist anwendbar, wenn interaktive Elemente vorhanden sind.
 
 === 2. Prüfung
 
-* Interaktive Elemente, die mit Zeigeräten (z. B. Maus oder Touch) aktiviert werden 
+* Interaktive Elemente, die mit Zeiger-Eingaben (z. B. Mausklick oder Touch) aktiviert werden 
 und nicht unter die Ausnahmen fallen, ermitteln.
 * Für jedes Ziel prüfen, ob die Größe ausreicht oder ansonsten ein ausreichender Abstand zu benachbarten Zielen vorhanden ist.
 * Um die CSS-Pixelgröße eines interaktiven Elements zu bestimmen, im Zweifelsfall die Inspektor-Funktion des Browsers verwenden:
