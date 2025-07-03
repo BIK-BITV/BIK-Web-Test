@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion nötig, muss die Bedienung auch mit einer einfachen Zeigeraktion (ohne Ziehbewegung) möglich sein. Ausnahme: Das Ziehen ist unerlässlich oder die Funktion wird vom Browser bestimmt.
+Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion nötig, muss die Bedienung auch mit einer Eingabe mittels https://www.w3.org/TR/WCAG22/#dfn-single-pointer[einfachem Zeiger] ohne Ziehbewegung möglich sein. Ausnahme: Das Ziehen ist unerlässlich oder die Funktion wird vom Browser bestimmt.
 
 == Warum wird das geprüft?
 
