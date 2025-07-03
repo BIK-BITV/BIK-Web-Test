@@ -10,7 +10,7 @@ Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion
 == Warum wird das geprüft?
 
 Selbst die einfachste Ziehbewegung erfordert eine recht präzise Steuerung des Zeigers (z. B. Maus oder Finger). Dies kann für Nutzende, die Probleme mit der Feinmotorik haben oder Hilfsmittel verwenden, die die Zeigerbewegung durch Sprachbefehle oder andere Eingaben 
-simulieren, schwierig bis unmöglich sein. Es muss daher eine alternative Methode nur über Zeigeraktionen (ohne Ziehbewegung) zur Verfügung gestellt werden. Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einfache Zeigeraktion erlaubt 
+simulieren, schwierig bis unmöglich sein. Es muss daher eine alternative Methode für Eingaben über einfache Zeiger ohne Ziehbewegung zur Verfügung gestellt werden. Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einen Mauskick oder Antippen mit dem Finger (ggf. auch mit Halten = long press) erlaubt 
 ein Aktions-Menü die Auswahl des Zielorts.
 
 == Wie wird geprüft
@@ -24,15 +24,15 @@ Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Zi
 . Prüfen, ob Funktionen vorhanden sind, die über Ziehbewegungen ausgeführt werden (z. B. das Ziehen von Elementen in andere Container oder das Verschieben von Schiebereglern).
 . Wenn eine solche Funktion über Ziehbewegungen vorhanden ist: Kann die gleiche Funktion auch ohne Ziehbewegung ausgeführt werden? Dies kann auf verschiedene Weise umgesetzt werden, zum Beispiel:
 
-  * Nach Aktivierung eines Elements über einfache Zeigeraktion erlaubt ein Aktions-Menü die Auswahl des Zielorts.
-  * Nach Aktivierung eines Elements über einfache Zeigeraktion erscheinen im Kontext des Elements Pfeile, die ein schrittweises Verschieben des Elements erlauben.
+  * Nach Aktivierung eines Elements durch Eingabe mittels einfachem Zeiger ohne Ziehbewegung erlaubt ein Aktions-Menü die Auswahl des Zielorts.
+  * Nach Aktivierung eines Elements durch Eingabe mittels einfachem Zeiger ohne Ziehbewegung erscheinen im Kontext des Elements Pfeile, die ein schrittweises Verschieben des Elements erlauben.
   * Ein einfaches Tippen oder Klicken auf die gewünschte Position eines Schiebereglers auf der Achse (groove) führt zum Versetzen der Position des Reglerknopfes (thumb).
   * Die Funktion kann auch über numerische Eingaben eines Wertes über die virtuelle Tastatur ausgeführt werden.
 
 === 3. Hinweise
 
 *	Bei einer Ziehbewegungen ist nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig.
-*	Der Prüfschritt 2.5.7 "Ziehbewegungen" verlangt eine Alternative für die Aktivierung der jeweiligen Funktion über einfache Zeiger-Eingaben, unabhängig von der Tastaturbedienbarkeit, die parallel in Prüfschritt 9.2.1.1 geprüft wird. Wenn die jeweilige Funktion mittels Tastatureingabe verfügbar ist, ist dies also nicht automatisch eine Alternative, es sei denn, diese Alternative (etwa ein Ausklapp-Menü zum Verschieben eines ausgewählten Elements) ist vollständig ebenso über einfache Zeigereingaben bedienbar.
+*	Der Prüfschritt 2.5.7 "Ziehbewegungen" verlangt eine Alternative für die Aktivierung der jeweiligen Funktion über Eingabe mittels einfachem Zeiger ohne Ziehbewegung, unabhängig von der Tastaturbedienbarkeit, die parallel in Prüfschritt 9.2.1.1 geprüft wird. Wenn die jeweilige Funktion mittels Tastatureingabe verfügbar ist, ist dies also nicht automatisch eine Alternative, es sei denn, diese Alternative (etwa ein Ausklapp-Menü zum Verschieben eines ausgewählten Elements) ist vollständig ebenso über einfache Zeigereingaben bedienbar.
 *	Das vom Browser unterstützte Scrollen einer Seite fällt nicht in den Anwendungsbereich, ebenso wenig wie mit CSS-overflow scrollbar gemachte Bereiche der Seite.
 
 === 4. Bewertung
@@ -50,7 +50,7 @@ Für das Ausführen einer Funktion mit Ziehbewegung gibt es keine alternative Me
 === Abgrenzung zu anderen Prüfschritten
 
 * Prüfschritt 2.1.1 Ohne Maus nutzbar prüft, ob alle Funktionen auch mit der Tastatur bedienbar sind. 
-* Prüfschritt 2.5.7 Ziehbewegungen prüft hingegen, ob die Bedienung mit einer einfachen Zeigereingabe oder eine Folge von solchen einfachen Eingaben möglich ist (zum Beispiel Klicken oder Tippen), denn eine funktionierende Tastaturbedienung bedeutet nicht zwangsläufig, 
+* Prüfschritt 2.5.7 Ziehbewegungen prüft hingegen, ob die Bedienung durch Eingabe mittels einfachem Zeiger ohne Ziehbewegung oder eine Folge von solchen einfachen Eingaben möglich ist (zum Beispiel Klicken oder Tippen), denn eine funktionierende Tastaturbedienung bedeutet nicht zwangsläufig, 
 dass die Ziehfunktion auch über einfache Zeigeraktionen ausführbar ist.
 * Prüfschritt 2.5.7 bezieht sich auf *Ziehbewegungen* (nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig). Prüfschritt 2.5.1 Alternativen für komplexe Zeigergesten behandelt *Zeigergesten,* 
 d.h. pfadbasierte Gesten (eine bestimmte Richtung, d. h. ein bestimmter Pfad ist für die Ausführung nötig) und *Mehrpunktgesten* (z. B. Zwei-Finger-Spreizgeste).
