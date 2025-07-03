@@ -10,7 +10,7 @@ Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion
 == Warum wird das geprüft?
 
 Selbst die einfachste Ziehbewegung erfordert eine recht präzise Steuerung des Zeigers (z. B. Maus oder Finger). Dies kann für Nutzende, die Probleme mit der Feinmotorik haben oder Hilfsmittel verwenden, die die Zeigerbewegung durch Sprachbefehle oder andere Eingaben 
-simulieren, schwierig bis unmöglich sein. Es muss daher eine alternative Methode für Eingaben über einfache Zeiger ohne Ziehbewegung zur Verfügung gestellt werden. Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einen Mauskick oder Antippen oder Tippen mit dem Finger (ggf. auch mit Halten = long press) erlaubt 
+simulieren, schwierig bis unmöglich sein. Es muss daher eine alternative Methode für Eingaben über einfache Zeiger ohne Ziehbewegung zur Verfügung gestellt werden. Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einen Mauskick oder Antippen mit dem Finger (ggf. auch mit Halten = long press) erlaubt 
 ein Aktions-Menü die Auswahl des Zielorts.
 
 == Wie wird geprüft
