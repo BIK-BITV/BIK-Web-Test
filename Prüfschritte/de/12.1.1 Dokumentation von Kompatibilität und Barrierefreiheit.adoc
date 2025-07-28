@@ -11,6 +11,7 @@ und -Funktionen auflisten und deren Nutzung erklären,
 sofern diese als Teil des Web-Angebots selbst implementiert wurden. 
 Dazu gehören zum Beispiel Vorlesefunktionen, 
 Funktionen zum Einstellen individueller Farbschemata, 
+Informationen in Leichter Sprache oder Gebärdensprache,
 oder verfügbare Tastaturkurzbefehle. 
 Auch Informationen zur (möglicherweise eingeschränkten) Kompatibilität 
 mit assistiven Technologien zählen dazu.
@@ -59,6 +60,7 @@ sofern sie auf der Webseite integriert sind, etwa:
 ** Funktionen, die Nutzenden die Einstellung individueller Farbschemata erlauben 
 ** Funktionen für eine verbesserte Darstellung des Maus- oder Tastaturfokus
 ** Funktionen zur Anpassung von Textgrößen oder Textabständen
+** Informationen in Leichter Sprache oder Gebärdensprache
 ** Besondere Bedienungsarten mit Tastatur / Tastenkombinationen, 
 z.B. spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Hinweise auf unterstützte Umgebungen, 
