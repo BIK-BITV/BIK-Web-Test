@@ -115,43 +115,43 @@ geprüft.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#time-based-media[
+* https://www.w3.org/TR/WCAG22/#time-based-media[
   Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
 
 ==== Success criteria
 
-* https://www.w3.org/TR/WCAG21/#captions-prerecorded[
+* https://www.w3.org/TR/WCAG22/#captions-prerecorded[
   1.2.2 Captions (Prerecorded)] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G87[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G87[
   G87: Providing closed captions]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G93[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G93[
   G93: Providing open (always visible) captions]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H95[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H95[
   H95: Using the track element to provide captions]
 
 ===== SMIL Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM11[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM11[
   SM11: Providing captions through synchronized text streams in SMIL 1.0]
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM12[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM12[
   SM12: Providing captions through synchronized text streams in SMIL 2.0]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F8[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F8[
   F8: Failure of Success Criterion 1.2.2 due to captions omitting some dialogue or important sound effects]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F74[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F74[
   F74: Failure of SC1.2.2 and 1.2.8 due to not labeling a synchronized media
   alternative to text as an alternative]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F75[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F75[
   F75: Failure of Success Criterion 1.2.2 by providing synchronized media
   without captions when the synchronized media presents more information than
   is presented on the page]
