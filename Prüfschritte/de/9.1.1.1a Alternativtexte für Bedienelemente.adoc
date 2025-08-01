@@ -266,7 +266,7 @@ der Grafik / die URL der Zieldatei vor.
 Da SVG noch nicht ausreichend in allen Screenreader-Browser-Kombinationen
 unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden
 (siehe
-ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar").]
+ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
   <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert
   verfügbar>>).
