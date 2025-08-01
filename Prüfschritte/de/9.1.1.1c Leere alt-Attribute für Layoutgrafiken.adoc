@@ -121,32 +121,32 @@ Die anderen Teilbilder sollten mit leeren ``alt``-Attributen versehen sein.
 
 ==== Guideline
 
-* http://www.w3.org/TR/WCAG21/#text-alternatives[
+* http://www.w3.org/TR/WCAG22/#text-alternatives[
   Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text
   content so that it can be changed into other forms people need, such as large
   print, braille, speech, symbols or simpler language]
 
 ==== Success criterion
 
-* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[
+* http://www.w3.org/TR/WCAG22/#x1-1-1-non-text-content[
   1.1.1 Non-text Content] (Level A)
 
 ==== Techniques
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H67[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H67[
   H67: Using null alt text and no title attribute on img elements for images
   that AT should ignore]
 
 ===== CSS Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C9[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C9[
   C9: Using CSS to include decorative images]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F38[
   F38: Failure of Success Criterion 1.1.1 due to omitting the ``alt``-attribute
   for non-text content used for decorative purposes only in HTML]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[
@@ -156,7 +156,7 @@ Die anderen Teilbilder sollten mit leeren ``alt``-Attributen versehen sein.
 == Quellen
 
 Die WCAG 2.0-Technik
-https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67]
+https://www.w3.org/WAI/WCAG22/Techniques/html/H67.html[H67]
 sieht zusätzlich vor, dass bei Layout-Grafiken auch kein ``title``-Attribut
 vorhanden sein soll oder dass das ``title``-Attribut leer ist:
 
@@ -169,7 +169,7 @@ Check that `alt` attribute is present and empty or contains only whitespace
 (but not )
 ____
 
-(https://www.w3.org/WAI/WCAG21/Techniques/html/H67.html[H67: Using null alt
+(https://www.w3.org/WAI/WCAG22/Techniques/html/H67.html[H67: Using null alt
 text and no title attribute on img elements for images that AT should ignore])
 
 == Fragen zu diesem Prüfschritt
