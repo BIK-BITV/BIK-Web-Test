@@ -141,32 +141,32 @@ endif::env_embedded[]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#contrast-minimum[
+* https://www.w3.org/TR/WCAG22/#contrast-minimum[
   1.4.3 Contrast (Minimum)] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G18.html[
   G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text
   (and images of text) and background behind the text]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G145.html[
   G145: Ensuring that a contrast ratio of at least 3:1 exists between text
   (and images of text) and background behind the text]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G148.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G148.html[
   G148: Not specifying background color, not specifying text color, and not
   using technology features that change those defaults]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G174.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G174.html[
   G174: Providing a control with a sufficient contrast ratio that allows users
   to switch to a presentation that uses sufficient contrast]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F83.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F83.html[
   F83: Failure of Success Criterion 1.4.3 and 1.4.6 due to using background
   images that do not provide sufficient contrast with foreground text (or images of text)]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F24.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F24.html[
   F24: Failure of Success Criterion 1.4.3, 1.4.6 and 1.4.8 due to specifying
   foreground colors without specifying background colors or vice versa]
 
