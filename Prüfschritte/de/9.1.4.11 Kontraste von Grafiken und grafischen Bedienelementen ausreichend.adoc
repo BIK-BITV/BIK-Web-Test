@@ -182,35 +182,35 @@ bewertet.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[
+* https://www.w3.org/TR/WCAG22/#distinguishable[
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#non-text-contrast[
+* https://www.w3.org/TR/WCAG22/#non-text-contrast[
   1.4.11 Non-Text Contrast] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G174[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G174[
   G174: Providing a control with a sufficient contrast ratio that allows users
   to switch to a presentation that uses sufficient contrast]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G195.html[
   G195: Using an author-supplied, highly visible focus indicator]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G207.html[
   G207: Ensuring that a contrast ratio of 3:1 is provided for icons]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G209.html[
   G209: Provide sufficient contrast at the boundaries between adjoining colors]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F78[
   F78: Failure of Success Criterion 2.4.7 due to styling element outlines and
   borders in a way that removes or renders non-visible the visual focus indicator]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+* https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html[
   Understanding Success Criterion 1.4.11: Non-text Contrast]
   (zur Zeit nur auf Englisch verfügbar)
