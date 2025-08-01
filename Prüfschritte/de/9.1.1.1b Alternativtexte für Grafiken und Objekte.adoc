@@ -375,52 +375,52 @@ endif::env_embedded[]
 
 ==== Guideline
 
-* http://www.w3.org/TR/WCAG21/#text-alternatives[
+* http://www.w3.org/TR/WCAG22/#text-alternatives[
   Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text
   content so that it can be changed into other forms people need, such as
   large print, braille, speech, symbols or simpler language]
 
 ==== Success criterion
 
-* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[
+* http://www.w3.org/TR/WCAG22/#x1-1-1-non-text-content[
   1.1.1 Non-text Content] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G73[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G73[
   G73: Providing a long description in another location with a link to it that
   is immediately adjacent to the non-text content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G74[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G74[
   G74: Providing a long description in text near the non-text content, with a
   reference to the location of the long description in the short description]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G82[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G82[
   G82: Providing a text alternative that identifies the purpose of the
   non-text content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G92[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G92[
   G92: Providing long description for non-text content that serves the same
   purpose and presents the same information]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G94[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G94[
   G94: Providing short text alternative for non-text content that serves the
   same purpose and presents the same information as the non-text content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G95[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G95[
   G95: Providing short text alternatives that provide a brief description of
   the non-text content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G100[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G100[
   G100: Providing the accepted name or a descriptive name of the non-text
   content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G196[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G196[
   G196: Using a text alternative on one item within a group of images that
   describes all items in the group]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H37[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H37[
   H37: Using `alt` attributes on `img` elements]
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H46[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H46[
   H46: Using `noembed` with `embed`]
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H53[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H53[
   H53: Using the body of the `object` element]
 
 ===== ARIA Techniques
@@ -434,19 +434,19 @@ endif::env_embedded[]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F3[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F3[
   F3: Failure of Success Criterion 1.1.1 due to using CSS to include images
   that convey important information]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F20[
   F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text
   alternatives when changes to non-text content occur]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F30[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F30[
   F30: Failure of Success Criterion 1.1.1 and 1.2.1 due to using text
   alternatives that are not alternatives]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F65[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F65[
   F65: Failure of Success Criterion 1.1.1 due to omitting the `alt` attribute
   on `img` elements, `area` elements, and `input` elements of type 'image']
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F67[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F67[
   F67: Failure of Success Criterion 1.1.1 and 1.2.1 due to providing long
   description for non-text content that does not serve the same purpose or
   does not present the same information]
