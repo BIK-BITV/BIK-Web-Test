@@ -99,51 +99,51 @@ endif::env_embedded[]
 
 ==== Guideline
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#adaptable[
+* https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=131#adaptable[
   Guideline 1.3 Adaptable: Create content that can be presented in different
   ways (for example simpler layout) without losing information or structure.]
 
 ==== Success criterion
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#meaningful-sequence[
+* https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=131#meaningful-sequence[
   1.3.2 Meaningful Sequence] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G57.html[
   G57 Ordering the content in a meaningful sequence]
 
 ==== CSS Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C6.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C6.html[
   C6 Positioning content based on structural markup]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C8.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C8.html[
   C8 Using CSS letter-spacing to control spacing within a word]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C27.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C27.html[
   C27: Making the DOM order match the visual order]
 
 ==== Scripting Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR21.html[
   SCR21: Using functions of the Document Object Model (DOM) to add content to
   a page]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR28.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR28.html[
   SCR28: Using an expandable and collapsible menu to bypass block of content]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F1.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F1.html[
   F1: Failure of Success Criterion 1.3.2 due to changing the meaning of
   content by positioning information with CSS]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F32.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F32.html[
   F32: Failure of Success Criterion 1.3.2 due to using white space characters
   to control spacing within a word]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F34.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F34.html[
   F34: Failure of Success Criterion 1.3.1 and 1.3.2 due to using white space
   characters to format tables in plain text content]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F49.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F49.html[
   F49 Failure of Success Criterion 1.3.2 due to using an HTML layout table
   that does not make sense when linearized]
 
