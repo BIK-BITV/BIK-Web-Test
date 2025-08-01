@@ -110,27 +110,27 @@ Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#time-based-media[
+* https://www.w3.org/TR/WCAG22/#time-based-media[
   Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded[
+* https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded[
   1.2.1 Audio-only and Video-only (Prerecorded)] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G166[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G166[
   G166: Providing audio that describes the important video content and
   describing it as such]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G158[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G158[
   G158: Providing an alternative for time-based media for audio-only content]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G159[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G159[
   G159: Providing an alternative for time-based media for video-only content]
 
 ===== HTML Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H53.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/html/H53.html[
   H53: Using the body of the object element]
