@@ -111,13 +111,13 @@ Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Posi
 
 ==== Guidelines
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[
+* https://www.w3.org/TR/WCAG22/#distinguishable[
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background]
 
 ==== Success criteria
 
-* https://www.w3.org/TR/WCAG21/#use-of-color[
+* https://www.w3.org/TR/WCAG22/#use-of-color[
   1.4.1 Use of Color] (Level A)
 * https://www.w3.org/TR/WCAG21/#non-text-contrast[
   1.4.11 Non-text contrast] (Level AA)
@@ -126,31 +126,31 @@ Kennzeichnung der aktuellen Menüposition: Ein Webangebot, das die aktuelle Posi
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G14.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G14.html[
   G14: Ensuring that information conveyed by color differences is also
   available in text]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G111.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G111.html[
   G111: Using color and pattern]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G182.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G182.html[
   G182: Ensuring that additional visual cues are available when text color
   differences are used to convey information]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G183.html[
   G183: Using a contrast ratio of 3:1 with surrounding text and providing
   additional visual cues on focus for links or controls where color alone is
   used to identify them]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G205.html[
   G205: Including a text cue for colored form control labels]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F13.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F13.html[
   F13: Failure of Success Criterion 1.4.1 due to having a text alternative
   that does not include information that is conveyed by color differences in
   the image]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F73.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F73.html[
   F73: Failure of Success Criterion 1.4.1 due to creating links that are not
   visually evident without color vision]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F81.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F81.html[
   F81: Failure of Success Criterion 1.4.1 due to identifying required or error
   fields using color differences only]
 
@@ -190,7 +190,7 @@ Note: This should not in any way discourage the use of color on a page, or
 even color coding if it is redundant with other visual indication.
 ____
 
-https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
+https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html
 
 == Fragen zu diesem Prüfschritt
 
