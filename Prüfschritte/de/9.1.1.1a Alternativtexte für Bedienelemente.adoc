@@ -269,7 +269,7 @@ unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden
 ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
   <<9.4.1.2 Name, Rolle, Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert
-  verfügbar>>).
+  verfügbar>>
 endif::env_embedded[]
 Die Rolle kann entfallen, wenn Text im gleichen Link das Linkziel
 aussagekräftig beschreibt: dann sollte die SVG-Grafik mit `aria-hidden="true"`
