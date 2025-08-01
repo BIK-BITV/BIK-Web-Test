@@ -91,39 +91,39 @@ Wenn sich die Lautstärke regeln lässt:
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#audio-control[
+* https://www.w3.org/TR/WCAG22/#audio-control[
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background.]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#audio-control[
+* https://www.w3.org/TR/WCAG22/#audio-control[
   1.4.2 Audio Control] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G60.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G60.html[
   G60: Playing a sound that turns off automatically within three seconds]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G170.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G170.html[
   G170: Providing a control near the beginning of the Web page that turns off
   sounds that play automatically]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G171.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G171.html[
   G171: Playing sounds only on user request]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F23.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F23.html[
   F23: Failure of 1.4.2 due to playing a sound longer than 3 seconds where
   there is no mechanism to turn it off]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F93.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F93.html[
   F93: Failure of Success Criterion 1.4.2 for absence of a way to pause or
   stop an HTML5 media element that autoplays]
 
 == Quellen
 
-=== Bedeutung der Tonabschaltung nach WCAG 2.1
+=== Bedeutung der Tonabschaltung nach WCAG 2.2
 
 [.BLOCK_LANG_EN]
 ____
