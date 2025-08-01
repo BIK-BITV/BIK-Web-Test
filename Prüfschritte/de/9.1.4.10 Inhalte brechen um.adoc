@@ -91,38 +91,38 @@ bewertet.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[
+* https://www.w3.org/TR/WCAG22/#distinguishable[
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#reflow[
+* https://www.w3.org/TR/WCAG22/#reflow[
   1.4.10 Reflow] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C32.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C32.html[
   C32: Using media queries and grid CSS to reflow columns]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C31.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C31.html[
   C31: Using CSS Flexbox to reflow content]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C33.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C33.html[
   C33: Allowing for Reflow with Long URLs and Strings of Text]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C38.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C38.html[
   C38: Using CSS width, max-width and flexbox to fit labels and inputs]
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR34.html[
   SCR34: Calculating size and position in a way that scales with text size]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G206.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G206.html[
   G206: Providing options within the content to switch to a layout that does
   not require the user to scroll horizontally to read a line of text]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F102[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F102[
   F102: Failure of Success Criterion 1.4.10 due to content disappearing and
   not being available when content has reflowed]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[
+* https://www.w3.org/WAI/WCAG22/Understanding/reflow.html[
   Understanding Reflow] (zur Zeit nur auf Englisch verfügbar)
