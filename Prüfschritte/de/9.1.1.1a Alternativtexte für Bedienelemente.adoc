@@ -268,7 +268,7 @@ unterstützt werden, sollte derzeit die Rolle über WAI-ARIA vermittelt werden
 (siehe
 ifdef::env_embedded[9.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
-  <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert
+  <<9.4.1.2 Name, Rolle, Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert
   verfügbar>>).
 endif::env_embedded[]
 Die Rolle kann entfallen, wenn Text im gleichen Link das Linkziel
