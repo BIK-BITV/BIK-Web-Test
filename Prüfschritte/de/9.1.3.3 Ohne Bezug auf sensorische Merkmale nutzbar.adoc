@@ -62,29 +62,29 @@ dagegen geht es um Form, Position, oder textliche Bezüge.
 
 ==== Guidelines
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#adaptable[
+* https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=131%2C132#adaptable[
   Guideline 1.3 Adaptable: Create content that can be presented in different
   ways (for example simpler layout) without losing information or structure.]
 
 ==== Success criterion
 
-* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#sensory-characteristics[
+* https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=131%2C132#sensory-characteristics[
   1.3.3 Sensory Characteristics] (Level A)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G96.html[
   G96 Providing textual identification of items that otherwise rely only on
   sensory information to be understood]
 
 ===== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F14.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F14.html[
   F14: Failure of Success Criterion 1.3.3 due to identifying content only by
   its shape or location]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F26.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F26.html[
   F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol
   alone to convey information]
 
@@ -101,4 +101,4 @@ Providing additional information other than shape and/or location will allow
 them to understand the information conveyed by shape and/or alone.
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html)
+(https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html)
