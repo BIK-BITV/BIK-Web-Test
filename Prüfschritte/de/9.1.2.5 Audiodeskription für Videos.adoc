@@ -117,13 +117,13 @@ nicht bzw. nicht voll erfüllt.
 
 ===== SMIL Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM1.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM1.html[
   SM1: Adding extended audio description in SMIL 1.0]
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM2.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM2.html[
   SM2: Adding extended audio description in SMIL 2.0]
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM6.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM6.html[
   SM6: Providing audio description in SMIL 1.0]
-* https://www.w3.org/WAI/WCAG21/Techniques/smil/SM7.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/smil/SM7.html[
   SM7: Providing audio description in SMIL 2.0]
 
 == Quellen
