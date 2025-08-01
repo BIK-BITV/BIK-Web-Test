@@ -148,5 +148,5 @@ than requiring that the sound be stopped by an action of the user after they
 land on the page.
 ____
 
-(https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html[
+(https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html[
 Audio Control: Understanding SC 1.4.2])
