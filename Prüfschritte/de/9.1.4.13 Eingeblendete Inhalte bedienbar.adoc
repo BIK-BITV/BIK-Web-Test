@@ -119,23 +119,23 @@ geprüft.
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus[
+* https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus[
   1.4.13 Content on Hover or Focus] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39[
+* https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR39[
   SCR39: Making content on focus or hover hoverable, dismissible, and
   persistent]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F95[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F95[
   F95: Failure of Success Criterion 1.4.13 due to content shown on hover not
   being hoverable]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus[
+* https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus[
   Understanding Success Criterion 1.4.13: Content on Hover or Focus]
   (zur Zeit nur auf Englisch verfügbar)
