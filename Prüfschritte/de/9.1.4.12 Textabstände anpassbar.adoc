@@ -56,31 +56,31 @@ der nicht über eine Grafik bereitgestellt wird).
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[
+* https://www.w3.org/TR/WCAG22/#distinguishable[
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#text-spacing[
+* https://www.w3.org/TR/WCAG22/#text-spacing[
   1.4.12 Text Spacing] (Level AA)
 
 ==== Sufficient Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C36.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C36.html[
   C36: Allowing for text spacing override]
-* https://www.w3.org/WAI/WCAG21/Techniques/css/C35.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/css/C35.html[
   C35: Allowing for text spacing without wrapping]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F104[
+* https://www.w3.org/WAI/WCAG22/Techniques/failures/F104[
   F104: Failure of Success Criterion 1.4.12 due to clipped or overlapped
   content when text spacing is adjusted]
 
 == Quellen
 
-* https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[
+* https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html[
   Understanding Success Criterion 1.4.12: Text Spacing]
   (zur Zeit nur auf Englisch verfügbar)
 * https://github.com/openstyles/stylus/blob/master/README.md[
