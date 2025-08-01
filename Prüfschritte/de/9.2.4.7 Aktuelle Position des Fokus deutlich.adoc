@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Der Tastaturfokus soll deutlich hervorgehoben werden. Wenn Autoren keine eigene Fokushervorhebung umsetzen, darf die Standardhervorhebung durch den Browser nicht über CSS unterdrückt werden.
-Der Kontrast der Fokushervorhebung (z.B. Fokusrahmen um Elemente, Unterstreichung, Farbumkehr) zum nicht-fokussierten Zustand muss mindestens 3:1 betragen.
+In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
