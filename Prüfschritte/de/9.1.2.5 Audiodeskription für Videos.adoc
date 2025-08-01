@@ -95,24 +95,24 @@ nicht bzw. nicht voll erfüllt.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#time-based-media[
+* https://www.w3.org/TR/WCAG22/#time-based-media[
   Guideline 1.2 Time-based Media: Provide alternatives for time-based media]
 
 ==== Success criterion
 
-* https://www.w3.org/TR/WCAG21/#audio-description-prerecorded[
+* https://www.w3.org/TR/WCAG22/#audio-description-prerecorded[
   1.2.5 Audio Description (Prerecorded)] (Level AA)
 
 ==== Techniques
 
 ===== General Techniques
 
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G78.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G78.html[
   G78: Providing a second, user-selectable, audio track that includes audio
   descriptions]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G173.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G173.html[
   G173: Providing a version of a movie with audio descriptions]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G203.html[
+* https://www.w3.org/WAI/WCAG22/Techniques/general/G203.html[
   G203: Using a static text alternative to describe a talking head video]
 
 ===== SMIL Techniques
