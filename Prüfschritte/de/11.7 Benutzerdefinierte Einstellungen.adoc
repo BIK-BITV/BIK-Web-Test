@@ -67,9 +67,9 @@ Der Firefox-Browser übernimmt für `button`-Elemente
 die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe.
 Dies darf nicht als Fehler bewertet werden. 
 
-Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], 
-um bei der Entwicklung der Prüfung mitzuwirken.
+==== 3.3 CSS-Schlüsselwort `currentColor`
+Beim Einsatz von informationstragenden Grafiken kann für Inline-SVGs das https://kulturbanause.de/blog/das-currentcolor-keyword-von-css[CSS-Schlüsselwort `currentColor`] verwendet werden. Es übernimmt automatisch die definierte Vordergrundfarbe (`color`). Wird für ein Inline-SVG `fill: currentColor` per CSS gesetzt, passt sich die Füllfarbe des Icons automatisch an die aktuelle Schrift- bzw. Vordergrundfarbe des umgebenden Elements an. Ändert sich die Vordergrundfarbe durch benutzerdefinierte Browsereinstellungen oder Kontrastmodi, wird diese auch vom SVG übernommen – die Grafik bleibt dadurch auch vor einer benutzerdefinierten Hintergrundfarbe gut sichtbar.
+Dabei muss darauf geachtet werden, dass im SVG selbst kein `fill`-Attribut vorhanden ist, da dieses sonst die CSS-Regel überschreibt.
 
 === 4. Bewertung
 
