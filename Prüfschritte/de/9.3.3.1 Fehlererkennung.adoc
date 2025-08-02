@@ -37,7 +37,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 
 * Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
 * Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
-* Die Verknüpfung von Fehlermeldungen mit `aria-errormessage` (siehe https://www.w3.org/TR/wai-aria-1.1/#aria-errormessage[WAI-ARIA 1.1 Spec]) ist bislang noch nicht ausreichend von Browsern unterstützt, um Fehlermeldungen ausreichend zugänglich für Screenreader-Nutzende zu verknüpfen.
+* Die Verknüpfung von Fehlermeldungen mit `aria-errormessage` (siehe https://www.w3.org/TR/wai-aria-1.2/#aria-errormessage[WAI-ARIA 1.2 Spec]) ist bislang noch nicht ausreichend von Browsern unterstützt, um Fehlermeldungen ausreichend zugänglich für Screenreader-Nutzende zu verknüpfen.
 
 ==== 3.2 HTML5 Fehlervalidierung
 
