@@ -35,26 +35,20 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
-* Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße 
-auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24). 
-In den Einstellungen "Erweitert..." 
-sollte für Mindestschriftgröße "Keine" ausgewählt sein.
+. Im Bereich "Sprache und Erscheinungsbild" folgende Einstellungen vornehmen:
+* Die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z. B. 24). 
+In den Einstellungen "Erweitert..." sollte für Mindestschriftgröße "Keine" ausgewählt sein.
 * Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" 
 deutlich abweichende Schrifttypen (Fonts) einstellen 
-und bei der Checkbox "Seiten das Verwenden von eigenen 
-statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
-* Den Button "Farben…" wählen, 
-veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
-* Die Checkbox "Systemfarben verwenden" deaktivieren.
-* Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden"
-den Wert "Immer" auswählen.
-* Mit "OK" bestätigen.
+und die Checkbox "Seiten das Verwenden von eigenen 
+statt der oben gewählten Schriftarten erlauben" deaktivieren.
+* Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, 
+veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, 
 Schriftgröße und Vorder- bzw. Hintergrund-Farben 
 auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob alle wichtigen Bedienelemente und deren Zustände 
-(z.B. "Hamburger"-Schaltfläche 
-und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
+(z. B. "Hamburger"-Schaltfläche und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
 bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind. 
 
 === 3. Hinweise
@@ -83,8 +77,8 @@ um bei der Entwicklung der Prüfung mitzuwirken.
 
 * Die Seite wird im Firefox-Browser 
 nach dem Vornehmen von abweichenden Einstellungen 
-(z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. 
-Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen 
+(z. B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. 
+Alle wichtigen  Funktionen sind auch bei benutzerdefinierten Farbeinstellungen 
 weiterhin bedienbar, 
 Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
 
