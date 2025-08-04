@@ -44,7 +44,7 @@ der nicht über eine Grafik bereitgestellt wird).
   oder den Verlust von Funktionalität kommt.
   
 === 3. Hinweise
-* Die Anforderung ist nicht anwendbar ist auf Elemente wie `input type="file"`, auf die CSS-Anpassungen keine Auswirkung haben.
+* Die Anforderung ist nicht anwendbar auf HTML-Standardelemente wie `input type="file"` oder Optionen einer Ausklappliste (`<select>`). Die CSS-Anpassungen haben keine Auswirkung auf diese Elemente.
 
 === 4. Bewertung
 ==== Erfüllt:
