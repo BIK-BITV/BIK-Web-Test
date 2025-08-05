@@ -20,7 +20,7 @@ Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld entsprich
 
 === 1. Anwendbarkeit des Prüfschritts
 
-* Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
+Der Prüfschritt ist anwendbar, wenn die Seite Formularelemente enthält.
 
 === 2. Prüfung
 
@@ -38,10 +38,9 @@ Die Seite im Firefox oder Chrome Browser aufrufen.
 aufrufen und damit die Struktur der Seite linearisieren.
 . Prüfen, ob in der linearisierten Ansicht die Beschriftung der Eingabefelder klar den Feldern zuzuordnen ist, das heißt, die Beschriftung soll immer direkt *über* oder *vor* dem Feld stehen. Die Beschriftung von Checkboxen und Radiobuttons kann (und sollte in der Regel
 auch) *nach* dem Formularelement stehen.
-
 === 3. Hinweise
 
-* Das ``placeholder``-Attribut ist keine ausreichende Beschriftung im Sinne dieses Prüfschritts. Es verschwindet bei (auch versehentlichen) Nutzereingaben.
+* Das ``placeholder``-Attribut kann nicht als Alternative zu einer Beschriftung im Sinne dieses Prüfschritts eingesetzt werden. Es verschwindet bei (auch versehentlichen) Nutzereingaben. Laut https://html.spec.whatwg.org/multipage/input.html#attr-input-placeholder[HTML-Spezifkation] ist das `placeholder`-Attribut zulässig, um Nutzenden einen zusätzlichen kurzen Hinweis (z. B. ein Wort oder einen kurzer Ausdruck) anzuzeigen, der bei der Eingabe von Daten hilft (z. B. ein Beispielwert, ein erwartetes Format).
 * Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem erklärenden ``title``-Attribut versehen werden.
   Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Gruppenbeschriftung "Datum", welche beispielsweise mit ``fieldset`` und ``legend`` umgesetzt ist. Die Auswahllisten für Tag, Monat und Jahr sind mit einem erklärenden ``title``-Attribut versehen.
 * Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem einzelnen Eingabefeld.
