@@ -70,7 +70,7 @@ Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, aber
 die Zeichenkette der Beschriftung sollte in der gleichen Form in der
 Zeichenkette des zugänglichen Namens enthalten sein.
 
-In Fällen, wo Bedienelemente keinen zugänglichen Namen haben, aber eine zugeordnete visuelle Beschriftung (z.B. ein Textfeld, dessen Beschriftung nicht programmatisch verknüpft ist und dass auch nicht anderweitig programmatisch beschriftet ist), ist nicht nur der Prüfschritt 9.1.3.1h "Info und Beziehungen - Beschriftung von Formularelementen programmatisch ermittelbar", sondern auch dieser Prüfschritt nicht erfüllt.
+In Fällen, wo Bedienelemente keinen zugänglichen Namen haben, aber eine zugeordnete visuelle Beschriftung (z. B. ein Textfeld, dessen Beschriftung nicht programmatisch verknüpft ist und das auch nicht anderweitig programmatisch beschriftet ist), ist nicht nur der Prüfschritt 9.1.3.1h "Info und Beziehungen - Beschriftung von Formularelementen programmatisch ermittelbar", sondern auch dieser Prüfschritt nicht erfüllt.
 
 === 4. Bewertung
 
