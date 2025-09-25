@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 
 ==== 3.2 HTML5 Fehlervalidierung
 
-Bei der nativen HTML-Formularvalidierung sorgt das Attribut `required` dafür, dass beim Absenden eines leeren Pflichtfelds automatisch eine generische Fehlermeldung angezeigt und der Fokus auf das erste fehlerhafte Feld gesetzt wird. 
+Bei der nativen HTML-Formularvalidierung sorgt das Attribut `required` dafür, dass beim Absenden eines Pflichtfelds automatisch eine Validierung stattfindet, eine generische Fehlermeldung angezeigt wird (z.B. bei leergelassenem Pflichtfeld oder bei Eingabe eine nicht semantischen E-Mail-Adresse in  Feldern mit ``type="email"``), und der Fokus auf das erste fehlerhafte Feld gesetzt wird. 
 
 In den meisten gängigen Kombinationen von Browser und Screenreadern wird der Screenreader die generische Fehlermeldung und den programmatischen Namen des Pflichtfelds vorlesen. Während dies grundsätzlich die Anforderungen dieses Erfolgskriteriums erfüllt, gibt es einige Nachteile bei diesem Ansatz:
 
