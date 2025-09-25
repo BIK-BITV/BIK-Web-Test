@@ -36,7 +36,7 @@ Der Prüfschritt ist immer anwendbar.
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
 . Im Bereich "Sprache und Erscheinungsbild" folgende Einstellungen vornehmen:
-* Die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z. B. 24). 
+* Die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z. B. verdoppeln auf 32px). 
 In den Einstellungen "Erweitert..." sollte für Mindestschriftgröße "Keine" ausgewählt sein.
 * Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" 
 deutlich abweichende Schrifttypen (Fonts) einstellen 
