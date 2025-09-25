@@ -50,7 +50,7 @@ In den meisten gängigen Kombinationen von Browser und Screenreadern wird der Sc
 * Die Fehlermeldungen für Felder mit `type="text"` sind unspezifisch, d.h. sie liefern gegenenenfalls keine hilfreichen Hinweise.
 * Bei mehreren Fehlern wird jeweils nur der erste angezeigt. Nach jeder Korrektur und erneutem Absenden erscheint der nächste Fehler, was mehrere Durchläufen erforderlich macht.
 
-Die Bewertung der nativen HTML5 Feldvalidierung bleibt aufgrund technischer Einschränkungen und offener Diskussionen in der Accessibility Guidelines Working Group (AGWG) unscharf und kontextabhängig. Eine normative Festlegung ist derzeit nicht möglich; stattdessen sind Einzelfallbewertung und Augenmaß gefragt. Bei kurzen Formularen, zum Beispiel bei einem Login-Formular oder einem Kontakt-Formular mit wenigen Feldern, kann eine  HTML5-Validierung für die Fehlererkennung ausreichend sein.
+Die Bewertung der nativen HTML5 Feldvalidierung bleibt aufgrund technischer Einschränkungen und offener Diskussionen in der Accessibility Guidelines Working Group (AGWG) unscharf und kontextabhängig. Eine normative Festlegung ist derzeit nicht möglich; stattdessen sind Einzelfallbewertung und Augenmaß gefragt. Bei kurzen Formularen, zum Beispiel bei einem Login-Formular oder einem Kontakt-Formular mit wenigen Feldern, kann eine HTML5-Validierung für die Fehlererkennung ausreichend sein.
 
 === 4. Bewertung
 
