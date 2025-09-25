@@ -78,7 +78,7 @@ Dabei muss darauf geachtet werden, dass im SVG selbst kein `fill`-Attribut vorha
 * Die Seite wird im Firefox-Browser 
 nach dem Vornehmen von abweichenden Einstellungen 
 (z. B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. 
-Alle wichtigen  Funktionen sind auch bei benutzerdefinierten Farbeinstellungen 
+Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen 
 weiterhin bedienbar, 
 Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
 
