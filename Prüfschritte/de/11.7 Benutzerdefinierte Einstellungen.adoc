@@ -48,7 +48,7 @@ veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen un
 Schriftgröße und Vorder- bzw. Hintergrund-Farben 
 auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob alle wichtigen Bedienelemente und deren Zustände 
-(z. B. "Hamburger"-Schaltfläche und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
+(z. B. "Hamburger"-Schaltfläche und Zustände von selbst gestalteten Formularelementen wie Auswahlschalter oder Checkboxen) 
 bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind. 
 
 === 3. Hinweise
