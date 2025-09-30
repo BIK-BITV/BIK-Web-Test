@@ -35,26 +35,20 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element Menü öffnen > Einstellungen)
-* Im Bereich "Sprache und Erscheinungsbild" die Schriftgröße 
-auf einen deutlich höheren Wert als den Standard-Wert setzen (z.B. 24). 
-In den Einstellungen "Erweitert..." 
-sollte für Mindestschriftgröße "Keine" ausgewählt sein.
+. Im Bereich "Sprache und Erscheinungsbild" folgende Einstellungen vornehmen:
+* Die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert setzen (z. B. verdoppeln auf 32px). 
+In den Einstellungen "Erweitert..." sollte für Mindestschriftgröße "Keine" ausgewählt sein.
 * Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" 
 deutlich abweichende Schrifttypen (Fonts) einstellen 
-und bei der Checkbox "Seiten das Verwenden von eigenen 
-statt der oben gewählten Schriftarten erlauben" den Haken entfernen.
-* Den Button "Farben…" wählen, 
-veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen.
-* Die Checkbox "Systemfarben verwenden" deaktivieren.
-* Bei der Auswahlliste "Oben ausgewählte Farben anstatt der Farben der Seite verwenden"
-den Wert "Immer" auswählen.
-* Mit "OK" bestätigen.
+und die Checkbox "Seiten das Verwenden von eigenen 
+statt der oben gewählten Schriftarten erlauben" deaktivieren.
+* Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, 
+veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, 
 Schriftgröße und Vorder- bzw. Hintergrund-Farben 
 auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob alle wichtigen Bedienelemente und deren Zustände 
-(z.B. "Hamburger"-Schaltfläche 
-und Zustände von Formularelementen wie Auswahlschalter und Kontrollkästchen) 
+(z. B. "Hamburger"-Schaltfläche und Zustände von selbst gestalteten Formularelementen wie Auswahlschalter oder Checkboxen) 
 bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind. 
 
 === 3. Hinweise
@@ -73,9 +67,9 @@ Der Firefox-Browser übernimmt für `button`-Elemente
 die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe.
 Dies darf nicht als Fehler bewertet werden. 
 
-Für die Praxis fehlen noch Hinweise. Sie können auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue zu diesem Prüfschritt erstellen], 
-um bei der Entwicklung der Prüfung mitzuwirken.
+==== 3.3 CSS-Schlüsselwort `currentColor`
+Beim Einsatz von informationstragenden Grafiken kann für Inline-SVGs das https://kulturbanause.de/blog/das-currentcolor-keyword-von-css[CSS-Schlüsselwort `currentColor`] verwendet werden. Es übernimmt die definierte Vordergrundfarbe (`color`). Wird für ein Inline-SVG `fill: currentColor` per CSS gesetzt, passt sich die Füllfarbe des Icons automatisch an die aktuelle Schrift- bzw. Vordergrundfarbe des umgebenden Elements an. Ändert sich die Vordergrundfarbe durch benutzerdefinierte Browsereinstellungen oder Kontrastmodi, wird diese auch vom SVG übernommen – die Grafik bleibt dadurch auch vor einer benutzerdefinierten Hintergrundfarbe gut sichtbar.
+Dabei muss darauf geachtet werden, dass im SVG selbst kein `fill`-Attribut vorhanden ist, da dieses sonst die CSS-Regel überschreibt.
 
 === 4. Bewertung
 
@@ -83,7 +77,7 @@ um bei der Entwicklung der Prüfung mitzuwirken.
 
 * Die Seite wird im Firefox-Browser 
 nach dem Vornehmen von abweichenden Einstellungen 
-(z.B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. 
+(z. B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. 
 Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen 
 weiterhin bedienbar, 
 Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
