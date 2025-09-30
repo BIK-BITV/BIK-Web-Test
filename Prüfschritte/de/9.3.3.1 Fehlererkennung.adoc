@@ -33,9 +33,24 @@ Der Prüfschritt ist anwendbar, wenn die Seite Formulare enthält, welche bei in
 
 === 3. Hinweise
 
+==== 3.1 Allgmeine Hinweise
+
 * Wenn serverseitig eine Fehlermeldung auf neuer Seite ausgegeben wird, wird diese wie ein Seitenzustand unter der Ausgangsseite mitgeprüft. Geprüft wird auch die Erfüllung anderer relevanter Prüfkriterien.
 * Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerten.
-* Die Verknüpfung von Fehlermeldungen mit `aria-errormessage` (siehe https://www.w3.org/TR/wai-aria-1.1/#aria-errormessage[WAI-ARIA 1.1 Spec]) ist bislang noch nicht ausreichend von Browsern unterstützt, um Fehlermeldungen ausreichend zugänglich für Screenreader-Nutzende zu verknüpfen.
+* Die Verknüpfung von Fehlermeldungen mit `aria-errormessage` (siehe https://www.w3.org/TR/wai-aria-1.2/#aria-errormessage[WAI-ARIA 1.2 Spec]) ist bislang noch nicht ausreichend von Browsern unterstützt, um Fehlermeldungen ausreichend zugänglich für Screenreader-Nutzende zu verknüpfen.
+
+==== 3.2 HTML5 Fehlervalidierung
+
+Bei der nativen HTML-Formularvalidierung sorgt beispielsweise das Attribut `required` dafür, dass beim Absenden automatisch eine Validierung stattfindet, eine generische Fehlermeldung angezeigt wird (z.B. bei leergelassenem Pflichtfeld oder bei Eingabe eine nicht semantischen E-Mail-Adresse in  Feldern mit ``type="email"``), und der Fokus auf das erste fehlerhafte Feld gesetzt wird. 
+
+In den meisten gängigen Kombinationen von Browser und Screenreadern wird der Screenreader die generische Fehlermeldung und den programmatischen Namen des Pflichtfelds vorlesen. Während dies grundsätzlich die Anforderungen dieses Erfolgskriteriums erfüllt, gibt es einige Nachteile bei diesem Ansatz:
+
+* Je nach eingesetzem Browser ist die Meldung nicht dauerhaft sichtbar oder sie bewegt sich beim Scrollen der Seite nicht mit.
+* Je nach eingesetzem Browser wird die Fehlermeldung bei vergrößertem (gezoomtem) Inhalt nicht vergrößert angezeigt.
+* Die Fehlermeldungen für Felder mit `type="text"` sind unspezifisch, d.h. sie liefern gegenenenfalls keine hilfreichen Hinweise.
+* Bei mehreren Fehlern wird jeweils nur der erste angezeigt. Nach jeder Korrektur und erneutem Absenden erscheint der nächste Fehler, was mehrere Durchläufen erforderlich macht.
+
+Die Bewertung der nativen HTML5 Feldvalidierung bleibt aufgrund technischer Einschränkungen und offener Diskussionen in der Accessibility Guidelines Working Group (AGWG) unscharf und kontextabhängig. Eine normative Festlegung ist derzeit nicht möglich; stattdessen sind Einzelfallbewertung und Augenmaß gefragt. Bei kurzen Formularen, zum Beispiel bei einem Login-Formular oder einem Kontakt-Formular mit wenigen Feldern, kann eine HTML5-Validierung für die Fehlererkennung ausreichend sein.
 
 === 4. Bewertung
 
