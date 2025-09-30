@@ -54,23 +54,39 @@ Sie heben sich deutlich von normalen Textabschnitten ab, oft sind sie
 eingerückt, meist sind den Listeneinträgen Aufzählungszeichen oder Zahlen
 vorangestellt.
 
-Menüs listen Auswahloptionen auf und sind deshalb von ihrer Aufgabe her immer
-Listen, egal wie sie gestaltet sind.
-Sie sollten deshalb auch als Listen ausgezeichnet werden.
+Navigations-Menüs listen Gruppen von Linkzielen auf und sind deshalb von ihrer Aufgabe her immer
+Listen, egal wie sie gestaltet sind. Sie sollten deshalb auch als Listen ausgezeichnet werden.
+Für Aktionsmenüs eignen sich dagegen eher ARIA-Konstrukte wie `menu`.
 
-Definitionslisten dienen hauptsächlich zur Auszeichnung von Glossaren.
-Ihr Einsatz für andere gemeinhin übliche paarige Informationen, 
-etwa Bild und Bildtext, wird akzeptiert.
+Beschreibungslisten (`dl`) repräsentieren eine Liste von Gruppen von Begriffen (spezifiziert mit dem `dt`-Element) 
+und Beschreibungen (bereitgestellt durch `dd`-Elemente). 
+Typische Anwendungen für Beschreibungslisten sind Glossare oder die Darstellung von Schlüssel/Wert-Paaren.
+Ihr Einsatz für andere paarige Informationen wird akzeptiert, auch wenn das Konstrukt von Screenreadern nicht gut unterstützt wird.
 
-Es gibt einige Ausnahmen, bei denen eine Auszeichnung als Liste nicht
-gefordert ist:
+Bei der Einschätzung, ob eine Listenauszeichnung zwingend nötig ist, 
+sollte die Semantik des jeweiligen Elements berücksichtigt werden. 
+So ist z.B. ein Seitenpfad (breadcrumb) nicht zwingend als Liste umzusetzen, 
+schon da er nicht wie eine Liste aussieht und nicht gleichartige Elemente bündelt. 
+In der Praxis wird ein Seitenpfad sowohl als einfache Liste 
+als auch zur Abbildung der Hierarchie als verschachtelte Liste umgesetzt, 
+in anderen Fällen jedoch auch schlicht als Absatz mit Links. 
+Alle diese Umsetzungen sind möglich und haben jeweils Vor- und Nachteile.
 
-* Die "Sie-sind-hier"-Navigation am Seitenanfang (auch breadcrumb trail oder Krümelpfad)
-* Die horizontale Seitenauswahl (Blättermenü) am Kopf- und Fußende, etwa bei mehrseitigen Artikeln
-* Auswahlleisten mit seriellen Einträgen, etwa alphabetische Einträge (A-Z)
-  bei Glossaren, oder eine Auswahlleiste mit Jahreszahlen
-* Gruppen von verschiedenartigen Links am Seitenende mit drei oder weniger
-  Elementen (etwa: "Copyright-Notiz" und "Impressum")
+Ein häufiger Fall ist die Verwendung von komplexten Teaser-Kacheln, 
+die Bild, Überschrift, Begleittext und Link bündeln 
+und je nach Viewportbreite horizontal oder vertikal angeordnet sein können. 
+Solche Kacheln können als ungeordnete Liste umgesetzt werden, 
+dies ist aber nicht zwingend. 
+Wird auf Listenauszeichnung von Gruppen komplexer Kacheln verzichtet, 
+sollten die Inhalte auf andere Weise semantisch gegliedert sein, 
+etwa durch Überschriften-Auszeichnung. 
+Bei längeren und eigenständigen Kachel-Inhalten ist auch die Auszeichnung mittels `article`-Element denkbar.
+Bestehen die Textinhalte von Kacheln nur aus einfachen Links, 
+ist die Listenauszeichnung immer angemessen.
+
+Eine Liste mit nur einem Element kann dann sinnvoll sein, 
+wenn potenziell auch mehr als ein Listeneintrag auftauchen kann 
+(z.B. ein oder mehrere Einträge in einem Suchergebnis oder nach einer Filterung).
 
 === 4. Bewertung
 
