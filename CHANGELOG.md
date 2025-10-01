@@ -4,7 +4,31 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.2.1...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-Web-Test/compare/v5.0.0...HEAD)
+
+## [v5.0.0](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.2.1...v5.0.0) - 2025-10-01
+
+### Was hat sich getan?
+
+### Geändert
+
+- 9.1.3.1b HTML-Strukturelemente für Listen - Aktualisierung @detlevhfischer (#489)
+- 12.1.2 Barrierefreie Dokumentation: Ergänzung LS und DGS @detlevhfischer (#492)
+- 12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit: LS + DGS @detlevhfischer (#493)
+- 9.3.3.1 Fehlererkennung - Ergänzung zum Thema HTML5 Fehlervalidierung (Hinweise) @sweckenmann (#510)
+- 9.2.5.3 Sichtbare Beschriftung Teil des zugänglichen Namens - Ergänzung @detlevhfischer (#515)
+- 9.2.5.2 Zeigergesten-Eingaben (...) - Test auf Desktop ergänzt @detlevhfischer (#490)
+- 7.3 Bedienelemente für Untertitel und Audiodeskription - Ausnahme @detlevhfischer (#491)
+- 9.2.5.7 Ziehbewegungen: Anpassung an "einfache Zeiger" @detlevhfischer (#505)
+- 9.2.4.11 Fokus nicht verdeckt (Minimum) - kleine Texänderungen @detlevhfischer (#504)
+- 9.3.2.6 Konsistente Hilfe: Typo @detlevhfischer (#497)
+- 9.2.5.8 Zielgröße (Minimum): Textanpassung @detlevhfischer (#506)
+
+### Korrigiert
+
+- 11.7 Benutzerdefinierte Einstellungen Aktualisierung der Prüfanleitung (Farben) @sweckenmann (#509)
+- 9.1.4.12 Textabstände anpassbar: Ergänzung der Ausname "Auswahliste" (select > option) (version:minor) @stefanFarnetani (#507)
+- 9.2.4.7 Aktuelle Position des Fokus deutlich - Hinweis zu Kontrastanforderung bei "Was wird geprüft" entfernt @sweckenmann (#508)
 
 ## [v4.2.1](https://github.com/BIK-BITV/BIK-Web-Test/compare/v4.2.0...v4.2.1) - 2025-07-01
 
