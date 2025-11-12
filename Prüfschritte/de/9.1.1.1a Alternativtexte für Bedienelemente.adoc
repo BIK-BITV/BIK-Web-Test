@@ -53,14 +53,11 @@ werden.
   Firefox] aufrufen.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
-. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-  Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
-  aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
+. Das
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[Images bookmarklet] zur Anzeige von Alternativtexten aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
   Alternativtexten versehen sind (siehe
   <<2.6 Gleichwertige (äquivalente) Alternativtexte>>). Alternativ kann
-  auch das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
-  Images bookmarklet] eingesetzt werden.
+  auch eingesetzt werden.
 . Feststellen, ob die Seite Image maps enthält.
   Hierfür kann gegebenenfalls der Quelltext nach ``map`` durchsucht werden.
   Ist eine Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
@@ -92,13 +89,10 @@ verwendet wurde (nicht ``display:none``).
 ===== Grundeinstellung in Firefox
 
 . https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Menü _Extras_ den Dialog _Einstellungen..._ aufrufen. 
+  Firefox] aufrufen und im Anwendungsmenü den Menüpunkt _Einstellungen_ aufrufen. 
   Den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die Option _Farben..._ wählen.
-. Im Dialog _Farben_ im Bereich _Text und Hintergrund_ als Hintergrundfarbe eine
-  Farbe wählen, die normalerweise eher selten für die Seitengestaltung verwendet
-  wird (gut geeignet sind z. B. helle Rosa- oder Grüntöne).
-. Im Select _Ausgewählte Farben anstatt Farben der Seite verwenden_ die
-  Option _Immer_ wählen.
+. Im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_  die Einstellung _Benutzerdefiniert_ auswählen
+. Über Farben verwalten eine helle Textfarbe und eine dunkle Hintergrundfarbe wählen, ggf. auch helle Linkfarben wählen
 . Die Dialogfenster mit "OK" schließen.
 
 ===== Prüfung
@@ -145,7 +139,7 @@ bereitgestellt wird.
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
 . Bedienelemente feststellen.
-. Mit Firebug oder dem Seiteninspektor des Browsers prüfen, ob mit der
+. Mit den Developer Tools des Browsers prüfen, ob mit der
   CSS-Eigenschaft ``content`` für die Pseudoelemente ``:before`` oder ``:after``
   Inhalt (Font Icons) eingebunden wird.
 . Falls nicht redundante Icons eingebunden sind: Prüfen, ob eine
