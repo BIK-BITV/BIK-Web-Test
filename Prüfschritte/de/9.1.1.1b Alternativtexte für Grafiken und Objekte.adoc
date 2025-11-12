@@ -85,8 +85,7 @@ aufrufen und prüfen, ob das `alt`-Attribut vorhanden ist und der dort
 hinterlegte Alternativtext das Bild in angemessener Weise ersetzt (siehe
 <<2.7 Angemessene Alternativtexte>>). 
 Alternativ kann auch das
-https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
-Images bookmarklet] eingesetzt werden.
+https://bitvtest.de/test-methodik/web/werkzeugliste#c337[Images bookmarklet] eingesetzt werden.
 
 ==== 2.2 Anzeige der Alternativtexte von Objekten
 
@@ -125,7 +124,7 @@ Voraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nic
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Über die https://bitvtest.de/test-methodik/web/werkzeugliste#c348[Web Developer Toolbar] Hintergrundbilder über _Images_ > _Hide Background Images_  feststellen, ob Hintergrundbilder eingebunden sind. Alternativ können auch andere Methoden verwendet werden.
+. Über die https://bitvtest.de/test-methodik/web/werkzeugliste#c348[Web Developer Toolbar] Hintergrundbilder über _Images_ > _Hide Background Images_ feststellen, ob Hintergrundbilder eingebunden sind. Alternativ können auch andere Methoden verwendet werden.
 . Prüfen, ob informative Grafiken oder Bilder verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
 . Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind:
