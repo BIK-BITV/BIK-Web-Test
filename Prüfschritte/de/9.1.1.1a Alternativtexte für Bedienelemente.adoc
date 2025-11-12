@@ -115,8 +115,7 @@ Textalternative zu hinterlegen.
 
 Falls ein Bedienelement aus einem solchen Icon sowie einem HTML-Text besteht,
 der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als
-Alternative für das Icon.
-Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader
+Alternative für das Icon. In diesem Fall ist es sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader
 zu verstecken (z. B. ``aria-hidden="true"``).
 Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren
 Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein.
@@ -129,7 +128,7 @@ bereitgestellt wird.
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Bedienelemente feststellen.
+. Bedienelemente, die Icon Fonts nutzen, feststellen. 
 . Mit den Developer Tools des Browsers prüfen, ob mit der
   CSS-Eigenschaft ``content`` für die Pseudoelemente ``:before`` oder ``:after``
   Inhalt (Font Icons) eingebunden wird.
