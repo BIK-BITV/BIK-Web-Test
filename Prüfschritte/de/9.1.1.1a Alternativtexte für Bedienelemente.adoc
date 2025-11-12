@@ -100,7 +100,8 @@ verwendet wurde (nicht ``display:none``).
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Prüfen, ob grafische Bedienelemente verschwinden.
+. Über das Anwendungsmenü, Menüpunkt _Einstellungen_ im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_ 
+  die Einstellung _Benutzerdefiniert_ aktivieren. Prüfen, ob grafische Bedienelemente verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
 . Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
   eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
