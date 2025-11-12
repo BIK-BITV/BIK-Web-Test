@@ -50,7 +50,7 @@ Als informative Grafiken gelten:
 * grafische Schriften
 * Symbole
 * Abbildungen, die zeigen sollen, wie ein Objekt oder eine Person aussieht
-* Illustrationen, die eine Aussage vorstellen, verdeutlichen oder
+* Illustrationen, Grafiken oder Diagramme, die eine Aussage vorstellen, verdeutlichen oder
   veranschaulichen sollen
 
 Dekorative Grafiken und Bilder sind Grenzfälle.
