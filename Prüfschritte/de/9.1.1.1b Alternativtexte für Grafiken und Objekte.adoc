@@ -122,10 +122,10 @@ gilt dieser Text als Textalternative für die Hintergrundgrafik.
 Voraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nicht `display:none`).
 
 ===== Prüfung
-
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
+. Über die https://bitvtest.de/test-methodik/web/werkzeugliste#c348[Web Developer Toolbar] Hintergrundbilder über _Images_ > _Hide Background Images_  feststellen, ob Hintergrundbilder eingebunden sind. Alternativ können auch andere Methoden verwendet werden.
 . Prüfen, ob informative Grafiken oder Bilder verschwinden.
   Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
 . Falls informative Grafiken oder Bilder als Hintergrundbilder eingebunden sind:
