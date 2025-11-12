@@ -86,22 +86,13 @@ Textlink als Textalternative für die Hintergrundgrafik.
 Voraussetzung ist allerdings, dass ein geeignetes Bildersetzungsverfahren
 verwendet wurde (nicht ``display:none``).
 
-===== Grundeinstellung in Firefox
-
-. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Anwendungsmenü den Menüpunkt _Einstellungen_ aufrufen.
-. Im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_  die Einstellung _Benutzerdefiniert_ auswählen.
-. Über den Dialog _Farben verwalten_ eine helle Textfarbe und eine dunkle Hintergrundfarbe wählen, ggf. auch helle Linkfarben wählen.
-. Den Dialog mit "OK" schließen.
 
 ===== Prüfung
 
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Über das Anwendungsmenü, Menüpunkt _Einstellungen_ im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_ 
-  die Einstellung _Benutzerdefiniert_ aktivieren. Prüfen, ob grafische Bedienelemente verschwinden.
-  Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
+. Über die https://bitvtest.de/test-methodik/web/werkzeugliste#c348[Web Developer Toolbar] Hintergrundbilder über _Images_ > _Hide Background Images_  feststellen, ob Hintergrundbilder eingebunden sind. Alternativ können auch andere Methoden verwendet werden.
 . Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
   eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
   HTML-Dokument vorhandenen Textlink ersetzt oder ein aussagekräftiger Alternativtext auf andere Art hinterlegt ist (z. B. als ``aria-label`` oder ``title`` auf dem Link).
