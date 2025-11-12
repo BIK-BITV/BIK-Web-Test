@@ -301,8 +301,6 @@ ausgezeichnet werden.
 * https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
   Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
 * https://www.deque.com/blog/creating-accessible-svgs/[Creating accessible SVGs] (Deque blog, January 2019)
-* https://simplyaccessible.com/article/7-solutions-svgs/[
-  7 solutions for creating more accessible SVGs] (SimplyAccessible, March 2017)
 * https://css-tricks.com/accessible-svgs/[
   Accessible SVGs] (CSS-Tricks, updated August 2016)
   
