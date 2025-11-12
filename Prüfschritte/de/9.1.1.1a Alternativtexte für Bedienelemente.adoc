@@ -54,7 +54,7 @@ werden.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
 . Das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[Images bookmarklet] 
+  https://bitvtest.de/test-methodik/web/werkzeugliste#c337[Images bookmarklet] 
   zur Anzeige von Alternativtexten aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
   Alternativtexten versehen sind (siehe
   <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
