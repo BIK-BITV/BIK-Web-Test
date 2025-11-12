@@ -121,18 +121,6 @@ zum Beispiel eine Überschrift ersetzt (CSS-Bildersetzungsverfahren),
 gilt dieser Text als Textalternative für die Hintergrundgrafik.
 Voraussetzung ist allerdings, dass ein geeignetes Verfahren verwendet wurde (nicht `display:none`).
 
-===== Grundeinstellung in Firefox
-
-. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Menü _Extras > Einstellungen > Allgemein >
-  Schriftarten & Farben_ wählen.
-. Im Bereich "Text und Hintergrund" als Hintergrundfarbe eine Farbe wählen, die
-  normalerweise eher selten für die Seitengestaltung verwendet wird (gut
-  geeignet sind zum Beispiel helle Rosa- oder Grüntöne).
-. Im Select _Ausgewählte Farben anstatt Farben der Seite verwenden_ die Option
-  _Immer_ wählen.
-. Die Dialogfenster mit "OK" schließen.
-
 ===== Prüfung
 
 . Seite in
