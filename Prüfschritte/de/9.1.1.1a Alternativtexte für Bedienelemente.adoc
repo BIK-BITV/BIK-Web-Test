@@ -89,11 +89,10 @@ verwendet wurde (nicht ``display:none``).
 ===== Grundeinstellung in Firefox
 
 . https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Anwendungsmenü den Menüpunkt _Einstellungen_ aufrufen. 
-  Den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die Option _Farben..._ wählen.
-. Im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_  die Einstellung _Benutzerdefiniert_ auswählen
-. Über Farben verwalten eine helle Textfarbe und eine dunkle Hintergrundfarbe wählen, ggf. auch helle Linkfarben wählen
-. Die Dialogfenster mit "OK" schließen.
+  Firefox] aufrufen und im Anwendungsmenü den Menüpunkt _Einstellungen_ aufrufen.
+. Im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_  die Einstellung _Benutzerdefiniert_ auswählen.
+. Über den Dialog _Farben verwalten_ eine helle Textfarbe und eine dunkle Hintergrundfarbe wählen, ggf. auch helle Linkfarben wählen.
+. Den Dialog mit "OK" schließen.
 
 ===== Prüfung
 
