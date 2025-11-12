@@ -53,14 +53,11 @@ werden.
   Firefox] aufrufen.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
-. In der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#webdeveloper[
-  Web Developer Toolbar] das Menü _Images > Display Alt Attributes_
-  aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
+. Das
+  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[Images bookmarklet] zur Anzeige von Alternativtexten aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
   Alternativtexten versehen sind (siehe
   <<2.6 Gleichwertige (äquivalente) Alternativtexte>>). Alternativ kann
-  auch das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[
-  Images bookmarklet] eingesetzt werden.
+  auch eingesetzt werden.
 . Feststellen, ob die Seite Image maps enthält.
   Hierfür kann gegebenenfalls der Quelltext nach ``map`` durchsucht werden.
   Ist eine Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
