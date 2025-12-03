@@ -23,7 +23,7 @@ oder den Einsatz eines ``aria-label``-Attributs.
 Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das
 Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die
 programmatische Verfügbarkeit dieser Beschriftung sichergestellt werden, 
-z. B. mit Hilfe von ``fieldset`` mit ``legend`` bei nativen input-Elementen, 
+z. B. mit Hilfe von ``fieldset`` mit ``legend`` bei nativen ``input``-Elementen, 
 oder role="group" mit Gruppenbeschriftung über ``aria-labelledby``-Verweis.
 
 Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von
