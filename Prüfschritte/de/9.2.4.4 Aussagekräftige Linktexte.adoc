@@ -75,7 +75,8 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements oder im ``title``-Attribut des Links angegeben wird.
 
 Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. 
-Die Aussagekraft eines vorhandenen ``alt``-Textes wird jedoch im Prüfschritt 
+Das Vorhandensein von Alternativtext wird im Prüfschritt <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
+  Alternativtexte für Bedienelemente>> und dessen Aussagekraft im Prüfschritt 
 <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>> geprüft.
 
 Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden 
