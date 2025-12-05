@@ -72,20 +72,14 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
+In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements oder im ``title``-Attribut des Links angegeben wird.
 
-Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. Die Aussagekraft eines vorhandenen ``alt``-Textes wird jedoch im Prüfschritt <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>>
-ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
-  Alternativtexte für Bedienelemente>>
-endif::env_embedded[] oder 
-geprüft.
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. 
+Die Aussagekraft eines vorhandenen ``alt``-Textes wird jedoch im Prüfschritt 
+<<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>> geprüft.
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist.
-Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im ``title``-Attribut des Links angegeben wird.
-
-Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird das Vorhandensein von Alternativtext im Prüfschritt 
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden 
+(z. B. unverlinkt dem Link vorangestellt), so wird das Vorhandensein von Alternativtext im Prüfschritt 
 ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
