@@ -79,12 +79,9 @@ Die Aussagekraft eines vorhandenen ``alt``-Textes wird jedoch im Prüfschritt
 <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>> geprüft.
 
 Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden 
-(z. B. unverlinkt dem Link vorangestellt), so wird das Vorhandensein von Alternativtext im Prüfschritt 
-ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
-ifndef::env_embedded[]
-  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
+(z. B. unverlinkt dem Link vorangestellt), so wird das Vorhandensein von Alternativtext im Prüfschritt <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[] und dessen Aussagekraft im Prüfschritt <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>>
+und dessen Aussagekraft im Prüfschritt <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>>
 geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.2
