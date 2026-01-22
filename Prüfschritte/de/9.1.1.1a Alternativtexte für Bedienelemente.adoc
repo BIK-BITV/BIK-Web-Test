@@ -54,10 +54,10 @@ werden.
 . Bedienelemente feststellen (zum Beispiel horizontale oder vertikale
   Navigationsleisten, Logo, Banner, Teaserbilder, grafische Schaltflächen).
 . Das
-  https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#imagesbm[Images bookmarklet] zur Anzeige von Alternativtexten aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
+  https://bitvtest.de/test-methodik/web/werkzeugliste#c337[Images bookmarklet] 
+  zur Anzeige von Alternativtexten aufrufen und prüfen, ob die Bedienelemente mit äquivalenten
   Alternativtexten versehen sind (siehe
-  <<2.6 Gleichwertige (äquivalente) Alternativtexte>>). Alternativ kann
-  auch eingesetzt werden.
+  <<2.6 Gleichwertige (äquivalente) Alternativtexte>>).
 . Feststellen, ob die Seite Image maps enthält.
   Hierfür kann gegebenenfalls der Quelltext nach ``map`` durchsucht werden.
   Ist eine Image map vorhanden, weiter mit <<2.2 Anzeige von Image maps>>.
@@ -86,22 +86,13 @@ Textlink als Textalternative für die Hintergrundgrafik.
 Voraussetzung ist allerdings, dass ein geeignetes Bildersetzungsverfahren
 verwendet wurde (nicht ``display:none``).
 
-===== Grundeinstellung in Firefox
-
-. https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
-  Firefox] aufrufen und im Anwendungsmenü den Menüpunkt _Einstellungen_ aufrufen. 
-  Den Reiter _Inhalt_ wählen und im Bereich _Schriftarten & Farben_ die Option _Farben..._ wählen.
-. Im Bereich _Sprache und Erscheinungsbild / Kontraststeuerung_  die Einstellung _Benutzerdefiniert_ auswählen
-. Über Farben verwalten eine helle Textfarbe und eine dunkle Hintergrundfarbe wählen, ggf. auch helle Linkfarben wählen
-. Die Dialogfenster mit "OK" schließen.
 
 ===== Prüfung
 
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Prüfen, ob grafische Bedienelemente verschwinden.
-  Das passiert, wenn sie als Hintergrundbilder eingebunden sind.
+. Über die https://bitvtest.de/test-methodik/web/werkzeugliste#c348[Web Developer Toolbar] Hintergrundbilder über _Images_ > _Hide Background Images_  feststellen, ob Hintergrundbilder eingebunden sind. Alternativ können auch andere Methoden verwendet werden.
 . Falls nicht redundante grafische Bedienelemente als Hintergrundbilder
   eingebunden sind: Prüfen, ob das Hintergrundbild einen tatsächlich im
   HTML-Dokument vorhandenen Textlink ersetzt oder ein aussagekräftiger Alternativtext auf andere Art hinterlegt ist (z. B. als ``aria-label`` oder ``title`` auf dem Link).
@@ -124,8 +115,7 @@ Textalternative zu hinterlegen.
 
 Falls ein Bedienelement aus einem solchen Icon sowie einem HTML-Text besteht,
 der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als
-Alternative für das Icon.
-Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader
+Alternative für das Icon. In diesem Fall ist es sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader
 zu verstecken (z. B. ``aria-hidden="true"``).
 Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren
 Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein.
@@ -138,7 +128,7 @@ bereitgestellt wird.
 . Seite in
   https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#firefox[
   Firefox] aufrufen.
-. Bedienelemente feststellen.
+. Bedienelemente, die Icon Fonts nutzen, feststellen. 
 . Mit den Developer Tools des Browsers prüfen, ob mit der
   CSS-Eigenschaft ``content`` für die Pseudoelemente ``:before`` oder ``:after``
   Inhalt (Font Icons) eingebunden wird.
@@ -283,9 +273,9 @@ ausgezeichnet werden.
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
-* HTML 5.1 Spezifikation:
-  https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[
-  Requirements for providing text to act as an alternative for images]
+* HTML Spezifikation:
+  https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element[
+  The ``img`` element]
 
 === W3C - Scalable Vector Graphics (SVG) 1.1
 
@@ -300,8 +290,6 @@ ausgezeichnet werden.
 * https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html[
   Contextually marking up accessible images and SVGs] (Scott O'Hara, May 2019)
 * https://www.deque.com/blog/creating-accessible-svgs/[Creating accessible SVGs] (Deque blog, January 2019)
-* https://simplyaccessible.com/article/7-solutions-svgs/[
-  7 solutions for creating more accessible SVGs] (SimplyAccessible, March 2017)
 * https://css-tricks.com/accessible-svgs/[
   Accessible SVGs] (CSS-Tricks, updated August 2016)
   
