@@ -13,10 +13,18 @@ Sind Beschriftungen nicht mit dem ``label``-Element ausgezeichnet, soll eine
 Beschriftung des zugehörigen Formularelements auf anderem Weg (etwa über das
 ``aria-labelledby``-Attribut) sichergestellt sein.
 
+Werden selbstgestaltete Formularelemente eingesetzt, 
+z.B. ein `div` mit ``role="textbox"`` und Attribut ``contenteditable="true"``, 
+muss eine programmatisch ermittelbare Beschriftung auf anderem Wege bereitgestellt werden, 
+weil hier ``label for`` nicht greift: 
+z.B. mittels ``aria-labelledby``-Verweis auf die sichtbare Beschriftung 
+oder den Einsatz eines ``aria-label``-Attributs.
+
 Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das
 Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die
-Verfügbarkeit sichergestellt werden (z. B. mit Hilfe von `fieldset` mit
-``legend``).
+programmatische Verfügbarkeit dieser Beschriftung sichergestellt werden, 
+z. B. mit Hilfe von ``fieldset`` mit ``legend`` bei nativen ``input``-Elementen, 
+oder ``role="group"`` mit Gruppenbeschriftung über ``aria-labelledby``-Verweis.
 
 Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von
 Formularelementen sollten mit `fieldset` oder mithilfe von Überschriften
