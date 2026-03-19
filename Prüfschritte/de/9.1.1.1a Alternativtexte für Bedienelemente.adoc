@@ -366,8 +366,7 @@ ifndef::env_embedded[]
   <<9.4.1.2 Name-Rolle-Wert verfügbar.adoc#,9.4.1.2 Name, Rolle, Wert
   verfügbar>>
 endif::env_embedded[]
-  geprüft (s. olink:#3.2[3.2 Unterstützung von SVGs durch assistive
-  Technologien]).
+  geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.2
 
