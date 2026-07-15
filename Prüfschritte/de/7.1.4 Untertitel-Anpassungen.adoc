@@ -75,7 +75,7 @@ to their individual requirements,
 except where the captions are displayed as unmodifiable characters.
 
 NOTE 1: Defining the background and foreground colour of subtitles, 
-font type, size opacity of the background box of subtitles, 
+font type, size, opacity of the background box of subtitles, 
 and the contour or border of the fonts can contribute 
 to meeting this requirement.
 
