@@ -41,6 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 * durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen (`td`, `th`)
 * durch den Text der vorangehenden Überschrift (`h1` - `h6`)
 * Mit Hilfe des `aria-label` oder `aria-labelledby`-Attributs (Achtung: `aria-label` überschreibt den Text des Links)
+* durch zusätzliches `title`-Attribut auf dem Link
 * durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert.
 
 ==== 2.2 Prüfung von Links auf andere Dateiformate
@@ -58,7 +59,7 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 * Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten ``li``-Element einer Liste werden akzeptiert, wenn die Bedeutung
   aus dem programmatisch ermittelbaren Kontext hervorgeht. Dazu gehört der den Link einschließende Absatz oder Listenpunkt oder auch die vorangehende Überschrift. 
 * Wenn zusätzlicher, per CSS unsichtbar gemachter Linktext mit `display:none` versteckt wird, ist er programmatisch nicht ermittelbar und verbessert nicht die Aussagekraft des Links: dieser Text wird von Screenreadern ignoriert.
-* Das ``title``-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet.
+* Das ``title``-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet und ist auch für Tastaturnutzende und bei der Touch-Bedienung nicht verfügbar.
 
 === 4. Bewertung
 
@@ -71,27 +72,17 @@ Der Prüfschritt ist anwendbar, wenn die Seite Links enthält.
 
 === Abgrenzung zu anderen Prüfschritten
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
+In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements oder im ``title``-Attribut des Links angegeben wird.
 
-Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. Die Zugänglichkeit und Aussagekraft des ``alt``-Textes wird jedoch im Prüfschritt
-ifdef::env_embedded[9.1.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
-  Alternativtexte für Bedienelemente>>
-endif::env_embedded[]
-geprüft.
+Bei verlinkten Grafiken ist der Linktext der ``alt``-Text des ``img``-Elements. 
+Das Vorhandensein von Alternativtext wird im Prüfschritt <<9.1.1.1a Alternativtexte für Bedienelemente.adoc#,9.1.1.1a
+  Alternativtexte für Bedienelemente>> und dessen Aussagekraft im Prüfschritt 
+<<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>> geprüft.
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das
-Dateiformat überhaupt vorhanden ist.
-Das ist der Fall, wenn das Dateiformat in
-einer Grafik, im Linktext oder im title-Text des Links angegeben wird.
-
-Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt 
-ifdef::env_embedded[9.1.1.1b "Alternativtexte für Grafiken und Objekte"]
-ifndef::env_embedded[]
-  <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden 
+(z. B. unverlinkt dem Link vorangestellt), so wird das Vorhandensein von Alternativtext im Prüfschritt <<9.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,9.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[]
+und dessen Aussagekraft im Prüfschritt <<9.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6 Aussagekräftige Überschriften und Beschriftungen>>
 geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.2
