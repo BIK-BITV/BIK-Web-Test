@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Die Webseite soll auch ohne Maus - also ausschließlich mit der Tastatur - zu
-benutzen sein.
+benutzen sein. Eine Ausnahme gilt für notwendig pfadbasierte Eingaben mit einem Zeiger (etwa Mauscursor oder Finger), z.B. beim Unterschreiben.
 
 == Warum wird das geprüft?
 
@@ -48,7 +48,8 @@ Der Prüfschritt ist anwendbar, wenn der Webauftritt interaktive Elemente enthä
 Tastaturbedienung vorgesehen sind.
 * Probleme bei der Bedienung werden in der Regel durch die Verwendung von JavaScript verursacht. Die Prüfung erfolgt also bei eingeschaltetem JavaScript.
 * Unwesentlich können zum Beispiel Funktionen sein, die schon vom Browser selbst angeboten werden (beispielsweise "Fenster schließen").
-* Auch die Tastaturbedienbarkeit von Elementen ohne Fokushervorhebung wird geprüft. Zur Anzeige des Fokus kann ein geignetes Bookmarklet wie Force Show Keyboard Focus genutzt werden.
+* Auch die Tastaturbedienbarkeit von Elementen ohne Fokushervorhebung wird geprüft. Zur Anzeige des Fokus kann ein geignetes Bookmarklet genutzt werden.
+* Manche Funktionen verlangen pfadbasierte Eingaben, bei denen es nicht auf Start- und Endpunkt der Eingabe ankommt, z.B. webbasierte Grafikprogramme oder Unterschriftenfelder. Es wird nicht verlangt, das diese Eingaben tastaturbedienbar sind.
 
 
 Wichtig in diesem Zusammenhang:
