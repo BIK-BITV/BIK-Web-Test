@@ -1,3 +1,38 @@
 = Prüfschritt 5.9 Gleichzeitige Benutzerhandlungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Tbd
+
+== Warum wird das geprüft?
+
+Tbd
+
+== Wie wird das geprüft?
+
+Tbd
+
+== Quellen
+
+Tbd
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+==== 6.1.1 Voice communication interoperability
+
+[quote]
+____
+
+Where ICT provides functionality that allows real-time bidirectional voice communication, and has a user interface for
+real-time bidirectional voice communication,
+the ICT shall be able to capture, communicate and present voice communication with a frequency range of at least
+down to 250 Hz and up to at least 7 000 Hz
+____
