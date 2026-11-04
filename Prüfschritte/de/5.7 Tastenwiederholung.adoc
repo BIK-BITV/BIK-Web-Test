@@ -1,1 +1,5 @@
+= Prüfschritt 5.7 Tastenwiederholung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
