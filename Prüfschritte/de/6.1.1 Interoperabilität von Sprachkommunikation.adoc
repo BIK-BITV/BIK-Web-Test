@@ -1,3 +1,69 @@
 = Prüfschritt 6.1.1 Interoperabilität von Sprachkommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Tbd
+
+== Warum wird das geprüft?
+
+Tbd
+
+== Wie wird das geprüft?
+
+Tbd
+
+== Quellen
+
+Tbd
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+==== 6.1.1 Voice communication interoperability
+
+[quote]
+____
+
+Where ICT provides functionality that allows real-time bidirectional voice communication, and connects to other ICT that allows real-time bidirectional voice communication, the ICT's documentation shall contain information on the main specifications by which voice is implemented in a manner that allows the voice on the ICT to interoperate with the other ICT, providing electronic communication covering audio frequencies at least down to 100 Hz and at least up to 7 000 Hz using one of the following options:
+
+* a) Any set of specifications for voice communication that would fulfil the voice communications requirements in the present document that is mutually agreed to be used between the ICT and any other ICT with which the ICT interoperates for real-time bidirectional voice communication.
+* b) Recommendation ITU-T G.722 [i.20].
+ 
+NOTE 1: pecifications for audio codec implementations that support the 100 Hz to 7 000 Hz frequency range are provided for a number of technologies. The following list provides an overview of the situation at the time of authoring the present document. It is presented here as a guide for achieving interoperability and suitable quality. It should be noted that most audio codecs can be used with varying parameter settings resulting in varying quality. They are listed here on the assumption that they are used with settings that allow them to provide sufficient quality to meet the requirements in the present clause. All audio codecs for the technologies listed are using IETF RFC 3550 [i.51] RTP [i.51] for media transport:
+
+* a) General VoIP and Multimedia communication: IETF, providing standards for Voice Over IP (VOIP) and Multimedia communications over IP based on the Session Initiation Protocol (SIP) IETF RFC 3261 [i.50]. In this technology, the following audio codecs capable of delivering sufficient quality are commonly used: 
+
+    ** Recommendation ITU-T G.722 [i.20]; 
+    ** Recommendation ITU‑T G.722.2 [i.21] also called AMR-WB;
+    ** IETF RFC 6716 [i.83] defining the Opus Audio Codec, and updated by 
+    ** IETF RFC 8251 [i.86].
+
+* b) IP Multimedia Sub-System (IMS): 3GPP, that provides standards for mobile communication systems, including IP Multimedia Sub-System (IMS), has standardized the Multimedia Telephony concept, for communications with voice, video and RTT using the set of protocols specified in ETSI TS 126 114 [i.11]:
+
+    ** Recommendation ITU‑T G.722.2 [i.21], also called AMR-WB for wide band audio;
+    ** EVS as specified in ETSI TS 126 441 [i.88];
+    ** For interoperability with other systems Recommendation ITU-T G.722 [i.20] is specified.
+
+* c) GSMA, that provides selected profiles of standards for implementing globally interoperating mobile communications services, has in GSMA PRD IR.92 [i.45] specified how to apply ETSI TS 126 114 [i.11] to implement RTT and Voice over LTE (VoLTE) and, in GSMA PRD IR.94 [i.46], Video over LTE (ViLTE) in 4G mobile systems. A similar document is published for RTT, voice and video over 5G in GSMA NG.114 [i.46]. Wide band audio is specified in these documents to use the same audio codecs as under b)
+
+* d) Web technologies: For communication in web technologies, W3C® and IETF have created the WebRTC concept specified in IETF RFC 8825 [i.87] where the mandatory audio codecs with wide band audio capabilities are specified in IETF RFC 7874 [i.84] to be Opus, while Recommendation
+ITU-T G.722 [i.20] is also recommended by IETF RFC 7875 [i.85] and is usually provided in implementations.
+
+* e) Emergency communications: An interface to IP based emergency communications is specified in ETSI TS 103 479 [i.48]. It makes use of Recommendation ITU-T G.722.2 [i.21] AMR-WB, IETF RFC 6716 [i.83] updated by IETF RFC 8251 [i.86] OPUS, and Recommendation ITU-T G.722 [i.20]. for wide-band audio. A corresponding standard exists for North America. For emergency apps, ETSI TS 103 478 [i.47] is specified in ETSI TS 103 945 [i.89] to implement wide band audio by use of Opus IETF RFC 6716 [i.83] updated by IETF RFC 8251 [i.86]. The use of these standards for accessible and interoperable emergency communications is specified in ETSI EN 303 919 [i.56].
+
+* f) Relay services: ETSI ES 202 975 [i.6] specifies in its clause 6.1 interfaces to relay services, referring to the present document for specific technologies 
+
+NOTE 2: Frequencies between 250 Hz and 7 000 Hz are essential for good speech perception.
+
+NOTE 3: Frequencies between 100 Hz and 250 Hz provide extra information for person recognition.
+
+NOTE 4: Background information and detailed guidance about accessible voice communication is available in ETSI ES 204 009 [i.77].
+
+____
