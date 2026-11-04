@@ -1,1 +1,3 @@
-
+= Prüfschritt 6.1.2 Audiobandbreite für die Aufnahme und Wiedergabe bei der Sprachkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
