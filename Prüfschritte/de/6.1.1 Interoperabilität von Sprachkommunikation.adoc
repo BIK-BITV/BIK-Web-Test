@@ -1,1 +1,3 @@
-
+= Prüfschritt 6.1.1 Interoperabilität von Sprachkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
