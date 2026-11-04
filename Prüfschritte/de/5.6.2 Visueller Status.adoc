@@ -1,1 +1,5 @@
+= Prüfschritt 5.6.2 Visueller Status
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
