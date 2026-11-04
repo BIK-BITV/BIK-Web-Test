@@ -3,3 +3,33 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+
+Tbd
+
+== Warum wird das geprüft?
+
+Tbd
+
+== Wie wird das geprüft?
+
+Tbd
+
+== Quellen
+
+Tbd
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+==== 5.8 Annahme eines zweifachen Tastenanschlags
+
+[quote]
+____
+
+Where ICT includes a device-independent keyboard interface service, keyboard, or keypad, and includes a capability to adjust the time before the same key can be accepted again, the delay after any keystroke, during which the same key-press will not be accepted, shall be adjustable up to at least 0,5 seconds.
+____
