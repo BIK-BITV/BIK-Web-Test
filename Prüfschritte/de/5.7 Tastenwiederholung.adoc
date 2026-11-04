@@ -3,3 +3,36 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+
+Tbd
+
+== Warum wird das geprüft?
+
+Tbd
+
+== Wie wird das geprüft?
+
+Tbd
+
+== Quellen
+
+Tbd
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+==== 5.8 Annahme eines zweifachen Tastenanschlags
+
+[quote]
+____
+
+Where ICT includes a keyboard or keypad, and a key repeat function that cannot be turned off, and that key repeat will result in the generation of multiple entries of the same alphanumeric data into input fields or into documents:
+
+* a) the delay before the key repeat shall be adjustable to at least 2 seconds; and
+* b) the key repeat rate shall be adjustable down to one character per 2 seconds.
+____
