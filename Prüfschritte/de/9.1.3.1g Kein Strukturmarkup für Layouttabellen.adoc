@@ -21,7 +21,7 @@ Firefox] aufrufen.
 https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#tablesbm[
 Tables bookmarklet] aufrufen. Tabellen-Auszeichnungen werden jetzt angezeigt.
 * Prüfen, ob strukturelle Auszeichnungen (``th``, ``caption``, ``summary``,
-``headers``) in Layouttabellen vermieden werden.
+``headers`` mit ``id``-Referenz) in Layouttabellen vermieden werden.
 
 === 3. Hinweis
 
@@ -33,7 +33,7 @@ sind, sollten semantische Elemente nicht benutzt werden.
 ==== Nicht erfüllt
 
 * In Layouttabellen werden die Elemente `th` oder `caption` oder die Attribute
-``summary`` oder  `headers` verwendet.
+``summary`` oder  `headers` mit `id` Referenz verwendet.
 
 == Einordnung des Prüfschritts
 
