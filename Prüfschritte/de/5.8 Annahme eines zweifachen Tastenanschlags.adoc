@@ -1,1 +1,5 @@
+= Prüfschritt 5.8 Annahme eines zweifachen Tastenanschlags
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
