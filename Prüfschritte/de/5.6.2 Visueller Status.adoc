@@ -37,5 +37,5 @@ NOTE 1: Locking or toggle controls are those controls that can only have two or 
 
 NOTE 2: An example of a locking or toggle control is the "Caps Lock" key found on most keyboards. An example of making the status of a control determinable is a visual status indicator on a keyboard.
 
-NOTE 3: A visual status can be a change on the screen or a flash of an LED after the user invokes an action. Where appropriate, adopting a pattern for example, a short flash for "off" and a longer or double flash for "on" can be considered as a good practice
+NOTE 3: A visual status can be a change on the screen or a flash of an LED after the user invokes an action. Where appropriate, adopting a pattern for example, a short flash for "off" and a longer or double flash for "on" can be considered as a good practice.
 ____
