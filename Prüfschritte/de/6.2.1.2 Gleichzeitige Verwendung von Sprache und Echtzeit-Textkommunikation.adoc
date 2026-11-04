@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.1.2 Gleichzeitige Sprache und Text
+= Prüfschritt 6.2.1.2 Gleichzeitige Verwendung von Sprache und Echtzeit-Textkommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -59,7 +59,7 @@ und nicht zu Verwirrung führen.
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-==== 6.2.1.2 Concurrent voice and text
+==== 6.2.1.2 Concurrent voice and RTT
 ____
 [.BLOCK_LANG_EN]
 --
