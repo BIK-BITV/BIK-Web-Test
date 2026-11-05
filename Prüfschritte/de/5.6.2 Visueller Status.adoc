@@ -8,11 +8,9 @@ Manche Webanwendungen können zusammen mit spezieller Hardware genutzt werden. E
 
 Beispiele wären:
 
-    An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
-
-    Umschalter für Ton an/Ton aus (Stummschalten) an einem Eingabegerät oder Ausgabegerät
-
-    Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
+* An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
+* Umschalter für Ton an/Ton aus (Stummschalten) an einem Eingabegerät oder Ausgabegerät
+* Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
 
 Wenn es auf dem Ausgabegerät oder einer speziellen Hardware, die zusammen mit der Webanwendung genutzt wird, Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
 
