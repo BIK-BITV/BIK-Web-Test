@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Manche Webangebote können zusammen mit spezieller zusätzlicher Hardware genutzt werden. Ein Beispiel ist eine Webanwendung, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine Webanwendung, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der Webanwendung genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil (also durch Fühlen mit den Fingern) zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen.
+Manche Webangebote können zusammen mit spezieller zusätzlicher Hardware genutzt werden. Ein Beispiel ist eine Webanwendung, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine Webanwendung, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der Webanwendung genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters  taktil (also durch Fühlen mit den Fingern) oder akustisch, z.B. beim Berühren eines Schalters ohne Aktivierung, zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen.
 
 Beispiele wären:
 
@@ -18,8 +18,7 @@ Wenn physische Umschalter am Ausgabegerät oder zusätzlicher Hardware bei der N
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der Webanwendung der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa physische Umschalter an gekoppelter zusätzlicher Hardware.
-
+Der Prüfschritt wird hier nur angewendet, wenn für die Nutzung der Webanwendung der Zustand von Hardware-Schaltern auf zusätzlicher gekoppelter Hardware relevant sind. Der Zustand von virtuellen Schaltern in Software ist bereits hinreichend in anderen Prüfschritten wie 9.1.3.1 "Beschriftung von Formularelementen programmatisch ermittelbar" sowie 9.4.1.2 "Name, Rolle Wert verfügbar" ererfasst. ist der Zustand programmatisch ermittelbar, kann dann auch akustisch oder taktil (z.B. der Braillezeile) ausgegeben werden (vergl. Note 5 der EN-Anforderung unter "Einordnung des Prüfschritts nach EN 301 549 V3.1.1").
 
 === 2. Prüfung
 
@@ -31,7 +30,7 @@ Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der Webanwendung der Z
 
 Wenn die Webanwendung einen Modus hat, der die gleiche Funktionalität auch ohne gekoppeltes Zubehör bietet oder der Schalter-Zustand des Zubehörs auch in der Webanwendung sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
 
-Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreinstellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreinstellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. Dies widerspricht der Anforderung, dass der Status ohne Aktivierung der Taste ermittelbar sein soll. Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 === 4. Bewertung
 Nicht erfüllt
@@ -50,7 +49,7 @@ In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör d
 
 * 9.4.1.2 Name, Rolle, Wert verfügbar
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 ==== 5.6.1 Taktiler oder auditiver Status
 
