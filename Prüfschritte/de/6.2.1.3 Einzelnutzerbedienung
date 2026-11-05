@@ -40,4 +40,3 @@ establish voice and RTT and optionally other media.
 
 NOTE 3: A single user operation may request the establishment of a communication that involves media that are not available at both ends. In these cases, automatic retries, with a reduced number of media, may be used to complete the establishment of a session using only the media available at both ends
 ____
-
