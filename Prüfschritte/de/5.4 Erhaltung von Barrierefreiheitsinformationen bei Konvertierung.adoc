@@ -75,9 +75,10 @@ gehen bei der Konvertierung verloren.
 ____
 [.BLOCK_LANG_EN]
 --
-Where ICT converts information or communication it shall preserve all
-documented non-proprietary information that is provided for accessibility, to
-the extent that such information can be contained in or supported by the
-destination format.
+Where ICT converts information or communication, the ICT shall preserve all documented non-proprietary information that is provided for accessibility to the extent that such information can be contained in or supported by the destination format.
+
+NOTE 1: Any transmission that is not lossless would involve conversion and would be covered by this requirement.
+
+NOTE 2: When transporting or displaying video, any loss of fidelity, synchronization, or quality would constitute a conversion and if the reduced fidelity, synchronization, or quality results in a loss of accessibility of, for example, the sign language portion of it, then it would constitute a violation of this requirement.
 --
 ____
