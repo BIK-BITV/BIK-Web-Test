@@ -46,10 +46,12 @@ kann nicht im Rahmen dieses Prüfverfahrens durchgeführt werden.
 nach der Konvertierung im Zielformat erhalten geblieben? 
 
 === 3. Hinweise
-==== 3.1 Neben semantischen Formaten wie Überschriften oder Alternativtext 
+==== 3.1 Qualitätsverlust
+Neben semantischen Formaten wie Überschriftenauszeichnung oder Alternativtext-Attribut 
 fällt auch ein Verlust an Bildauflösung, Sprachqualität oder Synchronizität 
-bei der Konvertierung von Video unter diee Anforderung, 
-z.B. wenn Gebärdensprache nach Konvertierung nicht mehr klar erkannt werden kann 
+bei der Konvertierung von Video unter diese Anforderung. 
+Die Anforderung wäre nicht erfüllt, 
+wenn z.B. wenn Gebärdensprache nach Konvertierung nicht mehr klar erkannt werden kann 
 oder Bild und Ton nicht länger synchron sind.
 
 ==== 3.2 Konvertierung in hier nicht prüfbare Formate
