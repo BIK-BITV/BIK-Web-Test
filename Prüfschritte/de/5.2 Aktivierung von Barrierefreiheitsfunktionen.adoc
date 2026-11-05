@@ -19,8 +19,8 @@ also etwa auf Hilfeseiten oder in der Erklärung zur Barrierefreiheit benannt bz
 Beispiele für Barrierefreiheitsfunktionen:
 
 * Vorlesefunktion
-* Kontrasterhöhung, abweichende Farbschemata
-* Anpassung der Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart usw.)
+* Hochkontrast-Schalter, abweichende Farbschemata
+* Anpassung der Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart, usw.)
 * Versionen in Leichter Sprache oder Deutscher Gebärdensprache
 * Einstellungen zum Deaktivieren automatischen Abspielens von Animationen, Videos oder Audio-Dateien
 
