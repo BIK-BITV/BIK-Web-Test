@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Apps sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Webanwendungen sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
 
@@ -12,37 +12,33 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie d
 
 == Wie wird das geprüft?
 
-
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt wird nur geprüft, 
-wenn die Tastenwiederholung nicht abstellbar ist.
-Unter Windows und MacOs ist der Prüfschritt generell nicht anwendbar, 
-da die Tastenwiederholfunktion abgeschaltet werden kann (Windows: Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge; MacOs: Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung).
-Der Prüfschritt  käme also nur zum Einsatz, wenn das die Accessibility-Baseline des zu prüfenden Webangebot Systemumgebungen enthält, in denen sich die Tastenwiederhoung nicht ganz abstellen lässt lässt (z.B. Android).
+wenn die Tastenwiederholung nicht systemseitig abstellbar ist.
+Unter Windows, MacOs und iOS ist der Prüfschritt generell nicht anwendbar, 
+da die Tastenwiederholfunktion hier abgeschaltet werden kann:
 
-=== 2. Prüfung unter Android
-
-* Unter System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms)
-* Texteingabefeld fokussieren
-* Einen Buchstaben der Tastatur drücken
-* Prüfen, ob der Buchstabe nach Verzögerung erscheint. Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichtigt.
-* Eine weitere Taste drücken. Funktioniert die erneute Eingabe erst nach 2 Sekunden?
+* Windows: Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge
+* MacOs: Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung 
+* iOS: Einstellungen > Bedienungshilfen > Tastaturen & Texteingabe > Tastenwiederholung
+* Android: System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Tasteneingabewiederholung
+Der Prüfschritt  käme also nur zum Einsatz, wenn die Accessibility-Baseline des zu prüfenden Webangebot Systemumgebungen enthält, in denen sich die Tastenwiederhoung nicht ganz abstellen lässt lässt.
 
 Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die Webanwendung im eingesetzten Android-Browser kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Ansicht greifen.
 
 === 4. Bewertung
 ==== Nicht anwendbar (Windows, MacOs, iOS)
 
-    Der Prüfschritt ist zurzeit für Webangebote in den Umgebungen Windows, MacOs, iOS nicht anwendbar (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
+    Der Prüfschritt ist zurzeit für Webangebote in den Umgebungen Windows, MacOs, iOS, Android nicht anwendbar (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
 
-==== Erfüllt (Android)
+==== Erfüllt (bei Systemumgebungen ohne ganz abstellbare Tastenwiederholung)
 
-    Für Android ist der Prüfschritt erfüllt, wenn wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App greift.
+* Die aktivierte Anschlagverzögerung bei Texteingabefeldern greift.
 
-==== Nicht erfüllt (Android)
+==== Nicht erfüllt (bei Systemumgebungen ohne ganz abstellbare Tastenwiederholung)
 
-    Für Android-Apps ist der Prüfschritt nicht erfüllt, wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App nicht greifen.
+* Die aktivierte Anschlagverzögerung bei Texteingabefeldern greift.
 
 == Quellen
 
