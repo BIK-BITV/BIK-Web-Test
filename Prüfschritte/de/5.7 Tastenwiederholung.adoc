@@ -4,15 +4,32 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Apps sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
 
-Tbd
+Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Das Abschalten der Tastenwiederholung bzw. das Einstellen einer längeren Verzögerung vor Einsetzen der Tastenwiederholung verringert dieses Risiko.
 
 == Wie wird das geprüft?
 
-Tbd
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt wird nur geprüft, 
+wenn die Tastenwiederholung nicht abstellbar ist.
+Unter Windows und MacOs ist der Prüfschritt generell nicht anwendbar, 
+da die Tastenwiederholfunktion abgeschaltet werden kann (Windows: Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge; MacOs: Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung).
+Der Prüfschritt  käme also nur zum Einsatz, wenn das die Accessibility-Baseline des zu prüfenden Webangebot Systemumgebungen enthält, in denen sich die Tastenwiederhoung nicht ganz abstellen lässt lässt (z.B. Android).
+
+=== 2. Prüfung unter Android
+
+* Unter System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms)
+* Texteingabefeld fokussieren
+* Einen Buchstaben der Tastatur drücken
+* Prüfen, ob der Buchstabe nach Verzögerung erscheint. Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichtigt.
+* Eine weitere Taste drücken. Funktioniert die erneute Eingabe erst nach 2 Sekunden?
+
+Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die Webanwendung im eingesetzten Android-Browser kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Ansicht greifen.
 
 == Quellen
 
@@ -24,9 +41,9 @@ Tbd
 
 Tbd
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 5.8 Annahme eines zweifachen Tastenanschlags
+==== 5.7 Key repeat
 
 [quote]
 ____
@@ -35,4 +52,5 @@ Where ICT includes a keyboard or keypad, and a key repeat function that cannot b
 
 * a) the delay before the key repeat shall be adjustable to at least 2 seconds; and
 * b) the key repeat rate shall be adjustable down to one character per 2 seconds.
+
 ____
