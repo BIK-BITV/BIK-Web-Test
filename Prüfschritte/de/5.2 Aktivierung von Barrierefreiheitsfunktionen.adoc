@@ -45,9 +45,17 @@ die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
 
 Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite 
 spezielle Barrierefreiheits-Funktionen bereithält, 
-die im Angebot selbst, etwa in den Einstellungen, 
-oder in einer zur Verfügung gestellen technischen Dokumentation dokumentiert sind.
-Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser oder Betriebssystem).
+die im Angebot selbst, dokumentiert ist. 
+Dies kann auf verschiedene Weise erfolge:
+Eine Funktion durch über ein beschriftetes Bedienelement dokumentiert, z.B. über die Beschriftung ("Leichte Sprache"), 
+Eine Funktion ist über ein konventionelles Symbol dokumentiert, z.B. 
+. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache
+. Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache
+. Vertikal geteilter Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
+. Explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
+. Dokumentation in Seiten, die technischen Dokumentation zu Features oder Nutzungsweisen bereitstellen
+. Beschreibung der Funktion in der Erklärung zur Barrierefreiheit
+Nicht berücksichtigt werden Einstellugne im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
 
 === 2. Prüfung
 
@@ -61,9 +69,10 @@ Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser 
 
 ==== 3.1 Hinweis zur Bestimmung der Zielgruppe der Barrierefreiheits-Funktion
 
-Viele Menschen mit Behinderung nutzen verschieden Eingabemöglichkeiten, 
+Viele Menschen mit Behinderung nutzen verschiedene Eingabemöglichkeiten, 
 z.B. fallweise die Maus oder die Tastatur. 
-Menschen mit kognitiven Einschränkungen haben zum Teil auch andere Einschränkungen. 
+Menschen haben nicht immer nur eine Art von Behinderung, 
+sondern häufig auch weitere Einschränkungen bzw. Behinderungen. 
 Bei der Bestimmung der Zielgruppe ist es deshalb wichtig, 
 auch Anforderungen zu berücksichtigen, 
 die nicht direkt mit der Einschränkung zu tun haben, 
@@ -85,12 +94,12 @@ denn manche sehbehinderten Menschen nutzen zusätzlich auch eine Sprachausgabe.
 
 === 3.3 Hinweis auf andere anwendbare Anforderungen
 
-Bei nicht dokumentierten Barrierefreiheitsfunktionen, für die dieser Prüfschritt erfüllt ist, kann es zu negativen Bewertungen in anderen Prüfschritten kommen.
+Bei Barrierefreiheitsfunktionen, für die dieser Prüfschritt nicht anwendbar ist, wenn die Funktion nicht dokumentiert ist,  kann es zu negativen Bewertungen in anderen Prüfschritten kommen.
 
 === 4. Bewertung
 
 ==== Erfüllt
-Die Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
+Die dokumentierte Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
 
 ==== Nicht voll erfüllt
 Bedienelemente der Barrierefreiheitsfunktion 
