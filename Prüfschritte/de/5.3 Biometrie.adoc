@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Wenn die Webseite biometrische Merkmale 
 (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) 
-für die Authentifizierung Nutzender oder für die Steuerung nutzt, 
+für die Authentifizierung oder für die Steuerung nutzt, 
 muss es auch nicht-biometrische Wege der Authentifizierung oder Steuerung geben.
 
 Als Alternative muss mindestens eine nicht-biometrische Methode angeboten werden, 
