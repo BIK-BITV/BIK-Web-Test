@@ -56,12 +56,13 @@ für einen eingegebenen Nutzernamen freigeben.
 
 ==== 3.2 Biometrische Steuerung 
 
-Ansätze für die biometrische Steuerung dazu gibt es etwa im Bereich digitaler Videoaufnahmen. 
+Ansätze für die biometrische Steuerung  gibt es etwa im Bereich digitaler Videoaufnahmen. 
 Manche Systeme halten den Schärfepunkt 
 automatisch auf einer (biometrisch identifizierten) Person, 
 wenn sich diese durch den Bildraum bewegt
-Manche Systeme bewegen den Zeiger automatisch an die Stelle, 
-welche Nutzende fokussieren (eye-tracking).
+Andere Systeme bewegen den Zeiger automatisch an die Stelle, 
+welche Nutzende fokussieren (eye-tracking) oder verarbeiten Sprachbefehle nur, 
+wenn die Srache eines hinterlegten Nutzenden erkannt wird.
 Auch in Spielen auf Basis von Augmented Reality 
 wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 
@@ -75,7 +76,7 @@ gibt es mindestens eine weitere nicht-biometrische Methode.
 ==== Nicht erfüllt
 
 Nutzeridentifizierung oder Steuerung sind nur über ein biometrisches Merkmal möglich, 
-es gibt keine nicht.biometrischen Alternativen dazu.
+es gibt keine nicht-biometrischen Alternativen dazu.
 
 == Quellen
 * Zurzeit keine Quellen. 
