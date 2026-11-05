@@ -48,7 +48,7 @@ spezielle Barrierefreiheits-Funktionen bereithält, die dokumentiert sind.
 Diese Dokumentation einer Funktion kann auf verschiedene Weise erfolgen:
 
 * über ein beschriftetes Bedienelement, z.B. über einen Schalter mit Beschriftung "Leichte Sprache" 
-* über ein konventionelles Symbol, z.B. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache,  Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache, oder einen vertikal geteilten Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
+* über ein konventionelles Symbol, z.B. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache,  Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache, ein Lautsprecher Icon zum Vorlesen der Seite, oder einen vertikal geteilten Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
 * über explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
 * über die Dokumentation in Seiten, die technischen Hinweise zu Features, Nutzungsweisen oder die Zugänglichkeit mit Hilfsmitteln bereitstellen
 * Über die Erfassung der Funktion in der Erklärung zur Barrierefreiheit
