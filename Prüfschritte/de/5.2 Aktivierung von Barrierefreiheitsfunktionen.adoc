@@ -44,18 +44,15 @@ die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite 
-spezielle Barrierefreiheits-Funktionen bereithält, 
-die im Angebot selbst, dokumentiert ist. 
-Dies kann auf verschiedene Weise erfolge:
-Eine Funktion durch über ein beschriftetes Bedienelement dokumentiert, z.B. über die Beschriftung ("Leichte Sprache"), 
-Eine Funktion ist über ein konventionelles Symbol dokumentiert, z.B. 
-. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache
-. Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache
-. Vertikal geteilter Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
-. Explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
-. Dokumentation in Seiten, die technischen Dokumentation zu Features oder Nutzungsweisen bereitstellen
-. Beschreibung der Funktion in der Erklärung zur Barrierefreiheit
-Nicht berücksichtigt werden Einstellugne im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
+spezielle Barrierefreiheits-Funktionen bereithält, die dokumentiert sind. 
+Diese Dokumentation kann auf verschiedene Weise erfolge:
+
+* über ein beschriftetes Bedienelement, z.B. über die Beschriftung ("Leichte Sprache") 
+* über ein konventionelles Symbol, z.B. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache oder Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache, oder vertikal geteilter Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
+* über explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
+* über die Dokumentation in Seiten, die technischen Hinweise zu Features oder Nutzungsweisen bereitstellen
+* Über die Beschreibung der Funktion in der Erklärung zur Barrierefreiheit
+Nicht berücksichtigt werden Einstellugen im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
 
 === 2. Prüfung
 
