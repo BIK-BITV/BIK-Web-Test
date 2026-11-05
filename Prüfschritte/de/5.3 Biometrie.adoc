@@ -7,16 +7,13 @@ include::include/attributes.adoc[]
 Wenn die Webseite biometrische Merkmale 
 (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) 
 für die Nutzeridentifizierung oder die Steuerung nutzt, 
-soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
+soll diese sich nicht ausschließlich auf biometrisches Merkmale beschränken.
 
-Die Alternativen zu einer biometrischen Identifizierung 
-werden in der Regel nicht-biometrische Methoden sein, 
-etwa die Eingabe von Nutzername und Passwort. 
+Als Alternative muss mindestens eine nicht-biometrische Methode angeboten werden, 
+etwa die Eingabe von Nutzenden-Name und Passwort. 
 (Für diese gelten dann natürlich alle anderen Anforderungen, 
-etwa die der Tastaturbedienbarkeit und der Verfügbarkeit zugänglicher Namen.) 
-Auch eine zweite biometrische Methode kann diesen Prüfschritt erfüllen, 
-z.B. wenn zusätzlich zu Fingerabdruck-Erkennung die Erkennung des Irismusters, 
-des Sprachmusters, oder des Gesichts angeboten wird.
+etwa die der Tastaturbedienbarkeit und der Verfügbarkeit von programmatisch ermittelbaren Namen.) 
+
 
 == Warum wird das geprüft?
 
@@ -40,14 +37,14 @@ wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder Steu
 === 2. Prüfung
 
 . Webseite öffnen
-. Prüfen, ob nicht-biometrische oder biometrische Alternativen 
+. Prüfen, ob nicht-biometrische Alternativen 
 zur angebotenen biometrischen Identifizierung angeboten werden.
 . Bedienkonzept der wesentlichen Funktionen auf den zu testenden Webseiten
   untersuchen:
 +
   * Wird Biometrie für die Steuerung genutzt?
   * Gibt es neben der identifizierten biometrischen Steuerung 
-  alternative nicht biometrische oder biometrische Steuerungsmethoden?
+  alternative nicht-biometrische Steuerungsmethoden?
 
 === 3. Hinweise
 
@@ -62,7 +59,8 @@ Andere vom Autor gestaltbare Formen der Steuerung sind denkbar.
 Ansätze dazu gibt es etwa im Bereich digitaler Videoaufnahmen. 
 Manche Systeme halten den Schärfepunkt 
 automatisch auf einer (biometrisch identifizierten) Person, 
-wenn sich diese durch den Bildraum bewegt. 
+wenn sich diese durch den Bildraum bewegt,
+oder bewegen den Zeiger automatisch an die Stelle, welche Nutzende fokussieren (eye-tracking).
 Auch in Spielen auf Basis von Augmented Reality 
 wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 
@@ -71,12 +69,12 @@ wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 ==== Erfüllt
 
 Neben biometrischer Identifizierung oder Steuerung 
-gibt es mindestens eine weitere nicht-biometrische oder biometrische Methode.
+gibt es mindestens eine weitere nicht-biometrische Methode.
 
 ==== Nicht erfüllt
 
-Nutzeridentifizierung oder Steuerung sind nur über **ein** biometrisches Merkmal möglich, 
-es gibt keine Alternativen dazu.
+Nutzeridentifizierung oder Steuerung sind nur über ein biometrisches Merkmal möglich, 
+es gibt keine nicht.biometrischen Alternativen dazu.
 
 == Quellen
 * Zurzeit keine Quellen. 
@@ -90,18 +88,10 @@ es gibt keine Alternativen dazu.
 ____
 [.BLOCK_LANG_EN]
 --
-Where ICT uses biological characteristics, it shall not rely 
-on the use of a particular biological characteristic 
-as the only means of user identification or for control of ICT. 
+Where ICT uses biological characteristics, 
+the ICT shall not rely on the use of a biological characteristic 
+as the only means of user identification or for control of the ICT.
 
-NOTE 1:
-Alternative means of user identification or for control of ICT could be non-biometric or biometric. 
-
-NOTE 2:
-Biometric methods based on dissimilar biological characteristics increase the
-likelihood that individuals with disabilities possess at least one of the
-specified biological characteristics.
-Examples of dissimilar biological characteristics are fingerprints, eye
-retinal patterns, voice, and face.
+NOTE: Some examples of biological characteristics are fingerprints, eye retinal patterns, voice, and face.
 --
 ____
