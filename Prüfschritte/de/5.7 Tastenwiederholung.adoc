@@ -23,6 +23,7 @@ da die Tastenwiederholfunktion hier abgeschaltet werden kann:
 * MacOs: Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung 
 * iOS: Einstellungen > Bedienungshilfen > Tastaturen & Texteingabe > Tastenwiederholung
 * Android: System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Tasteneingabewiederholung
+
 Der Prüfschritt  käme also nur zum Einsatz, wenn die Accessibility-Baseline des zu prüfenden Webangebot Systemumgebungen enthält, in denen sich die Tastenwiederhoung nicht ganz abstellen lässt lässt.
 
 Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die Webanwendung im eingesetzten Android-Browser kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Ansicht greifen.
