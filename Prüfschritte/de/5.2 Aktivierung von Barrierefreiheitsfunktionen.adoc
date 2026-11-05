@@ -52,6 +52,7 @@ Diese Dokumentation kann auf verschiedene Weise erfolge:
 * über explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
 * über die Dokumentation in Seiten, die technischen Hinweise zu Features oder Nutzungsweisen bereitstellen
 * Über die Beschreibung der Funktion in der Erklärung zur Barrierefreiheit
+
 Nicht berücksichtigt werden Einstellugen im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
 
 === 2. Prüfung
