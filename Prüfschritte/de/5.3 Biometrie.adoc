@@ -46,7 +46,7 @@ zur angebotenen biometrischen Identifizierung angeboten werden.
   alternative nicht-biometrische Steuerungsmethoden?
 
 === 3. Hinweise
-====3.1 Biometrische Authentifizierung 
+==== 3.1 Biometrische Authentifizierung 
 
 Zurzeit wird Biometrie hauptsächlich die Nutzer-Identifizierung genutzt,
 z.B. beim Login in geschütze Bereiche eines Angebots. 
