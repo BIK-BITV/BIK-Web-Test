@@ -16,7 +16,7 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie d
 
 Der Prüfschritt wird nur geprüft, 
 wenn die Tastenwiederholung nicht systemseitig abstellbar ist.
-Unter Windows, MacOs und iOS ist der Prüfschritt generell nicht anwendbar, 
+Unter Windows, MacOs, iOS und Android ist der Prüfschritt generell nicht anwendbar, 
 da die Tastenwiederholfunktion hier abgeschaltet werden kann:
 
 * Windows: Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge
