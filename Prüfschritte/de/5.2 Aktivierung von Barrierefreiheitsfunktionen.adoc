@@ -60,8 +60,8 @@ Nicht berücksichtigt werden Einstellungsmöglichkeiten im User Agent oder im Sy
 . Webseite aufrufen.
 . Falls dokumentierte Barrierefreiheitsfunktionen angeboten werden:
 +
-  * Ist die Barrierefreiheits-Funktion für die Zielgruppe identifizierbar?
-  * Ist die Barrierefreiheits-Funktion für die Zielgruppe selbstständig aktivierbar?
+  * Ist die Barrierefreiheits-Funktion für die Zielgruppen identifizierbar?
+  * Ist die Barrierefreiheits-Funktion für die Zielgruppen selbstständig aktivierbar?
 
 === 3. Hinweise
 
