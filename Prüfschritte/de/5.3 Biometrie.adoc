@@ -48,8 +48,8 @@ zur angebotenen biometrischen Identifizierung angeboten werden.
 === 3. Hinweise
 ==== 3.1 Biometrische Authentifizierung 
 
-Zurzeit wird Biometrie hauptsächlich die Nutzer-Identifizierung genutzt,
-z.B. beim Login in geschütze Bereiche eines Angebots. 
+Zurzeit wird Biometrie hauptsächlich die Identifizierung Nutzender eingesetzt,
+z.B. beim Login in geschützte Bereiche eines Webangebots. 
 So kann die Berührung eines Fingerabdrucksensors oder die Gesichtserkennung
 die Einfügung eines im System gespeicherten Passwortes 
 für einen eingegebenen Nutzernamen freigeben. 
