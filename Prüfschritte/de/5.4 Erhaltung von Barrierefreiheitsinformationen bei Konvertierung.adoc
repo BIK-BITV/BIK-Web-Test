@@ -22,7 +22,7 @@ Hinzunehmen ist der Verlust von Barrierefreiheitsinformationen nur dann,
 wenn das Zielformat keine oder nur begrenzte eine Unterstützung 
 für die im Ausgangsformat genutzte Informationsart anbietet.
 
-Beispiel: Ein PDF-Dokument hat neun Überschriftenebenen, bei der Konvertierung nach HTML stehen nur sechs Ebenen zur Verfügung. In diesem Fall wäre es akzeptabel, wenn die Überschriftenauszeichnung der Ebenen 7-9 verloren geht, oder alle Überschriften der Ebenen 7 - 9 als `h6` ausgezeichnet würden.
+Beispiel: Ein PDF-Dokument hat neun Überschriftenebenen, bei der Konvertierung nach HTML stehen nur sechs Ebenen zur Verfügung. In diesem Fall ist es akzeptabel, wenn die Überschriftenauszeichnung der Ebenen 7-9 verloren geht, oder alle Überschriften der Ebenen 7 - 9 als `h6` ausgezeichnet würden.
 
 == Wie wird geprüft?
 
