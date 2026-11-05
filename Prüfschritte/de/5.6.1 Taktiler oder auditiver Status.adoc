@@ -4,25 +4,54 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Manche Webangebote können zusammen mit spezieller zusätzlicher Hardware genutzt werden. Ein Beispiel ist eine Webanwendung, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine Webanwendung, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der Webanwendung genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil (also durch Fühlen mit den Fingern) zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen.
+
+Beispiele wären:
+
+    An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
+
+    Umschalter für Ton an / Ton aus (Stummschalten) an zusätzlicher Hardware
+
+    Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an zusätzlicher Hardware
+
 
 == Warum wird das geprüft?
 
-Tbd
+Wenn physische Umschalter am Ausgabegerät oder zusätzlicher Hardware bei der Nutzung von Webanwendungen relevant sind, soll deren Zustand wahrnehmbar sein. Dazu gehört, das der Zustand nicht nur visuell, sondern auch mit dem Finger fühlbar oder aber akustisch ermittelbar ist.
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der Webanwendung der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa physische Umschalter an gekoppelter zusätzlicher Hardware.
 
-Tbd
+
+=== 2. Prüfung
+
+. Wird die Webanwendung zusammen mit zusätzliche Hardware genutzt?
+
+. Ist der Zustand physische Umschalter an der Hardware mit zwei oder drei Positionen taktil oder akustisch ermittelbar?
+
+=== 3. Hinweise
+
+Wenn die Webanwendung einen Modus hat, der die gleiche Funktionalität auch ohne gekoppeltes Zubehör bietet oder der Schalter-Zustand des Zubehörs auch in der Webanwendung sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
+
+Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreinstellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+
+=== 4. Bewertung
+Nicht erfüllt
+
+In der mit der Webanwendung zusammen genutzten zusätzlichen Hardware ist ein Umschalter vorhanden, dessen Zustand nicht taktil oder über Tonsignal ermittelbar ist.
 
 == Quellen
 
-Tbd
+[https://labs.etsi.org/rep/HF/en301549/-/issues/49]ETSI Labs Issue #49: 5.6.1 and 5.6.2 applicable to on-screen graphic controls?
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Tbd
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über andere Prüfschritte abgedeckt, besonders durch:
+
+* 9.4.1.2 Name, Rolle, Wert verfügbar
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
@@ -31,6 +60,7 @@ Tbd
 [quote]
 ____
 
+5.6.1 Tactile or auditory status
 Where ICT includes a locking or toggle control, the ICT shall provide at least one mode of operation where the status of the control can be determined either through touch or sound without operating the control.
 
 NOTE 1: Locking or toggle controls are those controls that can only have two or three states and that keep their state while being used.
@@ -39,9 +69,8 @@ NOTE 2: An example of a locking or toggle control is the "Caps Lock" key found o
 
 NOTE 3: For example, on some devices Power On/Off and Input Selection are physical toggle controls where the status can be felt. Tones can be used to indicate a change in different states such as a low-high tone for on and high-low tone for off. Or if speech output is enabled and the user invokes an action, feedback can be by speech at user option. However, the last two are not useful if the action is not a reversable one without consequence (e.g. power off/on that causes loss of information if done).
 
-NOTE 4: Even though all the above examples relate to hardware toggle controls, this clause also applies to graphical controls in software. 
+NOTE 4: Even though all the above examples relate to hardware toggle controls, this clause also applies to graphical controls in software.
 
-NOTE 5: For graphical software controls in functionality that is not closed, this clause will usually be satisfied if
-the control conforms with the complementary WCAG success criteria 1.3.1 (Information and relationships) and 4.1.2 (Name, Role, Value), corresponding to clauses 9.1.3.1 and 9.4.1.2 (for web content), 10.1.3.1 and 10.4.1.2 (for non-web documents) and 11.1.3.1 and 11.4.1.2 (for non-web
-software). When state information is rendered in text or otherwise programmatically determinable it is possible to render it in an audible or tactile form.
+NOTE 5: For graphical software controls in functionality that is not closed, this clause will usually be satisfied if the control conforms with the complementary WCAG success criteria 1.3.1 (Information and relationships) and 4.1.2 (Name, Role, Value), corresponding to clauses 9.1.3.1 and 9.4.1.2 (for web content), 10.1.3.1 and 10.4.1.2 (for non-web documents) and 11.1.3.1 and 11.4.1.2 (for non-web software). When state information is rendered in text or
+
 ____
