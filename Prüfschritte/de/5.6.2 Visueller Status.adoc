@@ -4,19 +4,53 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Manche Webanwendungen können zusammen mit spezieller Hardware genutzt werden. Ein Beispiel ist eine Webanwendung, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine Webanwendung, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der Webanwendung genutzt wird, nicht-visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch visuell zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen.
+
+Beispiele wären:
+
+    An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
+
+    Umschalter für Ton an/Ton aus (Stummschalten) an einem Eingabegerät oder Ausgabegerät
+
+    Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
+
+Wenn es auf dem Ausgabegerät oder einer speziellen Hardware, die zusammen mit der Webanwendung genutzt wird, Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
+
+Die Intention dieser Anforderung ist ebenso wie bei Prüfschritt 5.6.1 die Einbeziehung von physischen Schaltern an Geräten, welche Zustände der Ausgabe (etwa Lautstärke) oder Eingabe (etwa Großbuchstaben) mittels Umschalter oder dreiwertigem Schalter feststellen. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. 
+
+Virtualisierte Schalter innerhalb der App sind nicht von diesem Prüfschritt erfasst. Für diese ist der Prüfschritt 11.4.1.2 Name, Rolle, Wert zuständig.
+
 
 == Warum wird das geprüft?
 
-Tbd
+Wenn der Zustand von Umschaltern auf dem Gerät oder auf spezieller Hardware bei der Nutzung der Webanwendung relevant ist, soll dieser Zustand auch visuell erkennbar sein. Dies ist zum Beispiel dann der Fall, wenn ein Umschalter zwei visuell unterscheidbare Zustände hat.
 
 == Wie wird das geprüft?
 
-Tbd
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der Webanwendung der Zustand von Hardware-Schaltern an zusätzlicher Hardware relevant ist. Dazu gehören etwa physische Umschalter an gekoppelter spezieller Hardware.
+
+=== 2. Prüfung
+
+* Gibt es auf dem Ausgabegerät oder zusätzlich genutzter Hardware Umschalter, die generell den Kontext der Ausgabe oder Eingabe beeinflussen?
+
+* Falls das zutrifft: Mittels Sichtprüfung für solche physischen Umschalter prüfen, ob der Zustand visuell ermittelbar ist.
+
+=== 3. Hinweise
+
+Wenn die Webanwendung einen Modus hat, der die gleiche Funktionalität auch ohne gekoppeltes Zubehör bietet oder der Schalter-Zustand der zusätzlichen Hardware auch in der Webanwendung sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
+
+=== 4. Bewertung
+==== Nicht erfüllt
+
+* Für die Nutzung der Webanwendung ist ein physischer Umschalter auf dem Ausgabegerät oder auf zusätzlicher Hardware relevant, der den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand nicht visuell ermittelbar ist.
+
 
 == Quellen
 
-Tbd
+* Zur Zeit keine.
 
 == Einordnung des Prüfschritts
 
@@ -24,9 +58,9 @@ Tbd
 
 Tbd
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 5.6.2 Visueller Status
+==== 5.6.2 Visual status
 
 [quote]
 ____
