@@ -53,7 +53,7 @@ Diese Dokumentation einer Funktion kann auf verschiedene Weise erfolgen:
 * über die Dokumentation in Seiten, die technischen Hinweise zu Features, Nutzungsweisen oder die Zugänglichkeit mit Hilfsmitteln bereitstellen
 * Über die Erfassung der Funktion in der Erklärung zur Barrierefreiheit
 
-Nicht berücksichtigt werden Einstellungen im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
+Nicht berücksichtigt werden Einstellungsmöglichkeiten im User Agent oder im System (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
 
 === 2. Prüfung
 
