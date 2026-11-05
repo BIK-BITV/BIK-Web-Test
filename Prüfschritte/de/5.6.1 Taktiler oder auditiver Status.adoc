@@ -8,12 +8,9 @@ Manche Webangebote können zusammen mit spezieller zusätzlicher Hardware genutz
 
 Beispiele wären:
 
-    An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
-
-    Umschalter für Ton an / Ton aus (Stummschalten) an zusätzlicher Hardware
-
-    Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an zusätzlicher Hardware
-
+* An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
+* Umschalter für Ton an / Ton aus (Stummschalten) an zusätzlicher Hardware
+* Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an zusätzlicher Hardware
 
 == Warum wird das geprüft?
 
