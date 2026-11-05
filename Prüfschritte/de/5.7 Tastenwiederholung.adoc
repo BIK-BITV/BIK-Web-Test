@@ -29,7 +29,7 @@ Der Prüfschritt  käme also nur zum Einsatz, wenn die Accessibility-Baseline de
 Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die Webanwendung im eingesetzten Android-Browser kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Ansicht greifen.
 
 === 4. Bewertung
-==== Nicht anwendbar (Windows, MacOs, iOS)
+==== Nicht anwendbar (Windows, MacOs, iOS, Android bei neueren Versionen)
 
 * Der Prüfschritt ist zurzeit für Webangebote in den Umgebungen Windows, MacOs, iOS, Android nicht anwendbar (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
 
