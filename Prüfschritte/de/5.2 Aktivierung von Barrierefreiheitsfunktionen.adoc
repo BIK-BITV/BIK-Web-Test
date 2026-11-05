@@ -106,8 +106,5 @@ oder die Funktion selbst verstoßen gegen andere Anforderungen der EN.
 ==== 5.2 Activation of accessibility features
 ____
 [.BLOCK_LANG_EN]
-Where ICT has documented accessibility features, it shall be possible to
-activate those documented accessibility 
-features that are required to meet a specific need without relying on a method
-that does not support that need.
+Where ICT includes documented accessibility features, it shall be possible to activate those documented accessibility features that are required to meet a specific need without relying on a method that does not support that need.
 ____
