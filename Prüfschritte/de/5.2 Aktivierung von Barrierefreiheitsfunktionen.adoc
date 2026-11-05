@@ -107,7 +107,7 @@ oder die Funktion selbst verstoßen gegen andere Anforderungen der EN.
 * Zurzeit keine Quellen. 
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
 ==== 5.2 Activation of accessibility features
