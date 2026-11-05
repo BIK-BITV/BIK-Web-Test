@@ -45,12 +45,12 @@ die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
 
 Der Prüfschritt ist anwendbar, wenn die zu prüfende Webseite 
 spezielle Barrierefreiheits-Funktionen bereithält, die dokumentiert sind. 
-Diese Dokumentation kann auf verschiedene Weise erfolge:
+Diese Dokumentation einer Funktion kann auf verschiedene Weise erfolge:
 
-* über ein beschriftetes Bedienelement, z.B. über die Beschriftung ("Leichte Sprache") 
-* über ein konventionelles Symbol, z.B. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache oder Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache, oder vertikal geteilter Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
+* über ein beschriftetes Bedienelement, z.B. über einen Schalter mit Beschriftung "Leichte Sprache" 
+* über ein konventionelles Symbol, z.B. Gebärdensprach-Icon (zwei Hände) für einen Link zur Seite mit Gebärdensprache,  Leichte-Sprache-Icon (Leser mit Buch) für einen Link zu einer Version mit leichter Sprache, oder einen vertikal geteilten Kreis mit schwarzer und weißer Hälfte für eine Hochkontrasteinstellung
 * über explizite, meist über ein Einstellungs-Menü erreichbare Einstellungen des Angebots (z.B. "Bewegung abschalten" oder "erhöhter Kontrast") 
-* über die Dokumentation in Seiten, die technischen Hinweise zu Features oder Nutzungsweisen bereitstellen
+* über die Dokumentation der Funktion in Seiten, die technischen Hinweise zu Features oder Nutzungsweisen bereitstellen
 * Über die Beschreibung der Funktion in der Erklärung zur Barrierefreiheit
 
 Nicht berücksichtigt werden Einstellugen im User Agent oder systemseitige Einstellungen (also Einstellungen im Browser oder in den Bedienungshilfen des Betriebssystems).
