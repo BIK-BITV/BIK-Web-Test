@@ -31,7 +31,7 @@ Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellun
 === 4. Bewertung
 ==== Nicht anwendbar (Windows, MacOs, iOS, Android bei neueren Versionen)
 
-* Der Prüfschritt ist zurzeit für Webangebote in den Umgebungen Windows, MacOs, iOS, Android nicht anwendbar (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
+* Der Prüfschritt ist zurzeit für Webangebote in den Umgebungen Windows, MacOs, iOS, und neueren Versionen von Android nicht anwendbar (denn die Tastenwiederholung ist bei diesen Umgebungen in den Betriebssystemeinstellungen komplett abstellbar).
 
 ==== Erfüllt (bei Systemumgebungen ohne ganz abstellbare Tastenwiederholung)
 
@@ -39,7 +39,7 @@ Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellun
 
 ==== Nicht erfüllt (bei Systemumgebungen ohne ganz abstellbare Tastenwiederholung)
 
-* Die aktivierte Anschlagverzögerung bei Texteingabefeldern greift.
+* Die aktivierte Anschlagverzögerung bei Texteingabefeldern greift nicht.
 
 == Quellen
 
