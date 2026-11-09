@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.4 Reparaturassistenz
+= Prüfschritt 5.10.4 Reparaturassistenz
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -65,5 +65,27 @@ suggestion(s).
 NOTE:
 This does not preclude automated and semi-automated repair which is possible
 (and encouraged) for many types of content accessibility problems. 
+--
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.10.4 Repair assistance
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, authoring tool functionality, and is capable of detecting that content does not meet a
+requirement of clause 9 (Web), or clause 10 (Non-web document), or clause 11 (Non-web software) as applicable,
+the authoring tool shall provide repair suggestion(s).
+
+NOTE:
+Automatic detection of failure to meet some requirements may be very challenging, but there are other
+types of failure that can be very easy to automatically detect. It is best practice that failure detection of at
+least the easily detected failures should be implemented.
+
+NOTE:
+This does not preclude automated and semi-automated repair which is possible (and encouraged with
+author review) for many types of content accessibility problems.
 --
 ____
