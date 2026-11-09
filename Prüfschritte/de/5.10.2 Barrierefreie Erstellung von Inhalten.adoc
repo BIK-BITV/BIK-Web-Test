@@ -119,5 +119,20 @@ files for multiple formats may be provided by a different tool.
 --
 ____
 
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
+[.BLOCK_LANG_EN]
+==== 5.10.2 Accessible content creation
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, authoring tool functionality, the authoring tool shall enable and guide the production of content that conforms to clause 9 (web), or clause 10
+(Non-web documents), or clause 11 (Non-web software) as applicable.
+
+NOTE: Authoring tools may rely on additional tools where conformance with specific requirements is not
+achievable by a single tool. For example, a video editing tool may enable the creation of video files for
+distribution via broadcast television and the web, but authoring of subtitle files for multiple formats may
+be provided by a different tool.
+--
+____
 
