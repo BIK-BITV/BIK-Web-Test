@@ -17,10 +17,12 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie v
 
 === Windows
 . Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge Wert auf 1.0 Sek stellen
-: Prüfen, ob der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
+. Prüfen, ob in der Webanwendung der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
 
 === MacOs
 
+. Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung (i) Icon aktiveren und Wert im Schieberegler auf höchsten Wert stellen
+. Prüfen, ob in der Webanwendung der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
 
 == Quellen
 
