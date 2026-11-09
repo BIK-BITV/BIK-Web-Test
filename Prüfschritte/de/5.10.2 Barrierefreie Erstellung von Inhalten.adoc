@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.2 Barrierefreie Erstellung von Inhalten
+= Prüfschritt 5.10.2 Barrierefreie Erstellung von Inhalten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -118,3 +118,6 @@ distribution via broadcast television and the web, but authoring of caption
 files for multiple formats may be provided by a different tool.
 --
 ____
+
+
+
