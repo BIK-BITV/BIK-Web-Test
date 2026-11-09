@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die erneute Aktivierung der gleichen Taste auf der Tastatur soll konfigurierbar sein. Bei wiederholtem Drücken der gleichen Taste soll der Zeitraum, in dem diese Eingabe nicht angenommen wird, auf mindestens 0,5 Sekunden eingestellt werden können. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Die We sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.zzzzzzzzz
+Die erneute Aktivierung der gleichen Taste auf der Tastatur soll konfigurierbar sein. Bei wiederholtem Drücken der gleichen Taste soll der Zeitraum, in dem diese Eingabe nicht angenommen wird, auf mindestens 0,5 Sekunden eingestellt werden können. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Die We sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.
 
 Geprüft wird die Eingabe über physische Tastaturen, nicht die über virtuelle (Bildschirm-)Tastaturen.
 
