@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.5 Vorlagen
+= Prüfschritt 5.10.5 Vorlagen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -71,3 +71,15 @@ the creation of content that conforms to the requirements of clauses 9 (Web)
 or 10 (Non-web documents) as applicable shall be available and identified as
 such.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.10.5 Templates
+____
+[.BLOCK_LANG_EN]
+Where ICT is, or includes, authoring tool functionality, and provides templates,
+at least one template that supports the creation of content that conforms to the requirements of clause 9 (Web) or
+clause 10 (Non-web document). or clause 11 (Non-web software) as applicable shall be available and identified as such.
+____
+
