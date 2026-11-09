@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.3 Erhaltung von Barrierefreiheitsinformationen bei Transformation
+= Prüfschritt 5.10.3 Erhaltung von Barrierefreiheitsinformationen bei Transformation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -91,5 +91,22 @@ changed (e.g. linearizing tables, splitting a document into pages).
 NOTE 2:
 Re-coding transformations are transformations in which the technology used to
 encode the content is changed.
+--
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.10.3 Preservation of accessibility information in transformations
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, authoring tool functionality, and provides restructuring transformations or re-coding transformations, accessibility information shall be preserved in the output if equivalent mechanisms exist in the content technology of the output.
+
+NOTE 1:
+Restructuring transformations are transformations in which the content technology stays the same, but the structural features of the content are changed (e.g. linearizing tables, splitting a document into pages) 
+
+NOTE 2:
+Re-coding transformations are transformations in which the technology used to encode the content is changed.
 --
 ____
