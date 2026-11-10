@@ -57,3 +57,23 @@ This is necessary to enable both voice and RTT participants to know who is
 currently communicating, whether it be in RTT or voice.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.2.3 Indication of audio with RTT
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and supports RTT,
+the ICT shall provide a real-time indicator of non-local audio activity on the display.
+
+NOTE:
+The indicator may be a simple character position on the display that flickers on and off to reflect the
+varied strength of the audio activity, or presentation of the information in another way that can be both
+visible to sighted users and presented to deaf-blind users.
+
+NOTE:
+Without this indication a person who lacks the ability to hear does not know when someone is talking.
+--
+____
