@@ -58,10 +58,13 @@ Tbd
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
+[.BLOCK_LANG_EN]
 ==== 5.6.2 Visual status
 
 [quote]
 ____
+[.BLOCK_LANG_EN]
+--
 
 Where ICT includes a locking or toggle control, the ICT shall provide at least one mode of operation where the status of the control can be visually determined when the control is presented.
 
@@ -70,4 +73,5 @@ NOTE 1: Locking or toggle controls are those controls that can only have two or 
 NOTE 2: An example of a locking or toggle control is the "Caps Lock" key found on most keyboards. An example of making the status of a control determinable is a visual status indicator on a keyboard.
 
 NOTE 3: A visual status can be a change on the screen or a flash of an LED after the user invokes an action. Where appropriate, adopting a pattern for example, a short flash for "off" and a longer or double flash for "on" can be considered as a good practice.
+--
 ____
