@@ -94,6 +94,7 @@ Where ICT uses biological characteristics,
 the ICT shall not rely on the use of a biological characteristic 
 as the only means of user identification or for control of the ICT.
 
-NOTE: Some examples of biological characteristics are fingerprints, eye retinal patterns, voice, and face.
+NOTE: 
+Some examples of biological characteristics are fingerprints, eye retinal patterns, voice, and face.
 --
 ____
