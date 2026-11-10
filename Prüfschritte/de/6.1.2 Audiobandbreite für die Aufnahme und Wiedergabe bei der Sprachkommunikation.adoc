@@ -25,13 +25,19 @@ Tbd
 
 Tbd
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 6.1.2 Audiobandbreite für die Aufnahme und Wiedergabe bei der Sprachkommunikation
+
+[.BLOCK_LANG_EN]
+==== 6.1.2 Audio bandwidth for capture and presentation for voice communication
 
 [quote]
 ____
 
+[.BLOCK_LANG_EN]
+--
+
 Where ICT provides functionality that allows real-time bidirectional voice communication, and has a user interface for real-time bidirectional voice communication, the ICT shall be able to capture, communicate and present voice communication with a frequency range of at least
 down to 250 Hz and up to at least 7 000 Hz.
+--
 ____
