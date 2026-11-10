@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.2.3 Sprecheridentifizierung
+= Prüfschritt 6.2.2.3 Anzeige des Audiosignals mit Echtzeit-Textkommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
