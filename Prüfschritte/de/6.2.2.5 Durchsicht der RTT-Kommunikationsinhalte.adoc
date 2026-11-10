@@ -26,10 +26,16 @@ Tbd
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 6.2.2.5 Durchsicht der RTT-Kommunikationsinhalte
+[.BLOCK_LANG_EN]
+--
+==== 6.2.2.5 Review of RTT communication contents
+--
 
 [quote]
 ____
+
+[.BLOCK_LANG_EN]
+--
 
 Where ICT provides real-time bidirectional voice communication, and includes RTT presentation capabilities,
 the ICT shall provide the ability to review the whole RTT content of the communication during the communication and,
@@ -38,5 +44,6 @@ if the communication is recorded, after the communication has ended.
 Note:
 Best practice is to have the text view scroll with the arrival of new text, but only when the view is fully
 scrolled to the end of the text display.
+--
 ____
 
