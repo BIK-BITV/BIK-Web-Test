@@ -26,10 +26,14 @@ Tbd
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
+[.BLOCK_LANG_EN]
 ==== 6.1.1 Voice communication interoperability
 
 [quote]
 ____
+
+[.BLOCK_LANG_EN]
+--
 
 Where ICT provides functionality that allows real-time bidirectional voice communication, and connects to other ICT that allows real-time bidirectional voice communication, the ICT's documentation shall contain information on the main specifications by which voice is implemented in a manner that allows the voice on the ICT to interoperate with the other ICT, providing electronic communication covering audio frequencies at least down to 100 Hz and at least up to 7 000 Hz using one of the following options:
 
@@ -65,5 +69,5 @@ NOTE 2: Frequencies between 250 Hz and 7 000 Hz are essential for good speech pe
 NOTE 3: Frequencies between 100 Hz and 250 Hz provide extra information for person recognition.
 
 NOTE 4: Background information and detailed guidance about accessible voice communication is available in ETSI ES 204 009 [i.77].
-
+--
 ____
