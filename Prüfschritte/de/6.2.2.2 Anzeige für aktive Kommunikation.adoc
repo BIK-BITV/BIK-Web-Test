@@ -98,3 +98,21 @@ This enables screen readers to distinguish between incoming text and outgoing
 text when used with RTT functionality.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.2.2 Active communicator indication
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes RTT send and receive capabilities, and
+provides speaker indication for voice,
+the ICT shall provide indication of all active communicators including those using RTT. 
+
+NOTE:
+This is necessary to enable all parties to know who or what is currently communicating, whether it be in
+RTT or voice
+--
+____
+
