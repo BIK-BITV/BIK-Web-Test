@@ -27,9 +27,7 @@ Tbd
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
---
 ==== 6.2.2.5 Review of RTT communication contents
---
 
 [quote]
 ____
