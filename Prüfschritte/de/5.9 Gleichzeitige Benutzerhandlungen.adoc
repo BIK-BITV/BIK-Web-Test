@@ -24,15 +24,20 @@ Tbd
 
 Tbd
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 5.9 Gleichzeitige Benutzerhandlungen
+[.BLOCK_LANG_EN]
+==== 5.9 Simultaneous user actions
 
 [quote]
 ____
 
+[.BLOCK_LANG_EN]
+--
+
 Where ICT includes a mode of operation requiring simultaneous user actions for its operation,
 the ICT shall provide at least one mode of operation that does not require simultaneous user actions to operate the ICT.
 NOTE: Having to use both hands to open the lid of a laptop, having to press two or more keys at the same time or
-having to touch a surface with more than one finger are examples of simultaneous user actions
+having to touch a surface with more than one finger are examples of simultaneous user actions.
+--
 ____
