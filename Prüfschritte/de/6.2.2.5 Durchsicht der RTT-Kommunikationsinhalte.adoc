@@ -1,1 +1,42 @@
+= Prüfschritt 6.2.2.5 Durchsicht der RTT-Kommunikationsinhalte
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Tbd
+
+== Warum wird das geprüft?
+
+Tbd
+
+== Wie wird das geprüft?
+
+Tbd
+
+== Quellen
+
+Tbd
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+==== 6.2.2.5 Durchsicht der RTT-Kommunikationsinhalte
+
+[quote]
+____
+
+Where ICT provides real-time bidirectional voice communication, and includes RTT presentation capabilities,
+the ICT shall provide the ability to review the whole RTT content of the communication during the communication and,
+if the communication is recorded, after the communication has ended.
+
+Note:
+Best practice is to have the text view scroll with the arrival of new text, but only when the view is fully
+scrolled to the end of the text display.
+____
 
