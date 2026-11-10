@@ -75,3 +75,45 @@ NOTE 3:
 For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.1.1 RTT functionality
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides functionality that allows real-time bidirectional voice communication,
+the ICT shall provide functionality that allows real-time bidirectional RTT communication. 
+
+NOTE 1:
+The above requirement implicitly requires that ICT that interoperates with other ICT for real-time
+bidirectional voice communication would interoperate for RTT as well.
+
+NOTE 2:
+This requirement includes those products which do not have physical display or text entry capabilities but
+have the capability to connect to devices that do have such capabilities. It also includes intermediate ICT
+between the endpoints of the communication. 
+
+NOTE 3:
+The precondition of the present clause implies multi-party RTT support where multi-party voice is
+supported.
+
+NOTE 3:
+The precondition of the present clause implies multi-party RTT support where multi-party voice is
+supported.
+
+NOTE 4:
+Background reading about RTT and a comprehensive reference list is available in ETSI
+TR 103 708 [i.59]. Additional detailed guidance is provided in ETSI ES 204 009 [i.77].
+
+NOTE 5:
+Many other clauses than 6.2 of the present document are valid for RTT implementation.
+
+NOTE 6:
+Clause 11.5 of the present document presents considerations about use of assistive technology which are
+also considerations for RTT implementations. In the RTT case, best practice is that new text input can
+arrive anytime while the user is reading earlier received text and the user is made aware that new text is
+available while not disturbing the reading of earlier received text.
+--
