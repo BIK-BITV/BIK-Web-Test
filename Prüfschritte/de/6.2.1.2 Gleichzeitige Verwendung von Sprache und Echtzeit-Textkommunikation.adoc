@@ -59,7 +59,7 @@ und nicht zu Verwirrung führen.
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-==== 6.2.1.2 Concurrent voice and RTT
+==== 6.2.1.2 Concurrent voice and text
 ____
 [.BLOCK_LANG_EN]
 --
@@ -99,5 +99,17 @@ to provide voice communication, where neither part can support voice
 communication without the other and are sold as a unit for the voice
 communication function, the local and server-side components are considered a
 single product.
+--
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.1.2 Concurrent voice and RTT
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and supports RTT,
+the ICT shall allow concurrent voice and RTT. 
 --
 ____
