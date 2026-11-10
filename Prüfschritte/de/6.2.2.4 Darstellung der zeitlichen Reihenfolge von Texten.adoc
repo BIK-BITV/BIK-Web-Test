@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.2.4 Echtzeitanzeige von Sprech-Aktivität
+= Prüfschritt 6.2.2.4 Darstellung der zeitlichen Reihenfolge von Texten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -72,3 +72,42 @@ Without this indication a person who lacks the ability to hear does not know
 when someone is talking.
 --
 ____
+
+[.BLOCK_LANG_EN]
+==== 6.2.2.4 Darstellung der zeitlichen Reihenfolge von Texten
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes RTT presentation capabilities,
+the ICT shall present the text from each source, including the local source, as blocks of text that are arranged in order
+based on the point in time that each block of text is terminated by any sentence-terminating punctuation character
+followed by a space, or a line separator character is entered or received, or 5 seconds passes without a new character
+being entered or received. Editing of text in a block causes the entire block's termination time to change to the time of
+the last edited character.
+
+NOTE 1:
+Text blocks from the same source are presented contiguously, forming a single block, unless an
+intervening text block from a different source is received. For example, the phrases 'J.D. Clampett is here!
+But no one else is.' will appear as one continuous text presentation when no other sources are sending
+concurrently. If, however, another source sends text at the same time, then within a single column view,
+the blocks are presented in chronological order, with text blocks from different sources interleaved but
+kept distinct.
+
+NOTE 2:
+This requirement aims to establish an approximate chronological order for displaying text from different
+sources, while maintaining text blocks together for readability. Precise timing between texts from
+different sources received concurrently is unnecessary and would reduce readability in most layouts.
+
+NOTE 3:
+Presentation aspects of RTT are presented in ETSI TR 103 708 [i.59] clause 7.2.
+
+NOTE 4:
+The events terminating a block of text in the present clause is the minimum set. For smooth presentation
+other events can be added to a product, such as end of phrase or reasons found by linguistic analysis in
+languages not using explicit delimiter characters.
+
+NOTE 5:
+See clause 6.2.5 of the present document for additional information regarding adding and erasing of text.
+--
+____
+
