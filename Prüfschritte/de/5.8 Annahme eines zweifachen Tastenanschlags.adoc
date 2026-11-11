@@ -30,6 +30,25 @@ Im Prüfschritt werden nicht die Einstellungsmöglichkeiten des Betriebssystems 
 . Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung (i) Icon aktiveren und Wert im Schieberegler auf höchsten Wert stellen
 . Prüfen, ob im Webangebot der erneute Anschlag der Taste erst nach einer Verzögerung um den eingestellten Wert angenommen wird
 
+3. Hinweis
+
+...
+
+
+=== 4. Bewertung
+==== Erfüllt
+
+Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots übernommen.
+
+==== Nicht erfüllt
+
+Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots nicht übernommen.
+
+==== Nicht anwendbar
+
+Das Webangebot sieht keine Texteingaben von Nutzenden vor.
+
+
 == Quellen
 
 Zurzeit keine.
