@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Tbd
 
-== Warum wird das geprüft?
+== Warum wird das geprüft
 
 Tbd
 
