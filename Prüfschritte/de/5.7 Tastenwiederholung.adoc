@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Webanwendungen sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Webangebote sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
 
@@ -19,14 +19,16 @@ wenn die Tastenwiederholung nicht systemseitig abstellbar ist.
 Unter Windows, MacOs, iOS und Android ist der Prüfschritt generell nicht anwendbar, 
 da die Tastenwiederholfunktion hier abgeschaltet werden kann:
 
+=== 2. Prüfung
+
 * Windows: Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge
 * MacOs: Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung 
 * iOS: Einstellungen > Bedienungshilfen > Tastaturen & Texteingabe > Tastenwiederholung
 * Android: System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Tasteneingabewiederholung
 
-Der Prüfschritt  käme also nur zum Einsatz, wenn die Accessibility-Baseline des zu prüfenden Webangebot Systemumgebungen enthält, in denen sich die Tastenwiederholung nicht ganz abstellen lässt. Das wäre ggf. bei älteren Android-Versionen der Fall. 
+=== 3. Hinweis 
 
-Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die Webanwendung im eingesetzten Android-Browser kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Ansicht greifen.
+Der Prüfschritt  käme nur zum Einsatz, wenn die Accessibility-Baseline des zu prüfenden Webangebots Systemumgebungen enthält, in denen sich die Tastenwiederholung nicht ganz abstellen lässt. Das wäre ggf. bei älteren Android-Versionen der Fall. 
 
 === 4. Bewertung
 ==== Nicht anwendbar (Windows, MacOs, iOS, Android bei neueren Versionen)
