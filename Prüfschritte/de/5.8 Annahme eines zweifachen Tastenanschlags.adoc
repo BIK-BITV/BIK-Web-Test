@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die erneute Aktivierung der gleichen Taste auf der Tastatur soll konfigurierbar sein. Bei wiederholtem Drücken der gleichen Taste soll der Zeitraum, in dem diese Eingabe nicht angenommen wird, auf mindestens 0,5 Sekunden eingestellt werden können. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Die We sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.
+Die erneute Aktivierung der gleichen Taste auf der Tastatur soll konfigurierbar sein. Bei wiederholtem Drücken der gleichen Taste soll der Zeitraum, in dem diese Eingabe nicht angenommen wird, auf mindestens 0,5 Sekunden eingestellt werden können. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Das Webangebot sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.
 
 Geprüft wird die Eingabe über physische Tastaturen, nicht die über virtuelle (Bildschirm-)Tastaturen.
 
@@ -15,24 +15,30 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie v
 
 == Wie wird das geprüft?
 
-=== Windows
+=== 1. Anwendbarkeit des Prüfschritts
+
+Im Prüfschritt werden nicht die Einstellungsmöglichkeiten des Betriebssystems für die Annahme eines zweifachen Tastenanschlags geprüft, denn hier geht es um das Webangebot. Geprüft wird lediglich, ob systemseitige Einstellungen, wenn vorhanden, von der App übernommen werden.
+
+=== 2. Prüfung
+
+==== 2.1 Windows
 . Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge Wert auf 1.0 Sek stellen
 . Prüfen, ob in der Webanwendung der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
 
-=== MacOs
+==== 2.2 MacOs
 
 . Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung (i) Icon aktiveren und Wert im Schieberegler auf höchsten Wert stellen
-. Prüfen, ob in der Webanwendung der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
+. Prüfen, ob im Webangebot der erneute Anschlag der Taste erst nach einer Verzögerung um den eingestellten Wert angenommen wird
 
 == Quellen
 
-Tbd
+Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
-Tbd
+Vergl. 5.7 Tastenwiederholung, wo es darum geht, dass bei längerem Halten die Taste nicht wiederholt schreibt.
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
