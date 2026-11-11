@@ -4,19 +4,54 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Für die Nutzung des Webangebots soll es einen Modus der Bedienung geben, der keine simultanen Aktivitäten bzw. gleichzeitige Eingaben von Nutzenden erfordert. Die Einfingerbedienung wird üblicherweise über Einstellungen des Betriebssystems festgelegt, auf die Entwickler keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Für Toucheingaben wird ein Teil der Anforderung in Prüfschritt 11.2.5.1 geprüft.
+
+Beispiele für simultane Aktionen:
+
+* das gleichzeitige Drücken zweier Tasten auf der Tastatur
+* das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch bedient wird.
+* Das Halten einer Gerätetaste, während eine Spracheingabe erfolgt.
+
+Notwendige simultane Aktionen bei der Bedienung des Webangebots in einem bestimmten Modus sind kein Fehler im Sinne dieses Prüfschritts, solange es einen anderen Bedienungsmodus gibt, der die Bedienung ohne simultane Aktionen erlaubt.
+
+Die Situation ist unterschiedlich für verschiedene Bedienungsmodi:
+
+* Tastaturbedienung: Gängige Betriebssysteme haben Einstellungen für die Einfingerbedienung und damit die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
+* Touchbedienung: Die gleichzeitige Eingabe über mehrere Berührungspunkte auf Touch-Bildschirmen wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es alternativ Einfinger-bedienbare Eingaben geben.
+* Mausbedienung und andere Zeigereingaben: Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Problematisch wären bei Mausbedienung ggf. Zeiger-Eingaben mit simultan gedrückten Tasten der Tastatur, ohne dass Alternativen ohne simultane Aktionen bzw. die Bedienung nur über die Tastatur verfügbar wären.
+* Sprachsteuerung: Diese funktioniert in der Regel ohne simultane physische Eingaben.
 
 == Warum wird das geprüft?
 
-Tbd
+Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen auch über einfache Eingaben (ohne simultane Aktionen) ausführbar sein.
 
 == Wie wird das geprüft?
 
-Tbd
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar. Bezüglich Tastasturbedienung wir dieser Prüfschritt nicht geprüft, da Einstellungsmöglichkeiten für Einfingerbedienung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten.
+
+Komplexe Aktionen, die vom Betriebssystem oder einer Hilfsmittelfunktionen definiert sind (etwa der VoiceOver-Rotor, der über eine gegenläufige Drehbewegung mit zwei Fingern aufgerufen wird) fallen nicht unter diesen Prüfschritt.
+
+
+=== 2. Prüfung
+
+Bei Umgebungen mit Touch-Bildschirmen Bedienung mit Toucheingabe überprüfen. Sind alle Funktionen mit Einfinger-Gesten aktivierbar, ohne das gleichzeitig Gerätetasten gedrückt oder das Gerät bewegt bzw. ausgerichtet werden muss?
+
+In der Regel kann das Ergebnis von 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" hierhin übertragen werden, wenn es Fehler durch den Einsatz von Mehrfingergesten ohne Einfinger-bedienbare Alternativen gibt.
+
+=== 3. Hinweise
+
+Ggf. sind bei Touchbedienung außer dem gleichzeitigen Drücken von Gerätetasten oder der Ausrichtung des Geräts andere, hier nicht näher spezifizierte simultane Aktionen denkbar, die für die erfolgreiche Bedienuung ausgeführt werden müssten, etwa die Auswertung von Handbewegungen über dem Gerät, die Auswertung des Kamera-Bildes, wofür das Gerät gehalten bzw. bewegt werden müsste, usw.
+
+=== 4. Bewertung
+==== Erfüllt
+
+* Bei Touchbedienung sind alle Funktionen der App über einfache Zeigeraktionen aktivierbar.
 
 == Quellen
 
-Tbd
+Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
