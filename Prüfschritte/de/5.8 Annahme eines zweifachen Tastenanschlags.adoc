@@ -22,12 +22,12 @@ Im Prüfschritt werden nicht die Einstellungsmöglichkeiten des Betriebssystems 
 === 2. Prüfung
 
 ==== 2.1 Windows
-. Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge Wert auf 1.0 Sek stellen
+. Einstellungen > Barrierefreiheit > Tastatur > Filtertasten > Ignorieren nicht beabsichtigter Tastenanschläge (Unanschlagtasten): Wert auf 1.0 Sek stellen
 . Prüfen, ob in der Webanwendung der erneute Anschlag der Taste erst nach dem eingestellten Wert angenommen wird
 
 ==== 2.2 MacOs
 
-. Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung (i) Icon aktiveren und Wert im Schieberegler auf höchsten Wert stellen
+. Einstellungen > Bedienungshilfen > Tastatur > Tastenverzögerung: (i) Icon aktivieren und dan Wert im Schieberegler auf höchsten Wert stellen
 . Prüfen, ob im Webangebot der erneute Anschlag der Taste erst nach einer Verzögerung um den eingestellten Wert angenommen wird
 
 === 3. Hinweis
