@@ -39,10 +39,6 @@ Die Formulierung der Anforderung impliziert, dass Funktionen für bidirektionale
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfschritten
-
-Tbd
-
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
