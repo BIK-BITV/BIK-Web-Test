@@ -20,7 +20,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikatio
 
 === 2. Prüfung
 
-Eine Zwei-Wege-Kommunikation mit unterstütztem Echtzeit-Texteingabe wird gestartet
+Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet
 
 . Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein 
 . Teilnehmer 2 antwortet, gibt über 10 Sekunden hinweg fortlaufend Text ein 
