@@ -4,19 +4,34 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation dieser Funktion zur Untestützung der Interoperabilität Angaben den Spezifikationen die Sprachübertragung  enthalten, wobei Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz abdeckt sein sollen.
+
+Dies kann durch Verweis auf https://en.wikipedia.org/wiki/G.722[ITU-T G.722] [i.20] uder andere geeignete Spezifikationen geschehen.
 
 == Warum wird das geprüft?
 
-Tbd
+Für Nurtzende mit verscheidenen IT-Umgebungen kann es hilfreic hsein, über dude Dokumentation zu ermitteln, ob Sprachübertragung in hinreichender Qualität grundsätrzlich unterstützt wird. Die üblichen Gründe für schlechte Audio-Qualität haben meist weniger mit den unterstützten Standards als mit Umgebungsvariabeln (Qualität der Internatanbindung, Leistungsfähigkeit der verwendeten Geräte) zu tun.
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist nur anwendbar, wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation enmthält. Das wäre bei Web-Versionen gängiger Video Konferencing Software der Fall, ebenso wenn Angebote solche Funktionen einbetten.
 
-Tbd
+=== 2. Prüfung
+Prüfen, ob in der Dokumentation der Funktion für bidirektionale Sprachkommunikation (meist eine Webanwendung für Video-Conferencing) eine Spezifikation wie G.722 genannt wird, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
+
+=== 3. Hinweise
+Die Formulierung der Anwendung impliziert, dass Funktionen für bidirektionale Sprachkommunikation dokumentiert sind. Anders als bei Den Prüfschritten, bei denen es um Informationen über Produkte und Dienstleistungen geht, ist das Vorhandensein von Dokumentation hier keine Voraussetzung fpr die Anwendbarkeit. Diese bedeutet, dass das Fehlen von Dokumentation hier nicht dazu führen kann, den Prüfschritt als "nicht anwendbar" zu bewerten. 
+
+=== 4. Bewertung
+==== Erfüllt
+* Die Dokumentation der Funktion für bidirektionale Sprachkommunikation verweist auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
+
+==== Nicht erfüllt
+* Es existiert keine  Dokumentation der Funktion für bidirektionale Sprachkommunikation, oder diese Dokumentation enthält keinen Verweis auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
 
 == Quellen
 
-Tbd
+* https://de.wikipedia.org/wiki/G.722[G.722 (Wikipedia-Eintrag)]
 
 == Einordnung des Prüfschritts
 
