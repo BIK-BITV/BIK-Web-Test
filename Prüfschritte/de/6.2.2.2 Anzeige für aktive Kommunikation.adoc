@@ -14,82 +14,32 @@ Die Anzeige der Aktivität in Videokonferenz-Sytemen erlaub Teilnehmern die Zuor
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-Time Text) 
-senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikation mit Echtzeit-Textkommunikation (RTT, Real-Time Text) anbietet.
 
-=== 2. Prüfung
+2. Prüfung
 
-==== 2.1 Quelltext-Prüfung
-. Web-Anwendung öffnen
-. In den Developer Tools des Browsers prüfen, 
-ob die gesendeten und empfangenen Textnachrichten semantisch voneinander unterscheidbar sind. 
-Dazu kann z. B. im HTML-Quelltext die jeweilige Verfasser:innen mit Uhrzeit genannt werden. 
-Die unterscheidenden Merkmale (etwa Nutzer-Namen oder Kürzel) 
-dürfen dabei nicht vor Hilfsmitteln versteckt sein, 
-etwa über ´display:none´ oder ´aria-hidden=true´.
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
 
-==== 2.2 Zusätzliche Prüfung mittels Screenreader
+. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein.
 
-. Screenreader starten
-. die zu prüfende Web-Anwendung mit der Ansicht für die Echtzeit-Textkommunikation aufrufen
-. einige Testnachrichten senden und empfangen (ggf. zweites Gerät notwendig)
-. die Textnachrichten antippen bzw. mit dem Screenreader zu diesen navigieren
-. auf die Ausgabe des Screenreaders achten. Wird die Unterscheidung zwischen eigenen 
-und fremden Textbeiträgen unterstützt?
+. Teilnehmer 2 antwortet, gibt über 10 Sekunden hinweg fortlaufend Text ein.
 
-=== 3. Hinweise
+. Wenn mehr als zwei Teilnehmer unterstützt werden, gibt ein weiterer Teilnehmer ebenso fortlaufend Text ein.
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
-dynamisch schon während der Eingabe des Senders. 
-RTT ist also nicht das Gleiche wie etwa Chat, 
-wo Nachrichten explizit abgeschickt werden 
-und erst dann beim Empfänger erscheinen.
+. Prüfen, dass zu jeder Zeit der Echtzeit-Texteingabe die Aktiviät des jeweiligen Teilnehmers angezeigt wird.
 
-* Die Anforderung verlangt streng genommen nur die Unterscheidung der Senderichtung, 
-sie verlangt also nicht, 
-dass empfangene Textnachrichten verschiedener Teilnehmer unterscheidbar sind. 
-In der Praxis wird jedoch anzunehmen sein, 
-dass bei allen Echtzeit-Textbeiträgen 
-der jeweilige Sender über einen Namen bzw. Kürzel identifizierbar ist 
-und somit auch empfangene Textnachrichten von verschiedenen Teilnehmenden unterscheidbar sind.
 
-=== 4. Bewertung
+=== 3. Bewertung
 
 ==== Erfüllt
 
-Die Eingaben des Nutzers selbst und die empfangenen Echtzeit-Texteingaben anderer Nutzer 
-sind programmatisch unterscheidbar, z.B. über einen Präfix.
+Zu jeder Zeit wird die Aktiviät von Teilnehmern die gerade Sprechen oder Echtzeit-Texteingaben machen, angezeigt.
 
-==== Eher erfüllt
-
-Die Eingaben des Nutzers selbst von empfangenen Echtzeit-Texteingaben anderer Nutzer 
-sind programmatisch unterscheidbar, die anderen Nutzer sind aber nicht unterscheidbar.
-
-==== Nicht erfüllt
-
-Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichkeit, 
-programmatisch zwischen eigenen und fremden Eingaben zu unterscheiden.
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.2.2 Programmatically determinable send and receive direction
-____
-[.BLOCK_LANG_EN]
---
-Where ICT has RTT send and receive capabilities, the send/receive direction of
-transmitted/received text shall be programmatically determinable, unless the
-RTT is implemented as closed functionality. 
-
-NOTE:
-This enables screen readers to distinguish between incoming text and outgoing
-text when used with RTT functionality.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
