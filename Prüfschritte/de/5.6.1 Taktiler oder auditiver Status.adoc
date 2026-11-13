@@ -33,9 +33,9 @@ Wenn die Webangebot einen Modus hat, der die gleiche Funktionalität auch ohne g
 Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreinstellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. Dies widerspricht der Anforderung, dass der Status ohne Aktivierung der Taste ermittelbar sein soll. Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 === 4. Bewertung
-Nicht erfüllt
+==== Nicht erfüllt
 
-In der mit dem Webangebot zusammen genutzten zusätzlichen Hardware ist ein Umschalter vorhanden, dessen Zustand nicht taktil oder über Tonsignal ermittelbar ist.
+* In der mit dem Webangebot zusammen genutzten zusätzlichen Hardware ist ein Umschalter vorhanden, dessen Zustand nicht taktil oder über Tonsignal ermittelbar ist.
 
 == Quellen
 
