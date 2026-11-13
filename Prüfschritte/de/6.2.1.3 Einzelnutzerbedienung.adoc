@@ -4,15 +4,27 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Zwei-Wege Sprachkommunikation und Echtzeit-Textkommunikation geboten werden, soll die Einzelnutzerbedienung unterstützt werden, etwa bei Zugriff auf angefragte oder bereits etablierte Verbindungen, bei Wortmeldungen, oder beim Antworten auf Beiträge.
+Wenn Zwei-Wege Sprachkommunikation und Echtzeit-Textkommunikation geboten werden, sollen einzelne Aktionen der Teilnehmenden möglich sein. So soll die fortlaufende Echtzeit-Texteingabe möglich sein, während andere Teilnehmende sprechen.
 
 == Warum wird das geprüft
 
-Die Unterstützung verschiedener gleichzeitiger Kanäle schafft Komplexität im Austausch. Deshalb soll das Angebot die Möglichkeit bieten, dass zu jeder Zeit nur eine Verbindung gleichzeitig aktiv ist und ein geordneter Wechsel zwischen verschiedenen Arten der Kommunikation stattfinden kann. 
+Ebenso wie in Videokonferenzen verschiedene Spracheingaben gleichzeitig möglich sind, etwa wenn ein Sprecher einen anderen unterbricht, soll auch die gleichzeitige fortlaufende Eingabe von Echtzeittext möglich sein, während andere Teilnehmer über andere Kanäle wie Sprache kommunizieren.
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
 
-Tbd
+Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeittexteingabe.
+
+=== 2. Prüfung
+
+. Eine Zwei-Wege-Kommunikation mit Echtzeittexteingabe-Unterstützung wird gestartet
+. Teilnehmer 1 gibt über 10 Sekunden fortlaufend Text ein und spricht gleichzeitig den Text (oder ein anderer Teilnehmer spricht währenddessen)
+. Prüfen, ob der Text beim verbundenen Teilnehmer 2 in Echtzeit erscheint und alle Sprachteilnehmer gleichzeitig gut hörbar sind
+. Die Richtung wird umgekehrt, Teilnehmer 2 gibt nun Text und spricht gleichzeitig (oder andere verbundenen e Teilnehmer sprechen)
+
+=== 3. Bewertung
+==== Erfüllt
+Eine fortlaufende  Texteingabe ist möglich während die gleichzeitige Spracheingabe des Teilnehmer selbst oder die Spracheingabe anderer verbundener Teilnehmer gut verständlich bleibt.
 
 == Quellen
 
