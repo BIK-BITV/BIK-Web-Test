@@ -17,10 +17,10 @@ Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe.
 
 === 2. Prüfung
 
-. Eine Zwei-Wege-Kommunikation mit unterstütztem Echtzeit-Texteingabe wird gestartet
-. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein und spricht gleichzeitig den Text (oder ein anderer Teilnehmer spricht währenddessen)
-. Prüfen, ob der Text beim verbundenen Teilnehmer 2 in Echtzeit erscheint und alle Sprachteilnehmer gleichzeitig gut hörbar sind
-. Die Richtung wird umgekehrt, Teilnehmer 2 gibt nun Text ein und spricht gleichzeitig (oder andere verbundenene Teilnehmer sprechen)
+. Eine Zwei-Wege-Kommunikation mit unterstütztem Echtzeit-Texteingabe wird gestartet.
+. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein und spricht gleichzeitig den Text (oder ein anderer Teilnehmer spricht währenddessen).
+. Prüfen, ob der Text beim verbundenen Teilnehmer 2 in Echtzeit erscheint und alle Sprachteilnehmer gleichzeitig gut hörbar sind.
+. Die Richtung wird umgekehrt, Teilnehmer 2 gibt nun Text ein und spricht gleichzeitig (oder andere verbundenene Teilnehmer sprechen).
 
 === 3. Bewertung
 ==== Erfüllt
