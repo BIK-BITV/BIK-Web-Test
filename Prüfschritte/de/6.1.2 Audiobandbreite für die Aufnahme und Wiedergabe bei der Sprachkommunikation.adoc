@@ -20,6 +20,7 @@ Der Prüfschritt ist anwendbar, wenn die App eine Zwei-Wege-Sprachkommunikation 
 
 === 2. Prüfung
 Falls die Webversion der zu prüfenden Videokonferenz-Anwendung das Teilen des Bildschirms einschließlich Ton unterstützt:
+
 . Die Site https://onlinetonegen.com/[Online Tone Generator] aufrufen.
 . Eine anderen Teilnehmerin einladen.
 . Für die Teilnehmerin den Bildschirm (einschließlich Ton) teilen.
