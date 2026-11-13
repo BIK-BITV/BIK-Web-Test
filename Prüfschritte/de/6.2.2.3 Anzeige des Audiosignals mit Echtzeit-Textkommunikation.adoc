@@ -4,25 +4,18 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt 
-und aktive Sprechende über Sprache identifiziert, 
-sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, 
-gleichermaßen identifizierbar sein.
+Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und Sprechende identifiziert, soll es eine visuelle Echtzeit Anzeige nicht-lokalen Audio-Activitäten geben.
 
 == Warum wird das geprüft?
 
-Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, 
-sehen oder ermitteln zu können, wer gerade spricht, 
-um sich in Antworten auf sie oder ihn beziehen zu können. 
-Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
+Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer gerade spricht.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation 
-(RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. 
-Der aktive Sprecher wird dabei in der Web-App markiert oder anderweitig hervorgehoben.
+(RTT, Real-time Text) unterstützt und den aktiven Sprecher über dessen Spracheingabe identifiziert. 
 
 === 2. Prüfung
 
