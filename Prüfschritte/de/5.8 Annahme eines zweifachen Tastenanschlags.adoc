@@ -33,16 +33,15 @@ Im Prüfschritt werden nicht die Einstellungsmöglichkeiten des Betriebssystems 
 === 3. Bewertung
 ==== Erfüllt
 
-Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots übernommen.
+* Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots übernommen.
 
 ==== Nicht erfüllt
 
-Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots nicht übernommen.
+* Im Betriebssystem eingestellte Anschlags-Verzögerungen werden in Textfeldern des Webangebots nicht übernommen.
 
 ==== Nicht anwendbar
 
-Das Webangebot sieht keine Texteingaben von Nutzenden vor.
-
+* Das Webangebot sieht keine Texteingaben von Nutzenden vor.
 
 == Quellen
 
