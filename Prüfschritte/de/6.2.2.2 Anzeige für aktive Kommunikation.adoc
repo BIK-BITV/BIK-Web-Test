@@ -26,14 +26,14 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikatio
 
 . Wenn mehr als zwei Teilnehmer unterstützt werden, gibt ein weiterer Teilnehmer ebenso fortlaufend Text ein.
 
-. Prüfen, dass zu jeder Zeit der Echtzeit-Texteingabe die Aktiviät des jeweiligen Teilnehmers angezeigt wird.
+. Prüfen, dass zu jeder Zeit der Echtzeit-Texteingabe die Aktivität des jeweiligen Teilnehmers angezeigt wird.
 
 
 === 3. Bewertung
 
 ==== Erfüllt
 
-Zu jeder Zeit wird die Aktiviät von Teilnehmern, die gerade Sprach- oder Echtzeit-Texteingaben machen, angezeigt.
+Zu jeder Zeit wird die Aktivität von Teilnehmern, die gerade Sprach- oder Echtzeit-Texteingaben machen, angezeigt.
 
 
 == Quellen
