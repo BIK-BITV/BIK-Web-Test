@@ -48,7 +48,7 @@ sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar s
 
 * Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, 
 sollen Chat und Echtzeit-Textkommunikation separiert werden, 
-z. B. in separaten Programmfenstern, 
+z.B. in separaten Programmfenstern, 
 damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören 
 und nicht zu Verwirrung führen.
 
