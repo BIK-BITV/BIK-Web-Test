@@ -4,19 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, 
-soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. 
-Das bedeutet konkret, dass Hilfsmittel-Nutzende beim Lesen der Text-Kommunikation 
-die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
+Wenn die Web-Anwendung eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet und aktive Sprecher anzeigt, sollen die Aktivität vom Teilnehmern, die Echtzeit-Texteingaben machen, angezeigt werden.
 
 == Warum wird das geprüft?
 
-Wenn Menschen, die Hilfsmittel wie Screenreader einsetzen, 
-die Äußerungen in einer Kommunikation lesen wollen, 
-müssen sie eigene Text-Beiträge von denen anderer unterscheiden können. 
-Darum muss die Sende- und Empfangsrichtung programmatisch ermittelbar sein. 
-(Darüber hinaus ist es auch sinnvoll, 
-programmatisch zwischen empfangenen Texten von verschiedenen Teilnehmenden unterscheiden zu können.)
+Die Anzeige der Aktivität in Videokonferenz-Sytemen erlaub Teilnehmern die Zuordnung von laufenden Äußerungen zu Teilnehmern, meist über ein animiertes Symbol neben den Teilnehmer-Namen. Teilnehmer, die Echtzeit-Texteingabe nutzen, sollten hier nicht benachteiligt werden. Es ist wichtig, dass alle Teilnehmenden erkennen können, wer sich gerade äußert - egal, welche Eingabeform gerade gewählt wird.
 
 == Wie wird geprüft?
 
