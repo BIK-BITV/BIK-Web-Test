@@ -33,7 +33,7 @@ prüfen, ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstütz
 
 === 3. Hinweise
 
-==== 3.1 Unterschied zwischen Echtzeit-Texteingabe und Chat-Funktionen
+==== 3.1 Unterschied zwischen Echtzeit-Textkommunikation und Chat-Funktionen
 Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
 dynamisch schon während der Eingabe des Senders. 
 RTT ist also nicht das Gleiche wie etwa Chat, 
