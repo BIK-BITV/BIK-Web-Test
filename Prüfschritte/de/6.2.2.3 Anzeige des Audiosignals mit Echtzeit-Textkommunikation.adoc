@@ -19,37 +19,25 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikatio
 
 === 2. Prüfung
 
-. Web-Anwendung öffnen.
-. Prüfen, ob aktive Sprechende über Sprache identifiziert und in der Anwendung markiert 
-oder anderweitig hervorgehoben werden.
-. Ist dies der Fall, prüfen, ob auch Teilnehmende,
-die Echtzeit-Texteingabe verwenden, 
-beim Eingeben markiert oder anderweitig hervorgehoben werden.
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
 
-=== 3. Hinweise
+. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein.
 
-Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden etabliert werden, 
-um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
+. Teilnehmer 2 spricht mit Pausen und sendet zwischenzeitlich Echtzeittext.
+
+. Wenn mehr als zwei Teilnehmer unterstützt werden, spricht ein weiterer Teilnehmer mit Pausen.
+
+. Prüfen, dass zu jeder Zeit der tatsächlichen Spracheingabe (und nur dann) die Aktivität des jeweiligen Sprechers visuell angezeigt wird.
+
+3. Bewertung
+Erfüllt
+
+Zu jeder Zeit wird die Aktiviät von Teilnehmern, die gerade sppechen, angezeigt.
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.2.3 Speaker identification
-____
-[.BLOCK_LANG_EN]
---
-Where ICT has RTT capabilities, and provides speaker identification for voice,
-the ICT shall provide speaker identification for RTT.
-
-NOTE:
-This is necessary to enable both voice and RTT participants to know who is
-currently communicating, whether it be in RTT or voice.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
