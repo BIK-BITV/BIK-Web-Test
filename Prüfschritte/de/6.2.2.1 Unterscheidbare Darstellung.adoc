@@ -15,7 +15,7 @@ Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereit
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Textkommunikation 
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikation mit Echtzeit-Textkommunikation 
 (RTT, Real-Time Text) anbietet.
 
 === 2. Prüfung
