@@ -43,7 +43,7 @@ Zu jeder Zeit wird die Aktiviät von Teilnehmern, die gerade Sprach- oder Echtze
 
 === Abgrenzung zu anderen Prüfschritten
 
-Andere Anforderungen (etwa der ausreichende Grafikkontrast des Indikators von Aktivität) werden in den dafür zuständigen Prüfschritten wie 9.1.4.11 Nicht-Text Kontrast bewertet.
+Andere Anforderungen (etwa der ausreichende Grafikkontrast des Indikators von Aktivität) werden in den dafür zuständigen Prüfschritten wie 9.1.4.11 "Kontraste von Grafiken und grafischen Bedienelementen ausreichend" bewertet.
 
 Der Prüfschritt 9.2.2.2 "Bewegte Inhalte abschaltbar" betrifft nur Inhalte, bei denen die Animation automatisch beginnt. Bei animierten Aktivitätsanzeigen wird die Bewegung dagegen über die jeweilige Sprecher- oder Texteingabe-Aktivität ausgelöst. Animierte Aktivitätsanzeigen sind deshalb kein Verstoß gegen die Anforderung in 2.2.2 "Bewegte Inhalte abschaltbar".
 
