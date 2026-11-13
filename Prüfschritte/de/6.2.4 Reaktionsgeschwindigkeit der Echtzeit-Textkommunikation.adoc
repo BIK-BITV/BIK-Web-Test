@@ -93,3 +93,48 @@ NOTE 3:
 A delay of 300 ms, or less, produces a better impression of flow to the user.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.4 RTT responsiveness
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a communication client, and supports real-time bidirectional voice communication, and
+supports RTT,
+RTT input shall be transmitted to the ICT network on which the ICT runs within 500 ms of the time that the smallest
+reliably composed unit of text entry is available to the ICT for transmission where delays due to network performance
+are not included in the 500 ms limit. 
+
+NOTE 1:
+The "smallest reliably composed unit of text entry" varies depending on how text is being generated.
+When typing individual characters, the "smallest reliably composed unit of text entry" would be a
+character, even if it is composed by multiple keystrokes. For word prediction, it would be a word. For
+some voice recognition systems - the text may not exit the recognition software until an entire word (or
+phrase) has been spoken, in which case, the smallest reliably composed unit of text entry available to the
+ICT would be the word (or phrase). Also, other operations, such as copy-paste, may occasionally cause
+the unit of text entry to be more than one character.
+
+NOTE 2:
+The 500 ms limit allows buffering of characters for this period before transmission. Character by
+character transmission is only required if the characters are generated at a rate of less than 1 character per
+500 ms. 
+
+NOTE 3:
+A delay of 300 ms, or less, produces a better impression of flow to the user.
+
+NOTE 4:
+If there is less than 1-second delay between when a key is pressed and when the character appears on
+another communication client included in the same communication, this requirement can be deemed as
+met because that is the user requirement behind this requirement as specified in Recommendation
+ITU-T F.703 [i.38], and the at least 500 ms time left for the packet with the character to reach the
+destination is sufficient in network conditions where voice communication show satisfying performance.
+(see testing C.6.2.4).
+
+NOTE 5:
+Synchronization of RTT with audio and video is achieved when all three media are presented within their
+respective latency requirements.
+--
+____
+
