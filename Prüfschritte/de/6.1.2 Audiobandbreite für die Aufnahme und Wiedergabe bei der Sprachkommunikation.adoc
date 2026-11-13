@@ -33,7 +33,7 @@ Ob die andere Teilnehmende den Ton hören kann, hängt ggf. auch von deren Hörv
 
 === 4. Bewertung
 ==== Nicht erfüllt
-* Die andere Teilnehmende mit gutem Hörvermögen konnte den 250hz Ton oder den 7000hz Ton nicht hören.
+* Wenn die andere Teilnehmende mit gutem Hörvermögen den 250hz Ton oder den 7000hz Ton nicht hören kann, ist der Prüfschritt ggf. nicht erfüllt. Andere Faktoren sollten nach Möglichkeit ausgeschlossen werden.
 
 == Quellen
 
