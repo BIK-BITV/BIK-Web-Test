@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikatio
 
 === 3. Hinweise
 
-* Ein Weg der Erfüllung dieser Anforderung ist die Option, dass Nutzende das Layout ihrer eigenen Texteingaben und das der empfangenen anderen Texteingaben selbst einstellen können können.
+* Ein Weg der Erfüllung dieser Anforderung ist die Option, dass Nutzende das Layout ihrer eigenen Texteingaben und das der empfangenen anderen Texteingaben selbst einstellen können.
 * Bei der Angabe der Quelle ist nicht zwingend eine eindeutige Identifizierung des Teilnehmers gefordert, die klare Unterscheidung (Sprecher 1, Sprecher 2) wäre ausreichend, wenn mehr nicht bekannt ist.
 
 === 4. Bewertung
