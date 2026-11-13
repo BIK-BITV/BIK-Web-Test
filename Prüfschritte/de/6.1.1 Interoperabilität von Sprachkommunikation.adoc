@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation dieser Funktion zur Untestützung der Interoperabilität auf eine geeignete Spezifikation für die Sprachübertragung  verweisen, wobei Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz abdeckt sein sollen.
+Wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation dieser Funktion zur Unterstützung der Interoperabilität auf eine geeignete Spezifikation für die Sprachübertragung  verweisen, wobei Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz abdeckt sein sollen.
 
 Dies kann durch Verweis auf https://en.wikipedia.org/wiki/G.722[ITU-T G.722] [i.20] oder andere geeignete Spezifikationen geschehen.
 
