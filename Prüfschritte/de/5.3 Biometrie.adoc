@@ -70,13 +70,11 @@ wäre die Steuerung über die Erkennung biometrischer Eigenschaften denkbar.
 
 ==== Erfüllt
 
-Neben biometrischer Identifizierung oder Steuerung 
-gibt es mindestens eine weitere nicht-biometrische Methode.
+* Neben biometrischer Identifizierung oder Steuerung gibt es mindestens eine weitere nicht-biometrische Methode.
 
 ==== Nicht erfüllt
 
-Nutzeridentifizierung oder Steuerung sind nur über ein biometrisches Merkmal möglich, 
-es gibt keine nicht-biometrischen Alternativen dazu.
+* Nutzeridentifizierung oder Steuerung sind nur über ein biometrisches Merkmal möglich, es gibt keine nicht-biometrischen Alternativen dazu.
 
 == Quellen
 * Zurzeit keine Quellen. 
