@@ -32,7 +32,7 @@ ebenso Sprachnutzern wie Echtzeit-Text-Nutzern zur Verfügung stehen.
 Wenn es eine Warteschlange für Beiträge gibt, 
 landen Sprachnutzer und Echtzeit-Text-Nutzer in der gleichen Schlange.
 
-=== 3. Hinweise
+=== 3. Hinweis
 
 Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
