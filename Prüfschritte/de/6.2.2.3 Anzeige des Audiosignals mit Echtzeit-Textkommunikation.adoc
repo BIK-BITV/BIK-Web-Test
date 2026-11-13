@@ -8,14 +8,13 @@ Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterst�
 
 == Warum wird das geprüft?
 
-Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer gerade spricht.
+Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer gerade spricht. Besonders wichtig ist das für gehörlose Teilnehmende, die ohne diese visuelle Anzeige nicht wüßten, dass gerade jemand spricht.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation 
-(RTT, Real-time Text) unterstützt und den aktiven Sprecher über dessen Spracheingabe identifiziert. 
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprecher über dessen Spracheingabe identifiziert. 
 
 === 2. Prüfung
 
