@@ -29,7 +29,7 @@ Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
 
 . Webangebot öffnen.
 . Wenn eine Funktion für die Zwei-Wege-Kommunikation geboten wird, 
-prüfen, ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
+prüfen, ob auch Zwei-Wege-Textkommunikation in Echtzeit (RTT, Real-time Text) unterstützt wird.
 
 === 3. Hinweise
 
