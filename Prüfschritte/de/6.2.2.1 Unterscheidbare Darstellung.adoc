@@ -20,13 +20,13 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Sprachkommunikatio
 
 === 2. Prüfung
 
-. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet
-. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein 
-. Teilnehmer 2 antwortet, gibt über 10 Sekunden hinweg fortlaufend Text ein 
-. Wenn mehr als zwei Teilnehmer unterstützt werden, gibt ein weiterer Teilnehmer ebenso fortlaufend Text ein
-. Alle Texteingaben lassen sich durch ein Merkmal voneinander unterscheiden und die Quelle wird angezeigt
-. Alle Teilnehmer geben über den Zeilenschalter oder Abschicken einen Zeilenumbruch ein
-. Prüfen, ob die vergangenen Äußerungen und die gegenwärtigen Texteingaben voneinander unterschieden sind und die Quelle angezeigt wird 
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
+. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein.
+. Teilnehmer 2 antwortet, gibt über 10 Sekunden hinweg fortlaufend Text ein.
+. Wenn mehr als zwei Teilnehmer unterstützt werden, gibt ein weiterer Teilnehmer ebenso fortlaufend Text ein.
+. Alle Texteingaben lassen sich durch ein Merkmal voneinander unterscheiden und die Quelle wird angezeigt.
+. Alle Teilnehmer geben über den Zeilenschalter oder Abschicken einen Zeilenumbruch ein.
+. Prüfen, ob die vergangenen Äußerungen und die gegenwärtigen Texteingaben voneinander unterschieden sind und die Quelle angezeigt wird.
 
 === 3. Hinweise
 
