@@ -55,10 +55,6 @@ Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfschritten
-
-Tbd
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
