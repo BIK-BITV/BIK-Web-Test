@@ -18,20 +18,11 @@ So können sie leichter Äußerungen von sich selbst oder von anderen finden und
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Webangebot Echtzeit-Textkommunikation 
-(RTT, Real-Time Text) senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Textkommunikation 
+(RTT, Real-Time Text) anbietet.
 
 === 2. Prüfung
 
-. Webangebot öffnen
-. Prüfen, ob die Webangebot das Senden und Empfangen von Echtzeit-Textkommunikation anbietet
-. Prüfen, ob die gesendeten und empfangenen Textnachrichten 
-deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
-+
-* Rahmen für Textnachricht (mit gutem Kontrast nach außen)
-* Positionierung der eigenen Nachrichten rechtsbündig 
-und der Gesprächsteilnehmer linksbündig oder umgekehrt
-* Nennung des Namens vor Beginn der Nachricht
 
 === 3. Hinweise
 
