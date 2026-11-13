@@ -11,7 +11,7 @@ Wenn die Web-Anwendung Zwei-Wege-Kommunikation und Textkommunikation in Echtzeit
 Menschen, die statt Sprache die Eingabe von Echtzeit-Text nutzen, 
 sollen gleichrangig behandelt werden. 
 Funktionen wie das Sich-Einreihen in eine Warteschlange für Beiträge durch digitales "Handheben" 
-soll von Arten von Nutzern gleichrangig genutzt werden können.
+soll von Nutzenden mit verschiedenen Kommunikationsweisen gleichrangig genutzt werden können.
 
 == Wie wird geprüft?
 
@@ -34,73 +34,14 @@ landen Sprachnutzer und Echtzeit-Text-Nutzer in der gleichen Schlange.
 
 === 3. Hinweise
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
-dynamisch schon während der Eingabe des Senders. 
-RTT ist also nicht das Gleiche wie etwa Chat, 
-wo Nachrichten explizit abgeschickt werden 
-und erst dann beim Empfänger erscheinen.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-* Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, 
-soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. 
-Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet 
-(z. B. immer nur ein aktiver Redner), 
-sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
-
-* Bei Konferenzen, die gleichzeitig eine herkömmliche Chat-Funktion bieten, 
-sollen Chat und Echtzeit-Textkommunikation separiert werden, 
-z.B. in separaten Programmfenstern, 
-damit sich diese verschiedenen Kommunikationsarten nicht gegenseitig stören 
-und nicht zu Verwirrung führen.
+* Bei Konferenzen, also einer Kommunikation mit mehr als zwei Personen, soll die Echtzeit-Text-Kommunikation der Sprach-Kommunikation gleichgestellt sein. Das bedeutet z. B., dass wenn die Software Funktionen für die abwechselnde Kommunikation anbietet (z. B. immer nur ein aktiver Redner), sollen diese Funktionen auch für die Textkommunikation in Echtzeit verfügbar sein.
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.1.2 Concurrent voice and text
-____
-[.BLOCK_LANG_EN]
---
-Where ICT provides a means for two-way voice communication and for users to
-communicate by RTT, it shall allow concurrent voice and text through a single
-user connection. 
-
-NOTE 1:
-With many-party communication, as in a conference system, it is allowed (but
-not required or necessarily recommended) that RTT be handled in a single
-display field and that "turn-taking" be necessary to avoid confusion (in the
-same way that turn-taking is required for those presenting/talking with voice). 
-
-NOTE 2:
-With many-party communication, best practice is for hand-raising for voice
-users and RTT users to be handled in the same way, so that voice and RTT users
-are in the same queue.
-
-NOTE 3:
-With a many-party conference system that has chat as one of its features - the
-RTT (like the voice) would typically be separate from the chat so that RTT use
-does not interfere with chat (i.e. people can be messaging in the chat field
-while the person is presenting/talking with RTT - in the same manner that
-people message using the chat feature while people are talking with voice).
-RTT users would then use RTT for presenting and use the Chat feature to
-message while others are presenting (via Voice or RTT). 
-
-NOTE 4:
-The availability of voice and RTT running concurrently (and separately from
-chat) can also allow the RTT field to support text captioning when someone is
-speaking (and it is therefore not being used for RTT since it is not the RTT
-user's turn to speak).
-
-NOTE 5:
-Where both server-side software and local hardware and software are required
-to provide voice communication, where neither part can support voice
-communication without the other and are sold as a unit for the voice
-communication function, the local and server-side components are considered a
-single product.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
