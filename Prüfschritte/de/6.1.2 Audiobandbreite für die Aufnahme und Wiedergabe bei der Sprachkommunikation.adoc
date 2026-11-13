@@ -23,7 +23,7 @@ Falls die Webversion der zu prüfenden Videokonferenz-Anwendung das Teilen des B
 
 . In dem zu prüfenden Webangebot eine Videokonferenz anlegen.
 . Die Site https://onlinetonegen.com/[Online Tone Generator] aufrufen.
-. Eine andere Teilnehmerin mit gutem Hörvermögen einladen. (Falls beide Teilnehnmenden im selben Raum sind, empfiehlt es sich zur Vermeidung von Rückkopplungen, dass die andere Teilnehmerin ihr Audio auf stumm stellt.)
+. Eine andere Teilnehmerin mit gutem Hörvermögen einladen. (Falls beide Teilnehmenden im selben Raum sind, empfiehlt es sich zur Vermeidung von Rückkopplungen, dass die andere Teilnehmerin ihr Audio auf stumm stellt.)
 . Für die Teilnehmerin den eigenen Bildschirm (einschließlich Ton) teilen.
 . Mit Online Tone Generator einen 250hz-Ton abspielen.
 .  Mit Online Tone Generator einen 7000hz-Ton abspielen.
