@@ -11,24 +11,36 @@ Damit die Software diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie
 
 == Warum wird das geprüft?
 
-Tbd
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
 
 == Wie wird das geprüft?
 
-Tbd
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die App eine Zwei-Wege-Sprachkommunikation anbietet.
+
+=== 2. Prüfung
+Falls die Webversion der zu prüfenden Videokonferenz-Anwendung das Teilen des Bildschirms einschließlich Ton unterstützt:
+. Die Site https://onlinetonegen.com/[Online Tone Generator] aufrufen.
+. Eine anderen Teilnehmerin einladen.
+. Für die Teilnehmerin den Bildschirm (einschließlich Ton) teilen.
+. Falls beide Teilnehnmenden im selben Raum sind, empfiehlt es sich zur Vermeidung von Rückkopplungen, dass die andere Teilnehmerin ihr Audio auf stumm stellt.
+. 250hz Ton abspielen.
+. 7000hz Ton abspielen.
+
+=== 3. Hinweis
+Ob die andere Teilnehmende den Ton hören kann, hängt ggf. auch von deren Hörvermögen ab. Im Zweifel Test mit anderen Teilnehmenden wiederholen.
+
+=== 4. Bewertung
+==== Nicht erfüllt
+* Die andere Teilnehmende mit gutem Hörvermögen konnte den 250hz Ton oder den 7000hz Ton nicht hören.
 
 == Quellen
 
-Tbd
+Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfschritten
-
-Tbd
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
-
 
 [.BLOCK_LANG_EN]
 ==== 6.1.2 Audio bandwidth for capture and presentation for voice communication
