@@ -14,7 +14,7 @@ Für Nutzende mit verschiedenen IT-Umgebungen kann es ggf. hilfreich sein, über
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation enmthält. Das wäre bei Web-Versionen gängiger Video Konferencing Software der Fall, ebenso wenn Angebote solche Funktionen einbetten.
+Der Prüfschritt ist nur anwendbar, wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation enmthält. Das wäre bei Web-Versionen gängiger Video Konferencing Software der Fall, ebenso, wenn Angebote solche Funktionen einbetten.
 
 === 2. Prüfung
 Prüfen, ob in der Dokumentation der Funktion für bidirektionale Sprachkommunikation (meist eine Webanwendung für Video-Conferencing) eine Spezifikation wie G.722 genannt wird, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
