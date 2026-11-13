@@ -33,11 +33,15 @@ prüfen, ob auch Textkommunikation in Echtzeit (RTT, Real-time Text) unterstütz
 
 === 3. Hinweise
 
+==== 3.1 Unterschied zwischen Echtzeit-Texteingabe und Chat-Funktionen
 Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
 dynamisch schon während der Eingabe des Senders. 
 RTT ist also nicht das Gleiche wie etwa Chat, 
 wo Nachrichten explizit abgeschickt werden 
 und erst dann beim Empfänger erscheinen.
+
+==== 3.2 Eingabe über angeschlossene Gerätschaften
+Die Anforderung gilt auch für Produkte, die nicht selbst Texteingabemöglichkeiten bieten, aber mit Geräten verbunden werden könnnen, die dies ermöglichen. Das wäre bei Produkten Touch-Interfaces z.B. eine angeschossene physische Tastatur.
   
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
