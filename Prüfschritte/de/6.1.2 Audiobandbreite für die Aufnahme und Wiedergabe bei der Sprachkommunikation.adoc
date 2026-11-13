@@ -5,7 +5,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die App beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
+
+Damit die Software diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z.B. der weit verbreitete Codec G.722 genutzt werden.
 
 == Warum wird das geprüft?
 
