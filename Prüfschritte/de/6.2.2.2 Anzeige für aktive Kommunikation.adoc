@@ -41,6 +41,10 @@ Zu jeder Zeit wird die Aktiviät von Teilnehmern, die gerade Sprach- oder Echtze
 
 == Einordnung des Prüfschritts
 
+=== Abgrenzung zu anderen Prüfschritten
+
+Andere Anforderungen (etwa der ausreichende Grafikkontrast des Indikators von Aktivität) werden in den dafür zuständigen Prüfschritten wie 9.1.4.11 Nicht-Text Kontrast bewertet.
+
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
