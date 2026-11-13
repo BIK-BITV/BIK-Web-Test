@@ -25,6 +25,7 @@ tbd
 [.BLOCK_LANG_EN]
 ==== 6.2.5 Adding and erasing of RTT input
 
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides real-time bidirectional voice communication, and includes RTT capabilities, and supports RTT
@@ -52,3 +53,4 @@ It is best practice to mark sections where the text has changed.
 NOTE 5: 
 See clause 6.2.2.4 of the present document about presentation aspects of adding and erasing text
 --
+____
