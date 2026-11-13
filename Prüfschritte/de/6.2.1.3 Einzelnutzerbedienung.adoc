@@ -24,7 +24,8 @@ Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe.
 
 === 3. Bewertung
 ==== Erfüllt
-Eine fortlaufende  Echtzeit-Texteingabe ist möglich, während die gleichzeitige Spracheingabe des Teilnehmer selbst oder die Spracheingabe anderer verbundener Teilnehmer gut verständlich bleibt.
+
+* Eine fortlaufende  Echtzeit-Texteingabe ist möglich, während die gleichzeitige Spracheingabe des Teilnehmer selbst oder die Spracheingabe anderer verbundener Teilnehmer gut verständlich bleibt.
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
