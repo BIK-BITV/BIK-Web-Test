@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.3 Interoperabilität von Echtzeit-Kommunikation
+= Prüfschritt 6.2.3 Erzeugung von DTMF-Tönen während der Echtzeit-Textkommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -118,5 +118,18 @@ RTT method (option c). However, regardless of whether the RTT method is
 proprietary or non-proprietary, if the conferencing system also offers
 telephony communication it will also need to support options a or b to ensure
 that RTT is supported over the telephony connection.
+--
+____
+
+[.BLOCK_LANG_EN]
+==== 6.2.3 DTMF touch-tone generation during RTT operations
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a communication client, and provides functionality that allows real-time bidirectional voice
+communication, and supports the generation and transmission of touch-tone signals on voice calls,
+the client shall provide a method for generation and transmission of touch-tone signals for touch-tone characters
+(0-9,*,#,A,B,C,D) that is distinct from the method for generating RTT for those same characters, and is compatible with
+the standard method for sending touch-tones during voice calls.
 --
 ____
