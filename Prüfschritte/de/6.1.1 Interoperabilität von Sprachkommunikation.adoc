@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation dieser Funktion zur Unterstützung der Interoperabilität auf eine geeignete Spezifikation für die Sprachübertragung  verweisen, wobei Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz abdeckt sein sollen.
+Wenn das Webangebot eine Funktion für Zwei-Wege-Sprachkommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation dieser Funktion zur Unterstützung der Interoperabilität auf eine geeignete Spezifikation für die Sprachübertragung  verweisen, wobei Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz abdeckt sein sollen.
 
 Dies kann durch Verweis auf https://en.wikipedia.org/wiki/G.722[ITU-T G.722] [i.20] oder andere geeignete Spezifikationen geschehen.
 
@@ -14,24 +14,24 @@ Für Nutzende mit verschiedenen IT-Umgebungen kann es ggf. hilfreich sein, über
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn das Webangebot eine Funktion für bidirektionale Sprachkommunikation enmthält. Das wäre bei Web-Versionen gängiger Video Konferencing Software der Fall, ebenso, wenn Angebote solche Funktionen einbetten.
+Der Prüfschritt ist nur anwendbar, wenn das Webangebot eine Funktion für Zwei-Wege-Sprachkommunikation enthält. Das wäre bei Web-Versionen gängiger Videokonferenz-Software der Fall, ebenso, wenn Angebote solche Funktionen einbetten.
 
 === 2. Prüfung
-Prüfen, ob in der Dokumentation der Funktion für bidirektionale Sprachkommunikation (meist eine Webanwendung für Video-Conferencing) eine Spezifikation wie G.722 genannt wird, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
+Prüfen, ob in der Dokumentation der Funktion für Zwei-Wege-Sprachkommunikation (meist eine Webanwendungs-Version von Software für Videokonferenzen) eine Spezifikation wie G.722 genannt wird, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
 
 === 3. Hinweise
 ==== 3.1 Gründe für schlechte Audioqualität
 Die üblichen Gründe für schlechte Audioqualität haben meist weniger mit den unterstützten Standards als mit Umgebungsvariabeln (Qualität der Internetanbindung wie verfügbare Bandbreite, Leistungsfähigkeit der verwendeten Geräte) zu tun.
 
-==== 3.2 Dokumentation der Funktion für bidirektionale Sprachkommunikation wird implizit verlangt
-Die Formulierung der Anforderung impliziert, dass Funktionen für bidirektionale Sprachkommunikation dokumentiert sind. Anders als bei den Prüfschritten, bei denen es um Informationen über Produkte und Dienstleistungen geht, ist das Vorhandensein von Dokumentation hier keine Voraussetzung für die Anwendbarkeit. Dies bedeutet, dass das Fehlen von Dokumentation hier nicht dazu führen kann, den Prüfschritt als "nicht anwendbar" zu bewerten. 
+==== 3.2 Dokumentation der Funktion für Zwei-Wege-Sprachkommunikation wird implizit verlangt
+Die Formulierung der Anforderung impliziert, dass Funktionen für Zwei-Wege-Sprachkommunikation dokumentiert sind. Anders als bei den Prüfschritten, bei denen es um Informationen über Produkte und Dienstleistungen geht, ist das Vorhandensein von Dokumentation hier keine Voraussetzung für die Anwendbarkeit. Dies bedeutet, dass das Fehlen von Dokumentation hier nicht dazu führen kann, den Prüfschritt als "nicht anwendbar" zu bewerten. 
 
 === 4. Bewertung
 ==== Erfüllt
-* Die Dokumentation der Funktion für bidirektionale Sprachkommunikation verweist auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
+* Die Dokumentation der Funktion für Zwei-Wege-Sprachkommunikation verweist auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
 
 ==== Nicht erfüllt
-* Es existiert keine  Dokumentation der Funktion für bidirektionale Sprachkommunikation, oder die verfügbare Dokumentation enthält keinen Verweis auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
+* Es existiert keine  Dokumentation der Funktion für Zwei-Wege-Sprachkommunikation, oder die verfügbare Dokumentation enthält keinen Verweis auf ITU-T G.722 oder eine andere geeignete Spezifikation, die Audiofrequenzen von mindestens 100 Hz bis mindestens 7 000 Hz unterstützt.
 
 == Quellen
 
