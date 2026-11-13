@@ -13,26 +13,22 @@ Ebenso wie in Videokonferenzen verschiedene Spracheingaben gleichzeitig möglich
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeittexteingabe.
+Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe.
 
 === 2. Prüfung
 
-. Eine Zwei-Wege-Kommunikation mit Echtzeittexteingabe-Unterstützung wird gestartet
-. Teilnehmer 1 gibt über 10 Sekunden fortlaufend Text ein und spricht gleichzeitig den Text (oder ein anderer Teilnehmer spricht währenddessen)
+. Eine Zwei-Wege-Kommunikation mit unterstütztem Echtzeit-Texteingabe wird gestartet
+. Teilnehmer 1 gibt über 10 Sekunden hinweg fortlaufend Text ein und spricht gleichzeitig den Text (oder ein anderer Teilnehmer spricht währenddessen)
 . Prüfen, ob der Text beim verbundenen Teilnehmer 2 in Echtzeit erscheint und alle Sprachteilnehmer gleichzeitig gut hörbar sind
-. Die Richtung wird umgekehrt, Teilnehmer 2 gibt nun Text und spricht gleichzeitig (oder andere verbundenen e Teilnehmer sprechen)
+. Die Richtung wird umgekehrt, Teilnehmer 2 gibt nun Text ein und spricht gleichzeitig (oder andere verbundenene Teilnehmer sprechen)
 
 === 3. Bewertung
 ==== Erfüllt
-Eine fortlaufende  Texteingabe ist möglich während die gleichzeitige Spracheingabe des Teilnehmer selbst oder die Spracheingabe anderer verbundener Teilnehmer gut verständlich bleibt.
+Eine fortlaufende  Echtzeit-Texteingabe ist möglich, während die gleichzeitige Spracheingabe des Teilnehmer selbst oder die Spracheingabe anderer verbundener Teilnehmer gut verständlich bleibt.
 
 == Quellen
 
-Tbd
 
-== Einordnung des Prüfschritts
-
-=== Abgrenzung zu anderen Prüfschritten
 
 Tbd
 
