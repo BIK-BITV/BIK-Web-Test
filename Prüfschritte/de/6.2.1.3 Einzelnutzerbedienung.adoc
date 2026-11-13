@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wemm Zwei-Wege Sprachkommunikation und Echtzeit-Textkommunikation geboten werden, soll die Einzelnutzerbedienung unterstützt werden, etwa bei Zugriff auf angefragte oder bereits etablierte Verbindungen, bei Wortmeldungen, oder beim Antworten auf Beiträge.
+Wenn Zwei-Wege Sprachkommunikation und Echtzeit-Textkommunikation geboten werden, soll die Einzelnutzerbedienung unterstützt werden, etwa bei Zugriff auf angefragte oder bereits etablierte Verbindungen, bei Wortmeldungen, oder beim Antworten auf Beiträge.
 
 == Warum wird das geprüft
 
