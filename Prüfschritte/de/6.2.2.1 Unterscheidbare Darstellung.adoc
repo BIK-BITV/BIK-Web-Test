@@ -102,16 +102,16 @@ Where ICT provides real-time bidirectional voice communication, and includes RTT
 displayed text that originates from different sources, as well as the text that is sent, shall be displayed with their sources
 indicated and differentiated.
 
-NOTE:
+NOTE 1:
 The ability of the user to choose between different layouts of the text that is sent, and the text received
 from the different sources, would allow users to display RTT in a form that works best for them, while
 still fulfilling the requirement of clause 6.2.2.
 
-NOTE:
+NOTE 2:
 Users relying on AT with small displays (e.g. deafblind users) may benefit from accessing the locally
 produced text and one other source side-by side to facilitate easy reading.
 
-NOTE:
+NOTE 3:
 The source indication does not require more than a unique identifier, not necessarily a real identity
 (e.g. Speaker 1 or Speaker 2 would be sufficient if nothing better is known).
 --
