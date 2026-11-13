@@ -122,6 +122,9 @@ that RTT is supported over the telephony connection.
 ____
 
 [.BLOCK_LANG_EN]
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
 ==== 6.2.3 DTMF touch-tone generation during RTT operations
 ____
 [.BLOCK_LANG_EN]
