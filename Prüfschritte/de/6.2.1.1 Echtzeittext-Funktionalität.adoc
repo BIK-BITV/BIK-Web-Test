@@ -49,34 +49,6 @@ Data Channels (PDF)]
 
 == Einordnung des Prüfschritts 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.1.1 RTT communication
-____
-[.BLOCK_LANG_EN]
---
-Where ICT is in a mode that provides a means for two-way voice communication,
-the ICT shall provide a means for two-way RTT communication, except where this
-would require design changes to add input or output hardware to the ICT. 
-
-NOTE 1:
-This requirement includes those products which do not have physical display or
-text entry capabilities but have the capability to connect to devices that do
-have such capabilities.
-It also includes intermediate ICT between the endpoints of the communication. 
-
-NOTE 2:
-There is no requirement to add: a hardware display, a hardware keyboard, or
-hardware to support the ability to connect to a display or keyboard, wired or
-wirelessly, if this hardware would not normally be provided. 
-
-NOTE 3:
-For the purposes of interoperability, support of Recommendation ITU-T T.140
-[i.36] is widely used.
---
-____
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
