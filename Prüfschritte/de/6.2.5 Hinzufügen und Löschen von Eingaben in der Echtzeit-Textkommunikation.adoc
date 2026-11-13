@@ -1,1 +1,50 @@
+= Prüfschritt 6.2.5 Hinzufügen und Löschen von Eingaben in der Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+==== 6.2.5 Adding and erasing of RTT input
+
+Where ICT provides real-time bidirectional voice communication, and includes RTT capabilities, and supports RTT
+user input,
+the RTT user interface shall provide the functionality to enter new text and to erase text entered in an ongoing
+communication where the erasure is done from the current end of text without being limited by any new line or other
+delimiter in the earlier text.
+
+NOTE 1: 
+Each erase-previous-character operation erases a complete delimiter or text element (whether 1 or
+2 characters) so that local and remote presentation is kept synchronized.
+
+NOTE 2: 
+The intention of this requirement is to enable entry of text and to allow corrections, which may include
+just erasure or erasure and entry of replacing text.
+
+NOTE 3: 
+"Functionality to erase text" includes both manual erasure, enabling replacement with corrected text, as
+well as automatic correction mechanisms such as automatic spelling correction or corrections done by
+speech-to-text and other such text-generating mechanisms that might perform auto-correction.
+
+NOTE 4: 
+It is best practice to mark sections where the text has changed.
+
+NOTE 5: 
+See clause 6.2.2.4 of the present document about presentation aspects of adding and erasing text
