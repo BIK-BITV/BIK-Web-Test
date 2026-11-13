@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Wemm Zwei-Wege Sprachkommunikation und Echtzeit-Textkommunikation geboten werden, soll die Einzelnutzerbedienung unterstützt werden, etwa bei Zugriff auf angefragte oder bereits etablierte Verbindungen, bei Wortmeldungen, oder beim Antworten auf Beiträge.
 
 == Warum wird das geprüft
 
-Tbd
+Die Unterstützung verschiedener gleichzeitiger Kanäle schafft Komplexität im Austausch. Deshalb soll das Angebot die Möglichkeit bieten, dass zu jeder Zeit nur eine Verbindung gleichzeitig aktiv ist und ein geordneter Wechsel zwischen verschiedenen Arten der Kommunikation stattfinden kann. 
 
 == Wie wird das geprüft?
 
@@ -26,7 +26,7 @@ Tbd
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
-==== 6.2.1.3 Einzelnutzerbedienung
+==== 6.2.1.3 Single user action
 
 [quote]
 ____
