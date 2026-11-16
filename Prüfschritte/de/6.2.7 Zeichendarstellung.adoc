@@ -1,1 +1,42 @@
+= Prüfschritt 6.2.7 Zeichendarstellung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.7 Character representation
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes RTT capabilities,
+the ICT shall be capable of handling at least a subset of ISO/IEC 10646 [i.53] that includes at least:
+
+* the Latin-1 part;
+* the writing direction(s) and the characters for the languages of the regions in which the ICT is intended to be
+used;
+* any emoji characters supported by the underlying platform;
+* the ISO/IEC 10646 [i.53] "replacement character" (HEX:FFFD) used for indication of unsupported and lost
+characters, including emojis; and
+* any characters used by the presentation protocol.
+--
+____
