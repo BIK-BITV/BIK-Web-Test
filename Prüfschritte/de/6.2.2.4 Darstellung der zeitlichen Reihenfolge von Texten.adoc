@@ -30,7 +30,7 @@ und Funktionen zur Echtzeit-Textkommunikation bietet.
 * Kontinuierliche Texteingaben sollen als ein durchgehender Block dargestellt werden, es sein denn eine andere Quelle sendet zur selben Zeit, in welchem Fall die Eingaben im Wechsel dargestellt werden. Die Reihenfolge bei mehreren gleichzeitigen Texteingaben in einspaltiger Ansicht ist dabei nur annähernd, damit Textblöcke für die bessere Lesbarkeit zusammengehalten werden.
 * Der Prüfschritt macht keine Vorgaben, ob die durch Eingaben erzeugten Textblöcke zuoberst oder am Ende eingefügt werden. Es zählt die jeweilige Reihenfolge.
 
-=== 3. Bewertung 
+=== 4. Bewertung 
 ==== Erfüllt
 
 . Texeingaben werden als lesbare Blöcke dargestellt (also bei gleichzeitigen Eingaben nicht zu fein im Wechsel aufgeteilt)
