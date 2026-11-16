@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tbd
+Echtzeit-Texteingaben sollen von Teilnehmern bei Bedarf über Scrollen des Fensters eingesehen werden können,  wenn sie durch das Hinzukommen neuerer Eingaben nicht mehr im Viewport sichtbar sind, und auch nach Beendigung der Zwei-Wege-Kommunikation noch für die Durchsicht verfügbar bleiben.
 
 == Warum wird das geprüft?
 
-Tbd
+Für alle Teilnehmer ist es hilfreich, während und nach einer Zwei-Wege Sprachkommunikation noch Echtzeit-Texteingaben von Teilnehmern durchsehen zu können, gerade wenn die Aufmerksamkeit duch andere zeitgleiche Wort- oder Textbeiträge abgelenkt wurde.
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
@@ -23,15 +23,15 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunika
 
 . Prüfen, ob Teilnehmer 1 zu Text außerhalb des Viewports scrollen können, um diesen zu lesen, während andere Teilnehmer weiter Text eingeben
 . Prüfen, ob bei erneuter Eingabe durch Teilnehmer 1 sich die Ansicht so anpasst, dass wieder der zuletzt eingegebene Echtzeit-Text anderer Teilnehmer und der aktuell eingegebene Text des Teilnehmers 1 sichtbar sind
-. Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch eingesehen werden können.
+. Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch durchgesehen werden können.
 
-4. Bewertung
-. Teilnehmer können ältere, aus dem Viewport gescrollte Echtzeit-Texteingaben einsehen, und bei erneuter Eingabe wechselt der Status zurück zur Ansicht der aktuellen Eingabe.
-. Nach Ende der Kommunikation sind die Echtzeit-Eingaben noch einsehbar.
+=== 3. Bewertung
+. Teilnehmer können bei laufender Kommunikation ältere, aus dem Viewport gescrollte Echtzeit-Texteingaben durchsehen, und bei erneuter Eingabe wechselt der Status zurück zur Ansicht der aktuellen Eingabe.
+. Nach Ende der Kommunikation sind die Echtzeit-Eingaben noch durchsehbar.
 
 == Quellen
 
-Zur
+tb
 
 == Einordnung des Prüfschritts
 
