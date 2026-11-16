@@ -19,43 +19,27 @@ und Funktionen zur Echtzeit-Textkommunikation bietet.
 
 === 2. Prüfung
 
-. Web-Anwendung öffnen
-. Eine Verbindung mit einem weiteren Gerät über die Anwendung herstellen
-. Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, 
-z. B. über ein blinkendes Icon
-. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, 
-ob die Signalisierung programmatisch ermittelbar ist 
-und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
+. Mehrere Teilnehmer geben über 30 Sekunden hinweg fortlaufend Text ein.
+. Prüfen, ob der Text in lesbaren Textblöcken erscheint, so aufgeteilt, das eine zeitliche Abfolge ablesbar ist.
+. Mehrere Teilnehmer geben erneut kontiuierlich zeitgleich Text ein, wobei Teilnehmer 1 die Eingabe früher abschließt als Teilnehmer 2.
+. Prüfen, ob der aus der Eingabe von Teilnehmer 1 entstandene Textblock früher angeordnet ist als der von Teilnehmer 2.
 
 === 3. Hinweise 
 
-* Kontinuierliche Texteingaben sollen als ein durchgehender Block dargestelt werden, es sein denn eine andere Quelle sendet zur selben Zeit, in welchem Fall die Eingaben im Wechsel dargestellt werden. Die Reihenfolge bei mehreren gleichzeitigen Texteingaben in einspaltiger Ansicht ist dabei nur annähernd, damit Textblöcke für die bessere Lesbarkeit zusammengehalten werden.
+* Kontinuierliche Texteingaben sollen als ein durchgehender Block dargestellt werden, es sein denn eine andere Quelle sendet zur selben Zeit, in welchem Fall die Eingaben im Wechsel dargestellt werden. Die Reihenfolge bei mehreren gleichzeitigen Texteingaben in einspaltiger Ansicht ist dabei nur annähernd, damit Textblöcke für die bessere Lesbarkeit zusammengehalten werden.
+* Der Prüfschritt macht keine Vorgaben, ob die durch Eingaben erzeugten Textblöcke zuoberst oder am Ende eingefügt werden. Es zählt die jeweilige Reihenfolge.
+
+=== 3. Bewertung 
+==== Erfüllt
+
+. Texeingaben werden als lesbare Blöcke dargestellt (also bei gleichzeitigen Eingaben nicht zu fein im Wechsel aufgeteilt)
+. Die Reihenfolge der Textblöcke entspricht dem zeitlichen Ablauf der Komunikation
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.2.4 Visual indicator of Audio with RTT
-____
-[.BLOCK_LANG_EN]
---
-Where ICT provides two-way voice communication, and has RTT capabilities, the
-ICT shall provide a real-time visual indicator of audio activity on the display.
-
-NOTE 1:
-The visual indicator may be a simple character position on the display that
-flickers on and off to reflect audio activity, or presentation of the
-information in another way that can be both visible to sighted users and
-passed on to deaf-blind users who are using a braille display.
-
-NOTE 2:
-Without this indication a person who lacks the ability to hear does not know
-when someone is talking.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
