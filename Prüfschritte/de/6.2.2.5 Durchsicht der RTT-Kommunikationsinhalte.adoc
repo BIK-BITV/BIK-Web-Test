@@ -25,6 +25,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunika
 . Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch durchgesehen werden können.
 
 === 3. Bewertung
+==== Erfüllt
+
 * Teilnehmer können bei laufender Kommunikation ältere, aus dem Viewport gescrollte Echtzeit-Texteingaben durchsehen, und bei erneuter Eingabe wechselt der Status zurück zur Ansicht der aktuellen Eingabe.
 * Nach Ende der Kommunikation sind die Echtzeit-Eingaben noch durchsehbar.
 
