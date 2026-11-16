@@ -11,12 +11,27 @@ Tbd
 Tbd
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
 
-Tbd
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
+
+=== 2. Prüfung
+
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
+
+. Mehrere Teilnehmer geben über 30 Sekunden hinweg fortlaufend Text ein.
+
+. Prüfen, ob Teilnehmer 1 zu Text außerhalb des Viewports scrollen können, um diesen zu lesen, während andere Teilnehmer weiter Text eingeben
+. Prüfen, ob bei erneuter Eingabe durch Teilnehmer 1 sich die Ansicht so anpasst, dass wieder der zuletzt eingegebene Echtzeit-Text anderer Teilnehmer und der aktuell eingegebene Text des Teilnehmers 1 sichtbar sind
+. Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch eingesehen werden können.
+
+4. Bewertung
+. Teilnehmer können ältere, aus dem Viewport gescrollte Echtzeit-Texteingaben einsehen, und bei erneuter Eingabe wechselt der Status zurück zur Ansicht der aktuellen Eingabe.
+. Nach Ende der Kommunikation sind die Echtzeit-Eingaben noch einsehbar.
 
 == Quellen
 
-Tbd
+Zur
 
 == Einordnung des Prüfschritts
 
