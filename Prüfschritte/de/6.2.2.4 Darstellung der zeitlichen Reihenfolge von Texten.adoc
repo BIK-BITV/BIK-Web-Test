@@ -4,30 +4,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt 
-und Funktionen zur Echtzeit-Textkommunikation (RTT, Real-Time Text) bietet, 
-soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. 
-Der visuelle Indikator, dass gerade gesprochen wird, 
-soll dabei auch programmatisch ermittelbar sein, 
-sodass auch taubblinde Menschen z. B. über eine Braillezeile 
-über die laufende Audiokommunikation informiert werden. 
-Es wird dabei lediglich in Echtzeit signalisiert, 
-dass Audio-Eingabe stattfindet, 
-die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
+Bei Echtzeit-Texteingabe sollen die Eingaben aus jeder Quelle einschließlich der lokalen Quelle in zeitlicher Reihenfolge ihres Abschlusses geordnet erscheinen. Der Abschluss einer Eingabe ist Zeitpunkt für die zeitliche Ordnung verschiedener Textblöcke. Als Abschluss gilt die Eingabe eines Punktes mit nachfolgendem Leerzeichen, ein Zeilenumbruch, oder eine mehr als fünfsekündige Pause.
 
 == Warum wird das geprüft?
 
-Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, 
-dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. 
-So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), 
-dass gerade jemand spricht, und wer spricht.
+Die Reihenfolge von Texteingaben verschiedener Teilnehmer soll in der Darstellung insgesamt den zeitlichen Ablauf der Kommunikation widerspiegeln. Gleichzeitig sollen die Textblöcke bei gleichzeitigen Eingaben aus mehreren Quellen nicht allzu fein in einzelen Bestandteile aufgeteilt werden, da sonst die Lesbarkeit leidet.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, 
-wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt 
+Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunikation unterstützt 
 und Funktionen zur Echtzeit-Textkommunikation bietet.
 
 === 2. Prüfung
@@ -42,10 +29,7 @@ und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. darge
 
 === 3. Hinweise 
 
-* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text 
-beim Empfänger dynamisch schon während der Eingabe des Senders. 
-RTT ist also nicht das Gleiche wie etwa Chat, 
-wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+* Kontinuierliche Texteingaben sollen als ein durchgehender Block dargestelt werden, es sein denn eine andere Quelle sendet zur selben Zeit, in welchem Fall die Eingaben im Wechsel dargestellt werden. Die Reihenfolge bei mehreren gleichzeitigen Texteingaben in einspaltiger Ansicht ist dabei nur annähernd, damit Textblöcke für die bessere Lesbarkeit zusammengehalten werden.
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
