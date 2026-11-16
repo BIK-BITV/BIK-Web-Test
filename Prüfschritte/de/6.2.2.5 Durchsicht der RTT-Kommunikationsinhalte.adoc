@@ -20,9 +20,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Sprachkommunika
 . Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
 
 . Mehrere Teilnehmer geben über einen längeren Zeitraum hinweg fortlaufend Text ein, bis die älteren eingegebenen Texte aus dem Viewport scrollen.
-
-. Prüfen, ob Teilnehmer 1 zu Text außerhalb des Viewports scrollen können, um diesen zu lesen, während andere Teilnehmer weiter Text eingeben
-. Prüfen, ob bei erneuter Eingabe durch Teilnehmer 1 sich die Ansicht so anpasst, dass wieder der zuletzt eingegebene Echtzeit-Text anderer Teilnehmer und der aktuell eingegebene Text des Teilnehmers 1 sichtbar sind
+. Prüfen, ob Teilnehmer 1 zu Text außerhalb des Viewports scrollen kann, um diesen durchzusehen, während andere Teilnehmer weiter Text eingeben.
+. Prüfen, ob bei erneuter Eingabe durch Teilnehmer 1 sich die Ansicht so anpasst, dass wieder der zuletzt eingegebene Echtzeit-Text anderer Teilnehmer und der aktuell eingegebene Text von Teilnehmer 1 sichtbar sind.
 . Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch durchgesehen werden können.
 
 === 3. Bewertung
