@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Echtzeit-Texteingaben sollen von Teilnehmern bei Bedarf über Scrollen des Echtzeit-Textbereichs eingesehen werden können,  wenn sie durch das Hinzukommen neuerer Eingaben nicht mehr im Viewport sichtbar sind. Auch nach Beendigung der Zwei-Wege-Kommunikation sind sie noch für die Durchsicht verfügbar.
+Echtzeit-Texteingaben können von Teilnehmern bei Bedarf über Scrollen des Echtzeit-Textbereichs eingesehen werden,  wenn sie durch das Hinzukommen neuerer Eingaben nicht mehr im Viewport sichtbar sind. Auch nach Beendigung der Zwei-Wege-Kommunikation sind sie noch für die Durchsicht verfügbar.
 
 == Warum wird das geprüft?
 
