@@ -1,1 +1,42 @@
+= Prüfschritt 6.2.6 Verarbeitungsgeschwindigkeit der Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.6 Processing rate of RTT
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and supports multiparty communication, and
+includes RTT capabilities,
+the ICT shall have the capacity to receive and process RTT at a total rate of 90 characters per second coming from a
+minimum of 3 simultaneous sources sending 30 characters per second each.
+
+NOTE 1: 
+The requirement may have implications depending on the role of the ICT. For example, for a
+communications client, it means presenting, for a router it means transferring, and for a multi-party bridge
+it means mixing and distributing or just distributing.
+--
+____
 
