@@ -1,1 +1,120 @@
+= Prüfschritt 6.2.10 Interoperabilität von Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.10 RTT interoperability
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides functionality that allows real-time bidirectional voice communication, and connects to other ICT
+that allows real-time bidirectional voice communication,
+the ICT's documentation shall contain information on the main specifications by which RTT is implemented in a
+manner that allows the RTT on the ICT to interoperate with the other ICT that the ICT interoperates with for voice,
+using one of the following options:
+
+* a) Any set of specifications for RTT communication that would fulfil the RTT requirements in the present
+document that is mutually agreed to be used between the ICT and any other ICT with which the ICT
+interoperates for real-time bidirectional voice communication.
+* b) Recommendation ITU-T T.140 [i.37] for functions including coding and presentation and IETF
+RFC 4103 [i.13] updated by IETF RFC 9071 [i.52] for other aspects of RTT communication.
+
+NOTE 1: 
+If there is no agreement to use some other standard, then clause 6.2.10 allows any ICT to fulfil
+clause 6.2.10 by implementing option b). This is the fallback option to use when no other method has
+been agreed on, and it might serve as a 'safe harbour' for conforming to clause 6.2.10 when no agreement
+can be reached.
+
+NOTE 2: 
+ICT that provides Emergency communications with real-time bidirectional voice is an important case of
+an operational scenario where communication systems are required to interoperate. See clause 13.3.
+NOTE 3: A number of other factors are important to also be agreed automatically or by external means in the
+communication system interface for RTT interoperability to work, such as security mechanisms,
+addressing, NAT-traversal mechanisms, transport method for session control, etc.
+
+NOTE 4: 
+Specifications for RTT implementation are provided for a number of technologies. The following list
+provides an overview of the situation at the time of authoring the present document. It is presented here as
+a guide for achieving interoperability. Almost all of these specifications make use of Recommendation
+ITU-T T.140 [i.37] for functions including coding and presentation:
+
+* a) General VoIP and Multimedia communication: IETF, providing standards for Voice Over IP
+(VOIP) and Multimedia communications over IP based on the Session Initiation Protocol (SIP)
+IETF RFC 3261 [i.50], has published IETF RFC 4103 [i.13] for session establishment and transport
+of RTT over RTP IETF RFC 3550 [i.51] and its update IETF RFC 9071 [i.52] for multiparty use.
+
+* b) IP Multimedia Sub-System (IMS): 3GPP, providing standards for mobile communication systems,
+including IP Multimedia Sub-System (IMS) has standardized the Multimedia Telephony concept,
+for communications with voice, video and RTT using the set of protocols specified in ETSI
+TS 126 114 [i.11] to create the services including RTT and Total Conversation services specified in
+ETSI TS 122 173 [i.12]. Multimedia Telephony is specified to use IETF RFC 4103 [i.13] updated
+by IETF RFC 9071 [i.52] for session establishment and transport of RTT over RTP or the RTT
+based on WebRTC Data Channel Technologies. Details of the use of these variants can be found in
+ETSI TR 126 982 [i.43].
+It should be noted that 3GPP and GSMA use the following varying terms for RTT: GTT, Global
+Text Telephony, GTT-IP, RTT, real time text, and text.
+
+* c) GSMA, providing selected profiles of standards for implementing globally interoperating mobile
+communication services has in GSMA PRD IR.92 [i.44] specified how to apply ETSI
+TS 126 114 [i.11] to implement RTT and Voice over LTE (VoLTE) and in GSMA
+PRD IR.94 [i.45] Video over LTE (ViLTE) in 4G mobile systems. A similar document is published
+for RTT, voice and video over 5G in GSMA NG.114 [i.46]. RTT is specified in these documents in
+clause B.2 to use ETSI TS 126 114 [i.11] for session establishment and transport of RTT.
+
+* d) Web technologies: For communication in web technologies, W3C and IETF have created the
+WebRTC concept where the Reliable WebRTC Data channel concept IETF RFC 8831 [i.57] in its
+section 3.2 use case U-C 5 is recommended to be used for RTT. The use of WebRTC Data
+Channels in web pages and apps is specified in W3C WebRTC: Real-Time Communication in
+Browsers [i.58].
+
+* e) Emergency communications: An interface to IP based emergency communications is specified in
+ETSI TS 103 479 [i.48], making use of IETF RFC 4103 [i.13] updated by IETF RFC 9071 [i.52]
+for RTT. A corresponding standard exists for North America. For emergency apps, ETSI
+TS 103 478 [i.47] is specified to implement RTT as specified in ETSI TS 103 871 [i.49]. The use
+of these standards for accessible and interoperable emergency communications including the use of
+RTT is specified in ETSI EN 303 919 [i.56].
+
+* f) Relay services: ETSI ES 202 975 [i.6] specifies in its Annexes A and B interfaces to relay services,
+referring to the present document for specific technologies.
+
+NOTE 5: 
+Analogue Text telephony is a legacy text communication concept providing functionality to some degree
+similar to RTT in circuit-switched fixed and mobile technologies. There are 6 variants for fixed lines,
+collected in Recommendation ITU-T V.18 [i.22], and one for circuit-switched 2G and 3G mobile
+technologies specified in ETSI TS 126 226 [i.55]. Interworking between these technologies and RTT can
+be achieved to some degree but with severe functional limitations such as no support for multiparty text
+communication, need for gateways for character conversion and buffering the much faster RTT text input
+to accommodate the slower rate of analog technologies, clashes due to lack of bi-directional support, and
+no possibility to use voice while text is transmitted. The differences can also cause confusion to users
+unaware of the differences. Details about the limitations can be found in the references in the present note
+and in IETF RFC 5194 [i.62], section 6.2.5. Considering these limitations, Analogue Text telephony does
+not provide a working (additional) sensory channel.
+
+NOTE 6: 
+For applying option b) it can be emphasized that the fallback method for multiparty mixing and
+presentation of RTT in multi-party unaware clients specified in IETF RFC 9071 [i.52], sections 2.2 and
+4.2 does not provide a satisfactory user experience and is discouraged from regular use.
+--
+____
 
