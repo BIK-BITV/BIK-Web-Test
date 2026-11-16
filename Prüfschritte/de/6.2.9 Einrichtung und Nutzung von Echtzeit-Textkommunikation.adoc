@@ -1,1 +1,47 @@
+= Prüfschritt 6.2.9 Einrichtung und Nutzung von Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.9 RTT media establishment and use
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes RTT capabilities,
+all of the following shall be true for the ICT regardless of any system or client settings:
+
+* it is possible to request establishment of a communication with RTT media;
+* it is possible to answer a request for a communication and get RTT media included regardless of whether it
+was included in the original request;
+* it is possible to upgrade an existing communication by any party to include RTT media.
+
+NOTE 1: 
+The establishment of the RTT media could be requested and answered by a user, an automatic procedure
+in a user terminal, a non-human process, or a setting in a conference session.
+
+NOTE 2: 
+The present clause implies that ICT with RTT capabilities has the RTT functionality ready for RTT media
+establishment and use when voice functionality is ready for media establishment and use.
+--
+____
