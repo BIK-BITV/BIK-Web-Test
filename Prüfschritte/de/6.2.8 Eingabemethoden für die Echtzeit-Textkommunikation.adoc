@@ -1,1 +1,36 @@
+= Prüfschritt 6.2.8 Eingabemethoden für die Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.8 RTT input methods
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a communication client, and supports real-time bidirectional voice communication, and
+supports RTT,
+the client shall provide RTT input methods in all ways available for general text input by the ICT.
+--
+____
 
