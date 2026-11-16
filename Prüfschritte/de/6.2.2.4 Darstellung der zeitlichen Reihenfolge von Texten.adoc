@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei Echtzeit-Texteingabe sollen die Eingaben aus jeder Quelle einschließlich der lokalen Quelle in zeitlicher Reihenfolge ihres Abschlusses geordnet erscheinen. Der Abschluss einer Eingabe ist Zeitpunkt für die zeitliche Ordnung verschiedener Textblöcke. Als Abschluss gilt die Eingabe eines Punktes mit nachfolgendem Leerzeichen, ein Zeilenumbruch, oder eine mehr als fünfsekündige Pause.
+Bei der Echtzeit-Texteingabe sollen die Eingaben aus jeder Quelle einschließlich der lokalen Quelle in der zeitlichen Reihenfolge ihres Abschlusses geordnet erscheinen. Der Abschluss einer Eingabe bestimmt die zeitliche Anordnung verschiedener Textblöcke. Als Abschluss gilt die Eingabe eines Punktes mit nachfolgendem Leerzeichen, ein Zeilenumbruch, oder eine mehr als fünfsekündige Pause. Wird ein Textblock im Nachgang editiert wird dessen Abschlusszeit auf das zuletzt eingegebene Zeichen gesetzt.
 
 == Warum wird das geprüft?
 
