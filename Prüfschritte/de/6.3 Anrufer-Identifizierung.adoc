@@ -50,3 +50,19 @@ functions, the caller identification and similar telecommunications functions
 shall be available in text form as well as being programmatically
 determinable, unless the functionality is closed.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.3 Caller ID
+____
+[.BLOCK_LANG_EN]
+Where ICT provides caller identification or other identification functions,
+the caller identification and other identification functions shall be available in text form as well as being
+programmatically determinable, for all functionality that is not closed to programmatic access of information by
+assistive technologies.
+
+NOTE: 
+See clause 5 for requirements on functionality that is closed.
+____
+
