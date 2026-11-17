@@ -69,3 +69,24 @@ Solutions capable of handling audio, RTT and video media could satisfy the
 above requirement.
 --
 ____
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.4 Alternatives to voice-based services
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides voice mail, auto-attendant, or interactive voice response facilities,
+the ICT shall offer users a means to access the information and carry out the tasks provided by the ICT without the use
+of hearing or speech.
+
+NOTE 1:
+Tasks that involve both operating the interface and perceiving the information would require that both the
+interface and information be accessible without use of speech or hearing.
+
+NOTE 2:
+Solutions capable of handling audio, RTT and video media could satisfy the above requirement.
+--
+____
