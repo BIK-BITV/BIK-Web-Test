@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.6 Sprecher-Anzeige für Gebärdensprachen-Kommunikation
+= Prüfschritt 6.5.6 Anzeige aller aktiven Kommunikationsteilnehmenden
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -64,3 +64,23 @@ NOTE 1: The speaker ID can be in the same location as for voice users for multip
 NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically achievable.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.5.6 Indication of all active communication participants
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, includes real-time bidirectional video
+communication, and provides speaker indication for voice users,
+the ICT shall provide indication of all active communicators including those signing.
+
+NOTE 1: The indication of all active communicators can be in the same location as the speaker identification for
+voice users in multiparty communication sessions.
+
+NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically
+achievable.
+--
+____
+
