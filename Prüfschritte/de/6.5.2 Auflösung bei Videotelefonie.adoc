@@ -49,3 +49,19 @@ functionality, the ICT:
 * shall support at least QVGA resolution
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.5.2 Resolution
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+communication, the ICT:
+
+* shall support at least QVGA resolution;
+* should preferably support at least VGA resolution.
+--
+____
+
