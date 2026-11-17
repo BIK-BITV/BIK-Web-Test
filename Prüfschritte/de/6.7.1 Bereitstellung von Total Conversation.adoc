@@ -1,1 +1,43 @@
+= Prüfschritt 6.7.1 Bereitstellung von Total Conversation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.7.1 Total conversation provision
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+functionality,
+the ICT shall provide total conversation by also including RTT capability that conforms to the requirements of
+clause 6.2, voice that conforms to clause 6.1, and video that conforms to clause 6.5, conforming also to clauses 6.3 and
+6.4.
+
+NOTE 1: 
+ETSI ES 204 009 [i.77] provides background information and detailed guidance on many aspects of total
+conversation, its media components, interoperability and use, including synchronization and multiparty
+aspects.
+--
+____
 
