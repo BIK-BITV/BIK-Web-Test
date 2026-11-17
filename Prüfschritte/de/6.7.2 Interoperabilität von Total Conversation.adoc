@@ -1,1 +1,46 @@
+= Prüfschritt 6.7.2 Interoperabilität von Total Conversation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.7.2 Total conversation interoperability
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides functionality that allows real-time bidirectional voice communication, and includes real-time
+bidirectional video functionality, and connects to other ICT that allows real-time bidirectional voice communication,
+including real-time bidirectional video functionality,
+the ICT's documentation shall contain information on the main specifications by which video is implemented in a
+manner that allows the video on the ICT to interoperate with other ICT that the ICT interoperates with for voice and
+video, using one of the following options:
+
+* a) Any set of specifications for video communication that would fulfil the total conversation requirements in the
+present document that is mutually agreed to be used between the ICT and any other ICT with which the ICT
+interoperates for real-time bidirectional voice and video communication.
+* b) Recommendation ITU-T H.264 [i.74] at least version 10 and at least constrained baseline level 3 for functions
+including coding and presentation, and/or, where codec negotiation is implemented, Recommendation
+ITU-T H.265 [i.75] and IETF RFC 6386 VP8 [i.76] to avoid transcoding.
+--
+____
 
