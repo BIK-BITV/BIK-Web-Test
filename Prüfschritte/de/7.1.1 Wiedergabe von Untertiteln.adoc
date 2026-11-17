@@ -87,3 +87,57 @@ If a Braille device is connected, the ICT should provide an option to display
 captions on the Braille device.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.1 Captioning playback
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio, it shall have a mode of
+operation to display the available captions.
+Where closed captions are provided as part of the content, the ICT shall allow
+the user to choose to display the captions.
+
+NOTE 1:
+Captions may contain information about timing, colour and positioning.
+This caption data is necessary for caption users.
+Timing is used for caption synchronization.
+Colour can be used for speaker identification.
+Position can be used to avoid obscuring important information.
+
+NOTE 2:
+If a Braille device is connected, the ICT should provide an option to display
+captions on the Braille device.
+--
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.1 Subtitle playback
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio,
+the ICT shall have a mode of operation to display the available subtitles. Where closed subtitles are provided as part of
+the content, the ICT shall allow the user to choose to display the subtitles.
+
+NOTE 1:
+Subtitles may contain information about timing, colour and positioning. This subtitle data is necessary for
+subtitle users. Timing is used for subtitle synchronization. Colour can be used to convey additional
+information such as speaker identification, emotion or tone, or that the text represents music lyrics vs.
+dialog. Position can be used to avoid obscuring important information.
+
+NOTE 2:
+If an assistive technology (such as a braille display, or large caption display) is connected to an ICT using
+a standard connection, identification, and data communication protocol for that type of device, it is best
+practice for the ICT to provide an option to display subtitles on the braille device.
+
+NOTE 3:
+Clause 7.1.1 refers to the ability of the player to display subtitles. Clauses 9.1.2.2, 10.1.2.2 and 11.1.2.2
+refer to the provision of subtitles for the content (the video).
+--
+____
+
