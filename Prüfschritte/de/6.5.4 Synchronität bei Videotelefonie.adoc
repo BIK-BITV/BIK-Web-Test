@@ -83,3 +83,21 @@ Recent research shows that, if audio leads the video, the intelligibility
 suffers much more than the reverse.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.5.4 Synchronization between audio and video
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+communication,
+the ICT shall ensure that voice is received by the user not earlier than 100 ms before and not later than 100 ms after the
+corresponding video is presented to the user. 
+
+NOTE:
+Verification material and methods are described in Recommendation ITU-T H.Sup1 [i.65], clause 6.
+--
+____
+
