@@ -69,3 +69,20 @@ functionality, the ICT:
 * shall support a frame rate of at least 20 frames per second (FPS)
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.5.3 Framerate
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+communication,
+the ICT:
+
+* a) shall support a frame rate of at least 20 Frames Per Second (FPS);
+* b) should preferably support a frame rate of at least 30 Frames Per Second (FPS) with or without sign language in
+the video stream.
+--
+____
