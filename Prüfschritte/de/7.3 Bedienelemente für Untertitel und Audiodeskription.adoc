@@ -108,3 +108,61 @@ It is best practice for ICT to include additional controls enabling the user to
 select whether captions and audio description are turned on or off by default.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.3 User controls for captions and audio description
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT primarily displays video with synchronized audio, and has control over the activation of subtitles, audio
+description, and spoken subtitles,
+the ICT shall provide at least one mode of operation that allows the activation and deactivation of the user's choice of
+either subtitles, audio description, or spoken subtitles with a single user operation that is at the same level as the volume
+control and that meets the other accessibility requirements of the present document.
+
+NOTE 1: 
+Media player software would meet the precondition of this requirement because its primary purpose is to
+play audiovisual materials, but a preview feature in a file utility that shows quick views of the contents of
+files as they are selected, (including playing a video file in a window or pane without controls) would not,
+because its primary function is file management, and the primary function of the preview function is to
+allow files to be identified by peeking into them, not to view audiovisual content.
+
+NOTE 2: 
+It is best practice to allow other accessibility features related to audiovisual content to also be chosen with
+a single user operation.
+
+NOTE 3: 
+It is best practice for ICT to include mechanisms to enable the user to select whether subtitles, or audio
+description, or spoken subtitles are turned on or off each time the ICT is used.
+
+NOTE 4: 
+There could be separate methods for activating and deactivating these functions.
+
+NOTE 5: 
+The ability to use spoken commands is best practice to include because it makes it possible to have all
+accessibility functions available instantly, but since all speech control also requires a non-speech
+alternative (clause 5.1.7) it cannot be the only method for meeting clause 7.3.
+
+NOTE 6: 
+If the ICT is or includes a platform, on which other ICT can be implemented, it is not responsible to
+ensure that such other ICT meet the present clause. But it is responsible to meet clause 11.5.2.1 Platform
+interoperability with assistive technologies, which should result in API methods that the other ICT could
+use to meet the present clause.
+
+EXAMPLE: 
+One solution would be to have a single button at the volume control level, bring up a list of
+subtitles, audio description, spoken subtitles and (potentially) other accessibility features if it was
+held down for more than 2 seconds. The user could activate any accessibility feature from that
+menu - as well as chose an accessibility feature that would be turned on and off with a single short
+press of the same button that was used to bring up the menu with a long press. (If this was
+standardized across manufacturers it would facilitate dissemination of information about this
+feature and provide cross-manufacturer consistency). It is best practice to have a dedicated button
+for doing the above (providing single button to both chose and then later activate the single chosen
+function with a simple press), but a button that exists in a current design, like the mute button,
+could be repurposed for this where a remote has only a few buttons and a dedicated button cannot
+be provided.
+--
+____
+
