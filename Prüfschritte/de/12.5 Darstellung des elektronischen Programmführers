@@ -1,1 +1,45 @@
+= Prüfschritt 12.5 Darstellung des elektronischen Programmführers
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.5 Electronic program guides
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays an Electronic Programme Guide (EPG) presenting media item(s), and information is available
+about the availability of subtitles, audio description, spoken subtitles, or sign language interpretation for the media
+item(s),
+the ICT shall provide a mode of operation in which the availability of subtitles, audio description, spoken subtitles, sign
+language can be determined without activating the media item(s).
+
+NOTE 1: 
+The information about which accessibility features are available is needed when users are assessing which
+programs will be accessible to them. They will need this information to be available to them when they
+are viewing or scrolling through the EPG.
+
+NOTE 2: 
+Best practice is to display information about all accessibility features as they are developed.
+--
+____
