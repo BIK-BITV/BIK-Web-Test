@@ -77,3 +77,23 @@ synchronization between the audio and the corresponding captions as follows:
   within 100 ms of the availability of the caption to the player.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.2 Subtitle synchronization
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio, and displays subtitles,
+the ICT shall display subtitles within 100 ms of the timecode value attached to the subtitle.
+
+Note 1:
+If subtitles without timecodes are to be displayed, the best practice is to display the subtitles as soon as
+they are received.
+
+Note 2:
+It is good practice to display a subtitle within 20 ms of the respective timecode.
+--
+____
+
