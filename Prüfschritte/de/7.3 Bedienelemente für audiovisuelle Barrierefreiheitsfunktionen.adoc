@@ -1,4 +1,4 @@
-= Prüfschritt 7.3 Bedienelemente für Untertitel und Audiodeskription
+= Prüfschritt 7.3 Bedienelemente für audiovisuelle Barrierefreiheitsfunktionen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -112,7 +112,7 @@ ____
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
-==== 7.3 User controls for captions and audio description
+==== 7.3 User control of audiovisual accessibility features
 ____
 [.BLOCK_LANG_EN]
 --
