@@ -1,1 +1,40 @@
+= Prüfschritt 13.1.2.3 Übermittlung der Anruferkennung bei Relaisdiensten für Relaisdienst-Hauptnutzer
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.2.3 Conveying of caller identifier in relayed communications for primary relay users
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is intended to support relay service inclusion in communication, and is, or includes, relay service invocation
+functions,
+the ICT shall convey the caller identifiers of primary users of relay services in their communication establishments to
+secondary users, unless the calling user equipment is set to anonymous communication mode.
+
+NOTE: 
+For more details see clause 6.3 in ETSI ES 202 975 [i.6].
+--
+____
+
 
