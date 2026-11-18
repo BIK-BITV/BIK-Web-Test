@@ -1,1 +1,41 @@
+= Prüfschritt 13.1.2.2 Zieladresse des Hauptnutzers bei Nutzung eines Relaisdienstes
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.2.2 Use of the primary user destination address in relayed communications
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is intended to support relay service inclusion in communication, and is, or includes, relay service invocation
+functions,
+the relay service invocation functions shall use destination addresses given to the primary users by their communication
+systems.
+
+NOTE: 
+For more details see clause 6.3 in ETSI ES 202 975 [i.6].
+--
+____
+
+
 
