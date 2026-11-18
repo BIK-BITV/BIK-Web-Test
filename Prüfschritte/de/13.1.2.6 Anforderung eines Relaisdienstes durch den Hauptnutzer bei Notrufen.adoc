@@ -1,1 +1,41 @@
+= Prüfschritt 13.1.2.6 Anforderung eines Relaisdienstes durch den Hauptnutzer bei Notrufen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.2.6 Relay service support requested by the primary user for emergency communications
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is intended to support relay service inclusion in communication, and is, or includes, relay service invocation
+functions,
+the ICT shall initiate and perform emergency communications on the request by the primary user and invoke relay
+service.
+
+NOTE: 
+The relay service invocation functions are expected to allow invocations of PSAPs in a three-party
+fashion and perform the relaying action in the ways specified in ETSI ES 202 975 [i.6], clauses 6.5.1.
+--
+____
+
 
