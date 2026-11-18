@@ -1,4 +1,4 @@
-= Prüfschritt 12.2.2 Technischer Support
+= Prüfschritt 12.2 Barrierefreie Informationen über Dienste
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -93,3 +93,20 @@ are built-in and accessibility features that provide compatibility with
 assistive technology.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.2 Accessible information about services
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, information about a service, made available in a digital form,
+the presentation of the information shall conform to the requirements of clause 9 if it is available in a web format,
+clause 10 if it is available as a non-web document, and clause 11 if it is available as part of non-web software.
+
+NOTE: 
+The term service in the precondition of this requirement includes support services.
+--
+____
+
