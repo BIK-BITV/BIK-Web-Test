@@ -86,3 +86,15 @@ Where ICT transmits, converts, or records video with synchronized audio, it
 shall preserve audio description data such that it can be played in a manner
 consistent with clauses 7.2.1 and 7.2.2.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.2.3 Preservation of audio description
+____
+[.BLOCK_LANG_EN]
+Where ICT transmits, converts, or records video with synchronized audio,
+the ICT shall preserve audio description data such that the audio description can be played in a manner consistent with
+clauses 7.2.1 and 7.2.2.
+____
+
