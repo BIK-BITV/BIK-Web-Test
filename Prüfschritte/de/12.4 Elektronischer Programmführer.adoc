@@ -1,1 +1,41 @@
+= Prüfschritt 12.4 Elektronischer Programmführer
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.4 Electronic program guides
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is an Electronic Programme Guide (EPG),
+the EPG shall provide information on the availability of subtitles, audio description, spoken subtitles, and sign language
+interpretation of the media.
+
+NOTE: 
+Best practice is to include information about all accessibility features as they are developed and standard
+formats for including information are developed.
+--
+____
+
 
