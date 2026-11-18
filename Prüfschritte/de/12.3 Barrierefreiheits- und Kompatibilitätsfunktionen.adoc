@@ -1,4 +1,4 @@
-= Prüfschritt 12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit
+= Prüfschritt 12.3 Barrierefreiheits- und Kompatibilitätsfunktionen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
