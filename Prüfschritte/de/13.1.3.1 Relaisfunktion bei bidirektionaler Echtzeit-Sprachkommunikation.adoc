@@ -1,1 +1,37 @@
+= Prüfschritt 13.1.3.1 Relaisfunktion bei bidirektionaler Echtzeit-Sprachkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.3.1 Relaying action in real-time bidirectional voice communication
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a relay service,
+the relay service shall allow primary users to participate in speech communication with secondary users by performing
+modality conversion or communication support functions according to the type and mode of operation of the relay
+service.
+--
+____
+
 
