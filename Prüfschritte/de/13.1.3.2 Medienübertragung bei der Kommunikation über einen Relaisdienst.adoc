@@ -1,1 +1,39 @@
+= Prüfschritt 13.1.3.2 Medienübertragung bei der Kommunikation über einen Relaisdienst
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.3.2 Media handling in relay service communication
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is intended to support relay service inclusion in communication, and is, or includes, relay service invocation
+functions,
+the relay service invocation functions shall allow passing-through media not involved in the conversion but enabled by
+the communication clients of the primary and secondary users.
+
+NOTE: 
+Best practice is to allow the user to specify if they want the media being converted to also be passed on to
+the other user in addition to the conversion of its modality.
+--
+____
