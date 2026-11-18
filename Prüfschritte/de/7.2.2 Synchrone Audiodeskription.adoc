@@ -110,3 +110,14 @@ Where ICT has a mechanism to play audio description, it shall preserve the
 synchronization between the audio/visual content and the corresponding audio
 description.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+=== 7.2.2 Audio description synchronization
+____
+[.BLOCK_LANG_EN]
+Where ICT displays video with synchronized audio, and has a mechanism to play audio description,
+the ICT shall preserve the synchronization between the audio/visual content and the corresponding audio description.
+____
+
