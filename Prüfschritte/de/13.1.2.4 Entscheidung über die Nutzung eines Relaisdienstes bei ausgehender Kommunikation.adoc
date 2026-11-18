@@ -1,1 +1,40 @@
+= Prüfschritt 13.1.2.4 Entscheidung über die Nutzung eines Relaisdienstes bei ausgehender Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.2.4 Conveying of caller identifier in relayed communications for primary relay users
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is intended to support relay service inclusion in communication, and is, or includes, relay service invocation
+functions,
+the ICT shall provide features that enable the primary user to decide by user action at the moment of initiating an
+outgoing communication if a relay service will be invoked in the communication or not.
+
+NOTE: 
+It is also good practice to provide automatic decision support and settings to tune the decision support to
+user needs.
+--
+____
 
