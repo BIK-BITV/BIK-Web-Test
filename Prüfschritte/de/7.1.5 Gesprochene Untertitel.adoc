@@ -71,7 +71,7 @@ einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kost
 https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[ITU T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 7.1.5 Spoken subtitles
@@ -90,3 +90,26 @@ That is possible when the audio file with spoken subtitle
 is delivered in a separate audio track and mixed in the end users device.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.5 Spoken subtitles
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio,
+the ICT shall have a mode of operation to enable output of the available spoken subtitles.
+
+NOTE 1: 
+Spoken subtitles are sometimes provided to accompany interlingual subtitles, so that users who are blind
+and partially sighted or cannot read can understand dialogue that is being spoken in a language different
+to their own. They are also sometimes provided to offer an understandable version of indistinct or
+otherwise unintelligible speech.
+
+NOTE 2: 
+This requirement does not mean that players generate spoken subtitles from available subtitles, but only
+that they play spoken subtitle audio if it is available.
+--
+____
+
