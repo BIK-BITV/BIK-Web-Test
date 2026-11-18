@@ -140,3 +140,34 @@ The accessibility statement and help pages are both examples
 of the provision of product information.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.3 Accessibility and compatibility features
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has documentation about the use of the ICT on the ICT or there is an official webpage that provides
+documentation about the use of the ICT,
+this documentation about the use of the ICT on the ICT shall include directly or via a link to a web page that, directly or
+via further links, provides information on the accessibility features of the ICT, how to use the features, and how to get
+support for accessibility features.
+
+NOTE 1: 
+One mechanism for doing this is to provide a simple URL phrase in the footer of on any documentation,
+for example "Accessibility info at www.vendor.com/accessibility".
+
+NOTE 2: 
+The term "official web page" means any page provided by the vendor of the ICT and is used to
+distinguish a webpage from the vendor of the ICT from any other pages that might exist from 3rd parties
+about the ICT. The precondition for the existence of at least one web page from the vendor of the ICT is
+to prevent a product vendor who does not have any website from having to create a website just to meet
+this requirement.
+
+NOTE 3: 
+"On the ICT" is referring to documentation that is either physically on the ICT itself or that is made
+available through the use of the ICT.
+--
+____
+
