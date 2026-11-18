@@ -1,1 +1,38 @@
+= Prüfschritt 13.1.3.4 Unterstützung durch einen Relaisdienst bei von Notrufabfragestellen eingeleiteten Notrufen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.3.4 Relay service support during emergency communications initiated by the PSAP
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a relay service,
+the relay service shall accept invocations by emergency communication PSAPs.
+
+NOTE: 
+The relay service is expected to allow invocations by PSAPs in a three-party fashion and perform the
+relaying action in the ways specified in ETSI EN 303 919 [i.56], clauses 9 and 10.
+--
+____
 
