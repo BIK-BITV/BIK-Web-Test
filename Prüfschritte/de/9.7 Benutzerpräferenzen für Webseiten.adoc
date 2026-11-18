@@ -1,0 +1,56 @@
+= Prüfschritt 9.7 Benutzerpräferenzen für Webseiten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 9.7 User preferences for web pages
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a web page,
+the web page shall not block the user agent's mode(s) of operation that present the web page according to user
+preference settings, or explicitly override user preference settings for documented platform accessibility features in
+these modes of operation, unless this is essential to the information or function of the web page.
+
+NOTE 1: 
+Clause 12.3 specifies that accessibility features of the ICT are to be documented either as part of the ICT
+or in a separate documentation.
+
+NOTE 2: In a web browser that meets clause 11.7 there is at least one mode of operation where the web browser
+will enforce user preference settings.
+
+NOTE 3: 
+For web pages, the underlying platform is the user agent.
+
+NOTE 4: 
+This does not preclude the web page from specifying other values, but it does limit the use of
+specifications that explicitly override user settings (e.g. "forced-color-adjust" property in CSS) to cases
+where this is essential.
+
+NOTE 5: 
+Features that might be documented as platform accessibility features include, but are not limited to colour
+filters, contrast, text size, pointer size, and text cursor.
+--
+____
+
