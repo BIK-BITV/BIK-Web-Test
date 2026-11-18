@@ -1,1 +1,45 @@
+= Prüfschritt 13.1.3.3 Unterstützung von Relaisdiensten bei IKT-basierten Konferenzen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
 
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Quellen?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 13.1.3.3 Relay service support in ICT based conferences
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, a relay service,
+the ICT shall support participation of primary users in conferences.
+
+NOTE 1: 
+The extra modality conversions required by each user may be conveyed via the conference system or
+directly between the relay service and the user of the relay service.
+
+NOTE 2: 
+In order for the relay service to have the best information to successfully convey the conference voice
+communications the relay service should not only be able to hear the voice channel of the conference but
+also view all contents of the conference.
+
+NOTE 3: 
+Access to conferences is commonly provided via web or app interface.
+--
+____
