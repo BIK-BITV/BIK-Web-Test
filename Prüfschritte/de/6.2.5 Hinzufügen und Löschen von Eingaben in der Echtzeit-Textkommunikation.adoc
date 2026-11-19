@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, 
 
 == Warum wird das geprüft?
 
