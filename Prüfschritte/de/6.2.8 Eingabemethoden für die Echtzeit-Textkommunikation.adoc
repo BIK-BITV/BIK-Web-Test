@@ -18,7 +18,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 === 2. Prüfung
 . Alle verfügbaren Text-Eingabemöglichkeiten auf dem Gerät ausprobieren (z. B. physische Tastatur oder Bildschirmtastatur, Spracheingabe, alternative Tastaturen, oder über Anschlüsse
 wie Wi-Fi oder Bluetooth® angeschlossene Tastaturen).
-. Prüfen, ob bei jeder Art der Zeicheneingabe Text im virgesehenen Eingabefeld eingegeben und an das andere Endgerät gesendet wird.
+. Prüfen, ob bei jeder Art der Zeicheneingabe Text im vorgesehenen Eingabefeld eingegeben und an das andere Endgerät gesendet wird.
 
 == Quellen?
 
