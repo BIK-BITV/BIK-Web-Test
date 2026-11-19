@@ -25,9 +25,8 @@ funktionieren diese ggf. nicht beim Austausch mit anderen Anwendungen, die RTT u
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung (zusätzlich zur Sprachkommunikation) 
-Echtzeit-Textkommunikation unterstützt 
-und potentiell mit anderer Kommunikations-Software mit solcher Unterstützung kommunizieren kann.
+Der Prüfschritt ist anwendbar, wenn das Webngebot (zusätzlich zur Sprachkommunikation) 
+Echtzeit-Textkommunikation unterstützt und potentiell mit anderer Kommunikations-Software mit solcher Unterstützung kommunizieren kann.
 
 === 2. Prüfung
 
