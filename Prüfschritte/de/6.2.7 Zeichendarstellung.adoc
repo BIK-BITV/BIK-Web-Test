@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-BEi der Echtzeit-Textkommunikation sollen gängige Zeichen aus dem Latin-1-Teil der Norm https://de.wikipedia.org/wiki/Universal_Coded_Character_Set[ISO/IEC 10646] unterstützt werden.
+Bei der Echtzeit-Textkommunikation sollen gängige Zeichen aus dem Latin-1-Teil der Norm https://de.wikipedia.org/wiki/Universal_Coded_Character_Set[ISO/IEC 10646] unterstützt werden.
 
 == Warum wird das geprüft?
 
