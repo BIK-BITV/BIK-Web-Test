@@ -8,7 +8,7 @@ Bei Echtzeit-Textkomunikation sollen die verschiedenen Texteingabemöglichkeiten
 
 == Warum wird das geprüft?
 
-Nutzende bedienen sich bei der Texteingabe ganz unterschiedlicher  Eingabemethoden. Diese sollen breit unterstützt werden.
+Nutzende bedienen sich bei der Texteingabe ganz unterschiedlicher  Eingabemethoden.
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
