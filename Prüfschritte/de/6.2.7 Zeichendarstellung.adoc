@@ -31,7 +31,7 @@ die Vielfalt der Zeichen im Zeichensatz repräsentieren, einschließlich diakrit
 === 3. Bewertung
 
 * Die Textblöcke werden beim wsendenden und empfangenden Teilnehmer gleicht dargestellt.
-* Nicht anerkannte Zeichen werden mit einem Ersatzzeichen (HEX:2140) &#xfffd; dargestellt.
+* Nicht anerkannte Zeichen werden mit einem Ersatzzeichen (HEX:FFFD, dargestellt &#xfffd;) ersetzt.
 
 == Quellen
 
