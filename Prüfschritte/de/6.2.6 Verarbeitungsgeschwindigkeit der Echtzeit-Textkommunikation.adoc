@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Zwe-Wege-Kommunikation mit Echtzeit-Texteingabe bietet, soll es in der Lage sein, Echtzeit-Texteingaben mit einer Kapazität vom 90 Zeichen pro Sekunde zu empfangen und zu verarbeiten,  wobei die Eingaben von drei gleichzeitig aktiven Quellen mit je 30 Zeichen pro Sekunde herrühren. 
+Wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe bietet, soll es in der Lage sein, Echtzeit-Texteingaben mit einer Kapazität vom 90 Zeichen pro Sekunde zu empfangen und zu verarbeiten,  wobei die Eingaben von drei gleichzeitig aktiven Quellen mit je 30 Zeichen pro Sekunde herrühren. 
 
 == Warum wird das geprüft?
 
@@ -12,9 +12,20 @@ Die Echtzeit-Kommunikation soll leistungsfähig genug sein, mehrere Teilnehmer, 
 
 == Wie wird das geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+. Kommunikationsschnittstelle von Teilnehmer 1 mit mindestens drei anderen Teilnehmern verbinden (möglicherweise über Testsoftware, die über eine Terminal-Kommunikationsschnittstelle die anderen Endgeräte bedient).
+. Text von allen drei Teilnehmern gleichzeitig senden – jeder Teinehmer sendet gleichzeitig 10 Sekunden lang einen kontinuierlichen Textstrom, über Testsoftware oder (weniger zuverlässig) 
+durch Kopieren und Einfügen von 300 Zeichen Testtext.
+
+. Überprüfen Sie, ob bei Teilnehmer 1 der Text der anderen Teilnehmer auf der Kommunikationsschnittstelle empfangen und angezeigt wird.
+
+=== 3. Bewertung
+
+Ter Text aller Teilnehmer wirdempfangen und dargestellt.
 
 == Quellen?
 
