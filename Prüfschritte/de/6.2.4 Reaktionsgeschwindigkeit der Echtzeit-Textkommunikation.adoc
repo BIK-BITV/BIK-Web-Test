@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-App Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt 
+Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt 
 und Texteingaben entgegennimmt, 
 soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. 
 Es geht hier also um Systeme, 
