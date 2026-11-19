@@ -15,7 +15,7 @@ Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereit
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text).
+Das Webangebot unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text).
 
 === 2. Prüfung
 
