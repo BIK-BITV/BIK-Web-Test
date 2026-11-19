@@ -4,15 +4,22 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, 
+Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, muss es möglich sein, den eingegebenen Text vom jeweiligen Ende des Textes her zu löschen und durch korrigierte Eingaben zu ersetzen, auch über Zeilenumbrüche oder andere Abgrenzungen des Eingabeendes hinaus. Dies betrifft sowohl manuelles Löschen und Hinzufügen als auch automatische Korrekturen.
 
 == Warum wird das geprüft?
 
-tbd
+Menschen, die Echtzeit-Texteingaben kommunizieren, sollen die Möglichkeit haben, Äußerungen zu korrigieren, im einfachsten Fall um möglicherweise sinnentstellende Tippfehler zu korrigieren.
 
 == Wie wird das geprüft?
 
-tbd
+. Teilnehmer 2 gibt die Zeichen 0 bis 7 ein
+. Teilnehmer 2 drückt ENTER und gibt dann die Zeichen 8 und 9 ein, betätigt unmittelbar danach sechsmal die Löschtaste
+. Prüfen, ob die 10 Zeichen bei Teilnehmer 1 erscheinen (die Eingabetaste zählt als Zeichen): 8 in einer Nachricht und 2 in einer zweiten Nachricht; anschließend (durch den Löschvorgang) verschwinden alle bis auf „01234“
+. Wiederholung des Tests, diesmal erfolgt die Eingabe durch Teilnehmer 1
+. Bei Teilnehmer 2 wie oben beschrieben prüfen, ob Eingaben und Löschvorgang richtig ankommen
+. Teilnehmer 1 löscht alle Zeichen
+. Prüfen, ob bei Teilnehmer 2 alle eingegebenen Zeichen gelöscht sind
+. Die letzten zwei Schritte wiederholen, so dass nun Teilnehmer 2 alle Zeichen löscht und die Überprüfung bei Teilnehmer 1 stattfindet
 
 == Quellen?
 
