@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Zwe-Wege-Kommunikation mit Echtzeit-Texteingabe bietet ICT soll es in der lage sein Echtzeit-Texteingaben mit einer Kaparität vom 90 Zeichen pro Sekunde z empfangen und zu verarbeiten,  wobei die eingaben von drei gleichzeitig aktiven Quellen mit je 30 Zeichen pro Sekunde herrühren. 
+Wenn das Webangebot Zwe-Wege-Kommunikation mit Echtzeit-Texteingabe bietet, soll es in der Lage sein, Echtzeit-Texteingaben mit einer Kapazität vom 90 Zeichen pro Sekunde zu empfangen und zu verarbeiten,  wobei die Eingaben von drei gleichzeitig aktiven Quellen mit je 30 Zeichen pro Sekunde herrühren. 
 
 == Warum wird das geprüft?
 
