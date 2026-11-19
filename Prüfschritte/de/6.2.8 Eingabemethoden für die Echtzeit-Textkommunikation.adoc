@@ -4,19 +4,21 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+Bei Echtzeit-Textkomunikation sollen die verschiedenen Texteingabemöglichkeiten (physische und Bildschirm-Tastatur, Spracheingabe, oder angeschlossene alternative Tastaturen wie Braille-Eingabe) gleichermaßen unterstützt werden.
 
 == Warum wird das geprüft?
 
-tbd
+Nutzende bedienen sich bei der Texteingabe ganz unterschiedlicher  Eingabemethoden. Diese sollen breit unterstützt werden.
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
 
-Alle Eingabemöglichkeiten ausprobieren: Es wird jede auf dem Gerät verfügbare Option zur Texterstellung getestet
-(z. B. physische Tastatur oder Bildschirmtastatur, Spracheingabe, alternative Tastaturen, über Anschlüsse
-wie Wi-Fi®, Bluetooth® usw. angeschlossene Tastaturen).
-3. Überprüfen Sie, ob bei jeder Art der Zeicheneingabe Text in die RTT-Funktion
-eingegeben und an das andere Endgerät gesendet wird.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+. Alle verfügbaren Text-Eingabemöglichkeiten auf dem Gerät ausprobieren (z. B. physische Tastatur oder Bildschirmtastatur, Spracheingabe, alternative Tastaturen, oder über Anschlüsse
+wie Wi-Fi oder Bluetooth® angeschlossene Tastaturen).
+. Prüfen, ob bei jeder Art der Zeicheneingabe Text im virgesehenen Eingabefeld eingegeben und an das andere Endgerät gesendet wird.
 
 == Quellen?
 
