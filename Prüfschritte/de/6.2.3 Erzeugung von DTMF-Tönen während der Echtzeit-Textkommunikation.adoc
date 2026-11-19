@@ -25,7 +25,7 @@ funktionieren diese ggf. nicht beim Austausch mit anderen Anwendungen, die RTT u
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webngebot (zusätzlich zur Sprachkommunikation) Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot (zusätzlich zur Sprachkommunikation) Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
 
 === 2. Prüfung
 
