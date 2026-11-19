@@ -12,7 +12,9 @@ tbd
 
 == Wie wird das geprüft?
 
-tbd
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
 
 == Quellen?
 
