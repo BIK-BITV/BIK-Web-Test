@@ -4,15 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+BEi der Echtzeit-Textkommunikation sollen gängige Zeichen aus dem Latin-1-Teil der Norm https://de.wikipedia.org/wiki/Universal_Coded_Character_Set[ISO/IEC 10646] unterstützt werden.
 
 == Warum wird das geprüft?
 
-tbd
+Verschiedene Teilnehmer der Kommunikation sollen Echzeit-Texteingaben anderer Teilnehmer korrekt dargestellt sehen können.
 
 == Wie wird das geprüft?
-
-
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
