@@ -22,10 +22,7 @@ Die Eingaben sollen unmittelbar oder nur mit geringer Verzögerung für andere T
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Eingaben für Echtzeit-Textkommunikation unterstützt. 
-Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, 
-die Echtzeit-Textkommunikation unterstützt 
-und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
 
 === 2. Prüfung
 
