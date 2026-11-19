@@ -28,8 +28,8 @@ Der Prüfschritt ist anwendbar, wenn die Web-Angebot Echtzeit-Textkommunikation 
 
 . Prüfen, dass zu jeder Zeit der tatsächlichen Spracheingabe (und nur dann) die Aktivität des jeweiligen Sprechers visuell angezeigt wird.
 
-3. Bewertung
-Erfüllt
+=== 3. Bewertung
+==== Erfüllt
 
 Zu jeder Zeit wird die Aktivität von Teilnehmern, die gerade sprechen, angezeigt.
 
