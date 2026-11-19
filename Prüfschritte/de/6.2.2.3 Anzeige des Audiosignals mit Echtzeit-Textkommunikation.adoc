@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und Sprechende identifiziert, soll es eine visuelle Echtzeit Anzeige nicht-lokalen Audio-Activitäten geben.
+Wenn die Web-Anwendung Echtzeit Textkommunikation (RTT, Real-time Text) unterstützt und Sprechende identifiziert, soll es eine visuelle Echtzeit Anzeige nicht-lokalen Audio-Aktivitäten geben.
 
 == Warum wird das geprüft?
 
-Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer gerade spricht. Besonders wichtig ist das für gehörlose Teilnehmende, die ohne diese visuelle Anzeige nicht wüßten, dass gerade jemand spricht.
+Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer gerade spricht. Besonders wichtig ist das für gehörlose Teilnehmende, die ohne diese visuelle Anzeige nicht wüssten, dass gerade jemand spricht.
 
 == Wie wird geprüft?
 
