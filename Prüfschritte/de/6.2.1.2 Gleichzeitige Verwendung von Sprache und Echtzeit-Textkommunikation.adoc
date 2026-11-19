@@ -17,11 +17,7 @@ soll von Nutzenden mit verschiedenen Kommunikationsweisen gleichrangig genutzt w
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Zwei-Wege-Kommunikation 
-und zusätzlich Textkommunikation in Echtzeit ermöglicht. 
-Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie. 
-Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen wird 
-und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
+Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text).
 
 === 2. Prüfung
 
