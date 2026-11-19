@@ -22,7 +22,7 @@ wie Wi-Fi oder Bluetooth® angeschlossene Tastaturen).
 
 === 3. Bewertung
 ==== Erfüllt
-Die Echtzeit-Texteingabe ist mit allen auf dem Gerät verfügbaren Texteingabegeräten bzw. -Methoden möglich.
+* Die Echtzeit-Texteingabe ist mit allen auf dem Gerät verfügbaren Texteingabegeräten bzw. -Methoden möglich.
 
 == Quellen
 
