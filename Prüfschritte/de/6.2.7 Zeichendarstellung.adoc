@@ -12,7 +12,24 @@ tbd
 
 == Wie wird das geprüft?
 
-tbd
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+
+==== 2.1 Zeichentest
+
+. Teilnehmer 1 sendet einen Testtextblock, der 50 verschiedene Zeichen aus dem Latin-1-Teil der Norm https://de.wikipedia.org/wiki/Universal_Coded_Character_Set[ISO/IEC 10646] enthält, welche
+die Vielfalt der Zeichen im Zeichensatz repräsentieren, einschließlich solcher mit diakritischen Zeichen
+. ein ähnliches Beispiel, das die Schreibrichtung(en) und die Zeichen für
+die Sprachen der Regionen darstellt, in denen die IKT eingesetzt werden soll, sowie;
+. 15 Emoji-Zeichen, die von der zugrunde liegenden Plattform des empfangenden Kommunikationsclients bzw. der empfangenden Kommunikationsclients unterstützt werden (falls sie nicht unterstützt werden können "Ersatzzeichen" auf dem empfangenden Kommunikationsclient angezeigt werden).
+. 5 Instanzen eines Zeichens, das kein anerkanntes Zeichen ist, wie beispielsweise HEX:2140.
+. Prüfen, ob der empfangene und angezeigte Text mit dem gesendeten Text übereinstimmt, mit der Ausnahme, dass anstelle der letzten
+5 Zeichen (diese sind bewusst keine anerkannten Zeichen) 5 Instanzen des „Ersatzzeichens“ gemäß ISO 10646 [i.53] (Code HEX:FFFD) anzgezeigt werden.
+. Prüfung in Umkehrung wiederholen (Teilnehmer 2 sendet, Teilnehmer 1 empfängt)
 
 == Quellen
 
