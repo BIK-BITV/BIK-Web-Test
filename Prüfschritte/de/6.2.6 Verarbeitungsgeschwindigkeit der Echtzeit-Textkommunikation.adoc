@@ -26,7 +26,7 @@ durch Kopieren und Einfügen von 300 Zeichen Testtext.
 === 3. Bewertung
 ==== Erfüllt
 
-Der Text aller Teilnehmer wird empfangen und dargestellt.
+* Der Text aller Teilnehmer wird empfangen und dargestellt.
 
 == Quellen
 
