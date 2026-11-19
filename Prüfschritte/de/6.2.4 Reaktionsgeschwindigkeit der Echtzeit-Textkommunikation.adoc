@@ -61,38 +61,6 @@ können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.2.4 RTT responsiveness
-____
-[.BLOCK_LANG_EN]
---
-Where ICT utilises RTT input, that RTT input shall be transmitted to the ICT
-network or platform on which the ICT runs within 500 ms of the time that the
-smallest reliably composed unit of text entry is available to the ICT for
-transmission.
-Delays due to platform or network performance shall not be included in the
-500 ms limit. 
-
-NOTE 1:
-For character by character input, the "smallest reliably composed unit of text
-entry" would be a character.
-For word prediction it would be a word.
-For some voice recognition systems - the text may not exit the recognition
-software until an entire word (or phrase) has been spoken.
-In this case, the smallest reliably composed unit of text entry available to
-the ICT would be the word (or phrase). 
-
-NOTE 2:
-The 500 ms limit allows buffering of characters for this period before
-transmission so character by character transmission is not required unless the
-characters are generated more slowly than 1 per 500 ms. 
-
-NOTE 3:
-A delay of 300 ms, or less, produces a better impression of flow to the user.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
