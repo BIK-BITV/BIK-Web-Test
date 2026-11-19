@@ -14,7 +14,7 @@ Für alle Teilnehmenden in ist es wichtig, sehen oder ermitteln zu können, wer 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-Anwendung Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprecher über dessen Spracheingabe identifiziert. 
+Der Prüfschritt ist anwendbar, wenn die Web-Angebot Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprecher über dessen Spracheingabe identifiziert. 
 
 === 2. Prüfung
 
