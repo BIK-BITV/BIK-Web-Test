@@ -12,7 +12,11 @@ tbd
 
 == Wie wird das geprüft?
 
-tbd
+Alle Eingabemöglichkeiten ausprobieren: Es wird jede auf dem Gerät verfügbare Option zur Texterstellung getestet
+(z. B. physische Tastatur oder Bildschirmtastatur, Spracheingabe, alternative Tastaturen, über Anschlüsse
+wie Wi-Fi®, Bluetooth® usw. angeschlossene Tastaturen).
+3. Überprüfen Sie, ob bei jeder Art der Zeicheneingabe Text in die RTT-Funktion
+eingegeben und an das andere Endgerät gesendet wird.
 
 == Quellen?
 
