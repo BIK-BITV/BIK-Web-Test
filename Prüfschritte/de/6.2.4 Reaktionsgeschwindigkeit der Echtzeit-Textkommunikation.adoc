@@ -26,10 +26,10 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 === 2. Prüfung
 
-. Teilnehmer 1 gibt Text in einem gleichmäßigen, menschenähnlichen Fluss 5 Sekunden lang ein, um sicher zu stellen, dass RTT funktioniert.
-. 5 Sekunden warten, um das erste Paket dass die zuvor eingegebene Zeichen enthält, identifizieren werden kann.
-. Zeichen bei Teilnehmer 1 eingeben
-. Auf anderem Teilnehmer prüfen ob die Zeit zwischen der Eingabe des Zeichens und der Übertragung des Zeichens vom Teilnehmer 1 an das Netzwerk nicht mehr als 500 ms (also eine halbe Sekunde) beträgt.
+. Teilnehmer 1 gibt fünf Sekunden lang gleichmäßig einen Text ein, um sicher zu stellen, dass RTT funktioniert.
+. 5 Sekunden warten, um das erste Paket, das die zuvor eingegebene Zeichen enthält, zu identifizieren.
+. Ein Zeichen bei Teilnehmer 1 eingeben
+. Auf anderem Teilnehmer prüfen, ob die Zeit zwischen der Eingabe des Zeichens und der Übertragung des Zeichens vom Teilnehmer 1 an das Netzwerk nicht mehr als 500 ms (also eine halbe Sekunde) beträgt.
 
 === 3. Bewertung
 ==== Erfüllt
