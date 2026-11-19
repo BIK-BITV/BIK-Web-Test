@@ -18,7 +18,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 === 2. Prüfung
 . Kommunikationsschnittstelle von Teilnehmer 1 mit mindestens drei anderen Teilnehmern verbinden (möglicherweise über Testsoftware, die über eine Terminal-Kommunikationsschnittstelle die anderen Endgeräte bedient).
-. Text von allen drei Teilnehmern gleichzeitig senden – jeder Teinehmer sendet gleichzeitig 10 Sekunden lang einen kontinuierlichen Textstrom, über Testsoftware oder (weniger zuverlässig) 
+. Text von allen drei Teilnehmern gleichzeitig senden – jeder Teinehmer sendet 10 Sekunden lang einen kontinuierlichen Textstrom, entweder über Testsoftware oder (weniger zuverlässig) 
 durch Kopieren und Einfügen von 300 Zeichen Testtext.
 
 . Überprüfen Sie, ob bei Teilnehmer 1 der Text der anderen Teilnehmer auf der Kommunikationsschnittstelle empfangen und angezeigt wird.
