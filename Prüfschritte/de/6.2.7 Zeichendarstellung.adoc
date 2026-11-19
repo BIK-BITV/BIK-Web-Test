@@ -19,8 +19,6 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 === 2. Prüfung
 
-==== 2.1 Zeichentest
-
 . Teilnehmer 1 sendet einen Testtextblock, der 50 verschiedene Zeichen aus dem Latin-1-Teil der Norm https://de.wikipedia.org/wiki/Universal_Coded_Character_Set[ISO/IEC 10646] enthält, welche
 die Vielfalt der Zeichen im Zeichensatz repräsentieren, einschließlich solcher mit diakritischen Zeichen
 . ein ähnliches Beispiel, das die Schreibrichtung(en) und die Zeichen für
