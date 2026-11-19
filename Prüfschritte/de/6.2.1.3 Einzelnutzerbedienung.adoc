@@ -13,7 +13,7 @@ Ebenso wie in Videokonferenzen verschiedene Spracheingaben gleichzeitig möglich
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
 
-Die Webanwendung unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe.
+Das Webangebot unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text).
 
 === 2. Prüfung
 
