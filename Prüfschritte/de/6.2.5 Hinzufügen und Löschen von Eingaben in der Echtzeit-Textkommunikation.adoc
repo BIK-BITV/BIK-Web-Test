@@ -15,7 +15,7 @@ Menschen, die Echtzeit-Texteingaben kommunizieren, sollen die Möglichkeit haben
 . Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
 . Teilnehmer 2 gibt die Zeichen 0 bis 7 ein.
 . Teilnehmer 2 drückt ENTER und gibt dann die Zeichen 8 und 9 ein, betätigt unmittelbar danach sechsmal die Löschtaste
-. Prüfen, ob die 10 Zeichen bei Teilnehmer 1 erscheinen (die Eingabetaste zählt als Zeichen): 8 in einer Nachricht und 2 in einer zweiten Nachricht, und anschließend (durch den Löschvorgang) alle verschwinden bis auf „01234“.
+. Prüfen, ob die 10 Zeichen bei Teilnehmer 1 erscheinen (die Eingabetaste zählt als Zeichen): 8 in einer Nachricht und 2 in einer zweiten Nachricht, und anschließend (durch den Löschvorgang) alle bis auf „01234“ verschwinden.
 . Wiederholung des Tests, diesmal erfolgt die Eingabe durch Teilnehmer 1.
 . Bei Teilnehmer 2 wie oben beschrieben prüfen, ob Eingaben und Löschvorgang richtig ankommen.
 . Teilnehmer 1 löscht alle Zeichen.
