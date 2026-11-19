@@ -33,7 +33,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 ==== Erfüllt
 
-Zu jeder Zeit wird die Aktivität von Teilnehmern, die gerade Sprach- oder Echtzeit-Texteingaben machen, angezeigt.
+* Zu jeder Zeit wird die Aktivität von Teilnehmern, die gerade Sprach- oder Echtzeit-Texteingaben machen, angezeigt.
 
 
 == Quellen
