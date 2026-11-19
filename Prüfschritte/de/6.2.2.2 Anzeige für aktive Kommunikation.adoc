@@ -14,7 +14,7 @@ Die Anzeige der Aktivität in Videokonferenz-Sytemen erlaub Teilnehmern die Zuor
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Das Webangebot unterstützt Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text).
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
 
 === 2. Prüfung
 
