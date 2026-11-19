@@ -8,13 +8,13 @@ Wenn das Webangebot Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstütz
 und Texteingaben entgegennimmt, 
 soll die kleinste Texteinheit (einzelne über die Tastatur eingegebene Zeichen oder Wörter, aber auch Eingaben über Sprachherkennung oder Eingaben, die über Kopieren und Einfügen erzeugt wurden) in maximal 500 Millisekunden abgeschickt werden. 
 Es geht hier also um Systeme, 
-die Texteingaben schon während der fortlaufenden Eingabe an den Empfänger weiterleiten. 
+die Echtzeit-Texteingaben schon während der fortlaufenden Eingabe an den Empfänger weiterleiten. 
 Die Nachricht muss nicht erst, wie in Chat-Systemen, nach Eingabe abgeschickt werden, 
 sondern erscheint unmittelbar.
 
 == Warum wird das geprüft?
 
-Menschen, die über Texteingabe an einer Online-Kommunikation teilnehmen, 
+Menschen, die über Echtzeit-Texteingabe an einer Online-Kommunikation teilnehmen, 
 sollen gegenüber Sprechenden nicht benachteiligt werden. 
 Die Eingaben sollen unmittelbar oder nur mit geringer Verzögerung für andere Teilnehmende sichtbar werden.
 
