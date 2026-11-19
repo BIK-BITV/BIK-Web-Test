@@ -4,11 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei Echtzeit-Textkomunikation sollen die verschiedenen Texteingabemöglichkeiten (physische und Bildschirm-Tastatur, Spracheingabe, oder angeschlossene alternative Tastaturen wie Braille-Eingabe) gleichermaßen unterstützt werden.
+Bei Echtzeit-Textkomunikation sollen die verschiedenen Texteingabemöglichkeiten (physische und Bildschirm-Tastatur, Spracheingabe, oder angeschlossene alternative Tastaturen, etwa Braille-Tastatur) gleichermaßen unterstützt werden.
 
 == Warum wird das geprüft?
 
-Nutzende bedienen sich bei der Texteingabe ganz unterschiedlicher  Eingabemethoden.
+Nutzende bedienen sich bei der Texteingabe ganz unterschiedlicher Eingabemethoden.
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
@@ -22,6 +22,7 @@ wie Wi-Fi oder Bluetooth® angeschlossene Tastaturen).
 
 === 3. Bewertung
 ==== Erfüllt
+
 * Die Echtzeit-Texteingabe ist mit allen auf dem Gerät verfügbaren Texteingabegeräten bzw. -Methoden möglich.
 
 == Quellen
