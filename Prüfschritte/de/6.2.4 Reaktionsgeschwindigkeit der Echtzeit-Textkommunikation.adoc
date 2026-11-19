@@ -29,33 +29,16 @@ und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereith�
 
 === 2. Prüfung
 
-Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis. 
-Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe,
-von der Anwendung abgeschickt werden. 
-Zwischenzeitlich kann man testen, 
-indem eine Echtzeit-Textkommunikation zwischen zwei Geräten hergestellt wird.
+. Teilnehmer 1 gibt Text in einem gleichmäßigen, menschenähnlichen Fluss 5 Sekunden lang ein, um sicher zu stellen, dass RTT funktioniert.
+. 5 Sekunden warten, um das erste Paket dass die zuvor eingegebene Zeichen enthält, identifizieren werden kann.
+. Zeichen bei Teilnehmer 1 eingeben
+. Auf anderem Teilnehmer prüfen ob die Zeit zwischen der Eingabe des Zeichens und der Übertragung des Zeichens vom Teilnehmer 1 an das Netzwerk nicht mehr als 500 ms (also eine halbe Sekunde) beträgt.
 
-Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei möglichst unmittelbar 
-nach der Eingabe auf dem zweiten Gerät erscheinen.
-
-Die Übertragung sollte nicht mehr als eine halbe Sekunde dauern. 
-Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden.
-Dies wird z. B. bei weiten Entfernungen der Kommunikationspartner relevant. 
-Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
-
-=== 3. Hinweise
+=== 3. Bewertung
+==== Erfüllt
 
 * Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger 
-dynamisch schon während der Eingabe des Senders. 
-RTT ist also nicht das Gleiche wie etwa Chat, 
-wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
-
-* Es sollte eine maximale Verzögerung von 300 Millisekunden 
-für das Abschicken der Eingabe angestrebt werden, 
-da dies den wahrgenommenen Informationsfluss verbessert.
-
-Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
+dynamisch schon während der Eingabe des Senders, mit einer Verzögerung von nicht länger als 500ms. 
 
 == Quellen
 * https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
