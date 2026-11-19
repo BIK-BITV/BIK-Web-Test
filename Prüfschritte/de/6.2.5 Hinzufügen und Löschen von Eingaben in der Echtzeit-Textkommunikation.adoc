@@ -12,6 +12,12 @@ Menschen, die Echtzeit-Texteingaben kommunizieren, sollen die Möglichkeit haben
 
 == Wie wird das geprüft?
 
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+
 . Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
 . Teilnehmer 2 gibt die Zeichen 0 bis 7 ein.
 . Teilnehmer 2 drückt ENTER und gibt dann die Zeichen 8 und 9 ein, betätigt unmittelbar danach sechsmal die Löschtaste
@@ -21,6 +27,11 @@ Menschen, die Echtzeit-Texteingaben kommunizieren, sollen die Möglichkeit haben
 . Teilnehmer 1 löscht alle Zeichen.
 . Prüfen, ob bei Teilnehmer 2 alle eingegebenen Zeichen gelöscht sind.
 . Die letzten zwei Schritte wiederholen, so dass nun Teilnehmer 2 alle Zeichen löscht und die Überprüfung bei Teilnehmer 1 stattfindet.
+
+=== 3. Bewertung
+==== Erfüllt
+
+* Eingegebener Text kann über Eingabegrenzen (etwa Zeilenbrüche) hinweg vom Ende her wieder gelöscht werden, und der gelöschter Text wird auch bei den anderen Teilnehmern wieder entfernt und ggf. durch erneute Eingaben ersetzt.
 
 == Quellen?
 
