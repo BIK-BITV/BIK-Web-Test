@@ -24,12 +24,13 @@ durch Kopieren und Einfügen von 300 Zeichen Testtext.
 . Überprüfen Sie, ob bei Teilnehmer 1 der Text der anderen Teilnehmer auf der Kommunikationsschnittstelle empfangen und angezeigt wird.
 
 === 3. Bewertung
+==== Erfüllt
 
-Ter Text aller Teilnehmer wirdempfangen und dargestellt.
+Der Text aller Teilnehmer wird empfangen und dargestellt.
 
-== Quellen?
+== Quellen
 
-tbd
+Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
