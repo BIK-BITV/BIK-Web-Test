@@ -35,7 +35,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 == Quellen?
 
-tbd
+Zurzeit keine.
 
 == Einordnung des Prüfschritts
 
