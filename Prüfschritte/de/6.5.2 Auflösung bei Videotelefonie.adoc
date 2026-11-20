@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Web-Anwendungen mit Videotelefonie-Funktion sollen mindestens 
+Webangebote mit Videotelefonie-Funktion sollen mindestens 
 die QVGA-Auflösung für die Videoübertragung unterstützen. 
 Üblicherweise entspricht dies 320 x 240 Pixel. 
 Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
@@ -22,10 +22,10 @@ eine simultane Verschriftlichung besser verstehen können.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Web-App Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, wenn das Webangebot Videotelefonie unterstützt.
 
 === 2. Prüfung
-. Die technische Dokumentation der Web-App konsultieren.  
+. Die technische Dokumentation des Webangebots konsultieren.  
 Wird mindestens eine QVGA (320x240 Pixel) angegeben?
 . Testübertragung: Den visuellen Eindruck prüfen. 
 Ist die Angabe in der App-Dokumentation plausibel?
