@@ -33,7 +33,7 @@ Ist die Angabe in der App-Dokumentation plausibel?
 === 3. Bewertung
 ==== Erfüllt
 
-* Die QVGA-Auflösung (320 x 240 Pixel) oder eine höhere AUflösung wird bei Video-Telefonie unterstützt.
+* Die QVGA-Auflösung (320 x 240 Pixel) oder eine höhere Auflösung wird bei Video-Telefonie unterstützt.
 
 == Quellen
 * Zurzeit keine Quellen.
