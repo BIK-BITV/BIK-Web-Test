@@ -29,7 +29,7 @@ Für die Prüfung muss das Webangebot ggf. auf zwei Geräten geöffnet werden.
 . Webangebot öffnen
 . Anruf von einem zweiten Gerät tätigen
 . Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. 
-Wird der Anrufende automatisch angesagt oder sind die Informationen über den Anrufenden im Browser visuell und auch programmatisch auslesbar?
+Wird der Anrufende automatisch angesagt oder sind die Informationen über den Anrufenden im Browser in Textform und auch programmatisch auslesbar?
 . Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. 
 Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren, 
 z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
