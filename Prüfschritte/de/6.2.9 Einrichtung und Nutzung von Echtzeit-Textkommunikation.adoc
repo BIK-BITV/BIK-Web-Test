@@ -11,9 +11,19 @@ Teilnehmer in einer webbasierten Zwei-Wege Sprachkommunikation, die Echtzeit-Tex
 Teilnehmer, die Echtzeit-Kommunikation nutzen, sollen in einem laufenden Austausch eine einfache Möglichkeit haben, diesen Kommunikationskanal zusätzlich zu etablieren, auch wenn RTT-Kommunikation initial nicht genutzt wurde.
 
 == Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
 
 . Prüfen, ob das Webangebot für Teilnehmer 1 die Anfrage und erfolgreiche Etablierung einer Zweiwegekommunikation mit Teilnehmer 2 einschließlich Echtzeit-Kommunikation ermöglicht, und zwar durch nur eine Aktion.
 . Nachdem Teilnehmer 1 eine Zweiwegekommunikation mit Teilnehmer 2 ohne Echtzeit-Textkommunikation eingeleitet hat, prüfen, ob Teilnehmer 2 durch nur eine Aktion die Hinzufügung von Echtzeit-Kommunikation anfragen kann und diese dann erfolgreich etabliert wird.
+
+=== 3. Bewertung
+==== Erfüllt
+* Teilnehmer können eine Zwei-Wege-Sprachkommunikation mit Echzeit-Textkommunikation initieren
+* Teilnehmer können in einer laufenden Sprachkommunikation Echzeit-Textkommunikation zusätzlich anfragen und etablieren
 
 == Quellen?
 
