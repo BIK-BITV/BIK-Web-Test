@@ -28,7 +28,7 @@ Für die Prüfung muss das Webangebot ggf. auf zwei Geräten geöffnet werden.
 . Screenreader starten
 . Webangebot öffnen
 . Anruf von einem zweiten Gerät tätigen
-. Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hintelegten Namen des Anrufers.
+. Die Anzeige muss den Anrufenden in irgend einer Weise in Textform identifizieren, z. B. über die Telefonnummer oder über den für die Nummer hinterlegten Namen des Anrufers.
 . Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Sind die Informationen über den Anrufenden in Textform verfügbar und auch programmatisch ermittelbar?
 
 === 3. Bewertung
