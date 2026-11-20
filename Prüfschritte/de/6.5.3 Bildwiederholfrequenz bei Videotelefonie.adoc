@@ -40,6 +40,11 @@ Werden mindestens 20 Bilder pro Sekunde unterstützt?
 Für die Videotelefonie ist eine Bildwiederholfrequenz  von 30 Bildern pro Sekunde empfehlenswert, 
 um eine flüssige Darstellung des Bildes zu gewährleisten.
 
+=== 4. Bewertung
+==== Erfüllt
+
+* Videotelefonie hat eine Bildwiederholfrequenz von mehr als 20 Bildern pro Sekunde.
+
 == Quellen
 * Zurzeit keine Quellen.
 
