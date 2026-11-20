@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Webangebote, die (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation (RTT, Real-Time Text) mit anderen Anwendungen erlauben, sollen in ihrer technischen Dokumentation Angaben über die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards enthalten, die Interoerabilität unterstützen. Dafür gibt es zwei Wege: 
 
 . Hinweise auf gemeinsam genutzte Standards, die die übrigen Anforderungen der EN 301 549 an Echtzeit-Textkommunikation erfüllen
-. Hinweise auf Recommendation ITU-T T.140 [i.37] für Funktionen der Codierung und Präsentation sowie IETF RFC 4103 [i.13], aktualisiert durch IETF RFC 9071 [i.52], für andere Aspekte der Echtzeit-Textkommunikation.
+. Hinweise auf Recommendation ITU-T T.140 [i.37] für Funktionen der Codierung und Präsentation sowie IETF RFC 4103 [i.13], aktualisiert durch IETF RFC 9071 [i.52], für andere Aspekte der Echtzeit-Textkommunikation
 
 == Warum wird das geprüft?
 
