@@ -56,19 +56,6 @@ https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue] hinterlassen.
 * Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.5.3 Framerate
-____
-[.BLOCK_LANG_EN]
---
-Where ICT that provides two-way voice communication includes real-time video
-functionality, the ICT:
-
-* shall support a frame rate of at least 20 frames per second (FPS)
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
