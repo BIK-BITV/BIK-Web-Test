@@ -48,7 +48,7 @@ Ist eine Zeitdifferenz deutlich wahrnehmbar?
 Um ein belastbares Ergebnis zu erzielen, 
 sollte die Testübertragung wiederholt werden.
 
-==== Hinweise
+=== 3. Hinweise
 
 * Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, 
 wenn das Video dem Audio hinterherhängt, als umgekehrt. 
@@ -58,8 +58,9 @@ Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt
 sollten beide Geräte über eine stabile Internetverbindung 
 mit ausreichend Bandbreite verbunden sein.
 
-Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
+=== 4. Bewertung
+
+* Bei der Videotelefonie weichen Ton und Bild nicht mehr als 100 ms (eine Zehntel-Sekunde) voneinander ab.
 
 == Quellen
 * Zurzeit keine Quellen.
