@@ -22,7 +22,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot (zusätzlich zur Sprachkommu
 === 2. Prüfung
 
 . Die Dokumentation der Webanwendung konsultieren. 
-. Werden (je nach technischer Umsetzung) die jeweils anwendbaren aktuellen technischen Standards für Echtzeit-Textkommunikation unterstützt?
+. Werden laut Dokumentation aktuelle technischen Standards für Echtzeit-Textkommunikation unterstützt?
 
 === 3. Hinweise
 
