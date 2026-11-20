@@ -17,8 +17,8 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit 
 
 === 2. Prüfung
 
-. Prüfen, ob das Webangebot für Teilnehmer 1 die Anfrage und erfolgreiche Etablierung einer Zweiwegekommunikation mit Teilnehmer 2 einschließlich Echtzeit-Kommunikation ermöglicht, und zwar durch nur eine Aktion.
-. Nachdem Teilnehmer 1 eine Zweiwegekommunikation mit Teilnehmer 2 ohne Echtzeit-Textkommunikation eingeleitet hat, prüfen, ob Teilnehmer 2 durch nur eine Aktion die Hinzufügung von Echtzeit-Kommunikation anfragen kann und diese dann erfolgreich etabliert wird.
+. Prüfen, ob das Webangebot für Teilnehmer 1 die Anfrage und erfolgreiche Etablierung einer Zwei-Wege-Sprachkommunikation mit Teilnehmer 2 einschließlich Echtzeit-Kommunikation ermöglicht, und zwar durch nur eine Aktion.
+. Nachdem Teilnehmer 1 eine Zwei-Wege-Sprachkommunikation mit Teilnehmer 2 ohne Echtzeit-Textkommunikation eingeleitet hat, prüfen, ob Teilnehmer 2 durch nur eine Aktion die Hinzufügung von Echtzeit-Kommunikation anfragen kann und diese dann erfolgreich etabliert wird.
 
 === 3. Bewertung
 ==== Erfüllt
