@@ -11,7 +11,7 @@ Webangebote, die (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textk
 
 == Warum wird das geprüft?
 
-Wenn Webangebote, die zusätzlich zur Kommunikation über Sprache außerdem Echtzeit-Text-Kommunikation (RTT) bieten, mit anderen solchen Anwendungen in Austausch treten, sollen die Mechanismen bei der Echtzeit-Text-Kommunikation auf beiden Seiten gleichermaßen funktionieren. Dies betrifft etwa die Anzeige von nicht oder fehlerhaft übertragenen Zeichen. Dies ist sichergestellt, wenn auf beiden Seiten jeweils geltende technische Standards der ITU, der IETF oder von ETSI unterstützt werden. Wenn von der App stattdessen proprietäre Mechanismen für RTT eingesetzt werden, funktionieren diese ggf. nicht beim Austausch mit anderen Anwendungen, die RTT unterstützen.
+Wenn Webangebote, die zusätzlich zur Kommunikation über Sprache außerdem Echtzeit-Text-Kommunikation (RTT) bieten, mit anderen solchen Anwendungen in Austausch treten, sollen die Mechanismen bei der Echtzeit-Text-Kommunikation auf beiden Seiten gleichermaßen funktionieren. Dies betrifft etwa die Anzeige von nicht oder fehlerhaft übertragenen Zeichen. Dies ist sichergestellt, wenn auf beiden Seiten jeweils geltende technische Standards der ITU, der IETF oder von ETSI unterstützt werden und dies dokumentiert ist.
 
 == Wie wird das geprüft?
 
