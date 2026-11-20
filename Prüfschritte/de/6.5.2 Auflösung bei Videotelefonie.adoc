@@ -6,8 +6,10 @@ include::include/attributes.adoc[]
 
 Web-Anwendungen mit Videotelefonie-Funktion sollen mindestens 
 die QVGA-Auflösung für die Videoübertragung unterstützen. 
-Üblicherweise entspricht dies 320x240 Pixel. 
+Üblicherweise entspricht dies 320 x 240 Pixel. 
 Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
+
+Empfehlenswert ist jedoch die bessere VGA-Auflösung (480 x 640 Pixel).
 
 == Warum wird das geprüft?
 
@@ -36,19 +38,6 @@ Issue auf GitHub].
 * Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.5.2 Resolution
-____
-[.BLOCK_LANG_EN]
---
-Where ICT that provides two-way voice communication includes real-time video
-functionality, the ICT:
-
-* shall support at least QVGA resolution
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
