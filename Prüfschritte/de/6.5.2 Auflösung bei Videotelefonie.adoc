@@ -30,9 +30,10 @@ Wird mindestens eine QVGA (320x240 Pixel) angegeben?
 . Testübertragung: Den visuellen Eindruck prüfen. 
 Ist die Angabe in der App-Dokumentation plausibel?
 
-=== 3. Hinweise
-Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-Web-Test/issues[ein
-Issue auf GitHub].
+=== 3. Bewertung
+==== Erfüllt
+
+* Die QVGA-Auflösung (320 x 240 Pixel) oder eine höhere AUflösung wird bei Video-Telefonie unterstützt.
 
 == Quellen
 * Zurzeit keine Quellen.
