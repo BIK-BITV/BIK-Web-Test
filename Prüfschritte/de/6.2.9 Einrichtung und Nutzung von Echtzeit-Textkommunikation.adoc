@@ -4,15 +4,16 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+Teilnehmer in einer webbasierten Zwei-Wege Sprachkommunikation, die Echtzeit-Textkommunikation (RTT) unterstützt, können Echtzeit-Textkommunikation in einer Aktion anfragen oder auch zu einer laufenden Kommunikation hinzuzufügen.
 
 == Warum wird das geprüft?
 
-tbd
+Teilnehmer, die Echtzeit-Kommunikation nutzen, sollen in einem laufenden Austausch eine einfache Möglichkeit haben, diesen Kommunikationskanal zusätzlich zu etablieren, auch wenn RTT-Kommunikation initial nicht genutzt wurde.
 
 == Wie wird das geprüft?
 
-tbd
+. Prüfen, ob das Webangebot für Teilnehmer 1 die Anfrage und erfolgreiche Etablierung einer Zweiwegekommunikation mit Teilnehmer 2 einschließlich Echtzeit-Kommunikation ermöglicht, und zwar durch nur eine Aktion.
+. Nachdem Teilnehmer 1 eine Zweiwegekommunikation mit Teilnehmer 2 ohne Echtzeit-Textkommunikation eingeleitet hat, prüfen, ob Teilnehmer 2 durch nur eine Aktion die Hinzufügung von Echtzeit-Kommunikation anfragen kann und diese dann erfolgreich etabliert wird.
 
 == Quellen?
 
