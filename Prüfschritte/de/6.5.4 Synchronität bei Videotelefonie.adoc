@@ -66,22 +66,6 @@ mit ausreichend Bandbreite verbunden sein.
 * Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.5.4 Synchronization between audio and video
-____
-[.BLOCK_LANG_EN]
---
-Where ICT that provides two-way voice communication includes real-time video
-functionality, the ICT shall ensure a maximum time difference of 100 ms
-between the speech and video presented to the user. 
-
-NOTE:
-Recent research shows that, if audio leads the video, the intelligibility
-suffers much more than the reverse.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
