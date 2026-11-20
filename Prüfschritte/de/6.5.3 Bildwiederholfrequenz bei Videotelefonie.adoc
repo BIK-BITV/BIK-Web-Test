@@ -11,12 +11,9 @@ Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
 
 == Warum wird das geprüft?
 
-Eine ausreichende Bildwiederholfrequenz 
-ist besonders wichtig für Menschen mit Hörbehinderungen, 
-die Bildinformationen auswerten, etwa gehörlose Menschen, 
-die das Mundbild von Sprechenden lesen. 
-Auch die unterstützende Wahrnehmung von Mimik und Gestik 
-verlangt eine ausreichende Bildwiederholfrequenz.
+Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, 
+die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. 
+Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.
 
 == Wie wird geprüft?
 
@@ -34,13 +31,14 @@ Für die Prüfung muss das Webangebot auf zwei Geräten geöffnet werden.
 
 . Die unterstützte Bildwiederholfrequenz der Dokumentation des Web-Angebots entnehmen oder vom Hersteller erfragen. 
 Werden mindestens 20 Bilder pro Sekunde unterstützt?
-. Web-Angebot auf zwei Geräten öffnen
+. Webangebot auf zwei Geräten öffnen
 . Videotelefonieverbindung zwischen den Geräten herstellen
 . Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?
 
 === 3. Hinweise
 
-Für die Videotelefonie ist eine Bildwiederholfrequenz  von 30 Bildern pro Sekunde empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.
+Für die Videotelefonie ist eine Bildwiederholfrequenz  von 30 Bildern pro Sekunde empfehlenswert, 
+um eine flüssige Darstellung des Bildes zu gewährleisten.
 
 == Quellen
 * Zurzeit keine Quellen.
