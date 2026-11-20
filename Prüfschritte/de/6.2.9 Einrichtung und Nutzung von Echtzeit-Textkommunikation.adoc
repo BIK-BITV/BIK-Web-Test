@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Teilnehmer in einer webbasierten Zwei-Wege Sprachkommunikation, die Echtzeit-Textkommunikation (RTT) unterstützt, können Echtzeit-Textkommunikation in einer Aktion anfragen und erfolgreich etablieren oder auch zu einer laufenden Kommunikation hinzuzufügen.
+Teilnehmer in einer webbasierten Zwei-Wege Sprachkommunikation, die Echtzeit-Textkommunikation (RTT) unterstützt, können Echtzeit-Textkommunikation mit nur einer Aktion anfragen und erfolgreich etablieren oder auch zu einer laufenden Kommunikation hinzuzufügen.
 
 == Warum wird das geprüft?
 
