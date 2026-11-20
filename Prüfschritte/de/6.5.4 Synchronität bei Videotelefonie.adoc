@@ -20,8 +20,6 @@ Um dem Gesprochenen besser zu folgen,
 ist es hilfreich, zeitgleich zum Ton die Lippen der sprechenden Person zu sehen. 
 Die Voraussetzung dafür ist, 
 dass Bild und Ton gleichzeitig übertragen werden. 
-Empirische Untersuchungen dazu sind uns allerdings nicht bekannt, 
-und Hinweise darauf willkommen. 
 
 == Wie wird geprüft?
 
