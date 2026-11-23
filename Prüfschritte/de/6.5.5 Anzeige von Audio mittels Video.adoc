@@ -26,8 +26,7 @@ wenn das Webangebot Videotelefonie mit Sprachübertragung unterstützt.
 . Webangebot auf zwei verschiedenen Geräten im Browser 
 mit abweichenden Nutzenden-Konten starten.
 . Videotelefonie-Verbindung zwischen den beiden Instanzen des Webangebots herstellen.
-. Auf dem verbundenen Gerät Sprache eingeben 
-und auf dem Prüfgerät überprüfen, 
+. Auf dem verbundenen Gerät Spracheingaben machen und auf dem Prüfgerät überprüfen, 
 ob die Spracheingabe visuell wahrnehmbar ist. 
 
 === 3. Hinweise
