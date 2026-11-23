@@ -51,8 +51,6 @@ Wenn gestalterische Aspekte der Untertitel
 (z. B. Position, Farbe, Fettung oder kursive Darstellung) 
 informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
-
 === 4. Bewertung
 
 ==== Nicht erfüllt:
