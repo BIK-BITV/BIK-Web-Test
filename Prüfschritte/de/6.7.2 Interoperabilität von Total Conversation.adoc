@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot die Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Video-Spezifikationen verweisen, mit denem das Angebot Interoperabilität und damit umfassende Kommunikation (Total Conversation) ermöglicht.
+Wenn das Webangebot Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Video-Spezifikationen verweisen, mit denem das Angebot Interoperabilität und damit umfassende Kommunikation (Total Conversation) ermöglicht.
 
 Dies kann durch geschehen durch Verweis auf
 
