@@ -9,7 +9,7 @@ Wenn das Webangebot die Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommuni
 Dies kann durch geschehen durch Verweis auf
 
 * Jeglichen Satz geeigneter Spezifikationen, die alle Anforderungen an total conversation (Anforderungen 6.1 bis 6.5) erfüllen und für die Kommunikation zwischen Teilnehmern vereinbart wurden.
-* ITU-T H.264 [i.74] Version 10 oder neuer und wenigstens constrained baseline level 3 für Funktionen der Codierung und Präsentation, und, wo CODEC-Abstimmung erfrderlich ist, ITU-T H.265 [i.75] und IETF RFC 6386 VP8 [i.76], um Transcodieren zu vermeiden.
+* ITU-T H.264 [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen der Codierung und Präsentation, und, wo CODEC-Abstimmung erfrderlich ist, ITU-T H.265 [i.75] und IETF RFC 6386 VP8 [i.76], um Transcodieren zu vermeiden.
 
 == Warum wird das geprüft?
 
