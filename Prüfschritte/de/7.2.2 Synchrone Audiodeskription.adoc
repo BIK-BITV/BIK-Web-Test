@@ -100,17 +100,6 @@ Wird Audiodeskription nicht synchron dargestellt,
 erfolgt in beiden Prüfschritten eine negative Bewertung 
 mit dem Hinweis auf eine unklare Ursache.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-=== 7.2.2 Audio description synchronization
-____
-[.BLOCK_LANG_EN]
-Where ICT has a mechanism to play audio description, it shall preserve the
-synchronization between the audio/visual content and the corresponding audio
-description.
-____
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
