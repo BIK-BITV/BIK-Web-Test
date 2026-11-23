@@ -8,7 +8,7 @@ Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zusc
 
 == Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden. 
+Filme sind oft ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden. 
 
 Untertitel können auf unterschiedliche Arten eingebunden werden: 
 Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, 
