@@ -4,24 +4,39 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot die Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Video-Spezifikationen verweisen, mit denem das Angebot Interoperabilität ermöglicht.
+Wenn das Webangebot die Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Video-Spezifikationen verweisen, mit denem das Angebot Interoperabilität und damit umfassende Kommunikation (Total Conversation) ermöglicht.
 
 Dies kann durch geschehen durch Verweis auf
 
-* Jeglichen Satz geeigneter Spezifikationen, die alle Anforderungen an total conversation (Anforderungen 6.1 bis 6.5) erfüllen und für die Kommunikation zwischen Teilnehmern vereinbart wurden.
-* ITU-T H.264 [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen der Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, ITU-T H.265 [i.75] und IETF RFC 6386 VP8 [i.76], um Transcodieren zu vermeiden.
+* Jeglichen Satz geeigneter Spezifikationen, die alle Anforderungen an Total Conversation (Anforderungen 6.1 bis 6.5) erfüllen und für die Kommunikation zwischen Teilnehmern vereinbart wurden.
+* https://www.itu.int/rec/T-REC-H.264-202108-S[ITU-T H.264] [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen einschließlich Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, https://www.itu.int/rec/T-REC-H.265-202108-S/en[ITU-T H.265] [i.75] und https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 VP8] [i.76], um Transcodieren zu vermeiden.
 
 == Warum wird das geprüft?
 
-tbd
+Für Nutzende mit verschiedenen IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation der Funktion zu ermitteln, ob umfassende Kommunikation (Total Conversation) grundsätzlich unterstützt wird.
 
 == Wie wird das geprüft?
 
-tbd
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, den das Webangebot Funktionen für Vido- und Sprachkommunikation mit anderen Teilnehmern bietet
+
+=== 2. Prüfung
+* Wird in der Dokumentation des Webangebots der gleiche Satz von Spezifikationen für Video-Interoperabilität genutzt wie bei anderen Teilnehmern?
+* Wird alternativ auf den Standard https://www.itu.int/rec/T-REC-H.264-202108-S[H.264 : Advanced video coding for generic audiovisual services] [i.74] in wenigstens Version 10 und wenigstens _constrained baseline level 3_ für Funktionen einschießlich Codierung und Präsentation verwiesen oder, wo Codec-Abastimmung implementiert ist auf die Standards https://www.itu.int/rec/T-REC-H.265-202108-S/en[H.265 : High efficiency video coding] [i.75] und
+https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 - VP8] [i.76] (um Transcodierung zu vermeiden)?
+
+=== Bewertung
+==== Erfüllt
+
+* Laut Dokumentation wird ein vereinbarter Satz von Standards genutzt, der Total Conversation Anforderungen 6.1 bis 6.5 unterstützt
+* Alternativ werden laut Dokumentation die Standards https://www.itu.int/rec/T-REC-H.264-202108-S[H.264] [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen einschließlich Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, https://www.itu.int/rec/T-REC-H.265-202108-S/en[ITU-T H.265] [i.75] und https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 VP8] [i.76] genutzt.
 
 == Quellen?
 
-tbd
+* https://www.itu.int/rec/T-REC-H.264-202108-S[H.264 : Advanced video coding for generic audiovisual services]
+* https://www.itu.int/rec/T-REC-H.265-202108-S/en[H.265 : High efficiency video coding]
+* https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 - VP8 Data Format and Decoding Guide]
 
 == Einordnung des Prüfschritts
 
