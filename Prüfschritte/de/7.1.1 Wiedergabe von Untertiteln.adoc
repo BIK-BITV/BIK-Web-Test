@@ -30,7 +30,6 @@ Häufiger jedoch sind zuschaltbare Untertitel (_closed subtitles_, früher _clos
 === 3. Hinweise
 
 * Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, um die Untertitel auf einer Braillezeile anzuzeigen.
-* Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video mit open captions über einen zweiten Player angezeigt wird.
 
 === 4. Bewertung
 
@@ -40,7 +39,7 @@ Häufiger jedoch sind zuschaltbare Untertitel (_closed subtitles_, früher _clos
 
 ==== Nicht voll erfüllt
 
-* Es sind zuschaltbare Untertitel-Datei vorhanden, der Player bietet jedoch keine Möglichkeit, diese zuzuschalten oder abzuschalten.
+* Für ein Video ist eine zuschaltbare Untertitel-Datei vorhanden, der Player bietet jedoch keine Möglichkeit, diese zuzuschalten oder abzuschalten.
 
 == Quellen
 * https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
