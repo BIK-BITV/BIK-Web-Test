@@ -9,7 +9,7 @@ Das heißt, die  Anforderungen 6.1, 6.2, 6.3, 6.4. und 6.5 für Sprach- Video un
 
 == Warum wird das geprüft?
 
-Eine Online-Kommunikationslösung soll alle Teilnehmenden unabhängig von ihren Eingabemethode umfassed unterstützen. 
+Eine Online-Kommunikationslösung soll alle Teilnehmenden unabhängig von ihren jeweiligen Eingabemethoden umfassed unterstützen. 
 
 == Wie wird das geprüft?
 
