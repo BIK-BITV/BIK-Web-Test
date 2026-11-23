@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn ein Webangebot Videokonferenz-Funktionen (Zwei-Wege Sprach und Videokommunikation) bietet, soll umfassende Kommunikation (total conversation) möglich sein.  
-Das heißt, die  Anforderungen 6.1, 6.2, 6.3, 6.4. und 6.5 für Sprach- Video und Echtzeit-Text Kommunikatiom sind allesamt erfüllt.
+Das heißt, die  Anforderungen 6.1, 6.2, 6.3, 6.4. und 6.5 für Sprach- Video- und Echtzeit-Text-Kommunikatiom sind allesamt erfüllt.
 
 == Warum wird das geprüft?
 
