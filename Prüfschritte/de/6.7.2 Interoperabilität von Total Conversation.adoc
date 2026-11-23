@@ -13,13 +13,13 @@ Dies kann durch geschehen durch Verweis auf
 
 == Warum wird das geprüft?
 
-Für Nutzende mit verschiedenen IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation der Funktion zu ermitteln, ob umfassende Kommunikation (Total Conversation) grundsätzlich unterstützt wird.
+Für Nutzende verschiedener IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation eines Webangebots zu ermitteln, ob das Webangebot die Anforderungen an umfassende Kommunikation (Total Conversation) unterstützt und ermöglicht.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, den das Webangebot Funktionen für Vido- und Sprachkommunikation mit anderen Teilnehmern bietet
+Der Prüfschritt ist anwendbar, den das Webangebot Funktionen für Vido- und Sprachkommunikation mit anderen Teilnehmern bietet.
 
 === 2. Prüfung
 * Wird in der Dokumentation des Webangebots der gleiche Satz von Spezifikationen für Video-Interoperabilität genutzt wie bei anderen Teilnehmern?
