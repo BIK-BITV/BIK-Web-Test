@@ -4,18 +4,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (_closed subtitles_, früher _closed captions_) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
+Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden zuschaltbare Untertitel (_closed subtitles_, früher _closed captions_) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
 
 == Warum wird das geprüft?
 
 Filme sind oft ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden. 
 
-Untertitel können auf unterschiedliche Arten eingebunden werden: 
-Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, 
-die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement 
-am Player flexibel zuschaltbar sind. 
-
-Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die Möglichkeit bietet, diese ein- und auszublenden. Bei open captions handelt es sich hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
+Untertitel können auf unterschiedliche Arten eingebunden werden. Eine Möglichkeit sind immer sichtbare offene Untertitel (_open subtitles_).
+Häufiger jedoch sind zuschaltbare Untertitel (_closed subtitles_, früher _closed captions_), also Untertitel, die über ein Bedienelement des Video-Players ein- und ausgeblendet werden können.
 
 == Wie wird geprüft?
 
@@ -27,13 +23,12 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 2. Prüfung
 
-. Text-Dateien für Untertitelungen werden meist über das HTML 5 `track`-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das `kind`-Attribut legt die Art der Texteinblendung fest. Der Wert `subtitles` zeigt an, dass es sich um Untertitel handelt (Transkription oder Übersetzung des Dialogs). Der Wert `captions` zeigt an, dass es sich um Untertitel für hörgeschädigte und gehörlose Menschen handelt.
+. Text-Dateien für Untertitelungen werden meist über das HTML 5 ``track``-Element eingebunden. Im Quellcode prüfen, ob über das `track`-Element eine Untertitel-Datei eingebunden ist. Das ``kind``-Attribut legt die Art der Texteinblendung fest. Der Wert ``subtitles`` zeigt an, dass es sich um Untertitel handelt (Transkription oder Übersetzung des Dialogs). Der Wert ``captions`` zeigt an, dass es sich um Untertitel für hörgeschädigte und gehörlose Menschen handelt.
 . Manche Player binden Untertitel-Dateien auch außerhalb des `video`-Elements ein.
 . Wenn eine Untertitel-Datei eingebunden ist, prüfen, ob der Videoplayer eine Möglichkeit bietet, diese ein- und auszublenden.
 
 === 3. Hinweise
 
-* Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
 * Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, um die Untertitel auf einer Braillezeile anzuzeigen.
 * Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video mit open captions über einen zweiten Player angezeigt wird.
 
