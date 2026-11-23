@@ -4,7 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+functionality,
+the ICT shall provide total conversation by also including RTT capability that conforms to the requirements of
+clause 6.2, voice that conforms to clause 6.1, and video that conforms to clause 6.5, conforming also to clauses 6.3 and
+6.4.
 
 == Warum wird das geprüft?
 
