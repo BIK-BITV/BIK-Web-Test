@@ -10,8 +10,9 @@ soll Audio-Aktivität visuell angezeigt werden.
 == Warum wird das geprüft?
 
 Die Anzeige der Audio-Aktivität 
-ermöglicht gehörlosen Nutzenden die Wahrnehmung, 
-dass jemand spricht und wer spricht.
+ermöglicht allen Nutzenden die Wahrnehmung, dass jemand spricht und wer spricht.
+Dies ist besonders wichtig für gehörlose oder schwerhörige Nutzende, die nicht an der Sprache erkennen können, wer spricht und dass überhaupt jemand spricht.
+Darüber hinaus hilft es allen, die die Sprachbeiträge den Teilnehmern nicht sprachlich zuordnen können.
 
 == Wie wird geprüft?
 
