@@ -61,22 +61,6 @@ endif::env_embedded[]
 geprüft.
 In diesem Prüfschritt wird geprüft, ob der eingebundene Player grundsätzlich in der Lage ist, Videos mit Untertiteln synchron darzustellen. 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 7.1.2 Captioning synchronization
-____
-[.BLOCK_LANG_EN]
---
-Where ICT displays captions, the mechanism to display captions shall preserve
-synchronization between the audio and the corresponding captions as follows: 
-
-* Captions in recorded material:
-  within 100 ms of the time stamp of the caption 
-* Live captions:
-  within 100 ms of the availability of the caption to the player.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
