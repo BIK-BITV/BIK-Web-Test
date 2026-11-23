@@ -4,7 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-tbd
+Wenn das Webangebot eine Funktion für Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Spezifikationen verweisen, mit derem das Angebot Interoperabilität herstellt.
+
+Dies kann durch geschehen durch Verweis auf
+* Jeglicher Satz geeigneter Spezifikationen, die alle Anforderungen an total conversation (Anforderungen 6.5.1 bis 6.5.6) erfüllen und für die Kommunikation zwischen Teilnehmern vereinbart wurden.
+* ITU-T H.264 [i.74] Version 10 oder neuer und wenigstens constrained baseline level 3 für Funktionen der Codierung und Präsentation, und, wo CODEC-Abstimmung erfrderlich ist, ITU-T H.265 [i.75] und IETF RFC 6386 VP8 [i.76], um Transcodieren zu vermeiden.
 
 == Warum wird das geprüft?
 
