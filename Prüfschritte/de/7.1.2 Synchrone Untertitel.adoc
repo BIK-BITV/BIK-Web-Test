@@ -44,7 +44,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 ==== Nicht erfüllt:
 
-* Bild/Ton und Untertitel sind nicht anhaltend synchron, die Untertitel-Zeitcodes weisen jedoch keine Fehler auf. In diesem Fall werden vermutlich auch andere Videos des Angebots nicht synchron dargestellt.
+* Bild/Ton und Untertitel sind nicht anhaltend synchron, die Untertitel-Zeitcodes weisen jedoch keine Fehler auf. In diesem Fall würden vermutlich auch andere Videos des Angebots nicht synchron dargestellt.
 
 == Quellen
 * Zurzeit keine Quellen.
