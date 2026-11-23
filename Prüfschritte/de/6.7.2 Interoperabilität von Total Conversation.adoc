@@ -13,7 +13,7 @@ Dies kann in der Dokumentation geschehen durch Informationen über
 
 == Warum wird das geprüft?
 
-Für Nutzende verschiedener IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation eines Webangebots zu ermitteln, ob das Webangebot die Anforderungen an umfassende Kommunikation (Total Conversation) unterstützt und ermöglicht.
+Für Nutzende verschiedener IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation eines Webangebots zu ermitteln, ob das Webangebot die Anforderungen an umfassende Kommunikation ("Total Conversation") unterstützt und ermöglicht.
 
 == Wie wird das geprüft?
 
