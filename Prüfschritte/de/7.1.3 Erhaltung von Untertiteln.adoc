@@ -81,21 +81,20 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
-==== 7.1.3 Preservation of captioning
-____
-[.BLOCK_LANG_EN]
+==== 7.1.3 Preservation of subtitles
 --
-Where ICT transmits, converts or records video with synchronized audio, it
-shall preserve caption data such that it can be displayed in a manner
-consistent with clauses 7.1.1 and 7.1.2. 
+Where ICT transmits, converts, or records video with synchronized audio,
+the ICT shall preserve subtitle data such that the subtitles can be displayed in a manner consistent with clause 7.1.1,
+including any data relating to presentational aspects such as screen position, text and background colours, text style and
+text fonts.
 
-Additional presentational aspects of the text such as screen position, text
-colours, text style and text fonts may convey meaning, based on regional
-conventions.
-Altering these presentational aspects could change the meaning and should be
-avoided wherever possible.
+NOTE: Additional presentational aspects of the text such as screen position, text colours, text style and text fonts
+may convey meaning, based on regional conventions. 
+Altering these presentational aspects could change the meaning and should be avoided wherever possible.
 --
 ____
+
+
