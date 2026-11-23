@@ -15,12 +15,12 @@ dass jemand spricht und wer spricht.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, 
 wenn das Webangebot Videotelefonie mit Sprachübertragung unterstützt.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Webangebot auf zwei verschiedenen Geräten im Browser 
 mit abweichenden Nutzenden-Konten starten.
@@ -29,38 +29,21 @@ mit abweichenden Nutzenden-Konten starten.
 und auf dem Prüfgerät überprüfen, 
 ob die Spracheingabe visuell wahrnehmbar ist. 
 
-=== Hinweise
+=== 3. Hinweise
 
-Für den Indikator der Sprachaktivität gelten weitere Anforderungen, 
-z.B. bezüglich Grafik-Kontrast.
+Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
 Der visuelle Indikator der Audio-Aktivität kann ein einfacher visueller Punkt, 
 eine LED oder eine andere Art von Ein- / Aus-Anzeige sein, die flackert.
 
-Für Hinweise zu diesem Prüfschritt 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue anlegen].
+=== 4.Bewertung
+==== Erfüllt
+
+Teilnehmer, die gerade sprachen, sind durch eine visuelle Echtzeit-Anzeige identifizierbar.
 
 == Quellen
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 6.5.5 Visual indicator of audio with video
-____
-[.BLOCK_LANG_EN]
---
-Where ICT provides two-way voice communication, 
-and includes real-time video functionality, 
-the ICT shall provide a real-time visual indicator of audio activity.
-
-NOTE 1: The visual indicator may be a simple visual dot or LED,
-or other type of on/off indicator, that flickers to reflect audio activity.
-
-NOTE 2: Without this indication a person 
-who lacks the ability to hear does not know when someone is talking.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
