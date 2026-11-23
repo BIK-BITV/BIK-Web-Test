@@ -59,31 +59,6 @@ Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen mu
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 7.1.1 Captioning playback
-____
-[.BLOCK_LANG_EN]
---
-Where ICT displays video with synchronized audio, it shall have a mode of
-operation to display the available captions.
-Where closed captions are provided as part of the content, the ICT shall allow
-the user to choose to display the captions.
-
-NOTE 1:
-Captions may contain information about timing, colour and positioning.
-This caption data is necessary for caption users.
-Timing is used for caption synchronization.
-Colour can be used for speaker identification.
-Position can be used to avoid obscuring important information.
-
-NOTE 2:
-If a Braille device is connected, the ICT should provide an option to display
-captions on the Braille device.
---
-____
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
