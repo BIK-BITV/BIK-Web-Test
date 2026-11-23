@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
+Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (_closed subtitles_, früher _closed captions_) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden. 
 
 == Warum wird das geprüft?
 
