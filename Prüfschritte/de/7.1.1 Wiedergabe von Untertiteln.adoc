@@ -40,11 +40,11 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 ==== Erfüllt
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden, werden Untertitel als fester Bestandteil des Videos angezeigt (open captions) oder können über ein Bedienelement des Videoplayers ein- und ausgeblendet werden (closed captions).
+* Wenn Videos zuschaltbare Untertitel (_open subtitles_, früher _open captions_) haben, können diese über ein Bedienelement des Videoplayers ein- und ausgeblendet werden.
 
 ==== Nicht voll erfüllt
 
-Es wird eine Untertitel-Datei angeboten, der Player bietet jedoch keine Möglichkeit, diese anzuzeigen.
+* Es sind zuschaltbare Untertitel-Datei vorhanden, der Player bietet jedoch keine Möglichkeit, diese zuzuschalten oder abzuschalten.
 
 == Quellen
 * https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video[Adding captions and subtitles to HTML video] (Mozilla Foundation, mdn web docs)
