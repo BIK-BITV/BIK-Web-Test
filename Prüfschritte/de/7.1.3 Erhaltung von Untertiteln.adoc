@@ -90,8 +90,7 @@ including any data relating to presentational aspects such as screen position, t
 text fonts.
 
 NOTE: Additional presentational aspects of the text such as screen position, text colours, text style and text fonts
-may convey meaning, based on regional conventions. 
-Altering these presentational aspects could change the meaning and should be avoided wherever possible.
+may convey meaning, based on regional conventions. Altering these presentational aspects could change the meaning and should be avoided wherever possible.
 --
 ____
 
