@@ -22,7 +22,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 === 1. Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist anwendbar, wenn die Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und zuschaltbare Untertitel vorhanden sind.
-* Sind permanent sichtbare Untertitel (_open subtitles_, früher _open captions_) als fester Bestandteil der Videodaten vorhanden, ist diese Prüfschritt nicht anwendbar.
+* Werden permanent sichtbare Untertitel (_open subtitles_, früher _open captions_) als fester Bestandteil der Videodaten angeboten, ist dieser Prüfschritt nicht anwendbar.
 * Aufgezeichnete Videos ohne Tonspur (stumme Videos) brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
 
 === 2. Prüfung
