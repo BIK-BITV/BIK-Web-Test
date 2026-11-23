@@ -21,7 +21,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-*	Der Prüfschritt ist anwendbar, wenn die Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel vorhanden sind. Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
+*	Der Prüfschritt ist anwendbar, wenn die Webseite aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel vorhanden sind.
 *	Aufgezeichnete Videos ohne Tonspur (stumme Videos) brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
 
 === 2. Prüfung
@@ -32,6 +32,7 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 === 3. Hinweise
 
+* Zuschaltbare Untertitel sind in der Regel innerhalb des ``video``-Elements als getrennte ``track``-Datei verfügbar.
 * Empfehlenswert wäre, wenn der Videoplayer eine Funktion zur Verfügung stellt, um die Untertitel auf einer Braillezeile anzuzeigen.
 * Nicht negativ bewertet wird, wenn ein alternatives Video mit open captions bei Aktivierung eines Bedienelements im Player neu geladen wird, oder wenn das Video mit open captions über einen zweiten Player angezeigt wird.
 
