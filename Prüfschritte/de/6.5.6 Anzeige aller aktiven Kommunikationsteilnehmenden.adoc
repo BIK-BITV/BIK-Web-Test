@@ -4,21 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn ein Webangebot Videotelefonie unterstützt 
-und die Aktivität von Sprechenden angezeigt wird, 
-soll dies auch für Nutzende von Gebärdensprache gewährleistet sein. 
+Wenn ein Webangebot Videokonferenz-Funktionen (Zwei-Wege Sprach und Videokommunikation) bietet und die Aktivität von Sprechenden angezeigt wird, 
+soll dies die Anzeige der Aktivität für alle Nutzenden, z.B. auch solche, die über Gebärdensprache oder Echtzeit-Texteingabe kommunizieren, gewährleistet sein. 
 
 == Warum wird das geprüft?
 
-Die Anzeige einer Gebärden-Eingabe ermöglicht Nutzenden die Wahrnehmung, 
-dass jemand gerade Eingaben in Gebärdensprache macht und wer dies tut.
+Die Echtzeit-Anzeige von Sprach- Gebärden- oder Echtzeit-Texteingabe ermöglicht allen Nutzenden die Wahrnehmung, 
+wer gerade aktiv Eingaben macht, egal ob Nutzende gebärden, sprechen oder xchtzueit-Texteingaben machen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, 
-wenn ein Webangebot Videotelefonie unterstützt 
+wenn ein Webangebot Zwei-Wege-Sprach- und Videokommunikation unterstützt 
 und eine Anzeige der Sprechaktivität von Sprechenden bietet.
 
 === 2. Prüfung
@@ -33,18 +32,22 @@ und eine Anzeige der Sprechaktivität von Sprechenden bietet.
    * die Eingabe vom Webangebot automatisch erkannt 
    und in der Folge der Aktivitäts-Zustand automatisch gesetzt wird.
 . Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
+. Auf dem verbundenen Gerät Echtzeit-Texteingaben machen.
+. Prüfen, ob die Aktivität der Echtzeit-Texteingabe wahrnehmbar ist.
 
 === 3. Hinweise
 
-* Es spielt für die Überprüfung vermutlich keine Rolle, 
-ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird 
-oder nur ähnliche Bewegungen gemacht werden, 
+* Es spielt für die Überprüfung der Aktivitätseingaben von Gebärdenden vermutlich keine Rolle, 
+ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, 
 eine Eingabe also nur simuliert wird.
-* Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, 
-z.B. bezüglich Grafik-Kontrast.
+* Es wird in den normativen Anforderungen nicht spezifisch eine visuelle Hervorhebung der Aktivität gefordert. Es ist deshalb davon auszugehen, dass implizit auch eine programmatische Ermittelbarkeit der Aktivität verlangt wird, z.B. über `aria-current`.
+* Für den Indikator der Aktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
-Für Hinweise zu diesem Prüfschritt 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen].
+=== 4. Bewertung
+==== Erfüllt
+
+* Die Aktivität von Telnehmenden wird unabhängig von der Art ihrer Eingabe (Sprechen, Gebärden, Echtzeit-Texteingabe) in Echtzeit angezeigt, z.B. über ein animiertes Zeichen neben den jeweiligen Teilnehmenden. 
+* Der Aktivitätsstatus ist nicht nur visuell, sondern auch programmatisch ermittelbar.
 
 == Quellen
 * Zurzeit keine Quellen.
