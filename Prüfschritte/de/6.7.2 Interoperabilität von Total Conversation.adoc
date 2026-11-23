@@ -23,14 +23,14 @@ Der Prüfschritt ist anwendbar, den das Webangebot Funktionen für Vido- und Spr
 
 === 2. Prüfung
 . Dokumentation des Webangebots aufrufen. Wenn keine Dokumentation vorhanden ist, ist der Prüfschritt nicht erfüllt.
-. Wird in der Dokumentation des Webangebots der gleiche Satz von Spezifikationen für Video-Interoperabilität genutzt wie bei anderen Teilnehmern?
+. Werden in der Dokumentation des Webangebots Spezifikationen für Video-Interoperabilität genannt, die die Anforderungen an "Total Conversation" (6.1-6.5) erfüllen und den Spezifikationen anderer Teilnehmer entsprechen?
 . Wird alternativ auf den Standard https://www.itu.int/rec/T-REC-H.264-202108-S[H.264 : Advanced video coding for generic audiovisual services] [i.74] in wenigstens Version 10 und wenigstens _constrained baseline level 3_ für Funktionen einschießlich Codierung und Präsentation verwiesen oder, wo Codec-Abastimmung implementiert ist auf die Standards https://www.itu.int/rec/T-REC-H.265-202108-S/en[H.265 : High efficiency video coding] [i.75] und
 https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 - VP8] [i.76] (um Transcodierung zu vermeiden)?
 
 === Bewertung
 ==== Erfüllt
 
-* Laut Dokumentation wird ein vereinbarter Satz von Standards genutzt, der Total Conversation Anforderungen 6.1 bis 6.5 unterstützt
+* Laut Dokumentation wird ein vereinbarter Satz von Standards genutzt, der Total Conversation Anforderungen 6.1 bis 6.5 unterstützt und den Spezifikationen anderer Teilnehmer entspricht.
 * Alternativ werden laut Dokumentation die Standards https://www.itu.int/rec/T-REC-H.264-202108-S[H.264] [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen einschließlich Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, https://www.itu.int/rec/T-REC-H.265-202108-S/en[ITU-T H.265] [i.75] und https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 VP8] [i.76] genutzt.
 
 ==== Nicht erfüllt
