@@ -86,19 +86,20 @@ ____
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
-==== 7.1.4 Subtitle synchronization
+==== 7.1.4 Subtitle characteristics
 ____
 [.BLOCK_LANG_EN]
 --
-Where ICT transmits, converts, or records video with synchronized audio,
-the ICT shall preserve subtitle data such that the subtitles can be displayed in a manner consistent with clause 7.1.1,
-including any data relating to presentational aspects such as screen position, text and background colours, text style and
-text fonts.
+Where ICT displays video with synchronized audio, and has control over the presentation of its subtitles,
+the ICT shall provide a way for the user to adapt the displayed characteristics of subtitles to their individual
+requirements, except where the subtitles are displayed as unmodifiable characters.
 
-NOTE: 
-Additional presentational aspects of the text such as screen position, text colours, text style and text fonts
-may convey meaning, based on regional conventions. Altering these presentational aspects could change
-the meaning and should be avoided wherever possible.
+NOTE 1: 
+Defining the background and foreground colour of subtitles, font type, size, opacity of the background
+box of subtitles, and the contour or border of the fonts can contribute to meeting this requirement.
+
+Note 2:
+Subtitles that are bitmap images are examples of unmodifiable characters.
 
 --
 ____
