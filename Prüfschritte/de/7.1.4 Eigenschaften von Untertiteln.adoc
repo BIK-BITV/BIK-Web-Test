@@ -64,7 +64,7 @@ ____
 --
 Where ICT displays video with synchronized audio, and has control over the presentation of its subtitles,
 the ICT shall provide a way for the user to adapt the displayed characteristics of subtitles to their individual
-requirements, except where the subtitles are displayed as unmodifiable characters
+requirements, except where the subtitles are displayed as unmodifiable characters.
 
 NOTE 1: Defining the background and foreground colour of subtitles, 
 font type, size, opacity of the background box of subtitles, 
