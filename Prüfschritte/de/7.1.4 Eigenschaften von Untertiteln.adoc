@@ -4,12 +4,12 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn das Webangebot Videos mit Untertiteln enthält, 
-lassen sich Untertitel anpassen, z.B. hinsichtlich der Schriftgröße.
+Wenn das Webangebot Videos mit zuschaltbaren Untertiteln (_closed subtitles_, früher _closed captions_) enthält, 
+lassen sich die Untertitel anpassen, z.B. hinsichtlich ihrer Schriftgröße.
 
 == Warum wird das geprüft?
 
-Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, 
+Bei Videos mit zuschaltbaren Untertiteln ist es für Untertitel-Nutzende hilfreich, 
 die visuelle Darstellung der Untertitel anpassen zu können, 
 zum Beispiel, die Schrift größer stellen zu können 
 oder den Kontrast des Texts erhöhen zu können.
@@ -19,10 +19,8 @@ oder den Kontrast des Texts erhöhen zu können.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, 
-wenn das Webangebot Videos mit Untertiteln enthält 
-und sich die Untertitel zuschalten lassen (closed captions). 
-Auf permanent sichtbare Untertitel, 
-die Teil des Videobildes sind (open captions), 
+wenn das Webangebot Videos mit zuschaltbaren Untertiteln enthält (_closed subtitles_, früher _closed captions_). 
+Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (open captions), 
 ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
@@ -34,16 +32,13 @@ Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gi
 etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, 
 oder Transparenz des Untertitel-Bereichs anpassen zu können.
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
-
 === 3. Hinweise
 
 * Art und Umfang der Anpassungsmöglichkeiten 
 sind nicht normativ festgelegt. 
 Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, 
-Schriftart, Größe, Transparenz des Untertitel-Bereichs und Kontur der Schrift.
-* Der Prüfschritt ist auch erfüllt, 
-wenn sich die Darstellung der Untertitel 
+Schriftart, Größe, Opazität des Untertitel-Bereichs, und Schriftumrandungen.
+* Der Prüfschritt ist auch erfüllt, wenn sich die Darstellung der Untertitel 
 nicht über Einstellungen des Video-Players, 
 sondern durch browserseitige oder systemseitige Einstellungen anpassen lässt 
 (wenn also etwa die Vergrößerung der Schriftgröße 
@@ -54,7 +49,7 @@ sich auf die Darstellung der Untertitel auswirken).
 
 ==== Nicht erfüllt:
 
-* Bei zuschaltbaren Untertiteln (closed captions) 
+* Bei zuschaltbaren Untertiteln (closed subtitles) 
 gibt es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, 
 Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 
@@ -62,7 +57,6 @@ Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 * Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 7.1.4 Captions characteristics
