@@ -1,0 +1,44 @@
+= Prüfschritt 5.10.1 Inhaltstechnologie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn es sich bei der Webanwendung um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung barrierefreier Inhalte unterstützen, vorhandene Barrierefreiheitsinformationen bei Umwandlungen erhalten, Unterstützung bei der Behebung erkannter Barrierefreiheitsprobleme anbieten und geeignete Vorlagen bereitstellen. Die Anforderungen gelten jeweils nur insoweit, wie das verwendete Ausgabeformat die dafür erforderlichen Barrierefreiheitsinformationen unterstützt.
+
+== Warum wird das geprüft?
+
+Menschen mit Behinderungen benötigen barrierefreie Inhalte, um diese uneingeschränkt nutzen zu können. Autorenwerkzeuge müssen daher die Erstellung und Ausgabe barrierefreier Inhalte ermöglichen und unterstützen, soweit das jeweilige Ausgabeformat die dafür erforderlichen Barrierefreiheitsinformationen unterstützt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. 
+
+=== 2. Prüfung
+
+. Autorenwerkzeug identifizieren: Bietet das Produkt Funktionen zur Erstellung oder Bearbeitung von Inhalten?
+. Ausgabeformate ermitteln: Welche Formate kann das Werkzeug erzeugen (z. B. HTML, PDF, DOCX)?
+. Ausgabeformate bewerten:
+  * HTML: Wenn das Autorenwerkzeug HTML-Inhalte erzeugt, können die Anforderungen 5.10.2 bis 5.10.5 grundsätzlich für dieses Ausgabeformat geprüft werden. Die Prüfung erfolgt jedoch nicht automatisch durch den BITV-Test, sondern erfordert eine gesonderte Bewertung der jeweiligen Autorenwerkzeugfunktionen.
+  * Andere Ausgabeformate: Die Prüfung dieser Formate ist nicht Bestandteil des BITV-Tests. In einer Anmerkung darauf hinweisen, dass die Anforderungen 5.10.2 bis 5.10.5 auch für diese Ausgabeformate gelten, soweit sie die jeweils erforderlichen Barrierefreiheitsinformationen unterstützen.
+
+=== 3. Hinweise
+
+Da die Prüfung eines Nicht-HTML-Ausgabeformats nicht mit diesem Prüfverfahren erfolgen kann, muss der Prüfschritt mit „nicht anwendbar“ bewertet werden. Es sollte jedoch in einer Anmerkung darauf hingewiesen werden, dass die Anforderungen an die Barrierefreiheit auch für andere Ausgabeformate gelten, soweit diese die entsprechenden Barrierefreiheitsinformationen unterstützen.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
+
+[.BLOCK_LANG_EN]
+=== 5.10.1 Content technology
+
+[.BLOCK_LANG_EN]
+____
+Where ICT is, or includes, authoring tool functionality,
+the authoring tool shall meet clauses 5.10.2 to 5.10.5 to the extent that information required for accessibility is
+supported by the format used for the output of the authoring tool.
+____
+
