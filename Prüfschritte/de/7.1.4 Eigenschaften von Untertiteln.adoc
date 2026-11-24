@@ -58,14 +58,13 @@ Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 == Einordnung des Prüfschritts
 
 [.BLOCK_LANG_EN]
-==== 7.1.4 Captions characteristics
+==== 7.1.4 Subtitle characteristics
 ____
 [.BLOCK_LANG_EN]
 --
-Where ICT displays captions, it shall provide a way 
-for the user to adapt the displayed characteristics of captions 
-to their individual requirements, 
-except where the captions are displayed as unmodifiable characters.
+Where ICT displays video with synchronized audio, and has control over the presentation of its subtitles,
+the ICT shall provide a way for the user to adapt the displayed characteristics of subtitles to their individual
+requirements, except where the subtitles are displayed as unmodifiable characters
 
 NOTE 1: Defining the background and foreground colour of subtitles, 
 font type, size, opacity of the background box of subtitles, 
