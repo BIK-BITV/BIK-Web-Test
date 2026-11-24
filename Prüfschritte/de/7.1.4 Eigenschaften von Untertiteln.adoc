@@ -20,15 +20,14 @@ oder den Kontrast des Texts erhöhen zu können.
 
 Der Prüfschritt ist anwendbar, 
 wenn das Webangebot Videos mit zuschaltbaren Untertiteln enthält (_closed subtitles_, früher _closed captions_). 
-Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (open captions), 
+Auf permanent sichtbare Untertitel, die Teil des Videobildes sind (_open subtitles_, früher _open captions_), 
 ist der Prüfschritt nicht anwendbar.
 
 === 2. Prüfung
 
 . Webangebot öffnen.
-. Video mit Untertitelung abspielen.
-. Falls es sich um zuschaltbare Untertitel handelt: 
-Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, 
+. Video mit zuschaltbaren Untertiteln abspielen
+. Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, 
 etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, 
 oder Transparenz des Untertitel-Bereichs anpassen zu können.
 
