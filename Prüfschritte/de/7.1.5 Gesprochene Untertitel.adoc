@@ -22,17 +22,17 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot gesprochene Untertitel berei
 === 2. Prüfung
 
 . Seite mit Video öffnen.
-. Prüfen, ob für Videos mit Untertiteln gesprochene Untertitel als Audio-Datei angeboten werden.
-. Falls das der Fall ist: Prüfen, ob sich die akustische Ausgabe der Untertitel im Player aktivieren lässt oder sich ein alternatives Video mit gesprochenen Untertiteln aufrufen lässt.
+. Prüfen, ob für Videos mit Untertiteln gesprochene Untertitel als Audio-Datei angeboten werden. Falls dies über eingebettete alternative Audiotracks umgesetzt ist, ist dies ggf. im Safari_Browser ermittelbar, der die AudioTrack-API bereits unterstützt.
+. Falls gesprochene Untertitel angeborten werden: Prüfen, ob sich die akustische Ausgabe der Untertitel im Player aktivieren lässt oder sich ein alternatives Video mit gesprochenen Untertiteln aufrufen lässt.
 
 === 3. Hinweise
 
-Der Prüfschritt bezieht sich nicht auf die generierte Echtzeit-Ausgabe von Text-Untertiteln (diese ist ggf. über Browser-Pugins möglich), sondern auf gesprochene Untertitel, die als Audio-Datei bzw. alternative Video-Version bereitgestellt werden. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can-I-use support table für AudioTrack]. Die gängigere Alternative wäre die Bereitstellung eines alternativen Videos.
+Der Prüfschritt bezieht sich nicht auf die generierte Echtzeit-Ausgabe von Text-Untertiteln (diese ist ggf. über Browser-Pugins möglich), sondern auf gesprochene Untertitel, die als Audio-Datei bzw. alternative Video-Version bereitgestellt werden. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can-I-use support table für AudioTrack]. Die gängigere Alternative wäre die Bereitstellung eines alternativen Videos mit einer Tonspur, die gesprochene Untertitel enthält,
 
 === 4. Bewertung
 ==== Nicht erfüllt:
 
-* Für Videos werden gesprochene Untertitel in Form von Audio angeboten, können aber nicht aktiviert werden.
+* Für Videos werden gesprochene Untertitel in Form von Audio angeboten, diese Version kann aber nicht aufgerufen werden.
 
 == Quellen
 * Empfehlungen für die Audio-Darstellung von Text in Videos, 
