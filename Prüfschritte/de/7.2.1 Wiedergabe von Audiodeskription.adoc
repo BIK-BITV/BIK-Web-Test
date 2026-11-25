@@ -16,7 +16,7 @@ Werden für visuelle Inhalte eines Videos Beschreibungen dieser visuellen Inhalt
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeichnete Videos mit synchroner Bild- und Tonspur vorhanden sind und für diese Videos Alternativen mit Audiodeskription bereitstehen.
+Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeichnete Videos mit synchroner Bild- und Tonspur vorhanden sind und für diese Videos alternative Tonspuren oder alternative Videos mit Audiodeskriptionen bereitstehen.
 
 === 2. Prüfung
 
