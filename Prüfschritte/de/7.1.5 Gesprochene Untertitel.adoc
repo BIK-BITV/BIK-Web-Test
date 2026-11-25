@@ -38,7 +38,7 @@ Der Prüfschritt bezieht sich nicht auf die generierte Echtzeit-Ausgabe von Text
 * Empfehlungen für die Audio-Darstellung von Text in Videos, 
 einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
 https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[ITU T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
-* HTML Living Standard: https://html.spec.whatwg.org/multipage/media.html#audiotrack[4.8.11.10 Media resources with multiple media tracks]
+* HTML Living Standard: https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks[4.8.11.10 Media resources with multiple media tracks]
 
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
