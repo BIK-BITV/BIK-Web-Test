@@ -47,14 +47,12 @@ das Video anschließend in einem konformen Player abspielen:
 * Lässt sich Audiodeskription abspielen?
 * Ist die Audiodeskription weiterhin synchron zu Bild und Ton?
 
-=== 3. Hinweise
 
-Hinweise zu diesem Prüfschritt 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[in einem Issue hinterlassen].
+=== 3. Bewertung
 
-=== 4. Bewertung
+==== Nicht erfüllt
 
-==== Nicht erfüllt:
+Bei einem Video mit Audiodeskription ist diese nach Konvertierung des Videos nicht mehr erreichbar.
 
 == Einordnung des Prüfschritts
 
