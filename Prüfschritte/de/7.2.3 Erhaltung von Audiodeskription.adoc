@@ -97,7 +97,8 @@ the ICT shall preserve subtitle data such that the subtitles can be displayed in
 including any data relating to presentational aspects such as screen position, text and background colours, text style and
 text fonts.
 
-NOTE: Additional presentational aspects of the text such as screen position, text colours, text style and text fonts
+NOTE: 
+Additional presentational aspects of the text such as screen position, text colours, text style and text fonts
 may convey meaning, based on regional conventions. Altering these presentational aspects could change
 the meaning and should be avoided wherever possible.
 ____
