@@ -49,7 +49,7 @@ sich auf die Darstellung der Untertitel auswirken).
 ==== Nicht erfüllt:
 
 * Bei zuschaltbaren Untertiteln (closed subtitles) 
-gibt es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, 
+gibt es keinerlei Anpassungsmöglichkeiten für einzelne oder mehrere ihrer Eigenschaften, z. B. Position, Textgröße, 
 Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 
 == Quellen
