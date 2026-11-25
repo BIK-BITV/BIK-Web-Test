@@ -90,10 +90,10 @@ consistent with clauses 7.2.1 and 7.2.2.
 ____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
-____
-[.BLOCK_LANG_EN]
 
 ==== 7.2.3 Preservation of audio description
+____
+[.BLOCK_LANG_EN]
 
 Where ICT transmits, converts, or records video with synchronized audio,
 the ICT shall preserve subtitle data such that the subtitles can be displayed in a manner consistent with clause 7.1.1,
