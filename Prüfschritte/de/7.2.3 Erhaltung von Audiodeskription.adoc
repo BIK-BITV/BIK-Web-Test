@@ -76,21 +76,10 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geht es hingegen um Videos, die auf der Webseite bereits vorhanden sind. 
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-
-____
-[.BLOCK_LANG_EN]
-
-==== 7.2.3 Preservation of audio description
---
-Where ICT transmits, converts, or records video with synchronized audio, it
-shall preserve audio description data such that it can be played in a manner
-consistent with clauses 7.2.1 and 7.2.2.
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
+[.BLOCK_LANG_EN]
 ==== 7.2.3 Preservation of audio description
 ____
 [.BLOCK_LANG_EN]
