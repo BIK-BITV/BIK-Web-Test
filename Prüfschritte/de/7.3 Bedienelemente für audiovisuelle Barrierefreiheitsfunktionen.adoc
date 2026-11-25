@@ -53,7 +53,7 @@ Grundsätzlich ist der Einsatz nativer Video-Player der Verwendung von JavaScrip
 
 ==== Nicht erfüllt:
 
-* Es werden Custom-Videoplayer eingesetzt. Die Bedienelemente zur Aktivierung der Untertitel und der Audiodeskription sind nicht auf der gleichen Interaktionsebene positioniert das Bedienelement zur Lautstärke-Kontrolle und nicht über eine einfache Aktion wie Anklicken oder (nach Tastatur-Fokussierung) Aktivierung mittels ENTER ein- bzw. abschaltbar.
+* Es werden Custom-Videoplayer eingesetzt. Die Bedienelemente zur Aktivierung der Untertitel und (falls vorhanden) für Audiodeskription oder gesprochene Untertitel sind nicht auf der gleichen Interaktionsebene positioniert das Bedienelement zur Lautstärke-Kontrolle und nicht über eine einfache Aktion wie Anklicken oder (nach Tastatur-Fokussierung) Aktivierung mittels ENTER ein- bzw. abschaltbar.
 
 == Einordnung des Prüfschritts
 
