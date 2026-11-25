@@ -52,7 +52,7 @@ das Video anschließend in einem konformen Player abspielen:
 
 ==== Nicht erfüllt
 
-* Bei einem Video mit Audiodeskription ist diese nach Konvertierung des Videos nicht mehr erreichbar.
+* Bei einem Video mit Audiodeskription ist diese nach Konvertierung des Videos nicht mehr vorhanden oder erreichbar.
 
 == Einordnung des Prüfschritts
 
