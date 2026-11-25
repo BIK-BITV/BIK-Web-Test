@@ -68,35 +68,6 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geht es darum, dass überhaupt entsprechende Bedienelemente vorhanden sind.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-[.BLOCK_LANG_EN]
-==== 7.3 User controls for captions and audio description
-____
-[.BLOCK_LANG_EN]
---
-Where ICT primarily displays materials containing video with associated audio
-content, user controls to activate subtitling and audio description shall be
-provided to the user at the same level of interaction (i.e. the number of
-steps to complete the task) as the primary media controls. 
-
-NOTE 1:
-Primary media controls are the set of controls that the user most commonly
-uses to control media.
-
-NOTE 2:
-Products that have a general hardware volume control, such as a telephone, or
-a laptop which can be configured to display video through Web-App but which
-is not its primary purpose, would not need dedicated hardware controls for
-captions and descriptions; however Web-App controls, or hardware controls
-mapped through Web-App, would need to be at the same level of interaction. 
-
-NOTE 3:
-It is best practice for ICT to include additional controls enabling the user to
-select whether captions and audio description are turned on or off by default.
---
-____
-
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
 [.BLOCK_LANG_EN]
