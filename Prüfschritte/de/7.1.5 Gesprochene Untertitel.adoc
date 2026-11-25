@@ -27,7 +27,7 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot gesprochene Untertitel berei
 
 === 3. Hinweise
 
-Der Prüfschritt bezieht sich nicht auf die generierte Echtzeit-Ausgabe von Text-Untertiteln, sondern auf gesprochene Untertitel, die als Audio-Datei bzw. alternative Video-Version bereitgestellt werden. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can I use support table für ``AudioTrack``]. Die gängigere Alternative wäre die Bereitstellung eines alternativen Videos.
+Der Prüfschritt bezieht sich nicht auf die generierte Echtzeit-Ausgabe von Text-Untertiteln, sondern auf gesprochene Untertitel, die als Audio-Datei bzw. alternative Video-Version bereitgestellt werden. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can I use support table für AudioTrack]. Die gängigere Alternative wäre die Bereitstellung eines alternativen Videos.
 .
 
 Hinweise zu diesem Prüfschritt 
