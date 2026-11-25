@@ -22,19 +22,18 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeic
 
 . Das Video wird im auf der Website eingebundenen Player abgespielt.
 . Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten von Audiodeskription ermöglicht.
-. Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann.
+. Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann oder ein alternatives Video mit Audiodeskription aufgerufen werden kann.
 
 === 3. Hinweise
-* Der Prüfschritt bezieht sich auf Audiodeskription, die als Audio-Datei bzw. alternative Video-Version bereitgestellt wird. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can-I-use support table für AudioTrack]. Die gängigere Alternative wäre die Bereitstellung eines alternativen Videos mit einer Tonspur, die Audiodeskription enthält,
-* Weder das Laden eines zweiten Videos mit Audiodeskription (bei Aktivierung eines AD-Buttons), noch die Bereitstellung von Audiodeskription mit Hilfe eines zweiten Videos über einen zweiten Player wird negativ bewertet.
-* Wenn alle wichtigen Informationen der Bildsequenz bereits über die Audiospur vermittelt werden, ist keine Audiodeskription und damit auch kein AD-Button erforderlich.
+* Der Prüfschritt bezieht sich auf Audiodeskription, die als Audio-Datei bzw. alternative Video-Version bereitgestellt wird. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can-I-use support table für AudioTrack]. Die gängigere Alternative wäre deshalb die Bereitstellung eines alternativen Videos mit einer Tonspur, die Audiodeskription enthält.
+* Die Bereitstellung von Audiodeskription mit Hilfe eines alternativen Video-Version wird aufgrund der bislang mangelnden Unterstützung von mehreren Tonspuren in den gängigen nativen, also vom Browser bereitgestellten,  Video-Playern nicht negativ bewertet.
 * Die Anforderung 7.2.1 erlaubt zwar die Auswahl der Audiodeskription aus einer von mehreren Tonspuren. Anforderung 7.3 verlangt jedoch, dass sich die Bedienelemente zur Aktivierung der Audiodeskription  auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, Lautstärke etc.) befinden.
 
 === 4. Bewertung
 
 ==== Nicht erfüllt:
 
-* Der Videoplayer bietet keine Möglichkeit, Audiodeskription zuzuschalten.
+* Eine Version mit Audio-Deskrtiption ist verfügbar Videoplayer, sie ist für Nutzende aber nicht aufrufbar (weder über ein Bedienelement im Player, noch über die Möglichkeit, ein alternatives Video mit Audiodeskription abzuspielen).
 
 == Quellen
 * Empfehlungen für die Audio-Darstellung von Text in Videos, 
