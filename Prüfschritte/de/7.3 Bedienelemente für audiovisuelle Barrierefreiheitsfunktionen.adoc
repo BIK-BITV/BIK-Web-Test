@@ -43,7 +43,7 @@ wie die Bedienelemente zur Wiedergabekontrolle
 
 === 3. Hinweise
 
-Grundsätzlich ist der Einsatz nativer Video-Player der Verwendung von JavaScript-basieren Video-Playern vorzuziehen, da native Elemente robuster sind, regelmäßig mit Browser-Updates automatisch aktualisiert werden, und eher für browserseitige oder Systemeinstellungen erreichbar sind. Die Darstellung von Bedienelementen in den nativen Videoplayern unterscheidet sich von Browser zu Browser und ist zudem von nicht vorhersehbaren Aktualisierungen betroffen. Ob Nutzende assistive Optionen wie Untertitel oder Audiodeskription mit einer einfachen Aktivierung (single user operation) an- und ausschalten können, ist damit bei Verwendung nativer Player außerhalb der Einflussmöglichkeiten der Autoren / Entwickler und wird in diesen Fällen mit "nicht anwendbar" bewertet.
+Grundsätzlich ist der Einsatz nativer Video-Player der Verwendung von JavaScript-basieren Video-Playern vorzuziehen, da native Elemente robuster sind, regelmäßig mit Browser-Updates automatisch aktualisiert werden, und eher für browserseitige oder Systemeinstellungen erreichbar sind. Die Darstellung von Bedienelementen in den nativen Videoplayern unterscheidet sich von Browser zu Browser und ist zudem von nicht vorhersehbaren Aktualisierungen betroffen. Die Umsetzung der Aktivierung assistiver Optionen wie Untertitel oder Audiodeskription mit einer einfachen Aktivierung (single user operation) ebenso wie andere Barrierefreiheitsaspekte nativer Elemente ist damit Sache der Hersteller der User Agents und nicht der Entwickler bzw. Autoren. Setzen Autoren die nativen Video-Player ein, wird dieser Prüfschritt deswegen mit "nicht anwendbar" bewertet.
 
 === 4. Bewertung
 
