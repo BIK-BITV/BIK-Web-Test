@@ -21,8 +21,8 @@ Der Prüfschritt ist anwendbar, wenn auf der Webseite ein oder mehrere aufgezeic
 === 2. Prüfung
 
 . Das Video wird im auf der Website eingebundenen Player abgespielt.
-. Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten von Audiodeskription ermöglicht.
-. Sollte es keine Schaltfläche für Audiodeskription geben, prüfen, ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann oder ein alternatives Video mit Audiodeskription aufgerufen werden kann.
+. Prüfen, ob der Player ein Bedienelement anbietet, dass das Ein- und Ausschalten von Audiodeskription ermöglicht. Falls Audiodeskription über eingebettete alternative Audiotracks umgesetzt ist, ist dies ggf. im Safari-Browser ermittelbar, der die https://developer.mozilla.org/en-US/docs/Web/API/AudioTrack[AudioTrack-API] bereits unterstützt.
+. Sollte es keine dezidierte Schaltfläche für Audiodeskription geben, prüfen, ob aus einer von mehreren Tonspuren Audiodeskription ausgewählt werden kann oder ein alternatives Video mit Audiodeskription aufgerufen werden kann.
 
 === 3. Hinweise
 * Der Prüfschritt bezieht sich auf Audiodeskription, die als Audio-Datei bzw. alternative Video-Version bereitgestellt wird. Dies kann ggf. über die Auswahl einer alternativen Tonspur im Player geschehen, z. B. über das ``AudioTrack.enabled`` Attribut. Die Unterstützung der ``AudioTrack``-API ist bislang noch nicht breit - vergl. https://caniuse.com/?search=AudioTrack[Can-I-use support table für AudioTrack]. Die gängigere Alternative wäre deshalb die Bereitstellung eines alternativen Videos mit einer Tonspur, die Audiodeskription enthält.
