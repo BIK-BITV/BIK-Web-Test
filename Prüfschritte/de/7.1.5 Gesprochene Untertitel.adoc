@@ -22,8 +22,8 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot gesprochene Untertitel berei
 === 2. Prüfung
 
 . Seite mit Video öffnen.
-. Prüfen, ob für Videos mit Untertiteln gesprochene Untertitel als Audio-Datei angeboten werden. Falls dies über eingebettete alternative Audiotracks umgesetzt ist, ist dies ggf. im Safari_Browser ermittelbar, der die https://developer.mozilla.org/en-US/docs/Web/API/AudioTrack[AudioTrack-API] bereits unterstützt.
-. Falls gesprochene Untertitel angeborten werden: Prüfen, ob sich die akustische Ausgabe der Untertitel im Player aktivieren lässt oder sich ein alternatives Video mit gesprochenen Untertiteln aufrufen lässt.
+. Prüfen, ob für Videos mit Untertiteln gesprochene Untertitel als Audio-Datei angeboten werden. Falls dies über eingebettete alternative Audiotracks umgesetzt ist, ist dies ggf. im Safari-Browser ermittelbar, der die https://developer.mozilla.org/en-US/docs/Web/API/AudioTrack[AudioTrack-API] bereits unterstützt.
+. Falls gesprochene Untertitel angeboten werden: Prüfen, ob sich die akustische Ausgabe der Untertitel im Player aktivieren lässt oder sich ein alternatives Video mit gesprochenen Untertiteln aufrufen lässt.
 
 === 3. Hinweise
 
