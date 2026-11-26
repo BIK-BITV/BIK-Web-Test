@@ -18,7 +18,7 @@ Im Einzelnen werden folgende Einstellungen beispielhaft genannt:
 
 Das Webangebot kann darüber hinaus eigene Einstellungsmöglichkeiten anbieten, solange es einen Modus gibt, der die Plattform-Einstellungen nutzt.
 
-Nicht alle in der Anforderung genannten Einstellungen sind in allen Browsern verfügbar. Duch Updates könenn sich Einstellungen ändern, neue Einstellungsmöglichkeiten dazuzkommen, oder alte entfallen. Es wird deshalb nicht verlangt, dass sich alle aufgeführten Einstellungen anpassen lassen. Wo jedoch einstellungen möglich sind, sollen diese im Webangebot übernommen werden, es sei denn, eine bestimmte Darstellungweise ist essenziell.
+Nicht alle in der Anforderung genannten Einstellungen sind in allen Browsern verfügbar. Durch Browser-Updates können sich zudem Einstellungen ändern, neue Einstellungsmöglichkeiten dazukommen, oder alte entfallen. Es wird deshalb nicht verlangt, dass sich alle aufgeführten Einstellungen anpassen lassen. Wo jedoch Einstellungen möglich sind, sollen diese im Webangebot übernommen werden, es sei denn, eine bestimmte Darstellungweise ist essenziell.
 
 == Warum wird das geprüft?
 
