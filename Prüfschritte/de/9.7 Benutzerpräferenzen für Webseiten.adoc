@@ -6,7 +6,8 @@ include::include/attributes.adoc[]
 
 Wenn Nutzende dokumentierte Zugänglichkeitseinstellungen in der zugrundeliegenden Plattform setzen, darf das Webangebot diese Einstellungen nicht blockieren oder überschreiben. 
 Die zugrundeliegende Plattform für Webinhalte ist der Browser (bzw. User Agent), nicht das Betriebssystem.
-Im Einzelnen werden folgende Einstellungen genannt:
+
+Im Einzelnen werden folgende Einstellungen beispielhaft genannt:
 
 * Farben (z.B. Farbumkehr, eigene Farbschemata, oder Darkmode)
 * Kontraste
@@ -15,9 +16,9 @@ Im Einzelnen werden folgende Einstellungen genannt:
 * Darstellung des Zeigers (Cursor)
 * Darstellung der Texteinfügemarke
 
-Die App kann darüber hinaus eigene Werte für diese Einstellungen anbieten, solange es einen Modus gibt der die System-Einstellungen nutzt.
+Das Webangebot kann darüber hinaus eigene Einstellungsmöglichkeiten anbieten, solange es einen Modus gibt der die Plattform-Einstellungen nutzt.
 
-Nicht alle in der Anforderung genannten Parameter lassen sich zur Zeit in den Betriebssystemen iOS und Android individuell einstellen.
+Nicht alle in der Anforderung genannten Einstellungen sind in allen Browsern verfügbar. Duch Updates könenn sich Einstellungen ändern, neue Einstellungsmöglichkeiten dazuzkommen, oder alte entfallen. Es wird deshalb nicht verlangt, dass sich alle aufgeführten Einstellungen anpassen lassen. Wo jedoch einstellungen möglich sind, sollen diese im Webangebot übernommen werden, es sei denn, eine bestimmte Darstellungweise ist essenziell.
 
 == Warum wird das geprüft?
 
