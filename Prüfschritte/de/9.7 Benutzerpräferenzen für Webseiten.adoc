@@ -22,11 +22,25 @@ Nicht alle in der Anforderung genannten Einstellungen sind in allen Browsern ver
 
 == Warum wird das geprüft?
 
-Viele Nutzende brauchen über Webangebote hinweg immer bestimmte Anpoassungen der Darstellung. Sie ziehen es deshlab vor, grundliegende Einstellungen z.B. Seitenzoom, eine größere Schrift, oder eine Kontrastumkehr im Browser voreinzustellen. Webangebote solten die Übernahme solcher Einstellungen nicht verhindern. Ein Beispiel für solches Verhindern wäre die Setzung von Schriftgrößen im CSS mit dem Wert px (Pixel), der in manchen Browsern die browerseitige Textvergrößerung blockiert.
+Viele Nutzende brauchen über verschiedene Webangebote hinweg immer bestimmte persönliche Anpassungen der Darstellung. Sie ziehen es deshalb vor, grundliegende Einstellungen, z. B. Seitenzoom, eine größere Schrift, oder ein eigenes Farbschema, im Browser voreinzustellen. Webangebote solten die Übernahme solcher Einstellungen nicht verhindern. Ein Beispiel für solches Verhindern wäre die Setzung von Schriftgrößen im CSS mit dem Wert px (Pixel), der in manchen Browsern die browerseitige Textvergrößerung blockiert.
 
 == Wie wird das geprüft?
 
-tbd
+. Die Seite im Firefox Browser laden
+
+. Einstellungen öffnen (Element ANwendungsmenü öffnen > Einstellungen)
+
+Im Bereich "Barrierefreiheit" folgende Einstellungen vornehmen:
+
+Unter "Schriftarten" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert von 16 setzen (z. B. verdoppeln auf 32). In den Einstellungen "Erweitert…​" sollte für Mindestschriftgröße "Keine" ausgewählt sein.
+
+Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und die Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" deaktivieren.
+
+Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
+
+Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
+
+Prüfen, ob alle wichtigen Bedienelemente und deren Zustände (z. B. "Hamburger"-Schaltfläche und Zustände von selbst gestalteten Formularelementen wie Auswahlschalter oder Checkboxen) bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind.
 
 == Quellen?
 
