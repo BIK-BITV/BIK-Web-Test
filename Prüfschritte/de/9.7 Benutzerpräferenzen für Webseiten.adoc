@@ -34,7 +34,7 @@ Der Prüfschritt ist immer anwendbar.
 
 . Die Seite im Firefox Browser laden
 . Einstellungen öffnen (Element _Anwendungsmenü öffnen > Einstellungen_)
-. Im Bereich "Barrierefreiheit" folgende Einstellungen vornehmen:
+. Im Bereich _Barrierefreiheit_ folgende Einstellungen vornehmen:
 * Unter "Schriftarten" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert von 16 setzen (z. B. verdoppeln auf 32). In den Einstellungen "Erweitert…​" sollte für Mindestschriftgröße "Keine" ausgewählt sein.
 * Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und die Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" deaktivieren.
 * Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
