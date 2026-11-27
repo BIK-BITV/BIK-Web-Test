@@ -20,7 +20,7 @@ Solche Seiten helfen Menschen, ein Produkt zu verstehen und richtig zu nutzen. D
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn webbasierte Informationen über ein Produkt angeboten werden. Dazu gehört auch die Erklärung zur Barrierefreiheit. 
-Informationen können verschiedene Formen haben, z. B. die technische Dokumentation von Einstellungen, Abläufen, und Funktionen einer Webanwendung, Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln. 
+Informationen können verschiedene Formen haben, z. B. die technische Dokumentation von Einstellungen, Abläufen, und Funktionen einer Webanwendung, wie eine Auflistung von Tastaturkurzbefehlen oder Hinweise zur Nutzung mit Hilfsmitteln. 
 Als Informationen gelten auch Seiten wie FAQs (Frequently Asked Questions), sofern sie sich auf das Produkt und dessen Nutzung beziehen.
 
 Die Barrierefreiheit von nicht-web-basierter Information (etwa in Form von PDFs oder Apps) kann nicht im Rahmen dieses webbasierten Prüfverfahrens geprüft werden, 
