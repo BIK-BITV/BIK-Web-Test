@@ -1,53 +1,30 @@
-= Prüfschritt 12.1.2 Barrierefreie Dokumentation
+= Prüfschritt 12.1 Barrierefreie Information über Produkten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Produkt-Dokumentation eines Web-Angebots enthält Hilfestellungen 
-für die allgemeine Nutzung von Funktionen des Angebots, 
-aber oft auch Hinweise auf zusätzliche Funktionen, 
-welche die Barrierefreiheit für bestimmte Nutzergruppen verbessern, 
-z.B. Einstellungen für erhöhten Kontrast oder Versionen in Leichter Sprache oder Deutscher Gebärdensprache. 
-Auch die Erklärung zur Barrierefreiheit ist eine Produkt-Dokumentation.
+Wenn das Webangebot ein Produkt ist und Informationen über das Produkt in digitaler Form bereitstellt, wird hier für webbasierte Information zusammenfassend geprüft, ob diese die übrigen anwendbaren Anforderungen der EN 301 549 sämtlich erfüllt. 
 
-Wenn ein Web-Angebot eine Produkt-Dokumentation bereitstellt, 
-soll diese mindestens in einer der folgenden Formate 
-barrierefrei zur Verfügung gestellt werden:
+In diesem Prüfverfahren kann nur die Zugänglichkeit von webbasierter Information geprüft werden. Wird Dokumentation in anderer Form, etwa als Dokument (zum Beispiel als PDF oder Word) oder in Form von Software (z.B. als mobile App) bereitgestellt, ist der Prüfschritt hier nicht anwendbar, Die Dokumentation müsste dann in einem anderen, passenden Prüfverfahren bewertet werden.
 
-* Als Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
-* Als Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
-
-Nicht-Web-Dokumente werden nicht in diesem Prüfverfahren bewertet.
+Eine Erklärung zur Barrierefreiheit ist, wenn vorhanden, eine Information über das Produkt.
 
 == Warum wird das geprüft?
 
-Die Dokumentation ist ein wichtiger Teil eines Webangebots. 
-So informiert zum Beispiel die "Erklärung zur Barrierefreiheit" 
-Menschen mit Behinderungen über den Stand der Barrierefreiheit des Angebots 
-und nennt (noch) nicht barrierefreie Inhalte sowie gegebenenfalls Wege, 
-benötigte Informationen in anderer Form zu erhalten. 
-Es ist deshalb wichtig, 
-dass diese Erklärung barrierefrei ist. 
-Sie wird deshalb, wenn vorhanden, immer geprüft. 
-Dies gilt auch für weitere Seiten zur Dokumentation des Webangebots, wenn vorhanden.
+Die Information über ein Produkt (technische Dokumentation) ist oft ein wichtiger Bestandteil eines Webangebots. 
+Solche Seiten helfen Menschen, ein Produkt zu verstehen und richtig zu nutzen. Auch sie sollen voll barrierefrei sein. Für Menschen mit Behinderungen ist es besonders wichtig, zu erfahren, was für Einstellungen oder Anpassungen für Hilfsmittel-Nutzende ein Produkt bietet, wo ggf. Mängel der Barrierefreiheit bestehen  und wie (noch) nicht barrierefreie Inhalte sowie gegebenenfalls auf anderem Wege angefordert werden können.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, 
-wenn eine Produkt-Dokumentation angeboten wird. 
-Dazu gehört auch die Erklärung zur Barrierefreiheit. 
-Als Produkt-Dokumentation gilt die technische Dokumentation 
-von Funktionen des Angebots (etwa Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln). 
-Inhaltliche Hilfe,
-etwa in FAQs (Frequently Asked Questions) 
-gelten hierbei nicht als Produkt-Dokumentation.
+Der Prüfschritt ist anwendbar, wenn webbasierte Informationen über ein Produkt angeboten werden. Dazu gehört auch die Erklärung zur Barrierefreiheit. 
+Informationen können verschiedene Formen haben, z. B. die technische Dokumentation von Einstellungen, Abläufen, und Funktionen einer Webanwendung, Tastaturkurzbefehle oder Hinweise zur Nutzung mit Hilfsmitteln. 
+Als Informationen gelten auch Seiten wie FAQs (Frequently Asked Questions), sofern sie sich auf das Produkt und dessen Funktionsweise selbst beziehen.
 
-Die Prüfung der Barrierefreiheit von nicht-web-basierter Dokumentation 
-(etwa von PDFs) kann nicht Teil des Prüfverfahrens sein, 
-sie muss in einem separaten Auftrag erfolgen.
+Die Barrierefreiheit von nicht-web-basierter Information (etwa in Form von PDFs oder Apps) kann nicht im Rahmen dieses webbasierten Prüfverfahrens geprüft werden, 
+sie muss ggf. in einem separaten Verfahren erfolgen.
 
 === 2. Prüfung
 
@@ -55,7 +32,7 @@ Je nach den gegebenen Voraussetzungen (siehe "3. Hinweise")
 muss die Dokumentation nicht Teil der Seitenauswahl sein. 
 Die Prüfung erfolgt dann wie unter 2.2 beschrieben.
 
-==== 2.1 Prüfung der Dokumentation (Teil der Seitenauswahl)
+==== 2.1 Prüfung der Informationsseiten (Teil der Seitenauswahl)
 . Prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens 
 mit "konform" bewertet worden sind.
 . Ist dies der Fall, ist auch dieser Prüfschritt konform.
@@ -63,7 +40,7 @@ mit "konform" bewertet worden sind.
 ==== 2.2 Prüfung der Dokumentation (nicht Teil der Seitenauswahl)
 . Ist die Dokumentation nicht Teil der Seitenauswahl 
 (siehe Erläuterungen unter "3. Hinweise"), prüfen, 
-ob für die seitenübergreifenden Bereiche (z.B. Kopf- und   Fußbereich) 
+ob für die seitenübergreifenden Bereiche (z.B. Kopf- und Fußbereich) 
 sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet wurden.
 . Für den Inhaltsbereich der Seite prüfen, 
 ob sämtliche anwendbaren Prüfschritte des Verfahrens 
@@ -74,13 +51,13 @@ um die Prüfung der Struktur und gegebenenfalls die Tastaturbedienbarkeit).
 === 3. Hinweise
 * Die Dokumentation muss nicht zwingend Teil der Seitenauswahl sein, 
 wenn Folgendes gegeben ist:
-- Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
-- Seitenübergreifende Bereiche (Kopf- und Fußbereich) 
+** Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
+** Seitenübergreifende Bereiche (Kopf- und Fußbereich) 
 sind mit den anderen Seiten der Seitenauswahl identisch und bereits geprüft worden.
-- Der Inhaltsbereich ist sehr einfach 
+** Der Inhaltsbereich ist sehr einfach 
 (es handelt sich beispielsweise nur um strukturierten Text und Links).
 * Ist die Dokumentation komplexer oder als weiterer Seitentyp einzustufen, 
-wird sie als eine weitere Seite in die Seitenauswahl aufgenommen. 
+sollte sie mit in die Seitenauswahl aufgenommen werden. 
 Wenn eine weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, 
 soll auch diese in die Seitenauswahl bzw. Prüfung einbezogen werden.
 * Der Prüfschritt schließt nicht die Möglichkeit aus, 
@@ -90,45 +67,10 @@ die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen
 oder Informationen in leichter Sprache 
 für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
-Für weitere Hinweise zu diesem Prüfschritt 
-können Sie auf GitHub https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue eröffnen].
-
 == Quellen
 * Zurzeit keine Quellen. 
 
 == Einordnung des Prüfschritts
-=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-[.BLOCK_LANG_EN]
-==== 12.1.2 Accessible documentation
-____
-[.BLOCK_LANG_EN]
---
-Product documentation provided with the ICT shall be made available 
-in at least one of the following electronic formats:
-
-* a Web format that conforms to the requirements of clause 9; or 
-* a non-web format that conforms to the requirements of clause 10. 
-
-NOTE 1:
-This does not preclude the possibility of also providing the product documentation 
-in other formats (electronic, printed or audio) that are not accessible. 
-
-NOTE 2:
-It also does not preclude the possibility of providing alternate formats 
-that meet the needs of some specific type of users 
-(e.g. Braille documents for blind people or easy-to-read information 
-for persons with limited cognitive, language and learning abilities). 
-
-NOTE 3:
-Where documentation is incorporated into the ICT, 
-the documentation falls under the requirements for accessibility in the present document. 
-
-NOTE 4:
-A user agent that supports automatic media conversion
-would be beneficial to enhancing accessibility.
---
-____
 
 === Einordnung des Prüfschritts nach EN 301 549 V4.1.1
 
