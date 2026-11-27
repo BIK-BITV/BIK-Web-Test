@@ -41,18 +41,33 @@ Der Prüfschritt ist immer anwendbar.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
 . Prüfen, ob alle wichtigen Bedienelemente und deren Zustände (z. B. "Hamburger"-Schaltfläche und Zustände von selbst gestalteten Formularelementen wie Auswahlschalter oder Checkboxen) bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind.
 
-=== 3. Hnweise
-3.1. Einzusetzender Browser für die Prüfung
+=== 3. Hinweise
+==== 3.1. Einzusetzender Browser für die Prüfung
 Zur Prüfung sollte wenn möglich der Firefox-Browser genutzt werden, der diese Einstellungsmöglichkeiten bietet. In anderen Browsern sind ggf. nicht alle diese Einstellungen zu finden, oder sie sind unwirksam.
-
 Wenn zur Prüfung andere Browser genutzt werden und sich die Darstellung trotz geänderter Voreinstellungen nicht ändert, kann dies am Browser oder auch an Vorgaben der Web-Anwendung liegen.
 
-3.2 Hinweis zur Prüfung mit Firefox
-Der Firefox-Browser übernimmt für button-Elemente die vom Nutzer gewählte Hintergrundfarbe nicht bzw. setzt eine eigene Farbe. Dies darf nicht als Fehler bewertet werden.
+==== 3.2 Hinweis zur Prüfung mit Firefox
+Der Firefox-Browser übernimmt gg. für ``button``-Elemente nicht die vom Nutzer gewählte Hintergrundfarbe bzw. setzt eine eigene Farbe. Dies darf nicht als Fehler bewertet werden.
+
+==== 3.3 CSS-Schlüsselwort `currentColor`
+Beim Einsatz von informationstragenden Grafiken kann für Inline-SVGs das https://kulturbanause.de/blog/das-currentcolor-keyword-von-css[CSS-Schlüsselwort ``currentColor``] verwendet werden. Es übernimmt die definierte Vordergrundfarbe (`color`). Wird für ein Inline-SVG ``fill: currentColor`` per CSS gesetzt, passt sich die Füllfarbe des Icons automatisch an die aktuelle Schrift- bzw. Vordergrundfarbe des umgebenden Elements an. Ändert sich die Vordergrundfarbe durch benutzerdefinierte Browsereinstellungen oder Kontrastmodi, wird diese auch vom SVG übernommen – die Grafik bleibt dadurch auch vor einer benutzerdefinierten Hintergrundfarbe gut sichtbar.
+Dabei muss darauf geachtet werden, dass im SVG selbst kein ``fill``-Attribut vorhanden ist, da dieses sonst die CSS-Regel überschreibt.
+
+=== 4. Bewertung
+==== Erfüllt
+
+Die Seite wird im Firefox-Browser nach dem Vornehmen von abweichenden Einstellungen (z. B. heller Text auf dunklem Hintergrund) entsprechend anders dargestellt. Alle wichtigen Funktionen sind auch bei benutzerdefinierten Farbeinstellungen weiterhin bedienbar, Schriften erscheinen vergrößert und in der jeweils eingestellten Schrifttype.
+
+==== Teilweise erfüllt oder schlechter
+Aufgrund von benutzerdefinierten Farbeinstellungen treten Probleme auf, zum Beispiel:
+
+* Für die Nutzung des Webauftritts wichtige informationstragende Grafiken oder grafische Bedienelemente sind nicht mehr sichtbar.
+* Unterschiedliche Zustände von Formularelementen (z. B. Auswahlschalter oder Kontrollkästchen) sind nicht mehr unterscheidbar.
+* Fließtext wird nicht vergrößert dargestellt.
 
 == Quellen?
 
-tbd
+Zurzeit keine Quellen.
 
 == Einordnung des Prüfschritts
 
