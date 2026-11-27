@@ -31,15 +31,10 @@ Viele Nutzende brauchen über verschiedene Webangebote hinweg immer bestimmte pe
 . Einstellungen öffnen (Element ANwendungsmenü öffnen > Einstellungen)
 
 . Im Bereich "Barrierefreiheit" folgende Einstellungen vornehmen:
-
-.. Unter "Schriftarten" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert von 16 setzen (z. B. verdoppeln auf 32). In den Einstellungen "Erweitert…​" sollte für Mindestschriftgröße "Keine" ausgewählt sein.
-
-.. Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und die Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" deaktivieren.
-
-.. Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
-
+* Unter "Schriftarten" die Schriftgröße auf einen deutlich höheren Wert als den Standard-Wert von 16 setzen (z. B. verdoppeln auf 32). In den Einstellungen "Erweitert…​" sollte für Mindestschriftgröße "Keine" ausgewählt sein.
+* Über den Button "Erweitert…" für die Schriftarten "Serif", "Sans Serif" und "Feste Breite" deutlich abweichende Schrifttypen (Fonts) einstellen und die Checkbox "Seiten das Verwenden von eigenen statt der oben gewählten Schriftarten erlauben" deaktivieren.
+* Im Bereich "Kontrasteinstellungen" den Auswahlschalter "Benutzerdefiniert" auswählen. Den Button "Farben verwalten …" aktivieren, veränderte Text- und Hintergrundfarbe mit großem Kontrastabstand einstellen und mit "OK" bestätigen.
 . Prüfen, ob sich Einstellungen der Schrifttype, Schriftgröße und Vorder- bzw. Hintergrund-Farben auf die Darstellung der Seite auswirken und übernommen werden.
-
 . Prüfen, ob alle wichtigen Bedienelemente und deren Zustände (z. B. "Hamburger"-Schaltfläche und Zustände von selbst gestalteten Formularelementen wie Auswahlschalter oder Checkboxen) bei geänderten Vorder- und Hintergrund-Farben noch sichtbar sind.
 
 == Quellen?
