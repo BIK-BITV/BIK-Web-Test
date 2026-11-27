@@ -29,16 +29,16 @@ sie müsste in einem separaten Verfahren erfolgen.
 === 2. Prüfung
 
 Je nach den gegebenen Voraussetzungen (siehe "3. Hinweise")
-muss die Dokumentation nicht Teil der Seitenauswahl sein. 
+müssen Seiten mit Information nicht Teil der Seitenauswahl sein. 
 Die Prüfung erfolgt dann wie unter 2.2 beschrieben.
 
-==== 2.1 Prüfung der Informationsseiten (Teil der Seitenauswahl)
+==== 2.1 Prüfung von Seiten mit Information, die Teil der Seitenauswahl sind
 . Prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens 
 mit "konform" bewertet worden sind.
 . Ist dies der Fall, ist auch dieser Prüfschritt konform.
 
-==== 2.2 Prüfung der Dokumentation (nicht Teil der Seitenauswahl)
-. Ist die Dokumentation nicht Teil der Seitenauswahl 
+==== 2.2 Prüfung von Seiten mit Information, die nicht Teil der Seitenauswahl sind
+. Ist die Seite mit Information nicht Teil der Seitenauswahl 
 (siehe Erläuterungen unter "3. Hinweise"), prüfen, 
 ob für die seitenübergreifenden Bereiche (z.B. Kopf- und Fußbereich) 
 sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet wurden.
