@@ -71,11 +71,11 @@ für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 === 4. Bewertung
 ==== Erfüllt
 
-Die Seiten mit Informationen zum Produkt erfüllen alle anwendbaren Anforderungen der En 301 549.
+* Die Seiten mit Informationen zum Produkt erfüllen alle anwendbaren Anforderungen der EN 301 549.
 
 ==== Nicht erfüllt
 
-Eine oder mehrere anwendbare Anforderungen der En 301 549 sind auf Seiten mit Informationen zum Produkt nicht erfüllt.
+* Eine oder mehrere anwendbare Anforderungen der EN 301 549 sind auf Seiten mit Informationen zum Produkt nicht erfüllt.
 
 == Quellen
 * Zurzeit keine Quellen. 
