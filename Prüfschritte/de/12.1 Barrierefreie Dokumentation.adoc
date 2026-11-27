@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Wenn das Webangebot ein Produkt ist und Informationen über das Produkt in digitaler Form bereitstellt, wird hier für webbasierte Information zusammenfassend geprüft, ob diese die übrigen anwendbaren Anforderungen der EN 301 549 sämtlich erfüllt. 
 
-In diesem Prüfverfahren kann nur die Zugänglichkeit von webbasierter Information geprüft werden. Wird Dokumentation in anderer Form, etwa als Dokument (zum Beispiel als PDF oder Word) oder in Form von Software (z.B. als App) bereitgestellt, ist der Prüfschritt hier nicht anwendbar, Die Dokumentation müsste dann in einem anderen, passenden Prüfverfahren bewertet werden.
+In diesem Prüfverfahren kann nur die Zugänglichkeit von webbasierter Information geprüft werden. Wird Dokumentation in anderer Form, etwa als Dokument (zum Beispiel als PDF oder Word) oder in Form von Software (z.B. als App) bereitgestellt, ist der Prüfschritt hier nicht anwendbar. Die Dokumentation müsste dann in einem anderen, passenden Prüfverfahren bewertet werden.
 
 Eine Erklärung zur Barrierefreiheit ist, wenn vorhanden, eine Information über das Produkt.
 
