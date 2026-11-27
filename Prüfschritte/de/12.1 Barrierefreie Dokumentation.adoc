@@ -1,4 +1,4 @@
-= Prüfschritt 12.1 Barrierefreie Information über Produkten
+= Prüfschritt 12.1 Barrierefreie Information über Produkte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
