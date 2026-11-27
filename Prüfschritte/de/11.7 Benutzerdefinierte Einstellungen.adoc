@@ -89,7 +89,7 @@ zum Beispiel:
 ** Für die Nutzung des Webauftritts wichtige informationstragende Grafiken 
 oder grafische Bedienelemente sind nicht mehr sichtbar.
 ** Unterschiedliche Zustände von Formularelementen 
-(z. B. Auswahlschalter oder Kontrollkästchen) 
+(z. B. Auswahlschalter oder Checkboxen) 
 sind nicht mehr unterscheidbar.
 ** Fließtext wird nicht vergrößert dargestellt.
 
