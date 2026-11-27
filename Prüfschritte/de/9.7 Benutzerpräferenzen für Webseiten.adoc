@@ -22,7 +22,7 @@ Nicht alle in der Anforderung genannten Einstellungen sind in allen Browsern ver
 
 == Warum wird das geprüft?
 
-Viele Nutzende brauchen über verschiedene Webangebote hinweg immer bestimmte persönliche Anpassungen der Darstellung. Sie ziehen es deshalb vor, grundliegende Einstellungen, z. B. Seitenzoom, eine größere Schrift, oder ein eigenes Farbschema, im Browser voreinzustellen. Webangebote solten die Übernahme solcher Einstellungen nicht verhindern. Ein Beispiel für solches Verhindern wäre die Setzung von Schriftgrößen im CSS mit dem Wert px (Pixel), der in manchen Browsern die browerseitige Textvergrößerung blockiert.
+Viele Nutzende brauchen über verschiedene Webangebote hinweg immer bestimmte persönliche Anpassungen der Darstellung. Sie ziehen es deshalb vor, grundliegende Einstellungen, z. B. Seitenzoom, eine größere Schrift, oder ein eigenes Farbschema, im Browser voreinzustellen. Webangebote solten die Übernahme solcher Einstellungen nicht verhindern. Ein Beispiel für solches Verhindern wäre die Setzung von Schriftgrößen im CSS mit dem Wert ``px`` (Pixel), der in manchen Browsern die browerseitige Textvergrößerung blockiert.
 
 == Wie wird das geprüft?
 
