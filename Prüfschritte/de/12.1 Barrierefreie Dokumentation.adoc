@@ -24,7 +24,7 @@ Informationen können verschiedene Formen haben, z. B. die technische Dokumentat
 Als Informationen gelten auch Seiten wie FAQs (Frequently Asked Questions), sofern sie sich auf das Produkt und dessen Nutzung beziehen.
 
 Die Barrierefreiheit von nicht-web-basierter Information (etwa in Form von PDFs oder Apps) kann nicht im Rahmen dieses webbasierten Prüfverfahrens geprüft werden, 
-sie muss ggf. in einem separaten Verfahren erfolgen.
+sie müsste in einem separaten Verfahren erfolgen.
 
 === 2. Prüfung
 
