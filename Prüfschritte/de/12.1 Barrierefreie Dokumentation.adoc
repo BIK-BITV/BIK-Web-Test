@@ -13,7 +13,7 @@ Eine Erklärung zur Barrierefreiheit ist, wenn vorhanden, eine Information über
 == Warum wird das geprüft?
 
 Die Information über ein Produkt (technische Dokumentation) ist oft ein wichtiger Bestandteil eines Webangebots. 
-Solche Seiten helfen Menschen, ein Produkt zu verstehen und richtig zu nutzen. Deshalb soll die Information voll barrierefrei sein. Für Menschen mit Behinderungen ist es besonders wichtig, zu erfahren, was für Einstellungen oder Anpassungen für Hilfsmittel-Nutzende ein Produkt bietet, wo ggf. Mängel der Barrierefreiheit bestehen  und wie (noch) nicht barrierefreie Inhalte sowie gegebenenfalls auf anderem Wege angefordert werden können.
+Solche Seiten helfen Menschen, ein Produkt zu verstehen und richtig zu nutzen. Deshalb soll die Information voll barrierefrei sein. Für Menschen mit Behinderungen ist es besonders wichtig, zu erfahren, was für Einstellungen oder Anpassungen für Hilfsmittel-Nutzende ein Produkt bietet, wo gegebenenfalls Mängel der Barrierefreiheit bestehen  und wie (noch) nicht barrierefreie Inhalte auf anderem Wege angefordert werden können.
 
 == Wie wird geprüft?
 
