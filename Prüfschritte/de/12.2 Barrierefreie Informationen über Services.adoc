@@ -1,0 +1,99 @@
+= Prüfschritt 12.2 Barrierefreie Informationen über Dienstleistungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Webbasierte Dienstleistungen bzw. Services ermöglichen es Nutzenden, online Anträge stellen, persönliche Informationen abrufen, Bankgeschäfte zu tätigen oder Online-Bestellungen bzw. -Einkäufe durchzuführen (eCommerce). Wenn eine Dienstleistung Informationen in digitaler Form bereitstellt, wird hier für webbasierte Informationen zu der Dienstleistung zusammenfassend geprüft, ob sie die übrigen anwendbaren Anforderungen der EN 301 549 sämtlich erfüllt. 
+
+In diesem Prüfverfahren kann nur die Zugänglichkeit von webbasierter Information geprüft werden. Wird Information in anderer Form, etwa als Dokument (zum Beispiel als PDF oder Word) oder in Form von Software (z.B. als App) bereitgestellt, ist der Prüfschritt hier nicht anwendbar. Die Informationen müssten dann in einem anderen, passenden Prüfverfahren bewertet werden.
+
+Eine Erklärung zur Barrierefreiheit ist, wenn vorhanden, eine Information über die Dienstleistung bzw. den Service.
+
+== Warum wird das geprüft?
+
+Die Information über eine Dienstleistung bzw. einen Service (technische Dokumentation) ist oft ein wichtiger Bestandteil des webbasierten Serviceangebots. 
+Solche Seiten helfen Menschen, die Dinestleistung zu verstehen und richtig zu nutzen. Deshalb soll die Information voll barrierefrei sein. Für Menschen mit Behinderungen ist es besonders wichtig, zu erfahren, was für Einstellungen oder Anpassungen für Hilfsmittel-Nutzende ein Produkt bietet, wo gegebenenfalls Mängel der Barrierefreiheit bestehen, und wie (noch) nicht barrierefreie Inhalte auf anderem Wege angefordert werden können.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn webbasierte Informationen über eine Dienstleistung angeboten werden. Dazu gehört auch die Erklärung zur Barrierefreiheit. 
+Informationen können verschiedene Formen haben, z. B. die technische Dokumentation von Einstellungen, Abläufen, und Funktionen einer Webanwendung, wie eine Liste von Tastaturkurzbefehlen oder Hinweise zur Nutzung mit Hilfsmitteln. 
+Als Informationen gelten auch Seiten wie FAQs (Frequently Asked Questions), sofern sie sich auf die Dienstleistung und deren Nutzung beziehen.
+
+Die Barrierefreiheit von nicht-web-basierter Information (etwa in Form von PDFs oder Apps) kann nicht im Rahmen dieses webbasierten Prüfverfahrens geprüft werden, 
+sie müsste in einem separaten Verfahren erfolgen.
+
+=== 2. Prüfung
+
+Je nach den gegebenen Voraussetzungen (siehe "3. Hinweise")
+muss die Dokumentation nicht Teil der Seitenauswahl sein. 
+Die Prüfung erfolgt dann wie unter 2.2 beschrieben.
+
+==== 2.1 Prüfung der Informationsseiten (Teil der Seitenauswahl)
+. Prüfen, ob sämtliche anwendbaren Prüfschritte des Verfahrens 
+mit "konform" bewertet worden sind.
+. Ist dies der Fall, ist auch dieser Prüfschritt konform.
+
+==== 2.2 Prüfung der Dokumentation (nicht Teil der Seitenauswahl)
+. Ist die Dokumentation nicht Teil der Seitenauswahl 
+(siehe Erläuterungen unter "3. Hinweise"), prüfen, 
+ob für die seitenübergreifenden Bereiche (z.B. Kopf- und Fußbereich) 
+sämtliche anwendbaren Prüfschritte des Verfahrens mit konform bewertet wurden.
+. Für den Inhaltsbereich der Seite prüfen, 
+ob sämtliche anwendbaren Prüfschritte des Verfahrens 
+mit konform bewertet wurden 
+(in der Regel handelt es sich bei sehr einfachen Seiten 
+um die Prüfung der Struktur und gegebenenfalls die Tastaturbedienbarkeit).
+
+=== 3. Hinweise
+* Ob ein Webangebot eher als Produkt oder eher als Service einzuschätzen ist, ist nicht immer leicht zu entscheiden. Für beide gilt jedenfalls, dass Informationen vollständig  barrierefrei sein sollen (Vergleiche Prüfschritt 12.1).
+* Die Dokumentation muss nicht zwingend Teil der Seitenauswahl sein, 
+wenn Folgendes gegeben ist:
+** Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
+** Seitenübergreifende Bereiche (Kopf- und Fußbereich) 
+sind mit den anderen Seiten der Seitenauswahl identisch und bereits geprüft worden.
+** Der Inhaltsbereich ist sehr einfach 
+(es handelt sich beispielsweise nur um strukturierten Text und Links).
+* Ist die Dokumentation komplexer oder als weiterer Seitentyp einzustufen, 
+sollte sie mit in die Seitenauswahl aufgenommen werden. 
+Wenn eine weitere web-basierte Dokumentation zum Web-Angebot vorhanden ist, 
+soll auch diese in die Seitenauswahl bzw. Prüfung einbezogen werden.
+* Der Prüfschritt schließt nicht die Möglichkeit aus, 
+alternative Formate anzubieten, 
+die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen 
+(z. B. Braille-Dokumente für blinde Menschen 
+oder Informationen in leichter Sprache 
+für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+
+=== 4. Bewertung
+==== Erfüllt
+
+* Die Seiten mit Informationen zur Dienstleistung erfüllen alle anwendbaren Anforderungen der EN 301 549.
+
+==== Nicht erfüllt
+
+* Eine oder mehrere anwendbare Anforderungen der EN 301 549 sind auf Seiten mit Informationen zur Dienstleistung nicht erfüllt.
+
+== Quellen
+* Zurzeit keine Quellen. 
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.2 Accessible information about services
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, information about a service, made available in a digital form,
+the presentation of the information shall conform to the requirements of clause 9 if it is available in a web format,
+clause 10 if it is available as a non-web document, and clause 11 if it is available as part of non-web software.
+
+NOTE: 
+The term service in the precondition of this requirement includes support services.
+--
+____
+
