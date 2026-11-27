@@ -50,7 +50,7 @@ um die Prüfung der Struktur und gegebenenfalls die Tastaturbedienbarkeit).
 
 === 3. Hinweise
 * Ob ein Webangebot eher als Produkt oder als Dienstleistung einzuschätzen ist, ist nicht immer leicht zu entscheiden. Für beide gilt jedenfalls, dass Informationen zum Produkt bzw, zur Dienstleistung vollständig  barrierefrei sein sollen (Vergleiche Prüfschritt 12.1).
-* Die Dokumentation muss nicht zwingend Teil der Seitenauswahl sein, 
+* Seiten mit Information müssen nicht zwingend Teil der Seitenauswahl sein, 
 wenn Folgendes gegeben ist:
 ** Der Seitentyp ist bereits in der Seitenauswahl abgedeckt.
 ** Seitenübergreifende Bereiche (Kopf- und Fußbereich) 
